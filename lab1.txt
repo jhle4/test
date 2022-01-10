@@ -1,0 +1,173 @@
+Script started on 2022-01-09 17:32:01-08:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ date
+Sun 09 Jan 2022 05:32:21 PM PST
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ date +%r
+05:32:28 PM
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ date +%R
+17:32
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ddate[K[K[K[Kate +%F
+2022-01-09
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ date +%D
+01/09/22
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ date +%K
+%K
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ date -u
+Mon 10 Jan 2022 01:32:48 AM UTC
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ eq6[K[K[Kdate
+Sun 09 Jan 2022 05:33:08 PM PST
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ file date
+date: cannot open `date' (No such file or directory)
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ sudo find / -name date
+[sudo] password for joshua: 
+/usr/bin/date
+/sys/devices/platform/rtc_cmos/rtc/rtc0/date
+find: ‘/run/user/1000/gvfs’: Permission denied
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ file /usr/bine/date[K[K[K[K[K[K/date
+/usr/bin/date: ELF 64-bit LSB shared object, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=731c2a7a56b2d07e67ac99b4960ec700b3faad68, for GNU/Linux 3.2.0, stripped
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ history
+    1  sudo./VBoxLinuxAdditions.run
+    2  sudo./VBoxlinuxAdditions.run
+    3  sudo ./VBoxLinuxAdditions.run
+    4  sudo apt install linux-headers-$(uname -r) build-essential dkms
+    5  reboot
+    6  ls
+    7  rm -v a/b/c
+    8  rm -v a
+    9  cd a/b/
+   10  ls
+   11  rm -v c
+   12  cd
+   13  test
+   14  touch test
+   15  ls
+   16  rm test
+   17  ls
+   18  mkdir a
+   19  code my_awesome_project/
+   20  mkdir test
+   21  cd test
+   22  touch test.txt -v
+   23  echo test.txt -v
+   24  ls
+   25  touch test.txt
+   26  ls
+   27  code test.txt
+   28  cd
+   29  rm test
+   30  rm test -f
+   31  rmdir test
+   32  rm -d test
+   33  rm -r test
+   34  ls
+   35  whereami
+   36  sudo apt update
+   37  sudo apt upgrade
+   38  sudo add-apt-repository ppa:git-core/ppa
+   39  sudo apt update
+   40  sudo apt install gt
+   41  sudo apt install git
+   42  git config- 
+   43  git config --global user.name "jhle4"
+   44  git config --global user.email "jlguy1767@gmail.com"
+   45  git config --global init.defaultBranch main
+   46  git config --global color.ui auto
+   47  git config --get user.name
+   48  git config --get user.email
+   49  git config --global user.email "jhle4@uci.edu"
+   50  git config --get user.email
+   51  ls ~/.ssh/id_rsa.pub
+   52  ssh-keygen -C jhle4@uci.edu
+   53  cat ~/.ssh/id_rsa.pub
+   54  ssh -T git@github.com
+   55  mkdir repos
+   56  cd repos
+   57  git clone git@github.com:jhle4/test.git
+   58  ls
+   59  cd tst
+   60  cd test
+   61  git remove -v
+   62  git remote -v
+   63  touch hello_world.txt
+   64  git status
+   65  git add hello_world.txt
+   66  git status
+   67  git commit -m "Add hello_world.txt"
+   68  git status
+   69  git log
+   70  code .
+   71  git status
+   72  git add README.md
+   73  git statu
+   74  git status
+   75  git add hello_world.txt
+   76  git status
+   77  git add .
+   78  git commit -m "Edit README.md and hello_world.txt"
+   79  git push
+   80  git status
+   81  tar xzf mit-scheme-VERSION-i386.tar.gz
+   82  ls
+   83  cd desktop
+   84  cd Desktop
+   85  ls
+   86  cd mit-scheme-11.2
+   87  tar xzf mit-scheme-VERSION-i386.tar.gz
+   88  cd
+   89  cd Desktop
+   90  ls
+   91  tar xzf mit-scheme-VERSION-i386.tar.gz
+   92  tar xzf mit-scheme-11.2-x86-64.tar.gz
+   93  cd mit-scheme-11.2-x86-64.tar.gz/src
+   94  ls
+   95  cd mit-scheme-11.2/src
+   96  ./configure
+   97  gcc make m4 libncurses-dev
+   98  gcc make m4 ncurses-devel
+   99  xcode-select --install
+  100  --enable-native-code
+  101  -/configure --enable native-code
+  102  ./configure --enable-native-code
+  103  ./configure --enable-native-code --enable-host-scheme-test --enable-cross-compiling --with-compiler-target --with-default-target --with-scheme-build
+  104  gcc make m4 libncurses-dev
+  105  ls
+  106  cd
+  107  gcc
+  108  gcc make m4 
+  109  gcc make m4 libncurses-dev
+  110  gcc make m4 ncurses-devel
+  111  sudo apt-get install libncurses5-dev libncursesw5-dev
+  112  Password
+  113  exit
+  114  date
+  115  date +%r
+  116  date +%f
+  117  date +%F
+  118  date +%D
+  119  date +%K
+  120  date +%k
+  121  dat -u
+  122  date -u
+  123  file date
+  124  sudo find / -name date
+  125  script -a lab1.txt
+  126  exit
+  127  script -a lab1.txt
+  128  exit
+  129  passwd
+  130  sudo passwd joshua
+  131  date
+  132  date +%r
+  133  date +%R
+  134  date +%F
+  135  date +%D
+  136  date +%K
+  137  date -u
+  138  date
+  139  file date
+  140  sudo find / -name date
+  141  file /usr/bin/date
+  142  history
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ exit
+exit
+
+Script done on 2022-01-09 17:40:48-08:00 [COMMAND_EXIT_CODE="0"]
