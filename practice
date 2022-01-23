@@ -1,0 +1,66 @@
+This practice file will be used
+several times in this course.
+
+Although I am created this file with the cat command,
+later you will be editing it using vi.
+
+a b c d
+2 3 4 5
+2 3 4 5
+A B C D
+E F G H
+
+vi permits global changes, reading/writing files, cutting and pasting, and 
+tailoring the environment to meet individual needs.
+
+There is no need for a mouse, you can keep your fingers where they belong, 
+on the keyboard, everything is done through commands.
+
+There are two commands that can be used to list directory contents-the dir and ls commands. 
+The dir command has been added to Linux and is not a standard UNIX command. The ls command comes 
+from the UNIX tradition and is the command you'll explore in this course.  
+The ls command lists the files in a directory. This command takes several options and arguments. 
+
+Line editors allow you to work with a line of text at a time. A screen editor displays an entire screen of text. 
+A stream editor manipulates text as a stream of data, and is usually used in shell scripts, small programs 
+written for and executed by the shell. The ex text editor is the foundation for vi, the screen editor we 
+used in a previous module. You could call vi the visual mode of the underlying ex line editor. 
+Ed is generally no longer used as a line editor because it has been superceded by ex, but some utilities 
+like the diff command continue to use the ed syntax.
+
+The screen editors vi and emacs are screen editors because you can view an entire screen of text for editing. 
+You can see the changes you make as you make them. Because vi is a screen version of the ex editor, many of 
+the ex commands can be used in vi. For example, you can still take advantage of the global replacement and 
+pattern searches of the underlying ex editor when using vi. In fact, if you ever begin your vi command with: 
+the colon, you are using an ex command in vi.  Remember the :q! command? It comes from vi's ex roots.
+
+A stream editor is a non-interactive or stream-oriented editor. You do not view the text as you manipulate it. 
+Instead, you give your commands to the editor which runs the commands as a batch. The standard input and 
+standard output apply to a stream editor like many unix programs. You can of course redirect input and output 
+for a stream editor. We will come back to stream editors later in the module, and look in detail at the sed stream editor.
+
+This practice file will be used
+several times in this course.
+
+Although I am created this file with the cat command,
+later you will be editing it using vi.
+
+a b c d
+2 3 4 5
+2 3 4 5
+A B C D
+E F G H
+
+vi permits global changes, reading/writing files, cutting and pasting, and 
+tailoring the environment to meet individual needs.
+
+1 2 3 4 
+I J K L
+M N O P
+Q R S T
+
+The ex editor will return the name of file, the total number of lines & characters, and give you the : 
+colon command prompt. You can also invoke the ex line editor in vi by typing a colon. An ex command, 
+whether used in ex or in vi, consists of a line address, such as a line number, and a command. If 
+you leave off the command, the print command (display to the screen) is assumed. For example, 
+I could type 100 in the ex line editor and line 100 would display to the screen.
