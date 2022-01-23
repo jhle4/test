@@ -1,0 +1,354 @@
+Script started on 2022-01-23 12:59:40-08:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ vim practice
+
+Command 'vim' not found, but can be installed with:
+
+sudo apt install vim         # version 2:8.1.2269-1ubuntu5.4, or
+sudo apt install vim-tiny    # version 2:8.1.2269-1ubuntu5.4
+sudo apt install vim-athena  # version 2:8.1.2269-1ubuntu5.4
+sudo apt install vim-gtk3    # version 2:8.1.2269-1ubuntu5.4
+sudo apt install vim-nox     # version 2:8.1.2269-1ubuntu5.4
+sudo apt install neovim      # version 0.4.3-3
+
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ cd desktop
+bash: cd: desktop: No such file or directory
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ cd Desktop
+]0;joshua@joshua-VirtualBox: ~/Desktop[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Desktop[00m$ ls
+[0m[01;34mmit-scheme-11.2[0m  [01;31mmit-scheme-11.2-x86-64.tar.gz[0m  practice
+]0;joshua@joshua-VirtualBox: ~/Desktop[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Desktop[00m$ vi practice
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"practice" 66 lines, 3244 characters[1;1HThis practice file will be used
+several times in this course.
+
+Although I am created this file with the cat command,
+later you will be editing it using vi.
+
+a b c d
+2 3 4 5
+2 3 4 5
+A B C D
+E F G H
+
+vi permits global changes, reading/writing files, cutting and pasting, and
+tailoring the environment to meet individual needs.
+
+There is no need for a mouse, you can keep your fingers where they belong,
+on the keyboard, everything is done through commands.
+
+There are two commands that can be used to list directory contents-the dir and ll[20;1Hs commands.
+The dir command has been added to Linux and is not a standard UNIX command. The  [22;1Hls command comes
+from the UNIX tradition and is the command you'll explore in this course.[1;1H[?25hT
+s[1;1HT
+s[?25l[24;1H[K[24;1H/[?2004h[?25hbe[?25l[5;16H[?25h[?25l[24;1H[K[24;1H/[?2004h[?25hme[?25l[14;22H[?25h[?25l[24;1H[K[24;1H/[?2004h[?25hSep[?25l[31msearch hit BOTTOM, continuing at TOP[m[97m[41mE486: Pattern not found: Sep[m[24;29H[K[14;22H[?25h[?25l[24;1H[K[24;1H/[?2004h[?25h7[?25l[31msearch hit BOTTOM, continuing at TOP[m[97m[41mE486: Pattern not found: 7[m[24;27H[K[14;22H[?25h[?25l[24;1H[K[24;1H/[?2004h[?25hthe[?25l[16;63H[?25h[?25l[24;1H[17;4H[?25h[?25l[24;1H[19;68H[?25h[?25l[24;1H[23;6H[?25h[?25l[24;1H[K[24;1H/[?2004h[?25h:[?25l[27m[23m[29m[m[H[2J[1;1HEd is generally no longer used as a line editor because it has been superceded bb[2;1Hy ex, but some utilities
+like the diff command continue to use the ed syntax.
+
+The screen editors vi and emacs are screen editors because you can view an entirr[6;1He screen of text for editing.
+You can see the changes you make as you make them. Because vi is a screen versioo[8;1Hn of the ex editor, many of
+the ex commands can be used in vi. For example, you can still take advantage of  [10;1Hthe global replacement and
+pattern searches of the underlying ex editor when using vi. In fact, if you everr[12;1H begin your vi command with:
+the colon, you are using an ex command in vi.  Remember the :q! command? It comee[14;1Hs from vi's ex roots.
+
+A stream editor is a non-interactive or stream-oriented editor. You do not view  [17;1Hthe text as you manipulate it.
+Instead, you give your commands to the editor which runs the commands as a batchh[19;1H. The standard input and
+standard output apply to a stream editor like many unix programs. You can of couu[21;1Hrse redirect input and output
+for a stream editor. We will come back to stream editors later in the module, ann[23;1Hd look in detail at the sed stream editor.[12;28H[?25h[?25l[24;1H/:[13;61H[?25h[?25l[24;1H[K[24;1H:[?2004h[?25hwq[?25l[?2004l"practice" 66 lines, 3244 characters written
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;joshua@joshua-VirtualBox: ~/Desktop[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Desktop[00m$ date
+Sun 23 Jan 2022 01:00:36 PM PST
+]0;joshua@joshua-VirtualBox: ~/Desktop[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Desktop[00m$ ls
+[0m[01;34mmit-scheme-11.2[0m  [01;31mmit-scheme-11.2-x86-64.tar.gz[0m  practice
+]0;joshua@joshua-VirtualBox: ~/Desktop[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Desktop[00m$ vi practice
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"practice" 66 lines, 3244 characters[1;1HThis practice file will be used
+several times in this course.
+
+Although I am created this file with the cat command,
+later you will be editing it using vi.
+
+a b c d
+2 3 4 5
+2 3 4 5
+A B C D
+E F G H
+
+vi permits global changes, reading/writing files, cutting and pasting, and
+tailoring the environment to meet individual needs.
+
+There is no need for a mouse, you can keep your fingers where they belong,
+on the keyboard, everything is done through commands.
+
+There are two commands that can be used to list directory contents-the dir and ll[20;1Hs commands.
+The dir command has been added to Linux and is not a standard UNIX command. The  [22;1Hls command comes
+from the UNIX tradition and is the command you'll explore in this course.[1;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1HThe ls command lists the files in a directory. This command takes several option[23;1H[94m@                                                                               [m[24;1H[K[1;1H[?25h[?25leveral times in this course.[1;29H[K[1;1H[?25h[?25l[1;23r[23;1H
+[1;24r[22;1HThe ls command lists the files in a directory. This command takes several optionn[23;1Hs and arguments.[1;1H[?25h[?25l[24;1H1 more line; before #3  2 seconds ago[1;23r[1;1H[L[1;24r[1;1Heveral times in this course.[23;1H[94m@                                                                               [m[24;1H[K[24;1H1 more line; before #3  2 seconds ago[1;1H[?25h[?2004l[>4;me[?25ldveral times in this course.ed[?25h[?25ldveral times in this course.edd[?25h[?2004h[>4;2m[?2004l[>4;m[?25l[1;23r[1;1H[L[1;24r[1;1HM[24;1H[K[1;2H[?25h[?25lI[?25h[?25l [?25h[?25la[?25h[?25lm[?25h[?25l [?25h[?25ln[?25h[?25lo[?25h[?25lw[?25h[?25l [?25h[?25la[?25h[?25ld[?25h[?25ld[?25h[?25li[?25h[?25ln[?25h[?25lg[?25h[?25l [?25h[?25lm[?25h[?25lo[?25h[?25lr[?25h[?25le[?25h[?25l [?25h[?25lt[?25h[?25le[?25h[?25lx[?25h[?25lt[?25h[?2004h[>4;2m[?25l[1;23r[23;1H
+[1;24r[23;1H[94m@                                                                               [1;1H[?25h[?25l[m[24;1H1 more line; before #6  2 seconds ago[1;23r[1;1H[L[1;24r[1;1HMI am now adding more text[24;1H[K[24;1H1 more line; before #6  2 seconds ago[1;1H[?25hM[?2004l[>4;mI[?25la am now adding more textMIa[?25h[?25lp am now adding more textMIap[?25h[?25lp am now adding more textMIapp[?25h[?25ll am now adding more text[1;7H[?25h[?25le am now adding more text[1;8H[?25h[?25l  am now adding more text[1;9H[?25h[?25lb am now adding more text[1;10H[?25h[?25la am now adding more text[1;11H[?25h[?25ln am now adding more text[1;12H[?25h[?25l[?25h[?25la[?25h[?25ln am now adding more text[1;13H[?25h[?25la am now adding more text[1;14H[?25h[?25ln am now adding more text[1;15H[?25h[?25la am now adding more text[1;16H[?25h[?25l  am now adding more text[1;17H[?25h[?25lc am now adding more text[1;18H[?25h[?25la am now adding more text[1;19H[?25h[?25lt am now adding more text[1;20H[?25h[?25l  am now adding more text[1;21H[?25h[?25ld am now adding more text[1;22H[?25h[?25lo am now adding more text[1;23H[?25h[?25lg am now adding more text[1;24H[?25h[?25l  am now adding more text[1;25H[?25h[?25lw am now adding more text[1;26H[?25h[?25lo am now adding more text[1;27H[?25h[?25ll am now adding more text[1;28H[?25h[?25lf am now adding more text[1;29H[?25h[?2004h[>4;2m[?2004l[>4;m[?25l[2;23r[2;1H[L[1;24r[24;1H[K[2;1H[?25h[?25lT[?25h[?25lh[?25h[?25le[?25h[?25lr[?25h[?25le[?25h[?25l [?25h[?25li[?25h[?25ls[?25h[?25l [?25h[?25lm[?25h[?25lo[?25h[?25lr[?25h[?25le[?25h[?25l [?25h[?25lt[?25h[?25lh[?25h[?25la[?25h[?25ln[?25h[?25l [?25h[?25lo[?25h[?25ln[?25h[?25le[?25h[?25l [?25h[?25lw[?25h[?25la[?25h[?25ly[?25h[?25l [?25h[?25lt[?25h[?25lo[?25h[?25l [?25h[?25lm[?25h[?25lo[?25h[?25lv[?25h[?25le[?25h[?2004h[>4;2m[?25l[24;1H:[?2004h[?25hwq[?25l[?2004l"practice" 67 lines, 3301 characters written
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;joshua@joshua-VirtualBox: ~/Desktop[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Desktop[00m$ date
+Sun 23 Jan 2022 01:02:05 PM PST
+]0;joshua@joshua-VirtualBox: ~/Desktop[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Desktop[00m$ vi practice
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"practice" 67 lines, 3301 characters[1;1HMIapple baanana cat dog wolf am now adding more text
+There is more than one way to move
+eddveral times in this course.
+
+Although I am created this file with the cat command,
+later you will be editing it using vi.
+
+a b c d
+2 3 4 5
+2 3 4 5
+A B C D
+E F G H
+
+vi permits global changes, reading/writing files, cutting and pasting, and
+tailoring the environment to meet individual needs.
+
+There is no need for a mouse, you can keep your fingers where they belong,
+on the keyboard, everything is done through commands.
+
+There are two commands that can be used to list directory contents-the dir and ll[21;1Hs commands.
+The dir command has been added to Linux and is not a standard UNIX command. The  [23;1Hls command comes[1;1H[?25h[?25l[1;23r[23;1H
+[1;24r[23;1Hfrom the UNIX tradition and is the command you'll explore in this course.[24;1H[K[1;1H[?25h[?2004l[>4;m[?25l[2;23r[2;1H[L[1;24r[2;1H[?25h[?25lt[?25h[?25lh[?25h[?25li[?25h[?25ls[?25h[?25l [?25h[?25ll[?25h[?25li[?25h[?25ln[?25h[?25le[?25h[?25l [?25h[?25la[?25h[?25ld[?25h[?25ld[?25h[?25le[?25h[?25ld[?25h[?25l.[?25h[?2004h[>4;2m[?25l[24;1H:[?2004h[?25hq[?25l[97m[41mE37: No write since last change (add ! to override)[?2004h[2;16H[?25h[?25l[m[24;1H[K[24;1H:[?2004h[?25hq![?25l[?2004l[24;1H[K[24;1H[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;joshua@joshua-VirtualBox: ~/Desktop[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Desktop[00m$ head practice
+MIapple baanana cat dog wolf am now adding more text
+There is more than one way to move
+eddveral times in this course.
+
+Although I am created this file with the cat command,
+later you will be editing it using vi.
+
+a b c d
+2 3 4 5
+2 3 4 5
+]0;joshua@joshua-VirtualBox: ~/Desktop[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Desktop[00m$ vi review
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"review" [New File][2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h[?2004l[>4;m[?25l[mW[?25h[?25lh[?25h[?25la[?25h[?25lt[?25h[?25l [?25h[?25la[?25h[?25lr[?25h[?25le[?25h[?25l [?25h[?25lt[?25h[?25lh[?25h[?25le[?25h[?25l [?25h[?25lt[?25h[?25lw[?25h[?25lo[?25h[?25l [?25h[?25lm[?25h[?25lo[?25h[?25ld[?25h[?25le[?25h[?25ls[?25h[?25l [?25h[?25lo[?25h[?25lf[?25h[?25l [?25h[?25lt[?25h[?25lh[?25h[?25le[?25h[?25l [?25h[?25lv[?25h[?25li[?25h[?25ls[?25h[?25lu[?25h[?25la[?25h[?25ll[?25h[?25l [?25h[?25le[?25h[?25ld[?25h[?25li[?25h[?25lt[?25h[?25lo[?25h[?25lr[?25h[?25l?[?25h[?2004h[>4;2m[?25l[24;1H[K[24;1H:[?2004h[?25hwq[?25l[?2004l"review" [New File] 1 line, 45 characters written
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;joshua@joshua-VirtualBox: ~/Desktop[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Desktop[00m$ more review
+What are the two modes of the visual editor?
+]0;joshua@joshua-VirtualBox: ~/Desktop[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Desktop[00m$ vi practcie
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"practcie" [New File][2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h[?25l[m[24;1H[K[24;1H:[?2004h[?25hq![?25l[?2004l[24;1H[K[24;1H[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;joshua@joshua-VirtualBox: ~/Desktop[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Desktop[00m$ vi practice
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"practice" 67 lines, 3301 characters[1;1HMIapple baanana cat dog wolf am now adding more text
+There is more than one way to move
+eddveral times in this course.
+
+Although I am created this file with the cat command,
+later you will be editing it using vi.
+
+a b c d
+2 3 4 5
+2 3 4 5
+A B C D
+E F G H
+
+vi permits global changes, reading/writing files, cutting and pasting, and
+tailoring the environment to meet individual needs.
+
+There is no need for a mouse, you can keep your fingers where they belong,
+on the keyboard, everything is done through commands.
+
+There are two commands that can be used to list directory contents-the dir and ll[21;1Hs commands.
+The dir command has been added to Linux and is not a standard UNIX command. The  [23;1Hls command comes[1;1H[?25h[?25l[24;1H[K[24;1H:[?2004h[?25hr review[?25l"review" 1 line, 45 characters[2;23r[2;1H[L[1;24r[2;1HWhat are the two modes of the visual editor?[23;1H[94m@                                                                               [m[24;1H[K[2;1H[?25h[?25l[24;1H:[?2004h[?25hset number[?25l[1;1H[38;5;130m      1 [mMIapple baanana cat dog wolf am now adding more text
+[38;5;130m      2 [mWhat are the two modes of the visual editor?
+[38;5;130m      3 [mThere is more than one way to move
+[38;5;130m      4 [meddveral times in this course.
+[38;5;130m      5 
+      6 [mAlthough I am created this file with the cat command,
+[38;5;130m      7 [mlater you will be editing it using vi.
+[38;5;130m      8 
+      9 [ma b c d
+[38;5;130m     10 [m2 3 4 5
+[38;5;130m     11 [m2 3 4 5
+[38;5;130m     12 [mA B C D
+[38;5;130m     13 [mE F G H
+[38;5;130m     14 
+     15 [mvi permits global changes, reading/writing files, cutting and pasting, aa[16;1Hnd [16;4H[K[17;1H[38;5;130m     16 [mtailoring the environment to meet individual needs.
+[38;5;130m     17 [m[18;10H[K[19;1H[38;5;130m     18 [mThere is no need for a mouse, you can keep your fingers where they belonn[20;1Hg,
+[38;5;130m     19 [mon the keyboard, everything is done through commands.[21;62H[K[22;1H[38;5;130m     20 [m[22;9H[K[23;1H[38;5;130m     21 [mThere are two commands that can be used to list directory contents-the d[23;1H[94m@                                                                               [2;9H[?25h[?25l[m[24;1H[K[24;1H:[?2004h[?25hset no nub[?25l[24;11H[K[24;11H[?25hmber[?25l[97m[41mE518: Unknown option: no [2;9H[?25h[?25l[m[24;1H[K[24;1H:[?2004h[?25hsetnonum[?25l[24;9H[K[24;9H[?25h[?25l[24;8H[K[24;8H[?25h[?25l[24;7H[K[24;7H[?25h[?25l[24;6H[K[24;6H[?25h[?25l[24;5H[K[24;5H[?25h nonumber[?25l[1;1HMIapple baanana cat dog wolf am now adding more text[1;53H[K[2;1HWhat are the two modes of the visual editor?[2;46H[K[3;1HThere is more than one way to move[3;36H[K[4;1Heddveral times in this course.[4;32H[K[5;1H[K[6;1HAlthough I am created this file with the cat command,[6;54H[K[7;1Hlater you will be editing it using vi.[7;39H[K[8;1H[K[9;1Ha b c d[9;8H[K[10;1H2 3 4 5[10;8H[K[11;1H2 3 4 5[11;8H[K[12;1HA B C D[12;8H[K[13;1HE F G H[13;8H[K[14;1H[K[15;1Hvi permits global changes, reading/writing files, cutting and pasting, and [15;76H[K[16;1Htailoring the environment to meet individual needs.[17;1H[K[18;1HThere is no need for a mouse, you can keep your fingers where they belong,
+on the keyboard, everything is done through commands.[19;54H[K[20;1H[K[21;1HThere are two commands that can be used to list directory contents-the dir and ll[22;1Hs commands.
+The dir command has been added to Linux and is not a standard UNIX command. The [23;1H[94m@                                                                               [2;1H[?25h[?25l[m[24;1H[K[24;1H:[?2004h[?25hset number[?25l[1;1H[38;5;130m      1 [mMIapple baanana cat dog wolf am now adding more text
+[38;5;130m      2 [mWhat are the two modes of the visual editor?
+[38;5;130m      3 [mThere is more than one way to move
+[38;5;130m      4 [meddveral times in this course.
+[38;5;130m      5 
+      6 [mAlthough I am created this file with the cat command,
+[38;5;130m      7 [mlater you will be editing it using vi.
+[38;5;130m      8 
+      9 [ma b c d
+[38;5;130m     10 [m2 3 4 5
+[38;5;130m     11 [m2 3 4 5
+[38;5;130m     12 [mA B C D
+[38;5;130m     13 [mE F G H
+[38;5;130m     14 
+     15 [mvi permits global changes, reading/writing files, cutting and pasting, aa[16;1Hnd [16;4H[K[17;1H[38;5;130m     16 [mtailoring the environment to meet individual needs.
+[38;5;130m     17 [m[18;10H[K[19;1H[38;5;130m     18 [mThere is no need for a mouse, you can keep your fingers where they belonn[20;1Hg,
+[38;5;130m     19 [mon the keyboard, everything is done through commands.[21;62H[K[22;1H[38;5;130m     20 [m[22;9H[K[23;1H[38;5;130m     21 [mThere are two commands that can be used to list directory contents-the d[23;1H[94m@                                                                               [2;9H[?25h[5;9H[?25l[27m[23m[29m[m[H[2J[1;1H[38;5;130m     52 [m2 3 4 5
+[38;5;130m     53 [mA B C D
+[38;5;130m     54 [mE F G H
+[38;5;130m     55 
+     56 [mvi permits global changes, reading/writing files, cutting and pasting, aa[6;1Hnd
+[38;5;130m     57 [mtailoring the environment to meet individual needs.
+[38;5;130m     58 
+     59 [m1 2 3 4
+[38;5;130m     60 [mI J K L
+[38;5;130m     61 [mM N O P
+[38;5;130m     62 [mQ R S T
+[38;5;130m     63 
+     64 [mThe ex editor will return the name of file, the total number of lines &  [15;1Hcharacters, and give you the :
+[38;5;130m     65 [mcolon command prompt. You can also invoke the ex line editor in vi by tyy[17;1Hping a colon. An ex command,
+[38;5;130m     66 [mwhether used in ex or in vi, consists of a line address, such as a line  [19;1Hnumber, and a command. If
+[38;5;130m     67 [myou leave off the command, the print command (display to the screen) is  [21;1Hassumed. For example,
+[38;5;130m     68 [mI could type 100 in the ex line editor and line 100 would display to thee[23;1H screen.[22;9H[?25hI[?25l[27m[23m[29m[m[H[2J[1;1H[38;5;130m      1 [mMIapple baanana cat dog wolf am now adding more text
+[38;5;130m      2 [mWhat are the two modes of the visual editor?
+[38;5;130m      3 [mThere is more than one way to move
+[38;5;130m      4 [meddveral times in this course.
+[38;5;130m      5 
+      6 [mAlthough I am created this file with the cat command,
+[38;5;130m      7 [mlater you will be editing it using vi.
+[38;5;130m      8 
+      9 [ma b c d
+[38;5;130m     10 [m2 3 4 5
+[38;5;130m     11 [m2 3 4 5
+[38;5;130m     12 [mA B C D
+[38;5;130m     13 [mE F G H
+[38;5;130m     14 
+     15 [mvi permits global changes, reading/writing files, cutting and pasting, aa[16;1Hnd
+[38;5;130m     16 [mtailoring the environment to meet individual needs.
+[38;5;130m     17 
+     18 [mThere is no need for a mouse, you can keep your fingers where they belonn[20;1Hg,
+[38;5;130m     19 [mon the keyboard, everything is done through commands.
+[38;5;130m     20 
+     21 [mThere are two commands that can be used to list directory contents-the d[23;1H[94m@                                                                               [1;9H[?25h[?25l[24;1H[m:[?2004h[?25h8[?25l[8;9H[?25h[?25l[24;1H[K[24;1H:[?2004h[?25h15[?25l[15;9H[?25h[?25l[24;1H[K[24;1H:[?2004h[?25h$[?25l[27m[23m[29m[m[H[2J[1;1H[38;5;130m     52 [m2 3 4 5
+[38;5;130m     53 [mA B C D
+[38;5;130m     54 [mE F G H
+[38;5;130m     55 
+     56 [mvi permits global changes, reading/writing files, cutting and pasting, aa[6;1Hnd
+[38;5;130m     57 [mtailoring the environment to meet individual needs.
+[38;5;130m     58 
+     59 [m1 2 3 4
+[38;5;130m     60 [mI J K L
+[38;5;130m     61 [mM N O P
+[38;5;130m     62 [mQ R S T
+[38;5;130m     63 
+     64 [mThe ex editor will return the name of file, the total number of lines &  [15;1Hcharacters, and give you the :
+[38;5;130m     65 [mcolon command prompt. You can also invoke the ex line editor in vi by tyy[17;1Hping a colon. An ex command,
+[38;5;130m     66 [mwhether used in ex or in vi, consists of a line address, such as a line  [19;1Hnumber, and a command. If
+[38;5;130m     67 [myou leave off the command, the print command (display to the screen) is  [21;1Hassumed. For example,
+[38;5;130m     68 [mI could type 100 in the ex line editor and line 100 would display to thee[23;1H screen.[22;9H[?25h[?25l
+
+/[?2004h[?25hit[?25l[22;43H[?25h[?25l[24;1H[K[24;1H/[?2004h[?25hseveral times[?25l[31msearch hit BOTTOM, continuing at TOP[1;23r[m[1;1H[7L[1;24r[1;1H[38;5;130m     45 [mseveral times in this course.
+[38;5;130m     46 
+     47 [mAlthough I am created this file with the cat command,
+[38;5;130m     48 [mlater you will be editing it using vi.
+[38;5;130m     49 
+     50 [ma b c d
+[38;5;130m     51 [m2 3 4 5[23;1H[94m@                                                                               [m[24;1H[K[24;1H[31msearch hit BOTTOM, continuing at TOP[1;9H[?25h[17;9H[?25l[m[24;1H[K[24;1H/[?2004h[?25he[?25l[21;11H[?25h[?25l
+
+
+[21;13H[?25h[?25l[24;1H[K[24;1H?[?2004h[?25he[?25l[21;11H[?25h[?25l
+
+
+[14;56H[?25h[?25l[24;1H[14;55H[?25h[?25l[24;1H/[14;56H[?25h[?25l[24;1H?[14;55H[?25h[?25l[24;1H[14;40H[?25h[?25l[24;1H[14;39H[?25h[?25l[24;1H/[14;40H[?25h[?25l[24;1H?[14;39H[?25h[?25l[24;1H[K[24;1H:[?2004h[?25hwq[?25l[24;3H[K[24;3H[?25hq[?25l[?2004l"practice" 68 lines, 3346 characters written
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;joshua@joshua-VirtualBox: ~/Desktop[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Desktop[00m$ vi practice
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"practice" 68 lines, 3346 characters[1;1HMIapple baanana cat dog wolf am now adding more text
+What are the two modes of the visual editor?
+There is more than one way to move
+eddveral times in this course.
+
+Although I am created this file with the cat command,
+later you will be editing it using vi.
+
+a b c d
+2 3 4 5
+2 3 4 5
+A B C D
+E F G H
+
+vi permits global changes, reading/writing files, cutting and pasting, and
+tailoring the environment to meet individual needs.
+
+There is no need for a mouse, you can keep your fingers where they belong,
+on the keyboard, everything is done through commands.
+
+There are two commands that can be used to list directory contents-the dir and ll[22;1Hs commands.
+The dir command has been added to Linux and is not a standard UNIX command. The[94m@                                                                               [1;1H[?25h[?2004l[>4;m[?25l[mTMIapple baanana cat dog wolf am now adding more textT[?25h[?25lhMIapple baanana cat dog wolf am now adding more textTh[?25h[?25leMIapple baanana cat dog wolf am now adding more textThe[?25h[?25l MIapple baanana cat dog wolf am now adding more textThe [?25h[?25lDMIapple baanana cat dog wolf am now adding more textThe D[?25h[?25l[?25h[?25lr[?25h[?2004h[>4;2m[?25l[?25h[?2004l[>4;m[?25ldrMIapple baanana cat dog wolf am now adding more textThe d[?25h[?2004h[>4;2m[?25l[?25h[?2004l[>4;m[?2004h[>4;2m[?2004l[>4;m[?25l[1;23r[1;1H[L[1;24r[1;1HC[24;1H[K[1;2H[?25h[?25li[?25h[?2004h[>4;2m[?2004l[>4;m[?25l[2;23r[2;1H[L[1;24r[23;1H[94m@                                                                               [2;1H[?25h[?25l[mi[?25h[?25l[?25h[?25lo[?25h[?25l[?25h[?25li[?25h[?25l[?25h[?25lT[?25h[?25lh[?25h[?25le[?25h[?25l [?25h[?25ld[?25h[?25li[?25h[?25lf[?25h[?25lf[?25h[?25le[?25h[?25lr[?25h[?25le[?25h[?25ln[?25h[?25lc[?25h[?25le[?25h[?25l [?25h[?25lb[?25h[?25le[?25h[?25lt[?25h[?25lw[?25h[?25le[?25h[?25le[?25h[?25ln[?25h[?25l [?25h[?25li[?25h[?25l [?25h[?25la[?25h[?25ln[?25h[?25ld[?25h[?25l [?25h[?25la[?25h[?2004h[>4;2m[?2004l[>4;ma[?25l [?25h[?2004h[>4;2m[?2004l[>4;m[?25l [?25h[?2004h[>4;2m[?2004l[>4;m[?25l[2;23r[2;1H[L[1;24r[2;1H[?25h[?25lI[?25h[?25lt[?25h[?25l [?25h[?25li[?25h[?25ls[?25h[?25l [?25h[?25le[?25h[?25ls[?25h[?25ls[?25h[?25le[?25h[?25ln[?25h[?25lt[?25h[?25la[?25h[?25l[?25h[?25li[?25h[?25la[?25h[?25ll[?25h[?25l [?25h[?25lt[?25h[?25lo[?25h[?25l [?25h[?25lb[?25h[?25le[?25h[?25l [?25h[?25la[?25h[?25lb[?25h[?25ll[?25h[?25le[?25h[?25l [?25h[?25lt[?25h[?25lo[?25h[?25l [?25h[?25lp[?25h[?25ll[?25h[?25la[?25h[?25lc[?25h[?25le[?25h[?25l [?25h[?25lt[?25h[?25le[?25h[?25lx[?25h[?25lt[?25h[?25l [?25h[?25la[?25h[?25lb[?25h[?25lo[?25h[?25lv[?25h[?25le[?25h[?25l [?25h[?25lt[?25h[?25lh[?25h[?25le[?25h[?25l [?25h[?25lc[?25h[?25lu[?25h[?25lr[?25h[?25lr[?25h[?25le[?25h[?25ln[?25h[?25lt[?25h[?25l [?25h[?25ll[?25h[?25li[?25h[?25ln[?25h[?25le[?25h[?2004h[>4;2m[1;1H[?2004l[>4;m[?25l[1;23r[1;1H[L[1;24r[1;1H[?25h[?25lA[?25h[?25ld[?25h[?25ld[?25h[?25l [?25h[?25ls[?25h[?25lo[?25h[?25lm[?25h[?25le[?25h[?25l [?25h[?25lt[?25h[?25le[?25h[?25lx[?25h[?25lt[?25h[?2004h[>4;2m[?25l[24;1H:[?2004h[?25hwq[?25l[?2004l"practice" 72 lines, 3466 characters written
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;joshua@joshua-VirtualBox: ~/Desktop[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Desktop[00m$ vi practice
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"practice" 72 lines, 3466 characters[1;1HAdd some text
+Ci
+It is essential to be able to place text above the current line
+The difference between i and a
+The drMIapple baanana cat dog wolf am now adding more text
+What are the two modes of the visual editor?
+There is more than one way to move
+eddveral times in this course.
+
+Although I am created this file with the cat command,
+later you will be editing it using vi.
+
+a b c d
+2 3 4 5
+2 3 4 5
+A B C D
+E F G H
+
+vi permits global changes, reading/writing files, cutting and pasting, and
+tailoring the environment to meet individual needs.
+
+There is no need for a mouse, you can keep your fingers where they belong,
+on the keyboard, everything is done through commands.[1;1H[?25h[3;4H[?2004l[>4;m[?25lIIt is essential to be able to place text above the current lineI[?25h[?25l It is essential to be able to place text above the current lineI [?25h[?25lwIt is essential to be able to place text above the current lineI w[?25h[?25laIt is essential to be able to place text above the current lineI wa[?25h[?25lsIt is essential to be able to place text above the current lineI was[?25h[?25l It is essential to be able to place text above the current line[3;7H[?25h[?25liIt is essential to be able to place text above the current line[3;8H[?25h[?25lnIt is essential to be able to place text above the current line[3;9H[?25h[?25l It is essential to be able to place text above the current line[3;10H[?25h[?25ltIt is essential to be able to place text above the current line[3;11H[?25h[?25lhIt is essential to be able to place text above the current line[3;12H[?25h[?25leIt is essential to be able to place text above the current line[3;13H[?25h[?25l It is essential to be able to place text above the current line[3;14H[?25h[?25lmIt is essential to be able to place text above the current line[3;15H[?25h[?25liIt is essential to be able to place text above the current line[3;16H[?25h[?25ldIt is essential to be able to place text above the current line[3;17H[?25h[?25ldIt is essential to be able to place text above the current line[3;18H[?25h[?25l[4;23r[4;1H[L[1;24r[3;18HlIt is essential to be able to place text above the current linn[4;1He[24;1H[K[3;19H[?25h[?25leIt is essential to be able to place text above the current lii[4;1Hne[3;20H[?25h[?25l It is essential to be able to place text above the current ll[4;1Hine[3;21H[?25h[?25loIt is essential to be able to place text above the current  [4;1Hline[3;22H[?25h[?25lfIt is essential to be able to place text above the currentt[4;1H line[3;23H[?25h[?25l It is essential to be able to place text above the currenn[4;1Ht line[3;24H[?25h[?25laIt is essential to be able to place text above the curree[4;1Hnt line[3;25H[?25h[?25l It is essential to be able to place text above the currr[4;1Hent line[3;26H[?25h[?25llIt is essential to be able to place text above the curr[4;1Hrent line[3;27H[?25h[?25liIt is essential to be able to place text above the cuu[4;1Hrrent line[3;28H[?25h[?25lnIt is essential to be able to place text above the cc[4;1Hurrent line[3;29H[?25h[?25leIt is essential to be able to place text above the  [4;1Hcurrent line[3;30H[?25h[?25l,It is essential to be able to place text above thee[4;1H current line[3;31H[?25h[?2004h[>4;2m[?2004l[>4;m[?25l[3;23r[3;1H[L[1;24r[3;1HM[?25h[?25ln[?25h[?25lo[?25h[?25lw[?25h[?25l [?25h[?25lI[?25h[?25l [?25h[?25lm[?25h[?25l[?25h[?25la[?25h[?25lm[?25h[?25l [?25h[?25la[?25h[?25ld[?25h[?25ld[?25h[?25li[?25h[?25ln[?25h[?25lg[?25h[?25l [?25h[?25lt[?25h[?25le[?25h[?25lx[?25h[?25lt[?25h[?25l [?25h[?25lt[?25h[?25lo[?25h[?25lt[?25h[?25l [?25h[?25le[?25h[?25lh[?25h[?25lb[?25h[?25l [?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l [?25h[?25lt[?25h[?25lh[?25h[?25le[?25h[?25l [?25h[?25lb[?25h[?25le[?25h[?25lg[?25h[?25li[?25h[?25ln[?25h[?25ln[?25h[?25li[?25h[?25ln[?25h[?25lg[?25h[?2004h[>4;2m[?2004l[>4;mg[?25lA[?25h[?25ld[?25h[?25ld[?25h[?25li[?25h[?25ln[?25h[?25lg[?25h[?25l [?25h[?25lt[?25h[?25le[?25h[?25lx[?25h[?25lt[?25h[?25l [?25h[?25lt[?25h[?25lo[?25h[?25l [?25h[?25lt[?25h[?25lh[?25h[?25le[?25h[?25l [?25h[?25le[?25h[?25ln[?25h[?25ld[?25h[?25l [?25h[?25lo[?25h[?25lf[?25h[?25l [?25h[?25la[?25h[?25l [?25h[?25ll[?25h[?25li[?25h[?25ln[?25h[?25le[?25h[?25l [?25h[?25li[?25h[?25ls[?25h[?25l [?25h[?25le[?25h[?25la[?25h[?25ls[?25h[?25ly[?25h[?2004h[>4;2m[?25l[24;1H:[?2004h[?25hwq[?25l[?2004l"practice" 73 lines, 3575 characters written
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;joshua@joshua-VirtualBox: ~/Desktop[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Desktop[00m$ who
+joshua   tty7         2022-01-23 12:28 (:0)
+]0;joshua@joshua-VirtualBox: ~/Desktop[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Desktop[00m$ vi practice
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"practice" 73 lines, 3575 characters[1;1HAdd some text
+Ci
+Mnow I am adding text to the beginningAdding text to the end of a line is easy
+I was in the middle of a line,It is essential to be able to place text above thee[5;1H current line
+The difference between i and a
+The drMIapple baanana cat dog wolf am now adding more text
+What are the two modes of the visual editor?
+There is more than one way to move
+eddveral times in this course.
+
+Although I am created this file with the cat command,
+later you will be editing it using vi.
+
+a b c d
+2 3 4 5
+2 3 4 5
+A B C D
+E F G H
+
+vi permits global changes, reading/writing files, cutting and pasting, and
+tailoring the environment to meet individual needs.[1;1H[?25h[?25l[24;1H[K[24;1H:[?2004h[?25h5d[?25l[6;23r[23;1H
+[1;24r[23;1HThere is no need for a mouse, you can keep your fingers where they belong,[24;1H[K[6;1H[?25h[?25l[24;1H1 more line; before #1  3 seconds ago[6;23r[6;1H[L[1;24r[6;1HThe difference between i and a[24;1H[K[24;1H1 more line; before #1  3 seconds ago[6;1H[?25h[?25l[24;1H[K[24;1H:[?2004h[?25h15d[?25l[16;23r[23;1H
+[1;24r[23;1HThere is no need for a mouse, you can keep your fingers where they belong,[24;1H[K[16;1H[?25h[?25l[24;1H1 more line; before #2  5 seconds ago[16;23r[16;1H[L[1;24r[16;1H2 3 4 5[24;1H[K[24;1H1 more line; before #2  5 seconds ago[16;1H[?25h[1;1H[?25l[24;1H8 fewer lines[24;14H[K[1;23r[1;1H[9M[1;24r[15;1HThere is no need for a mouse, you can keep your fingers where they belong,
+on the keyboard, everything is done through commands.
+
+There are two commands that can be used to list directory contents-the dir and ll[19;1Hs commands.
+The dir command has been added to Linux and is not a standard UNIX command. The  [21;1Hls command comes
+from the UNIX tradition and is the command you'll explore in this course.
+The ls command lists the files in a directory. This command takes several option[23;1H[94m@                                                                               [m[24;1H[K[24;1H8 fewer lines[1;1H[?25h[?25l[24;3Hmore lines; before #3  3 seconds ago[1;23r[1;1H[9L[1;24r[1;1HAdd some text
+Ci
+Mnow I am adding text to the beginningAdding text to the end of a line is easy
+I was in the middle of a line,It is essential to be able to place text above thee[5;1H current line
+The difference between i and a
+The drMIapple baanana cat dog wolf am now adding more text
+What are the two modes of the visual editor?
+There is more than one way to move[24;1H[K[24;1H8 more lines; before #3  3 seconds ago[1;1H[?25h[13;1H[?25l[24;1H[K[24;1H:[?2004h[?25h1,8d[?25l8 fewer lines[1;23r[1;1H[9M[1;24r[15;1HThere is no need for a mouse, you can keep your fingers where they belong,
+on the keyboard, everything is done through commands.
+
+There are two commands that can be used to list directory contents-the dir and ll[19;1Hs commands.
+The dir command has been added to Linux and is not a standard UNIX command. The  [21;1Hls command comes
+from the UNIX tradition and is the command you'll explore in this course.
+The ls command lists the files in a directory. This command takes several option[23;1H[94m@                                                                               [m[24;1H[K[24;1H8 fewer lines[1;1H[?25h[?25l[24;3Hmore lines; before #4  1 second ago[1;23r[1;1H[9L[1;24r[1;1HAdd some text
+Ci
+Mnow I am adding text to the beginningAdding text to the end of a line is easy
+I was in the middle of a line,It is essential to be able to place text above thee[5;1H current line
+The difference between i and a
+The drMIapple baanana cat dog wolf am now adding more text
+What are the two modes of the visual editor?
+There is more than one way to move[24;1H[K[24;1H8 more lines; before #4  1 second ago[1;1H[?25h[?25l[24;1H[K[24;1H:[?2004h[?25h1, $d[?25l[1;1H[K[2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;1H--No lines in buffer--[1;1H[?25h[?2004l[>4;m[?25lj[?25h[?25lo[?25h[?25l [?25h[?25l2[?25h[?25l0[?25h[?25l0[?25h[?25l1[?25h[?25l [?25h[?25l2[?25h[?25l0[?25h[?25l0[?25h[?25l3[?25h[?25l [?25h[?25l2[?25h[?25l0[?25h[?25l0[?25h[?25l3[?25h[?2004h[>4;2m[?2004l[>4;m[?25l[1;23r[1;1H[L[1;24r[1;1HM[24;1H[K[1;2H[?25h[?25la[?25h[?25ll[?25h[?25la[?25h[?25ln[?25h[?25l [?25h[?25l2[?25h[?25l0[?25h[?25l0[?25h[?25l3[?25h[?25l [?25h[?25l2[?25h[?25l0[?25h[?25l0[?25h[?25l4[?25h[?2004h[>4;2m[?2004l[>4;m[?25l[1;23r[1;1H[L[1;24r[1;1HM[?25h[?25l[?25h[?2004h[>4;2m[?25l[1;1H[K[1;1H[?25h[?2004l[>4;m[?25l[1;23r[1;1H[L[1;24r[1;1HB[?25h[?25l[?25h[?2004h[>4;2m[?25l[1;1H[K[1;1H[?25h[?2004l[>4;m[?25l[1;23r[1;1H[L[1;24r[1;1HD[?25h[?2004h[>4;2m[?2004l[>4;m[?25l[1;23r[1;1H[L[1;24r[1;1HD[?25h[?25l[?25h[?25lj[?25h[?25lo[?25h[?25l [?25h[?25l2[?25h[?25l0[?25h[?25l0[?25h[?25l2[?25h[?25l [?25h[?25l2[?25h[?25l0[?25h[?25l0[?25h[?25l2[?25h[?25l [?25h[?25l2[?25h[?25l0[?25h[?25l0[?25h[?25l2[?25h[?2004h[>4;2m[?2004l[>4;m[?25l[1;23r[1;1H[L[1;24r[1;1HM[?25h[?2004h[>4;2m[?2004l[>4;m[?25l[1;23r[1;1H[L[1;24r[1;1HD[?25h[?25l[?25h[?25lb[?25h[?25lo[?25h[?25lb[?25h[?25l [?25h[?25l2[?25h[?25l0[?25h[?25l0[?25h[?25l2[?25h[?25l [?25h[?25l0[?25h[?25l0[?25h[?25l3[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l2[?25h[?25l0[?25h[?25l0[?25h[?25l3[?25h[?2004h[>4;2m[?2004l[>4;m[?25l[1;23r[1;1H[L[1;24r[1;1HM[?25h[?25l[?25h[?25la[?25h[?25l[?25h[?25lm[?25h[?25la[?25h[?25lr[?25h[?25lg[?25h[?25lo[?25h[?25lt[?25h[?25l [?25h[?25l2[?25h[?25l0[?25h[?25l0[?25h[?25l2[?25h[?25l [?25h[?25l2[?25h[?25l0[?25h[?25l0[?25h[?25l3[?25h[?25l [?25h[?25l2[?25h[?25l0[?25h[?25l0[?25h[?25l3[?25h[?2004h[>4;2m[?2004l[>4;m[?25l[1;23r[1;1H[L[1;24r[1;1HM[?25h[?2004h[>4;2m[?25l[24;1H:[?2004h[?25h1,$ s/2002/1776/g[?25l5 substitutions on 3 lines[2;8H1776
+bob 1776[5;4H1776 1776 1776[?25h[?25l[24;1H[K[24;1H:[?2004h[?25h1,5 move $[?25l5 lines moved[1;1HD[2;1H[K[3;1H[K[4;2Halan 2003 2004
+jo 2001 2003 2003
+M
+margot 1776 2003 2003
+bob 1776 2003[9;2H[K[10;4H1776 1776 1776[?25h[1;1H[?25l[24;1H[K[24;1H:[?2004h[?25h1,4 copy 5[?25l4 more lines[6;23r[6;1H[4L[1;24r[6;1HD
+
+
+Malan 2003 2004[24;1H[K[24;1H4 more lines[9;1H[?25h[?25l[24;1H[K[24;1H:[?2004h[?25hq[?25l[24;2H[K[24;2H[?25hq![?25l[?2004l[24;1H[K[24;1H[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;joshua@joshua-VirtualBox: ~/Desktop[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Desktop[00m$ exit
+exit
+
+Script done on 2022-01-23 13:15:58-08:00 [COMMAND_EXIT_CODE="0"]
