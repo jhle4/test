@@ -1,0 +1,1509 @@
+Script started on 2022-02-06 13:03:44-08:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ vi
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[4;32HVIM - Vi IMproved[6;33Hversion 8.1.2269[7;29Hby Bram Moolenaar et al.[8;21HModified by team+vim@tracker.debian.org[9;19HVim is open source and freely distributable[11;26HHelp poor children in Uganda![12;18Htype  :help iccf[34m<Enter>[m       for information [14;18Htype  :q[34m<Enter>[m               to exit         [15;18Htype  :help[34m<Enter>[m  or  [34m<F1>[m  for on-line help[16;18Htype  :help version8[34m<Enter>[m   for version info[18;26HRunning in Vi compatible mode[19;18Htype  :set nocp[34m<Enter>[m        for Vim defaults[20;18Htype  :help cp-default[34m<Enter>[m for info on this[1;1H[?25h[?25l[24;1H:[?2004h[?25hq[?25l[?2004l[24;1H[K[24;1H[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ vi
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[4;32HVIM - Vi IMproved[6;33Hversion 8.1.2269[7;29Hby Bram Moolenaar et al.[8;21HModified by team+vim@tracker.debian.org[9;19HVim is open source and freely distributable[11;26HBecome a registered Vim user![12;18Htype  :help register[34m<Enter>[m   for information [14;18Htype  :q[34m<Enter>[m               to exit         [15;18Htype  :help[34m<Enter>[m  or  [34m<F1>[m  for on-line help[16;18Htype  :help version8[34m<Enter>[m   for version info[18;26HRunning in Vi compatible mode[19;18Htype  :set nocp[34m<Enter>[m        for Vim defaults[20;18Htype  :help cp-default[34m<Enter>[m for info on this[1;1H[?25h[?25l[24;1H:[?2004h[?25hhelp[?25l"help.txt" [readonly] 38 lines, 1431 characters[1;1H*help.txt*      For Vim version 7.4.  Last change: 2016 Sep 07[2;1H[K[3;1H                  VIM - fake help file for vim-tiny[3;52H[K[4;1H[K[5;1HThe Vim online help is not installed on this Debian GNU/Linux system.[5;70H[K[6;1H[K[7;1HWHY ?[7;6H[K[8;1H[K[9;1HBecause only the "vim-tiny" package is installed, whose sole purpose is to[9;75H[K[10;1Hprovide the vi command for base installations.  As such, it contains a minimal[10;79H[K[11;1Hversion of Vim compiled with no graphical user interface and a small subset of[11;79H[K[12;1Hfeatures, in order to keep the package size small.[12;52H[K[13;1H[K[14;1HSince the "vim-runtime" package is rather huge when compared to "vim-tiny",[14;76H[K[15;1Hinstalling the latter does not automatically install the former.[15;65H[K[16;1H[K[17;1HHOW TO GET A BETTER VIM[17;24H[K[18;1H[K[19;1HTo get a more featureful Vim binary (and a vim command, rather than just vi),[19;78H[K[20;1Hinstall one of the following packages: vim, vim-nox, vim-athena, vim-gtk, or[20;77H[K[21;1H[1m[7mhelp.txt [Help][RO]                                                             [m[22;1H[K[23;1H[7m[No Name]                                                                       [1;1H[?25h
+[3;8H
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[?25l[1;20r[m[20;1H
+[1;24r[20;1Hvim-gtk3.[24;1H[K[20;1H[?25h[?25l[1;20r[20;1H
+[1;24r[20;1H[?25h[?25l[1;20r[20;1H
+[1;24r[20;1HHOW TO OBTAIN HELP[?25h[?25l[1;20r[20;1H
+[1;24r[20;1H[?25h[?25l[1;20r[20;1H
+[1;24r[20;1Heither browse the Vim online help via web starting at[?25h[?25l[1;20r[20;1H
+[1;24r[20;1H[?25h[?25l[1;20r[20;1H
+[1;24r[20;6Hhttp://vimhelp.appspot.com/help.txt.html#help.txt[?25h[?25l[1;20r[20;1H
+[1;24r[20;1H[?25h[?25l[1;20r[20;1H
+[1;24r[20;1Hor ask your administrator to install the "vim-doc" package, which contains the[?25h[?25l[1;20r[20;1H
+[1;24r[20;4HHTML version of the online help and browse it starting at[?25h[?25l[1;20r[20;1H
+[1;24r[20;1H[?25h[?25l[1;20r[20;1H
+[1;24r[20;6H/usr/share/doc/vim/html/index.html[?25h[?25l[1;20r[20;1H
+[1;24r[20;1H[?25h[?25l[1;20r[20;1H
+[1;24r[20;1Hor  ask your administrator to install the "vim-runtime" package, re-run vi and[?25h[?25l[1;20r[20;1H
+[1;24r[20;5Haccess the online help again.  Note that all the above mentioned Vim[?25h[?25l[1;20r[20;1H
+[1;24r[20;5Hvariants other then "vim-tiny" automatically install the "vim-runtime"[?25h[?25l[1;20r[20;1H
+[1;24r[20;5Hpackage.  If you don't suffer from disk space shortage using one of them is[?25h[?25l[1;20r[20;1H
+[1;24r[20;5Hrecommended.[?25h [?25l[24;1H:[?2004h[?25hq[?25l[?2004h[1;1H[K[2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h[?25l[m[24;1H[K[24;1H:[?2004h[?25hq[?25l[?2004l[24;1H[K[24;1H[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ vi notes[K[K[K[K[Kmy data.[K[K[K[K[K[Kdata.txt
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"mydata.txt" [New File][2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h[?2004l[>4;m[?25l[me[?25h[?25lc[?25h[?25lh[?25h[?25lo[?25h[?25l [?25h[?25l'[?25h[?25li[?25h[?25ld[?25h[?25l [?25h[?25lo[?25h[?25lu[?25h[?25lt[?25h[?25lp[?25h[?25lu[?25h[?25lt[?25h[?25l:[?25h[?25l'[?25h[?25l[2;1H[K[2;1H[?25h[?25li[?25h[?25ld[?25h[?25l[3;1H[K[3;1H[?25h[?25le[?25h[?25lc[?25h[?25lh[?25h[?25lo[?25h[?25l[4;1H[K[4;1H[?25h[?25le[?25h[?25lc[?25h[?25lh[?25h[?25lo[?25h[?25l [?25h[?25l'[?25h[?25lm[?25h[?25ly[?25h[?25l [?25h[?25le[?25h[?25ln[?25h[?25lt[?25h[?25lr[?25h[?25ly[?25h[?25l [?25h[?25li[?25h[?25ln[?25h[?25l [?25h[?25lo[?25h[?25lu[?25h[?25lt[?25h[?25lp[?25h[?25lu[?25h[?25lt[?25h[?25l [?25h[?25lf[?25h[?25lr[?25h[?25lo[?25h[?25lm[?25h[?25l [?25h[?25lw[?25h[?25lh[?25h[?25lo[?25h[?25l [?25h[?25li[?25h[?25ls[?25h[?25l:[?25h[?25l'[?25h[?25l[5;1H[K[5;1H[?25h[?25lw[?25h[?25lh[?25h[?25lo[?25h[?25l [?25h[?25l|[?25h[?25l [?25h[?25lg[?25h[?25lr[?25h[?25le[?25h[?25lp[?25h[?25l [?25h[?25l$[?25h[?25lU[?25h[?25lS[?25h[?25lE[?25h[?25lR[?25h[?25l[6;1H[K[6;1H[?25h[?25le[?25h[?25lc[?25h[?25lh[?25h[?25lo[?25h[?25l[7;1H[K[7;1H[?25h[?25le[?25h[?25lc[?25h[?25lh[?25h[?25lo[?25h[?25l [?25h[?25l'[?25h[?25lt[?25h[?25lh[?25h[?25le[?25h[?25l [?25h[?25lp[?25h[?25lr[?25h[?25le[?25h[?25ls[?25h[?25le[?25h[?25ln[?25h[?25lt[?25h[?25l [?25h[?25ld[?25h[?25li[?25h[?25ls[?25h[?2004h[>4;2m[?2004l[>4;m[?25l[7;23r[7;1H[L[1;24r[7;1HD[24;1H[K[7;2H[?25h[?2004h[>4;2m[?2004l[>4;m[?25le[?25h[?25lc[?25h[?25lh[?25h[?25lo[?25h[?25l [?25h[?25l'[?25h[?25lt[?25h[?25lh[?25h[?25le[?25h[?25l [?25h[?25lp[?25h[?25lr[?25h[?25le[?25h[?25ls[?25h[?25le[?25h[?25ln[?25h[?25lt[?25h[?25l [?25h[?25ld[?25h[?25li[?25h[?25lr[?25h[?25le[?25h[?25lc[?25h[?25lt[?25h[?25lo[?25h[?25lr[?25h[?25ly[?25h[?25l [?25h[?25li[?25h[?25ls[?25h[?25l:[?25h[?25l'[?25h[?2004h[>4;2m[8;21H[?2004l[>4;m[?25lp[?25h[?25lw[?25h[?25ld[?25h[?2004h[>4;2m[?25lo 'the present dis[8;21H[K[8;3H[?25h[?25l 'the present dis[8;20H[K[8;3H[?25h[?25l'the present dis[8;19H[K[8;3H[?25h[?25lthe present dis[8;18H[K[8;3H[?25h[?25lhe present dis[8;17H[K[8;3H[?25h[?25le present dis[8;16H[K[8;3H[?25h[?25l present dis[8;15H[K[8;3H[?25h[?25lpresent dis[8;14H[K[8;3H[?25h[?25lresent dis[8;13H[K[8;3H[?25h[?25lesent dis[8;12H[K[8;3H[?25h[?25lsent dis[8;11H[K[8;3H[?25h[?25lent dis[8;10H[K[8;3H[?25h[?25lnt dis[8;9H[K[8;3H[?25h[?25lt dis[8;8H[K[8;3H[?25h[?25l dis[8;7H[K[8;3H[?25h[?25ldis[8;6H[K[8;3H[?25h[?25lis[8;5H[K[8;3H[?25h[?25ls[8;4H[K[8;3H[?25h[?25l[8;3H[K[8;2H[?25h[?2004l[>4;m[?25lw[?25h[?25ld[?25h[?25l[9;1H[K[9;1H[?25h[?25le[?25h[?25lc[?25h[?25lh[?25h[?25lo[?25h[?25l[10;1H[K[10;1H[?25h[?25le[?25h[?25lc[?25h[?25lh[?25h[?25lo[?25h[?25l [?25h[?25l'[?25h[?25lt[?25h[?25lh[?25h[?25le[?25h[?25l [?25h[?25lc[?25h[?25lu[?25h[?25lr[?25h[?25lr[?25h[?25le[?25h[?25ln[?25h[?25lt[?25h[?25l [?25h[?25ls[?25h[?25ly[?25h[?25ls[?25h[?25lt[?25h[?25le[?25h[?25lm[?25h[?25l [?25h[?25la[?25h[?25ln[?25h[?25le[?25h[?25lm[?25h[?25l [?25h[?25li[?25h[?25ls[?25h[?2004h[>4;2m[?2004l[>4;m[?25ln[?25h[?25la[?25h[?25lm[?25h[?25le[?25h[?25l [?25h[?25li[?25h[?25ls[?25h[?25l [?25h[?2004h[>4;2m[?2004l[>4;m[?25l:[?25h[?25l'[?25h[?25l
+ [11;2H[K[11;1H[?25h[?25lh[?25h[?25lo[?25h[?25ls[?25h[?25lt[?25h[?25ln[?25h[?25la[?25h[?25lm[?25h[?25le[?25h[?25l
+ [12;2H[K[12;1H[?25h[?25le[?25h[?25lc[?25h[?25lh[?25h[?25lo[?25h[?25l
+ [13;2H[K[13;1H[?25h[?25le[?25h[?25lc[?25h[?25lh[?25h[?25lo[?25h[?25l [?25h[?25l'[?25h[?25lm[?25h[?25ly[?25h[?25l [?25h[?25lc[?25h[?25lu[?25h[?25lr[?25h[?25lr[?25h[?25le[?25h[?25ln[?25h[?25lt[?25h[?25l [?25h[?25lp[?25h[?25lr[?25h[?25lo[?25h[?25lc[?25h[?25le[?25h[?25ls[?25h[?25ls[?25h[?25le[?25h[?25ls[?25h[?25l [?25h[?25la[?25h[?25lr[?25h[?25le[?25h[?25l:[?25h[?25l'[?25h[?25l
+ [14;2H[K[14;1H[?25h[?25lp[?25h[?25ls[?25h[?25l
+ [15;2H[K[15;1H[?25h[?25le[?25h[?25lc[?25h[?25lh[?25h[?25lo[?25h[?25l [?25h[?25l'[?25h[?25lt[?25h[?25lh[?25h[?25le[?25h[?25l [?25h[?25ls[?25h[?25lh[?25h[?25la[?25h[?2004h[>4;2m[?2004l[>4;m[?25le[?25h[?25ll[?25h[?25ll[?25h[?25l [?25h[?25ls[?25h[?25le[?25h[?25la[?25h[?25lr[?25h[?25lc[?25h[?25lh[?25h[?25l [?25h[?25lp[?25h[?25la[?25h[?25lt[?25h[?25lh[?25h[?25l [?25h[?25li[?25h[?25ls[?25h[?25l [?25h[?25l:[?25h[?25l'[?25h[?25l[16;1H[K[16;1H[?25h[?25le[?25h[?25lc[?25h[?25lh[?25h[?25lo[?25h[?25l [?25h[?25l$[?25h[?25lP[?25h[?25lA[?25h[?25lT[?25h[?25lH[?25h[?2004h[>4;2m[?25l[24;1H:[?2004h[?25hwq[?25l[?2004l"mydata.txt" [New File] 16 lines, 259 characters written
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ d[Kls
+[0m[01;34ma[0m          el          installation.txt   myerr     quiz3.txt    test-list
+c1         file2       JoshuaLe-lab2.txt  myfile1   [01;34mrepos[0m        test.txt
+c2         first_file  lab1.txt           myoutput  script.js    total
+c3         [01;34mfoo[0m         lab4.txt           mypasswd  second_file  users_on
+cl         footer      lab5.txt           phon      s-mypasswd   [01;34mVideos[0m
+[01;34mDesktop[0m    footer.1    lost-days          [01;34mPictures[0m  sort-test
+[01;34mDocuments[0m  footer.2    [01;34mMusic[0m              [01;34mPrivate[0m   style.css
+[01;34mDownloads[0m  index.html  mydata.txt         [01;34mPublic[0m    [01;34mTemplates[0m
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ chmod +x mydata
+chmod: cannot access 'mydata': No such file or directory
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ chmod +x mydata.txt
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ mydata.txt | more
+mydata.txt: command not found
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ mydata | more
+mydata: command not found
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ PATH = [K[K[K=$PATH:.
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ mydata.txt | more
+id output:
+uid=1000(joshua) gid=1000(joshua) groups=1000(joshua),4(adm),24(cdrom),27(sudo),
+30(dip),46(plugdev),121(lpadmin),131(lxd),132(sambashare)
+
+my entry in output from who is:
+joshua   tty7         2022-02-06 12:59 (:0)
+
+the present directory is:
+/home/joshua
+
+the current system name is:
+joshua-VirtualBox
+
+my current processes are:
+    PID TTY          TIME CMD
+   1284 pts/1    00:00:00 bash
+   1464 pts/1    00:00:00 bash
+   1465 pts/1    00:00:00 more
+   1470 pts/1    00:00:00 ps
+the shell search path is :
+/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/loc
+al/games:/snap/bin:.
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ mydata.txt > me_A
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ cd
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ mkdir Resumes Papers Recommendations
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls _[K-F | M[Kmore
+a/
+c1
+c2
+c3
+cl
+Desktop/
+Documents/
+Downloads/
+el
+file2
+first_file
+foo/
+footer
+footer.1
+footer.2
+index.html
+installation.txt
+JoshuaLe-lab2.txt
+lab1.txt
+lab4.txt
+lab5.txt
+lost-days
+me_A
+[7m--More--[27mMusic/[K
+[7m--More--[27mmydata.txt*
+[7m--More--[27mmyerr[K
+[7m--More--[27mmyfile1[K
+[7m--More--[27mmyoutput
+[7m--More--[27mmypasswd
+[7m--More--[27mPapers/[K
+[7m--More--[27mphon[K
+[7m--More--[27mPictures/
+[7m--More--[27mPrivate/
+[7m--More--[27mPublic/[K
+[7m--More--[27mquiz3.txt
+[7m--More--[27mRecommendations/
+[7m--More--[27mrepos/[K
+[7m--More--[27mResumes/
+[7m--More--[27mscript.js
+[7m--More--[27msecond_file
+[7m--More--[27ms-mypasswd
+sort-test
+style.css
+Templates/
+test-list
+test.txt
+total
+users_on
+Videos/
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls -F [K | grep
+Usage: grep [OPTION]... PATTERNS [FILE]...
+Try 'grep --help' for more information.
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls -F | grep /
+a[01;31m[K/[m[K
+Desktop[01;31m[K/[m[K
+Documents[01;31m[K/[m[K
+Downloads[01;31m[K/[m[K
+foo[01;31m[K/[m[K
+Music[01;31m[K/[m[K
+Papers[01;31m[K/[m[K
+Pictures[01;31m[K/[m[K
+Private[01;31m[K/[m[K
+Public[01;31m[K/[m[K
+Recommendations[01;31m[K/[m[K
+repos[01;31m[K/[m[K
+Resumes[01;31m[K/[m[K
+Templates[01;31m[K/[m[K
+Videos[01;31m[K/[m[K
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ;s -f [K[K[K[K[K[Kls -F | grep / | column
+a/			Music/			Recommendations/
+Desktop/		Papers/			repos/
+Documents/		Pictures/		Resumes/
+Downloads/		Private/		Templates/
+foo/			Public/			Videos/
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls -F | grep -v / | column
+c1			JoshuaLe-lab2.txt	quiz3.txt
+c2			lab1.txt		script.js
+c3			lab4.txt		second_file
+cl			lab5.txt		s-mypasswd
+el			lost-days		sort-test
+file2			me_A			style.css
+first_file		mydata.txt*		test-list
+footer			myerr			test.txt
+footer.1		myfile1			total
+footer.2		myoutput		users_on
+index.html		mypasswd
+installation.txt	phon
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ scrip[K[K[K[K[Kvi script1
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"script1" [New File][2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h[?25l[m[24;1H[97m[41mE348: No string under cursor[1;1H[?25h[?2004l[>4;m[?25l[m#[?25h[?25lm[?25h[?25ly[?25h[?25ln[?25h[?25la[?25h[?25lm[?25h[?25le[?25h[?25l[2;1H[K[2;1H[?25h[?25l#[?25h[?25lt[?25h[?25lo[?25h[?25ld[?25h[?25la[?25h[?25ly[?25h[?25l'[?25h[?25ls[?25h[?25l [?25h[?25ld[?25h[?25la[?25h[?25lt[?25h[?25le[?25h[?25l[3;1H[K[3;1H[?25h[?25l#[?25h[?25lw[?25h[?25lh[?25h[?25la[?25h[?25lt[?25h[?25l [?25h[?25lc[?25h[?25la[?25h[?25l [?25h[?25l[?25h[?25ln[?25h[?25l [?25h[?25lt[?25h[?25lh[?25h[?25li[?25h[?25ls[?25h[?25l [?25h[?25ls[?25h[?25lc[?25h[?25lr[?25h[?25li[?25h[?25lp[?25h[?25lt[?25h[?25l [?25h[?25ld[?25h[?25lo[?25h[?25l?[?25h[?25l[4;1H[K[4;1H[?25h[?25l#[?25h[?25lh[?25h[?25lo[?25h[?25lw[?25h[?25l [?25h[?25lw[?25h[?25l[?25h[?25ld[?25h[?25lo[?25h[?25le[?25h[?25ls[?25h[?25l [?25h[?25li[?25h[?25lt[?25h[?25l [?25h[?25lw[?25h[?25lo[?25h[?25lr[?25h[?25lk[?25h[?25l?[?25h[?25l[5;1H[K[5;1H[?25h[?25le[?25h[?25lc[?25h[?25lh[?25h[?25lo[?25h[?25l[6;1H[K[6;1H[?25h[?25le[?25h[?25lc[?25h[?25lh[?25h[?25lo[?25h[?25l[7;1H[K[7;1H[?25h[?25ld[?25h[?25la[?25h[?25lt[?25h[?25le[?25h[?25l[8;1H[K[8;1H[?25h[?25le[?25h[?25lc[?25h[?25lh[?25h[?25lo[?25h[?25l[9;1H[K[9;1H[?25h[?25le[?25h[?25lc[?25h[?25lh[?25h[?25lo[?25h[?25l [?25h[?25l'[?25h[?25lD[?25h[?25li[?25h[?25lr[?25h[?25le[?25h[?25lc[?25h[?25lt[?25h[?25lo[?25h[?25lr[?25h[?25li[?25h[?25le[?25h[?25ls[?25h[?25l [?25h[?25la[?25h[?25lr[?25h[?25le[?25h[?25l:[?25h[?25l'[?25h[?25l[10;1H[K[10;1H[?25h[?25ll[?25h[?25ls[?25h[?25l [?25h[?25l-[?25h[?25lF[?25h[?25l [?25h[?25l|[?25h[?25l [?25h[?25lg[?25h[?25lr[?25h[?25le[?25h[?25lp[?25h[?25l/[?25h[?25l[?25h[?25l [?25h[?25l/[?25h[?25l [?25h[?25l|[?25h[?25l [?25h[?25lc[?25h[?25lo[?25h[?25ll[?25h[?25lu[?25h[?25lm[?25h[?25ln[?25h[?25l[11;1H[K[11;1H[?25h[?25le[?25h[?25lc[?25h[?25lh[?25h[?25lo[?25h[?25l[12;1H[K[12;1H[?25h[?25le[?25h[?25lc[?25h[?25lh[?25h[?25lo[?25h[?25l [?25h[?25l'[?25h[?25lF[?25h[?25li[?25h[?25ll[?25h[?25le[?25h[?25ls[?25h[?25l [?25h[?25la[?25h[?25lr[?25h[?25le[?25h[?25l:[?25h[?25l'[?25h[?25l[13;1H[K[13;1H[?25h[?25ll[?25h[?25ls[?25h[?25l-[?25h[?25l[?25h[?25l [?25h[?25l-[?25h[?25lF[?25h[?25l [?25h[?25l|[?25h[?25l [?25h[?25lg[?25h[?25lr[?25h[?25le[?25h[?25lp[?25h[?25l [?25h[?25l-[?25h[?25lv[?25h[?25l [?25h[?25l/[?25h[?25l [?25h[?25l|[?25h[?25l [?25h[?25lc[?25h[?25lo[?25h[?25ll[?25h[?25lu[?25h[?25lm[?25h[?25ln[?25h[?25l[14;1H[K[14;1H[?25h[?25le[?25h[?25lc[?25h[?25lh[?25h[?25lo[?25h[?2004h[>4;2m[?25l[24;1H[K[24;1H:[?2004h[?25hwq[?25l[?2004l"script1" [New File] 14 lines, 190 characters written
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ chmod script1[K[K[K[K[K[K[K+x script1
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ script1
+
+
+Sun 06 Feb 2022 01:20:51 PM PST
+
+Directories are:
+a/			Music/			Recommendations/
+Desktop/		Papers/			repos/
+Documents/		Pictures/		Resumes/
+Downloads/		Private/		Templates/
+foo/			Public/			Videos/
+
+Files are:
+c1			JoshuaLe-lab2.txt	quiz3.txt
+c2			lab1.txt		script1*
+c3			lab4.txt		script.js
+cl			lab5.txt		second_file
+el			lost-days		s-mypasswd
+file2			me_A			sort-test
+first_file		mydata.txt*		style.css
+footer			myerr			test-list
+footer.1		myfile1			test.txt
+footer.2		myoutput		total
+index.html		mypasswd		users_on
+installation.txt	phon
+
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ chmod script[K[K[K[K[K[K-x src[K[Kcript1
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ script1 | more
+bash: ./script1: Permission denied
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ cd Resumes
+]0;joshua@joshua-VirtualBox: ~/Resumes[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Resumes[00m$ pwd
+/home/joshua/Resumes
+]0;joshua@joshua-VirtualBox: ~/Resumes[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Resumes[00m$ date > today
+]0;joshua@joshua-VirtualBox: ~/Resumes[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Resumes[00m$ cal > month
+]0;joshua@joshua-VirtualBox: ~/Resumes[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Resumes[00m$ who > logged.on
+]0;joshua@joshua-VirtualBox: ~/Resumes[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Resumes[00m$ id > mylogin
+]0;joshua@joshua-VirtualBox: ~/Resumes[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Resumes[00m$ head -5 /etc/passwd > ho[K[Kshort-passA
+]0;joshua@joshua-VirtualBox: ~/Resumes[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Resumes[00m$ cp month month.bak
+]0;joshua@joshua-VirtualBox: ~/Resumes[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Resumes[00m$ ls -l
+total 24
+-rw-rw-r-- 1 joshua joshua  44 Feb  6 13:29 logged.on
+-rw-rw-r-- 1 joshua joshua 188 Feb  6 13:29 month
+-rw-rw-r-- 1 joshua joshua 188 Feb  6 13:29 month.bak
+-rw-rw-r-- 1 joshua joshua 138 Feb  6 13:29 mylogin
+-rw-rw-r-- 1 joshua joshua 189 Feb  6 13:29 short-passA
+-rw-rw-r-- 1 joshua joshua  32 Feb  6 13:29 today
+]0;joshua@joshua-VirtualBox: ~/Resumes[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Resumes[00m$ cd
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ pwd
+/home/joshua
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls-[K -l Resumes
+total 24
+-rw-rw-r-- 1 joshua joshua  44 Feb  6 13:29 logged.on
+-rw-rw-r-- 1 joshua joshua 188 Feb  6 13:29 month
+-rw-rw-r-- 1 joshua joshua 188 Feb  6 13:29 month.bak
+-rw-rw-r-- 1 joshua joshua 138 Feb  6 13:29 mylogin
+-rw-rw-r-- 1 joshua joshua 189 Feb  6 13:29 short-passA
+-rw-rw-r-- 1 joshua joshua  32 Feb  6 13:29 today
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls -l Resumes | sort > file.info1
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ more file.info1
+-rw-rw-r-- 1 joshua joshua 138 Feb  6 13:29 mylogin
+-rw-rw-r-- 1 joshua joshua 188 Feb  6 13:29 month
+-rw-rw-r-- 1 joshua joshua 188 Feb  6 13:29 month.bak
+-rw-rw-r-- 1 joshua joshua 189 Feb  6 13:29 short-passA
+-rw-rw-r-- 1 joshua joshua  32 Feb  6 13:29 today
+-rw-rw-r-- 1 joshua joshua  44 Feb  6 13:29 logged.on
+total 24
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ cd Resumes
+]0;joshua@joshua-VirtualBox: ~/Resumes[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Resumes[00m$ pwd
+/home/joshua/Resumes
+]0;joshua@joshua-VirtualBox: ~/Resumes[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Resumes[00m$ ls
+logged.on  month  month.bak  mylogin  short-passA  today
+]0;joshua@joshua-VirtualBox: ~/Resumes[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Resumes[00m$ chmod -w today
+]0;joshua@joshua-VirtualBox: ~/Resumes[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Resumes[00m$ mv month month2
+]0;joshua@joshua-VirtualBox: ~/Resumes[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Resumes[00m$ date > new.date
+]0;joshua@joshua-VirtualBox: ~/Resumes[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Resumes[00m$ who >> month.bak
+]0;joshua@joshua-VirtualBox: ~/Resumes[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Resumes[00m$ ls -l
+total 28
+-rw-rw-r-- 1 joshua joshua  44 Feb  6 13:29 logged.on
+-rw-rw-r-- 1 joshua joshua 188 Feb  6 13:29 month2
+-rw-rw-r-- 1 joshua joshua 232 Feb  6 13:30 month.bak
+-rw-rw-r-- 1 joshua joshua 138 Feb  6 13:29 mylogin
+-rw-rw-r-- 1 joshua joshua  32 Feb  6 13:30 new.date
+-rw-rw-r-- 1 joshua joshua 189 Feb  6 13:29 short-passA
+-r--r--r-- 1 joshua joshua  32 Feb  6 13:29 today
+]0;joshua@joshua-VirtualBox: ~/Resumes[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Resumes[00m$ cd
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls -l Resumes | sort > file.info2
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ comm file.info1 filei[K.info2
+	-r--r--r-- 1 joshua joshua  32 Feb  6 13:29 today
+		-rw-rw-r-- 1 joshua joshua 138 Feb  6 13:29 mylogin
+-rw-rw-r-- 1 joshua joshua 188 Feb  6 13:29 month
+	-rw-rw-r-- 1 joshua joshua 188 Feb  6 13:29 month2
+-rw-rw-r-- 1 joshua joshua 188 Feb  6 13:29 month.bak
+		-rw-rw-r-- 1 joshua joshua 189 Feb  6 13:29 short-passA
+	-rw-rw-r-- 1 joshua joshua 232 Feb  6 13:30 month.bak
+-rw-rw-r-- 1 joshua joshua  32 Feb  6 13:29 today
+	-rw-rw-r-- 1 joshua joshua  32 Feb  6 13:30 new.date
+		-rw-rw-r-- 1 joshua joshua  44 Feb  6 13:29 logged.on
+total 24
+	total 28
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ diff file.info1 file.info2
+0a1
+> -r--r--r-- 1 joshua joshua  32 Feb  6 13:29 today
+2,3c3
+< -rw-rw-r-- 1 joshua joshua 188 Feb  6 13:29 month
+< -rw-rw-r-- 1 joshua joshua 188 Feb  6 13:29 month.bak
+---
+> -rw-rw-r-- 1 joshua joshua 188 Feb  6 13:29 month2
+5c5,6
+< -rw-rw-r-- 1 joshua joshua  32 Feb  6 13:29 today
+---
+> -rw-rw-r-- 1 joshua joshua 232 Feb  6 13:30 month.bak
+> -rw-rw-r-- 1 joshua joshua  32 Feb  6 13:30 new.date
+7c8
+< total 24
+---
+> total 28
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ cat practice west-coast.names[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kls
+[0m[01;34ma[0m          file2       installation.txt   myerr     quiz3.txt        style.css
+c1         file.info1  JoshuaLe-lab2.txt  myfile1   [01;34mRecommendations[0m  [01;34mTemplates[0m
+c2         file.info2  lab1.txt           myoutput  [01;34mrepos[0m            test-list
+c3         first_file  lab4.txt           mypasswd  [01;34mResumes[0m          test.txt
+cl         [01;34mfoo[0m         lab5.txt           [01;34mPapers[0m    script1          total
+[01;34mDesktop[0m    footer      lost-days          phon      script.js        users_on
+[01;34mDocuments[0m  footer.1    me_A               [01;34mPictures[0m  second_file      [01;34mVideos[0m
+[01;34mDownloads[0m  footer.2    [01;34mMusic[0m              [01;34mPrivate[0m   s-mypasswd
+el         index.html  [01;32mmydata.txt[0m         [01;34mPublic[0m    sort-test
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ cd Desktop
+]0;joshua@joshua-VirtualBox: ~/Desktop[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Desktop[00m$ ls
+ [0m[01;34mmit-scheme-11.2[0m                 practice         sortedsp3         test-file2
+ [01;31mmit-scheme-11.2-x86-64.tar.gz[0m  'Project 1.odt'   sorted-test-sor   test-g
+ names.tmp                       respected        sp2               test-sor
+ newfile1A                       review           sp3               users_on
+ newfile2B2                      short-pass       test-file1
+]0;joshua@joshua-VirtualBox: ~/Desktop[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Desktop[00m$ vi west-coast.names
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"west-coast.names" [New File][2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h[?2004l[>4;m[?25l[ms[?25h[?25l[?25h[?25lW[?25h[?25la[?25h[?25ls[?25h[?25lh[?25h[?25li[?25h[?25ln[?25h[?25lg[?25h[?25lt[?25h[?25lo[?25h[?25ln[?25h[?25l [?25h[?25lO[?25h[?25lr[?25h[?25le[?25h[?25lg[?25h[?25lo[?25h[?25ln[?25h[?25l [?25h[?25lC[?25h[?25la[?25h[?25ll[?25h[?25li[?25h[?25lf[?25h[?25lo[?25h[?25lr[?25h[?25ln[?25h[?25li[?25h[?25la[?25h[?25l.[?25h[?25l[2;1H[K[2;1H[?25h[?25lS[?25h[?25le[?25h[?25la[?25h[?25lt[?25h[?25lt[?25h[?25ll[?25h[?25le[?25h[?25l,[?25h[?25l [?25h[?25lP[?25h[?25lo[?25h[?25lr[?25h[?25lt[?25h[?25ll[?25h[?25la[?25h[?25ln[?25h[?25ld[?25h[?25l,[?25h[?25l [?25h[?25lS[?25h[?25la[?25h[?25ln[?25h[?25l [?25h[?25lF[?25h[?25lr[?25h[?25la[?25h[?25ln[?25h[?25lc[?25h[?25li[?25h[?25ls[?25h[?25lc[?25h[?25lo[?25h[?25l.[?25h[?25l[3;1H[K[3;1H[?25h[?25lW[?25h[?25la[?25h[?25ls[?25h[?25lh[?25h[?25li[?25h[?25ln[?25h[?25lg[?25h[?25lt[?25h[?25lo[?25h[?25ln[?25h[?25l:[?25h[?25l [?25h[?25lS[?25h[?25lp[?25h[?25lo[?25h[?25lk[?25h[?25la[?25h[?25ln[?25h[?25le[?25h[?25l;[?25h[?25l [?25h[?25lT[?25h[?25la[?25h[?25lc[?25h[?25lo[?25h[?25lm[?25h[?25la[?25h[?25l;[?25h[?25l [?25h[?25lO[?25h[?25ll[?25h[?25ly[?25h[?25lm[?25h[?25lp[?25h[?25li[?25h[?25la[?25h[?25l.[?25h[?25l[4;1H[K[4;1H[?25h[?25lO[?25h[?25lr[?25h[?25le[?25h[?25lg[?25h[?25lo[?25h[?25ln[?25h[?25l:[?25h[?25l [?25h[?25lS[?25h[?25la[?25h[?25ll[?25h[?25le[?25h[?25lm[?25h[?25l-[?25h[?25lS[?25h[?25lp[?25h[?25lr[?25h[?25li[?25h[?25ln[?25h[?25lg[?25h[?25lf[?25h[?25li[?25h[?25le[?25h[?25ll[?25h[?25ld[?25h[?25l-[?25h[?25lO[?25h[?25lr[?25h[?25le[?25h[?25lg[?25h[?25lo[?25h[?25ln[?25h[?25l [?25h[?25lC[?25h[?25li[?25h[?25lt[?25h[?25ly[?25h[?25l.[?25h[?25l[5;1H[K[5;1H[?25h[?25lC[?25h[?25la[?25h[?25ll[?25h[?25li[?25h[?25lf[?25h[?25lo[?25h[?25lr[?25h[?25ln[?25h[?25li[?25h[?25la[?25h[?25l [?25h[?25l:[?25h[?25l [?25h[?25lL[?25h[?25lo[?25h[?25ls[?25h[?25l [?25h[?25lA[?25h[?25ln[?25h[?25lg[?25h[?25le[?25h[?25ll[?25h[?25le[?25h[?25ls[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l:[?25h[?25lL[?25h[?25l[?25h[?25l [?25h[?25lL[?25h[?25lo[?25h[?25ls[?25h[?25l [?25h[?25lA[?25h[?25ln[?25h[?25lg[?25h[?25le[?25h[?25ll[?25h[?25le[?25h[?25ls[?25h[?25l [?25h[?25l [?25h[?25l [?25h[?25l [?25h[?25l [?25h[?25l [?25h[?25lS[?25h[?25la[?25h[?25lc[?25h[?25lr[?25h[?25la[?25h[?25lm[?25h[?25le[?25h[?25ln[?25h[?25lt[?25h[?25lo[?25h[?25l [?25h[?25l [?25h[?25l [?25h[?25l [?25h[?25l [?25h[?25l [?25h[?25lS[?25h[?25la[?25h[?25ln[?25h[?25lt[?25h[?25la[?25h[?25l [?25h[?25lB[?25h[?25la[?25h[?25lr[?25h[?25lb[?25h[?25la[?25h[?25lr[?25h[?25la[?25h[?2004h[>4;2m[?25l[24;1H[K[24;1H:[?2004h[?25hq[?25l[24;2H[K[24;2H[?25hwq[?25l[?2004l"west-coast.names" [New File] 5 lines, 200 characters written
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;joshua@joshua-VirtualBox: ~/Desktop[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Desktop[00m$ cat practice west-coast.names practice > man ywords
+]0;joshua@joshua-VirtualBox: ~/Desktop[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Desktop[00m$ vi script2
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"script2" [New File][2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h[?25l[m[24;1H[K[24;1H:[?2004h[?25hq[?25l[?2004l[24;1H[K[24;1H[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;joshua@joshua-VirtualBox: ~/Desktop[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Desktop[00m$ vi wordcds[K[Ks[K[KsUsed1
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"wordsUsed1" [New File][2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h[?2004l[>4;m[?25l[mi[?25h[?25l[?25h[?25lt[?25h[?25lr[?25h[?25l [?25h[?25l-[?25h[?25ld[?25h[?25l [?25h[?25l'[?25h[?25l?[?25h[?25l.[?25h[?25l"[?25h[?25l![?25h[?25l:[?25h[?25l.[?25h[?25l([?25h[?25l)[?25h[?25l;[?25h[?25l'[?25h[?25l [?25h[?25l<[?25h[?25l [?25h[?25lm[?25h[?25la[?25h[?25ln[?25h[?25ly[?25h[?25lw[?25h[?25lo[?25h[?25lr[?25h[?25ld[?25h[?25ls[?25h[?2004h[>4;2m[?25l[24;1H[K[24;1H:[?2004h[?25hwq[?25l[?2004l"wordsUsed1" [New File] 1 line, 30 characters written
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;joshua@joshua-VirtualBox: ~/Desktop[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Desktop[00m$ chmod +x wordsUsed 1
+chmod: cannot access 'wordsUsed': No such file or directory
+chmod: cannot access '1': No such file or directory
+]0;joshua@joshua-VirtualBox: ~/Desktop[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Desktop[00m$ chmod w[K+x wordsus[K[KUsed1
+]0;joshua@joshua-VirtualBox: ~/Desktop[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Desktop[00m$ ./wordsUsed 1
+bash: ./wordsUsed: No such file or directory
+]0;joshua@joshua-VirtualBox: ~/Desktop[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Desktop[00m$ ./wordsUsed1
+Add some text
+Ci
+Mnow I am adding text to the beginningAdding text to the end of a line is easy
+I was in the middle of a line,It is essential to be able to place text above the current line
+The difference between i and a  
+The drMIapple baanana cat dog wolf am now adding more text
+What are the two modes of the visual editor
+There is more than one way to move
+eddveral times in this course
+
+Although I am created this file with the cat command,
+later you will be editing it using vi
+
+a b c d
+2 3 4 5
+2 3 4 5
+A B C D
+E F G H
+
+vi permits global changes, reading/writing files, cutting and pasting, and 
+tailoring the environment to meet individual needs
+
+There is no need for a mouse, you can keep your fingers where they belong, 
+on the keyboard, everything is done through commands
+
+There are two commands that can be used to list directory contents-the dir and ls commands 
+
+There are two commands that can be used to list directory contents-the dir and ls commands 
+The dir command has been added to Linux and is not a standard UNIX command The ls command comes 
+The dir command has been added to Linux and is not a standard UNIX command The ls command comes 
+from the UNIX tradition and is the command you'll explore in this course  
+The ls command lists the files in a directory This command takes several options and arguments 
+
+Line editors allow you to work with a line of text at a time A screen editor displays an entire screen of text 
+A stream editor manipulates text as a stream of data, and is usually used in shell scripts, small programs 
+written for and executed by the shell The ex text editor is the foundation for vi, the screen editor we 
+used in a previous module You could call vi the visual mode of the underlying ex line editor 
+Ed is generally no longer used as a line editor because it has been superceded by ex, but some utilities 
+like the diff command continue to use the ed syntax
+
+The screen editors vi and emacs are screen editors because you can view an entire screen of text for editing 
+You can see the changes you make as you make them Because vi is a screen version of the ex editor, many of 
+the ex commands can be used in vi For example, you can still take advantage of the global replacement and 
+pattern searches of the underlying ex editor when using vi In fact, if you ever begin your vi command with 
+the colon, you are using an ex command in vi  Remember the q command It comes from vi's ex roots
+
+A stream editor is a non-interactive or stream-oriented editor You do not view the text as you manipulate it 
+Instead, you give your commands to the editor which runs the commands as a batch The standard input and 
+standard output apply to a stream editor like many unix programs You can of course redirect input and output 
+for a stream editor We will come back to stream editors later in the module, and look in detail at the sed stream editor
+
+This practice file will be used
+several times in this course
+
+Although I am created this file with the cat command,
+later you will be editing it using vi
+
+a b c d
+2 3 4 5
+2 3 4 5
+A B C D
+E F G H
+
+vi permits global changes, reading/writing files, cutting and pasting, and 
+tailoring the environment to meet individual needs
+
+1 2 3 4 
+I J K L
+M N O P
+Q R S T
+
+The ex editor will return the name of file, the total number of lines & characters, and give you the  
+colon command prompt You can also invoke the ex line editor in vi by typing a colon An ex command, 
+whether used in ex or in vi, consists of a line address, such as a line number, and a command If 
+you leave off the command, the print command display to the screen is assumed For example, 
+I could type 100 in the ex line editor and line 100 would display to the screen
+Washington Oregon California
+Seattle, Portland, San Francisco
+Washington Spokane Tacoma Olympia
+Oregon Salem-Springfield-Oregon City
+California Los Angeles      Sacramento      Santa Barbara
+Add some text
+Ci
+Mnow I am adding text to the beginningAdding text to the end of a line is easy
+I was in the middle of a line,It is essential to be able to place text above the current line
+The difference between i and a  
+The drMIapple baanana cat dog wolf am now adding more text
+What are the two modes of the visual editor
+There is more than one way to move
+eddveral times in this course
+
+Although I am created this file with the cat command,
+later you will be editing it using vi
+
+a b c d
+2 3 4 5
+2 3 4 5
+A B C D
+E F G H
+
+vi permits global changes, reading/writing files, cutting and pasting, and 
+tailoring the environment to meet individual needs
+
+There is no need for a mouse, you can keep your fingers where they belong, 
+on the keyboard, everything is done through commands
+
+There are two commands that can be used to list directory contents-the dir and ls commands 
+
+There are two commands that can be used to list directory contents-the dir and ls commands 
+The dir command has been added to Linux and is not a standard UNIX command The ls command comes 
+The dir command has been added to Linux and is not a standard UNIX command The ls command comes 
+from the UNIX tradition and is the command you'll explore in this course  
+The ls command lists the files in a directory This command takes several options and arguments 
+
+Line editors allow you to work with a line of text at a time A screen editor displays an entire screen of text 
+A stream editor manipulates text as a stream of data, and is usually used in shell scripts, small programs 
+written for and executed by the shell The ex text editor is the foundation for vi, the screen editor we 
+used in a previous module You could call vi the visual mode of the underlying ex line editor 
+Ed is generally no longer used as a line editor because it has been superceded by ex, but some utilities 
+like the diff command continue to use the ed syntax
+
+The screen editors vi and emacs are screen editors because you can view an entire screen of text for editing 
+You can see the changes you make as you make them Because vi is a screen version of the ex editor, many of 
+the ex commands can be used in vi For example, you can still take advantage of the global replacement and 
+pattern searches of the underlying ex editor when using vi In fact, if you ever begin your vi command with 
+the colon, you are using an ex command in vi  Remember the q command It comes from vi's ex roots
+
+A stream editor is a non-interactive or stream-oriented editor You do not view the text as you manipulate it 
+Instead, you give your commands to the editor which runs the commands as a batch The standard input and 
+standard output apply to a stream editor like many unix programs You can of course redirect input and output 
+for a stream editor We will come back to stream editors later in the module, and look in detail at the sed stream editor
+
+This practice file will be used
+several times in this course
+
+Although I am created this file with the cat command,
+later you will be editing it using vi
+
+a b c d
+2 3 4 5
+2 3 4 5
+A B C D
+E F G H
+
+vi permits global changes, reading/writing files, cutting and pasting, and 
+tailoring the environment to meet individual needs
+
+1 2 3 4 
+I J K L
+M N O P
+Q R S T
+
+The ex editor will return the name of file, the total number of lines & characters, and give you the  
+colon command prompt You can also invoke the ex line editor in vi by typing a colon An ex command, 
+whether used in ex or in vi, consists of a line address, such as a line number, and a command If 
+you leave off the command, the print command display to the screen is assumed For example, 
+I could type 100 in the ex line editor and line 100 would display to the screen
+]0;joshua@joshua-VirtualBox: ~/Desktop[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Desktop[00m$ more manywords
+Add some text
+Ci
+Mnow I am adding text to the beginningAdding text to the end of a line is easy
+I was in the middle of a line,It is essential to be able to place text above the
+ current line
+The difference between i and a  
+The drMIapple baanana cat dog wolf am now adding more text
+What are the two modes of the visual editor?
+There is more than one way to move
+eddveral times in this course.
+
+Although I am created this file with the cat command,
+later you will be editing it using vi.
+
+a b c d
+2 3 4 5
+2 3 4 5
+A B C D
+E F G H
+
+vi permits global changes, reading/writing files, cutting and pasting, and 
+tailoring the environment to meet individual needs.
+
+[7m--More--(8%)[27mThere is no need for a mouse, you can keep your fingers where they belong, 
+on the keyboard, everything is done through commands.
+
+There are two commands that can be used to list directory contents-the dir and l
+s commands. 
+
+There are two commands that can be used to list directory contents-the dir and l
+s commands. 
+The dir command has been added to Linux and is not a standard UNIX command. The 
+ls command comes 
+The dir command has been added to Linux and is not a standard UNIX command. The 
+ls command comes 
+from the UNIX tradition and is the command you'll explore in this course.  
+The ls command lists the files in a directory. This command takes several option
+s and arguments. 
+
+Line editors allow you to work with a line of text at a time. A screen editor di
+splays an entire screen of text. 
+A stream editor manipulates text as a stream of data, and is usually used in she
+ll scripts, small programs 
+written for and executed by the shell. The ex text editor is the foundation for 
+vi, the screen editor we 
+used in a previous module. You could call vi the visual mode of the underlying e
+[7m--More--(22%)[27mx line editor. 
+Ed is generally no longer used as a line editor because it has been superceded b
+y ex, but some utilities 
+like the diff command continue to use the ed syntax.
+
+The screen editors vi and emacs are screen editors because you can view an entir
+e screen of text for editing. 
+You can see the changes you make as you make them. Because vi is a screen versio
+n of the ex editor, many of 
+the ex commands can be used in vi. For example, you can still take advantage of 
+the global replacement and 
+pattern searches of the underlying ex editor when using vi. In fact, if you ever
+ begin your vi command with: 
+the colon, you are using an ex command in vi.  Remember the :q! command? It come
+s from vi's ex roots.
+
+A stream editor is a non-interactive or stream-oriented editor. You do not view 
+the text as you manipulate it. 
+Instead, you give your commands to the editor which runs the commands as a batch
+. The standard input and 
+standard output apply to a stream editor like many unix programs. You can of cou
+rse redirect input and output 
+for a stream editor. We will come back to stream editors later in the module, an
+[7m--More--(37%)[27md look in detail at the sed stream editor.
+
+This practice file will be used
+several times in this course.
+
+Although I am created this file with the cat command,
+later you will be editing it using vi.
+
+a b c d
+2 3 4 5
+2 3 4 5
+A B C D
+E F G H
+
+vi permits global changes, reading/writing files, cutting and pasting, and 
+tailoring the environment to meet individual needs.
+
+1 2 3 4 
+I J K L
+M N O P
+Q R S T
+
+The ex editor will return the name of file, the total number of lines & characte
+[7m--More--(43%)[27mrs, and give you the : 
+colon command prompt. You can also invoke the ex line editor in vi by typing a c
+olon. An ex command, 
+whether used in ex or in vi, consists of a line address, such as a line number, 
+and a command. If 
+you leave off the command, the print command (display to the screen) is assumed.
+ For example, 
+I could type 100 in the ex line editor and line 100 would display to the screen.
+Washington Oregon California.
+Seattle, Portland, San Francisco.
+Washington: Spokane; Tacoma; Olympia.
+Oregon: Salem-Springfield-Oregon City.
+California: Los Angeles      Sacramento      Santa Barbara
+Add some text
+Ci
+Mnow I am adding text to the beginningAdding text to the end of a line is easy
+I was in the middle of a line,It is essential to be able to place text above the
+ current line
+The difference between i and a  
+The drMIapple baanana cat dog wolf am now adding more text
+What are the two modes of the visual editor?
+There is more than one way to move
+eddveral times in this course.
+[7m--More--(56%)[27m[K
+Although I am created this file with the cat command,
+later you will be editing it using vi.
+
+a b c d
+2 3 4 5
+2 3 4 5
+A B C D
+E F G H
+
+vi permits global changes, reading/writing files, cutting and pasting, and 
+tailoring the environment to meet individual needs.
+
+There is no need for a mouse, you can keep your fingers where they belong, 
+on the keyboard, everything is done through commands.
+
+There are two commands that can be used to list directory contents-the dir and l
+s commands. 
+
+There are two commands that can be used to list directory contents-the dir and l
+s commands. 
+The dir command has been added to Linux and is not a standard UNIX command. The 
+ls command comes 
+[7m--More--(65%)[27mThe dir command has been added to Linux and is not a standard UNIX command. The 
+ls command comes 
+from the UNIX tradition and is the command you'll explore in this course.  
+The ls command lists the files in a directory. This command takes several option
+s and arguments. 
+
+Line editors allow you to work with a line of text at a time. A screen editor di
+splays an entire screen of text. 
+A stream editor manipulates text as a stream of data, and is usually used in she
+ll scripts, small programs 
+written for and executed by the shell. The ex text editor is the foundation for 
+vi, the screen editor we 
+used in a previous module. You could call vi the visual mode of the underlying e
+x line editor. 
+Ed is generally no longer used as a line editor because it has been superceded b
+y ex, but some utilities 
+like the diff command continue to use the ed syntax.
+
+The screen editors vi and emacs are screen editors because you can view an entir
+e screen of text for editing. 
+You can see the changes you make as you make them. Because vi is a screen versio
+n of the ex editor, many of 
+the ex commands can be used in vi. For example, you can still take advantage of 
+[7m--More--(80%)[27mthe global replacement and 
+pattern searches of the underlying ex editor when using vi. In fact, if you ever
+ begin your vi command with: 
+the colon, you are using an ex command in vi.  Remember the :q! command? It come
+s from vi's ex roots.
+
+A stream editor is a non-interactive or stream-oriented editor. You do not view 
+the text as you manipulate it. 
+Instead, you give your commands to the editor which runs the commands as a batch
+. The standard input and 
+standard output apply to a stream editor like many unix programs. You can of cou
+rse redirect input and output 
+for a stream editor. We will come back to stream editors later in the module, an
+d look in detail at the sed stream editor.
+
+This practice file will be used
+several times in this course.
+
+Although I am created this file with the cat command,
+later you will be editing it using vi.
+
+a b c d
+2 3 4 5
+[7m--More--(91%)[27m2 3 4 5[K
+A B C D
+E F G H
+
+vi permits global changes, reading/writing files, cutting and pasting, and 
+tailoring the environment to meet individual needs.
+
+1 2 3 4 
+I J K L
+M N O P
+Q R S T
+
+The ex editor will return the name of file, the total number of lines & characte
+rs, and give you the : 
+colon command prompt. You can also invoke the ex line editor in vi by typing a c
+olon. An ex command, 
+whether used in ex or in vi, consists of a line address, such as a line number, 
+and a command. If 
+you leave off the command, the print command (display to the screen) is assumed.
+ For example, 
+I could type 100 in the ex line editor and line 100 would display to the screen.
+]0;joshua@joshua-VirtualBox: ~/Desktop[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Desktop[00m$ cp wordsUsed1 wordsUsed2
+]0;joshua@joshua-VirtualBox: ~/Desktop[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Desktop[00m$ vi wordsUsed2
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"wordsUsed2" 1 line, 30 characters[1;1Htr -d '?."!:.();' < manywords
+[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h[?2004l[>4;m[?2004h[>4;2m[?2004l[>4;m[?25l[1;23r[m[1;1H[L[1;24r[1;1HC[24;1H[K[1;2H[?25h[?2004h[>4;2m[?25l[24;1H1 line less; before #1  4 seconds ago[1;23r[23;1H
+[1;24r[23;1H[94m~                                                                               [m[24;1H[K[24;1H1 line less; before #1  4 seconds ago[1;1H[?25h[?2004l[>4;m[?2004h[>4;2mtr -d '?."!:.();' < manywordd[?2004l[>4;m[?25lss[?25h[?25l s[?25h[?2004h[>4;2m[?2004l[>4;m[?25l[1;23r[1;1H[L[1;24r[1;1HD[24;1H[K[1;2H[?25h[?2004h[>4;2m[?25l[24;1H1 line less; before #3  2 seconds ago[1;23r[23;1H
+[1;24r[23;1H[94m~                                                                               [m[24;1H[K[24;1H1 line less; before #3  2 seconds ago[1;30H[?25h[?2004l[>4;m[?25lR s[?25h[?2004h[>4;2m[?2004l[>4;m[?25l [?25h[?25l\[?25h[?25l[1;32H[K[2;1Hs[2;2H[K[2;1H[?25h[?25l|[?25h[?25l [?25h[?25lt[?25h[?25lr[?25h[?25l [?25h[?25l'[?25h[?25lA[?25h[?25l-[?25h[?25lZ[?25h[?25l'[?25h[?25l [?25h[?25l'[?25h[?25la[?25h[?25l-[?25h[?25lz[?25h[?25l'[?25h[?2004h[>4;2m[?25l[24;1H[K[24;1H:[?2004h[?25hwq[?25l[?2004l"wordsUsed2" 2 lines, 49 characters written
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;joshua@joshua-VirtualBox: ~/Desktop[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Desktop[00m$ chmod +x wordsUsed2
+]0;joshua@joshua-VirtualBox: ~/Desktop[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Desktop[00m$ ./wordsUsed2
+add some text
+ci
+mnow i am adding text to the beginningadding text to the end of a line is easy
+i was in the middle of a line,it is essential to be able to place text above the current line
+the difference between i and a  
+the drmiapple baanana cat dog wolf am now adding more text
+what are the two modes of the visual editor
+there is more than one way to move
+eddveral times in this course
+
+although i am created this file with the cat command,
+later you will be editing it using vi
+
+a b c d
+2 3 4 5
+2 3 4 5
+a b c d
+e f g h
+
+vi permits global changes, reading/writing files, cutting and pasting, and 
+tailoring the environment to meet individual needs
+
+there is no need for a mouse, you can keep your fingers where they belong, 
+on the keyboard, everything is done through commands
+
+there are two commands that can be used to list directory contents-the dir and ls commands 
+
+there are two commands that can be used to list directory contents-the dir and ls commands 
+the dir command has been added to linux and is not a standard unix command the ls command comes 
+the dir command has been added to linux and is not a standard unix command the ls command comes 
+from the unix tradition and is the command you'll explore in this course  
+the ls command lists the files in a directory this command takes several options and arguments 
+
+line editors allow you to work with a line of text at a time a screen editor displays an entire screen of text 
+a stream editor manipulates text as a stream of data, and is usually used in shell scripts, small programs 
+written for and executed by the shell the ex text editor is the foundation for vi, the screen editor we 
+used in a previous module you could call vi the visual mode of the underlying ex line editor 
+ed is generally no longer used as a line editor because it has been superceded by ex, but some utilities 
+like the diff command continue to use the ed syntax
+
+the screen editors vi and emacs are screen editors because you can view an entire screen of text for editing 
+you can see the changes you make as you make them because vi is a screen version of the ex editor, many of 
+the ex commands can be used in vi for example, you can still take advantage of the global replacement and 
+pattern searches of the underlying ex editor when using vi in fact, if you ever begin your vi command with 
+the colon, you are using an ex command in vi  remember the q command it comes from vi's ex roots
+
+a stream editor is a non-interactive or stream-oriented editor you do not view the text as you manipulate it 
+instead, you give your commands to the editor which runs the commands as a batch the standard input and 
+standard output apply to a stream editor like many unix programs you can of course redirect input and output 
+for a stream editor we will come back to stream editors later in the module, and look in detail at the sed stream editor
+
+this practice file will be used
+several times in this course
+
+although i am created this file with the cat command,
+later you will be editing it using vi
+
+a b c d
+2 3 4 5
+2 3 4 5
+a b c d
+e f g h
+
+vi permits global changes, reading/writing files, cutting and pasting, and 
+tailoring the environment to meet individual needs
+
+1 2 3 4 
+i j k l
+m n o p
+q r s t
+
+the ex editor will return the name of file, the total number of lines & characters, and give you the  
+colon command prompt you can also invoke the ex line editor in vi by typing a colon an ex command, 
+whether used in ex or in vi, consists of a line address, such as a line number, and a command if 
+you leave off the command, the print command display to the screen is assumed for example, 
+i could type 100 in the ex line editor and line 100 would display to the screen
+washington oregon california
+seattle, portland, san francisco
+washington spokane tacoma olympia
+oregon salem-springfield-oregon city
+california los angeles      sacramento      santa barbara
+add some text
+ci
+mnow i am adding text to the beginningadding text to the end of a line is easy
+i was in the middle of a line,it is essential to be able to place text above the current line
+the difference between i and a  
+the drmiapple baanana cat dog wolf am now adding more text
+what are the two modes of the visual editor
+there is more than one way to move
+eddveral times in this course
+
+although i am created this file with the cat command,
+later you will be editing it using vi
+
+a b c d
+2 3 4 5
+2 3 4 5
+a b c d
+e f g h
+
+vi permits global changes, reading/writing files, cutting and pasting, and 
+tailoring the environment to meet individual needs
+
+there is no need for a mouse, you can keep your fingers where they belong, 
+on the keyboard, everything is done through commands
+
+there are two commands that can be used to list directory contents-the dir and ls commands 
+
+there are two commands that can be used to list directory contents-the dir and ls commands 
+the dir command has been added to linux and is not a standard unix command the ls command comes 
+the dir command has been added to linux and is not a standard unix command the ls command comes 
+from the unix tradition and is the command you'll explore in this course  
+the ls command lists the files in a directory this command takes several options and arguments 
+
+line editors allow you to work with a line of text at a time a screen editor displays an entire screen of text 
+a stream editor manipulates text as a stream of data, and is usually used in shell scripts, small programs 
+written for and executed by the shell the ex text editor is the foundation for vi, the screen editor we 
+used in a previous module you could call vi the visual mode of the underlying ex line editor 
+ed is generally no longer used as a line editor because it has been superceded by ex, but some utilities 
+like the diff command continue to use the ed syntax
+
+the screen editors vi and emacs are screen editors because you can view an entire screen of text for editing 
+you can see the changes you make as you make them because vi is a screen version of the ex editor, many of 
+the ex commands can be used in vi for example, you can still take advantage of the global replacement and 
+pattern searches of the underlying ex editor when using vi in fact, if you ever begin your vi command with 
+the colon, you are using an ex command in vi  remember the q command it comes from vi's ex roots
+
+a stream editor is a non-interactive or stream-oriented editor you do not view the text as you manipulate it 
+instead, you give your commands to the editor which runs the commands as a batch the standard input and 
+standard output apply to a stream editor like many unix programs you can of course redirect input and output 
+for a stream editor we will come back to stream editors later in the module, and look in detail at the sed stream editor
+
+this practice file will be used
+several times in this course
+
+although i am created this file with the cat command,
+later you will be editing it using vi
+
+a b c d
+2 3 4 5
+2 3 4 5
+a b c d
+e f g h
+
+vi permits global changes, reading/writing files, cutting and pasting, and 
+tailoring the environment to meet individual needs
+
+1 2 3 4 
+i j k l
+m n o p
+q r s t
+
+the ex editor will return the name of file, the total number of lines & characters, and give you the  
+colon command prompt you can also invoke the ex line editor in vi by typing a colon an ex command, 
+whether used in ex or in vi, consists of a line address, such as a line number, and a command if 
+you leave off the command, the print command display to the screen is assumed for example, 
+i could type 100 in the ex line editor and line 100 would display to the screen
+]0;joshua@joshua-VirtualBox: ~/Desktop[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Desktop[00m$ more manywro[K[Kords
+Add some text
+Ci
+Mnow I am adding text to the beginningAdding text to the end of a line is easy
+I was in the middle of a line,It is essential to be able to place text above the
+ current line
+The difference between i and a  
+The drMIapple baanana cat dog wolf am now adding more text
+What are the two modes of the visual editor?
+There is more than one way to move
+eddveral times in this course.
+
+Although I am created this file with the cat command,
+later you will be editing it using vi.
+
+a b c d
+2 3 4 5
+2 3 4 5
+A B C D
+E F G H
+
+vi permits global changes, reading/writing files, cutting and pasting, and 
+tailoring the environment to meet individual needs.
+
+[7m--More--(8%)[27mThere is no need for a mouse, you can keep your fingers where they belong, 
+[7m--More--(9%)[27mon the keyboard, everything is done through commands.
+[7m--More--(10%)[27m[K
+[7m--More--(10%)[27mThere are two commands that can be used to list directory contents-the dir and l
+[7m--More--(11%)[27ms commands. [K
+[7m--More--(11%)[27m[K
+There are two commands that can be used to list directory contents-the dir and l
+s commands. 
+The dir command has been added to Linux and is not a standard UNIX command. The 
+ls command comes 
+The dir command has been added to Linux and is not a standard UNIX command. The 
+ls command comes 
+from the UNIX tradition and is the command you'll explore in this course.  
+The ls command lists the files in a directory. This command takes several option
+s and arguments. 
+
+Line editors allow you to work with a line of text at a time. A screen editor di
+splays an entire screen of text. 
+A stream editor manipulates text as a stream of data, and is usually used in she
+ll scripts, small programs 
+written for and executed by the shell. The ex text editor is the foundation for 
+vi, the screen editor we 
+used in a previous module. You could call vi the visual mode of the underlying e
+x line editor. 
+Ed is generally no longer used as a line editor because it has been superceded b
+y ex, but some utilities 
+like the diff command continue to use the ed syntax.
+
+[7m--More--(24%)[27mThe screen editors vi and emacs are screen editors because you can view an entir
+e screen of text for editing. 
+You can see the changes you make as you make them. Because vi is a screen versio
+n of the ex editor, many of 
+the ex commands can be used in vi. For example, you can still take advantage of 
+the global replacement and 
+pattern searches of the underlying ex editor when using vi. In fact, if you ever
+ begin your vi command with: 
+the colon, you are using an ex command in vi.  Remember the :q! command? It come
+s from vi's ex roots.
+
+A stream editor is a non-interactive or stream-oriented editor. You do not view 
+the text as you manipulate it. 
+Instead, you give your commands to the editor which runs the commands as a batch
+. The standard input and 
+standard output apply to a stream editor like many unix programs. You can of cou
+rse redirect input and output 
+for a stream editor. We will come back to stream editors later in the module, an
+d look in detail at the sed stream editor.
+
+This practice file will be used
+several times in this course.
+
+[7m--More--(38%)[27mAlthough I am created this file with the cat command,
+later you will be editing it using vi.
+
+a b c d
+2 3 4 5
+2 3 4 5
+A B C D
+E F G H
+
+vi permits global changes, reading/writing files, cutting and pasting, and 
+tailoring the environment to meet individual needs.
+
+1 2 3 4 
+I J K L
+M N O P
+Q R S T
+
+The ex editor will return the name of file, the total number of lines & characte
+rs, and give you the : 
+colon command prompt. You can also invoke the ex line editor in vi by typing a c
+olon. An ex command, 
+whether used in ex or in vi, consists of a line address, such as a line number, 
+and a command. If 
+[7m--More--(46%)[27myou leave off the command, the print command (display to the screen) is assumed.
+ For example, 
+I could type 100 in the ex line editor and line 100 would display to the screen.
+Washington Oregon California.
+Seattle, Portland, San Francisco.
+Washington: Spokane; Tacoma; Olympia.
+Oregon: Salem-Springfield-Oregon City.
+California: Los Angeles      Sacramento      Santa Barbara
+Add some text
+Ci
+Mnow I am adding text to the beginningAdding text to the end of a line is easy
+I was in the middle of a line,It is essential to be able to place text above the
+ current line
+The difference between i and a  
+The drMIapple baanana cat dog wolf am now adding more text
+What are the two modes of the visual editor?
+There is more than one way to move
+eddveral times in this course.
+
+Although I am created this file with the cat command,
+later you will be editing it using vi.
+
+a b c d
+[7m--More--(57%)[27m2 3 4 5[K
+2 3 4 5
+A B C D
+E F G H
+
+vi permits global changes, reading/writing files, cutting and pasting, and 
+tailoring the environment to meet individual needs.
+
+There is no need for a mouse, you can keep your fingers where they belong, 
+on the keyboard, everything is done through commands.
+
+There are two commands that can be used to list directory contents-the dir and l
+s commands. 
+
+There are two commands that can be used to list directory contents-the dir and l
+s commands. 
+The dir command has been added to Linux and is not a standard UNIX command. The 
+ls command comes 
+The dir command has been added to Linux and is not a standard UNIX command. The 
+ls command comes 
+from the UNIX tradition and is the command you'll explore in this course.  
+The ls command lists the files in a directory. This command takes several option
+s and arguments. 
+[7m--More--(68%)[27m[K
+Line editors allow you to work with a line of text at a time. A screen editor di
+splays an entire screen of text. 
+A stream editor manipulates text as a stream of data, and is usually used in she
+ll scripts, small programs 
+written for and executed by the shell. The ex text editor is the foundation for 
+vi, the screen editor we 
+used in a previous module. You could call vi the visual mode of the underlying e
+x line editor. 
+Ed is generally no longer used as a line editor because it has been superceded b
+y ex, but some utilities 
+like the diff command continue to use the ed syntax.
+
+The screen editors vi and emacs are screen editors because you can view an entir
+e screen of text for editing. 
+You can see the changes you make as you make them. Because vi is a screen versio
+n of the ex editor, many of 
+the ex commands can be used in vi. For example, you can still take advantage of 
+the global replacement and 
+pattern searches of the underlying ex editor when using vi. In fact, if you ever
+ begin your vi command with: 
+the colon, you are using an ex command in vi.  Remember the :q! command? It come
+s from vi's ex roots.
+[7m--More--(83%)[27m[K
+A stream editor is a non-interactive or stream-oriented editor. You do not view 
+the text as you manipulate it. 
+Instead, you give your commands to the editor which runs the commands as a batch
+. The standard input and 
+standard output apply to a stream editor like many unix programs. You can of cou
+rse redirect input and output 
+for a stream editor. We will come back to stream editors later in the module, an
+d look in detail at the sed stream editor.
+
+This practice file will be used
+several times in this course.
+
+Although I am created this file with the cat command,
+later you will be editing it using vi.
+
+a b c d
+2 3 4 5
+2 3 4 5
+A B C D
+E F G H
+
+vi permits global changes, reading/writing files, cutting and pasting, and 
+[7m--More--(92%)[27mtailoring the environment to meet individual needs.
+
+1 2 3 4 
+I J K L
+M N O P
+Q R S T
+
+The ex editor will return the name of file, the total number of lines & characte
+rs, and give you the : 
+colon command prompt. You can also invoke the ex line editor in vi by typing a c
+olon. An ex command, 
+whether used in ex or in vi, consists of a line address, such as a line number, 
+and a command. If 
+you leave off the command, the print command (display to the screen) is assumed.
+ For example, 
+I could type 100 in the ex line editor and line 100 would display to the screen.
+]0;joshua@joshua-VirtualBox: ~/Desktop[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Desktop[00m$ cp wordsUsed2[K2 wordsUsed3
+]0;joshua@joshua-VirtualBox: ~/Desktop[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Desktop[00m$ vi wordsUsed3
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"wordsUsed3" 2 lines, 49 characters[1;1Htr -d '?."!:.();' < manywords \
+| tr 'A-Z' 'a-z'
+[94m~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h
+[m| tr 'A-Z' 'a-z[?2004l[>4;m[?25l''[?25h[?25l '[?25h[?25l[2;18H[K[3;1H'[3;2H[K[3;1H[?25h[?2004h[>4;2m[2;1H| tr 'A-Z' 'a-z'[?2004l[>4;m[?25l [?25h[?25l\[?25h[?25l[3;23r[3;1H[L[1;24r[24;1H[K[3;1H[?25h[?2004h[>4;2m[?2004l[>4;m[?25l[3;23r[3;1H[L[1;24r[3;1HB[?25h[?2004h[>4;2m[?25l[24;1H1 line less; before #3  3 seconds ago[3;23r[23;1H
+[1;24r[23;1H[94m~                                                                               [m[24;1H[K[24;1H1 line less; before #3  3 seconds ago[3;1H[?25h
+[?25l[24;3Hmore line; after #3  7 seconds ago[24;37H[K[3;23r[3;1H[L[1;24r[3;1HB[24;1H[K[24;1H1 more line; after #3  7 seconds ago[3;1H[?25h[?25l[24;3Hline less; before #3  9 seconds ago[3;23r[23;1H
+[1;24r[23;1H[94m~                                                                               [m[24;1H[K[24;1H1 line less; before #3  9 seconds ago[3;1H[?25h[?25l[24;3Hmore line; after #3  10[3;23r[3;1H[L[1;24r[3;1HB[24;1H[K[24;1H1 more line; after #3  10 seconds ago[3;1H[?25h[?25l[24;3Hline less; before #3  10 seconds ago[3;23r[23;1H
+[1;24r[23;1H[94m~                                                                               [m[24;1H[K[24;1H1 line less; before #3  10 seconds ago[3;1H[?25h
+[3;1H
+[?2004l[>4;m[?25l [?25h[?2004h[>4;2m[3;1H[?2004l[>4;m[?25l|[?25h[?25l [?25h[?25lt[?25h[?25lr[?25h[?25l [?25h[?25l'[?25h[?25l [?25h[?25l'[?25h[?25l [?25h[?25l'[?25h[?25l\[?25h[?25ln[?25h[?25l'[?25h[?2004h[>4;2m[?25l[24;1H[K[24;1H:[?2004h[?25hwq[?25l[?2004l"wordsUsed3" 4 lines, 68 characters written
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;joshua@joshua-VirtualBox: ~/Desktop[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Desktop[00m$ cp wordsUsed 3[K[K3 wordsUsed 4[K[K4
+]0;joshua@joshua-VirtualBox: ~/Desktop[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Desktop[00m$ vi wordsUsed4
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"wordsUsed4" 4 lines, 68 characters[1;1Htr -d '?."!:.();' < manywords \
+| tr 'A-Z' 'a-z' \
+| tr ' ' '\n'
+
+[94m~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h
+
+[m| [?2004l[>4;m[?25l|[?25h[?25l [?25h[?25lt[?25h[?25lr[?25h[?25l [?25h[?25l'[?25h[?25l\[?25h[?25lt[?25h[?25l'[?25h[?25l [?25h[?25l'[?25h[?25l\[?25h[?25ln[?25h[?25l\[?25h[?25ln[?25h[?25l'[?25h[?2004h[>4;2m[?25l[24;1H[K[24;1H:[?2004h[?25hwq[?25l[?2004l"wordsUsed4" 4 lines, 70 characters written
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;joshua@joshua-VirtualBox: ~/Desktop[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Desktop[00m$ chmod +x wordsUsed4
+]0;joshua@joshua-VirtualBox: ~/Desktop[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Desktop[00m$ wordsUsed4
+add some text
+ci
+mnow i am adding text to the beginningadding text to the end of a line is easy
+i was in the middle of a line,it is essential to be able to place text above the current line
+the difference between i and a  
+the drmiapple baanana cat dog wolf am now adding more text
+what are the two modes of the visual editor
+there is more than one way to move
+eddveral times in this course
+
+although i am created this file with the cat command,
+later you will be editing it using vi
+
+a b c d
+2 3 4 5
+2 3 4 5
+a b c d
+e f g h
+
+vi permits global changes, reading/writing files, cutting and pasting, and 
+tailoring the environment to meet individual needs
+
+there is no need for a mouse, you can keep your fingers where they belong, 
+on the keyboard, everything is done through commands
+
+there are two commands that can be used to list directory contents-the dir and ls commands 
+
+there are two commands that can be used to list directory contents-the dir and ls commands 
+the dir command has been added to linux and is not a standard unix command the ls command comes 
+the dir command has been added to linux and is not a standard unix command the ls command comes 
+from the unix tradition and is the command you'll explore in this course  
+the ls command lists the files in a directory this command takes several options and arguments 
+
+line editors allow you to work with a line of text at a time a screen editor displays an entire screen of text 
+a stream editor manipulates text as a stream of data, and is usually used in shell scripts, small programs 
+written for and executed by the shell the ex text editor is the foundation for vi, the screen editor we 
+used in a previous module you could call vi the visual mode of the underlying ex line editor 
+ed is generally no longer used as a line editor because it has been superceded by ex, but some utilities 
+like the diff command continue to use the ed syntax
+
+the screen editors vi and emacs are screen editors because you can view an entire screen of text for editing 
+you can see the changes you make as you make them because vi is a screen version of the ex editor, many of 
+the ex commands can be used in vi for example, you can still take advantage of the global replacement and 
+pattern searches of the underlying ex editor when using vi in fact, if you ever begin your vi command with 
+the colon, you are using an ex command in vi  remember the q command it comes from vi's ex roots
+
+a stream editor is a non-interactive or stream-oriented editor you do not view the text as you manipulate it 
+instead, you give your commands to the editor which runs the commands as a batch the standard input and 
+standard output apply to a stream editor like many unix programs you can of course redirect input and output 
+for a stream editor we will come back to stream editors later in the module, and look in detail at the sed stream editor
+
+this practice file will be used
+several times in this course
+
+although i am created this file with the cat command,
+later you will be editing it using vi
+
+a b c d
+2 3 4 5
+2 3 4 5
+a b c d
+e f g h
+
+vi permits global changes, reading/writing files, cutting and pasting, and 
+tailoring the environment to meet individual needs
+
+1 2 3 4 
+i j k l
+m n o p
+q r s t
+
+the ex editor will return the name of file, the total number of lines & characters, and give you the  
+colon command prompt you can also invoke the ex line editor in vi by typing a colon an ex command, 
+whether used in ex or in vi, consists of a line address, such as a line number, and a command if 
+you leave off the command, the print command display to the screen is assumed for example, 
+i could type 100 in the ex line editor and line 100 would display to the screen
+washington oregon california
+seattle, portland, san francisco
+washington spokane tacoma olympia
+oregon salem-springfield-oregon city
+california los angeles      sacramento      santa barbara
+add some text
+ci
+mnow i am adding text to the beginningadding text to the end of a line is easy
+i was in the middle of a line,it is essential to be able to place text above the current line
+the difference between i and a  
+the drmiapple baanana cat dog wolf am now adding more text
+what are the two modes of the visual editor
+there is more than one way to move
+eddveral times in this course
+
+although i am created this file with the cat command,
+later you will be editing it using vi
+
+a b c d
+2 3 4 5
+2 3 4 5
+a b c d
+e f g h
+
+vi permits global changes, reading/writing files, cutting and pasting, and 
+tailoring the environment to meet individual needs
+
+there is no need for a mouse, you can keep your fingers where they belong, 
+on the keyboard, everything is done through commands
+
+there are two commands that can be used to list directory contents-the dir and ls commands 
+
+there are two commands that can be used to list directory contents-the dir and ls commands 
+the dir command has been added to linux and is not a standard unix command the ls command comes 
+the dir command has been added to linux and is not a standard unix command the ls command comes 
+from the unix tradition and is the command you'll explore in this course  
+the ls command lists the files in a directory this command takes several options and arguments 
+
+line editors allow you to work with a line of text at a time a screen editor displays an entire screen of text 
+a stream editor manipulates text as a stream of data, and is usually used in shell scripts, small programs 
+written for and executed by the shell the ex text editor is the foundation for vi, the screen editor we 
+used in a previous module you could call vi the visual mode of the underlying ex line editor 
+ed is generally no longer used as a line editor because it has been superceded by ex, but some utilities 
+like the diff command continue to use the ed syntax
+
+the screen editors vi and emacs are screen editors because you can view an entire screen of text for editing 
+you can see the changes you make as you make them because vi is a screen version of the ex editor, many of 
+the ex commands can be used in vi for example, you can still take advantage of the global replacement and 
+pattern searches of the underlying ex editor when using vi in fact, if you ever begin your vi command with 
+the colon, you are using an ex command in vi  remember the q command it comes from vi's ex roots
+
+a stream editor is a non-interactive or stream-oriented editor you do not view the text as you manipulate it 
+instead, you give your commands to the editor which runs the commands as a batch the standard input and 
+standard output apply to a stream editor like many unix programs you can of course redirect input and output 
+for a stream editor we will come back to stream editors later in the module, and look in detail at the sed stream editor
+
+this practice file will be used
+several times in this course
+
+although i am created this file with the cat command,
+later you will be editing it using vi
+
+a b c d
+2 3 4 5
+2 3 4 5
+a b c d
+e f g h
+
+vi permits global changes, reading/writing files, cutting and pasting, and 
+tailoring the environment to meet individual needs
+
+1 2 3 4 
+i j k l
+m n o p
+q r s t
+
+the ex editor will return the name of file, the total number of lines & characters, and give you the  
+colon command prompt you can also invoke the ex line editor in vi by typing a colon an ex command, 
+whether used in ex or in vi, consists of a line address, such as a line number, and a command if 
+you leave off the command, the print command display to the screen is assumed for example, 
+i could type 100 in the ex line editor and line 100 would display to the screen
+]0;joshua@joshua-VirtualBox: ~/Desktop[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Desktop[00m$ cp wordsUsed4 wordsUsed 5[K[K5
+]0;joshua@joshua-VirtualBox: ~/Desktop[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Desktop[00m$ vi wordsUsed5
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"wordsUsed5" 4 lines, 70 characters[1;1Htr -d '?."!:.();' < manywords \
+| tr 'A-Z' 'a-z' \
+| tr '\t' '\n\n'
+
+[94m~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h
+
+[m| tr '\t' '\n\n
+[3;16H[?2004l[>4;m'[?25l [?25h[?25l\[?25h[?25l[4;23r[4;1H[L[1;24r[24;1H[K[4;1H[?25h[?25l|[?25h[?25l [?25h[?25ls[?25h[?25le[?25h[?25ld[?25h[?25l [?25h[?25l'[?25h[?25l\[?25h[?25l[?25h[?25l/[?25h[?25l^[?25h[?25l$[?25h[?25l/[?25h[?25ld[?25h[?25l'[?25h[?2004h[>4;2m[?25l[24;1H:[?2004h[?25hwq[?25l[?2004l"wordsUsed5" 5 lines, 86 characters written
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;joshua@joshua-VirtualBox: ~/Desktop[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Desktop[00m$ chmod +x wordsUsed5
+]0;joshua@joshua-VirtualBox: ~/Desktop[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Desktop[00m$ wordsUsed5
+add some text
+ci
+mnow i am adding text to the beginningadding text to the end of a line is easy
+i was in the middle of a line,it is essential to be able to place text above the current line
+the difference between i and a  
+the drmiapple baanana cat dog wolf am now adding more text
+what are the two modes of the visual editor
+there is more than one way to move
+eddveral times in this course
+although i am created this file with the cat command,
+later you will be editing it using vi
+a b c d
+2 3 4 5
+2 3 4 5
+a b c d
+e f g h
+vi permits global changes, reading/writing files, cutting and pasting, and 
+tailoring the environment to meet individual needs
+there is no need for a mouse, you can keep your fingers where they belong, 
+on the keyboard, everything is done through commands
+there are two commands that can be used to list directory contents-the dir and ls commands 
+there are two commands that can be used to list directory contents-the dir and ls commands 
+the dir command has been added to linux and is not a standard unix command the ls command comes 
+the dir command has been added to linux and is not a standard unix command the ls command comes 
+from the unix tradition and is the command you'll explore in this course  
+the ls command lists the files in a directory this command takes several options and arguments 
+line editors allow you to work with a line of text at a time a screen editor displays an entire screen of text 
+a stream editor manipulates text as a stream of data, and is usually used in shell scripts, small programs 
+written for and executed by the shell the ex text editor is the foundation for vi, the screen editor we 
+used in a previous module you could call vi the visual mode of the underlying ex line editor 
+ed is generally no longer used as a line editor because it has been superceded by ex, but some utilities 
+like the diff command continue to use the ed syntax
+the screen editors vi and emacs are screen editors because you can view an entire screen of text for editing 
+you can see the changes you make as you make them because vi is a screen version of the ex editor, many of 
+the ex commands can be used in vi for example, you can still take advantage of the global replacement and 
+pattern searches of the underlying ex editor when using vi in fact, if you ever begin your vi command with 
+the colon, you are using an ex command in vi  remember the q command it comes from vi's ex roots
+a stream editor is a non-interactive or stream-oriented editor you do not view the text as you manipulate it 
+instead, you give your commands to the editor which runs the commands as a batch the standard input and 
+standard output apply to a stream editor like many unix programs you can of course redirect input and output 
+for a stream editor we will come back to stream editors later in the module, and look in detail at the sed stream editor
+this practice file will be used
+several times in this course
+although i am created this file with the cat command,
+later you will be editing it using vi
+a b c d
+2 3 4 5
+2 3 4 5
+a b c d
+e f g h
+vi permits global changes, reading/writing files, cutting and pasting, and 
+tailoring the environment to meet individual needs
+1 2 3 4 
+i j k l
+m n o p
+q r s t
+the ex editor will return the name of file, the total number of lines & characters, and give you the  
+colon command prompt you can also invoke the ex line editor in vi by typing a colon an ex command, 
+whether used in ex or in vi, consists of a line address, such as a line number, and a command if 
+you leave off the command, the print command display to the screen is assumed for example, 
+i could type 100 in the ex line editor and line 100 would display to the screen
+washington oregon california
+seattle, portland, san francisco
+washington spokane tacoma olympia
+oregon salem-springfield-oregon city
+california los angeles      sacramento      santa barbara
+add some text
+ci
+mnow i am adding text to the beginningadding text to the end of a line is easy
+i was in the middle of a line,it is essential to be able to place text above the current line
+the difference between i and a  
+the drmiapple baanana cat dog wolf am now adding more text
+what are the two modes of the visual editor
+there is more than one way to move
+eddveral times in this course
+although i am created this file with the cat command,
+later you will be editing it using vi
+a b c d
+2 3 4 5
+2 3 4 5
+a b c d
+e f g h
+vi permits global changes, reading/writing files, cutting and pasting, and 
+tailoring the environment to meet individual needs
+there is no need for a mouse, you can keep your fingers where they belong, 
+on the keyboard, everything is done through commands
+there are two commands that can be used to list directory contents-the dir and ls commands 
+there are two commands that can be used to list directory contents-the dir and ls commands 
+the dir command has been added to linux and is not a standard unix command the ls command comes 
+the dir command has been added to linux and is not a standard unix command the ls command comes 
+from the unix tradition and is the command you'll explore in this course  
+the ls command lists the files in a directory this command takes several options and arguments 
+line editors allow you to work with a line of text at a time a screen editor displays an entire screen of text 
+a stream editor manipulates text as a stream of data, and is usually used in shell scripts, small programs 
+written for and executed by the shell the ex text editor is the foundation for vi, the screen editor we 
+used in a previous module you could call vi the visual mode of the underlying ex line editor 
+ed is generally no longer used as a line editor because it has been superceded by ex, but some utilities 
+like the diff command continue to use the ed syntax
+the screen editors vi and emacs are screen editors because you can view an entire screen of text for editing 
+you can see the changes you make as you make them because vi is a screen version of the ex editor, many of 
+the ex commands can be used in vi for example, you can still take advantage of the global replacement and 
+pattern searches of the underlying ex editor when using vi in fact, if you ever begin your vi command with 
+the colon, you are using an ex command in vi  remember the q command it comes from vi's ex roots
+a stream editor is a non-interactive or stream-oriented editor you do not view the text as you manipulate it 
+instead, you give your commands to the editor which runs the commands as a batch the standard input and 
+standard output apply to a stream editor like many unix programs you can of course redirect input and output 
+for a stream editor we will come back to stream editors later in the module, and look in detail at the sed stream editor
+this practice file will be used
+several times in this course
+although i am created this file with the cat command,
+later you will be editing it using vi
+a b c d
+2 3 4 5
+2 3 4 5
+a b c d
+e f g h
+vi permits global changes, reading/writing files, cutting and pasting, and 
+tailoring the environment to meet individual needs
+1 2 3 4 
+i j k l
+m n o p
+q r s t
+the ex editor will return the name of file, the total number of lines & characters, and give you the  
+colon command prompt you can also invoke the ex line editor in vi by typing a colon an ex command, 
+whether used in ex or in vi, consists of a line address, such as a line number, and a command if 
+you leave off the command, the print command display to the screen is assumed for example, 
+i could type 100 in the ex line editor and line 100 would display to the screen
+]0;joshua@joshua-VirtualBox: ~/Desktop[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Desktop[00m$ cp Words[K[K[K[K[KwordsUsed5 wordsUsed6
+]0;joshua@joshua-VirtualBox: ~/Desktop[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Desktop[00m$ vi wordsUsed6
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"wordsUsed6" 5 lines, 86 characters[1;1Htr -d '?."!:.();' < manywords \
+| tr 'A-Z' 'a-z' \
+| tr '\t' '\n\n' \
+| sed '/^$/d'
+
+[94m~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h
+
+
+
+[4;1H[m| sed '/^$/d[?2004l[>4;m'[?25l [?25h[?25l\[?25h[?25l[5;23r[5;1H[L[1;24r[24;1H[K[5;1H[?25h[?25l|[?25h[?25l [?25h[?25ls[?25h[?25lo[?25h[?25lr[?25h[?25lt[?25h[?2004h[>4;2m[?25l[24;1H:[?2004h[?25hwq[?25l[?2004l"wordsUsed6" 6 lines, 95 characters written
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;joshua@joshua-VirtualBox: ~/Desktop[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Desktop[00m$ chmod +X [K[Kx wordsUsed 6
+chmod: cannot access 'wordsUsed': No such file or directory
+chmod: cannot access '6': No such file or directory
+]0;joshua@joshua-VirtualBox: ~/Desktop[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Desktop[00m$ cp[K[Kchmod +x wordsUsed6
+]0;joshua@joshua-VirtualBox: ~/Desktop[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Desktop[00m$ cp wordsUsed 6 w[K[K[K[K6 wordsUsed7
+]0;joshua@joshua-VirtualBox: ~/Desktop[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Desktop[00m$ vi wordsUsed7
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"wordsUsed7" 6 lines, 95 characters[1;1Htr -d '?."!:.();' < manywords \
+| tr 'A-Z' 'a-z' \
+| tr '\t' '\n\n' \
+| sed '/^$/d' \
+| sort
+
+[94m~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h
+
+
+
+
+[5;1H[m| sor[?2004l[>4;mt[?25l [?25h[?25l\[?25h[?25l[6;23r[6;1H[L[1;24r[24;1H[K[6;1H[?25h[?2004h[>4;2m[?25l[24;1H1 line less; before #1  8 seconds ago[5;23r[23;1H
+[1;24r[5;1H| sort[23;1H[94m~                                                                               [m[24;1H[K[24;1H1 line less; before #1  8 seconds ago[5;6H[?25h[?2004l[>4;mt[?25l [?25h[?25l|[?25h[?25l [?25h[?25lu[?25h[?25ln[?25h[?25li[?25h[?25lq[?25h[?25l [?25h[?25l-[?25h[?25lc[?25h[?2004h[>4;2m[?25l[24;1H[K[24;1H:[?2004h[?25hwq[?25l[?2004l"wordsUsed7" 6 lines, 105 characters written
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;joshua@joshua-VirtualBox: ~/Desktop[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Desktop[00m$ chmod +x wordsUsed8
+chmod: cannot access 'wordsUsed8': No such file or directory
+]0;joshua@joshua-VirtualBox: ~/Desktop[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Desktop[00m$ wo[K[Kchmod+x [K[K[K +x wordsUsed7
+]0;joshua@joshua-VirtualBox: ~/Desktop[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Desktop[00m$ cp wordsUsed7 w[Kc[KwordsUsed8
+]0;joshua@joshua-VirtualBox: ~/Desktop[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Desktop[00m$ vi wordsUsed8
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"wordsUsed8" 6 lines, 105 characters[1;1Htr -d '?."!:.();' < manywords \
+| tr 'A-Z' 'a-z' \
+| tr '\t' '\n\n' \
+| sed '/^$/d' \
+| sort | uniq -c
+
+[94m~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h
+
+
+
+
+[5;1H[m| sort | uniq -[?2004l[>4;mc[?25l\[?25h[?25l[?25h[?25l [?25h[?25l\[?25h[?25l[6;23r[6;1H[L[1;24r[24;1H[K[6;1H[?25h[?25ls[?25h[?25l[?25h[?25l|[?25h[?25ls[?25h[?25lo[?25h[?25lr[?25h[?25lt[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l [?25h[?25ls[?25h[?25lo[?25h[?25lr[?25h[?25lt[?25h[?25l [?25h[?25l-[?25h[?25lr[?25h[?25ln[?25h[?25l[7;23r[7;1H[L[1;24r[7;1H[?25h[?2004h[>4;2m[?25l[24;1H:[?2004h[?25hwq[?25l[?2004l"wordsUsed8" 8 lines, 119 characters written
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;joshua@joshua-VirtualBox: ~/Desktop[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Desktop[00m$ chmod +x wordsUsed7[K8
+]0;joshua@joshua-VirtualBox: ~/Desktop[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Desktop[00m$ exi[K[K[KwordsUsed78[K[K8
+      8 a b c d
+      8 2 3 4 5
+      4 vi permits global changes, reading/writing files, cutting and pasting, and 
+      4 there are two commands that can be used to list directory contents-the dir and ls commands 
+      4 the dir command has been added to linux and is not a standard unix command the ls command comes 
+      4 tailoring the environment to meet individual needs
+      4 later you will be editing it using vi
+      4 e f g h
+      4 although i am created this file with the cat command,
+      2 you leave off the command, the print command display to the screen is assumed for example, 
+      2 you can see the changes you make as you make them because vi is a screen version of the ex editor, many of 
+      2 written for and executed by the shell the ex text editor is the foundation for vi, the screen editor we 
+      2 whether used in ex or in vi, consists of a line address, such as a line number, and a command if 
+      2 what are the two modes of the visual editor
+      2 used in a previous module you could call vi the visual mode of the underlying ex line editor 
+      2 this practice file will be used
+      2 the screen editors vi and emacs are screen editors because you can view an entire screen of text for editing 
+      2 there is no need for a mouse, you can keep your fingers where they belong, 
+      2 there is more than one way to move
+      2 the ls command lists the files in a directory this command takes several options and arguments 
+      2 the ex editor will return the name of file, the total number of lines & characters, and give you the  
+      2 the ex commands can be used in vi for example, you can still take advantage of the global replacement and 
+      2 the drmiapple baanana cat dog wolf am now adding more text
+      2 the difference between i and a  
+      2 the colon, you are using an ex command in vi  remember the q command it comes from vi's ex roots
+      2 standard output apply to a stream editor like many unix programs you can of course redirect input and output 
+      2 several times in this course
+      2 q r s t
+      2 pattern searches of the underlying ex editor when using vi in fact, if you ever begin your vi command with 
+      2 on the keyboard, everything is done through commands
+      2 mnow i am adding text to the beginningadding text to the end of a line is easy
+      2 m n o p
+      2 line editors allow you to work with a line of text at a time a screen editor displays an entire screen of text 
+      2 like the diff command continue to use the ed syntax
+      2 i was in the middle of a line,it is essential to be able to place text above the current line
+      2 instead, you give your commands to the editor which runs the commands as a batch the standard input and 
+      2 i j k l
+      2 i could type 100 in the ex line editor and line 100 would display to the screen
+      2 from the unix tradition and is the command you'll explore in this course  
+      2 for a stream editor we will come back to stream editors later in the module, and look in detail at the sed stream editor
+      2 ed is generally no longer used as a line editor because it has been superceded by ex, but some utilities 
+      2 eddveral times in this course
+      2 colon command prompt you can also invoke the ex line editor in vi by typing a colon an ex command, 
+      2 ci
+      2 a stream editor manipulates text as a stream of data, and is usually used in shell scripts, small programs 
+      2 a stream editor is a non-interactive or stream-oriented editor you do not view the text as you manipulate it 
+      2 add some text
+      2 1 2 3 4 
+      1 washington spokane tacoma olympia
+      1 washington oregon california
+      1 seattle, portland, san francisco
+      1 oregon salem-springfield-oregon city
+      1 california los angeles      sacramento      santa barbara
+]0;joshua@joshua-VirtualBox: ~/Desktop[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Desktop[00m$ cp wordsUsed8 wordsUsed
+]0;joshua@joshua-VirtualBox: ~/Desktop[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Desktop[00m$ vi wordUsed
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"wordUsed" [New File][2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[m[24;1H[K[24;1H:[?2004h[?25hq[?25l[?2004l[24;1H[K[24;1H[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;joshua@joshua-VirtualBox: ~/Desktop[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Desktop[00m$ vi wordsUsed
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"wordsUsed" 8 lines, 119 characters[1;1Htr -d '?."!:.();' < manywords \
+| tr 'A-Z' 'a-z' \
+| tr '\t' '\n\n' \
+| sed '/^$/d' \
+| sort | uniq -c \
+| sort -rn
+
+
+[94m~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h
+
+
+
+
+[m| sort -r[?2004l[>4;mn[?25l [?25h[?25l\[?25h[?25l[7;23r[7;1H[L[1;24r[24;1H[K[7;1H[?25h[?25l|[?25h[?25l [?25h[?25lt[?25h[?25le[?25h[?25le[?25h[?25le[?25h[?25l[?25h[?25l [?25h[?25lw[?25h[?25lo[?25h[?25lr[?25h[?25ld[?25h[?25ls[?25h[?25l.[?25h[?25lo[?25h[?25lu[?25h[?25lt[?25h[?25l [?25h[?25l|[?25h[?25l [?25h[?25lw[?25h[?25lc[?25h[?25l [?25h[?25l-[?25h[?25ll[?25h[?2004h[>4;2m[?25l[24;1H:[?2004h[?25hwq[?25l[?2004l"wordsUsed" 9 lines, 145 characters written
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;joshua@joshua-VirtualBox: ~/Desktop[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Desktop[00m$ chmod +x wordsUsed
+]0;joshua@joshua-VirtualBox: ~/Desktop[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Desktop[00m$ wordsUsed
+53
+]0;joshua@joshua-VirtualBox: ~/Desktop[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Desktop[00m$ words[K[K[K[K[Kwords.out
+bash: ./words.out: Permission denied
+]0;joshua@joshua-VirtualBox: ~/Desktop[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Desktop[00m$ vi wordso[K.out
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"words.out" 53 lines, 3858 characters[1;7H8 a b c d[2;7H8 2 3 4 5[3;7H4 vi permits global changes, reading/writing files, cutting and pasting, aa[4;1Hnd[5;7H4 there are two commands that can be used to list directory contents-the dd[6;1Hir and ls commands[7;7H4 the dir command has been added to linux and is not a standard unix commaa[8;1Hnd the ls command comes[9;7H4 tailoring the environment to meet individual needs[10;7H4 later you will be editing it using vi[11;7H4 e f g h[12;7H4 although i am created this file with the cat command,[13;7H2 you leave off the command, the print command display to the screen is ass[14;1Hsumed for example,[15;7H2 you can see the changes you make as you make them because vi is a screenn[16;1H version of the ex editor, many of[17;7H2 written for and executed by the shell the ex text editor is the foundatii[18;1Hon for vi, the screen editor we[19;7H2 whether used in ex or in vi, consists of a line address, such as a line  [20;1Hnumber, and a command if[21;7H2 what are the two modes of the visual editor[22;7H2 used in a previous module you could call vi the visual mode of the underr[23;1Hlying ex line editor[1;7H[?25h[?25l[24;1H[K[24;1H:[?2004h[?25hq[?25l[?2004l[24;1H[K[24;1H[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;joshua@joshua-VirtualBox: ~/Desktop[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Desktop[00m$ exit
+exit
+
+Script done on 2022-02-06 14:00:30-08:00 [COMMAND_EXIT_CODE="0"]
