@@ -1,0 +1,2506 @@
+Script started on 2022-02-21 15:32:43-08:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ pwd
+/home/joshua
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ grep $User /etc[K[K[K[K[K[K[K[KSER /etc/ass[K[K[Kpasswd
+[01;31m[Kjoshua[m[K:x:1000:1000:Joshua,,,:/home/[01;31m[Kjoshua[m[K:/bin/bash
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls
+[0m[01;34ma[0m                  lab1.txt    [01;34mProjects[0m         test-g
+c1                 lab4.txt    [01;34mPublic[0m           test-list
+c2                 lab5.txt    quiz3.txt        test-sor
+c3                 lab6.txt    [01;34mRecommendations[0m  test.txt
+cl                 lost-days   [01;34mrepos[0m            total
+[01;34mDesktop[0m            manywords   respected        trouble
+[01;34mDocuments[0m          me_A        [01;34mResumes[0m          users_on
+[01;34mDownloads[0m          month       review           users_test
+el                 [01;34mMusic[0m       script1          [01;34mVideos[0m
+[01;34mexam1[0m              [01;32mmydata.txt[0m  script.js        west-coast.names
+file2              myerr       second_file      words.out
+file.info1         myfile1     short-pass       [01;32mwordsUsed[0m
+file.info2         myoutput    s-mypasswd       [01;32mwordsUsed1[0m
+first_file         mypasswd    sortedsp3        [01;32mwordsUsed2[0m
+[01;34mfoo[0m                names.tmp   sorted-test-sor  [01;32mwordsUsed3[0m
+footer             newfile1A   sort-test        [01;32mwordsUsed4[0m
+footer.1           newfile2B2  sp2              [01;32mwordsUsed5[0m
+footer.2           [01;34mPapers[0m      sp3              [01;32mwordsUsed6[0m
+index.html         phon        style.css        [01;32mwordsUsed7[0m
+installation.txt   [01;34mPictures[0m    [01;34mTemplates[0m        [01;32mwordsUsed8[0m
+JoshuaLe-lab2.txt  practice    test-file1
+journal            [01;34mPrivate[0m     test-file2
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ who > f-name
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ date > journal
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls -i
+665075 [0m[01;34ma[0m                  280644 me_A             280808 sortedsp3
+280731 c1                 280847 month            280805 sorted-test-sor
+280729 c2                 431970 [01;34mMusic[0m            280733 sort-test
+280730 c3                 280646 [01;32mmydata.txt[0m       280806 sp2
+280728 cl                 280714 myerr            280807 sp3
+280287 [01;34mDesktop[0m            280643 myfile1          280487 style.css
+431969 [01;34mDocuments[0m          280483 myoutput         431967 [01;34mTemplates[0m
+280288 [01;34mDownloads[0m          280722 mypasswd         280645 test-file1
+280727 el                 280801 names.tmp        280713 test-file2
+280469 [01;34mexam1[0m              280809 newfile1A        280800 test-g
+280736 file2              280810 newfile2B2       280737 test-list
+280686 file.info1         664368 [01;34mPapers[0m           280802 test-sor
+280798 file.info2         280723 phon             280480 test.txt
+280734 first_file         431971 [01;34mPictures[0m         280732 total
+280448 f-name             280743 practice         280848 trouble
+665065 [01;34mfoo[0m                280719 [01;34mPrivate[0m          280720 users_on
+280717 footer             664369 [01;34mProjects[0m         280846 users_test
+280715 footer.1           431968 [01;34mPublic[0m           431972 [01;34mVideos[0m
+280716 footer.2           280474 quiz3.txt        280814 west-coast.names
+280476 index.html         664370 [01;34mRecommendations[0m  280827 words.out
+280639 installation.txt   280396 [01;34mrepos[0m            280826 [01;32mwordsUsed[0m
+280718 JoshuaLe-lab2.txt  280803 respected        280819 [01;32mwordsUsed1[0m
+280845 journal            434784 [01;34mResumes[0m          280817 [01;32mwordsUsed2[0m
+280400 lab1.txt           280741 review           280820 [01;32mwordsUsed3[0m
+280799 lab4.txt           280792 script1          280821 [01;32mwordsUsed4[0m
+280398 lab5.txt           280486 script.js        280822 [01;32mwordsUsed5[0m
+274051 lab6.txt           280735 second_file      280823 [01;32mwordsUsed6[0m
+280721 lost-days          280804 short-pass       280824 [01;32mwordsUsed7[0m
+280813 manywords          280726 s-mypasswd       280825 [01;32mwordsUsed8[0m
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ who > users_test
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls -i | more
+665075 a
+280731 c1
+280729 c2
+280730 c3
+280728 cl
+280287 Desktop
+431969 Documents
+280288 Downloads
+280727 el
+280469 exam1
+280736 file2
+280686 file.info1
+280798 file.info2
+280734 first_file
+280448 f-name
+665065 foo
+280717 footer
+280715 footer.1
+280716 footer.2
+280476 index.html
+280639 installation.txt
+280718 JoshuaLe-lab2.txt
+280845 journal
+[7m--More--[27m[K]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls
+[0m[01;34ma[0m                  journal     [01;34mPrivate[0m          test-file2
+c1                 lab1.txt    [01;34mProjects[0m         test-g
+c2                 lab4.txt    [01;34mPublic[0m           test-list
+c3                 lab5.txt    quiz3.txt        test-sor
+cl                 lab6.txt    [01;34mRecommendations[0m  test.txt
+[01;34mDesktop[0m            lost-days   [01;34mrepos[0m            total
+[01;34mDocuments[0m          manywords   respected        trouble
+[01;34mDownloads[0m          me_A        [01;34mResumes[0m          users_on
+el                 month       review           users_test
+[01;34mexam1[0m              [01;34mMusic[0m       script1          [01;34mVideos[0m
+file2              [01;32mmydata.txt[0m  script.js        west-coast.names
+file.info1         myerr       second_file      words.out
+file.info2         myfile1     short-pass       [01;32mwordsUsed[0m
+first_file         myoutput    s-mypasswd       [01;32mwordsUsed1[0m
+f-name             mypasswd    sortedsp3        [01;32mwordsUsed2[0m
+[01;34mfoo[0m                names.tmp   sorted-test-sor  [01;32mwordsUsed3[0m
+footer             newfile1A   sort-test        [01;32mwordsUsed4[0m
+footer.1           newfile2B2  sp2              [01;32mwordsUsed5[0m
+footer.2           [01;34mPapers[0m      sp3              [01;32mwordsUsed6[0m
+index.html         phon        style.css        [01;32mwordsUsed7[0m
+installation.txt   [01;34mPictures[0m    [01;34mTemplates[0m        [01;32mwordsUsed8[0m
+JoshuaLe-lab2.txt  practice    test-file1
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls -l Projects
+total 8
+-rw-rw-r-- 1 joshua joshua  44 Feb 20 18:38 f-name
+-rw-rw-r-- 1 joshua joshua 188 Feb 20 18:43 month
+-rw-rw-r-- 1 joshua joshua   0 Feb 20 18:41 testing
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls -ld Projects
+drwxrwxr-x 2 joshua joshua 4096 Feb 20 18:43 [0m[01;34mProjects[0m
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls -F
+[0m[01;34ma[0m/                 journal      [01;34mPrivate[0m/          test-file2
+c1                 lab1.txt     [01;34mProjects[0m/         test-g
+c2                 lab4.txt     [01;34mPublic[0m/           test-list
+c3                 lab5.txt     quiz3.txt         test-sor
+cl                 lab6.txt     [01;34mRecommendations[0m/  test.txt
+[01;34mDesktop[0m/           lost-days    [01;34mrepos[0m/            total
+[01;34mDocuments[0m/         manywords    respected         trouble
+[01;34mDownloads[0m/         me_A         [01;34mResumes[0m/          users_on
+el                 month        review            users_test
+[01;34mexam1[0m/             [01;34mMusic[0m/       script1           [01;34mVideos[0m/
+file2              [01;32mmydata.txt[0m*  script.js         west-coast.names
+file.info1         myerr        second_file       words.out
+file.info2         myfile1      short-pass        [01;32mwordsUsed[0m*
+first_file         myoutput     s-mypasswd        [01;32mwordsUsed1[0m*
+f-name             mypasswd     sortedsp3         [01;32mwordsUsed2[0m*
+[01;34mfoo[0m/               names.tmp    sorted-test-sor   [01;32mwordsUsed3[0m*
+footer             newfile1A    sort-test         [01;32mwordsUsed4[0m*
+footer.1           newfile2B2   sp2               [01;32mwordsUsed5[0m*
+footer.2           [01;34mPapers[0m/      sp3               [01;32mwordsUsed6[0m*
+index.html         phon         style.css         [01;32mwordsUsed7[0m*
+installation.txt   [01;34mPictures[0m/    [01;34mTemplates[0m/        [01;32mwordsUsed8[0m*
+JoshuaLe-lab2.txt  practice     test-file1
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls [K[K[Kmore proj[K[K[K[KPRojectZ[K[K[K[K[K[K[KrojectZ
+more: stat of ProjectZ failed: No such file or directory
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ cd Projects/
+]0;joshua@joshua-VirtualBox: ~/Projects[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects[00m$ ls
+f-name  month  testing
+]0;joshua@joshua-VirtualBox: ~/Projects[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects[00m$ cd
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls -l Projects
+total 8
+-rw-rw-r-- 1 joshua joshua  44 Feb 20 18:38 f-name
+-rw-rw-r-- 1 joshua joshua 188 Feb 20 18:43 month
+-rw-rw-r-- 1 joshua joshua   0 Feb 20 18:41 testing
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls -ld Projects
+drwxrwxr-x 2 joshua joshua 4096 Feb 20 18:43 [0m[01;34mProjects[0m
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls -r[KR -C | more
+.:
+a		   journal     Private		test-file2
+c1		   lab1.txt    Projects		test-g
+c2		   lab4.txt    Public		test-list
+c3		   lab5.txt    quiz3.txt	test-sor
+cl		   lab6.txt    Recommendations	test.txt
+Desktop		   lost-days   repos		total
+Documents	   manywords   respected	trouble
+Downloads	   me_A        Resumes		users_on
+el		   month       review		users_test
+exam1		   Music       script1		Videos
+file2		   mydata.txt  script.js	west-coast.names
+file.info1	   myerr       second_file	words.out
+file.info2	   myfile1     short-pass	wordsUsed
+first_file	   myoutput    s-mypasswd	wordsUsed1
+f-name		   mypasswd    sortedsp3	wordsUsed2
+foo		   names.tmp   sorted-test-sor	wordsUsed3
+footer		   newfile1A   sort-test	wordsUsed4
+footer.1	   newfile2B2  sp2		wordsUsed5
+footer.2	   Papers      sp3		wordsUsed6
+index.html	   phon        style.css	wordsUsed7
+installation.txt   Pictures    Templates	wordsUsed8
+JoshuaLe-lab2.txt  practice    test-file1
+[7m--More--[27m[K
+./a:
+b
+
+./a/b:
+c
+
+./a/b/c:
+
+./Desktop:
+mit-scheme-11.2  mit-scheme-11.2-x86-64.tar.gz	Project 1.odt  users_on
+
+./Desktop/mit-scheme-11.2:
+dist  doc  etc	src  Tags.sh  tests  v8
+
+./Desktop/mit-scheme-11.2/dist:
+copyright.c	Makefile	   make-scmutils       scheme-inst.nsi
+copyright.scm	make-liarc-files   make-src-files      shared.sh
+index.html	make-macosx-app    make-upload-files   update-copyright.scm
+make-doc-files	make-native-files  parameter-plan.txt
+
+./Desktop/mit-scheme-11.2/doc:
+autom4te.cache	ffi	    install-sh	    mit-scheme.1   sos
+[7m--More--[27mconfigure	index.html  make-common.in  mkinstalldirs  user-manual
+configure.ac	info-dir    Makefile.in     ref-manual
+
+./Desktop/mit-scheme-11.2/doc/autom4te.cache:
+output.0  requests  traces.0
+
+./Desktop/mit-scheme-11.2/doc/ffi:
+ffi.texinfo  Makefile.in  prhello.cdecl  prhello-Makefile  prhello.scm
+
+./Desktop/mit-scheme-11.2/doc/ref-manual:
+acknowledgements.texi  fig		    overview.texi
+associations.texi      gfdl.texinfo	    procedures.texi
+binding-index.texi     graphics.texi	    scheme.texinfo
+bit-strings.texi       io.texi		    special-forms.texi
+characters.texi        lists.texi	    standards.texi
+concept-index.texi     Makefile.in	    strings.texi
+environments.texi      misc-datatypes.texi  tools.scm
+equivalence.texi       numbers.texi	    vectors.texi
+error.texi	       os-interface.texi    win32-packaging.texi
+
+./Desktop/mit-scheme-11.2/doc/ref-manual/fig:
+cn-expm1.eps.in		cn-logitexp.eps.in     log1pexp.eps.in
+cn-log1mexp.eps.in	cn-logithalf.eps.in    logistic.eps.in
+[7m--More--[27mcn-log1p.eps.in		cn-loglogistic.eps.in  logistichalf.eps.in
+cn-log1pexp.eps.in	common		       logit.eps.in
+cn-logistic.eps.in	expm1.eps.in	       logitexp.eps.in
+cn-logistichalf.eps.in	log1mexp.eps.in        logithalf.eps.in
+cn-logit.eps.in		log1p.eps.in	       loglogistic.eps.in
+
+./Desktop/mit-scheme-11.2/doc/ref-manual/fig/common:
+ad.ps  debug.ps  linsplin.ps  math.ps  newton.ps  plot.ps  splinterp.ps
+
+./Desktop/mit-scheme-11.2/doc/sos:
+Makefile.in  sos.texinfo
+
+./Desktop/mit-scheme-11.2/doc/user-manual:
+Makefile.in  user.texinfo
+
+./Desktop/mit-scheme-11.2/etc:
+bootstrap.scm  nrwcopyr.el		   rebuild-7.4
+build-tree.sh  packc386.scm		   rebuild-7.4-linux
+check-crefs    pack-compiler-alpha.scm	   rebuild-8.0
+dirdif.scm     pack-compiler-mc68k.scm	   redump
+dumpdat.scm    pack-compiler-mips.scm	   resyntax
+make_bin       pack-compiler.scm	   resyntax.scm
+make_dist      pack-compiler-spectrum.scm  run-three-stages
+[7m--More--[27mmake-git-log   pack-edwin.scm		   scheme.el
+make_psb       pack-edwin-unix.scm	   update-rcs-log
+make_runtime   packew32.scm		   update-rcs-log.in
+mkauto.bat     pack.scm			   xscheme.el
+mkband.scm     r2bs.scm
+mkopt.bat      rebuild
+
+./Desktop/mit-scheme-11.2/src:
+6001		config.sub    lib		 README.txt	   star-parser
+autom4te.cache	configure     libraries		 relnotes	   Tags.sh
+berkeley-db	configure.ac  Makefile		 run-build	   tools
+blowfish	COPYING       Makefile.in	 runtime	   win32
+Clean.sh	cref	      makefiles_created  Setup.sh	   x11
+compiler	edwin	      Makefile.tools	 sf		   x11-screen
+confdefs.h	etc	      Makefile.tools.in  sos		   xdoc
+config.guess	ffi	      mcrypt		 ssp		   xml
+config.log	gdbm	      microcode		 Stage.sh
+config.status	imail	      pgsql		 stamp_cross-host
+
+./Desktop/mit-scheme-11.2/src/6001:
+6001.cbf   Clean.sh	Makefile-fragment  pic-imag.scm  picture.scm
+6001.pkg   edextra.scm	Makefile.in	   pic-ops.scm	 Setup.sh
+6001.sf    floppy.scm	make.scm	   pic-read.scm  Stage.sh
+[7m--More--[27marith.scm  Makefile	nodefs.scm	   pic-reco.scm  Tags.sh
+
+./Desktop/mit-scheme-11.2/src/autom4te.cache:
+output.0  requests  traces.0
+
+./Desktop/mit-scheme-11.2/src/berkeley-db:
+berkeley-db.scm  configure.ac  prdb4.c	prdb4.scm  README
+
+./Desktop/mit-scheme-11.2/src/blowfish:
+aclocal.m4	    blowfish-shim.h    configure.ac  mdate-sh
+AUTHORS		    blowfish-test.scm  COPYING	     missing
+autogen.sh	    ChangeLog	       depcomp	     mit-scheme-blowfish.texi
+autom4te.cache	    compile	       INSTALL	     NEWS
+blowfish-adapter.c  compile.scm        install-sh    optiondb.scm
+blowfish.cdecl	    compile.sh	       ltmain.sh     README
+blowfish-check.scm  config.guess       m4	     tags-fix.sh
+blowfish-check.sh   config.h.in        Makefile.am   test-driver
+blowfish.pkg	    config.sub	       Makefile.in   texinfo.tex
+blowfish.scm	    configure	       make.scm
+
+./Desktop/mit-scheme-11.2/src/blowfish/autom4te.cache:
+output.0  output.2  requests  traces.1	traces.3
+output.1  output.3  traces.0  traces.2
+[7m--More--[27m[K
+./Desktop/mit-scheme-11.2/src/blowfish/m4:
+libtool.m4  lt~obsolete.m4  ltoptions.m4  ltsugar.m4  ltversion.m4
+
+./Desktop/mit-scheme-11.2/src/compiler:
+back		   compiler-unx.crf  fggen	   Makefile	      Setup.sh
+base		   compiler-unx.fre  fgopt	   Makefile-fragment  Stage.sh
+choose-machine.sh  compiler-unx.pkd  improvements  Makefile.in	      Tags.sh
+Clean.sh	   config.guess      machine	   README	      tests
+compiler.cbf	   configure	     machines	   rtlbase
+compiler.pkg	   documentation     make.bin	   rtlgen
+compiler.sf	   etc		     make.com	   rtlopt
+
+./Desktop/mit-scheme-11.2/src/compiler/back:
+asmmac.bci  bittop.ext	insseq.bin  lapgn3.bin	mermap.scm  symtab.com
+asmmac.bin  bittop.scm	insseq.com  lapgn3.com	regmap.bci  symtab.ext
+asmmac.com  bitutl.bci	insseq.scm  lapgn3.ext	regmap.bin  symtab.scm
+asmmac.scm  bitutl.bin	lapgn1.bci  lapgn3.scm	regmap.com  syntax.bci
+asutl.bci   bitutl.com	lapgn1.bin  linear.bci	regmap.ext  syntax.bin
+asutl.bin   bitutl.ext	lapgn1.com  linear.bin	regmap.scm  syntax.com
+asutl.com   bitutl.scm	lapgn1.scm  linear.com	syerly.bci  syntax.ext
+asutl.ext   checks.bci	lapgn2.bci  linear.ext	syerly.bin  syntax.scm
+asutl.scm   checks.bin	lapgn2.bin  linear.scm	syerly.com
+[7m--More--[27mbittop.bci  checks.com	lapgn2.com  mermap.bci	syerly.scm
+bittop.bin  checks.scm	lapgn2.scm  mermap.bin	symtab.bci
+bittop.com  insseq.bci	lapgn3.bci  mermap.com	symtab.bin
+
+./Desktop/mit-scheme-11.2/src/compiler/base:
+asstop.bci  constr.bci	ctypes.scm   macros.bci  pmlook.com  scode.com
+asstop.bin  constr.bin	debug.bci    macros.bin  pmlook.ext  scode.scm
+asstop.com  constr.com	debug.bin    macros.com  pmlook.scm  sets.bci
+asstop.scm  constr.ext	debug.com    macros.scm  pmpars.bci  sets.bin
+blocks.bci  constr.scm	debug.scm    make.bci	 pmpars.bin  sets.com
+blocks.bin  contin.bci	enumer.bci   make.bin	 pmpars.com  sets.scm
+blocks.com  contin.bin	enumer.bin   make.com	 pmpars.scm  subprb.bci
+blocks.ext  contin.com	enumer.com   make.scm	 proced.bci  subprb.bin
+blocks.scm  contin.ext	enumer.ext   mvalue.bci  proced.bin  subprb.com
+cfg1.bci    contin.scm	enumer.scm   mvalue.bin  proced.com  subprb.ext
+cfg1.bin    crsend.bci	fasdump.bci  mvalue.com  proced.ext  subprb.scm
+cfg1.com    crsend.bin	fasdump.bin  mvalue.scm  proced.scm  switch.bci
+cfg1.ext    crsend.com	fasdump.com  object.bci  refctx.bci  switch.bin
+cfg1.scm    crsend.ext	fasdump.scm  object.bin  refctx.bin  switch.com
+cfg2.bci    crsend.scm	infnew.bci   object.com  refctx.com  switch.scm
+cfg2.bin    crstop.bci	infnew.bin   object.ext  refctx.ext  toplev.bci
+cfg2.com    crstop.bin	infnew.com   object.scm  refctx.scm  toplev.bin
+cfg2.ext    crstop.com	infnew.ext   pmerly.bci  rvalue.bci  toplev.com
+[7m--More--[27mcfg2.scm    crstop.ext	infnew.scm   pmerly.bin  rvalue.bin  toplev.scm
+cfg3.bci    crstop.scm	lvalue.bci   pmerly.com  rvalue.com  utils.bci
+cfg3.bin    ctypes.bci	lvalue.bin   pmerly.ext  rvalue.ext  utils.bin
+cfg3.com    ctypes.bin	lvalue.com   pmerly.scm  rvalue.scm  utils.com
+cfg3.ext    ctypes.com	lvalue.ext   pmlook.bci  scode.bci   utils.ext
+cfg3.scm    ctypes.ext	lvalue.scm   pmlook.bin  scode.bin   utils.scm
+
+./Desktop/mit-scheme-11.2/src/compiler/documentation:
+cmpaux.txt  facts.txt  notes.txt      safety.txt  test-c.c
+cmpint.txt  files.txt  porting.guide  TASKS	  todo.txt
+
+./Desktop/mit-scheme-11.2/src/compiler/etc:
+asm.scm  comcmp.scm  comfiles.scm  disload.scm	stackp.scm  xcbfdir.scm
+
+./Desktop/mit-scheme-11.2/src/compiler/fggen:
+canon.bci  canon.com  canon.scm   declar.bin  declar.scm  fggen.bin  fggen.ext
+canon.bin  canon.ext  declar.bci  declar.com  fggen.bci   fggen.com  fggen.scm
+
+./Desktop/mit-scheme-11.2/src/compiler/fgopt:
+blktyp.bci  contan.bin	folcon.bci  order.scm  reteqv.bci  simapp.ext
+blktyp.bin  contan.com	folcon.bin  outer.bci  reteqv.bin  simapp.scm
+blktyp.com  contan.scm	folcon.com  outer.bin  reteqv.com  simple.bci
+blktyp.ext  delint.bci	folcon.scm  outer.com  reteqv.scm  simple.bin
+[7m--More--[27mblktyp.scm  delint.bin	offset.bci  outer.scm  reuse.bci   simple.com
+closan.bci  delint.com	offset.bin  param.bci  reuse.bin   simple.scm
+closan.bin  delint.scm	offset.com  param.bin  reuse.com   subfre.bci
+closan.com  desenv.bci	offset.scm  param.com  reuse.scm   subfre.bin
+closan.ext  desenv.bin	operan.bci  param.ext  sideff.bci  subfre.com
+closan.scm  desenv.com	operan.bin  param.scm  sideff.bin  subfre.scm
+conect.bci  desenv.scm	operan.com  reord.bci  sideff.com  varind.bci
+conect.bin  envopt.bci	operan.scm  reord.bin  sideff.scm  varind.bin
+conect.com  envopt.bin	order.bci   reord.com  simapp.bci  varind.com
+conect.scm  envopt.com	order.bin   reord.ext  simapp.bin  varind.scm
+contan.bci  envopt.scm	order.com   reord.scm  simapp.com
+
+./Desktop/mit-scheme-11.2/src/compiler/improvements:
+comcon.scm  gasn.scm  rewsub.scm
+
+./Desktop/mit-scheme-11.2/src/compiler/machines:
+aarch64  C  i386  svm  x86-64
+
+./Desktop/mit-scheme-11.2/src/compiler/machines/aarch64:
+assmd.scm	decls.scm   insutl.scm	       rgspcm.scm  rulflo.scm
+big-endian.scm	endian.scm  lapgen.scm	       rules1.scm  rulrew.scm
+coerce.scm	insmac.scm  lapopt.scm	       rules2.scm  TODO
+compiler.cbf	instr1.scm  little-endian.scm  rules3.scm
+[7m--More--[27mcompiler.pkg	instr2.scm  machine.scm        rules4.scm
+compiler.sf	instrf.scm  make.scm	       rulfix.scm
+
+./Desktop/mit-scheme-11.2/src/compiler/machines/C:
+compiler.cbf  ctop.scm	  machin.scm  rules2.scm  rulflo.scm	TODO
+compiler.pkg  cutl.scm	  make.scm    rules3.scm  rulrew.scm	traditional.scm
+compiler.sf   decls.scm   rgspcm.scm  rules4.scm  stackify.scm
+cout.scm      lapgen.scm  rules1.scm  rulfix.scm  stackops.scm
+
+./Desktop/mit-scheme-11.2/src/compiler/machines/i386:
+assmd.scm     dassm1.scm  instr1.scm  lapopt.scm   rules1.scm  rulflo.scm
+coerce.scm    dassm2.scm  instr2.scm  machin.scm   rules2.scm  rulrew.scm
+compiler.cbf  dassm3.scm  instrf.scm  make.scm	   rules3.scm
+compiler.pkg  decls.scm   insutl.scm  pc-make.scm  rules4.scm
+compiler.sf   insmac.scm  lapgen.scm  rgspcm.scm   rulfix.scm
+
+./Desktop/mit-scheme-11.2/src/compiler/machines/svm:
+assembler-compiler.scm	compiler.cbf	  lapgen.scm	     rgspcm.scm
+assembler-rules.scm	compiler.pkg	  lapopt.scm	     rules.scm
+assembler-runtime.scm	compiler.sf	  little-endian.scm  wordsize-32.scm
+big-endian.scm		decls.scm	  machine.scm	     wordsize-64.scm
+compile-assembler.scm	disassembler.scm  make.scm
+
+[7m--More--[27m./Desktop/mit-scheme-11.2/src/compiler/machines/x86-64:
+assmd.bci     dassm2.com  instr1.com  lapgen.scm   rgspcm.bin  rules4.com
+assmd.bin     dassm2.ext  instr1.scm  lapopt.bci   rgspcm.com  rules4.scm
+assmd.com     dassm2.scm  instr2.bci  lapopt.bin   rgspcm.scm  rulfix.bci
+assmd.ext     dassm3.bci  instr2.bin  lapopt.com   rules1.bci  rulfix.bin
+assmd.scm     dassm3.bin  instr2.com  lapopt.scm   rules1.bin  rulfix.com
+coerce.bci    dassm3.com  instr2.scm  machin.bci   rules1.com  rulfix.ext
+coerce.bin    dassm3.ext  instrf.bci  machin.bin   rules1.ext  rulfix.scm
+coerce.com    dassm3.scm  instrf.bin  machin.com   rules1.scm  rulflo.bci
+coerce.scm    decls.bci   instrf.com  machin.ext   rules2.bci  rulflo.bin
+compiler.cbf  decls.bin   instrf.scm  machin.scm   rules2.bin  rulflo.com
+compiler.pkg  decls.com   insutl.bci  make.bci	   rules2.com  rulflo.ext
+compiler.sf   decls.ext   insutl.bin  make.bin	   rules2.scm  rulflo.scm
+dassm1.bci    decls.scm   insutl.com  make.com	   rules3.bci  rulrew.bci
+dassm1.bin    insmac.bci  insutl.ext  make.scm	   rules3.bin  rulrew.bin
+dassm1.com    insmac.bin  insutl.scm  pc-make.bci  rules3.com  rulrew.com
+dassm1.ext    insmac.com  lapgen.bci  pc-make.bin  rules3.ext  rulrew.scm
+dassm1.scm    insmac.scm  lapgen.bin  pc-make.com  rules3.scm
+dassm2.bci    instr1.bci  lapgen.com  pc-make.scm  rules4.bci
+dassm2.bin    instr1.bin  lapgen.ext  rgspcm.bci   rules4.bin
+
+./Desktop/mit-scheme-11.2/src/compiler/rtlbase:
+regset.bci  rgraph.scm	rtlcon.scm  rtlobj.bci	rtlreg.scm  rtlty2.ext
+[7m--More--[27mregset.bin  rtlcfg.bci	rtlexp.bci  rtlobj.bin	rtlty1.bci  rtlty2.scm
+regset.com  rtlcfg.bin	rtlexp.bin  rtlobj.com	rtlty1.bin  valclass.bci
+regset.ext  rtlcfg.com	rtlexp.com  rtlobj.ext	rtlty1.com  valclass.bin
+regset.scm  rtlcfg.ext	rtlexp.scm  rtlobj.scm	rtlty1.ext  valclass.com
+rgraph.bci  rtlcfg.scm	rtline.bci  rtlreg.bci	rtlty1.scm  valclass.ext
+rgraph.bin  rtlcon.bci	rtline.bin  rtlreg.bin	rtlty2.bci  valclass.scm
+rgraph.com  rtlcon.bin	rtline.com  rtlreg.com	rtlty2.bin
+rgraph.ext  rtlcon.com	rtline.scm  rtlreg.ext	rtlty2.com
+
+./Desktop/mit-scheme-11.2/src/compiler/rtlgen:
+fndblk.bci  fndvar.ext	rgcomb.bci  rgproc.scm	rgrval.bin  rgstmt.scm
+fndblk.bin  fndvar.scm	rgcomb.bin  rgretn.bci	rgrval.com  rtlgen.bci
+fndblk.com  opncod.bci	rgcomb.com  rgretn.bin	rgrval.ext  rtlgen.bin
+fndblk.scm  opncod.bin	rgcomb.scm  rgretn.com	rgrval.scm  rtlgen.com
+fndvar.bci  opncod.com	rgproc.bci  rgretn.ext	rgstmt.bci  rtlgen.scm
+fndvar.bin  opncod.ext	rgproc.bin  rgretn.scm	rgstmt.bin
+fndvar.com  opncod.scm	rgproc.com  rgrval.bci	rgstmt.com
+
+./Desktop/mit-scheme-11.2/src/compiler/rtlopt:
+ralloc.bci  rcse1.ext	rcseht.bin  rcsesr.com	rdflow.scm  rlife.bci
+ralloc.bin  rcse1.scm	rcseht.com  rcsesr.ext	rerite.bci  rlife.bin
+ralloc.com  rcse2.bci	rcseht.ext  rcsesr.scm	rerite.bin  rlife.com
+ralloc.scm  rcse2.bin	rcseht.scm  rdebug.bci	rerite.com  rlife.scm
+[7m--More--[27mrcompr.bci  rcse2.com	rcserq.bci  rdebug.bin	rerite.ext  rtlcsm.bci
+rcompr.bin  rcse2.scm	rcserq.bin  rdebug.com	rerite.scm  rtlcsm.bin
+rcompr.com  rcseep.bci	rcserq.com  rdebug.scm	rinvex.bci  rtlcsm.com
+rcompr.scm  rcseep.bin	rcserq.ext  rdflow.bci	rinvex.bin  rtlcsm.scm
+rcse1.bci   rcseep.com	rcserq.scm  rdflow.bin	rinvex.com
+rcse1.bin   rcseep.scm	rcsesr.bci  rdflow.com	rinvex.ext
+rcse1.com   rcseht.bci	rcsesr.bin  rdflow.ext	rinvex.scm
+
+./Desktop/mit-scheme-11.2/src/compiler/tests:
+clogc.scm      dlink-tail1.scm	link1.scm	mfu-static.scm	uuoclo.scm
+closure.scm    dlink-tail8.scm	link2.scm	README		uuogc.scm
+datum.scm      dslink.scm	link3.scm	slink.scm	uuo.scm
+decldatum.scm  empty.scm	map-reduce.scm	tests.cbf
+declempty.scm  gc.scm		mfu-dlink1.scm	tests.sf
+dlink.scm      identity.scm	mfu-dlink8.scm	uuoclogc.scm
+
+./Desktop/mit-scheme-11.2/src/cref:
+anfile.bci  cref.pkg	  make.bin	     object.bci  Setup.sh
+anfile.bin  cref.sf	  make.com	     object.bin  Stage.sh
+anfile.com  cref-unx.crf  Makefile	     object.com  Tags.sh
+anfile.scm  cref-unx.fre  Makefile-fragment  object.ext  toplev.bci
+Clean.sh    cref-unx.pkd  Makefile.in	     object.scm  toplev.bin
+conpkg.bci  forpkg.bci	  make.scm	     redpkg.bci  toplev.com
+[7m--More--[27mconpkg.bin  forpkg.bin	  mset.bci	     redpkg.bin  toplev.scm
+conpkg.com  forpkg.com	  mset.bin	     redpkg.com  triv.pkg
+conpkg.scm  forpkg.scm	  mset.com	     redpkg.ext
+cref.cbf    make.bci	  mset.scm	     redpkg.scm
+
+./Desktop/mit-scheme-11.2/src/edwin:
+abbrev.bci	      debuge.bci     macros.scm    shell.bci
+abbrev.bin	      debuge.bin     make.bci	   shell.bin
+abbrev.com	      debuge.com     make.bin	   shell.com
+abbrev.ext	      debuge.scm     make.com	   shell.scm
+abbrev.scm	      debug.ext      Makefile	   simple.bci
+aclocal.m4	      debug.scm      Makefile.am   simple.bin
+adapters.bci	      decls.scm      Makefile.in   simple.com
+adapters.bin	      diff.bci	     make.scm	   simple.scm
+adapters.com	      diff.bin	     malias.bci    snr.bci
+adapters.scm	      diff.com	     malias.bin    snr.bin
+ansi.bci	      diff.scm	     malias.com    snr.com
+ansi.bin	      dired.bci      malias.scm    snr.ext
+ansi.com	      dired.bin      manual.bci    snr.scm
+ansi.scm	      dired.com      manual.bin    sort.bci
+argred.bci	      dired.scm      manual.com    sort.bin
+argred.bin	      dirunx.bci     manual.scm    sort.com
+argred.com	      dirunx.bin     midas.bci	   sort.scm
+[7m--More--[27margred.scm	      dirunx.com     midas.bin	   source-dependencies.am
+artdebug.bci	      dirunx.scm     midas.com	   sources.scm
+artdebug.bin	      dirw32.bci     midas.scm	   sources.sh
+artdebug.com	      dirw32.bin     missing	   stamp-scheme
+artdebug.ext	      dirw32.com     modefs.bci    string.bci
+artdebug.scm	      dirw32.scm     modefs.bin    string.bin
+AUTHORS		      display.bci    modefs.com    string.com
+autogen.sh	      display.bin    modefs.scm    string.ext
+autold.bci	      display.com    modes.bci	   string.scm
+autold.bin	      display.ext    modes.bin	   strpad.bci
+autold.com	      display.scm    modes.com	   strpad.bin
+autold.ext	      docstr.bci     modes.ext	   strpad.com
+autold.scm	      docstr.bin     modes.scm	   strpad.scm
+autom4te.cache	      docstr.com     modlin.bci    strtab.bci
+autosv.bci	      docstr.ext     modlin.bin    strtab.bin
+autosv.bin	      docstr.scm     modlin.com    strtab.com
+autosv.com	      dos.bci	     modlin.scm    strtab.ext
+autosv.scm	      dos.bin	     modwin.bci    strtab.scm
+basic.bci	      dos.com	     modwin.bin    struct.bci
+basic.bin	      doscom.bci     modwin.com    struct.bin
+basic.com	      doscom.bin     modwin.scm    struct.com
+basic.ext	      doscom.com     motcom.bci    struct.ext
+basic.scm	      doscom.scm     motcom.bin    struct.scm
+[7m--More--[27mbios.bci	      dosfile.bci    motcom.com    syntax.bci
+bios.bin	      dosfile.bin    motcom.scm    syntax.bin
+bios.com	      dosfile.com    motion.bci    syntax.com
+bios.ext	      dosfile.scm    motion.bin    syntax.ext
+bios.scm	      dosproc.bci    motion.com    syntax.scm
+bufcom.bci	      dosproc.bin    motion.scm    tagutl.bci
+bufcom.bin	      dosproc.com    mousecom.bci  tagutl.bin
+bufcom.com	      dosproc.scm    mousecom.bin  tagutl.com
+bufcom.scm	      dos.scm	     mousecom.com  tagutl.scm
+buffer.bci	      dosshell.bci   mousecom.scm  techinfo.bci
+buffer.bin	      dosshell.bin   NEWS	   techinfo.bin
+buffer.com	      dosshell.com   nntp.bci	   techinfo.com
+buffer.ext	      dosshell.scm   nntp.bin	   techinfo.scm
+buffer.scm	      ed-ffi.bci     nntp.com	   telnet.bci
+buffrm.bci	      ed-ffi.bin     nntp.ext	   telnet.bin
+buffrm.bin	      ed-ffi.com     nntp.scm	   telnet.com
+buffrm.com	      ed-ffi.scm     notify.bci    telnet.scm
+buffrm.ext	      editor.bci     notify.bin    termcap.bci
+buffrm.scm	      editor.bin     notify.com    termcap.bin
+bufinp.bci	      editor.com     notify.scm    termcap.com
+bufinp.bin	      editor.ext     nvector.bci   termcap.ext
+bufinp.com	      editor.scm     nvector.bin   termcap.scm
+bufinp.ext	      edtfrm.bci     nvector.com   texcom.bci
+[7m--More--[27mbufinp.scm	      edtfrm.bin     nvector.scm   texcom.bin
+bufmnu.bci	      edtfrm.com     occur.bci	   texcom.com
+bufmnu.bin	      edtfrm.ext     occur.bin	   texcom.scm
+bufmnu.com	      edtfrm.scm     occur.com	   things.bci
+bufmnu.scm	      edtstr.bci     occur.scm	   things.bin
+bufout.bci	      edtstr.bin     outline.bci   things.com
+bufout.bin	      edtstr.com     outline.bin   things.scm
+bufout.com	      edtstr.ext     outline.com   tparse.bci
+bufout.ext	      edtstr.scm     outline.scm   tparse.bin
+bufout.scm	      edwin.bld      paredit.bci   tparse.com
+bufset.bci	      edwin.cbf      paredit.bin   tparse.ext
+bufset.bin	      edwin.ldr      paredit.com   tparse.scm
+bufset.com	      edwin.pkg      paredit.scm   tterm.bci
+bufset.ext	      edwin.sf	     pasmod.bci    tterm.bin
+bufset.scm	      edwin-unx.crf  pasmod.bin    tterm.com
+bufwfs.bci	      edwin-unx.fre  pasmod.com    tterm.ext
+bufwfs.bin	      edwin-unx.pkd  pasmod.scm    tterm.scm
+bufwfs.com	      evlcom.bci     paths.bci	   TUTORIAL
+bufwfs.scm	      evlcom.bin     paths.bin	   tximod.bci
+bufwin.bci	      evlcom.com     paths.com	   tximod.bin
+bufwin.bin	      evlcom.scm     paths.scm	   tximod.com
+bufwin.com	      eystep.bci     print.bci	   tximod.scm
+bufwin.ext	      eystep.bin     print.bin	   txtprp.bci
+[7m--More--[27mbufwin.scm	      eystep.com     print.com	   txtprp.bin
+bufwiu.bci	      eystep.scm     print.scm	   txtprp.com
+bufwiu.bin	      filcom.bci     process.bci   txtprp.ext
+bufwiu.com	      filcom.bin     process.bin   txtprp.scm
+bufwiu.ext	      filcom.com     process.com   undo.bci
+bufwiu.scm	      filcom.scm     process.ext   undo.bin
+bufwmc.bci	      fileio.bci     process.scm   undo.com
+bufwmc.bin	      fileio.bin     prompt.bci    undo.scm
+bufwmc.com	      fileio.com     prompt.bin    unix.bci
+bufwmc.ext	      fileio.scm     prompt.com    unix.bin
+bufwmc.scm	      fill.bci	     prompt.ext    unix.com
+calias.bci	      fill.bin	     prompt.scm    unix.scm
+calias.bin	      fill.com	     pwedit.bci    utils.bci
+calias.com	      fill.scm	     pwedit.bin    utils.bin
+calias.ext	      grpops.bci     pwedit.com    utils.com
+calias.scm	      grpops.bin     pwedit.scm    utils.ext
+ChangeLog	      grpops.com     pwparse.bci   utils.scm
+cinden.bci	      grpops.scm     pwparse.bin   utlwin.bci
+cinden.bin	      hlpcom.bci     pwparse.com   utlwin.bin
+cinden.com	      hlpcom.bin     pwparse.scm   utlwin.com
+cinden.scm	      hlpcom.com     rcsparse.bci  utlwin.scm
+class.bci	      hlpcom.scm     rcsparse.bin  vc.bci
+class.bin	      htmlmode.bci   rcsparse.com  vc.bin
+[7m--More--[27mclass.com	      htmlmode.bin   rcsparse.ext  vc-bzr.bci
+class.ext	      htmlmode.com   rcsparse.scm  vc-bzr.bin
+class.scm	      htmlmode.scm   README	   vc-bzr.com
+Clean.sh	      image.bci      reccom.bci    vc-bzr.ext
+clscon.bci	      image.bin      reccom.bin    vc-bzr.scm
+clscon.bin	      image.com      reccom.com    vc.com
+clscon.com	      image.scm      reccom.scm    vc-cvs.bci
+clscon.scm	      info.bci	     regcom.bci    vc-cvs.bin
+clsmac.bci	      info.bin	     regcom.bin    vc-cvs.com
+clsmac.bin	      info.com	     regcom.com    vc-cvs.scm
+clsmac.com	      info.ext	     regcom.ext    vc-git.bci
+clsmac.scm	      info.scm	     regcom.scm    vc-git.bin
+c-mode.bci	      input.bci      regexp.bci    vc-git.com
+c-mode.bin	      input.bin      regexp.bin    vc-git.scm
+c-mode.com	      input.com      regexp.com    vc-rcs.bci
+c-mode.scm	      input.ext      regexp.ext    vc-rcs.bin
+comatch.bci	      input.scm      regexp.scm    vc-rcs.com
+comatch.bin	      INSTALL	     regops.bci    vc-rcs.scm
+comatch.com	      install-sh     regops.bin    vc.scm
+comatch.scm	      intmod.bci     regops.com    vc-svn.bci
+comhst.bci	      intmod.bin     regops.scm    vc-svn.bin
+comhst.bin	      intmod.com     replaz.bci    vc-svn.com
+comhst.com	      intmod.ext     replaz.bin    vc-svn.ext
+[7m--More--[27mcomhst.scm	      intmod.scm     replaz.com    vc-svn.scm
+comint.bci	      iserch.bci     replaz.scm    verilog.bci
+comint.bin	      iserch.bin     rfc822.bci    verilog.bin
+comint.com	      iserch.com     rfc822.bin    verilog.com
+comint.scm	      iserch.ext     rfc822.com    verilog.scm
+comman.bci	      iserch.scm     rfc822.scm    vhdl.bci
+comman.bin	      javamode.bci   ring.bci	   vhdl.bin
+comman.com	      javamode.bin   ring.bin	   vhdl.com
+comman.ext	      javamode.com   ring.com	   vhdl.scm
+comman.scm	      javamode.scm   ring.scm	   webster.bci
+compile.bci	      keymap.bci     rmail.bci	   webster.bin
+compile.bin	      keymap.bin     rmail.bin	   webster.com
+compile.com	      keymap.com     rmail.com	   webster.scm
+compile.scm	      keymap.scm     rmail.ext	   win32.bci
+compile.sh	      keyparse.bci   rmail.scm	   win32.bin
+comred.bci	      keyparse.bin   rmailsrt.bci  win32.com
+comred.bin	      keyparse.com   rmailsrt.bin  win32com.bci
+comred.com	      keyparse.ext   rmailsrt.com  win32com.bin
+comred.ext	      keyparse.scm   rmailsrt.scm  win32com.com
+comred.scm	      key-w32.bci    rmailsum.bci  win32com.scm
+comtab.bci	      key-w32.bin    rmailsum.bin  win32.ext
+comtab.bin	      key-w32.com    rmailsum.com  win32.scm
+comtab.com	      key-w32.scm    rmailsum.scm  wincom.bci
+[7m--More--[27mcomtab.ext	      kilcom.bci     schmod.bci    wincom.bin
+comtab.scm	      kilcom.bin     schmod.bin    wincom.com
+comwin.bci	      kilcom.com     schmod.com    wincom.scm
+comwin.bin	      kilcom.scm     schmod.scm    window.bci
+comwin.com	      kmacro.bci     scrcom.bci    window.bin
+comwin.ext	      kmacro.bin     scrcom.bin    window.com
+comwin.scm	      kmacro.com     scrcom.com    window.ext
+config.log	      kmacro.scm     scrcom.scm    window.scm
+config.status	      lincom.bci     screen.bci    winout.bci
+configure	      lincom.bin     screen.bin    winout.bin
+configure.ac	      lincom.com     screen.com    winout.com
+COPYING		      lincom.scm     screen.ext    winout.scm
+curren.bci	      linden.bci     screen.scm    world-monitor.bci
+curren.bin	      linden.bin     search.bci    world-monitor.bin
+curren.com	      linden.com     search.bin    world-monitor.com
+curren.scm	      linden.scm     search.com    world-monitor.scm
+dabbrev.bci	      loadef.bci     search.ext    xform.bci
+dabbrev.bin	      loadef.bin     search.scm    xform.bin
+dabbrev.com	      loadef.com     sendmail.bci  xform.com
+dabbrev.scm	      loadef.scm     sendmail.bin  xform.scm
+debian-changelog.bci  lspcom.bci     sendmail.com  xterm.bci
+debian-changelog.bin  lspcom.bin     sendmail.ext  xterm.bin
+debian-changelog.com  lspcom.com     sendmail.scm  xterm.com
+[7m--More--[27mdebian-changelog.scm  lspcom.scm     sercom.bci    xterm.scm
+debug.bci	      macros.bci     sercom.bin
+debug.bin	      macros.bin     sercom.com
+debug.com	      macros.com     sercom.scm
+
+./Desktop/mit-scheme-11.2/src/edwin/autom4te.cache:
+output.0  output.1  requests  traces.0	traces.1
+
+./Desktop/mit-scheme-11.2/src/etc:
+build-bands.sh		  functions.sh		   Setup.sh
+build-boot-compiler.sh	  install-bin-symlinks.sh  Stage.sh
+c-bundle.sh		  iso8859-converter.scm    std-makefile-prefix
+c-compile.sh		  iso8859-mapping	   std-makefile-suffix
+check-gc-tables.scm	  macosx		   Tags.sh
+Clean.sh		  make-liarc-dist.sh	   test-ucd-converter.scm
+compile-boot-compiler.sh  make-liarc.sh		   TUTORIAL
+compile.scm		  make-native.sh	   ucd-converter.scm
+compile.sh		  maybe-update-file.sh	   ucd-raw-props
+c-prepare.sh		  mime.types		   ucd-segment-states
+create-makefiles.sh	  native-prepare.sh	   usermap
+crossbin.scm		  optiondb.scm		   utilities.scm
+find-folded.scm		  plugins.scm		   windows
+
+[7m--More--[27m./Desktop/mit-scheme-11.2/src/etc/iso8859-mapping:
+[7m--More--[27m8859-10.txt  8859-14.txt  8859-1.txt  8859-4.txt  8859-7.txt  README.txt
+[7m--More--[27m8859-11.txt  8859-15.txt  8859-2.txt  8859-5.txt  8859-8.txt
+8859-13.txt  8859-16.txt  8859-3.txt  8859-6.txt  8859-9.txt
+
+./Desktop/mit-scheme-11.2/src/etc/macosx:
+edwin.icns  make-app.sh  mit-scheme.sh	schlogo.icns
+
+./Desktop/mit-scheme-11.2/src/etc/ucd-raw-props:
+names.scm	       prop-Dia.scm	 prop-jt.scm	   prop-QMark.scm
+prop-age.scm	       prop-DI.scm	 prop-lb.scm	   prop-Radical.scm
+prop-AHex.scm	       prop-dm.scm	 prop-lc.scm	   prop-SB.scm
+prop-Alpha.scm	       prop-dt.scm	 prop-LOE.scm	   prop-scf.scm
+prop-bc.scm	       prop-ea.scm	 prop-Lower.scm    prop-sc.scm
+prop-Bidi_C.scm        prop-Ext.scm	 prop-Math.scm	   prop-scx.scm
+prop-Bidi_M.scm        prop-FC_NFKC.scm  prop-na1.scm	   prop-SD.scm
+prop-blk.scm	       prop-GCB.scm	 prop-na.scm	   prop-slc.scm
+prop-bmg.scm	       prop-gc.scm	 prop-NChar.scm    prop-stc.scm
+prop-bpb.scm	       prop-Gr_Base.scm  prop-NFC_QC.scm   prop-STerm.scm
+prop-bpt.scm	       prop-Gr_Ext.scm	 prop-NFD_QC.scm   prop-suc.scm
+prop-canonical-cm.scm  prop-Gr_Link.scm  prop-NFKC_CF.scm  prop-tc.scm
+prop-canonical-dm.scm  prop-Hex.scm	 prop-NFKC_QC.scm  prop-Term.scm
+prop-Cased.scm	       prop-hst.scm	 prop-NFKD_QC.scm  prop-uc.scm
+prop-ccc.scm	       prop-Hyphen.scm	 prop-nt.scm	   prop-UIdeo.scm
+prop-CE.scm	       prop-IDC.scm	 prop-nv.scm	   prop-Upper.scm
+[7m--More--[27mprop-cf.scm	       prop-Ideo.scm	 prop-OAlpha.scm   prop-VS.scm
+prop-CI.scm	       prop-IDSB.scm	 prop-ODI.scm	   prop-WB.scm
+prop-Comp_Ex.scm       prop-IDS.scm	 prop-OGr_Ext.scm  prop-WSpace.scm
+prop-CWCF.scm	       prop-IDST.scm	 prop-OIDC.scm	   prop-XIDC.scm
+prop-CWCM.scm	       prop-InMC.scm	 prop-OIDS.scm	   prop-XIDS.scm
+prop-CWKCF.scm	       prop-InPC.scm	 prop-OLower.scm   prop-XO_NFC.scm
+prop-CWL.scm	       prop-InSC.scm	 prop-OMath.scm    prop-XO_NFD.scm
+prop-CWT.scm	       prop-isc.scm	 prop-OUpper.scm   prop-XO_NFKC.scm
+prop-CWU.scm	       prop-jg.scm	 prop-Pat_Syn.scm  prop-XO_NFKD.scm
+prop-Dash.scm	       prop-Join_C.scm	 prop-Pat_WS.scm   ucd.all.grouped.xml
+prop-Dep.scm	       prop-JSN.scm	 prop-PCM.scm	   version.scm
+
+./Desktop/mit-scheme-11.2/src/etc/windows:
+build-6001.bat	build-band.bat	    build-edwin.bat    compile-prepare.bat
+build-6001.scm	build-band.scm	    build-edwin.scm    install.bat
+build-all.bat	build-compiler.bat  build-runtime.scm  make-lib.bat
+build-all.scm	build-compiler.scm  compile-all.scm    readme.txt
+
+./Desktop/mit-scheme-11.2/src/ffi:
+build.bci   cdecls.ext	 ctypes.scm	generator.bin	   Setup.sh
+build.bin   cdecls.scm	 ed-ffi.scm	generator.com	   Stage.sh
+build.com   Clean.sh	 ffi.pkg	generator.scm	   syntax.bci
+build.scm   compile.scm  ffi-unx.crf	Makefile	   syntax.bin
+[7m--More--[27mcdecls.bci  ctypes.bci	 ffi-unx.fre	Makefile-fragment  syntax.com
+cdecls.bin  ctypes.bin	 ffi-unx.pkd	Makefile.in	   syntax.scm
+cdecls.com  ctypes.com	 generator.bci	make.scm	   Tags.sh
+
+./Desktop/mit-scheme-11.2/src/gdbm:
+aclocal.m4	configure	gdbm-shim.h  mit-scheme-gdbm.texi
+AUTHORS		configure.ac	INSTALL      NEWS
+autogen.sh	COPYING		install-sh   optiondb.scm
+autom4te.cache	depcomp		ltmain.sh    README
+ChangeLog	gdbm-adapter.c	m4	     tags-fix.sh
+compile		gdbm.cdecl	Makefile.am  test-driver
+compile.scm	gdbm-check.scm	Makefile.in  texinfo.tex
+compile.sh	gdbm-check.sh	make.scm
+config.guess	gdbm.pkg	mdate-sh
+config.sub	gdbm.scm	missing
+
+./Desktop/mit-scheme-11.2/src/gdbm/autom4te.cache:
+output.0  output.2  requests  traces.1	traces.3
+output.1  output.3  traces.0  traces.2
+
+./Desktop/mit-scheme-11.2/src/gdbm/m4:
+libtool.m4  lt~obsolete.m4  ltoptions.m4  ltsugar.m4  ltversion.m4
+
+[7m--More--[27m./Desktop/mit-scheme-11.2/src/imail:
+aclocal.m4	   imail-core.scm     imail-summary.scm  imap-syntax.bci
+AUTHORS		   imail-file.bci     imail-top.bci	 imap-syntax.bin
+autogen.sh	   imail-file.bin     imail-top.bin	 imap-syntax.com
+autom4te.cache	   imail-file.com     imail-top.com	 imap-syntax.scm
+ChangeLog	   imail-file.scm     imail-top.ext	 INSTALL
+compile.scm	   imail-imap.bci     imail-top.scm	 install-sh
+compile.sh	   imail-imap.bin     imail-umail.bci	 Makefile
+config.log	   imail-imap.com     imail-umail.bin	 Makefile.am
+config.status	   imail-imap.scm     imail-umail.com	 Makefile.in
+configure	   imail-mime.bci     imail-umail.scm	 make.scm
+configure.ac	   imail-mime.bin     imail-unx.crf	 missing
+COPYING		   imail-mime.com     imail-unx.fre	 mit-scheme-imail.info
+ed-ffi.scm	   imail-mime.ext     imail-unx.pkd	 mit-scheme-imail.texi
+fake-env.scm	   imail-mime.scm     imail-util.bci	 NEWS
+imail-browser.bci  imail.pkg	      imail-util.bin	 print.sh
+imail-browser.bin  imail-rmail.bci    imail-util.com	 README
+imail-browser.com  imail-rmail.bin    imail-util.scm	 stamp-scheme
+imail-browser.scm  imail-rmail.com    imap-response.bci  texinfo.tex
+imail-core.bci	   imail-rmail.scm    imap-response.bin  todo.txt
+imail-core.bin	   imail-summary.bci  imap-response.com
+imail-core.com	   imail-summary.bin  imap-response.scm
+imail-core.ext	   imail-summary.com  imap-response.txt
+[7m--More--[27m[K
+./Desktop/mit-scheme-11.2/src/imail/autom4te.cache:
+output.0  output.1  requests  traces.0	traces.1
+
+./Desktop/mit-scheme-11.2/src/lib:
+all.com   edwin  include       optiondb.scm  sf   star-parser  xml
+compiler  ffi	 libraries     runtime	     sos  x11
+cref	  imail  mit-scheme.h  runtime.com   ssp  x11-screen
+
+./Desktop/mit-scheme-11.2/src/libraries:
+Clean.sh		 Makefile	    srfi-133-impl.scm  srfi-14.bcild
+compile.scm		 Makefile-fragment  srfi-133.sld       srfi-14.binld
+inline-testing.bcild	 Makefile.in	    srfi-140.bcild     srfi-14.comld
+inline-testing.binld	 Setup.sh	    srfi-140.binld     srfi-14.sld
+inline-testing.comld	 srfi-133.bcild     srfi-140.comld     Stage.sh
+inline-testing-impl.scm  srfi-133.binld     srfi-140-impl.scm  Tags.sh
+inline-testing.sld	 srfi-133.comld     srfi-140.sld
+
+./Desktop/mit-scheme-11.2/src/mcrypt:
+aclocal.m4	compile.sh    depcomp	   make.scm	     mcrypt-shim.h
+AUTHORS		config.guess  INSTALL	   mcrypt-adapter.c  missing
+autogen.sh	config.h.in   install-sh   mcrypt.cdecl      NEWS
+autom4te.cache	config.sub    ltmain.sh    mcrypt-check.scm  optiondb.scm
+[7m--More--[27mChangeLog	configure     m4	   mcrypt-check.sh   README
+compile		configure.ac  Makefile.am  mcrypt.pkg	     tags-fix.sh
+compile.scm	COPYING       Makefile.in  mcrypt.scm	     test-driver
+
+./Desktop/mit-scheme-11.2/src/mcrypt/autom4te.cache:
+output.0  output.2  requests  traces.1	traces.3
+output.1  output.3  traces.0  traces.2
+
+./Desktop/mit-scheme-11.2/src/mcrypt/m4:
+libtool.m4  lt~obsolete.m4  ltoptions.m4  ltsugar.m4  ltversion.m4
+
+./Desktop/mit-scheme-11.2/src/microcode:
+aclocal.m4    extract-liarc-decls.c  missing.c	    ostty.c	   syntax.c
+artutl.c      fasdump.c		     mkinstalldirs  ostty.h	   syntax.h
+avltree.c     fasl.c		     mul.c	    outf.c	   syscall.h
+avltree.h     fasl.h		     ntapi.h	    outf.h	   sysprim.c
+bignmint.h    fasload.c		     ntasutl.asm    prchacha.c	   Tags.sh
+bignum.c      findprim.c	     ntenv.c	    prename.h	   term.c
+bignum.h      fixnum.c		     ntfile.c	    prentropy.c    termcap.c
+bigprm.c      fixnum.h		     ntfs.c	    prim.c	   terminfo.c
+bits.h	      fixobj.h		     ntfs.h	    prim.h	   TODO
+bitstr.c      floenv.c		     ntgui.c	    prims.h	   tparam.c
+bitstr.h      floenv.h		     ntgui.h	    primutl.c	   transact.c
+[7m--More--[27m[Kbkpt.c	      flonum.c		     nt.h	    prkeccak.c	   trap.h
+bkpt.h	      fma.c		     ntio.c	    prmd5.c	   tterm.c
+boot.c	      fma.h		     ntio.h	    prntenv.c	   typename.txt
+bytevector.c  gccode.h		     ntproc.c	    prntfs.c	   types.h
+chacha12.c    gc.h		     ntproc.h	    prntio.c	   unstackify.c
+chacha20.c    gcloop.c		     ntscmlib.h     prosenv.c	   usrdef.h
+chacha8.c     generic.c		     ntscreen.c     prosfile.c	   utabmd.c
+chacha.h      gen-nonce.c	     ntscreen.h     prosfs.c	   utils.c
+chacha.i      history.h		     ntsig.c	    prosio.c	   ux.c
+char.c	      hooks.c		     ntsock.c	    prosproc.c	   uxctty.c
+Clean.sh      hunk.c		     ntsys.c	    prospty.c	   uxentropy.c
+cmpauxmd      install-sh	     ntsys.h	    prosterm.c	   uxenv.c
+cmpgc.h       intern.c		     ntterm.h	    prostty.c	   uxfile.c
+cmpint.c      interp.c		     nttop.c	    pruxdld.c	   uxfs.c
+cmpint.h      interp.h		     nttop.h	    pruxenv.c	   ux.h
+cmpintmd      intext.c		     nttrap.c	    pruxffi.c	   uxio.c
+comlin.c      intext.h		     nttrap.h	    pruxffi.h	   uxio.h
+comlin.h      intprm.c		     nttterm.c	    pruxfs.c	   uxproc.c
+comutl.c      intrpt.h		     nttty.c	    pruxio.c	   uxproc.h
+config.guess  keccak.c		     ntutl	    pruxsock.c	   uxsig.c
+config.h.in   keccak.h		     object.h	    ptrvec.c	   uxsig.h
+config.log    liarc-cc.in	     obstack.c	    purify.c	   uxsock.c
+config.sub    liarc-gendeps.c	     obstack.h	    purutl.c	   uxsock.h
+[7m--More--[27mconfigure     liarc.h		     option.c	    regex.c	   uxterm.c
+configure.ac  liarc-ld.in	     option.h	    regex.h	   uxterm.h
+confshared.h  liarc-rules	     osctty.h	    returns.h	   uxtop.c
+const.h       liarc-vars	     osentropy.h    rgxprim.c	   uxtop.h
+copyrigh.c    list.c		     osenv.h	    sample.c	   uxtrap.c
+critsec.h     lookprm.c		     osfile.h	    scheme.h	   uxtrap.h
+ctassert.h    lookup.c		     osfs.h	    scode.h	   uxtty.c
+daemon.c      lookup.h		     os.h	    sdata.h	   uxutil.c
+debug.c       macosx-starter.c	     osio.h	    Setup.sh	   uxutil.h
+dfloat.c      Makefile.deps	     osproc.h	    stack.h	   vector.c
+dstack.h      Makefile.in	     ospty.h	    stackops.h	   wind.c
+edwin.h       makegen		     osscheme.c     step.c	   xdebug.c
+error.c       md5.c		     osscheme.h     storage.c
+errors.h      md5.h		     ossig.h	    string.c
+extern.c      memmag.c		     osterm.h	    svm1-defns.h
+extern.h      memmag.h		     ostop.h	    svm1-interp.c
+
+./Desktop/mit-scheme-11.2/src/microcode/cmpauxmd:
+aarch64.m4  c.c      i386-nt.asm   m4-dos    x86-64.m4
+asmcvt.c    i386.m4  i386-ntw.asm  makefile
+
+./Desktop/mit-scheme-11.2/src/microcode/cmpintmd:
+aarch64.c	  c-config.h	 i386.h		svm1.c	       x86-64-config.h
+[7m--More--[27maarch64-config.h  c.h		 none.c		svm1-config.h  x86-64.h
+aarch64.h	  i386.c	 none-config.h	svm1.h	       x86-fenv.c
+c.c		  i386-config.h  none.h		x86-64.c       x86-fenv.h
+
+./Desktop/mit-scheme-11.2/src/microcode/makegen:
+bundles-liarc.scm   files-os-prim.scm  m4.sh	       pkds-liarc.scm
+dirs-liarc.scm	    files-other.scm    Makefile.in.in
+files-core.scm	    files-unix.scm     makegen.scm
+files-optional.scm  liarc-base-rules   makeinit.sh
+
+./Desktop/mit-scheme-11.2/src/microcode/ntutl:
+coffee.ico  gc.cur	  limits.h	scheme16.c    scheme32.lbc  shield2.ico
+config.bat  graphics.ico  makefile	scheme16.def  scheme32.lnk  shield3.ico
+config.h    lambda2.ico   makefile.wcc	scheme16.mak  schlogo.ico   shield4.ico
+conses.ico  lambda.ico	  mincer.ico	scheme31.c    scm-cl3.lst   wconfig.bat
+edwin.ico   liar1.ico	  ntdialog.dlg	scheme31.def  scm-p-nt.lst  win31.bat
+envir1.ico  liar2.ico	  ntdialog.h	scheme32.c    setenv.bat    winnt.bat
+float.h     liar3.ico	  ntgui.rc	scheme32.def  shield1.ico
+
+./Desktop/mit-scheme-11.2/src/pgsql:
+aclocal.m4	compile.sh    depcomp	   make.scm	    pgsql.pkg
+AUTHORS		config.guess  INSTALL	   missing	    pgsql.scm
+autogen.sh	config.h.in   install-sh   NEWS		    pgsql-shim.h
+[7m--More--[27mautom4te.cache	config.sub    ltmain.sh    optiondb.scm     README
+ChangeLog	configure     m4	   pgsql.cdecl	    tags-fix.sh
+compile		configure.ac  Makefile.am  pgsql-check.scm  test-driver
+compile.scm	COPYING       Makefile.in  pgsql-check.sh
+
+./Desktop/mit-scheme-11.2/src/pgsql/autom4te.cache:
+output.0  output.2  requests  traces.1	traces.3
+output.1  output.3  traces.0  traces.2
+
+./Desktop/mit-scheme-11.2/src/pgsql/m4:
+libtool.m4  lt~obsolete.m4  ltoptions.m4  ltsugar.m4  ltversion.m4
+
+./Desktop/mit-scheme-11.2/src/relnotes:
+README
+
+./Desktop/mit-scheme-11.2/src/runtime:
+advice.bci		  prop1d.bin
+advice.bin		  prop1d.com
+advice.com		  prop1d.ext
+advice.scm		  prop1d.scm
+amap-alist.bci		  prop2d.bci
+amap-alist.bin		  prop2d.bin
+amap-alist.com		  prop2d.com
+[7m--More--[27mamap-alist.scm		  prop2d.scm
+amap.bci		  qsort.bci
+amap.bin		  qsort.bin
+amap.com		  qsort.com
+amap.ext		  qsort.scm
+amap-hash-table.bci	  queue.bci
+amap-hash-table.bin	  queue.bin
+amap-hash-table.com	  queue.com
+amap-hash-table.scm	  queue.ext
+amap-impl.bci		  queue.scm
+amap-impl.bin		  random.bci
+amap-impl.com		  random.bin
+amap-impl.ext		  random.com
+amap-impl.scm		  random.ext
+amap.scm		  random.scm
+amap-trie.bci		  rbtree.bci
+amap-trie.bin		  rbtree.bin
+amap-trie.com		  rbtree.com
+amap-trie.scm		  rbtree.ext
+apply.bci		  rbtree.scm
+apply.bin		  reader.bci
+apply.com		  reader.bin
+apply.scm		  reader.com
+[7m--More--[27mapropos.bci		  reader.ext
+apropos.bin		  reader.scm
+apropos.com		  record.bci
+apropos.scm		  record.bin
+arith.bci		  record.com
+arith.bin		  record.ext
+arith.com		  record.scm
+arith.ext		  reference-trap.bci
+arith.scm		  reference-trap.bin
+binary-port.bci		  reference-trap.com
+binary-port.bin		  reference-trap.ext
+binary-port.com		  reference-trap.scm
+binary-port.ext		  regexp.bci
+binary-port.scm		  regexp.bin
+bitstr.bci		  regexp.com
+bitstr.bin		  regexp.ext
+bitstr.com		  regexp-nfa.bci
+bitstr.ext		  regexp-nfa.bin
+bitstr.scm		  regexp-nfa.com
+blowfish.bci		  regexp-nfa.ext
+blowfish.bin		  regexp-nfa.scm
+blowfish.com		  regexp-recursive.bci
+blowfish.scm		  regexp-recursive.bin
+[7m--More--[27m[K]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls -i f*
+280736 file2       280798 file.info2  280448 f-name  280715 footer.1
+280686 file.info1  280734 first_file  280717 footer  280716 footer.2
+
+foo:
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ mv f-name Projects/
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls 
+[0m[01;34ma[0m                  lab1.txt    [01;34mProjects[0m         test-g
+c1                 lab4.txt    [01;34mPublic[0m           test-list
+c2                 lab5.txt    quiz3.txt        test-sor
+c3                 lab6.txt    [01;34mRecommendations[0m  test.txt
+cl                 lost-days   [01;34mrepos[0m            total
+[01;34mDesktop[0m            manywords   respected        trouble
+[01;34mDocuments[0m          me_A        [01;34mResumes[0m          users_on
+[01;34mDownloads[0m          month       review           users_test
+el                 [01;34mMusic[0m       script1          [01;34mVideos[0m
+[01;34mexam1[0m              [01;32mmydata.txt[0m  script.js        west-coast.names
+file2              myerr       second_file      words.out
+file.info1         myfile1     short-pass       [01;32mwordsUsed[0m
+file.info2         myoutput    s-mypasswd       [01;32mwordsUsed1[0m
+first_file         mypasswd    sortedsp3        [01;32mwordsUsed2[0m
+[01;34mfoo[0m                names.tmp   sorted-test-sor  [01;32mwordsUsed3[0m
+footer             newfile1A   sort-test        [01;32mwordsUsed4[0m
+footer.1           newfile2B2  sp2              [01;32mwordsUsed5[0m
+footer.2           [01;34mPapers[0m      sp3              [01;32mwordsUsed6[0m
+index.html         phon        style.css        [01;32mwordsUsed7[0m
+installation.txt   [01;34mPictures[0m    [01;34mTemplates[0m        [01;32mwordsUsed8[0m
+JoshuaLe-lab2.txt  practice    test-file1
+journal            [01;34mPrivate[0m     test-file2
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls -i Projects
+280448 f-name  664371 month  664376 testing
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ cd
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ cal > month
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls -i
+665075 [0m[01;34ma[0m                  280847 month            280805 sorted-test-sor
+280731 c1                 431970 [01;34mMusic[0m            280733 sort-test
+280729 c2                 280646 [01;32mmydata.txt[0m       280806 sp2
+280730 c3                 280714 myerr            280807 sp3
+280728 cl                 280643 myfile1          280487 style.css
+280287 [01;34mDesktop[0m            280483 myoutput         431967 [01;34mTemplates[0m
+431969 [01;34mDocuments[0m          280722 mypasswd         280645 test-file1
+280288 [01;34mDownloads[0m          280801 names.tmp        280713 test-file2
+280727 el                 280809 newfile1A        280800 test-g
+280469 [01;34mexam1[0m              280810 newfile2B2       280737 test-list
+280736 file2              664368 [01;34mPapers[0m           280802 test-sor
+280686 file.info1         280723 phon             280480 test.txt
+280798 file.info2         431971 [01;34mPictures[0m         280732 total
+280734 first_file         280743 practice         280848 trouble
+665065 [01;34mfoo[0m                280719 [01;34mPrivate[0m          280720 users_on
+280717 footer             664369 [01;34mProjects[0m         280846 users_test
+280715 footer.1           431968 [01;34mPublic[0m           431972 [01;34mVideos[0m
+280716 footer.2           280474 quiz3.txt        280814 west-coast.names
+280476 index.html         664370 [01;34mRecommendations[0m  280827 words.out
+280639 installation.txt   280396 [01;34mrepos[0m            280826 [01;32mwordsUsed[0m
+280718 JoshuaLe-lab2.txt  280803 respected        280819 [01;32mwordsUsed1[0m
+280845 journal            434784 [01;34mResumes[0m          280817 [01;32mwordsUsed2[0m
+280400 lab1.txt           280741 review           280820 [01;32mwordsUsed3[0m
+280799 lab4.txt           280792 script1          280821 [01;32mwordsUsed4[0m
+280398 lab5.txt           280486 script.js        280822 [01;32mwordsUsed5[0m
+274051 lab6.txt           280735 second_file      280823 [01;32mwordsUsed6[0m
+280721 lost-days          280804 short-pass       280824 [01;32mwordsUsed7[0m
+280813 manywords          280726 s-mypasswd       280825 [01;32mwordsUsed8[0m
+280644 me_A               280808 sortedsp3
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ cp month Projects/
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls -i Projects
+280448 f-name  664371 month  664376 testing
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ cd Projecst[K[Kts
+]0;joshua@joshua-VirtualBox: ~/Projects[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects[00m$ cat month
+   February 2022      
+Su Mo Tu We Th Fr Sa  
+       1  2  3  4  5  
+ 6  7  8  9 10 11 12  
+13 14 15 16 17 18 19  
+20 _2_1 22 23 24 25 26  
+27 28                 
+                      
+]0;joshua@joshua-VirtualBox: ~/Projects[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects[00m$ cd
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ more Projects/month
+   February 2022      
+Su Mo Tu We Th Fr Sa  
+       1  2  3  4  5  
+ 6  7  8  9 10 11 12  
+13 14 15 16 17 18 19  
+20 [4m21[24m 22 23 24 25 26  
+27 28                 
+                      
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ pwd
+/home/joshua
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ a[Kdate > trouble
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ more trouble
+Mon 21 Feb 2022 03:36:12 PM PST
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls -i t*
+280645 test-file1  280800 test-g     280802 test-sor  280732 total
+280713 test-file2  280737 test-list  280480 test.txt  280848 trouble
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ mv trouble PRoject[K[K[K[K[K[KrojectZ
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls
+[0m[01;34ma[0m                  lab1.txt    [01;34mProjects[0m         test-file2
+c1                 lab4.txt    ProjectZ         test-g
+c2                 lab5.txt    [01;34mPublic[0m           test-list
+c3                 lab6.txt    quiz3.txt        test-sor
+cl                 lost-days   [01;34mRecommendations[0m  test.txt
+[01;34mDesktop[0m            manywords   [01;34mrepos[0m            total
+[01;34mDocuments[0m          me_A        respected        users_on
+[01;34mDownloads[0m          month       [01;34mResumes[0m          users_test
+el                 [01;34mMusic[0m       review           [01;34mVideos[0m
+[01;34mexam1[0m              [01;32mmydata.txt[0m  script1          west-coast.names
+file2              myerr       script.js        words.out
+file.info1         myfile1     second_file      [01;32mwordsUsed[0m
+file.info2         myoutput    short-pass       [01;32mwordsUsed1[0m
+first_file         mypasswd    s-mypasswd       [01;32mwordsUsed2[0m
+[01;34mfoo[0m                names.tmp   sortedsp3        [01;32mwordsUsed3[0m
+footer             newfile1A   sorted-test-sor  [01;32mwordsUsed4[0m
+footer.1           newfile2B2  sort-test        [01;32mwordsUsed5[0m
+footer.2           [01;34mPapers[0m      sp2              [01;32mwordsUsed6[0m
+index.html         phon        sp3              [01;32mwordsUsed7[0m
+installation.txt   [01;34mPictures[0m    style.css        [01;32mwordsUsed8[0m
+JoshuaLe-lab2.txt  practice    [01;34mTemplates[0m
+journal            [01;34mPrivate[0m     test-file1
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls Projects
+f-name  month  testing
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls -F
+[0m[01;34ma[0m/                 lab1.txt     [01;34mProjects[0m/         test-file2
+c1                 lab4.txt     ProjectZ          test-g
+c2                 lab5.txt     [01;34mPublic[0m/           test-list
+c3                 lab6.txt     quiz3.txt         test-sor
+cl                 lost-days    [01;34mRecommendations[0m/  test.txt
+[01;34mDesktop[0m/           manywords    [01;34mrepos[0m/            total
+[01;34mDocuments[0m/         me_A         respected         users_on
+[01;34mDownloads[0m/         month        [01;34mResumes[0m/          users_test
+el                 [01;34mMusic[0m/       review            [01;34mVideos[0m/
+[01;34mexam1[0m/             [01;32mmydata.txt[0m*  script1           west-coast.names
+file2              myerr        script.js         words.out
+file.info1         myfile1      second_file       [01;32mwordsUsed[0m*
+file.info2         myoutput     short-pass        [01;32mwordsUsed1[0m*
+first_file         mypasswd     s-mypasswd        [01;32mwordsUsed2[0m*
+[01;34mfoo[0m/               names.tmp    sortedsp3         [01;32mwordsUsed3[0m*
+footer             newfile1A    sorted-test-sor   [01;32mwordsUsed4[0m*
+footer.1           newfile2B2   sort-test         [01;32mwordsUsed5[0m*
+footer.2           [01;34mPapers[0m/      sp2               [01;32mwordsUsed6[0m*
+index.html         phon         sp3               [01;32mwordsUsed7[0m*
+installation.txt   [01;34mPictures[0m/    style.css         [01;32mwordsUsed8[0m*
+JoshuaLe-lab2.txt  practice     [01;34mTemplates[0m/
+journal            [01;34mPrivate[0m/     test-file1
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ more ProjectZ
+Mon 21 Feb 2022 03:36:12 PM PST
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls -i ProjectZ
+280848 ProjectZ
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ mv ProjectZ trouble
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ mv trouble ProjectZ/
+mv: cannot move 'trouble' to 'ProjectZ/': Not a directory
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ touch junkness
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls -i j*
+280845 journal  280844 junkness
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ m [Kv junkness Projects/treatures[K[K[K[K[Ksure
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls -i Projects
+280448 f-name  664371 month  664376 testing  280844 treasure
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls junkness
+ls: cannot access 'junkness': No such file or directory
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls Projects
+f-name  month  testing  treasure
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ rm PRoject[K[K[K[K[K[Kroject/treasure
+rm: cannot remove 'Project/treasure': No such file or directory
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ rm PRojects[K[K[K[K[K[K[Krojects/treasure
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls Projects
+f-name  month  testing
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ cd PRoj[K[K[Krojects
+]0;joshua@joshua-VirtualBox: ~/Projects[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects[00m$ ls
+f-name  month  testing
+]0;joshua@joshua-VirtualBox: ~/Projects[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects[00m$ pwd
+/home/joshua/Projects
+]0;joshua@joshua-VirtualBox: ~/Projects[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects[00m$ mkdir Coce[K[Kde
+]0;joshua@joshua-VirtualBox: ~/Projects[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects[00m$ ls -i
+790227 [0m[01;34mCode[0m  280448 f-name  664371 month  664376 testing
+]0;joshua@joshua-VirtualBox: ~/Projects[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects[00m$ cd Code
+]0;joshua@joshua-VirtualBox: ~/Projects/Code[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects/Code[00m$ pwd
+/home/joshua/Projects/Code
+]0;joshua@joshua-VirtualBox: ~/Projects/Code[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects/Code[00m$ vi report3
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"report3" [New File][2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h[?2004l[>4;m[?25l[my[?25h[?25la[?25h[?25l [?25h[?25ly[?25h[?25le[?25h[?25le[?25h[?25lt[?25h[?2004h[>4;2m[?25l[24;1H[K[24;1H:[?2004h[?25hwq[?25l[?2004l"report3" [New File] 1 line, 8 characters written
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;joshua@joshua-VirtualBox: ~/Projects/Code[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects/Code[00m$ ls
+report3
+]0;joshua@joshua-VirtualBox: ~/Projects/Code[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects/Code[00m$ pwd
+/home/joshua/Projects/Code
+]0;joshua@joshua-VirtualBox: ~/Projects/Code[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects/Code[00m$ cd
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ pwd
+/home/joshua
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls _[K-F
+[0m[01;34ma[0m/                 lab1.txt     [01;34mProjects[0m/         test-g
+c1                 lab4.txt     [01;34mPublic[0m/           test-list
+c2                 lab5.txt     quiz3.txt         test-sor
+c3                 lab6.txt     [01;34mRecommendations[0m/  test.txt
+cl                 lost-days    [01;34mrepos[0m/            total
+[01;34mDesktop[0m/           manywords    respected         trouble
+[01;34mDocuments[0m/         me_A         [01;34mResumes[0m/          users_on
+[01;34mDownloads[0m/         month        review            users_test
+el                 [01;34mMusic[0m/       script1           [01;34mVideos[0m/
+[01;34mexam1[0m/             [01;32mmydata.txt[0m*  script.js         west-coast.names
+file2              myerr        second_file       words.out
+file.info1         myfile1      short-pass        [01;32mwordsUsed[0m*
+file.info2         myoutput     s-mypasswd        [01;32mwordsUsed1[0m*
+first_file         mypasswd     sortedsp3         [01;32mwordsUsed2[0m*
+[01;34mfoo[0m/               names.tmp    sorted-test-sor   [01;32mwordsUsed3[0m*
+footer             newfile1A    sort-test         [01;32mwordsUsed4[0m*
+footer.1           newfile2B2   sp2               [01;32mwordsUsed5[0m*
+footer.2           [01;34mPapers[0m/      sp3               [01;32mwordsUsed6[0m*
+index.html         phon         style.css         [01;32mwordsUsed7[0m*
+installation.txt   [01;34mPictures[0m/    [01;34mTemplates[0m/        [01;32mwordsUsed8[0m*
+JoshuaLe-lab2.txt  practice     test-file1
+journal            [01;34mPrivate[0m/     test-file2
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ cd Projects
+]0;joshua@joshua-VirtualBox: ~/Projects[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects[00m$ ls
+[0m[01;34mCode[0m  f-name  month  testing
+]0;joshua@joshua-VirtualBox: ~/Projects[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects[00m$ pwd
+/home/joshua/Projects
+]0;joshua@joshua-VirtualBox: ~/Projects[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects[00m$ cd
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ cd Projects/Code/
+]0;joshua@joshua-VirtualBox: ~/Projects/Code[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects/Code[00m$ pwd
+/home/joshua/Projects/Code
+]0;joshua@joshua-VirtualBox: ~/Projects/Code[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects/Code[00m$ ls
+report3
+]0;joshua@joshua-VirtualBox: ~/Projects/Code[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects/Code[00m$ cat report34[K
+ya yeet
+]0;joshua@joshua-VirtualBox: ~/Projects/Code[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects/Code[00m$ 
+]0;joshua@joshua-VirtualBox: ~/Projects/Code[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects/Code[00m$ cd
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ pwd
+/home/joshua
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ vi Projects/code[K[K[K[KCode/report3
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"Projects/Code/report3" 1 line, 8 characters[1;1Hya yeet
+[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h[my[?2004l[>4;ma[?25l  yeetya [?25h[?25ly yeet[?25h[?25le yeet[?25h[?25le yeet[?25h[?25lt yeet[?25h[?2004h[>4;2m[?25l[24;1H[K[24;1H:[?2004h[?25hwq[?25l[?2004l"Projects/Code/report3" 1 line, 13 characters written
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ pwd
+/home/joshua
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ cp journal Projects/Code/journal2
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ;ls[K[K[Kls -i journal
+280845 journal
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ cd PRojects[K[K[K[K[K[K[Krojects/Code
+]0;joshua@joshua-VirtualBox: ~/Projects/Code[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects/Code[00m$ ls -i
+790228 journal2  790229 report3
+]0;joshua@joshua-VirtualBox: ~/Projects/Code[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects/Code[00m$ cat journal 2
+cat: journal: No such file or directory
+cat: 2: No such file or directory
+]0;joshua@joshua-VirtualBox: ~/Projects/Code[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects/Code[00m$ cat journal2
+Mon 21 Feb 2022 03:33:18 PM PST
+]0;joshua@joshua-VirtualBox: ~/Projects/Code[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects/Code[00m$ cd
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ mkdir Docum
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ touch Docum/readme
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls Docum
+readme
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ cd
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ mkdir Projects/Corresp
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls -f[KF Projects
+[0m[01;34mCode[0m/  [01;34mCorresp[0m/  f-name  month  testing
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ cd PRojects [K/Corresp
+bash: cd: PRojects/Corresp: No such file or directory
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ cd Projects/Corresp
+]0;joshua@joshua-VirtualBox: ~/Projects/Corresp[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects/Corresp[00m$ pwd
+/home/joshua/Projects/Corresp
+]0;joshua@joshua-VirtualBox: ~/Projects/Corresp[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects/Corresp[00m$ vi replies
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"replies" [New File][2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h[?2004l[>4;m[?25l[mh[?25h[?25le[?25h[?25ll[?25h[?25ll[?25h[?25lo[?25h[?25l[2;1H[K[2;1H[?25h[?25lh[?25h[?25le[?25h[?25ll[?25h[?25ll[?25h[?25lo[?25h[?25l[3;1H[K[3;1H[?25h[?25lg[?25h[?25lo[?25h[?25lo[?25h[?25ld[?25h[?25lb[?25h[?25ly[?25h[?25le[?25h[?2004h[>4;2m[?25l[24;1H[K[24;1H:[?2004h[?25hwq[?25l[?2004l"replies" [New File] 3 lines, 20 characters written
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;joshua@joshua-VirtualBox: ~/Projects/Corresp[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects/Corresp[00m$ cd 
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ cd Projects/Code
+]0;joshua@joshua-VirtualBox: ~/Projects/Code[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects/Code[00m$ ls -i[Ka
+[0m[01;34m.[0m  [01;34m..[0m  journal2  report3
+]0;joshua@joshua-VirtualBox: ~/Projects/Code[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects/Code[00m$ file .
+.: directory
+]0;joshua@joshua-VirtualBox: ~/Projects/Code[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects/Code[00m$ file ..
+..: directory
+]0;joshua@joshua-VirtualBox: ~/Projects/Code[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects/Code[00m$ pwd
+/home/joshua/Projects/Code
+]0;joshua@joshua-VirtualBox: ~/Projects/Code[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects/Code[00m$ ls -ai
+790227 [0m[01;34m.[0m  664369 [01;34m..[0m  790228 journal2  790229 report3
+]0;joshua@joshua-VirtualBox: ~/Projects/Code[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects/Code[00m$ cd .
+]0;joshua@joshua-VirtualBox: ~/Projects/Code[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects/Code[00m$ cd.[K .
+]0;joshua@joshua-VirtualBox: ~/Projects/Code[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects/Code[00m$ ls -ai Code
+ls: cannot access 'Code': No such file or directory
+]0;joshua@joshua-VirtualBox: ~/Projects/Code[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects/Code[00m$ cd ..
+]0;joshua@joshua-VirtualBox: ~/Projects[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects[00m$ ls -ai Code
+790227 [0m[01;34m.[0m  664369 [01;34m..[0m  790228 journal2  790229 report3
+]0;joshua@joshua-VirtualBox: ~/Projects[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects[00m$ pwd
+/home/joshua/Projects
+]0;joshua@joshua-VirtualBox: ~/Projects[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects[00m$ C[Kcd ../..
+]0;joshua@joshua-VirtualBox: /home[01;32mjoshua@joshua-VirtualBox[00m:[01;34m/home[00m$ pwd
+/home
+]0;joshua@joshua-VirtualBox: /home[01;32mjoshua@joshua-VirtualBox[00m:[01;34m/home[00m$ cd
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ pwd
+/home/joshua
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ cd ..
+]0;joshua@joshua-VirtualBox: /home[01;32mjoshua@joshua-VirtualBox[00m:[01;34m/home[00m$ cd
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ,m[K[Kmkdir Skye
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls -iF
+665075 [0m[01;34ma[0m/                 280847 month             280805 sorted-test-sor
+280731 c1                 431970 [01;34mMusic[0m/            280733 sort-test
+280729 c2                 280646 [01;32mmydata.txt[0m*       280806 sp2
+280730 c3                 280714 myerr             280807 sp3
+280728 cl                 280643 myfile1           280487 style.css
+280287 [01;34mDesktop[0m/           280483 myoutput          431967 [01;34mTemplates[0m/
+790230 [01;34mDocum[0m/             280722 mypasswd          280645 test-file1
+431969 [01;34mDocuments[0m/         280801 names.tmp         280713 test-file2
+280288 [01;34mDownloads[0m/         280809 newfile1A         280800 test-g
+280727 el                 280810 newfile2B2        280737 test-list
+280469 [01;34mexam1[0m/             664368 [01;34mPapers[0m/           280802 test-sor
+280736 file2              280723 phon              280480 test.txt
+280686 file.info1         431971 [01;34mPictures[0m/         280732 total
+280798 file.info2         280743 practice          280848 trouble
+280734 first_file         280719 [01;34mPrivate[0m/          280720 users_on
+665065 [01;34mfoo[0m/               664369 [01;34mProjects[0m/         280846 users_test
+280717 footer             431968 [01;34mPublic[0m/           431972 [01;34mVideos[0m/
+280715 footer.1           280474 quiz3.txt         280814 west-coast.names
+280716 footer.2           664370 [01;34mRecommendations[0m/  280827 words.out
+280476 index.html         280396 [01;34mrepos[0m/            280826 [01;32mwordsUsed[0m*
+280639 installation.txt   280803 respected         280819 [01;32mwordsUsed1[0m*
+280718 JoshuaLe-lab2.txt  434784 [01;34mResumes[0m/          280817 [01;32mwordsUsed2[0m*
+280845 journal            280741 review            280820 [01;32mwordsUsed3[0m*
+280400 lab1.txt           280792 script1           280821 [01;32mwordsUsed4[0m*
+280799 lab4.txt           280486 script.js         280822 [01;32mwordsUsed5[0m*
+280398 lab5.txt           280735 second_file       280823 [01;32mwordsUsed6[0m*
+274051 lab6.txt           280804 short-pass        280824 [01;32mwordsUsed7[0m*
+280721 lost-days          790233 [01;34mSkye[0m/             280825 [01;32mwordsUsed8[0m*
+280813 manywords          280726 s-mypasswd
+280644 me_A               280808 sortedsp3
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls ai Sk[Kkye
+ls: cannot access 'ai': No such file or directory
+Skye:
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls -ai S[KSky
+ls: cannot access 'Sky': No such file or directory
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ e[Kls -ai Skye
+790233 [0m[01;34m.[0m  274993 [01;34m..[0m
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ cd
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ cd practice journal f-name
+bash: cd: too many arguments
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ jou[K[Kcp[K[K[Kcp practice journal f-name
+cp: target 'f-name' is not a directory
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ cp practice journal Docum/
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls Docum
+journal  practice  readme
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ mkdir Archives
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ cp users_on practice journal l* Archives/
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls Archives
+journal  lab1.txt  lab4.txt  lab5.txt  lab6.txt  lost-days  practice  users_on
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ touch cassy dimitri owen danny monika
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls -i
+665075 [0m[01;34ma[0m                  280813 manywords        280726 s-mypasswd
+790237 [01;34mArchives[0m           280644 me_A             280808 sortedsp3
+280731 c1                 280853 monika           280805 sorted-test-sor
+280729 c2                 280847 month            280733 sort-test
+280730 c3                 431970 [01;34mMusic[0m            280806 sp2
+280844 cassy              280646 [01;32mmydata.txt[0m       280807 sp3
+280728 cl                 280714 myerr            280487 style.css
+280852 danny              280643 myfile1          431967 [01;34mTemplates[0m
+280287 [01;34mDesktop[0m            280483 myoutput         280645 test-file1
+280850 dimitri            280722 mypasswd         280713 test-file2
+790230 [01;34mDocum[0m              280801 names.tmp        280800 test-g
+431969 [01;34mDocuments[0m          280809 newfile1A        280737 test-list
+280288 [01;34mDownloads[0m          280810 newfile2B2       280802 test-sor
+280727 el                 280851 owen             280480 test.txt
+280469 [01;34mexam1[0m              664368 [01;34mPapers[0m           280732 total
+280736 file2              280723 phon             280848 trouble
+280686 file.info1         431971 [01;34mPictures[0m         280720 users_on
+280798 file.info2         280743 practice         280846 users_test
+280734 first_file         280719 [01;34mPrivate[0m          431972 [01;34mVideos[0m
+665065 [01;34mfoo[0m                664369 [01;34mProjects[0m         280814 west-coast.names
+280717 footer             431968 [01;34mPublic[0m           280827 words.out
+280715 footer.1           280474 quiz3.txt        280826 [01;32mwordsUsed[0m
+280716 footer.2           664370 [01;34mRecommendations[0m  280819 [01;32mwordsUsed1[0m
+280476 index.html         280396 [01;34mrepos[0m            280817 [01;32mwordsUsed2[0m
+280639 installation.txt   280803 respected        280820 [01;32mwordsUsed3[0m
+280718 JoshuaLe-lab2.txt  434784 [01;34mResumes[0m          280821 [01;32mwordsUsed4[0m
+280845 journal            280741 review           280822 [01;32mwordsUsed5[0m
+280400 lab1.txt           280792 script1          280823 [01;32mwordsUsed6[0m
+280799 lab4.txt           280486 script.js        280824 [01;32mwordsUsed7[0m
+280398 lab5.txt           280735 second_file      280825 [01;32mwordsUsed8[0m
+274051 lab6.txt           280804 short-pass
+280721 lost-days          790233 [01;34mSkye[0m
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ mv cassy dimitri owen danny monika Docum/
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls -i
+665075 [0m[01;34ma[0m                  280644 me_A             280808 sortedsp3
+790237 [01;34mArchives[0m           280847 month            280805 sorted-test-sor
+280731 c1                 431970 [01;34mMusic[0m            280733 sort-test
+280729 c2                 280646 [01;32mmydata.txt[0m       280806 sp2
+280730 c3                 280714 myerr            280807 sp3
+280728 cl                 280643 myfile1          280487 style.css
+280287 [01;34mDesktop[0m            280483 myoutput         431967 [01;34mTemplates[0m
+790230 [01;34mDocum[0m              280722 mypasswd         280645 test-file1
+431969 [01;34mDocuments[0m          280801 names.tmp        280713 test-file2
+280288 [01;34mDownloads[0m          280809 newfile1A        280800 test-g
+280727 el                 280810 newfile2B2       280737 test-list
+280469 [01;34mexam1[0m              664368 [01;34mPapers[0m           280802 test-sor
+280736 file2              280723 phon             280480 test.txt
+280686 file.info1         431971 [01;34mPictures[0m         280732 total
+280798 file.info2         280743 practice         280848 trouble
+280734 first_file         280719 [01;34mPrivate[0m          280720 users_on
+665065 [01;34mfoo[0m                664369 [01;34mProjects[0m         280846 users_test
+280717 footer             431968 [01;34mPublic[0m           431972 [01;34mVideos[0m
+280715 footer.1           280474 quiz3.txt        280814 west-coast.names
+280716 footer.2           664370 [01;34mRecommendations[0m  280827 words.out
+280476 index.html         280396 [01;34mrepos[0m            280826 [01;32mwordsUsed[0m
+280639 installation.txt   280803 respected        280819 [01;32mwordsUsed1[0m
+280718 JoshuaLe-lab2.txt  434784 [01;34mResumes[0m          280817 [01;32mwordsUsed2[0m
+280845 journal            280741 review           280820 [01;32mwordsUsed3[0m
+280400 lab1.txt           280792 script1          280821 [01;32mwordsUsed4[0m
+280799 lab4.txt           280486 script.js        280822 [01;32mwordsUsed5[0m
+280398 lab5.txt           280735 second_file      280823 [01;32mwordsUsed6[0m
+274051 lab6.txt           280804 short-pass       280824 [01;32mwordsUsed7[0m
+280721 lost-days          790233 [01;34mSkye[0m             280825 [01;32mwordsUsed8[0m
+280813 manywords          280726 s-mypasswd
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls -i Docu/[Km/
+280844 cassy  280850 dimitri  280853 monika  790235 practice
+280852 danny  790236 journal  280851 owen    790231 readme
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ cd
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ cd Projects/Code
+]0;joshua@joshua-VirtualBox: ~/Projects/Code[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects/Code[00m$ pwd
+/home/joshua/Projects/Code
+]0;joshua@joshua-VirtualBox: ~/Projects/Code[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects/Code[00m$ ls -ai
+790227 [0m[01;34m.[0m  664369 [01;34m..[0m  790228 journal2  790229 report3
+]0;joshua@joshua-VirtualBox: ~/Projects/Code[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects/Code[00m$  [Kls a[K-ai report3
+790229 report3
+]0;joshua@joshua-VirtualBox: ~/Projects/Code[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects/Code[00m$ mv report [K3 ..
+]0;joshua@joshua-VirtualBox: ~/Projects/Code[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects/Code[00m$ cd ..
+]0;joshua@joshua-VirtualBox: ~/Projects[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects[00m$ pwd
+/home/joshua/Projects
+]0;joshua@joshua-VirtualBox: ~/Projects[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects[00m$ ls -i
+790227 [0m[01;34mCode[0m     280448 f-name  790229 report3
+790232 [01;34mCorresp[0m  664371 month   664376 testing
+]0;joshua@joshua-VirtualBox: ~/Projects[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects[00m$ mv report3 Code
+]0;joshua@joshua-VirtualBox: ~/Projects[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects[00m$ touch megan daniel betty
+]0;joshua@joshua-VirtualBox: ~/Projects[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects[00m$ ls -i
+673971 betty  790232 [0m[01;34mCorresp[0m  280448 f-name  664371 month
+790227 [01;34mCode[0m   673970 daniel   673969 megan   664376 testing
+]0;joshua@joshua-VirtualBox: ~/Projects[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects[00m$ mv megan daniel betty ..
+]0;joshua@joshua-VirtualBox: ~/Projects[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects[00m$ ls -0i[K[Ki
+790227 [0m[01;34mCode[0m  790232 [01;34mCorresp[0m  280448 f-name  664371 month  664376 testing
+]0;joshua@joshua-VirtualBox: ~/Projects[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects[00m$ cd ..
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls
+[0m[01;34ma[0m           installation.txt   [01;34mPictures[0m         [01;34mTemplates[0m
+[01;34mArchives[0m    JoshuaLe-lab2.txt  practice         test-file1
+betty       journal            [01;34mPrivate[0m          test-file2
+c1          lab1.txt           [01;34mProjects[0m         test-g
+c2          lab4.txt           [01;34mPublic[0m           test-list
+c3          lab5.txt           quiz3.txt        test-sor
+cl          lab6.txt           [01;34mRecommendations[0m  test.txt
+daniel      lost-days          [01;34mrepos[0m            total
+[01;34mDesktop[0m     manywords          respected        trouble
+[01;34mDocum[0m       me_A               [01;34mResumes[0m          users_on
+[01;34mDocuments[0m   megan              review           users_test
+[01;34mDownloads[0m   month              script1          [01;34mVideos[0m
+el          [01;34mMusic[0m              script.js        west-coast.names
+[01;34mexam1[0m       [01;32mmydata.txt[0m         second_file      words.out
+file2       myerr              short-pass       [01;32mwordsUsed[0m
+file.info1  myfile1            [01;34mSkye[0m             [01;32mwordsUsed1[0m
+file.info2  myoutput           s-mypasswd       [01;32mwordsUsed2[0m
+first_file  mypasswd           sortedsp3        [01;32mwordsUsed3[0m
+[01;34mfoo[0m         names.tmp          sorted-test-sor  [01;32mwordsUsed4[0m
+footer      newfile1A          sort-test        [01;32mwordsUsed5[0m
+footer.1    newfile2B2         sp2              [01;32mwordsUsed6[0m
+footer.2    [01;34mPapers[0m             sp3              [01;32mwordsUsed7[0m
+index.html  phon               style.css        [01;32mwordsUsed8[0m
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls -i
+665075 [0m[01;34ma[0m                  280813 manywords        280726 s-mypasswd
+790237 [01;34mArchives[0m           280644 me_A             280808 sortedsp3
+673971 betty              673969 megan            280805 sorted-test-sor
+280731 c1                 280847 month            280733 sort-test
+280729 c2                 431970 [01;34mMusic[0m            280806 sp2
+280730 c3                 280646 [01;32mmydata.txt[0m       280807 sp3
+280728 cl                 280714 myerr            280487 style.css
+673970 daniel             280643 myfile1          431967 [01;34mTemplates[0m
+280287 [01;34mDesktop[0m            280483 myoutput         280645 test-file1
+790230 [01;34mDocum[0m              280722 mypasswd         280713 test-file2
+431969 [01;34mDocuments[0m          280801 names.tmp        280800 test-g
+280288 [01;34mDownloads[0m          280809 newfile1A        280737 test-list
+280727 el                 280810 newfile2B2       280802 test-sor
+280469 [01;34mexam1[0m              664368 [01;34mPapers[0m           280480 test.txt
+280736 file2              280723 phon             280732 total
+280686 file.info1         431971 [01;34mPictures[0m         280848 trouble
+280798 file.info2         280743 practice         280720 users_on
+280734 first_file         280719 [01;34mPrivate[0m          280846 users_test
+665065 [01;34mfoo[0m                664369 [01;34mProjects[0m         431972 [01;34mVideos[0m
+280717 footer             431968 [01;34mPublic[0m           280814 west-coast.names
+280715 footer.1           280474 quiz3.txt        280827 words.out
+280716 footer.2           664370 [01;34mRecommendations[0m  280826 [01;32mwordsUsed[0m
+280476 index.html         280396 [01;34mrepos[0m            280819 [01;32mwordsUsed1[0m
+280639 installation.txt   280803 respected        280817 [01;32mwordsUsed2[0m
+280718 JoshuaLe-lab2.txt  434784 [01;34mResumes[0m          280820 [01;32mwordsUsed3[0m
+280845 journal            280741 review           280821 [01;32mwordsUsed4[0m
+280400 lab1.txt           280792 script1          280822 [01;32mwordsUsed5[0m
+280799 lab4.txt           280486 script.js        280823 [01;32mwordsUsed6[0m
+280398 lab5.txt           280735 second_file      280824 [01;32mwordsUsed7[0m
+274051 lab6.txt           280804 short-pass       280825 [01;32mwordsUsed8[0m
+280721 lost-days          790233 [01;34mSkye[0m
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ cd /tmp
+]0;joshua@joshua-VirtualBox: /tmp[01;32mjoshua@joshua-VirtualBox[00m:[01;34m/tmp[00m$ mkdir $USER
+]0;joshua@joshua-VirtualBox: /tmp[01;32mjoshua@joshua-VirtualBox[00m:[01;34m/tmp[00m$ cd $USER
+]0;joshua@joshua-VirtualBox: /tmp/joshua[01;32mjoshua@joshua-VirtualBox[00m:[01;34m/tmp/joshua[00m$ ,ldor <[K[K[K[K[K[K[Kmkdir Mydir
+]0;joshua@joshua-VirtualBox: /tmp/joshua[01;32mjoshua@joshua-VirtualBox[00m:[01;34m/tmp/joshua[00m$ cd Mydir
+]0;joshua@joshua-VirtualBox: /tmp/joshua/Mydir[01;32mjoshua@joshua-VirtualBox[00m:[01;34m/tmp/joshua/Mydir[00m$ pwd
+/tmp/joshua/Mydir
+]0;joshua@joshua-VirtualBox: /tmp/joshua/Mydir[01;32mjoshua@joshua-VirtualBox[00m:[01;34m/tmp/joshua/Mydir[00m$ date > myfile
+]0;joshua@joshua-VirtualBox: /tmp/joshua/Mydir[01;32mjoshua@joshua-VirtualBox[00m:[01;34m/tmp/joshua/Mydir[00m$ ls 
+myfile
+]0;joshua@joshua-VirtualBox: /tmp/joshua/Mydir[01;32mjoshua@joshua-VirtualBox[00m:[01;34m/tmp/joshua/Mydir[00m$ cat myfile
+Mon 21 Feb 2022 03:48:07 PM PST
+]0;joshua@joshua-VirtualBox: /tmp/joshua/Mydir[01;32mjoshua@joshua-VirtualBox[00m:[01;34m/tmp/joshua/Mydir[00m$ pwd
+/tmp/joshua/Mydir
+]0;joshua@joshua-VirtualBox: /tmp/joshua/Mydir[01;32mjoshua@joshua-VirtualBox[00m:[01;34m/tmp/joshua/Mydir[00m$ cd
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ more /tmp/$USER/Mydir/mf[Kyfile
+Mon 21 Feb 2022 03:48:07 PM PST
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ cd /tmp
+]0;joshua@joshua-VirtualBox: /tmp[01;32mjoshua@joshua-VirtualBox[00m:[01;34m/tmp[00m$ pwd
+/tmp
+]0;joshua@joshua-VirtualBox: /tmp[01;32mjoshua@joshua-VirtualBox[00m:[01;34m/tmp[00m$ ls ~
+[0m[01;34ma[0m           installation.txt   [01;34mPictures[0m         [01;34mTemplates[0m
+[01;34mArchives[0m    JoshuaLe-lab2.txt  practice         test-file1
+betty       journal            [01;34mPrivate[0m          test-file2
+c1          lab1.txt           [01;34mProjects[0m         test-g
+c2          lab4.txt           [01;34mPublic[0m           test-list
+c3          lab5.txt           quiz3.txt        test-sor
+cl          lab6.txt           [01;34mRecommendations[0m  test.txt
+daniel      lost-days          [01;34mrepos[0m            total
+[01;34mDesktop[0m     manywords          respected        trouble
+[01;34mDocum[0m       me_A               [01;34mResumes[0m          users_on
+[01;34mDocuments[0m   megan              review           users_test
+[01;34mDownloads[0m   month              script1          [01;34mVideos[0m
+el          [01;34mMusic[0m              script.js        west-coast.names
+[01;34mexam1[0m       [01;32mmydata.txt[0m         second_file      words.out
+file2       myerr              short-pass       [01;32mwordsUsed[0m
+file.info1  myfile1            [01;34mSkye[0m             [01;32mwordsUsed1[0m
+file.info2  myoutput           s-mypasswd       [01;32mwordsUsed2[0m
+first_file  mypasswd           sortedsp3        [01;32mwordsUsed3[0m
+[01;34mfoo[0m         names.tmp          sorted-test-sor  [01;32mwordsUsed4[0m
+footer      newfile1A          sort-test        [01;32mwordsUsed5[0m
+footer.1    newfile2B2         sp2              [01;32mwordsUsed6[0m
+footer.2    [01;34mPapers[0m             sp3              [01;32mwordsUsed7[0m
+index.html  phon               style.css        [01;32mwordsUsed8[0m
+]0;joshua@joshua-VirtualBox: /tmp[01;32mjoshua@joshua-VirtualBox[00m:[01;34m/tmp[00m$ pwd
+/tmp
+]0;joshua@joshua-VirtualBox: /tmp[01;32mjoshua@joshua-VirtualBox[00m:[01;34m/tmp[00m$ more ~/practice
+I was in the middle of a line,It is essential to be able to place text above the
+ current line
+The difference between i and a  
+The drMIapple baanana cat dog wolf am now adding more text
+What are the two modes of the visual editor?
+There is more than one way to move
+eddveral times in this course.
+
+Although I am created this file with the cat command,
+later you will be editing it using vi.
+
+a b c d
+2 3 4 5
+2 3 4 5
+A B C D
+E F G H
+
+vi permits global changes, reading/writing files, cutting and pasting, and 
+tailoring the environment to meet individual needs.
+
+There is no need for a mouse, you can keep your fingers where they belong, 
+on the keyboard, everything is done through commands.
+
+[7m--More--(19%)[27mThere are two commands that can be used to list directory contents-the dir and l
+s commands. 
+
+There are two commands that can be used to list directory contents-the dir and l
+s commands. 
+The dir command has been added to Linux and is not a standard UNIX command. The 
+ls command comes 
+The dir command has been added to Linux and is not a standard UNIX command. The 
+ls command comes 
+from the UNIX tradition and is the command you'll explore in this course.  
+The ls command lists the files in a directory. This command takes several option
+[7m--More--(34%)[27ms and arguments. 
+
+Line editors allow you to work with a line of text at a time. A screen editor di
+splays an entire screen of text. 
+A stream editor manipulates text as a stream of data, and is usually used in she
+ll scripts, small programs 
+written for and executed by the shell. The ex text editor is the foundation for 
+vi, the screen editor we 
+used in a previous module. You could call vi the visual mode of the underlying e
+x line editor. 
+Ed is generally no longer used as a line editor because it has been superceded b
+y ex, but some utilities 
+like the diff command continue to use the ed syntax.
+
+The screen editors vi and emacs are screen editors because you can view an entir
+e screen of text for editing. 
+You can see the changes you make as you make them. Because vi is a screen versio
+n of the ex editor, many of 
+the ex commands can be used in vi. For example, you can still take advantage of 
+the global replacement and 
+pattern searches of the underlying ex editor when using vi. In fact, if you ever
+ begin your vi command with: 
+the colon, you are using an ex command in vi.  Remember the :q! command? It come
+[7m--More--(65%)[27ms from vi's ex roots.
+[7m--More--(66%)[27m[K
+[7m--More--(66%)[27mA stream editor is a non-interactive or stream-oriented editor. You do not view 
+[7m--More--(68%)[27m[K]0;joshua@joshua-VirtualBox: /tmp[01;32mjoshua@joshua-VirtualBox[00m:[01;34m/tmp[00m$ cd ~Pr[K[K/PR[Krojects/Code
+]0;joshua@joshua-VirtualBox: ~/Projects/Code[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects/Code[00m$ pwd
+/home/joshua/Projects/Code
+]0;joshua@joshua-VirtualBox: ~/Projects/Code[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects/Code[00m$ echo ~
+/home/joshua
+]0;joshua@joshua-VirtualBox: ~/Projects/Code[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects/Code[00m$ echo~[K ~/Projects
+/home/joshua/Projects
+]0;joshua@joshua-VirtualBox: ~/Projects/Code[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects/Code[00m$ echo ~/..
+/home/joshua/..
+]0;joshua@joshua-VirtualBox: ~/Projects/Code[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects/Code[00m$ echo ~/Projects/Code
+/home/joshua/Projects/Code
+]0;joshua@joshua-VirtualBox: ~/Projects/Code[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects/Code[00m$ `[Kecho ~/ABCDE
+/home/joshua/ABCDE
+]0;joshua@joshua-VirtualBox: ~/Projects/Code[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects/Code[00m$ ~[Kecho ~My [K[K[K[KMy home is ~
+My home is /home/joshua
+]0;joshua@joshua-VirtualBox: ~/Projects/Code[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects/Code[00m$ grep root /etc/passwd
+[01;31m[Kroot[m[K:x:0:0:[01;31m[Kroot[m[K:/[01;31m[Kroot[m[K:/bin/bash
+]0;joshua@joshua-VirtualBox: ~/Projects/Code[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects/Code[00m$ echo ~?[K/root
+/home/joshua/root
+]0;joshua@joshua-VirtualBox: ~/Projects/Code[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects/Code[00m$ `[Kecho ~lmeade
+~lmeade
+]0;joshua@joshua-VirtualBox: ~/Projects/Code[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects/Code[00m$ cd
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ pwd
+/home/joshua
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls
+[0m[01;34ma[0m           installation.txt   [01;34mPictures[0m         [01;34mTemplates[0m
+[01;34mArchives[0m    JoshuaLe-lab2.txt  practice         test-file1
+betty       journal            [01;34mPrivate[0m          test-file2
+c1          lab1.txt           [01;34mProjects[0m         test-g
+c2          lab4.txt           [01;34mPublic[0m           test-list
+c3          lab5.txt           quiz3.txt        test-sor
+cl          lab6.txt           [01;34mRecommendations[0m  test.txt
+daniel      lost-days          [01;34mrepos[0m            total
+[01;34mDesktop[0m     manywords          respected        trouble
+[01;34mDocum[0m       me_A               [01;34mResumes[0m          users_on
+[01;34mDocuments[0m   megan              review           users_test
+[01;34mDownloads[0m   month              script1          [01;34mVideos[0m
+el          [01;34mMusic[0m              script.js        west-coast.names
+[01;34mexam1[0m       [01;32mmydata.txt[0m         second_file      words.out
+file2       myerr              short-pass       [01;32mwordsUsed[0m
+file.info1  myfile1            [01;34mSkye[0m             [01;32mwordsUsed1[0m
+file.info2  myoutput           s-mypasswd       [01;32mwordsUsed2[0m
+first_file  mypasswd           sortedsp3        [01;32mwordsUsed3[0m
+[01;34mfoo[0m         names.tmp          sorted-test-sor  [01;32mwordsUsed4[0m
+footer      newfile1A          sort-test        [01;32mwordsUsed5[0m
+footer.1    newfile2B2         sp2              [01;32mwordsUsed6[0m
+footer.2    [01;34mPapers[0m             sp3              [01;32mwordsUsed7[0m
+index.html  phon               style.css        [01;32mwordsUsed8[0m
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ cd ~tmp
+bash: cd: ~tmp: No such file or directory
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ bash
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ cd /tmp/$USER
+]0;joshua@joshua-VirtualBox: /tmp/joshua[01;32mjoshua@joshua-VirtualBox[00m:[01;34m/tmp/joshua[00m$ echo $PWD
+/tmp/joshua
+]0;joshua@joshua-VirtualBox: /tmp/joshua[01;32mjoshua@joshua-VirtualBox[00m:[01;34m/tmp/joshua[00m$ pwd
+/tmp/joshua
+]0;joshua@joshua-VirtualBox: /tmp/joshua[01;32mjoshua@joshua-VirtualBox[00m:[01;34m/tmp/joshua[00m$ echo $OLDPWD
+/home/joshua
+]0;joshua@joshua-VirtualBox: /tmp/joshua[01;32mjoshua@joshua-VirtualBox[00m:[01;34m/tmp/joshua[00m$ pwd
+/tmp/joshua
+]0;joshua@joshua-VirtualBox: /tmp/joshua[01;32mjoshua@joshua-VirtualBox[00m:[01;34m/tmp/joshua[00m$ cd /tmp
+]0;joshua@joshua-VirtualBox: /tmp[01;32mjoshua@joshua-VirtualBox[00m:[01;34m/tmp[00m$ pwd
+/tmp
+]0;joshua@joshua-VirtualBox: /tmp[01;32mjoshua@joshua-VirtualBox[00m:[01;34m/tmp[00m$ cd -
+/tmp/joshua
+]0;joshua@joshua-VirtualBox: /tmp/joshua[01;32mjoshua@joshua-VirtualBox[00m:[01;34m/tmp/joshua[00m$ pwd
+/tmp/joshua
+]0;joshua@joshua-VirtualBox: /tmp/joshua[01;32mjoshua@joshua-VirtualBox[00m:[01;34m/tmp/joshua[00m$ exit
+exit
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ cp journal projects/Co[K[Kcode/journal2
+cp: cannot create regular file 'projects/code/journal2': No such file or directory
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ wc -l practice users
+  75 practice
+wc: users: No such file or directory
+  75 total
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ wc -l prcatice [K[K[K[K[K[K[Kactice users_on
+  75 practice
+   1 users_on
+  76 total
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ wc 0k[K[K-l ./practice ./users_op[Kn
+  75 ./practice
+   1 ./users_on
+  76 total
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ cd
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls Projects
+[0m[01;34mCode[0m  [01;34mCorresp[0m  f-name  month  testing
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ vi Projects/actions
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"Projects/actions" [New File][2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h[?2004l[>4;m[?25l[my[?25h[?25la[?25h[?25ly[?25h[?25le[?25h[?25le[?25h[?25lt[?25h[?25l[2;1H[K[2;1H[?25h[?2004h[>4;2m[?25l[24;1H[K[24;1H:[?2004h[?25hwq[?25l[?2004l"Projects/actions" [New File] 2 lines, 8 characters written
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls
+[0m[01;34ma[0m           installation.txt   [01;34mPictures[0m         [01;34mTemplates[0m
+[01;34mArchives[0m    JoshuaLe-lab2.txt  practice         test-file1
+betty       journal            [01;34mPrivate[0m          test-file2
+c1          lab1.txt           [01;34mProjects[0m         test-g
+c2          lab4.txt           [01;34mPublic[0m           test-list
+c3          lab5.txt           quiz3.txt        test-sor
+cl          lab6.txt           [01;34mRecommendations[0m  test.txt
+daniel      lost-days          [01;34mrepos[0m            total
+[01;34mDesktop[0m     manywords          respected        trouble
+[01;34mDocum[0m       me_A               [01;34mResumes[0m          users_on
+[01;34mDocuments[0m   megan              review           users_test
+[01;34mDownloads[0m   month              script1          [01;34mVideos[0m
+el          [01;34mMusic[0m              script.js        west-coast.names
+[01;34mexam1[0m       [01;32mmydata.txt[0m         second_file      words.out
+file2       myerr              short-pass       [01;32mwordsUsed[0m
+file.info1  myfile1            [01;34mSkye[0m             [01;32mwordsUsed1[0m
+file.info2  myoutput           s-mypasswd       [01;32mwordsUsed2[0m
+first_file  mypasswd           sortedsp3        [01;32mwordsUsed3[0m
+[01;34mfoo[0m         names.tmp          sorted-test-sor  [01;32mwordsUsed4[0m
+footer      newfile1A          sort-test        [01;32mwordsUsed5[0m
+footer.1    newfile2B2         sp2              [01;32mwordsUsed6[0m
+footer.2    [01;34mPapers[0m             sp3              [01;32mwordsUsed7[0m
+index.html  phon               style.css        [01;32mwordsUsed8[0m
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls Projects
+actions  [0m[01;34mCode[0m  [01;34mCorresp[0m  f-name  month  testing
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ cd Projects
+]0;joshua@joshua-VirtualBox: ~/Projects[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects[00m$ wc ../users_on
+ 1  5 44 ../users_on
+]0;joshua@joshua-VirtualBox: ~/Projects[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects[00m$ ls ..
+[0m[01;34ma[0m           installation.txt   [01;34mPictures[0m         [01;34mTemplates[0m
+[01;34mArchives[0m    JoshuaLe-lab2.txt  practice         test-file1
+betty       journal            [01;34mPrivate[0m          test-file2
+c1          lab1.txt           [01;34mProjects[0m         test-g
+c2          lab4.txt           [01;34mPublic[0m           test-list
+c3          lab5.txt           quiz3.txt        test-sor
+cl          lab6.txt           [01;34mRecommendations[0m  test.txt
+daniel      lost-days          [01;34mrepos[0m            total
+[01;34mDesktop[0m     manywords          respected        trouble
+[01;34mDocum[0m       me_A               [01;34mResumes[0m          users_on
+[01;34mDocuments[0m   megan              review           users_test
+[01;34mDownloads[0m   month              script1          [01;34mVideos[0m
+el          [01;34mMusic[0m              script.js        west-coast.names
+[01;34mexam1[0m       [01;32mmydata.txt[0m         second_file      words.out
+file2       myerr              short-pass       [01;32mwordsUsed[0m
+file.info1  myfile1            [01;34mSkye[0m             [01;32mwordsUsed1[0m
+file.info2  myoutput           s-mypasswd       [01;32mwordsUsed2[0m
+first_file  mypasswd           sortedsp3        [01;32mwordsUsed3[0m
+[01;34mfoo[0m         names.tmp          sorted-test-sor  [01;32mwordsUsed4[0m
+footer      newfile1A          sort-test        [01;32mwordsUsed5[0m
+footer.1    newfile2B2         sp2              [01;32mwordsUsed6[0m
+footer.2    [01;34mPapers[0m             sp3              [01;32mwordsUsed7[0m
+index.html  phon               style.css        [01;32mwordsUsed8[0m
+]0;joshua@joshua-VirtualBox: ~/Projects[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects[00m$ ls ../Docum
+cassy  danny  dimitri  journal  monika  owen  practice  readme
+]0;joshua@joshua-VirtualBox: ~/Projects[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects[00m$ wc ../Docum/readme
+0 0 0 ../Docum/readme
+]0;joshua@joshua-VirtualBox: ~/Projects[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects[00m$ cd
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls Projects/Code
+journal2  report3
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ wc Projects/Code/journal2
+ 1  7 32 Projects/Code/journal2
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ cd
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ced[K[Kd /tmp
+]0;joshua@joshua-VirtualBox: /tmp[01;32mjoshua@joshua-VirtualBox[00m:[01;34m/tmp[00m$ pwd
+/tmp
+]0;joshua@joshua-VirtualBox: /tmp[01;32mjoshua@joshua-VirtualBox[00m:[01;34m/tmp[00m$ ls ~/Projects/Code
+journal2  report3
+]0;joshua@joshua-VirtualBox: /tmp[01;32mjoshua@joshua-VirtualBox[00m:[01;34m/tmp[00m$ echo ~/Projects/Code
+/home/joshua/Projects/Code
+]0;joshua@joshua-VirtualBox: /tmp[01;32mjoshua@joshua-VirtualBox[00m:[01;34m/tmp[00m$ cd
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls /tmp
+config-err-AohNQE
+[0m[01;34mjoshua[0m
+[01;34mssh-NGbXyvpRzib3[0m
+[01;34msystemd-private-affff0487644435dbfafb8ffee42df7b-colord.service-S0VT8f[0m
+[01;34msystemd-private-affff0487644435dbfafb8ffee42df7b-ModemManager.service-X9rU1i[0m
+[01;34msystemd-private-affff0487644435dbfafb8ffee42df7b-systemd-logind.service-ZNxIDf[0m
+[01;34msystemd-private-affff0487644435dbfafb8ffee42df7b-systemd-resolved.service-aP75cf[0m
+[01;34msystemd-private-affff0487644435dbfafb8ffee42df7b-systemd-timesyncd.service-LLLqMi[0m[K
+[01;34msystemd-private-affff0487644435dbfafb8ffee42df7b-upower.service-Zr2Emf[0m
+[30;42mVMwareDnD[0m
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls /tmp$[K/$USER
+[0m[01;34mMydir[0m
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ pwd
+/home/joshua
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ cp practice /tmp/$USER/practice2
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls /tmp$[K/$USER
+[0m[01;34mMydir[0m  practice2
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ l[Kcd /tmp/$USER
+]0;joshua@joshua-VirtualBox: /tmp/joshua[01;32mjoshua@joshua-VirtualBox[00m:[01;34m/tmp/joshua[00m$ pwd
+/tmp/joshua
+]0;joshua@joshua-VirtualBox: /tmp/joshua[01;32mjoshua@joshua-VirtualBox[00m:[01;34m/tmp/joshua[00m$ ls
+[0m[01;34mMydir[0m  practice2
+]0;joshua@joshua-VirtualBox: /tmp/joshua[01;32mjoshua@joshua-VirtualBox[00m:[01;34m/tmp/joshua[00m$ cp practice2 ~/Projects/Code
+]0;joshua@joshua-VirtualBox: /tmp/joshua[01;32mjoshua@joshua-VirtualBox[00m:[01;34m/tmp/joshua[00m$ ls ~/Projects/Code
+journal2  practice2  report3
+]0;joshua@joshua-VirtualBox: /tmp/joshua[01;32mjoshua@joshua-VirtualBox[00m:[01;34m/tmp/joshua[00m$ cd /
+]0;joshua@joshua-VirtualBox: /[01;32mjoshua@joshua-VirtualBox[00m:[01;34m/[00m$ pwd
+/
+]0;joshua@joshua-VirtualBox: /[01;32mjoshua@joshua-VirtualBox[00m:[01;34m/[00m$ cp ~/Projects/Code/report3 ~/Docum
+]0;joshua@joshua-VirtualBox: /[01;32mjoshua@joshua-VirtualBox[00m:[01;34m/[00m$ cd ~/Projects
+]0;joshua@joshua-VirtualBox: ~/Projects[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects[00m$ echo hello ?>[K[K> ../greeting
+]0;joshua@joshua-VirtualBox: ~/Projects[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects[00m$ cd[Kp ..[K[K[K[K[Kls ..
+[0m[01;34ma[0m           installation.txt   practice         test-file2
+[01;34mArchives[0m    JoshuaLe-lab2.txt  [01;34mPrivate[0m          test-g
+betty       journal            [01;34mProjects[0m         test-list
+c1          lab1.txt           [01;34mPublic[0m           test-sor
+c2          lab4.txt           quiz3.txt        test.txt
+c3          lab5.txt           [01;34mRecommendations[0m  total
+cl          lab6.txt           [01;34mrepos[0m            trouble
+daniel      lost-days          respected        users_on
+[01;34mDesktop[0m     manywords          [01;34mResumes[0m          users_test
+[01;34mDocum[0m       me_A               review           [01;34mVideos[0m
+[01;34mDocuments[0m   megan              script1          west-coast.names
+[01;34mDownloads[0m   month              script.js        words.out
+el          [01;34mMusic[0m              second_file      [01;32mwordsUsed[0m
+[01;34mexam1[0m       [01;32mmydata.txt[0m         short-pass       [01;32mwordsUsed1[0m
+file2       myerr              [01;34mSkye[0m             [01;32mwordsUsed2[0m
+file.info1  myfile1            s-mypasswd       [01;32mwordsUsed3[0m
+file.info2  myoutput           sortedsp3        [01;32mwordsUsed4[0m
+first_file  mypasswd           sorted-test-sor  [01;32mwordsUsed5[0m
+[01;34mfoo[0m         names.tmp          sort-test        [01;32mwordsUsed6[0m
+footer      newfile1A          sp2              [01;32mwordsUsed7[0m
+footer.1    newfile2B2         sp3              [01;32mwordsUsed8[0m
+footer.2    [01;34mPapers[0m             style.css
+greeting    phon               [01;34mTemplates[0m
+index.html  [01;34mPictures[0m           test-file1
+]0;joshua@joshua-VirtualBox: ~/Projects[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects[00m$ cp ../greeting .
+]0;joshua@joshua-VirtualBox: ~/Projects[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects[00m$ cp ../* ~/Docum
+cp: -r not specified; omitting directory '../a'
+cp: -r not specified; omitting directory '../Archives'
+cp: -r not specified; omitting directory '../Desktop'
+cp: -r not specified; omitting directory '../Docum'
+cp: -r not specified; omitting directory '../Documents'
+cp: -r not specified; omitting directory '../Downloads'
+cp: -r not specified; omitting directory '../exam1'
+cp: -r not specified; omitting directory '../foo'
+cp: -r not specified; omitting directory '../Music'
+cp: -r not specified; omitting directory '../Papers'
+cp: -r not specified; omitting directory '../Pictures'
+cp: -r not specified; omitting directory '../Private'
+cp: -r not specified; omitting directory '../Projects'
+cp: -r not specified; omitting directory '../Public'
+cp: -r not specified; omitting directory '../Recommendations'
+cp: -r not specified; omitting directory '../repos'
+cp: -r not specified; omitting directory '../Resumes'
+cp: -r not specified; omitting directory '../Skye'
+cp: -r not specified; omitting directory '../Templates'
+cp: -r not specified; omitting directory '../Videos'
+]0;joshua@joshua-VirtualBox: ~/Projects[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects[00m$ ls ~/Docum
+betty       footer.2           [0m[01;32mmydata.txt[0m  script1          test.txt
+c1          greeting           myerr       script.js        total
+c2          index.html         myfile1     second_file      trouble
+c3          installation.txt   myoutput    short-pass       users_on
+cassy       JoshuaLe-lab2.txt  mypasswd    s-mypasswd       users_test
+cl          journal            names.tmp   sortedsp3        west-coast.names
+daniel      lab1.txt           newfile1A   sorted-test-sor  words.out
+danny       lab4.txt           newfile2B2  sort-test        [01;32mwordsUsed[0m
+dimitri     lab5.txt           owen        sp2              [01;32mwordsUsed1[0m
+el          lab6.txt           phon        sp3              [01;32mwordsUsed2[0m
+file2       lost-days          practice    style.css        [01;32mwordsUsed3[0m
+file.info1  manywords          quiz3.txt   test-file1       [01;32mwordsUsed4[0m
+file.info2  me_A               readme      test-file2       [01;32mwordsUsed5[0m
+first_file  megan              report3     test-g           [01;32mwordsUsed6[0m
+footer      monika             respected   test-list        [01;32mwordsUsed7[0m
+footer.1    month              review      test-sor         [01;32mwordsUsed8[0m
+]0;joshua@joshua-VirtualBox: ~/Projects[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects[00m$ wc ~/users_on > /tmp/$USER/num_users_on
+]0;joshua@joshua-VirtualBox: ~/Projects[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects[00m$ cd ~/Projects
+]0;joshua@joshua-VirtualBox: ~/Projects[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects[00m$ pwd
+/home/joshua/Projects
+]0;joshua@joshua-VirtualBox: ~/Projects[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects[00m$ ls
+actions  [0m[01;34mCode[0m  [01;34mCorresp[0m  f-name  greeting  month  testing
+]0;joshua@joshua-VirtualBox: ~/Projects[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects[00m$ cd
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls -l | more
+total 3460
+drwxrwxr-x 3 joshua joshua    4096 Dec  8 20:47 a
+drwxrwxr-x 2 joshua joshua    4096 Feb 21 15:46 Archives
+-rw-rw-r-- 1 joshua joshua       0 Feb 21 15:47 betty
+-rw-rw-r-- 1 joshua joshua      32 Jan 16 22:22 c1
+-rw-rw-r-- 1 joshua joshua      19 Jan 16 22:21 c2
+-rw-rw-r-- 1 joshua joshua    1732 Jan 16 22:21 c3
+-rw-rw-r-- 1 joshua joshua      32 Jan 16 22:21 cl
+-rw-rw-r-- 1 joshua joshua       0 Feb 21 15:47 daniel
+drwxr-xr-x 3 joshua joshua    4096 Feb 20 18:38 Desktop
+drwxrwxr-x 2 joshua joshua    4096 Feb 21 15:54 Docum
+drwxr-xr-x 2 joshua joshua    4096 Dec  8 15:36 Documents
+drwxr-xr-x 2 joshua joshua    4096 Dec 28 18:35 Downloads
+-rw-rw-r-- 1 joshua joshua       8 Jan 16 22:21 el
+drwxrwxr-x 2 joshua joshua    4096 Feb 13 16:29 exam1
+-rw-rw-r-- 1 joshua joshua     519 Jan 16 22:29 file2
+-rw-rw-r-- 1 joshua joshua     325 Feb  6 13:30 file.info1
+-rw-rw-r-- 1 joshua joshua     379 Feb  6 13:30 file.info2
+-rw-rw-r-- 1 joshua joshua      57 Jan 16 22:26 first_file
+drwxrwxr-x 2 joshua joshua    4096 Dec  8 20:46 foo
+-rw-rw-r-- 1 joshua joshua      65 Jan 16 18:48 footer
+-rw-rw-r-- 1 joshua joshua      55 Jan 16 18:47 footer.1
+-rw-rw-r-- 1 joshua joshua      10 Jan 16 18:47 footer.2
+[7m--More--[27m-rw-rw-r-- 1 joshua joshua       6 Feb 21 15:54 greeting
+-rw-rw-r-- 1 joshua joshua       0 Dec  8 20:44 index.html
+-rw-rw-r-- 1 joshua joshua 2601495 Jan 23 20:56 installation.txt
+-rw-rw-r-- 1 joshua joshua  174727 Jan 16 22:43 JoshuaLe-lab2.txt
+-rw-rw-r-- 1 joshua joshua      32 Feb 21 15:33 journal
+-rw-rw-r-- 1 joshua joshua    5645 Jan  9 17:40 lab1.txt
+-rw-rw-r-- 1 joshua joshua  118404 Jan 31 08:51 lab4.txt
+-rw-rw-r-- 1 joshua joshua  128296 Feb  6 14:00 lab5.txt
+-rw-rw-r-- 1 joshua joshua  122880 Feb 21 15:54 lab6.txt
+-rw-rw-r-- 1 joshua joshua    2180 Jan 16 22:08 lost-days
+-rw-rw-r-- 1 joshua joshua    7734 Feb  6 13:41 manywords
+-rw-rw-r-- 1 joshua joshua     589 Feb  6 13:16 me_A
+-rw-rw-r-- 1 joshua joshua       0 Feb 21 15:47 megan
+-rw-rw-r-- 1 joshua joshua     188 Feb 21 15:35 month
+drwxr-xr-x 2 joshua joshua    4096 Dec  8 15:36 Music
+-rwxrwxr-x 1 joshua joshua     259 Feb  6 13:13 mydata.txt
+-rw-rw-r-- 1 joshua joshua      53 Jan 16 18:42 myerr
+-rw-rw-r-- 1 joshua joshua     114 Jan 23 12:35 myfile1
+-rw-rw-r-- 1 joshua joshua     911 Jan 16 18:41 myoutput
+-rw-rw-r-- 1 joshua joshua    1041 Jan 16 22:13 mypasswd
+-rw-rw-r-- 1 joshua joshua      61 Jan 31 08:11 names.tmp
+-rw-rw-r-- 1 joshua joshua       0 Jan 31 08:46 newfile1A
+-rw-rw-r-- 1 joshua joshua       0 Jan 31 08:46 newfile2B2
+[7m--More--[27mdrwxrwxr-x 2 joshua joshua    4096 Feb  6 13:16 Papers
+-rw-rw-r-- 1 joshua joshua    2180 Jan 16 22:08 phon
+drwxr-xr-x 2 joshua joshua    4096 Dec  8 15:36 Pictures
+-rw-rw-r-- 1 joshua joshua    3568 Feb 13 15:55 practice
+drwxrwxr-x 2 joshua joshua    4096 Jan 16 22:09 Private
+drwxrwxr-x 4 joshua joshua    4096 Feb 21 15:54 Projects
+drwxr-xr-x 2 joshua joshua    4096 Dec  8 15:36 Public
+-rw-rw-r-- 1 joshua joshua   44410 Jan 23 13:15 quiz3.txt
+drwxrwxr-x 2 joshua joshua    4096 Feb  6 13:16 Recommendations
+drwxrwxr-x 3 joshua joshua    4096 Dec  9 18:33 repos
+-rw-rw-r-- 1 joshua joshua     227 Jan 31 08:26 respected
+drwxrwxr-x 2 joshua joshua    4096 Feb  6 13:30 Resumes
+-rw-rw-r-- 1 joshua joshua      45 Jan 23 13:03 review
+-rw-rw-r-- 1 joshua joshua     190 Feb  6 13:20 script1
+-rw-rw-r-- 1 joshua joshua       0 Dec  8 20:44 script.js
+-rw-rw-r-- 1 joshua joshua      14 Jan 16 22:28 second_file
+-rw-rw-r-- 1 joshua joshua     687 Jan 31 08:27 short-pass
+drwxrwxr-x 2 joshua joshua    4096 Feb 21 15:45 Skye
+-rw-rw-r-- 1 joshua joshua    1041 Jan 16 22:13 s-mypasswd
+-rw-rw-r-- 1 joshua joshua     687 Jan 31 08:29 sortedsp3
+-rw-rw-r-- 1 joshua joshua     108 Jan 31 08:28 sorted-test-sor
+-rw-rw-r-- 1 joshua joshua      44 Jan 16 22:26 sort-test
+-rw-rw-r-- 1 joshua joshua       0 Jan 31 08:29 sp2
+[7m--More--[27m-rw-rw-r-- 1 joshua joshua     687 Jan 31 08:30 sp3
+-rw-rw-r-- 1 joshua joshua       0 Dec  8 20:44 style.css
+drwxr-xr-x 2 joshua joshua    4096 Dec  8 15:36 Templates
+-rw-rw-r-- 1 joshua joshua      28 Jan 31 07:58 test-file1
+-rw-rw-r-- 1 joshua joshua      27 Jan 31 07:59 test-file2
+-rw-rw-r-- 1 joshua joshua     137 Jan 31 08:11 test-g
+-rw-rw-r-- 1 joshua joshua      32 Jan 16 22:35 test-list
+-rw-rw-r-- 1 joshua joshua     108 Jan 31 08:22 test-sor
+-rw-rw-r-- 1 joshua joshua       0 Dec  8 20:44 test.txt
+-rw-rw-r-- 1 joshua joshua    1783 Jan 16 22:23 total
+-rw-rw-r-- 1 joshua joshua      32 Feb 21 15:36 trouble
+-rw-rw-r-- 1 joshua joshua      44 Jan 16 22:31 users_on
+-rw-rw-r-- 1 joshua joshua      44 Feb 21 15:33 users_test
+drwxr-xr-x 2 joshua joshua    4096 Dec  8 15:36 Videos
+-rw-rw-r-- 1 joshua joshua     200 Feb  6 13:41 west-coast.names
+-rw-rw-r-- 1 joshua joshua    3858 Feb  6 13:59 words.out
+-rwxrwxr-x 1 joshua joshua     145 Feb  6 13:59 wordsUsed
+-rwxrwxr-x 1 joshua joshua      30 Feb  6 13:43 wordsUsed1
+-rwxrwxr-x 1 joshua joshua      49 Feb  6 13:46 wordsUsed2
+-rwxrwxr-x 1 joshua joshua      68 Feb  6 13:48 wordsUsed3
+-rwxrwxr-x 1 joshua joshua      70 Feb  6 13:50 wordsUsed4
+-rwxrwxr-x 1 joshua joshua      86 Feb  6 13:52 wordsUsed5
+-rwxrwxr-x 1 joshua joshua      95 Feb  6 13:55 wordsUsed6
+[7m--More--[27m-rwxrwxr-x 1 joshua joshua     105 Feb  6 13:56 wordsUsed7
+-rwxrwxr-x 1 joshua joshua     119 Feb  6 13:57 wordsUsed8
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$  [Kcd
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ pwd
+/home/joshua
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls -i testing-links
+ls: cannot access 'testing-links': No such file or directory
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ vi testing-links
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"testing-links" [New File][2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h[?2004l[>4;m[?25l[mh[?25h[?25le[?25h[?25ll[?25h[?25ll[?25h[?25lo[?25h[?25lt[?25h[?25le[?25h[?25ls[?25h[?25lt[?25h[?25li[?25h[?25ln[?25h[?25lg[?25h[?25l1[?25h[?25l2[?25h[?25l3[?25h[?2004h[>4;2m[?25l[24;1H[K[24;1H:[?2004h[?25hwq[?25l[?2004l"testing-links" [New File] 1 line, 16 characters written
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls -i testing-links
+280856 testing-links
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ cd Archives
+]0;joshua@joshua-VirtualBox: ~/Archives[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Archives[00m$ ls
+journal  lab1.txt  lab4.txt  lab5.txt  lab6.txt  lost-days  practice  users_on
+]0;joshua@joshua-VirtualBox: ~/Archives[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Archives[00m$ ls ..
+[0m[01;34ma[0m           installation.txt   practice         test-file2
+[01;34mArchives[0m    JoshuaLe-lab2.txt  [01;34mPrivate[0m          test-g
+betty       journal            [01;34mProjects[0m         testing-links
+c1          lab1.txt           [01;34mPublic[0m           test-list
+c2          lab4.txt           quiz3.txt        test-sor
+c3          lab5.txt           [01;34mRecommendations[0m  test.txt
+cl          lab6.txt           [01;34mrepos[0m            total
+daniel      lost-days          respected        trouble
+[01;34mDesktop[0m     manywords          [01;34mResumes[0m          users_on
+[01;34mDocum[0m       me_A               review           users_test
+[01;34mDocuments[0m   megan              script1          [01;34mVideos[0m
+[01;34mDownloads[0m   month              script.js        west-coast.names
+el          [01;34mMusic[0m              second_file      words.out
+[01;34mexam1[0m       [01;32mmydata.txt[0m         short-pass       [01;32mwordsUsed[0m
+file2       myerr              [01;34mSkye[0m             [01;32mwordsUsed1[0m
+file.info1  myfile1            s-mypasswd       [01;32mwordsUsed2[0m
+file.info2  myoutput           sortedsp3        [01;32mwordsUsed3[0m
+first_file  mypasswd           sorted-test-sor  [01;32mwordsUsed4[0m
+[01;34mfoo[0m         names.tmp          sort-test        [01;32mwordsUsed5[0m
+footer      newfile1A          sp2              [01;32mwordsUsed6[0m
+footer.1    newfile2B2         sp3              [01;32mwordsUsed7[0m
+footer.2    [01;34mPapers[0m             style.css        [01;32mwordsUsed8[0m
+greeting    phon               [01;34mTemplates[0m
+index.html  [01;34mPictures[0m           test-file1
+]0;joshua@joshua-VirtualBox: ~/Archives[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Archives[00m$ ln ../testing-links testing2
+]0;joshua@joshua-VirtualBox: ~/Archives[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Archives[00m$ ls -i
+790240 journal   790243 lab5.txt   790239 practice
+790241 lab1.txt  790244 lab6.txt   280856 testing2
+790242 lab4.txt  790245 lost-days  790238 users_on
+]0;joshua@joshua-VirtualBox: ~/Archives[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Archives[00m$ cd
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ more testing-links
+hellotesting123
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ vi[K[Kcd /Archives
+bash: cd: /Archives: No such file or directory
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ cd ~/Archives
+]0;joshua@joshua-VirtualBox: ~/Archives[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Archives[00m$ vi testing2
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"testing2" 1 line, 16 characters[1;1Hhellotesting123
+[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h[?2004l[>4;m[?25l[mhhellotesting123h[?25h[?25lehellotesting123he[?25h[?25llhellotesting123hel[?25h[?25llhellotesting123hell[?25h[?25lohellotesting123hello[?25h[?25l hellotesting123[1;7H[?25h[?25lahellotesting123[1;8H[?25h[?25lghellotesting123[1;9H[?25h[?25lahellotesting123[1;10H[?25h[?25lihellotesting123[1;11H[?25h[?25lnhellotesting123[1;12H[?25h[?25l!hellotesting123[1;13H[?25h[?2004h[>4;2m[?25l[24;1H[K[24;1H:[?2004h[?25hwq[?25l[?2004l"testing2" 1 line, 28 characters written
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;joshua@joshua-VirtualBox: ~/Archives[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Archives[00m$ cd
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ more testing-links
+hello again!hellotesting123
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ cd[K[Kls -li testing-links
+280856 -rw-rw-r-- 2 joshua joshua 28 Feb 21 15:57 testing-links
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls -li Archives/testing2
+280856 -rw-rw-r-- 2 joshua joshua 28 Feb 21 15:57 Archives/testing2
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ file testing-links
+testing-links: ASCII text
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ file Archives/testing2
+Archives/testing2: ASCII text
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls -l testing-links
+-rw-rw-r-- 2 joshua joshua 28 Feb 21 15:57 testing-links
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ l[Krm testing-links
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls
+[0m[01;34ma[0m           installation.txt   practice         test-file2
+[01;34mArchives[0m    JoshuaLe-lab2.txt  [01;34mPrivate[0m          test-g
+betty       journal            [01;34mProjects[0m         test-list
+c1          lab1.txt           [01;34mPublic[0m           test-sor
+c2          lab4.txt           quiz3.txt        test.txt
+c3          lab5.txt           [01;34mRecommendations[0m  total
+cl          lab6.txt           [01;34mrepos[0m            trouble
+daniel      lost-days          respected        users_on
+[01;34mDesktop[0m     manywords          [01;34mResumes[0m          users_test
+[01;34mDocum[0m       me_A               review           [01;34mVideos[0m
+[01;34mDocuments[0m   megan              script1          west-coast.names
+[01;34mDownloads[0m   month              script.js        words.out
+el          [01;34mMusic[0m              second_file      [01;32mwordsUsed[0m
+[01;34mexam1[0m       [01;32mmydata.txt[0m         short-pass       [01;32mwordsUsed1[0m
+file2       myerr              [01;34mSkye[0m             [01;32mwordsUsed2[0m
+file.info1  myfile1            s-mypasswd       [01;32mwordsUsed3[0m
+file.info2  myoutput           sortedsp3        [01;32mwordsUsed4[0m
+first_file  mypasswd           sorted-test-sor  [01;32mwordsUsed5[0m
+[01;34mfoo[0m         names.tmp          sort-test        [01;32mwordsUsed6[0m
+footer      newfile1A          sp2              [01;32mwordsUsed7[0m
+footer.1    newfile2B2         sp3              [01;32mwordsUsed8[0m
+footer.2    [01;34mPapers[0m             style.css
+greeting    phon               [01;34mTemplates[0m
+index.html  [01;34mPictures[0m           test-file1
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls -l Archives
+total 352
+-rw-rw-r-- 1 joshua joshua     32 Feb 21 15:46 journal
+-rw-rw-r-- 1 joshua joshua   5645 Feb 21 15:46 lab1.txt
+-rw-rw-r-- 1 joshua joshua 118404 Feb 21 15:46 lab4.txt
+-rw-rw-r-- 1 joshua joshua 128296 Feb 21 15:46 lab5.txt
+-rw-rw-r-- 1 joshua joshua  81920 Feb 21 15:46 lab6.txt
+-rw-rw-r-- 1 joshua joshua   2180 Feb 21 15:46 lost-days
+-rw-rw-r-- 1 joshua joshua   3568 Feb 21 15:46 practice
+-rw-rw-r-- 1 joshua joshua     28 Feb 21 15:57 testing2
+-rw-rw-r-- 1 joshua joshua     44 Feb 21 15:46 users_on
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ more Archives/testing2
+hello again!hellotesting123
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ln users_on Archives
+ln: failed to create hard link 'Archives/users_on': File exists
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls -i users_on
+280720 users_on
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls -i Archives/users_on
+790238 Archives/users_on
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls -l users_on
+-rw-rw-r-- 1 joshua joshua 44 Jan 16 22:31 users_on
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ln megan dna[K[Kaniel betty Archivces[K[K[Kes
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls -il eg[K[Kmegan daniel betty
+673971 -rw-rw-r-- 2 joshua joshua 0 Feb 21 15:47 betty
+673970 -rw-rw-r-- 2 joshua joshua 0 Feb 21 15:47 daniel
+673969 -rw-rw-r-- 2 joshua joshua 0 Feb 21 15:47 megan
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls -il Archives
+total 352
+673971 -rw-rw-r-- 2 joshua joshua      0 Feb 21 15:47 betty
+673970 -rw-rw-r-- 2 joshua joshua      0 Feb 21 15:47 daniel
+790240 -rw-rw-r-- 1 joshua joshua     32 Feb 21 15:46 journal
+790241 -rw-rw-r-- 1 joshua joshua   5645 Feb 21 15:46 lab1.txt
+790242 -rw-rw-r-- 1 joshua joshua 118404 Feb 21 15:46 lab4.txt
+790243 -rw-rw-r-- 1 joshua joshua 128296 Feb 21 15:46 lab5.txt
+790244 -rw-rw-r-- 1 joshua joshua  81920 Feb 21 15:46 lab6.txt
+790245 -rw-rw-r-- 1 joshua joshua   2180 Feb 21 15:46 lost-days
+673969 -rw-rw-r-- 2 joshua joshua      0 Feb 21 15:47 megan
+790239 -rw-rw-r-- 1 joshua joshua   3568 Feb 21 15:46 practice
+280856 -rw-rw-r-- 1 joshua joshua     28 Feb 21 15:57 testing2
+790238 -rw-rw-r-- 1 joshua joshua     44 Feb 21 15:46 users_on
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ cd ~/Projects
+]0;joshua@joshua-VirtualBox: ~/Projects[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects[00m$ pwd
+/home/joshua/Projects
+]0;joshua@joshua-VirtualBox: ~/Projects[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects[00m$ ln -s `?[K[K~/journal
+]0;joshua@joshua-VirtualBox: ~/Projects[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects[00m$ ls -i journal
+673983 [0m[01;36mjournal[0m
+]0;joshua@joshua-VirtualBox: ~/Projects[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects[00m$ ls -i ~/journal
+280845 /home/joshua/journal
+]0;joshua@joshua-VirtualBox: ~/Projects[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects[00m$ echo 'In Projects File' >> journal
+]0;joshua@joshua-VirtualBox: ~/Projects[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects[00m$ cat ~/journal
+Mon 21 Feb 2022 03:33:18 PM PST
+In Projects File
+]0;joshua@joshua-VirtualBox: ~/Projects[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects[00m$ ls -l journal
+lrwxrwxrwx 1 joshua joshua 20 Feb 21 16:01 [0m[01;36mjournal[0m -> /home/joshua/journal
+]0;joshua@joshua-VirtualBox: ~/Projects[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects[00m$ file journal
+journal: symbolic link to /home/joshua/journal
+]0;joshua@joshua-VirtualBox: ~/Projects[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects[00m$ rm journal
+]0;joshua@joshua-VirtualBox: ~/Projects[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects[00m$ ls
+actions  [0m[01;34mCode[0m  [01;34mCorresp[0m  f-name  greeting  month  testing
+]0;joshua@joshua-VirtualBox: ~/Projects[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects[00m$ date > `[K~/realfile
+]0;joshua@joshua-VirtualBox: ~/Projects[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects[00m$ ln -s ~/reafile rf
+]0;joshua@joshua-VirtualBox: ~/Projects[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects[00m$ ls -l rf
+lrwxrwxrwx 1 joshua joshua 20 Feb 21 16:01 [0m[40;31;01mrf[0m -> [40;31;01m/home/joshua/reafile[0m
+]0;joshua@joshua-VirtualBox: ~/Projects[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects[00m$ cat rf
+cat: rf: No such file or directory
+]0;joshua@joshua-VirtualBox: ~/Projects[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects[00m$ rm ~/realfile
+]0;joshua@joshua-VirtualBox: ~/Projects[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects[00m$ ls -l rf
+lrwxrwxrwx 1 joshua joshua 20 Feb 21 16:01 [0m[40;31;01mrf[0m -> [40;31;01m/home/joshua/reafile[0m
+]0;joshua@joshua-VirtualBox: ~/Projects[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects[00m$ cat rf
+cat: rf: No such file or directory
+]0;joshua@joshua-VirtualBox: ~/Projects[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects[00m$ pwd
+/home/joshua/Projects
+]0;joshua@joshua-VirtualBox: ~/Projects[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects[00m$ ln -s ~![K/Docum
+]0;joshua@joshua-VirtualBox: ~/Projects[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects[00m$ ls -F
+actions  [0m[01;34mCode[0m/  [01;34mCorresp[0m/  [01;36mDocum[0m@  f-name  greeting  month  [40;31;01mrf[0m@  testing
+]0;joshua@joshua-VirtualBox: ~/Projects[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects[00m$ ls Docum
+betty       footer.2           [0m[01;32mmydata.txt[0m  script1          test.txt
+c1          greeting           myerr       script.js        total
+c2          index.html         myfile1     second_file      trouble
+c3          installation.txt   myoutput    short-pass       users_on
+cassy       JoshuaLe-lab2.txt  mypasswd    s-mypasswd       users_test
+cl          journal            names.tmp   sortedsp3        west-coast.names
+daniel      lab1.txt           newfile1A   sorted-test-sor  words.out
+danny       lab4.txt           newfile2B2  sort-test        [01;32mwordsUsed[0m
+dimitri     lab5.txt           owen        sp2              [01;32mwordsUsed1[0m
+el          lab6.txt           phon        sp3              [01;32mwordsUsed2[0m
+file2       lost-days          practice    style.css        [01;32mwordsUsed3[0m
+file.info1  manywords          quiz3.txt   test-file1       [01;32mwordsUsed4[0m
+file.info2  me_A               readme      test-file2       [01;32mwordsUsed5[0m
+first_file  megan              report3     test-g           [01;32mwordsUsed6[0m
+footer      monika             respected   test-list        [01;32mwordsUsed7[0m
+footer.1    month              review      test-sor         [01;32mwordsUsed8[0m
+]0;joshua@joshua-VirtualBox: ~/Projects[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects[00m$ cd Docum
+]0;joshua@joshua-VirtualBox: ~/Projects/Docum[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects/Docum[00m$ pwd
+/home/joshua/Projects/Docum
+]0;joshua@joshua-VirtualBox: ~/Projects/Docum[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects/Docum[00m$ touch filefromProjects
+]0;joshua@joshua-VirtualBox: ~/Projects/Docum[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects/Docum[00m$ cd
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls
+[0m[01;34ma[0m           installation.txt   practice         test-file2
+[01;34mArchives[0m    JoshuaLe-lab2.txt  [01;34mPrivate[0m          test-g
+betty       journal            [01;34mProjects[0m         test-list
+c1          lab1.txt           [01;34mPublic[0m           test-sor
+c2          lab4.txt           quiz3.txt        test.txt
+c3          lab5.txt           [01;34mRecommendations[0m  total
+cl          lab6.txt           [01;34mrepos[0m            trouble
+daniel      lost-days          respected        users_on
+[01;34mDesktop[0m     manywords          [01;34mResumes[0m          users_test
+[01;34mDocum[0m       me_A               review           [01;34mVideos[0m
+[01;34mDocuments[0m   megan              script1          west-coast.names
+[01;34mDownloads[0m   month              script.js        words.out
+el          [01;34mMusic[0m              second_file      [01;32mwordsUsed[0m
+[01;34mexam1[0m       [01;32mmydata.txt[0m         short-pass       [01;32mwordsUsed1[0m
+file2       myerr              [01;34mSkye[0m             [01;32mwordsUsed2[0m
+file.info1  myfile1            s-mypasswd       [01;32mwordsUsed3[0m
+file.info2  myoutput           sortedsp3        [01;32mwordsUsed4[0m
+first_file  mypasswd           sorted-test-sor  [01;32mwordsUsed5[0m
+[01;34mfoo[0m         names.tmp          sort-test        [01;32mwordsUsed6[0m
+footer      newfile1A          sp2              [01;32mwordsUsed7[0m
+footer.1    newfile2B2         sp3              [01;32mwordsUsed8[0m
+footer.2    [01;34mPapers[0m             style.css
+greeting    phon               [01;34mTemplates[0m
+index.html  [01;34mPictures[0m           test-file1
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls Docum
+betty             JoshuaLe-lab2.txt  phon             test-list
+c1                journal            practice         test-sor
+c2                lab1.txt           quiz3.txt        test.txt
+c3                lab4.txt           readme           total
+cassy             lab5.txt           report3          trouble
+cl                lab6.txt           respected        users_on
+daniel            lost-days          review           users_test
+danny             manywords          script1          west-coast.names
+dimitri           me_A               script.js        words.out
+el                megan              second_file      [0m[01;32mwordsUsed[0m
+file2             monika             short-pass       [01;32mwordsUsed1[0m
+filefromProjects  month              s-mypasswd       [01;32mwordsUsed2[0m
+file.info1        [01;32mmydata.txt[0m         sortedsp3        [01;32mwordsUsed3[0m
+file.info2        myerr              sorted-test-sor  [01;32mwordsUsed4[0m
+first_file        myfile1            sort-test        [01;32mwordsUsed5[0m
+footer            myoutput           sp2              [01;32mwordsUsed6[0m
+footer.1          mypasswd           sp3              [01;32mwordsUsed7[0m
+footer.2          names.tmp          style.css        [01;32mwordsUsed8[0m
+greeting          newfile1A          test-file1
+index.html        newfile2B2         test-file2
+installation.txt  owen               test-g
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls Projects
+actions  [0m[01;34mCode[0m  [01;34mCorresp[0m  [01;36mDocum[0m  f-name  greeting  month  [40;31;01mrf[0m  testing
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls -i Docum
+790252 betty              790915 lost-days    790953 sortedsp3
+790253 c1                 790919 manywords    790955 sorted-test-sor
+790254 c2                 790921 me_A         790956 sort-test
+790255 c3                 790923 megan        790958 sp2
+280844 cassy              280853 monika       790959 sp3
+790256 cl                 790927 month        790960 style.css
+790257 daniel             790928 [0m[01;32mmydata.txt[0m   790961 test-file1
+280852 danny              790931 myerr        790962 test-file2
+280850 dimitri            790933 myfile1      790963 test-g
+790258 el                 790935 myoutput     790964 test-list
+790259 file2              790939 mypasswd     790965 test-sor
+791003 filefromProjects   790940 names.tmp    790966 test.txt
+790260 file.info1         790942 newfile1A    790967 total
+790261 file.info2         790943 newfile2B2   790968 trouble
+790262 first_file         280851 owen         790969 users_on
+790311 footer             790944 phon         790970 users_test
+790890 footer.1           790235 practice     790971 west-coast.names
+790891 footer.2           790945 quiz3.txt    790972 words.out
+790893 greeting           790231 readme       790975 [01;32mwordsUsed[0m
+790894 index.html         790251 report3      790977 [01;32mwordsUsed1[0m
+790895 installation.txt   790946 respected    790979 [01;32mwordsUsed2[0m
+790896 JoshuaLe-lab2.txt  790947 review       790985 [01;32mwordsUsed3[0m
+790236 journal            790948 script1      790987 [01;32mwordsUsed4[0m
+790907 lab1.txt           790949 script.js    790989 [01;32mwordsUsed5[0m
+790908 lab4.txt           790950 second_file  790990 [01;32mwordsUsed6[0m
+790913 lab5.txt           790951 short-pass   790991 [01;32mwordsUsed7[0m
+790914 lab6.txt           790952 s-mypasswd   790998 [01;32mwordsUsed8[0m
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls -i Projects/Docum
+790252 betty              790915 lost-days    790953 sortedsp3
+790253 c1                 790919 manywords    790955 sorted-test-sor
+790254 c2                 790921 me_A         790956 sort-test
+790255 c3                 790923 megan        790958 sp2
+280844 cassy              280853 monika       790959 sp3
+790256 cl                 790927 month        790960 style.css
+790257 daniel             790928 [0m[01;32mmydata.txt[0m   790961 test-file1
+280852 danny              790931 myerr        790962 test-file2
+280850 dimitri            790933 myfile1      790963 test-g
+790258 el                 790935 myoutput     790964 test-list
+790259 file2              790939 mypasswd     790965 test-sor
+791003 filefromProjects   790940 names.tmp    790966 test.txt
+790260 file.info1         790942 newfile1A    790967 total
+790261 file.info2         790943 newfile2B2   790968 trouble
+790262 first_file         280851 owen         790969 users_on
+790311 footer             790944 phon         790970 users_test
+790890 footer.1           790235 practice     790971 west-coast.names
+790891 footer.2           790945 quiz3.txt    790972 words.out
+790893 greeting           790231 readme       790975 [01;32mwordsUsed[0m
+790894 index.html         790251 report3      790977 [01;32mwordsUsed1[0m
+790895 installation.txt   790946 respected    790979 [01;32mwordsUsed2[0m
+790896 JoshuaLe-lab2.txt  790947 review       790985 [01;32mwordsUsed3[0m
+790236 journal            790948 script1      790987 [01;32mwordsUsed4[0m
+790907 lab1.txt           790949 script.js    790989 [01;32mwordsUsed5[0m
+790908 lab4.txt           790950 second_file  790990 [01;32mwordsUsed6[0m
+790913 lab5.txt           790951 short-pass   790991 [01;32mwordsUsed7[0m
+790914 lab6.txt           790952 s-mypasswd   790998 [01;32mwordsUsed8[0m
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ cd
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ln -s /tmp tmp
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls -l ?[K| more
+total 3492
+drwxrwxr-x 3 joshua joshua    4096 Dec  8 20:47 a
+drwxrwxr-x 2 joshua joshua    4096 Feb 21 16:00 Archives
+-rw-rw-r-- 2 joshua joshua       0 Feb 21 15:47 betty
+-rw-rw-r-- 1 joshua joshua      32 Jan 16 22:22 c1
+-rw-rw-r-- 1 joshua joshua      19 Jan 16 22:21 c2
+-rw-rw-r-- 1 joshua joshua    1732 Jan 16 22:21 c3
+-rw-rw-r-- 1 joshua joshua      32 Jan 16 22:21 cl
+-rw-rw-r-- 2 joshua joshua       0 Feb 21 15:47 daniel
+drwxr-xr-x 3 joshua joshua    4096 Feb 20 18:38 Desktop
+drwxrwxr-x 2 joshua joshua    4096 Feb 21 16:03 Docum
+drwxr-xr-x 2 joshua joshua    4096 Dec  8 15:36 Documents
+drwxr-xr-x 2 joshua joshua    4096 Dec 28 18:35 Downloads
+-rw-rw-r-- 1 joshua joshua       8 Jan 16 22:21 el
+drwxrwxr-x 2 joshua joshua    4096 Feb 13 16:29 exam1
+-rw-rw-r-- 1 joshua joshua     519 Jan 16 22:29 file2
+-rw-rw-r-- 1 joshua joshua     325 Feb  6 13:30 file.info1
+-rw-rw-r-- 1 joshua joshua     379 Feb  6 13:30 file.info2
+-rw-rw-r-- 1 joshua joshua      57 Jan 16 22:26 first_file
+drwxrwxr-x 2 joshua joshua    4096 Dec  8 20:46 foo
+-rw-rw-r-- 1 joshua joshua      65 Jan 16 18:48 footer
+-rw-rw-r-- 1 joshua joshua      55 Jan 16 18:47 footer.1
+-rw-rw-r-- 1 joshua joshua      10 Jan 16 18:47 footer.2
+[7m--More--[27m-rw-rw-r-- 1 joshua joshua       6 Feb 21 15:54 greeting
+[7m--More--[27m-rw-rw-r-- 1 joshua joshua       0 Dec  8 20:44 index.html
+-rw-rw-r-- 1 joshua joshua 2601495 Jan 23 20:56 installation.txt
+-rw-rw-r-- 1 joshua joshua  174727 Jan 16 22:43 JoshuaLe-lab2.txt
+-rw-rw-r-- 1 joshua joshua      49 Feb 21 16:01 journal
+-rw-rw-r-- 1 joshua joshua    5645 Jan  9 17:40 lab1.txt
+-rw-rw-r-- 1 joshua joshua  118404 Jan 31 08:51 lab4.txt
+-rw-rw-r-- 1 joshua joshua  128296 Feb  6 14:00 lab5.txt
+-rw-rw-r-- 1 joshua joshua  155648 Feb 21 16:03 lab6.txt
+-rw-rw-r-- 1 joshua joshua    2180 Jan 16 22:08 lost-days
+-rw-rw-r-- 1 joshua joshua    7734 Feb  6 13:41 manywords
+-rw-rw-r-- 1 joshua joshua     589 Feb  6 13:16 me_A
+-rw-rw-r-- 2 joshua joshua       0 Feb 21 15:47 megan
+-rw-rw-r-- 1 joshua joshua     188 Feb 21 15:35 month
+drwxr-xr-x 2 joshua joshua    4096 Dec  8 15:36 Music
+-rwxrwxr-x 1 joshua joshua     259 Feb  6 13:13 mydata.txt
+-rw-rw-r-- 1 joshua joshua      53 Jan 16 18:42 myerr
+-rw-rw-r-- 1 joshua joshua     114 Jan 23 12:35 myfile1
+-rw-rw-r-- 1 joshua joshua     911 Jan 16 18:41 myoutput
+-rw-rw-r-- 1 joshua joshua    1041 Jan 16 22:13 mypasswd
+-rw-rw-r-- 1 joshua joshua      61 Jan 31 08:11 names.tmp
+-rw-rw-r-- 1 joshua joshua       0 Jan 31 08:46 newfile1A
+-rw-rw-r-- 1 joshua joshua       0 Jan 31 08:46 newfile2B2
+drwxrwxr-x 2 joshua joshua    4096 Feb  6 13:16 Papers
+[7m--More--[27m-rw-rw-r-- 1 joshua joshua    2180 Jan 16 22:08 phon
+drwxr-xr-x 2 joshua joshua    4096 Dec  8 15:36 Pictures
+-rw-rw-r-- 1 joshua joshua    3568 Feb 13 15:55 practice
+drwxrwxr-x 2 joshua joshua    4096 Jan 16 22:09 Private
+drwxrwxr-x 4 joshua joshua    4096 Feb 21 16:02 Projects
+drwxr-xr-x 2 joshua joshua    4096 Dec  8 15:36 Public
+-rw-rw-r-- 1 joshua joshua   44410 Jan 23 13:15 quiz3.txt
+drwxrwxr-x 2 joshua joshua    4096 Feb  6 13:16 Recommendations
+drwxrwxr-x 3 joshua joshua    4096 Dec  9 18:33 repos
+-rw-rw-r-- 1 joshua joshua     227 Jan 31 08:26 respected
+drwxrwxr-x 2 joshua joshua    4096 Feb  6 13:30 Resumes
+-rw-rw-r-- 1 joshua joshua      45 Jan 23 13:03 review
+-rw-rw-r-- 1 joshua joshua     190 Feb  6 13:20 script1
+-rw-rw-r-- 1 joshua joshua       0 Dec  8 20:44 script.js
+-rw-rw-r-- 1 joshua joshua      14 Jan 16 22:28 second_file
+-rw-rw-r-- 1 joshua joshua     687 Jan 31 08:27 short-pass
+drwxrwxr-x 2 joshua joshua    4096 Feb 21 15:45 Skye
+-rw-rw-r-- 1 joshua joshua    1041 Jan 16 22:13 s-mypasswd
+-rw-rw-r-- 1 joshua joshua     687 Jan 31 08:29 sortedsp3
+-rw-rw-r-- 1 joshua joshua     108 Jan 31 08:28 sorted-test-sor
+-rw-rw-r-- 1 joshua joshua      44 Jan 16 22:26 sort-test
+-rw-rw-r-- 1 joshua joshua       0 Jan 31 08:29 sp2
+-rw-rw-r-- 1 joshua joshua     687 Jan 31 08:30 sp3
+[7m--More--[27m-rw-rw-r-- 1 joshua joshua       0 Dec  8 20:44 style.css
+drwxr-xr-x 2 joshua joshua    4096 Dec  8 15:36 Templates
+-rw-rw-r-- 1 joshua joshua      28 Jan 31 07:58 test-file1
+-rw-rw-r-- 1 joshua joshua      27 Jan 31 07:59 test-file2
+-rw-rw-r-- 1 joshua joshua     137 Jan 31 08:11 test-g
+-rw-rw-r-- 1 joshua joshua      32 Jan 16 22:35 test-list
+-rw-rw-r-- 1 joshua joshua     108 Jan 31 08:22 test-sor
+-rw-rw-r-- 1 joshua joshua       0 Dec  8 20:44 test.txt
+lrwxrwxrwx 1 joshua joshua       4 Feb 21 16:03 tmp -> /tmp
+-rw-rw-r-- 1 joshua joshua    1783 Jan 16 22:23 total
+-rw-rw-r-- 1 joshua joshua      32 Feb 21 15:36 trouble
+-rw-rw-r-- 1 joshua joshua      44 Jan 16 22:31 users_on
+-rw-rw-r-- 1 joshua joshua      44 Feb 21 15:33 users_test
+drwxr-xr-x 2 joshua joshua    4096 Dec  8 15:36 Videos
+-rw-rw-r-- 1 joshua joshua     200 Feb  6 13:41 west-coast.names
+-rw-rw-r-- 1 joshua joshua    3858 Feb  6 13:59 words.out
+-rwxrwxr-x 1 joshua joshua     145 Feb  6 13:59 wordsUsed
+-rwxrwxr-x 1 joshua joshua      30 Feb  6 13:43 wordsUsed1
+-rwxrwxr-x 1 joshua joshua      49 Feb  6 13:46 wordsUsed2
+-rwxrwxr-x 1 joshua joshua      68 Feb  6 13:48 wordsUsed3
+-rwxrwxr-x 1 joshua joshua      70 Feb  6 13:50 wordsUsed4
+-rwxrwxr-x 1 joshua joshua      86 Feb  6 13:52 wordsUsed5
+-rwxrwxr-x 1 joshua joshua      95 Feb  6 13:55 wordsUsed6
+[7m--More--[27m-rwxrwxr-x 1 joshua joshua     105 Feb  6 13:56 wordsUsed7
+-rwxrwxr-x 1 joshua joshua     119 Feb  6 13:57 wordsUsed8
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$  [Kls ~/tmp
+config-err-AohNQE
+[0m[01;34mjoshua[0m
+[01;34mssh-NGbXyvpRzib3[0m
+[01;34msystemd-private-affff0487644435dbfafb8ffee42df7b-colord.service-S0VT8f[0m
+[01;34msystemd-private-affff0487644435dbfafb8ffee42df7b-ModemManager.service-X9rU1i[0m
+[01;34msystemd-private-affff0487644435dbfafb8ffee42df7b-systemd-logind.service-ZNxIDf[0m
+[01;34msystemd-private-affff0487644435dbfafb8ffee42df7b-systemd-resolved.service-aP75cf[0m
+[01;34msystemd-private-affff0487644435dbfafb8ffee42df7b-systemd-timesyncd.service-LLLqMi[0m[K
+[01;34msystemd-private-affff0487644435dbfafb8ffee42df7b-upower.service-Zr2Emf[0m
+[30;42mVMwareDnD[0m
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls /tmp
+config-err-AohNQE
+[0m[01;34mjoshua[0m
+[01;34mssh-NGbXyvpRzib3[0m
+[01;34msystemd-private-affff0487644435dbfafb8ffee42df7b-colord.service-S0VT8f[0m
+[01;34msystemd-private-affff0487644435dbfafb8ffee42df7b-ModemManager.service-X9rU1i[0m
+[01;34msystemd-private-affff0487644435dbfafb8ffee42df7b-systemd-logind.service-ZNxIDf[0m
+[01;34msystemd-private-affff0487644435dbfafb8ffee42df7b-systemd-resolved.service-aP75cf[0m
+[01;34msystemd-private-affff0487644435dbfafb8ffee42df7b-systemd-timesyncd.service-LLLqMi[0m[K
+[01;34msystemd-private-affff0487644435dbfafb8ffee42df7b-upower.service-Zr2Emf[0m
+[30;42mVMwareDnD[0m
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ cd
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls -F
+[0m[01;34ma[0m/          installation.txt   practice          test-file2
+[01;34mArchives[0m/   JoshuaLe-lab2.txt  [01;34mPrivate[0m/          test-g
+betty       journal            [01;34mProjects[0m/         test-list
+c1          lab1.txt           [01;34mPublic[0m/           test-sor
+c2          lab4.txt           quiz3.txt         test.txt
+c3          lab5.txt           [01;34mRecommendations[0m/  [01;36mtmp[0m@
+cl          lab6.txt           [01;34mrepos[0m/            total
+daniel      lost-days          respected         trouble
+[01;34mDesktop[0m/    manywords          [01;34mResumes[0m/          users_on
+[01;34mDocum[0m/      me_A               review            users_test
+[01;34mDocuments[0m/  megan              script1           [01;34mVideos[0m/
+[01;34mDownloads[0m/  month              script.js         west-coast.names
+el          [01;34mMusic[0m/             second_file       words.out
+[01;34mexam1[0m/      [01;32mmydata.txt[0m*        short-pass        [01;32mwordsUsed[0m*
+file2       myerr              [01;34mSkye[0m/             [01;32mwordsUsed1[0m*
+file.info1  myfile1            s-mypasswd        [01;32mwordsUsed2[0m*
+file.info2  myoutput           sortedsp3         [01;32mwordsUsed3[0m*
+first_file  mypasswd           sorted-test-sor   [01;32mwordsUsed4[0m*
+[01;34mfoo[0m/        names.tmp          sort-test         [01;32mwordsUsed5[0m*
+footer      newfile1A          sp2               [01;32mwordsUsed6[0m*
+footer.1    newfile2B2         sp3               [01;32mwordsUsed7[0m*
+footer.2    [01;34mPapers[0m/            style.css         [01;32mwordsUsed8[0m*
+greeting    phon               [01;34mTemplates[0m/
+index.html  [01;34mPictures[0m/          test-file1
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls -id Projects
+664369 [0m[01;34mProjects[0m
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ mv Projects Old-projects
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls -F
+[0m[01;34ma[0m/          installation.txt   [01;34mPictures[0m/         test-file2
+[01;34mArchives[0m/   JoshuaLe-lab2.txt  practice          test-g
+betty       journal            [01;34mPrivate[0m/          test-list
+c1          lab1.txt           [01;34mPublic[0m/           test-sor
+c2          lab4.txt           quiz3.txt         test.txt
+c3          lab5.txt           [01;34mRecommendations[0m/  [01;36mtmp[0m@
+cl          lab6.txt           [01;34mrepos[0m/            total
+daniel      lost-days          respected         trouble
+[01;34mDesktop[0m/    manywords          [01;34mResumes[0m/          users_on
+[01;34mDocum[0m/      me_A               review            users_test
+[01;34mDocuments[0m/  megan              script1           [01;34mVideos[0m/
+[01;34mDownloads[0m/  month              script.js         west-coast.names
+el          [01;34mMusic[0m/             second_file       words.out
+[01;34mexam1[0m/      [01;32mmydata.txt[0m*        short-pass        [01;32mwordsUsed[0m*
+file2       myerr              [01;34mSkye[0m/             [01;32mwordsUsed1[0m*
+file.info1  myfile1            s-mypasswd        [01;32mwordsUsed2[0m*
+file.info2  myoutput           sortedsp3         [01;32mwordsUsed3[0m*
+first_file  mypasswd           sorted-test-sor   [01;32mwordsUsed4[0m*
+[01;34mfoo[0m/        names.tmp          sort-test         [01;32mwordsUsed5[0m*
+footer      newfile1A          sp2               [01;32mwordsUsed6[0m*
+footer.1    newfile2B2         sp3               [01;32mwordsUsed7[0m*
+footer.2    [01;34mOld-projects[0m/      style.css         [01;32mwordsUsed8[0m*
+greeting    [01;34mPapers[0m/            [01;34mTemplates[0m/
+index.html  phon               test-file1
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls -F Old [K-projects
+actions  [0m[01;34mCode[0m/  [01;34mCorresp[0m/  [01;36mDocum[0m@  f-name  greeting  month  [40;31;01mrf[0m@  testing
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls -id Old-projects
+664369 [0m[01;34mOld-projects[0m
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ mv Old-projects Projects
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls -id Projects
+664369 [0m[01;34mProjects[0m
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ cd
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ pwd
+/home/joshua
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls
+[0m[01;34ma[0m           installation.txt   practice         test-file2
+[01;34mArchives[0m    JoshuaLe-lab2.txt  [01;34mPrivate[0m          test-g
+betty       journal            [01;34mProjects[0m         test-list
+c1          lab1.txt           [01;34mPublic[0m           test-sor
+c2          lab4.txt           quiz3.txt        test.txt
+c3          lab5.txt           [01;34mRecommendations[0m  [01;36mtmp[0m
+cl          lab6.txt           [01;34mrepos[0m            total
+daniel      lost-days          respected        trouble
+[01;34mDesktop[0m     manywords          [01;34mResumes[0m          users_on
+[01;34mDocum[0m       me_A               review           users_test
+[01;34mDocuments[0m   megan              script1          [01;34mVideos[0m
+[01;34mDownloads[0m   month              script.js        west-coast.names
+el          [01;34mMusic[0m              second_file      words.out
+[01;34mexam1[0m       [01;32mmydata.txt[0m         short-pass       [01;32mwordsUsed[0m
+file2       myerr              [01;34mSkye[0m             [01;32mwordsUsed1[0m
+file.info1  myfile1            s-mypasswd       [01;32mwordsUsed2[0m
+file.info2  myoutput           sortedsp3        [01;32mwordsUsed3[0m
+first_file  mypasswd           sorted-test-sor  [01;32mwordsUsed4[0m
+[01;34mfoo[0m         names.tmp          sort-test        [01;32mwordsUsed5[0m
+footer      newfile1A          sp2              [01;32mwordsUsed6[0m
+footer.1    newfile2B2         sp3              [01;32mwordsUsed7[0m
+footer.2    [01;34mPapers[0m             style.css        [01;32mwordsUsed8[0m
+greeting    phon               [01;34mTemplates[0m
+index.html  [01;34mPictures[0m           test-file1
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls -F
+[0m[01;34ma[0m/          installation.txt   practice          test-file2
+[01;34mArchives[0m/   JoshuaLe-lab2.txt  [01;34mPrivate[0m/          test-g
+betty       journal            [01;34mProjects[0m/         test-list
+c1          lab1.txt           [01;34mPublic[0m/           test-sor
+c2          lab4.txt           quiz3.txt         test.txt
+c3          lab5.txt           [01;34mRecommendations[0m/  [01;36mtmp[0m@
+cl          lab6.txt           [01;34mrepos[0m/            total
+daniel      lost-days          respected         trouble
+[01;34mDesktop[0m/    manywords          [01;34mResumes[0m/          users_on
+[01;34mDocum[0m/      me_A               review            users_test
+[01;34mDocuments[0m/  megan              script1           [01;34mVideos[0m/
+[01;34mDownloads[0m/  month              script.js         west-coast.names
+el          [01;34mMusic[0m/             second_file       words.out
+[01;34mexam1[0m/      [01;32mmydata.txt[0m*        short-pass        [01;32mwordsUsed[0m*
+file2       myerr              [01;34mSkye[0m/             [01;32mwordsUsed1[0m*
+file.info1  myfile1            s-mypasswd        [01;32mwordsUsed2[0m*
+file.info2  myoutput           sortedsp3         [01;32mwordsUsed3[0m*
+first_file  mypasswd           sorted-test-sor   [01;32mwordsUsed4[0m*
+[01;34mfoo[0m/        names.tmp          sort-test         [01;32mwordsUsed5[0m*
+footer      newfile1A          sp2               [01;32mwordsUsed6[0m*
+footer.1    newfile2B2         sp3               [01;32mwordsUsed7[0m*
+footer.2    [01;34mPapers[0m/            style.css         [01;32mwordsUsed8[0m*
+greeting    phon               [01;34mTemplates[0m/
+index.html  [01;34mPictures[0m/          test-file1
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ mkdir Dirempty
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls -F
+[0m[01;34ma[0m/          index.html         [01;34mPictures[0m/         test-file1
+[01;34mArchives[0m/   installation.txt   practice          test-file2
+betty       JoshuaLe-lab2.txt  [01;34mPrivate[0m/          test-g
+c1          journal            [01;34mProjects[0m/         test-list
+c2          lab1.txt           [01;34mPublic[0m/           test-sor
+c3          lab4.txt           quiz3.txt         test.txt
+cl          lab5.txt           [01;34mRecommendations[0m/  [01;36mtmp[0m@
+daniel      lab6.txt           [01;34mrepos[0m/            total
+[01;34mDesktop[0m/    lost-days          respected         trouble
+[01;34mDirempty[0m/   manywords          [01;34mResumes[0m/          users_on
+[01;34mDocum[0m/      me_A               review            users_test
+[01;34mDocuments[0m/  megan              script1           [01;34mVideos[0m/
+[01;34mDownloads[0m/  month              script.js         west-coast.names
+el          [01;34mMusic[0m/             second_file       words.out
+[01;34mexam1[0m/      [01;32mmydata.txt[0m*        short-pass        [01;32mwordsUsed[0m*
+file2       myerr              [01;34mSkye[0m/             [01;32mwordsUsed1[0m*
+file.info1  myfile1            s-mypasswd        [01;32mwordsUsed2[0m*
+file.info2  myoutput           sortedsp3         [01;32mwordsUsed3[0m*
+first_file  mypasswd           sorted-test-sor   [01;32mwordsUsed4[0m*
+[01;34mfoo[0m/        names.tmp          sort-test         [01;32mwordsUsed5[0m*
+footer      newfile1A          sp2               [01;32mwordsUsed6[0m*
+footer.1    newfile2B2         sp3               [01;32mwordsUsed7[0m*
+footer.2    [01;34mPapers[0m/            style.css         [01;32mwordsUsed8[0m*
+greeting    phon               [01;34mTemplates[0m/
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls -id DIrempty
+ls: cannot access 'DIrempty': No such file or directory
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls Dirempty
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ rmdir Dirempty
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls -F
+[0m[01;34ma[0m/          installation.txt   practice          test-file2
+[01;34mArchives[0m/   JoshuaLe-lab2.txt  [01;34mPrivate[0m/          test-g
+betty       journal            [01;34mProjects[0m/         test-list
+c1          lab1.txt           [01;34mPublic[0m/           test-sor
+c2          lab4.txt           quiz3.txt         test.txt
+c3          lab5.txt           [01;34mRecommendations[0m/  [01;36mtmp[0m@
+cl          lab6.txt           [01;34mrepos[0m/            total
+daniel      lost-days          respected         trouble
+[01;34mDesktop[0m/    manywords          [01;34mResumes[0m/          users_on
+[01;34mDocum[0m/      me_A               review            users_test
+[01;34mDocuments[0m/  megan              script1           [01;34mVideos[0m/
+[01;34mDownloads[0m/  month              script.js         west-coast.names
+el          [01;34mMusic[0m/             second_file       words.out
+[01;34mexam1[0m/      [01;32mmydata.txt[0m*        short-pass        [01;32mwordsUsed[0m*
+file2       myerr              [01;34mSkye[0m/             [01;32mwordsUsed1[0m*
+file.info1  myfile1            s-mypasswd        [01;32mwordsUsed2[0m*
+file.info2  myoutput           sortedsp3         [01;32mwordsUsed3[0m*
+first_file  mypasswd           sorted-test-sor   [01;32mwordsUsed4[0m*
+[01;34mfoo[0m/        names.tmp          sort-test         [01;32mwordsUsed5[0m*
+footer      newfile1A          sp2               [01;32mwordsUsed6[0m*
+footer.1    newfile2B2         sp3               [01;32mwordsUsed7[0m*
+footer.2    [01;34mPapers[0m/            style.css         [01;32mwordsUsed8[0m*
+greeting    phon               [01;34mTemplates[0m/
+index.html  [01;34mPictures[0m/          test-file1
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ rmdir Archives
+rmdir: failed to remove 'Archives': Directory not empty
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ cd ~/PRo[K[Krojects
+]0;joshua@joshua-VirtualBox: ~/Projects[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects[00m$ pwdl;[K[K; ls
+/home/joshua/Projects
+actions  [0m[01;34mCode[0m  [01;34mCorresp[0m  [01;36mDocum[0m  f-name  greeting  month  [40;31;01mrf[0m  testing
+]0;joshua@joshua-VirtualBox: ~/Projects[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects[00m$ rmdir Code
+rmdir: failed to remove 'Code': Directory not empty
+]0;joshua@joshua-VirtualBox: ~/Projects[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects[00m$ rm -r F[KCode
+]0;joshua@joshua-VirtualBox: ~/Projects[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects[00m$ ls -F
+actions  [0m[01;34mCorresp[0m/  [01;36mDocum[0m@  f-name  greeting  month  [40;31;01mrf[0m@  testing
+]0;joshua@joshua-VirtualBox: ~/Projects[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/Projects[00m$ e[Kcd
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ exit
+exit
+
+Script done on 2022-02-21 16:05:17-08:00 [COMMAND_EXIT_CODE="0"]
