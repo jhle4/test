@@ -1,0 +1,6100 @@
+Script started on 2022-02-27 10:30:08-08:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ which echo
+/usr/bin/echo
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ echo $PATH
+/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ echo HELLO
+HELLO
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls
+[0m[01;34ma[0m           installation.txt   [01;34mPictures[0m         test-file1
+[01;34mArchives[0m    JoshuaLe-lab2.txt  practice         test-file2
+betty       journal            [01;34mPrivate[0m          test-g
+c1          lab1.txt           [01;34mProjects[0m         test-list
+c2          lab4.txt           [01;34mPublic[0m           test-sor
+c3          lab5.txt           quiz3.txt        test.txt
+cl          lab6.txt           [01;34mRecommendations[0m  [01;36mtmp[0m
+daniel      lab7.txt           [01;34mrepos[0m            total
+[01;34mDesktop[0m     lost-days          respected        trouble
+[01;34mDocum[0m       manywords          [01;34mResumes[0m          users_on
+[01;34mDocuments[0m   me_A               review           users_test
+[01;34mDownloads[0m   megan              script1          [01;34mVideos[0m
+el          month              script.js        west-coast.names
+[01;34mexam1[0m       [01;34mMusic[0m              second_file      words.out
+file2       [01;32mmydata.txt[0m         short-pass       [01;32mwordsUsed[0m
+file.info1  myerr              [01;34mSkye[0m             [01;32mwordsUsed1[0m
+file.info2  myfile1            s-mypasswd       [01;32mwordsUsed2[0m
+first_file  myoutput           sortedsp3        [01;32mwordsUsed3[0m
+[01;34mfoo[0m         mypasswd           sorted-test-sor  [01;32mwordsUsed4[0m
+footer      names.tmp          sort-test        [01;32mwordsUsed5[0m
+footer.1    newfile1A          sp2              [01;32mwordsUsed6[0m
+footer.2    newfile2B2         sp3              [01;32mwordsUsed7[0m
+greeting    [01;34mPapers[0m             style.css        [01;32mwordsUsed8[0m
+index.html  phon               [01;34mTemplates[0m
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ps
+    PID TTY          TIME CMD
+   1361 pts/1    00:00:00 bash
+   1369 pts/1    00:00:00 ps
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ wc -z users_on
+wc: invalid option -- 'z'
+Try 'wc --help' for more information.
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls
+[0m[01;34ma[0m           installation.txt   [01;34mPictures[0m         test-file1
+[01;34mArchives[0m    JoshuaLe-lab2.txt  practice         test-file2
+betty       journal            [01;34mPrivate[0m          test-g
+c1          lab1.txt           [01;34mProjects[0m         test-list
+c2          lab4.txt           [01;34mPublic[0m           test-sor
+c3          lab5.txt           quiz3.txt        test.txt
+cl          lab6.txt           [01;34mRecommendations[0m  [01;36mtmp[0m
+daniel      lab7.txt           [01;34mrepos[0m            total
+[01;34mDesktop[0m     lost-days          respected        trouble
+[01;34mDocum[0m       manywords          [01;34mResumes[0m          users_on
+[01;34mDocuments[0m   me_A               review           users_test
+[01;34mDownloads[0m   megan              script1          [01;34mVideos[0m
+el          month              script.js        west-coast.names
+[01;34mexam1[0m       [01;34mMusic[0m              second_file      words.out
+file2       [01;32mmydata.txt[0m         short-pass       [01;32mwordsUsed[0m
+file.info1  myerr              [01;34mSkye[0m             [01;32mwordsUsed1[0m
+file.info2  myfile1            s-mypasswd       [01;32mwordsUsed2[0m
+first_file  myoutput           sortedsp3        [01;32mwordsUsed3[0m
+[01;34mfoo[0m         mypasswd           sorted-test-sor  [01;32mwordsUsed4[0m
+footer      names.tmp          sort-test        [01;32mwordsUsed5[0m
+footer.1    newfile1A          sp2              [01;32mwordsUsed6[0m
+footer.2    newfile2B2         sp3              [01;32mwordsUsed7[0m
+greeting    [01;34mPapers[0m             style.css        [01;32mwordsUsed8[0m
+index.html  phon               [01;34mTemplates[0m
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls -l
+total 3520
+drwxrwxr-x 3 joshua joshua    4096 Dec  8 20:47 [0m[01;34ma[0m
+drwxrwxr-x 2 joshua joshua    4096 Feb 21 16:00 [01;34mArchives[0m
+-rw-rw-r-- 2 joshua joshua       0 Feb 21 15:47 betty
+-rw-rw-r-- 1 joshua joshua      32 Jan 16 22:22 c1
+-rw-rw-r-- 1 joshua joshua      19 Jan 16 22:21 c2
+-rw-rw-r-- 1 joshua joshua    1732 Jan 16 22:21 c3
+-rw-rw-r-- 1 joshua joshua      32 Jan 16 22:21 cl
+-rw-rw-r-- 2 joshua joshua       0 Feb 21 15:47 daniel
+drwxr-xr-x 3 joshua joshua    4096 Feb 20 18:38 [01;34mDesktop[0m
+drwxrwxr-x 2 joshua joshua    4096 Feb 21 16:03 [01;34mDocum[0m
+drwxr-xr-x 2 joshua joshua    4096 Dec  8 15:36 [01;34mDocuments[0m
+drwxr-xr-x 2 joshua joshua    4096 Dec 28 18:35 [01;34mDownloads[0m
+-rw-rw-r-- 1 joshua joshua       8 Jan 16 22:21 el
+drwxrwxr-x 2 joshua joshua    4096 Feb 13 16:29 [01;34mexam1[0m
+-rw-rw-r-- 1 joshua joshua     519 Jan 16 22:29 file2
+-rw-rw-r-- 1 joshua joshua     325 Feb  6 13:30 file.info1
+-rw-rw-r-- 1 joshua joshua     379 Feb  6 13:30 file.info2
+-rw-rw-r-- 1 joshua joshua      57 Jan 16 22:26 first_file
+drwxrwxr-x 2 joshua joshua    4096 Dec  8 20:46 [01;34mfoo[0m
+-rw-rw-r-- 1 joshua joshua      65 Jan 16 18:48 footer
+-rw-rw-r-- 1 joshua joshua      55 Jan 16 18:47 footer.1
+-rw-rw-r-- 1 joshua joshua      10 Jan 16 18:47 footer.2
+-rw-rw-r-- 1 joshua joshua       6 Feb 21 15:54 greeting
+-rw-rw-r-- 1 joshua joshua       0 Dec  8 20:44 index.html
+-rw-rw-r-- 1 joshua joshua 2601495 Jan 23 20:56 installation.txt
+-rw-rw-r-- 1 joshua joshua  174727 Jan 16 22:43 JoshuaLe-lab2.txt
+-rw-rw-r-- 1 joshua joshua      49 Feb 21 16:01 journal
+-rw-rw-r-- 1 joshua joshua    5645 Jan  9 17:40 lab1.txt
+-rw-rw-r-- 1 joshua joshua  118404 Jan 31 08:51 lab4.txt
+-rw-rw-r-- 1 joshua joshua  128296 Feb  6 14:00 lab5.txt
+-rw-rw-r-- 1 joshua joshua  179969 Feb 21 16:05 lab6.txt
+-rw-rw-r-- 1 joshua joshua    4096 Feb 27 10:30 lab7.txt
+-rw-rw-r-- 1 joshua joshua    2180 Jan 16 22:08 lost-days
+-rw-rw-r-- 1 joshua joshua    7734 Feb  6 13:41 manywords
+-rw-rw-r-- 1 joshua joshua     589 Feb  6 13:16 me_A
+-rw-rw-r-- 2 joshua joshua       0 Feb 21 15:47 megan
+-rw-rw-r-- 1 joshua joshua     188 Feb 21 15:35 month
+drwxr-xr-x 2 joshua joshua    4096 Dec  8 15:36 [01;34mMusic[0m
+-rwxrwxr-x 1 joshua joshua     259 Feb  6 13:13 [01;32mmydata.txt[0m
+-rw-rw-r-- 1 joshua joshua      53 Jan 16 18:42 myerr
+-rw-rw-r-- 1 joshua joshua     114 Jan 23 12:35 myfile1
+-rw-rw-r-- 1 joshua joshua     911 Jan 16 18:41 myoutput
+-rw-rw-r-- 1 joshua joshua    1041 Jan 16 22:13 mypasswd
+-rw-rw-r-- 1 joshua joshua      61 Jan 31 08:11 names.tmp
+-rw-rw-r-- 1 joshua joshua       0 Jan 31 08:46 newfile1A
+-rw-rw-r-- 1 joshua joshua       0 Jan 31 08:46 newfile2B2
+drwxrwxr-x 2 joshua joshua    4096 Feb  6 13:16 [01;34mPapers[0m
+-rw-rw-r-- 1 joshua joshua    2180 Jan 16 22:08 phon
+drwxr-xr-x 2 joshua joshua    4096 Dec  8 15:36 [01;34mPictures[0m
+-rw-rw-r-- 1 joshua joshua    3568 Feb 13 15:55 practice
+drwxrwxr-x 2 joshua joshua    4096 Jan 16 22:09 [01;34mPrivate[0m
+drwxrwxr-x 3 joshua joshua    4096 Feb 21 16:04 [01;34mProjects[0m
+drwxr-xr-x 2 joshua joshua    4096 Dec  8 15:36 [01;34mPublic[0m
+-rw-rw-r-- 1 joshua joshua   44410 Jan 23 13:15 quiz3.txt
+drwxrwxr-x 2 joshua joshua    4096 Feb  6 13:16 [01;34mRecommendations[0m
+drwxrwxr-x 3 joshua joshua    4096 Dec  9 18:33 [01;34mrepos[0m
+-rw-rw-r-- 1 joshua joshua     227 Jan 31 08:26 respected
+drwxrwxr-x 2 joshua joshua    4096 Feb  6 13:30 [01;34mResumes[0m
+-rw-rw-r-- 1 joshua joshua      45 Jan 23 13:03 review
+-rw-rw-r-- 1 joshua joshua     190 Feb  6 13:20 script1
+-rw-rw-r-- 1 joshua joshua       0 Dec  8 20:44 script.js
+-rw-rw-r-- 1 joshua joshua      14 Jan 16 22:28 second_file
+-rw-rw-r-- 1 joshua joshua     687 Jan 31 08:27 short-pass
+drwxrwxr-x 2 joshua joshua    4096 Feb 21 15:45 [01;34mSkye[0m
+-rw-rw-r-- 1 joshua joshua    1041 Jan 16 22:13 s-mypasswd
+-rw-rw-r-- 1 joshua joshua     687 Jan 31 08:29 sortedsp3
+-rw-rw-r-- 1 joshua joshua     108 Jan 31 08:28 sorted-test-sor
+-rw-rw-r-- 1 joshua joshua      44 Jan 16 22:26 sort-test
+-rw-rw-r-- 1 joshua joshua       0 Jan 31 08:29 sp2
+-rw-rw-r-- 1 joshua joshua     687 Jan 31 08:30 sp3
+-rw-rw-r-- 1 joshua joshua       0 Dec  8 20:44 style.css
+drwxr-xr-x 2 joshua joshua    4096 Dec  8 15:36 [01;34mTemplates[0m
+-rw-rw-r-- 1 joshua joshua      28 Jan 31 07:58 test-file1
+-rw-rw-r-- 1 joshua joshua      27 Jan 31 07:59 test-file2
+-rw-rw-r-- 1 joshua joshua     137 Jan 31 08:11 test-g
+-rw-rw-r-- 1 joshua joshua      32 Jan 16 22:35 test-list
+-rw-rw-r-- 1 joshua joshua     108 Jan 31 08:22 test-sor
+-rw-rw-r-- 1 joshua joshua       0 Dec  8 20:44 test.txt
+lrwxrwxrwx 1 joshua joshua       4 Feb 21 16:03 [01;36mtmp[0m -> [30;42m/tmp[0m
+-rw-rw-r-- 1 joshua joshua    1783 Jan 16 22:23 total
+-rw-rw-r-- 1 joshua joshua      32 Feb 21 15:36 trouble
+-rw-rw-r-- 1 joshua joshua      44 Jan 16 22:31 users_on
+-rw-rw-r-- 1 joshua joshua      44 Feb 21 15:33 users_test
+drwxr-xr-x 2 joshua joshua    4096 Dec  8 15:36 [01;34mVideos[0m
+-rw-rw-r-- 1 joshua joshua     200 Feb  6 13:41 west-coast.names
+-rw-rw-r-- 1 joshua joshua    3858 Feb  6 13:59 words.out
+-rwxrwxr-x 1 joshua joshua     145 Feb  6 13:59 [01;32mwordsUsed[0m
+-rwxrwxr-x 1 joshua joshua      30 Feb  6 13:43 [01;32mwordsUsed1[0m
+-rwxrwxr-x 1 joshua joshua      49 Feb  6 13:46 [01;32mwordsUsed2[0m
+-rwxrwxr-x 1 joshua joshua      68 Feb  6 13:48 [01;32mwordsUsed3[0m
+-rwxrwxr-x 1 joshua joshua      70 Feb  6 13:50 [01;32mwordsUsed4[0m
+-rwxrwxr-x 1 joshua joshua      86 Feb  6 13:52 [01;32mwordsUsed5[0m
+-rwxrwxr-x 1 joshua joshua      95 Feb  6 13:55 [01;32mwordsUsed6[0m
+-rwxrwxr-x 1 joshua joshua     105 Feb  6 13:56 [01;32mwordsUsed7[0m
+-rwxrwxr-x 1 joshua joshua     119 Feb  6 13:57 [01;32mwordsUsed8[0m
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ sort [K-r users_on
+
+Command 'sort-r' not found, did you mean:
+
+  command 'sorter' from deb sleuthkit (4.6.7-1build1)
+
+Try: sudo apt install <deb name>
+
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ sleep 5[K[K[K[K[K[K[Ksort -r users_on
+joshua   tty7         2022-01-16 18:36 (:0)
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ s[Ksleep 5
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ who | sort
+joshua   tty7         2022-02-27 10:26 (:0)
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls /[K\
+> -l
+total 3524
+drwxrwxr-x 3 joshua joshua    4096 Dec  8 20:47 [0m[01;34ma[0m
+drwxrwxr-x 2 joshua joshua    4096 Feb 21 16:00 [01;34mArchives[0m
+-rw-rw-r-- 2 joshua joshua       0 Feb 21 15:47 betty
+-rw-rw-r-- 1 joshua joshua      32 Jan 16 22:22 c1
+-rw-rw-r-- 1 joshua joshua      19 Jan 16 22:21 c2
+-rw-rw-r-- 1 joshua joshua    1732 Jan 16 22:21 c3
+-rw-rw-r-- 1 joshua joshua      32 Jan 16 22:21 cl
+-rw-rw-r-- 2 joshua joshua       0 Feb 21 15:47 daniel
+drwxr-xr-x 3 joshua joshua    4096 Feb 20 18:38 [01;34mDesktop[0m
+drwxrwxr-x 2 joshua joshua    4096 Feb 21 16:03 [01;34mDocum[0m
+drwxr-xr-x 2 joshua joshua    4096 Dec  8 15:36 [01;34mDocuments[0m
+drwxr-xr-x 2 joshua joshua    4096 Dec 28 18:35 [01;34mDownloads[0m
+-rw-rw-r-- 1 joshua joshua       8 Jan 16 22:21 el
+drwxrwxr-x 2 joshua joshua    4096 Feb 13 16:29 [01;34mexam1[0m
+-rw-rw-r-- 1 joshua joshua     519 Jan 16 22:29 file2
+-rw-rw-r-- 1 joshua joshua     325 Feb  6 13:30 file.info1
+-rw-rw-r-- 1 joshua joshua     379 Feb  6 13:30 file.info2
+-rw-rw-r-- 1 joshua joshua      57 Jan 16 22:26 first_file
+drwxrwxr-x 2 joshua joshua    4096 Dec  8 20:46 [01;34mfoo[0m
+-rw-rw-r-- 1 joshua joshua      65 Jan 16 18:48 footer
+-rw-rw-r-- 1 joshua joshua      55 Jan 16 18:47 footer.1
+-rw-rw-r-- 1 joshua joshua      10 Jan 16 18:47 footer.2
+-rw-rw-r-- 1 joshua joshua       6 Feb 21 15:54 greeting
+-rw-rw-r-- 1 joshua joshua       0 Dec  8 20:44 index.html
+-rw-rw-r-- 1 joshua joshua 2601495 Jan 23 20:56 installation.txt
+-rw-rw-r-- 1 joshua joshua  174727 Jan 16 22:43 JoshuaLe-lab2.txt
+-rw-rw-r-- 1 joshua joshua      49 Feb 21 16:01 journal
+-rw-rw-r-- 1 joshua joshua    5645 Jan  9 17:40 lab1.txt
+-rw-rw-r-- 1 joshua joshua  118404 Jan 31 08:51 lab4.txt
+-rw-rw-r-- 1 joshua joshua  128296 Feb  6 14:00 lab5.txt
+-rw-rw-r-- 1 joshua joshua  179969 Feb 21 16:05 lab6.txt
+-rw-rw-r-- 1 joshua joshua    8192 Feb 27 10:30 lab7.txt
+-rw-rw-r-- 1 joshua joshua    2180 Jan 16 22:08 lost-days
+-rw-rw-r-- 1 joshua joshua    7734 Feb  6 13:41 manywords
+-rw-rw-r-- 1 joshua joshua     589 Feb  6 13:16 me_A
+-rw-rw-r-- 2 joshua joshua       0 Feb 21 15:47 megan
+-rw-rw-r-- 1 joshua joshua     188 Feb 21 15:35 month
+drwxr-xr-x 2 joshua joshua    4096 Dec  8 15:36 [01;34mMusic[0m
+-rwxrwxr-x 1 joshua joshua     259 Feb  6 13:13 [01;32mmydata.txt[0m
+-rw-rw-r-- 1 joshua joshua      53 Jan 16 18:42 myerr
+-rw-rw-r-- 1 joshua joshua     114 Jan 23 12:35 myfile1
+-rw-rw-r-- 1 joshua joshua     911 Jan 16 18:41 myoutput
+-rw-rw-r-- 1 joshua joshua    1041 Jan 16 22:13 mypasswd
+-rw-rw-r-- 1 joshua joshua      61 Jan 31 08:11 names.tmp
+-rw-rw-r-- 1 joshua joshua       0 Jan 31 08:46 newfile1A
+-rw-rw-r-- 1 joshua joshua       0 Jan 31 08:46 newfile2B2
+drwxrwxr-x 2 joshua joshua    4096 Feb  6 13:16 [01;34mPapers[0m
+-rw-rw-r-- 1 joshua joshua    2180 Jan 16 22:08 phon
+drwxr-xr-x 2 joshua joshua    4096 Dec  8 15:36 [01;34mPictures[0m
+-rw-rw-r-- 1 joshua joshua    3568 Feb 13 15:55 practice
+drwxrwxr-x 2 joshua joshua    4096 Jan 16 22:09 [01;34mPrivate[0m
+drwxrwxr-x 3 joshua joshua    4096 Feb 21 16:04 [01;34mProjects[0m
+drwxr-xr-x 2 joshua joshua    4096 Dec  8 15:36 [01;34mPublic[0m
+-rw-rw-r-- 1 joshua joshua   44410 Jan 23 13:15 quiz3.txt
+drwxrwxr-x 2 joshua joshua    4096 Feb  6 13:16 [01;34mRecommendations[0m
+drwxrwxr-x 3 joshua joshua    4096 Dec  9 18:33 [01;34mrepos[0m
+-rw-rw-r-- 1 joshua joshua     227 Jan 31 08:26 respected
+drwxrwxr-x 2 joshua joshua    4096 Feb  6 13:30 [01;34mResumes[0m
+-rw-rw-r-- 1 joshua joshua      45 Jan 23 13:03 review
+-rw-rw-r-- 1 joshua joshua     190 Feb  6 13:20 script1
+-rw-rw-r-- 1 joshua joshua       0 Dec  8 20:44 script.js
+-rw-rw-r-- 1 joshua joshua      14 Jan 16 22:28 second_file
+-rw-rw-r-- 1 joshua joshua     687 Jan 31 08:27 short-pass
+drwxrwxr-x 2 joshua joshua    4096 Feb 21 15:45 [01;34mSkye[0m
+-rw-rw-r-- 1 joshua joshua    1041 Jan 16 22:13 s-mypasswd
+-rw-rw-r-- 1 joshua joshua     687 Jan 31 08:29 sortedsp3
+-rw-rw-r-- 1 joshua joshua     108 Jan 31 08:28 sorted-test-sor
+-rw-rw-r-- 1 joshua joshua      44 Jan 16 22:26 sort-test
+-rw-rw-r-- 1 joshua joshua       0 Jan 31 08:29 sp2
+-rw-rw-r-- 1 joshua joshua     687 Jan 31 08:30 sp3
+-rw-rw-r-- 1 joshua joshua       0 Dec  8 20:44 style.css
+drwxr-xr-x 2 joshua joshua    4096 Dec  8 15:36 [01;34mTemplates[0m
+-rw-rw-r-- 1 joshua joshua      28 Jan 31 07:58 test-file1
+-rw-rw-r-- 1 joshua joshua      27 Jan 31 07:59 test-file2
+-rw-rw-r-- 1 joshua joshua     137 Jan 31 08:11 test-g
+-rw-rw-r-- 1 joshua joshua      32 Jan 16 22:35 test-list
+-rw-rw-r-- 1 joshua joshua     108 Jan 31 08:22 test-sor
+-rw-rw-r-- 1 joshua joshua       0 Dec  8 20:44 test.txt
+lrwxrwxrwx 1 joshua joshua       4 Feb 21 16:03 [01;36mtmp[0m -> [30;42m/tmp[0m
+-rw-rw-r-- 1 joshua joshua    1783 Jan 16 22:23 total
+-rw-rw-r-- 1 joshua joshua      32 Feb 21 15:36 trouble
+-rw-rw-r-- 1 joshua joshua      44 Jan 16 22:31 users_on
+-rw-rw-r-- 1 joshua joshua      44 Feb 21 15:33 users_test
+drwxr-xr-x 2 joshua joshua    4096 Dec  8 15:36 [01;34mVideos[0m
+-rw-rw-r-- 1 joshua joshua     200 Feb  6 13:41 west-coast.names
+-rw-rw-r-- 1 joshua joshua    3858 Feb  6 13:59 words.out
+-rwxrwxr-x 1 joshua joshua     145 Feb  6 13:59 [01;32mwordsUsed[0m
+-rwxrwxr-x 1 joshua joshua      30 Feb  6 13:43 [01;32mwordsUsed1[0m
+-rwxrwxr-x 1 joshua joshua      49 Feb  6 13:46 [01;32mwordsUsed2[0m
+-rwxrwxr-x 1 joshua joshua      68 Feb  6 13:48 [01;32mwordsUsed3[0m
+-rwxrwxr-x 1 joshua joshua      70 Feb  6 13:50 [01;32mwordsUsed4[0m
+-rwxrwxr-x 1 joshua joshua      86 Feb  6 13:52 [01;32mwordsUsed5[0m
+-rwxrwxr-x 1 joshua joshua      95 Feb  6 13:55 [01;32mwordsUsed6[0m
+-rwxrwxr-x 1 joshua joshua     105 Feb  6 13:56 [01;32mwordsUsed7[0m
+-rwxrwxr-x 1 joshua joshua     119 Feb  6 13:57 [01;32mwordsUsed8[0m
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ history
+   93  cd mit-scheme-11.2-x86-64.tar.gz/src
+   94  ls
+   95  cd mit-scheme-11.2/src
+   96  ./configure
+   97  gcc make m4 libncurses-dev
+   98  gcc make m4 ncurses-devel
+   99  xcode-select --install
+  100  --enable-native-code
+  101  -/configure --enable native-code
+  102  ./configure --enable-native-code
+  103  ./configure --enable-native-code --enable-host-scheme-test --enable-cross-compiling --with-compiler-target --with-default-target --with-scheme-build
+  104  gcc make m4 libncurses-dev
+  105  ls
+  106  cd
+  107  gcc
+  108  gcc make m4 
+  109  gcc make m4 libncurses-dev
+  110  gcc make m4 ncurses-devel
+  111  sudo apt-get install libncurses5-dev libncursesw5-dev
+  112  Password
+  113  exit
+  114  date
+  115  date +%r
+  116  date +%f
+  117  date +%F
+  118  date +%D
+  119  date +%K
+  120  date +%k
+  121  dat -u
+  122  date -u
+  123  file date
+  124  sudo find / -name date
+  125  script -a lab1.txt
+  126  exit
+  127  script -a lab1.txt
+  128  exit
+  129  passwd
+  130  sudo passwd joshua
+  131  date
+  132  date +%r
+  133  date +%R
+  134  date +%F
+  135  date +%D
+  136  date +%K
+  137  date -u
+  138  date
+  139  file date
+  140  sudo find / -name date
+  141  file /usr/bin/date
+  142  history
+  143  exit
+  144  ps
+  145  echo $SHELL
+  146  ps
+  147  echo $XDFG_CURRENT_DESKTOP
+  148  echo $XDG_CURRENT_DESKTOP
+  149  ls - l
+  150  ls -l
+  151  ls -l > myoutput
+  152  cat myoutput
+  153  ls nyp12
+  154  ls nyp12 2> myerr
+  155  ls myerr
+  156  cat myerr
+  157  cat > footer.1
+  158  cat footer.1
+  159  echo Thank you
+  160  echo Thank you > footer.2
+  161  cat footer.1 footer.2
+  162  cat footer.1 footer.2 > footer
+  163  cat footer
+  164  ca footer.1
+  165  cat footer.1
+  166  cat footer.2
+  167  uname
+  168  uname -r
+  169  uname -v
+  170  uname -m
+  171  uname -p
+  172  uname -a
+  173  cat .bash_history
+  174  sudo./VBoxlinuxAdditions.run
+  175  clear
+  176  who
+  177  whoami
+  178  ls
+  179  ls -a
+  180  LS
+  181  ls -l
+  182  ls /etc
+  183  ls -a /etc|more
+  184  echo $SHELL
+  185  bash
+  186  ps
+  187  bash
+  188  man cal
+  189  man -f argument
+  190  man -k argument
+  191  man man
+  192  exit
+  193  ps
+  194  ps
+  195  csh
+  196  ps
+  197  exit
+  198  who
+  199  cal
+  200  date
+  201  pwd
+  202  mkdir
+  203  mkdir Private
+  204  who > users_on
+  205  cal 1752 > lost-days
+  206  cp users_on users_on_2
+  207  cp lost-days lost-3
+  208  ls
+  209  cp users_on Private
+  210  ls Private
+  211  cp today lost-days junk Private
+  212  ls Private
+  213  rm users_on_2
+  214  rm -i junk
+  215  more lost-3
+  216  my lost-3 phon
+  217  mv lost-3 phon
+  218  ls more phon
+  219  ls
+  220  more phon
+  221  ls
+  222  ls -l -a
+  223  ls -l -alF
+  224  wc users_on
+  225  date | wc
+  226  who | wc
+  227  wc -c -l users_on
+  228  wc -lc users_on
+  229  wc -cl users_on
+  230  head -20 /etc/passwd > mypasswd
+  231  cat mypasswd
+  232  sort mypasswd
+  233  catmypasswd
+  234  cat mypasswd
+  235  sort mypasswd > s-mypasswd
+  236  more s-mypasswd
+  237  cat mypasswd
+  238  cat users_on
+  239  sort mypasswd users_on | more
+  240  wc mypasswd users_on
+  241  more mypasswd users_on
+  242  sort users_on lost-days | more
+  243  sort users_on mypasswd | more
+  244  sort -r users_on mypasswd | more
+  245  sleep 600 &
+  246  sleep 600 %
+  247  sleep 600 &
+  248  man wc line
+  249  wc -lmw lost-days
+  250  wc lost-days
+  251  wc -l -w -c lost-days
+  252  wc -lwu lost-days
+  253  echo who date ls cat
+  254  echo A B C D > el
+  255  more errors el
+  256  date > cl
+  257  echo hello this is echo > c2
+  258  ls -l > c3
+  259  ls -l
+  260  ls -l c1 c2 c3
+  261  date > c1
+  262  ls -l c1 c2 c3
+  263  cat c1 c2 c3
+  264  cat c3 c2 c1 > total
+  265  more total
+  266  cat total
+  267  grep is total
+  268  grep root /etc/passwd
+  269  grep is c1 c2 c3 total
+  270  sort
+  271  sort users_on > sort-test
+  272  more sort-test
+  273  cat > first_file
+  274  ls -l
+  275  more errors first_file
+  276  cat >second_file
+  277  ls -l
+  278  more second_file
+  279  head -12 /etc/passwd
+  280  head -12 /etc/passwd > file2
+  281  echo $USER
+  282  echo #LOGNAME
+  283  who |grep $USER
+  284  echo my shell is $SHELL and my home is $HOME
+  285  who |grep $USER|wc -l
+  286  env |more
+  287  printenv |more
+  288  echo we can output a *
+  289  we can output a \* uninterpreted
+  290  echo we can output a \* uninterpreted
+  291  echo \$HOME
+  292  who > users_on
+  293  unset noclobber
+  294  set +o noclobber
+  295  ls -l >test-list
+  296  ls -l > test-list
+  297  cat
+  298  cat test-list
+  299  date > test-list
+  300  set -o noclobber
+  301  ls -l > test-list
+  302  csh
+  303  sudo apt install csh
+  304  csh
+  305  ps
+  306  bash
+  307  ps
+  308  set -o ignoreeof
+  309  set | more
+  310  PS1 = Joshua
+  311  PS1 = 'joshua'
+  312  PS1 = joshua
+  313  dzatte
+  314  echo $PATH
+  315  ls -l /bin | more
+  316  which who
+  317  which xterm
+  318  which ls
+  319  which set
+  320  ls -l
+  321  ls -l users_on
+  322  chmod -r users_on
+  323  ls -l
+  324  cat users_on
+  325  chmod +r users_on
+  326  ls -l users_on
+  327  man cat
+  328  man sort
+  329  man -k edit | more
+  330  man -k copy | more
+  331  man sort
+  332  chmod -r users_on
+  333  ls -l users_on
+  334  chmod +r users_on
+  335  ls -l users_on
+  336  exit
+  337  script -a JoshuaLe-lab2.txt
+  338  vi
+  339  ls myfile 1
+  340  ls myfile1
+  341  cat myfile1
+  342  vi
+  343  vi practice
+  344  ls
+  345  cd Desktop
+  346  ls
+  347  cd
+  348  exit
+  349  script -a quiz3.txt
+  350  cd Desktop
+  351  ls
+  352  vi practice
+  353  date
+  354  ls
+  355  dd
+  356  vim practice
+  357  cd desktop
+  358  cd Desktop
+  359  ls
+  360  vi practice
+  361  date
+  362  ls
+  363  vi practice
+  364  date
+  365  vi practice
+  366  head practice
+  367  vi review
+  368  more review
+  369  vi practcie
+  370  vi practice
+  371  who
+  372  vi practice
+  373  exit
+  374  ls
+  375  rm quiz3.txt
+  376  ls
+  377  script -a quiz3.txt
+  378  sudo -v && wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sudo sh /dev/stdin
+  379  exit
+  380  sudo -v && wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sudo sh /dev/stdin
+  381  exit
+  382  script -a installation.txt
+  383  calibre
+  384  exot
+  385  exit
+  386  cd Desktop
+  387  ls
+  388  wc test-file1
+  389  wc test-file1 practice
+  390  wc * | more
+  391  wc -l test-file1
+  392  wc -w test-file1
+  393  wc -wc test-file1
+  394  wc -l -w test-file1
+  395  wc -wl test-file1
+  396  who | wc
+  397  who | wc -l
+  398  ls | wc
+  399  cat test-file1 test-file 2
+  400  cat test-file1 test-file2
+  401  cat test-file3
+  402  cat -n testfile1
+  403  cat -n test-file1
+  404  cat -n practice
+  405  cat practice
+  406  more /etc/services
+  407  more practice
+  408  grep ab test-g
+  409  grep he test-g practice | more
+  410  grep -v ab test-g
+  411  sort test-g | grep at
+  412  who | grep $USER
+  413  paste test-file1 test-file2 | grep 2
+  414  grep the
+  415  grep at test-g names.tmp | more
+  416  grep the * | more
+  417  grep 'Lyle Strand' test-g
+  418  grep Lyle Strand test-g | more
+  419  grep 'are at' test-g
+  420  grep lyle test-g
+  421  grep -i lylE test-g
+  422  grep -i He test-g
+  423  grep -l '04' names.tmp test*
+  424  grep -n 'ab' test-g
+  425  grep 't.t' test-g
+  426  grep '\^a' test-g
+  427  grep 't$' test-g
+  428  grep -n '^$' test-g
+  429  ls | test
+  430  ls test
+  431  ls -f test
+  432  ls *test*
+  433  sort test-sor | more
+  434  man ascii
+  435  sort -d test-sor | more
+  436  sort -f test-sor | more
+  437  sort test-sor | more
+  438  sort -n test-sor | more
+  439  sort -r test-sor | more
+  440  sort -rfn test-sor | more
+  441  sort +3 respected
+  442  sort -k 4 respected
+  443  sort +2 respected
+  444  head /etc/passwd
+  445  wc /etc/passwd
+  446  head -15 /etc/passwd
+  447  head -15 /etc/passwd > short-pass
+  448  wc short-pass
+  449  cat short-pass
+  450  sort short-pass
+  451  sort +2 short-pass
+  452  sort -t: +2 short-pass
+  453  -t: -n +2 short-pass
+  454  sort -t: -n +2 short-pass
+  455  sort test-sor > sorted-test-sor
+  456  more sorted-test-sor
+  457  cp short-pass sp2
+  458  cat sp2
+  459  sort sp2 > sp2
+  460  cat sp2
+  461  cp short-pass sp3
+  462  sort sp3 -o sortedsp3
+  463  sp3 -o sp3
+  464  sort sp3 -o sp3
+  465  cat sp3
+  466  man sort
+  467  who
+  468  who | tr t Z
+  469  tr a Z < test-sor
+  470  tr 'Ma7' '| &s' < test-sor
+  471  tr 'a-z' 'A-Z' < test-sor
+  472  tr '[a-z]' 'A-Z' < test-sor
+  473  tr '[a-z]' '[A-Z]' < test-sor
+  474  tr -d 'cbmZ4o' < test-sor
+  475  ls | tr 'a-z' 'A-Z'
+  476  tr 'a-z' 'A-Z' < practice
+  477  tr 'A-Z' 'a-z' < practice
+  478  head -30 /etc/passwd | tr ':' ' '
+  479  tr ' ' '+' < practice
+  480  tr ' ' '\n' < practice
+  481  man tr
+  482  ls
+  483  ls -a
+  484  ls -l
+  485  ls -F
+  486  ls -C
+  487  ls -l
+  488  ls -Ca
+  489  ls | more
+  490  ls -l | more
+  491  ls -C |more
+  492  ls | wc
+  493  ls -C | wc
+  494  ls -l | wc
+  495  man ls
+  496  file /etc/passwd
+  497  file /usr/bin/passwd
+  498  file /bin/ls
+  499  touch newfile1A newfile2B2
+  500  ls -l new*
+  501  ls -l users_on
+  502  touch users_on
+  503  ls -l users_on
+  504  cd
+  505  ls -F | more
+  506  ls -F | grep /
+  507  ls -F | grep / | wc -l
+  508  alias numdir='ls -F | grep / |wc -l'
+  509  numdir
+  510  cd /
+  511  numdir
+  512  cd
+  513  tr 'A-Z' 'a-z' < practice | more
+  514  cd Desktop
+  515  tr 'A-Z' 'a-z' < practice | more
+  516  tr 'A-Z' 'a-z' < practice 
+  517  tr 'A-Z' 'a-z' < practice | tr ' ' '\n' | more
+  518  tr 'A-Z' 'a-z' < practice | tr ' ' '\n' | sort | more
+  519  ls -l
+  520  ls 1
+  521  ls -F|more
+  522  ls -F | more
+  523  exit
+  524  script -a lab4.txt
+  525  exit
+  526  ls -1
+  527  ls -l
+  528  ls -1
+  529  vi
+  530  vi mydata.txt
+  531  ls
+  532  chmod +x mydata
+  533  chmod +x mydata.txt
+  534  mydata.txt | more
+  535  mydata | more
+  536  PATH=$PATH:.
+  537  mydata.txt | more
+  538  mydata.txt > me_A
+  539  cd
+  540  mkdir Resumes Papers Recommendations
+  541  ls -F | more
+  542  ls -F | grep
+  543  ls -F | grep /
+  544  ls -F | grep / | column
+  545  ls -F | grep -v / | column
+  546  vi script1
+  547  chmod +x script1
+  548  script1
+  549  chmod -x script1
+  550  script1 | more
+  551  cd Resumes
+  552  pwd
+  553  date > today
+  554  cal > month
+  555  who > logged.on
+  556  id > mylogin
+  557  head -5 /etc/passwd > short-passA
+  558  cp month month.bak
+  559  ls -l
+  560  cd
+  561  pwd
+  562  ls -l Resumes
+  563  ls -l Resumes | sort > file.info1
+  564  more file.info1
+  565  cd Resumes
+  566  pwd
+  567  ls
+  568  chmod -w today
+  569  mv month month2
+  570  date > new.date
+  571  who >> month.bak
+  572  ls -l
+  573  cd
+  574  ls -l Resumes | sort > file.info2
+  575  comm file.info1 file.info2
+  576  diff file.info1 file.info2
+  577  ls
+  578  cd Desktop
+  579  ls
+  580  vi west-coast.names
+  581  cat practice west-coast.names practice > manywords
+  582  vi script2
+  583  vi wordsUsed1
+  584  chmod +x wordsUsed 1
+  585  chmod +x wordsUsed1
+  586  ./wordsUsed 1
+  587  ./wordsUsed1
+  588  more manywords
+  589  cp wordsUsed1 wordsUsed2
+  590  vi wordsUsed2
+  591  chmod +x wordsUsed2
+  592  ./wordsUsed2
+  593  more manywords
+  594  cp wordsUsed2 wordsUsed3
+  595  vi wordsUsed3
+  596  cp wordsUsed3 wordsUsed4
+  597  vi wordsUsed4
+  598  chmod +x wordsUsed4
+  599  wordsUsed4
+  600  cp wordsUsed4 wordsUsed5
+  601  vi wordsUsed5
+  602  chmod +x wordsUsed5
+  603  wordsUsed5
+  604  cp wordsUsed5 wordsUsed6
+  605  vi wordsUsed6
+  606  chmod +x wordsUsed 6
+  607  chmod +x wordsUsed6
+  608  cp wordsUsed6 wordsUsed7
+  609  vi wordsUsed7
+  610  chmod +x wordsUsed8
+  611  chmod +x wordsUsed7
+  612  cp wordsUsed7 wordsUsed8
+  613  vi wordsUsed8
+  614  chmod +x wordsUsed8
+  615  wordsUsed8
+  616  cp wordsUsed8 wordsUsed
+  617  vi wordUsed
+  618  vi wordsUsed
+  619  chmod +x wordsUsed
+  620  wordsUsed
+  621  words.out
+  622  vi words.out
+  623  exit
+  624  who
+  625  cal
+  626  ls
+  627  mkdir exam1
+  628  cd exam1
+  629  echo ls > exam 1
+  630  ls
+  631  cat exam
+  632  cp file1 file2
+  633  echo ls > file1
+  634  cp file1 file2
+  635  echo file1 > file2
+  636  file1 > file2
+  637  more file1 > file2
+  638  file1 | file2
+  639  ls
+  640  echo file2 > file3
+  641  more file2 > file4
+  642  echo file1
+  643  more file1
+  644  more file3
+  645  more file4
+  646  cp file2 file5
+  647  more file5
+  648  cd
+  649  ls
+  650  cd Desktop
+  651  ls
+  652  cd mit-scheme-11.2
+  653  cd
+  654  ls /usr/bin | grep cancel
+  655  cd ~/usr/local
+  656  /home
+  657  cd home
+  658  cd /home
+  659  cd
+  660  cd /Desktop
+  661  cd $HOME
+  662  cd /Desktop
+  663  ls
+  664  cd Desktop
+  665  cd ~
+  666  cd desktop
+  667  cd Desktop
+  668  ls
+  669  vi practice
+  670  ~
+  671  cd ~
+  672  cd exam
+  673  cd exam1
+  674  cat client1 client2
+  675  bash
+  676  who
+  677  cal
+  678  cal
+  679  who
+  680  cal
+  681  cat client1
+  682  cat client1 client2
+  683  bash
+  684  cd exam1
+  685  vi essay
+  686  ls
+  687  grep -v [u] essay
+  688  grep [dog] essay
+  689  grep the essay
+  690  grep '\q$' essay
+  691  more grep
+  692  man grep
+  693  man grep | grep 'q$'
+  694  man grep | grep 'q\$'
+  695  man grep | grep '\q$'
+  696  man grep | grep '\$'
+  697  grep '\q' essay
+  698  man 1 pwd
+  699  man -f pwd
+  700  man -k pwd
+  701  pwd --help
+  702  echo file1 file2 | mv
+  703  cut -c[character_position} filelist
+  704  cut --help
+  705  man cut
+  706  man cut | grep 'zero'
+  707  man cut|grep 'zero'
+  708  man ls
+  709  vi alpha
+  710  echo alpha
+  711  ls alpha
+  712  cat alpha
+  713  man tr
+  714  tr alpha 'a-z' 'A-Z'
+  715  man tr
+  716  alpha > tr 'a-z' 'A-Z'
+  717  cat alpha | tr 'a-z' 'A-Z'
+  718  cat alpha
+  719  cat alpha | tr 'a-z' 'A-Z' < alpha
+  720  alpha
+  721  cat alpha
+  722  tr 'a-z' 'A-Z' < alpha
+  723  cat alpha
+  724  sort -r alpha
+  725  sort alpha
+  726  practice
+  727  ls
+  728  sort essay
+  729  sort -r essay
+  730  sort -r essay | more
+  731  man ls
+  732  ls -a -l
+  733  ls -l -a
+  734  cd
+  735  ls -l
+  736  ls -a
+  737  ls -al
+  738  ls -la
+  739  echo \$HOME
+  740  echo /$HOME
+  741  echo $HOME
+  742  history
+  743  man history
+  744  cd /tmp/$USER
+  745  echo $PWD
+  746  pwd
+  747  echo $OLDPWD
+  748  pwd
+  749  cd /tmp
+  750  pwd
+  751  cd -
+  752  pwd
+  753  exit
+  754  pwd
+  755  grep $USER /etc/passwd
+  756  ls
+  757  who > f-name
+  758  date > journal
+  759  ls -i
+  760  who > users_test
+  761  ls -i | more
+  762  ls
+  763  ls -l Projects
+  764  ls -ld Projects
+  765  ls -F
+  766  more ProjectZ
+  767  cd Projects/
+  768  ls
+  769  cd
+  770  ls -l Projects
+  771  ls -ld Projects
+  772  ls -R -C | more
+  773  ls -i f*
+  774  mv f-name Projects/
+  775  ls 
+  776  ls -i Projects
+  777  cd
+  778  cal > month
+  779  ls -i
+  780  cp month Projects/
+  781  ls -i Projects
+  782  cd Projects
+  783  cat month
+  784  cd
+  785  more Projects/month
+  786  pwd
+  787  date > trouble
+  788  more trouble
+  789  ls -i t*
+  790  mv trouble ProjectZ
+  791  ls
+  792  ls Projects
+  793  ls -F
+  794  more ProjectZ
+  795  ls -i ProjectZ
+  796  mv ProjectZ trouble
+  797  mv trouble ProjectZ/
+  798  touch junkness
+  799  ls -i j*
+  800  mv junkness Projects/treasure
+  801  ls -i Projects
+  802  ls junkness
+  803  ls Projects
+  804  rm Project/treasure
+  805  rm Projects/treasure
+  806  ls Projects
+  807  cd Projects
+  808  ls
+  809  pwd
+  810  mkdir Code
+  811  ls -i
+  812  cd Code
+  813  pwd
+  814  vi report3
+  815  ls
+  816  pwd
+  817  cd
+  818  pwd
+  819  ls -F
+  820  cd Projects
+  821  ls
+  822  pwd
+  823  cd
+  824  cd Projects/Code/
+  825  pwd
+  826  ls
+  827  cat report3
+  828  cd
+  829  pwd
+  830  vi Projects/Code/report3
+  831  pwd
+  832  cp journal Projects/Code/journal2
+  833  ls -i journal
+  834  cd Projects/Code
+  835  ls -i
+  836  cat journal 2
+  837  cat journal2
+  838  cd
+  839  mkdir Docum
+  840  touch Docum/readme
+  841  ls Docum
+  842  cd
+  843  mkdir Projects/Corresp
+  844  ls -F Projects
+  845  cd PRojects/Corresp
+  846  cd Projects/Corresp
+  847  pwd
+  848  vi replies
+  849  cd 
+  850  cd Projects/Code
+  851  ls -a
+  852  file .
+  853  file ..
+  854  pwd
+  855  ls -ai
+  856  cd .
+  857  ls -ai Code
+  858  cd ..
+  859  ls -ai Code
+  860  pwd
+  861  cd ../..
+  862  pwd
+  863  cd
+  864  pwd
+  865  cd ..
+  866  cd
+  867  mkdir Skye
+  868  ls -iF
+  869  ls ai Skye
+  870  ls -ai Sky
+  871  ls -ai Skye
+  872  cd
+  873  cd practice journal f-name
+  874  cp practice journal f-name
+  875  cp practice journal Docum/
+  876  ls Docum
+  877  mkdir Archives
+  878  cp users_on practice journal l* Archives/
+  879  ls Archives
+  880  touch cassy dimitri owen danny monika
+  881  ls -i
+  882  mv cassy dimitri owen danny monika Docum/
+  883  ls -i
+  884  ls -i Docum/
+  885  cd
+  886  cd Projects/Code
+  887  pwd
+  888  ls -ai
+  889  ls -ai report3
+  890  mv report3 ..
+  891  cd ..
+  892  pwd
+  893  ls -i
+  894  mv report3 Code
+  895  touch megan daniel betty
+  896  ls -i
+  897  mv megan daniel betty ..
+  898  ls -i
+  899  cd ..
+  900  ls
+  901  ls -i
+  902  cd /tmp
+  903  mkdir $USER
+  904  cd $USER
+  905  mkdir Mydir
+  906  cd Mydir
+  907  pwd
+  908  date > myfile
+  909  ls 
+  910  cat myfile
+  911  pwd
+  912  cd
+  913  more /tmp/$USER/Mydir/myfile
+  914  cd /tmp
+  915  pwd
+  916  ls ~
+  917  pwd
+  918  more ~/practice
+  919  cd ~/Projects/Code
+  920  pwd
+  921  echo ~
+  922  echo ~/Projects
+  923  echo ~/..
+  924  echo ~/Projects/Code
+  925  echo ~/ABCDE
+  926  echo My home is ~
+  927  grep root /etc/passwd
+  928  echo ~/root
+  929  echo ~lmeade
+  930  cd
+  931  pwd
+  932  ls
+  933  cd ~tmp
+  934  bash
+  935  cp journal projects/code/journal2
+  936  wc -l practice users
+  937  wc -l practice users_on
+  938  wc -l ./practice ./users_on
+  939  cd
+  940  ls Projects
+  941  vi Projects/actions
+  942  ls
+  943  ls Projects
+  944  cd Projects
+  945  wc ../users_on
+  946  ls ..
+  947  ls ../Docum
+  948  wc ../Docum/readme
+  949  cd
+  950  ls Projects/Code
+  951  wc Projects/Code/journal2
+  952  cd
+  953  cd /tmp
+  954  pwd
+  955  ls ~/Projects/Code
+  956  echo ~/Projects/Code
+  957  cd
+  958  ls /tmp
+  959  ls /tmp/$USER
+  960  pwd
+  961  cp practice /tmp/$USER/practice2
+  962  ls /tmp/$USER
+  963  cd /tmp/$USER
+  964  pwd
+  965  ls
+  966  cp practice2 ~/Projects/Code
+  967  ls ~/Projects/Code
+  968  cd /
+  969  pwd
+  970  cp ~/Projects/Code/report3 ~/Docum
+  971  cd ~/Projects
+  972  echo hello > ../greeting
+  973  ls ..
+  974  cp ../greeting .
+  975  cp ../* ~/Docum
+  976  ls ~/Docum
+  977  wc ~/users_on > /tmp/$USER/num_users_on
+  978  cd ~/Projects
+  979  pwd
+  980  ls
+  981  cd
+  982  ls -l | more
+  983  cd
+  984  pwd
+  985  ls -i testing-links
+  986  vi testing-links
+  987  ls -i testing-links
+  988  cd Archives
+  989  ls
+  990  ls ..
+  991  ln ../testing-links testing2
+  992  ls -i
+  993  cd
+  994  more testing-links
+  995  cd /Archives
+  996  cd ~/Archives
+  997  vi testing2
+  998  cd
+  999  more testing-links
+ 1000  ls -li testing-links
+ 1001  ls -li Archives/testing2
+ 1002  file testing-links
+ 1003  file Archives/testing2
+ 1004  ls -l testing-links
+ 1005  rm testing-links
+ 1006  ls
+ 1007  ls -l Archives
+ 1008  more Archives/testing2
+ 1009  ln users_on Archives
+ 1010  ls -i users_on
+ 1011  ls -i Archives/users_on
+ 1012  ls -l users_on
+ 1013  ln megan daniel betty Archives
+ 1014  ls -il megan daniel betty
+ 1015  ls -il Archives
+ 1016  cd ~/Projects
+ 1017  pwd
+ 1018  ln -s ~/journal
+ 1019  ls -i journal
+ 1020  ls -i ~/journal
+ 1021  echo 'In Projects File' >> journal
+ 1022  cat ~/journal
+ 1023  ls -l journal
+ 1024  file journal
+ 1025  rm journal
+ 1026  ls
+ 1027  date > ~/realfile
+ 1028  ln -s ~/reafile rf
+ 1029  ls -l rf
+ 1030  cat rf
+ 1031  rm ~/realfile
+ 1032  ls -l rf
+ 1033  cat rf
+ 1034  pwd
+ 1035  ln -s ~/Docum
+ 1036  ls -F
+ 1037  ls Docum
+ 1038  cd Docum
+ 1039  pwd
+ 1040  touch filefromProjects
+ 1041  cd
+ 1042  ls
+ 1043  ls Docum
+ 1044  ls Projects
+ 1045  ls -i Docum
+ 1046  ls -i Projects/Docum
+ 1047  cd
+ 1048  ln -s /tmp tmp
+ 1049  ls -l | more
+ 1050  ls ~/tmp
+ 1051  ls /tmp
+ 1052  cd
+ 1053  ls -F
+ 1054  ls -id Projects
+ 1055  mv Projects Old-projects
+ 1056  ls -F
+ 1057  ls -F Old-projects
+ 1058  ls -id Old-projects
+ 1059  mv Old-projects Projects
+ 1060  ls -id Projects
+ 1061  cd
+ 1062  pwd
+ 1063  ls
+ 1064  ls -F
+ 1065  mkdir Dirempty
+ 1066  ls -F
+ 1067  ls -id DIrempty
+ 1068  ls Dirempty
+ 1069  rmdir Dirempty
+ 1070  ls -F
+ 1071  rmdir Archives
+ 1072  cd ~/Projects
+ 1073  pwd; ls
+ 1074  rmdir Code
+ 1075  rm -r Code
+ 1076  ls -F
+ 1077  cd
+ 1078  exit
+ 1079  which echo
+ 1080  echo $PATH
+ 1081  echo HELLO
+ 1082  ls
+ 1083  ps
+ 1084  wc -z users_on
+ 1085  ls
+ 1086  ls -l
+ 1087  sort-r users_on
+ 1088  sort -r users_on
+ 1089  sleep 5
+ 1090  who | sort
+ 1091  ls -l
+ 1092  history
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ who history\[K[K[K[K[K[K[K[Kwho |[K\
+> | tr \
+> -d \
+> 12345 \
+> | sed 5q
+joshua   tty7         0-0-7 0:6 (:0)
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ history
+   95  cd mit-scheme-11.2/src
+   96  ./configure
+   97  gcc make m4 libncurses-dev
+   98  gcc make m4 ncurses-devel
+   99  xcode-select --install
+  100  --enable-native-code
+  101  -/configure --enable native-code
+  102  ./configure --enable-native-code
+  103  ./configure --enable-native-code --enable-host-scheme-test --enable-cross-compiling --with-compiler-target --with-default-target --with-scheme-build
+  104  gcc make m4 libncurses-dev
+  105  ls
+  106  cd
+  107  gcc
+  108  gcc make m4 
+  109  gcc make m4 libncurses-dev
+  110  gcc make m4 ncurses-devel
+  111  sudo apt-get install libncurses5-dev libncursesw5-dev
+  112  Password
+  113  exit
+  114  date
+  115  date +%r
+  116  date +%f
+  117  date +%F
+  118  date +%D
+  119  date +%K
+  120  date +%k
+  121  dat -u
+  122  date -u
+  123  file date
+  124  sudo find / -name date
+  125  script -a lab1.txt
+  126  exit
+  127  script -a lab1.txt
+  128  exit
+  129  passwd
+  130  sudo passwd joshua
+  131  date
+  132  date +%r
+  133  date +%R
+  134  date +%F
+  135  date +%D
+  136  date +%K
+  137  date -u
+  138  date
+  139  file date
+  140  sudo find / -name date
+  141  file /usr/bin/date
+  142  history
+  143  exit
+  144  ps
+  145  echo $SHELL
+  146  ps
+  147  echo $XDFG_CURRENT_DESKTOP
+  148  echo $XDG_CURRENT_DESKTOP
+  149  ls - l
+  150  ls -l
+  151  ls -l > myoutput
+  152  cat myoutput
+  153  ls nyp12
+  154  ls nyp12 2> myerr
+  155  ls myerr
+  156  cat myerr
+  157  cat > footer.1
+  158  cat footer.1
+  159  echo Thank you
+  160  echo Thank you > footer.2
+  161  cat footer.1 footer.2
+  162  cat footer.1 footer.2 > footer
+  163  cat footer
+  164  ca footer.1
+  165  cat footer.1
+  166  cat footer.2
+  167  uname
+  168  uname -r
+  169  uname -v
+  170  uname -m
+  171  uname -p
+  172  uname -a
+  173  cat .bash_history
+  174  sudo./VBoxlinuxAdditions.run
+  175  clear
+  176  who
+  177  whoami
+  178  ls
+  179  ls -a
+  180  LS
+  181  ls -l
+  182  ls /etc
+  183  ls -a /etc|more
+  184  echo $SHELL
+  185  bash
+  186  ps
+  187  bash
+  188  man cal
+  189  man -f argument
+  190  man -k argument
+  191  man man
+  192  exit
+  193  ps
+  194  ps
+  195  csh
+  196  ps
+  197  exit
+  198  who
+  199  cal
+  200  date
+  201  pwd
+  202  mkdir
+  203  mkdir Private
+  204  who > users_on
+  205  cal 1752 > lost-days
+  206  cp users_on users_on_2
+  207  cp lost-days lost-3
+  208  ls
+  209  cp users_on Private
+  210  ls Private
+  211  cp today lost-days junk Private
+  212  ls Private
+  213  rm users_on_2
+  214  rm -i junk
+  215  more lost-3
+  216  my lost-3 phon
+  217  mv lost-3 phon
+  218  ls more phon
+  219  ls
+  220  more phon
+  221  ls
+  222  ls -l -a
+  223  ls -l -alF
+  224  wc users_on
+  225  date | wc
+  226  who | wc
+  227  wc -c -l users_on
+  228  wc -lc users_on
+  229  wc -cl users_on
+  230  head -20 /etc/passwd > mypasswd
+  231  cat mypasswd
+  232  sort mypasswd
+  233  catmypasswd
+  234  cat mypasswd
+  235  sort mypasswd > s-mypasswd
+  236  more s-mypasswd
+  237  cat mypasswd
+  238  cat users_on
+  239  sort mypasswd users_on | more
+  240  wc mypasswd users_on
+  241  more mypasswd users_on
+  242  sort users_on lost-days | more
+  243  sort users_on mypasswd | more
+  244  sort -r users_on mypasswd | more
+  245  sleep 600 &
+  246  sleep 600 %
+  247  sleep 600 &
+  248  man wc line
+  249  wc -lmw lost-days
+  250  wc lost-days
+  251  wc -l -w -c lost-days
+  252  wc -lwu lost-days
+  253  echo who date ls cat
+  254  echo A B C D > el
+  255  more errors el
+  256  date > cl
+  257  echo hello this is echo > c2
+  258  ls -l > c3
+  259  ls -l
+  260  ls -l c1 c2 c3
+  261  date > c1
+  262  ls -l c1 c2 c3
+  263  cat c1 c2 c3
+  264  cat c3 c2 c1 > total
+  265  more total
+  266  cat total
+  267  grep is total
+  268  grep root /etc/passwd
+  269  grep is c1 c2 c3 total
+  270  sort
+  271  sort users_on > sort-test
+  272  more sort-test
+  273  cat > first_file
+  274  ls -l
+  275  more errors first_file
+  276  cat >second_file
+  277  ls -l
+  278  more second_file
+  279  head -12 /etc/passwd
+  280  head -12 /etc/passwd > file2
+  281  echo $USER
+  282  echo #LOGNAME
+  283  who |grep $USER
+  284  echo my shell is $SHELL and my home is $HOME
+  285  who |grep $USER|wc -l
+  286  env |more
+  287  printenv |more
+  288  echo we can output a *
+  289  we can output a \* uninterpreted
+  290  echo we can output a \* uninterpreted
+  291  echo \$HOME
+  292  who > users_on
+  293  unset noclobber
+  294  set +o noclobber
+  295  ls -l >test-list
+  296  ls -l > test-list
+  297  cat
+  298  cat test-list
+  299  date > test-list
+  300  set -o noclobber
+  301  ls -l > test-list
+  302  csh
+  303  sudo apt install csh
+  304  csh
+  305  ps
+  306  bash
+  307  ps
+  308  set -o ignoreeof
+  309  set | more
+  310  PS1 = Joshua
+  311  PS1 = 'joshua'
+  312  PS1 = joshua
+  313  dzatte
+  314  echo $PATH
+  315  ls -l /bin | more
+  316  which who
+  317  which xterm
+  318  which ls
+  319  which set
+  320  ls -l
+  321  ls -l users_on
+  322  chmod -r users_on
+  323  ls -l
+  324  cat users_on
+  325  chmod +r users_on
+  326  ls -l users_on
+  327  man cat
+  328  man sort
+  329  man -k edit | more
+  330  man -k copy | more
+  331  man sort
+  332  chmod -r users_on
+  333  ls -l users_on
+  334  chmod +r users_on
+  335  ls -l users_on
+  336  exit
+  337  script -a JoshuaLe-lab2.txt
+  338  vi
+  339  ls myfile 1
+  340  ls myfile1
+  341  cat myfile1
+  342  vi
+  343  vi practice
+  344  ls
+  345  cd Desktop
+  346  ls
+  347  cd
+  348  exit
+  349  script -a quiz3.txt
+  350  cd Desktop
+  351  ls
+  352  vi practice
+  353  date
+  354  ls
+  355  dd
+  356  vim practice
+  357  cd desktop
+  358  cd Desktop
+  359  ls
+  360  vi practice
+  361  date
+  362  ls
+  363  vi practice
+  364  date
+  365  vi practice
+  366  head practice
+  367  vi review
+  368  more review
+  369  vi practcie
+  370  vi practice
+  371  who
+  372  vi practice
+  373  exit
+  374  ls
+  375  rm quiz3.txt
+  376  ls
+  377  script -a quiz3.txt
+  378  sudo -v && wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sudo sh /dev/stdin
+  379  exit
+  380  sudo -v && wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sudo sh /dev/stdin
+  381  exit
+  382  script -a installation.txt
+  383  calibre
+  384  exot
+  385  exit
+  386  cd Desktop
+  387  ls
+  388  wc test-file1
+  389  wc test-file1 practice
+  390  wc * | more
+  391  wc -l test-file1
+  392  wc -w test-file1
+  393  wc -wc test-file1
+  394  wc -l -w test-file1
+  395  wc -wl test-file1
+  396  who | wc
+  397  who | wc -l
+  398  ls | wc
+  399  cat test-file1 test-file 2
+  400  cat test-file1 test-file2
+  401  cat test-file3
+  402  cat -n testfile1
+  403  cat -n test-file1
+  404  cat -n practice
+  405  cat practice
+  406  more /etc/services
+  407  more practice
+  408  grep ab test-g
+  409  grep he test-g practice | more
+  410  grep -v ab test-g
+  411  sort test-g | grep at
+  412  who | grep $USER
+  413  paste test-file1 test-file2 | grep 2
+  414  grep the
+  415  grep at test-g names.tmp | more
+  416  grep the * | more
+  417  grep 'Lyle Strand' test-g
+  418  grep Lyle Strand test-g | more
+  419  grep 'are at' test-g
+  420  grep lyle test-g
+  421  grep -i lylE test-g
+  422  grep -i He test-g
+  423  grep -l '04' names.tmp test*
+  424  grep -n 'ab' test-g
+  425  grep 't.t' test-g
+  426  grep '\^a' test-g
+  427  grep 't$' test-g
+  428  grep -n '^$' test-g
+  429  ls | test
+  430  ls test
+  431  ls -f test
+  432  ls *test*
+  433  sort test-sor | more
+  434  man ascii
+  435  sort -d test-sor | more
+  436  sort -f test-sor | more
+  437  sort test-sor | more
+  438  sort -n test-sor | more
+  439  sort -r test-sor | more
+  440  sort -rfn test-sor | more
+  441  sort +3 respected
+  442  sort -k 4 respected
+  443  sort +2 respected
+  444  head /etc/passwd
+  445  wc /etc/passwd
+  446  head -15 /etc/passwd
+  447  head -15 /etc/passwd > short-pass
+  448  wc short-pass
+  449  cat short-pass
+  450  sort short-pass
+  451  sort +2 short-pass
+  452  sort -t: +2 short-pass
+  453  -t: -n +2 short-pass
+  454  sort -t: -n +2 short-pass
+  455  sort test-sor > sorted-test-sor
+  456  more sorted-test-sor
+  457  cp short-pass sp2
+  458  cat sp2
+  459  sort sp2 > sp2
+  460  cat sp2
+  461  cp short-pass sp3
+  462  sort sp3 -o sortedsp3
+  463  sp3 -o sp3
+  464  sort sp3 -o sp3
+  465  cat sp3
+  466  man sort
+  467  who
+  468  who | tr t Z
+  469  tr a Z < test-sor
+  470  tr 'Ma7' '| &s' < test-sor
+  471  tr 'a-z' 'A-Z' < test-sor
+  472  tr '[a-z]' 'A-Z' < test-sor
+  473  tr '[a-z]' '[A-Z]' < test-sor
+  474  tr -d 'cbmZ4o' < test-sor
+  475  ls | tr 'a-z' 'A-Z'
+  476  tr 'a-z' 'A-Z' < practice
+  477  tr 'A-Z' 'a-z' < practice
+  478  head -30 /etc/passwd | tr ':' ' '
+  479  tr ' ' '+' < practice
+  480  tr ' ' '\n' < practice
+  481  man tr
+  482  ls
+  483  ls -a
+  484  ls -l
+  485  ls -F
+  486  ls -C
+  487  ls -l
+  488  ls -Ca
+  489  ls | more
+  490  ls -l | more
+  491  ls -C |more
+  492  ls | wc
+  493  ls -C | wc
+  494  ls -l | wc
+  495  man ls
+  496  file /etc/passwd
+  497  file /usr/bin/passwd
+  498  file /bin/ls
+  499  touch newfile1A newfile2B2
+  500  ls -l new*
+  501  ls -l users_on
+  502  touch users_on
+  503  ls -l users_on
+  504  cd
+  505  ls -F | more
+  506  ls -F | grep /
+  507  ls -F | grep / | wc -l
+  508  alias numdir='ls -F | grep / |wc -l'
+  509  numdir
+  510  cd /
+  511  numdir
+  512  cd
+  513  tr 'A-Z' 'a-z' < practice | more
+  514  cd Desktop
+  515  tr 'A-Z' 'a-z' < practice | more
+  516  tr 'A-Z' 'a-z' < practice 
+  517  tr 'A-Z' 'a-z' < practice | tr ' ' '\n' | more
+  518  tr 'A-Z' 'a-z' < practice | tr ' ' '\n' | sort | more
+  519  ls -l
+  520  ls 1
+  521  ls -F|more
+  522  ls -F | more
+  523  exit
+  524  script -a lab4.txt
+  525  exit
+  526  ls -1
+  527  ls -l
+  528  ls -1
+  529  vi
+  530  vi mydata.txt
+  531  ls
+  532  chmod +x mydata
+  533  chmod +x mydata.txt
+  534  mydata.txt | more
+  535  mydata | more
+  536  PATH=$PATH:.
+  537  mydata.txt | more
+  538  mydata.txt > me_A
+  539  cd
+  540  mkdir Resumes Papers Recommendations
+  541  ls -F | more
+  542  ls -F | grep
+  543  ls -F | grep /
+  544  ls -F | grep / | column
+  545  ls -F | grep -v / | column
+  546  vi script1
+  547  chmod +x script1
+  548  script1
+  549  chmod -x script1
+  550  script1 | more
+  551  cd Resumes
+  552  pwd
+  553  date > today
+  554  cal > month
+  555  who > logged.on
+  556  id > mylogin
+  557  head -5 /etc/passwd > short-passA
+  558  cp month month.bak
+  559  ls -l
+  560  cd
+  561  pwd
+  562  ls -l Resumes
+  563  ls -l Resumes | sort > file.info1
+  564  more file.info1
+  565  cd Resumes
+  566  pwd
+  567  ls
+  568  chmod -w today
+  569  mv month month2
+  570  date > new.date
+  571  who >> month.bak
+  572  ls -l
+  573  cd
+  574  ls -l Resumes | sort > file.info2
+  575  comm file.info1 file.info2
+  576  diff file.info1 file.info2
+  577  ls
+  578  cd Desktop
+  579  ls
+  580  vi west-coast.names
+  581  cat practice west-coast.names practice > manywords
+  582  vi script2
+  583  vi wordsUsed1
+  584  chmod +x wordsUsed 1
+  585  chmod +x wordsUsed1
+  586  ./wordsUsed 1
+  587  ./wordsUsed1
+  588  more manywords
+  589  cp wordsUsed1 wordsUsed2
+  590  vi wordsUsed2
+  591  chmod +x wordsUsed2
+  592  ./wordsUsed2
+  593  more manywords
+  594  cp wordsUsed2 wordsUsed3
+  595  vi wordsUsed3
+  596  cp wordsUsed3 wordsUsed4
+  597  vi wordsUsed4
+  598  chmod +x wordsUsed4
+  599  wordsUsed4
+  600  cp wordsUsed4 wordsUsed5
+  601  vi wordsUsed5
+  602  chmod +x wordsUsed5
+  603  wordsUsed5
+  604  cp wordsUsed5 wordsUsed6
+  605  vi wordsUsed6
+  606  chmod +x wordsUsed 6
+  607  chmod +x wordsUsed6
+  608  cp wordsUsed6 wordsUsed7
+  609  vi wordsUsed7
+  610  chmod +x wordsUsed8
+  611  chmod +x wordsUsed7
+  612  cp wordsUsed7 wordsUsed8
+  613  vi wordsUsed8
+  614  chmod +x wordsUsed8
+  615  wordsUsed8
+  616  cp wordsUsed8 wordsUsed
+  617  vi wordUsed
+  618  vi wordsUsed
+  619  chmod +x wordsUsed
+  620  wordsUsed
+  621  words.out
+  622  vi words.out
+  623  exit
+  624  who
+  625  cal
+  626  ls
+  627  mkdir exam1
+  628  cd exam1
+  629  echo ls > exam 1
+  630  ls
+  631  cat exam
+  632  cp file1 file2
+  633  echo ls > file1
+  634  cp file1 file2
+  635  echo file1 > file2
+  636  file1 > file2
+  637  more file1 > file2
+  638  file1 | file2
+  639  ls
+  640  echo file2 > file3
+  641  more file2 > file4
+  642  echo file1
+  643  more file1
+  644  more file3
+  645  more file4
+  646  cp file2 file5
+  647  more file5
+  648  cd
+  649  ls
+  650  cd Desktop
+  651  ls
+  652  cd mit-scheme-11.2
+  653  cd
+  654  ls /usr/bin | grep cancel
+  655  cd ~/usr/local
+  656  /home
+  657  cd home
+  658  cd /home
+  659  cd
+  660  cd /Desktop
+  661  cd $HOME
+  662  cd /Desktop
+  663  ls
+  664  cd Desktop
+  665  cd ~
+  666  cd desktop
+  667  cd Desktop
+  668  ls
+  669  vi practice
+  670  ~
+  671  cd ~
+  672  cd exam
+  673  cd exam1
+  674  cat client1 client2
+  675  bash
+  676  who
+  677  cal
+  678  cal
+  679  who
+  680  cal
+  681  cat client1
+  682  cat client1 client2
+  683  bash
+  684  cd exam1
+  685  vi essay
+  686  ls
+  687  grep -v [u] essay
+  688  grep [dog] essay
+  689  grep the essay
+  690  grep '\q$' essay
+  691  more grep
+  692  man grep
+  693  man grep | grep 'q$'
+  694  man grep | grep 'q\$'
+  695  man grep | grep '\q$'
+  696  man grep | grep '\$'
+  697  grep '\q' essay
+  698  man 1 pwd
+  699  man -f pwd
+  700  man -k pwd
+  701  pwd --help
+  702  echo file1 file2 | mv
+  703  cut -c[character_position} filelist
+  704  cut --help
+  705  man cut
+  706  man cut | grep 'zero'
+  707  man cut|grep 'zero'
+  708  man ls
+  709  vi alpha
+  710  echo alpha
+  711  ls alpha
+  712  cat alpha
+  713  man tr
+  714  tr alpha 'a-z' 'A-Z'
+  715  man tr
+  716  alpha > tr 'a-z' 'A-Z'
+  717  cat alpha | tr 'a-z' 'A-Z'
+  718  cat alpha
+  719  cat alpha | tr 'a-z' 'A-Z' < alpha
+  720  alpha
+  721  cat alpha
+  722  tr 'a-z' 'A-Z' < alpha
+  723  cat alpha
+  724  sort -r alpha
+  725  sort alpha
+  726  practice
+  727  ls
+  728  sort essay
+  729  sort -r essay
+  730  sort -r essay | more
+  731  man ls
+  732  ls -a -l
+  733  ls -l -a
+  734  cd
+  735  ls -l
+  736  ls -a
+  737  ls -al
+  738  ls -la
+  739  echo \$HOME
+  740  echo /$HOME
+  741  echo $HOME
+  742  history
+  743  man history
+  744  cd /tmp/$USER
+  745  echo $PWD
+  746  pwd
+  747  echo $OLDPWD
+  748  pwd
+  749  cd /tmp
+  750  pwd
+  751  cd -
+  752  pwd
+  753  exit
+  754  pwd
+  755  grep $USER /etc/passwd
+  756  ls
+  757  who > f-name
+  758  date > journal
+  759  ls -i
+  760  who > users_test
+  761  ls -i | more
+  762  ls
+  763  ls -l Projects
+  764  ls -ld Projects
+  765  ls -F
+  766  more ProjectZ
+  767  cd Projects/
+  768  ls
+  769  cd
+  770  ls -l Projects
+  771  ls -ld Projects
+  772  ls -R -C | more
+  773  ls -i f*
+  774  mv f-name Projects/
+  775  ls 
+  776  ls -i Projects
+  777  cd
+  778  cal > month
+  779  ls -i
+  780  cp month Projects/
+  781  ls -i Projects
+  782  cd Projects
+  783  cat month
+  784  cd
+  785  more Projects/month
+  786  pwd
+  787  date > trouble
+  788  more trouble
+  789  ls -i t*
+  790  mv trouble ProjectZ
+  791  ls
+  792  ls Projects
+  793  ls -F
+  794  more ProjectZ
+  795  ls -i ProjectZ
+  796  mv ProjectZ trouble
+  797  mv trouble ProjectZ/
+  798  touch junkness
+  799  ls -i j*
+  800  mv junkness Projects/treasure
+  801  ls -i Projects
+  802  ls junkness
+  803  ls Projects
+  804  rm Project/treasure
+  805  rm Projects/treasure
+  806  ls Projects
+  807  cd Projects
+  808  ls
+  809  pwd
+  810  mkdir Code
+  811  ls -i
+  812  cd Code
+  813  pwd
+  814  vi report3
+  815  ls
+  816  pwd
+  817  cd
+  818  pwd
+  819  ls -F
+  820  cd Projects
+  821  ls
+  822  pwd
+  823  cd
+  824  cd Projects/Code/
+  825  pwd
+  826  ls
+  827  cat report3
+  828  cd
+  829  pwd
+  830  vi Projects/Code/report3
+  831  pwd
+  832  cp journal Projects/Code/journal2
+  833  ls -i journal
+  834  cd Projects/Code
+  835  ls -i
+  836  cat journal 2
+  837  cat journal2
+  838  cd
+  839  mkdir Docum
+  840  touch Docum/readme
+  841  ls Docum
+  842  cd
+  843  mkdir Projects/Corresp
+  844  ls -F Projects
+  845  cd PRojects/Corresp
+  846  cd Projects/Corresp
+  847  pwd
+  848  vi replies
+  849  cd 
+  850  cd Projects/Code
+  851  ls -a
+  852  file .
+  853  file ..
+  854  pwd
+  855  ls -ai
+  856  cd .
+  857  ls -ai Code
+  858  cd ..
+  859  ls -ai Code
+  860  pwd
+  861  cd ../..
+  862  pwd
+  863  cd
+  864  pwd
+  865  cd ..
+  866  cd
+  867  mkdir Skye
+  868  ls -iF
+  869  ls ai Skye
+  870  ls -ai Sky
+  871  ls -ai Skye
+  872  cd
+  873  cd practice journal f-name
+  874  cp practice journal f-name
+  875  cp practice journal Docum/
+  876  ls Docum
+  877  mkdir Archives
+  878  cp users_on practice journal l* Archives/
+  879  ls Archives
+  880  touch cassy dimitri owen danny monika
+  881  ls -i
+  882  mv cassy dimitri owen danny monika Docum/
+  883  ls -i
+  884  ls -i Docum/
+  885  cd
+  886  cd Projects/Code
+  887  pwd
+  888  ls -ai
+  889  ls -ai report3
+  890  mv report3 ..
+  891  cd ..
+  892  pwd
+  893  ls -i
+  894  mv report3 Code
+  895  touch megan daniel betty
+  896  ls -i
+  897  mv megan daniel betty ..
+  898  ls -i
+  899  cd ..
+  900  ls
+  901  ls -i
+  902  cd /tmp
+  903  mkdir $USER
+  904  cd $USER
+  905  mkdir Mydir
+  906  cd Mydir
+  907  pwd
+  908  date > myfile
+  909  ls 
+  910  cat myfile
+  911  pwd
+  912  cd
+  913  more /tmp/$USER/Mydir/myfile
+  914  cd /tmp
+  915  pwd
+  916  ls ~
+  917  pwd
+  918  more ~/practice
+  919  cd ~/Projects/Code
+  920  pwd
+  921  echo ~
+  922  echo ~/Projects
+  923  echo ~/..
+  924  echo ~/Projects/Code
+  925  echo ~/ABCDE
+  926  echo My home is ~
+  927  grep root /etc/passwd
+  928  echo ~/root
+  929  echo ~lmeade
+  930  cd
+  931  pwd
+  932  ls
+  933  cd ~tmp
+  934  bash
+  935  cp journal projects/code/journal2
+  936  wc -l practice users
+  937  wc -l practice users_on
+  938  wc -l ./practice ./users_on
+  939  cd
+  940  ls Projects
+  941  vi Projects/actions
+  942  ls
+  943  ls Projects
+  944  cd Projects
+  945  wc ../users_on
+  946  ls ..
+  947  ls ../Docum
+  948  wc ../Docum/readme
+  949  cd
+  950  ls Projects/Code
+  951  wc Projects/Code/journal2
+  952  cd
+  953  cd /tmp
+  954  pwd
+  955  ls ~/Projects/Code
+  956  echo ~/Projects/Code
+  957  cd
+  958  ls /tmp
+  959  ls /tmp/$USER
+  960  pwd
+  961  cp practice /tmp/$USER/practice2
+  962  ls /tmp/$USER
+  963  cd /tmp/$USER
+  964  pwd
+  965  ls
+  966  cp practice2 ~/Projects/Code
+  967  ls ~/Projects/Code
+  968  cd /
+  969  pwd
+  970  cp ~/Projects/Code/report3 ~/Docum
+  971  cd ~/Projects
+  972  echo hello > ../greeting
+  973  ls ..
+  974  cp ../greeting .
+  975  cp ../* ~/Docum
+  976  ls ~/Docum
+  977  wc ~/users_on > /tmp/$USER/num_users_on
+  978  cd ~/Projects
+  979  pwd
+  980  ls
+  981  cd
+  982  ls -l | more
+  983  cd
+  984  pwd
+  985  ls -i testing-links
+  986  vi testing-links
+  987  ls -i testing-links
+  988  cd Archives
+  989  ls
+  990  ls ..
+  991  ln ../testing-links testing2
+  992  ls -i
+  993  cd
+  994  more testing-links
+  995  cd /Archives
+  996  cd ~/Archives
+  997  vi testing2
+  998  cd
+  999  more testing-links
+ 1000  ls -li testing-links
+ 1001  ls -li Archives/testing2
+ 1002  file testing-links
+ 1003  file Archives/testing2
+ 1004  ls -l testing-links
+ 1005  rm testing-links
+ 1006  ls
+ 1007  ls -l Archives
+ 1008  more Archives/testing2
+ 1009  ln users_on Archives
+ 1010  ls -i users_on
+ 1011  ls -i Archives/users_on
+ 1012  ls -l users_on
+ 1013  ln megan daniel betty Archives
+ 1014  ls -il megan daniel betty
+ 1015  ls -il Archives
+ 1016  cd ~/Projects
+ 1017  pwd
+ 1018  ln -s ~/journal
+ 1019  ls -i journal
+ 1020  ls -i ~/journal
+ 1021  echo 'In Projects File' >> journal
+ 1022  cat ~/journal
+ 1023  ls -l journal
+ 1024  file journal
+ 1025  rm journal
+ 1026  ls
+ 1027  date > ~/realfile
+ 1028  ln -s ~/reafile rf
+ 1029  ls -l rf
+ 1030  cat rf
+ 1031  rm ~/realfile
+ 1032  ls -l rf
+ 1033  cat rf
+ 1034  pwd
+ 1035  ln -s ~/Docum
+ 1036  ls -F
+ 1037  ls Docum
+ 1038  cd Docum
+ 1039  pwd
+ 1040  touch filefromProjects
+ 1041  cd
+ 1042  ls
+ 1043  ls Docum
+ 1044  ls Projects
+ 1045  ls -i Docum
+ 1046  ls -i Projects/Docum
+ 1047  cd
+ 1048  ln -s /tmp tmp
+ 1049  ls -l | more
+ 1050  ls ~/tmp
+ 1051  ls /tmp
+ 1052  cd
+ 1053  ls -F
+ 1054  ls -id Projects
+ 1055  mv Projects Old-projects
+ 1056  ls -F
+ 1057  ls -F Old-projects
+ 1058  ls -id Old-projects
+ 1059  mv Old-projects Projects
+ 1060  ls -id Projects
+ 1061  cd
+ 1062  pwd
+ 1063  ls
+ 1064  ls -F
+ 1065  mkdir Dirempty
+ 1066  ls -F
+ 1067  ls -id DIrempty
+ 1068  ls Dirempty
+ 1069  rmdir Dirempty
+ 1070  ls -F
+ 1071  rmdir Archives
+ 1072  cd ~/Projects
+ 1073  pwd; ls
+ 1074  rmdir Code
+ 1075  rm -r Code
+ 1076  ls -F
+ 1077  cd
+ 1078  exit
+ 1079  which echo
+ 1080  echo $PATH
+ 1081  echo HELLO
+ 1082  ls
+ 1083  ps
+ 1084  wc -z users_on
+ 1085  ls
+ 1086  ls -l
+ 1087  sort-r users_on
+ 1088  sort -r users_on
+ 1089  sleep 5
+ 1090  who | sort
+ 1091  ls -l
+ 1092  history
+ 1093  who | tr -d 12345 | sed 5q
+ 1094  history
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ grepthepractice
+grepthepractice: command not found
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ grep the practice
+I was in [01;31m[Kthe[m[K middle of a line,It is essential to be able to place text above [01;31m[Kthe[m[K current line
+What are [01;31m[Kthe[m[K two modes of [01;31m[Kthe[m[K visual editor?
+Although I am created this file with [01;31m[Kthe[m[K cat command,
+tailoring [01;31m[Kthe[m[K environment to meet individual needs.
+There is no need for a mouse, you can keep your fingers where [01;31m[Kthe[m[Ky belong, 
+on [01;31m[Kthe[m[K keyboard, everything is done through commands.
+There are two commands that can be used to list directory contents-[01;31m[Kthe[m[K dir and ls commands. 
+There are two commands that can be used to list directory contents-[01;31m[Kthe[m[K dir and ls commands. 
+from [01;31m[Kthe[m[K UNIX tradition and is [01;31m[Kthe[m[K command you'll explore in this course.  
+The ls command lists [01;31m[Kthe[m[K files in a directory. This command takes several options and arguments. 
+written for and executed by [01;31m[Kthe[m[K shell. The ex text editor is [01;31m[Kthe[m[K foundation for vi, [01;31m[Kthe[m[K screen editor we 
+used in a previous module. You could call vi [01;31m[Kthe[m[K visual mode of [01;31m[Kthe[m[K underlying ex line editor. 
+like [01;31m[Kthe[m[K diff command continue to use [01;31m[Kthe[m[K ed syntax.
+You can see [01;31m[Kthe[m[K changes you make as you make [01;31m[Kthe[m[Km. Because vi is a screen version of [01;31m[Kthe[m[K ex editor, many of 
+[01;31m[Kthe[m[K ex commands can be used in vi. For example, you can still take advantage of [01;31m[Kthe[m[K global replacement and 
+pattern searches of [01;31m[Kthe[m[K underlying ex editor when using vi. In fact, if you ever begin your vi command with: 
+[01;31m[Kthe[m[K colon, you are using an ex command in vi.  Remember [01;31m[Kthe[m[K :q! command? It comes from vi's ex roots.
+A stream editor is a non-interactive or stream-oriented editor. You do not view [01;31m[Kthe[m[K text as you manipulate it. 
+Instead, you give your commands to [01;31m[Kthe[m[K editor which runs [01;31m[Kthe[m[K commands as a batch. The standard input and 
+for a stream editor. We will come back to stream editors later in [01;31m[Kthe[m[K module, and look in detail at [01;31m[Kthe[m[K sed stream editor.
+Although I am created this file with [01;31m[Kthe[m[K cat command,
+tailoring [01;31m[Kthe[m[K environment to meet individual needs.
+The ex editor will return [01;31m[Kthe[m[K name of file, [01;31m[Kthe[m[K total number of lines & characters, and give you [01;31m[Kthe[m[K : 
+colon command prompt. You can also invoke [01;31m[Kthe[m[K ex line editor in vi by typing a colon. An ex command, 
+whe[01;31m[Kthe[m[Kr used in ex or in vi, consists of a line address, such as a line number, and a command. If 
+you leave off [01;31m[Kthe[m[K command, [01;31m[Kthe[m[K print command (display to [01;31m[Kthe[m[K screen) is assumed. For example, 
+I could type 100 in [01;31m[Kthe[m[K ex line editor and line 100 would display to [01;31m[Kthe[m[K screen.
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls        [K[K[K[K[K[K[K[K[K[Kls
+ls           lsb_release  lsinitramfs  lslogins     lsns         lspcmcia
+lsattr       lscpu        lsipc        lsmem        lsof         lspgpot
+lsblk        lshw         lslocks      lsmod        lspci        lsusb
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls
+ls           lsb_release  lsinitramfs  lslogins     lsns         lspcmcia
+lsattr       lscpu        lsipc        lsmem        lsof         lspgpot
+lsblk        lshw         lslocks      lsmod        lspci        lsusb
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls 
+Display all 121 possibilities? (y or n)
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls 
+[0m[01;34ma[0m           installation.txt   [01;34mPictures[0m         test-file1
+[01;34mArchives[0m    JoshuaLe-lab2.txt  practice         test-file2
+betty       journal            [01;34mPrivate[0m          test-g
+c1          lab1.txt           [01;34mProjects[0m         test-list
+c2          lab4.txt           [01;34mPublic[0m           test-sor
+c3          lab5.txt           quiz3.txt        test.txt
+cl          lab6.txt           [01;34mRecommendations[0m  [01;36mtmp[0m
+daniel      lab7.txt           [01;34mrepos[0m            total
+[01;34mDesktop[0m     lost-days          respected        trouble
+[01;34mDocum[0m       manywords          [01;34mResumes[0m          users_on
+[01;34mDocuments[0m   me_A               review           users_test
+[01;34mDownloads[0m   megan              script1          [01;34mVideos[0m
+el          month              script.js        west-coast.names
+[01;34mexam1[0m       [01;34mMusic[0m              second_file      words.out
+file2       [01;32mmydata.txt[0m         short-pass       [01;32mwordsUsed[0m
+file.info1  myerr              [01;34mSkye[0m             [01;32mwordsUsed1[0m
+file.info2  myfile1            s-mypasswd       [01;32mwordsUsed2[0m
+first_file  myoutput           sortedsp3        [01;32mwordsUsed3[0m
+[01;34mfoo[0m         mypasswd           sorted-test-sor  [01;32mwordsUsed4[0m
+footer      names.tmp          sort-test        [01;32mwordsUsed5[0m
+footer.1    newfile1A          sp2              [01;32mwordsUsed6[0m
+footer.2    newfile2B2         sp3              [01;32mwordsUsed7[0m
+greeting    [01;34mPapers[0m             style.css        [01;32mwordsUsed8[0m
+index.html  phon               [01;34mTemplates[0m
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls               -l
+total 3580
+drwxrwxr-x 3 joshua joshua    4096 Dec  8 20:47 [0m[01;34ma[0m
+drwxrwxr-x 2 joshua joshua    4096 Feb 21 16:00 [01;34mArchives[0m
+-rw-rw-r-- 2 joshua joshua       0 Feb 21 15:47 betty
+-rw-rw-r-- 1 joshua joshua      32 Jan 16 22:22 c1
+-rw-rw-r-- 1 joshua joshua      19 Jan 16 22:21 c2
+-rw-rw-r-- 1 joshua joshua    1732 Jan 16 22:21 c3
+-rw-rw-r-- 1 joshua joshua      32 Jan 16 22:21 cl
+-rw-rw-r-- 2 joshua joshua       0 Feb 21 15:47 daniel
+drwxr-xr-x 3 joshua joshua    4096 Feb 20 18:38 [01;34mDesktop[0m
+drwxrwxr-x 2 joshua joshua    4096 Feb 21 16:03 [01;34mDocum[0m
+drwxr-xr-x 2 joshua joshua    4096 Dec  8 15:36 [01;34mDocuments[0m
+drwxr-xr-x 2 joshua joshua    4096 Dec 28 18:35 [01;34mDownloads[0m
+-rw-rw-r-- 1 joshua joshua       8 Jan 16 22:21 el
+drwxrwxr-x 2 joshua joshua    4096 Feb 13 16:29 [01;34mexam1[0m
+-rw-rw-r-- 1 joshua joshua     519 Jan 16 22:29 file2
+-rw-rw-r-- 1 joshua joshua     325 Feb  6 13:30 file.info1
+-rw-rw-r-- 1 joshua joshua     379 Feb  6 13:30 file.info2
+-rw-rw-r-- 1 joshua joshua      57 Jan 16 22:26 first_file
+drwxrwxr-x 2 joshua joshua    4096 Dec  8 20:46 [01;34mfoo[0m
+-rw-rw-r-- 1 joshua joshua      65 Jan 16 18:48 footer
+-rw-rw-r-- 1 joshua joshua      55 Jan 16 18:47 footer.1
+-rw-rw-r-- 1 joshua joshua      10 Jan 16 18:47 footer.2
+-rw-rw-r-- 1 joshua joshua       6 Feb 21 15:54 greeting
+-rw-rw-r-- 1 joshua joshua       0 Dec  8 20:44 index.html
+-rw-rw-r-- 1 joshua joshua 2601495 Jan 23 20:56 installation.txt
+-rw-rw-r-- 1 joshua joshua  174727 Jan 16 22:43 JoshuaLe-lab2.txt
+-rw-rw-r-- 1 joshua joshua      49 Feb 21 16:01 journal
+-rw-rw-r-- 1 joshua joshua    5645 Jan  9 17:40 lab1.txt
+-rw-rw-r-- 1 joshua joshua  118404 Jan 31 08:51 lab4.txt
+-rw-rw-r-- 1 joshua joshua  128296 Feb  6 14:00 lab5.txt
+-rw-rw-r-- 1 joshua joshua  179969 Feb 21 16:05 lab6.txt
+-rw-rw-r-- 1 joshua joshua   65536 Feb 27 10:33 lab7.txt
+-rw-rw-r-- 1 joshua joshua    2180 Jan 16 22:08 lost-days
+-rw-rw-r-- 1 joshua joshua    7734 Feb  6 13:41 manywords
+-rw-rw-r-- 1 joshua joshua     589 Feb  6 13:16 me_A
+-rw-rw-r-- 2 joshua joshua       0 Feb 21 15:47 megan
+-rw-rw-r-- 1 joshua joshua     188 Feb 21 15:35 month
+drwxr-xr-x 2 joshua joshua    4096 Dec  8 15:36 [01;34mMusic[0m
+-rwxrwxr-x 1 joshua joshua     259 Feb  6 13:13 [01;32mmydata.txt[0m
+-rw-rw-r-- 1 joshua joshua      53 Jan 16 18:42 myerr
+-rw-rw-r-- 1 joshua joshua     114 Jan 23 12:35 myfile1
+-rw-rw-r-- 1 joshua joshua     911 Jan 16 18:41 myoutput
+-rw-rw-r-- 1 joshua joshua    1041 Jan 16 22:13 mypasswd
+-rw-rw-r-- 1 joshua joshua      61 Jan 31 08:11 names.tmp
+-rw-rw-r-- 1 joshua joshua       0 Jan 31 08:46 newfile1A
+-rw-rw-r-- 1 joshua joshua       0 Jan 31 08:46 newfile2B2
+drwxrwxr-x 2 joshua joshua    4096 Feb  6 13:16 [01;34mPapers[0m
+-rw-rw-r-- 1 joshua joshua    2180 Jan 16 22:08 phon
+drwxr-xr-x 2 joshua joshua    4096 Dec  8 15:36 [01;34mPictures[0m
+-rw-rw-r-- 1 joshua joshua    3568 Feb 13 15:55 practice
+drwxrwxr-x 2 joshua joshua    4096 Jan 16 22:09 [01;34mPrivate[0m
+drwxrwxr-x 3 joshua joshua    4096 Feb 21 16:04 [01;34mProjects[0m
+drwxr-xr-x 2 joshua joshua    4096 Dec  8 15:36 [01;34mPublic[0m
+-rw-rw-r-- 1 joshua joshua   44410 Jan 23 13:15 quiz3.txt
+drwxrwxr-x 2 joshua joshua    4096 Feb  6 13:16 [01;34mRecommendations[0m
+drwxrwxr-x 3 joshua joshua    4096 Dec  9 18:33 [01;34mrepos[0m
+-rw-rw-r-- 1 joshua joshua     227 Jan 31 08:26 respected
+drwxrwxr-x 2 joshua joshua    4096 Feb  6 13:30 [01;34mResumes[0m
+-rw-rw-r-- 1 joshua joshua      45 Jan 23 13:03 review
+-rw-rw-r-- 1 joshua joshua     190 Feb  6 13:20 script1
+-rw-rw-r-- 1 joshua joshua       0 Dec  8 20:44 script.js
+-rw-rw-r-- 1 joshua joshua      14 Jan 16 22:28 second_file
+-rw-rw-r-- 1 joshua joshua     687 Jan 31 08:27 short-pass
+drwxrwxr-x 2 joshua joshua    4096 Feb 21 15:45 [01;34mSkye[0m
+-rw-rw-r-- 1 joshua joshua    1041 Jan 16 22:13 s-mypasswd
+-rw-rw-r-- 1 joshua joshua     687 Jan 31 08:29 sortedsp3
+-rw-rw-r-- 1 joshua joshua     108 Jan 31 08:28 sorted-test-sor
+-rw-rw-r-- 1 joshua joshua      44 Jan 16 22:26 sort-test
+-rw-rw-r-- 1 joshua joshua       0 Jan 31 08:29 sp2
+-rw-rw-r-- 1 joshua joshua     687 Jan 31 08:30 sp3
+-rw-rw-r-- 1 joshua joshua       0 Dec  8 20:44 style.css
+drwxr-xr-x 2 joshua joshua    4096 Dec  8 15:36 [01;34mTemplates[0m
+-rw-rw-r-- 1 joshua joshua      28 Jan 31 07:58 test-file1
+-rw-rw-r-- 1 joshua joshua      27 Jan 31 07:59 test-file2
+-rw-rw-r-- 1 joshua joshua     137 Jan 31 08:11 test-g
+-rw-rw-r-- 1 joshua joshua      32 Jan 16 22:35 test-list
+-rw-rw-r-- 1 joshua joshua     108 Jan 31 08:22 test-sor
+-rw-rw-r-- 1 joshua joshua       0 Dec  8 20:44 test.txt
+lrwxrwxrwx 1 joshua joshua       4 Feb 21 16:03 [01;36mtmp[0m -> [30;42m/tmp[0m
+-rw-rw-r-- 1 joshua joshua    1783 Jan 16 22:23 total
+-rw-rw-r-- 1 joshua joshua      32 Feb 21 15:36 trouble
+-rw-rw-r-- 1 joshua joshua      44 Jan 16 22:31 users_on
+-rw-rw-r-- 1 joshua joshua      44 Feb 21 15:33 users_test
+drwxr-xr-x 2 joshua joshua    4096 Dec  8 15:36 [01;34mVideos[0m
+-rw-rw-r-- 1 joshua joshua     200 Feb  6 13:41 west-coast.names
+-rw-rw-r-- 1 joshua joshua    3858 Feb  6 13:59 words.out
+-rwxrwxr-x 1 joshua joshua     145 Feb  6 13:59 [01;32mwordsUsed[0m
+-rwxrwxr-x 1 joshua joshua      30 Feb  6 13:43 [01;32mwordsUsed1[0m
+-rwxrwxr-x 1 joshua joshua      49 Feb  6 13:46 [01;32mwordsUsed2[0m
+-rwxrwxr-x 1 joshua joshua      68 Feb  6 13:48 [01;32mwordsUsed3[0m
+-rwxrwxr-x 1 joshua joshua      70 Feb  6 13:50 [01;32mwordsUsed4[0m
+-rwxrwxr-x 1 joshua joshua      86 Feb  6 13:52 [01;32mwordsUsed5[0m
+-rwxrwxr-x 1 joshua joshua      95 Feb  6 13:55 [01;32mwordsUsed6[0m
+-rwxrwxr-x 1 joshua joshua     105 Feb  6 13:56 [01;32mwordsUsed7[0m
+-rwxrwxr-x 1 joshua joshua     119 Feb  6 13:57 [01;32mwordsUsed8[0m
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ who [K      | grep |||[K[K[K       | $USER
+Usage: grep [OPTION]... PATTERNS [FILE]...
+Try 'grep --help' for more information.
+joshua: command not found
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ who |[K   | grep     $USER
+[01;31m[Kjoshua[m[K   tty7         2022-02-27 10:26 (:0)
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ who [K[K[K[Khistory
+  102  ./configure --enable-native-code
+  103  ./configure --enable-native-code --enable-host-scheme-test --enable-cross-compiling --with-compiler-target --with-default-target --with-scheme-build
+  104  gcc make m4 libncurses-dev
+  105  ls
+  106  cd
+  107  gcc
+  108  gcc make m4 
+  109  gcc make m4 libncurses-dev
+  110  gcc make m4 ncurses-devel
+  111  sudo apt-get install libncurses5-dev libncursesw5-dev
+  112  Password
+  113  exit
+  114  date
+  115  date +%r
+  116  date +%f
+  117  date +%F
+  118  date +%D
+  119  date +%K
+  120  date +%k
+  121  dat -u
+  122  date -u
+  123  file date
+  124  sudo find / -name date
+  125  script -a lab1.txt
+  126  exit
+  127  script -a lab1.txt
+  128  exit
+  129  passwd
+  130  sudo passwd joshua
+  131  date
+  132  date +%r
+  133  date +%R
+  134  date +%F
+  135  date +%D
+  136  date +%K
+  137  date -u
+  138  date
+  139  file date
+  140  sudo find / -name date
+  141  file /usr/bin/date
+  142  history
+  143  exit
+  144  ps
+  145  echo $SHELL
+  146  ps
+  147  echo $XDFG_CURRENT_DESKTOP
+  148  echo $XDG_CURRENT_DESKTOP
+  149  ls - l
+  150  ls -l
+  151  ls -l > myoutput
+  152  cat myoutput
+  153  ls nyp12
+  154  ls nyp12 2> myerr
+  155  ls myerr
+  156  cat myerr
+  157  cat > footer.1
+  158  cat footer.1
+  159  echo Thank you
+  160  echo Thank you > footer.2
+  161  cat footer.1 footer.2
+  162  cat footer.1 footer.2 > footer
+  163  cat footer
+  164  ca footer.1
+  165  cat footer.1
+  166  cat footer.2
+  167  uname
+  168  uname -r
+  169  uname -v
+  170  uname -m
+  171  uname -p
+  172  uname -a
+  173  cat .bash_history
+  174  sudo./VBoxlinuxAdditions.run
+  175  clear
+  176  who
+  177  whoami
+  178  ls
+  179  ls -a
+  180  LS
+  181  ls -l
+  182  ls /etc
+  183  ls -a /etc|more
+  184  echo $SHELL
+  185  bash
+  186  ps
+  187  bash
+  188  man cal
+  189  man -f argument
+  190  man -k argument
+  191  man man
+  192  exit
+  193  ps
+  194  ps
+  195  csh
+  196  ps
+  197  exit
+  198  who
+  199  cal
+  200  date
+  201  pwd
+  202  mkdir
+  203  mkdir Private
+  204  who > users_on
+  205  cal 1752 > lost-days
+  206  cp users_on users_on_2
+  207  cp lost-days lost-3
+  208  ls
+  209  cp users_on Private
+  210  ls Private
+  211  cp today lost-days junk Private
+  212  ls Private
+  213  rm users_on_2
+  214  rm -i junk
+  215  more lost-3
+  216  my lost-3 phon
+  217  mv lost-3 phon
+  218  ls more phon
+  219  ls
+  220  more phon
+  221  ls
+  222  ls -l -a
+  223  ls -l -alF
+  224  wc users_on
+  225  date | wc
+  226  who | wc
+  227  wc -c -l users_on
+  228  wc -lc users_on
+  229  wc -cl users_on
+  230  head -20 /etc/passwd > mypasswd
+  231  cat mypasswd
+  232  sort mypasswd
+  233  catmypasswd
+  234  cat mypasswd
+  235  sort mypasswd > s-mypasswd
+  236  more s-mypasswd
+  237  cat mypasswd
+  238  cat users_on
+  239  sort mypasswd users_on | more
+  240  wc mypasswd users_on
+  241  more mypasswd users_on
+  242  sort users_on lost-days | more
+  243  sort users_on mypasswd | more
+  244  sort -r users_on mypasswd | more
+  245  sleep 600 &
+  246  sleep 600 %
+  247  sleep 600 &
+  248  man wc line
+  249  wc -lmw lost-days
+  250  wc lost-days
+  251  wc -l -w -c lost-days
+  252  wc -lwu lost-days
+  253  echo who date ls cat
+  254  echo A B C D > el
+  255  more errors el
+  256  date > cl
+  257  echo hello this is echo > c2
+  258  ls -l > c3
+  259  ls -l
+  260  ls -l c1 c2 c3
+  261  date > c1
+  262  ls -l c1 c2 c3
+  263  cat c1 c2 c3
+  264  cat c3 c2 c1 > total
+  265  more total
+  266  cat total
+  267  grep is total
+  268  grep root /etc/passwd
+  269  grep is c1 c2 c3 total
+  270  sort
+  271  sort users_on > sort-test
+  272  more sort-test
+  273  cat > first_file
+  274  ls -l
+  275  more errors first_file
+  276  cat >second_file
+  277  ls -l
+  278  more second_file
+  279  head -12 /etc/passwd
+  280  head -12 /etc/passwd > file2
+  281  echo $USER
+  282  echo #LOGNAME
+  283  who |grep $USER
+  284  echo my shell is $SHELL and my home is $HOME
+  285  who |grep $USER|wc -l
+  286  env |more
+  287  printenv |more
+  288  echo we can output a *
+  289  we can output a \* uninterpreted
+  290  echo we can output a \* uninterpreted
+  291  echo \$HOME
+  292  who > users_on
+  293  unset noclobber
+  294  set +o noclobber
+  295  ls -l >test-list
+  296  ls -l > test-list
+  297  cat
+  298  cat test-list
+  299  date > test-list
+  300  set -o noclobber
+  301  ls -l > test-list
+  302  csh
+  303  sudo apt install csh
+  304  csh
+  305  ps
+  306  bash
+  307  ps
+  308  set -o ignoreeof
+  309  set | more
+  310  PS1 = Joshua
+  311  PS1 = 'joshua'
+  312  PS1 = joshua
+  313  dzatte
+  314  echo $PATH
+  315  ls -l /bin | more
+  316  which who
+  317  which xterm
+  318  which ls
+  319  which set
+  320  ls -l
+  321  ls -l users_on
+  322  chmod -r users_on
+  323  ls -l
+  324  cat users_on
+  325  chmod +r users_on
+  326  ls -l users_on
+  327  man cat
+  328  man sort
+  329  man -k edit | more
+  330  man -k copy | more
+  331  man sort
+  332  chmod -r users_on
+  333  ls -l users_on
+  334  chmod +r users_on
+  335  ls -l users_on
+  336  exit
+  337  script -a JoshuaLe-lab2.txt
+  338  vi
+  339  ls myfile 1
+  340  ls myfile1
+  341  cat myfile1
+  342  vi
+  343  vi practice
+  344  ls
+  345  cd Desktop
+  346  ls
+  347  cd
+  348  exit
+  349  script -a quiz3.txt
+  350  cd Desktop
+  351  ls
+  352  vi practice
+  353  date
+  354  ls
+  355  dd
+  356  vim practice
+  357  cd desktop
+  358  cd Desktop
+  359  ls
+  360  vi practice
+  361  date
+  362  ls
+  363  vi practice
+  364  date
+  365  vi practice
+  366  head practice
+  367  vi review
+  368  more review
+  369  vi practcie
+  370  vi practice
+  371  who
+  372  vi practice
+  373  exit
+  374  ls
+  375  rm quiz3.txt
+  376  ls
+  377  script -a quiz3.txt
+  378  sudo -v && wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sudo sh /dev/stdin
+  379  exit
+  380  sudo -v && wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sudo sh /dev/stdin
+  381  exit
+  382  script -a installation.txt
+  383  calibre
+  384  exot
+  385  exit
+  386  cd Desktop
+  387  ls
+  388  wc test-file1
+  389  wc test-file1 practice
+  390  wc * | more
+  391  wc -l test-file1
+  392  wc -w test-file1
+  393  wc -wc test-file1
+  394  wc -l -w test-file1
+  395  wc -wl test-file1
+  396  who | wc
+  397  who | wc -l
+  398  ls | wc
+  399  cat test-file1 test-file 2
+  400  cat test-file1 test-file2
+  401  cat test-file3
+  402  cat -n testfile1
+  403  cat -n test-file1
+  404  cat -n practice
+  405  cat practice
+  406  more /etc/services
+  407  more practice
+  408  grep ab test-g
+  409  grep he test-g practice | more
+  410  grep -v ab test-g
+  411  sort test-g | grep at
+  412  who | grep $USER
+  413  paste test-file1 test-file2 | grep 2
+  414  grep the
+  415  grep at test-g names.tmp | more
+  416  grep the * | more
+  417  grep 'Lyle Strand' test-g
+  418  grep Lyle Strand test-g | more
+  419  grep 'are at' test-g
+  420  grep lyle test-g
+  421  grep -i lylE test-g
+  422  grep -i He test-g
+  423  grep -l '04' names.tmp test*
+  424  grep -n 'ab' test-g
+  425  grep 't.t' test-g
+  426  grep '\^a' test-g
+  427  grep 't$' test-g
+  428  grep -n '^$' test-g
+  429  ls | test
+  430  ls test
+  431  ls -f test
+  432  ls *test*
+  433  sort test-sor | more
+  434  man ascii
+  435  sort -d test-sor | more
+  436  sort -f test-sor | more
+  437  sort test-sor | more
+  438  sort -n test-sor | more
+  439  sort -r test-sor | more
+  440  sort -rfn test-sor | more
+  441  sort +3 respected
+  442  sort -k 4 respected
+  443  sort +2 respected
+  444  head /etc/passwd
+  445  wc /etc/passwd
+  446  head -15 /etc/passwd
+  447  head -15 /etc/passwd > short-pass
+  448  wc short-pass
+  449  cat short-pass
+  450  sort short-pass
+  451  sort +2 short-pass
+  452  sort -t: +2 short-pass
+  453  -t: -n +2 short-pass
+  454  sort -t: -n +2 short-pass
+  455  sort test-sor > sorted-test-sor
+  456  more sorted-test-sor
+  457  cp short-pass sp2
+  458  cat sp2
+  459  sort sp2 > sp2
+  460  cat sp2
+  461  cp short-pass sp3
+  462  sort sp3 -o sortedsp3
+  463  sp3 -o sp3
+  464  sort sp3 -o sp3
+  465  cat sp3
+  466  man sort
+  467  who
+  468  who | tr t Z
+  469  tr a Z < test-sor
+  470  tr 'Ma7' '| &s' < test-sor
+  471  tr 'a-z' 'A-Z' < test-sor
+  472  tr '[a-z]' 'A-Z' < test-sor
+  473  tr '[a-z]' '[A-Z]' < test-sor
+  474  tr -d 'cbmZ4o' < test-sor
+  475  ls | tr 'a-z' 'A-Z'
+  476  tr 'a-z' 'A-Z' < practice
+  477  tr 'A-Z' 'a-z' < practice
+  478  head -30 /etc/passwd | tr ':' ' '
+  479  tr ' ' '+' < practice
+  480  tr ' ' '\n' < practice
+  481  man tr
+  482  ls
+  483  ls -a
+  484  ls -l
+  485  ls -F
+  486  ls -C
+  487  ls -l
+  488  ls -Ca
+  489  ls | more
+  490  ls -l | more
+  491  ls -C |more
+  492  ls | wc
+  493  ls -C | wc
+  494  ls -l | wc
+  495  man ls
+  496  file /etc/passwd
+  497  file /usr/bin/passwd
+  498  file /bin/ls
+  499  touch newfile1A newfile2B2
+  500  ls -l new*
+  501  ls -l users_on
+  502  touch users_on
+  503  ls -l users_on
+  504  cd
+  505  ls -F | more
+  506  ls -F | grep /
+  507  ls -F | grep / | wc -l
+  508  alias numdir='ls -F | grep / |wc -l'
+  509  numdir
+  510  cd /
+  511  numdir
+  512  cd
+  513  tr 'A-Z' 'a-z' < practice | more
+  514  cd Desktop
+  515  tr 'A-Z' 'a-z' < practice | more
+  516  tr 'A-Z' 'a-z' < practice 
+  517  tr 'A-Z' 'a-z' < practice | tr ' ' '\n' | more
+  518  tr 'A-Z' 'a-z' < practice | tr ' ' '\n' | sort | more
+  519  ls -l
+  520  ls 1
+  521  ls -F|more
+  522  ls -F | more
+  523  exit
+  524  script -a lab4.txt
+  525  exit
+  526  ls -1
+  527  ls -l
+  528  ls -1
+  529  vi
+  530  vi mydata.txt
+  531  ls
+  532  chmod +x mydata
+  533  chmod +x mydata.txt
+  534  mydata.txt | more
+  535  mydata | more
+  536  PATH=$PATH:.
+  537  mydata.txt | more
+  538  mydata.txt > me_A
+  539  cd
+  540  mkdir Resumes Papers Recommendations
+  541  ls -F | more
+  542  ls -F | grep
+  543  ls -F | grep /
+  544  ls -F | grep / | column
+  545  ls -F | grep -v / | column
+  546  vi script1
+  547  chmod +x script1
+  548  script1
+  549  chmod -x script1
+  550  script1 | more
+  551  cd Resumes
+  552  pwd
+  553  date > today
+  554  cal > month
+  555  who > logged.on
+  556  id > mylogin
+  557  head -5 /etc/passwd > short-passA
+  558  cp month month.bak
+  559  ls -l
+  560  cd
+  561  pwd
+  562  ls -l Resumes
+  563  ls -l Resumes | sort > file.info1
+  564  more file.info1
+  565  cd Resumes
+  566  pwd
+  567  ls
+  568  chmod -w today
+  569  mv month month2
+  570  date > new.date
+  571  who >> month.bak
+  572  ls -l
+  573  cd
+  574  ls -l Resumes | sort > file.info2
+  575  comm file.info1 file.info2
+  576  diff file.info1 file.info2
+  577  ls
+  578  cd Desktop
+  579  ls
+  580  vi west-coast.names
+  581  cat practice west-coast.names practice > manywords
+  582  vi script2
+  583  vi wordsUsed1
+  584  chmod +x wordsUsed 1
+  585  chmod +x wordsUsed1
+  586  ./wordsUsed 1
+  587  ./wordsUsed1
+  588  more manywords
+  589  cp wordsUsed1 wordsUsed2
+  590  vi wordsUsed2
+  591  chmod +x wordsUsed2
+  592  ./wordsUsed2
+  593  more manywords
+  594  cp wordsUsed2 wordsUsed3
+  595  vi wordsUsed3
+  596  cp wordsUsed3 wordsUsed4
+  597  vi wordsUsed4
+  598  chmod +x wordsUsed4
+  599  wordsUsed4
+  600  cp wordsUsed4 wordsUsed5
+  601  vi wordsUsed5
+  602  chmod +x wordsUsed5
+  603  wordsUsed5
+  604  cp wordsUsed5 wordsUsed6
+  605  vi wordsUsed6
+  606  chmod +x wordsUsed 6
+  607  chmod +x wordsUsed6
+  608  cp wordsUsed6 wordsUsed7
+  609  vi wordsUsed7
+  610  chmod +x wordsUsed8
+  611  chmod +x wordsUsed7
+  612  cp wordsUsed7 wordsUsed8
+  613  vi wordsUsed8
+  614  chmod +x wordsUsed8
+  615  wordsUsed8
+  616  cp wordsUsed8 wordsUsed
+  617  vi wordUsed
+  618  vi wordsUsed
+  619  chmod +x wordsUsed
+  620  wordsUsed
+  621  words.out
+  622  vi words.out
+  623  exit
+  624  who
+  625  cal
+  626  ls
+  627  mkdir exam1
+  628  cd exam1
+  629  echo ls > exam 1
+  630  ls
+  631  cat exam
+  632  cp file1 file2
+  633  echo ls > file1
+  634  cp file1 file2
+  635  echo file1 > file2
+  636  file1 > file2
+  637  more file1 > file2
+  638  file1 | file2
+  639  ls
+  640  echo file2 > file3
+  641  more file2 > file4
+  642  echo file1
+  643  more file1
+  644  more file3
+  645  more file4
+  646  cp file2 file5
+  647  more file5
+  648  cd
+  649  ls
+  650  cd Desktop
+  651  ls
+  652  cd mit-scheme-11.2
+  653  cd
+  654  ls /usr/bin | grep cancel
+  655  cd ~/usr/local
+  656  /home
+  657  cd home
+  658  cd /home
+  659  cd
+  660  cd /Desktop
+  661  cd $HOME
+  662  cd /Desktop
+  663  ls
+  664  cd Desktop
+  665  cd ~
+  666  cd desktop
+  667  cd Desktop
+  668  ls
+  669  vi practice
+  670  ~
+  671  cd ~
+  672  cd exam
+  673  cd exam1
+  674  cat client1 client2
+  675  bash
+  676  who
+  677  cal
+  678  cal
+  679  who
+  680  cal
+  681  cat client1
+  682  cat client1 client2
+  683  bash
+  684  cd exam1
+  685  vi essay
+  686  ls
+  687  grep -v [u] essay
+  688  grep [dog] essay
+  689  grep the essay
+  690  grep '\q$' essay
+  691  more grep
+  692  man grep
+  693  man grep | grep 'q$'
+  694  man grep | grep 'q\$'
+  695  man grep | grep '\q$'
+  696  man grep | grep '\$'
+  697  grep '\q' essay
+  698  man 1 pwd
+  699  man -f pwd
+  700  man -k pwd
+  701  pwd --help
+  702  echo file1 file2 | mv
+  703  cut -c[character_position} filelist
+  704  cut --help
+  705  man cut
+  706  man cut | grep 'zero'
+  707  man cut|grep 'zero'
+  708  man ls
+  709  vi alpha
+  710  echo alpha
+  711  ls alpha
+  712  cat alpha
+  713  man tr
+  714  tr alpha 'a-z' 'A-Z'
+  715  man tr
+  716  alpha > tr 'a-z' 'A-Z'
+  717  cat alpha | tr 'a-z' 'A-Z'
+  718  cat alpha
+  719  cat alpha | tr 'a-z' 'A-Z' < alpha
+  720  alpha
+  721  cat alpha
+  722  tr 'a-z' 'A-Z' < alpha
+  723  cat alpha
+  724  sort -r alpha
+  725  sort alpha
+  726  practice
+  727  ls
+  728  sort essay
+  729  sort -r essay
+  730  sort -r essay | more
+  731  man ls
+  732  ls -a -l
+  733  ls -l -a
+  734  cd
+  735  ls -l
+  736  ls -a
+  737  ls -al
+  738  ls -la
+  739  echo \$HOME
+  740  echo /$HOME
+  741  echo $HOME
+  742  history
+  743  man history
+  744  cd /tmp/$USER
+  745  echo $PWD
+  746  pwd
+  747  echo $OLDPWD
+  748  pwd
+  749  cd /tmp
+  750  pwd
+  751  cd -
+  752  pwd
+  753  exit
+  754  pwd
+  755  grep $USER /etc/passwd
+  756  ls
+  757  who > f-name
+  758  date > journal
+  759  ls -i
+  760  who > users_test
+  761  ls -i | more
+  762  ls
+  763  ls -l Projects
+  764  ls -ld Projects
+  765  ls -F
+  766  more ProjectZ
+  767  cd Projects/
+  768  ls
+  769  cd
+  770  ls -l Projects
+  771  ls -ld Projects
+  772  ls -R -C | more
+  773  ls -i f*
+  774  mv f-name Projects/
+  775  ls 
+  776  ls -i Projects
+  777  cd
+  778  cal > month
+  779  ls -i
+  780  cp month Projects/
+  781  ls -i Projects
+  782  cd Projects
+  783  cat month
+  784  cd
+  785  more Projects/month
+  786  pwd
+  787  date > trouble
+  788  more trouble
+  789  ls -i t*
+  790  mv trouble ProjectZ
+  791  ls
+  792  ls Projects
+  793  ls -F
+  794  more ProjectZ
+  795  ls -i ProjectZ
+  796  mv ProjectZ trouble
+  797  mv trouble ProjectZ/
+  798  touch junkness
+  799  ls -i j*
+  800  mv junkness Projects/treasure
+  801  ls -i Projects
+  802  ls junkness
+  803  ls Projects
+  804  rm Project/treasure
+  805  rm Projects/treasure
+  806  ls Projects
+  807  cd Projects
+  808  ls
+  809  pwd
+  810  mkdir Code
+  811  ls -i
+  812  cd Code
+  813  pwd
+  814  vi report3
+  815  ls
+  816  pwd
+  817  cd
+  818  pwd
+  819  ls -F
+  820  cd Projects
+  821  ls
+  822  pwd
+  823  cd
+  824  cd Projects/Code/
+  825  pwd
+  826  ls
+  827  cat report3
+  828  cd
+  829  pwd
+  830  vi Projects/Code/report3
+  831  pwd
+  832  cp journal Projects/Code/journal2
+  833  ls -i journal
+  834  cd Projects/Code
+  835  ls -i
+  836  cat journal 2
+  837  cat journal2
+  838  cd
+  839  mkdir Docum
+  840  touch Docum/readme
+  841  ls Docum
+  842  cd
+  843  mkdir Projects/Corresp
+  844  ls -F Projects
+  845  cd PRojects/Corresp
+  846  cd Projects/Corresp
+  847  pwd
+  848  vi replies
+  849  cd 
+  850  cd Projects/Code
+  851  ls -a
+  852  file .
+  853  file ..
+  854  pwd
+  855  ls -ai
+  856  cd .
+  857  ls -ai Code
+  858  cd ..
+  859  ls -ai Code
+  860  pwd
+  861  cd ../..
+  862  pwd
+  863  cd
+  864  pwd
+  865  cd ..
+  866  cd
+  867  mkdir Skye
+  868  ls -iF
+  869  ls ai Skye
+  870  ls -ai Sky
+  871  ls -ai Skye
+  872  cd
+  873  cd practice journal f-name
+  874  cp practice journal f-name
+  875  cp practice journal Docum/
+  876  ls Docum
+  877  mkdir Archives
+  878  cp users_on practice journal l* Archives/
+  879  ls Archives
+  880  touch cassy dimitri owen danny monika
+  881  ls -i
+  882  mv cassy dimitri owen danny monika Docum/
+  883  ls -i
+  884  ls -i Docum/
+  885  cd
+  886  cd Projects/Code
+  887  pwd
+  888  ls -ai
+  889  ls -ai report3
+  890  mv report3 ..
+  891  cd ..
+  892  pwd
+  893  ls -i
+  894  mv report3 Code
+  895  touch megan daniel betty
+  896  ls -i
+  897  mv megan daniel betty ..
+  898  ls -i
+  899  cd ..
+  900  ls
+  901  ls -i
+  902  cd /tmp
+  903  mkdir $USER
+  904  cd $USER
+  905  mkdir Mydir
+  906  cd Mydir
+  907  pwd
+  908  date > myfile
+  909  ls 
+  910  cat myfile
+  911  pwd
+  912  cd
+  913  more /tmp/$USER/Mydir/myfile
+  914  cd /tmp
+  915  pwd
+  916  ls ~
+  917  pwd
+  918  more ~/practice
+  919  cd ~/Projects/Code
+  920  pwd
+  921  echo ~
+  922  echo ~/Projects
+  923  echo ~/..
+  924  echo ~/Projects/Code
+  925  echo ~/ABCDE
+  926  echo My home is ~
+  927  grep root /etc/passwd
+  928  echo ~/root
+  929  echo ~lmeade
+  930  cd
+  931  pwd
+  932  ls
+  933  cd ~tmp
+  934  bash
+  935  cp journal projects/code/journal2
+  936  wc -l practice users
+  937  wc -l practice users_on
+  938  wc -l ./practice ./users_on
+  939  cd
+  940  ls Projects
+  941  vi Projects/actions
+  942  ls
+  943  ls Projects
+  944  cd Projects
+  945  wc ../users_on
+  946  ls ..
+  947  ls ../Docum
+  948  wc ../Docum/readme
+  949  cd
+  950  ls Projects/Code
+  951  wc Projects/Code/journal2
+  952  cd
+  953  cd /tmp
+  954  pwd
+  955  ls ~/Projects/Code
+  956  echo ~/Projects/Code
+  957  cd
+  958  ls /tmp
+  959  ls /tmp/$USER
+  960  pwd
+  961  cp practice /tmp/$USER/practice2
+  962  ls /tmp/$USER
+  963  cd /tmp/$USER
+  964  pwd
+  965  ls
+  966  cp practice2 ~/Projects/Code
+  967  ls ~/Projects/Code
+  968  cd /
+  969  pwd
+  970  cp ~/Projects/Code/report3 ~/Docum
+  971  cd ~/Projects
+  972  echo hello > ../greeting
+  973  ls ..
+  974  cp ../greeting .
+  975  cp ../* ~/Docum
+  976  ls ~/Docum
+  977  wc ~/users_on > /tmp/$USER/num_users_on
+  978  cd ~/Projects
+  979  pwd
+  980  ls
+  981  cd
+  982  ls -l | more
+  983  cd
+  984  pwd
+  985  ls -i testing-links
+  986  vi testing-links
+  987  ls -i testing-links
+  988  cd Archives
+  989  ls
+  990  ls ..
+  991  ln ../testing-links testing2
+  992  ls -i
+  993  cd
+  994  more testing-links
+  995  cd /Archives
+  996  cd ~/Archives
+  997  vi testing2
+  998  cd
+  999  more testing-links
+ 1000  ls -li testing-links
+ 1001  ls -li Archives/testing2
+ 1002  file testing-links
+ 1003  file Archives/testing2
+ 1004  ls -l testing-links
+ 1005  rm testing-links
+ 1006  ls
+ 1007  ls -l Archives
+ 1008  more Archives/testing2
+ 1009  ln users_on Archives
+ 1010  ls -i users_on
+ 1011  ls -i Archives/users_on
+ 1012  ls -l users_on
+ 1013  ln megan daniel betty Archives
+ 1014  ls -il megan daniel betty
+ 1015  ls -il Archives
+ 1016  cd ~/Projects
+ 1017  pwd
+ 1018  ln -s ~/journal
+ 1019  ls -i journal
+ 1020  ls -i ~/journal
+ 1021  echo 'In Projects File' >> journal
+ 1022  cat ~/journal
+ 1023  ls -l journal
+ 1024  file journal
+ 1025  rm journal
+ 1026  ls
+ 1027  date > ~/realfile
+ 1028  ln -s ~/reafile rf
+ 1029  ls -l rf
+ 1030  cat rf
+ 1031  rm ~/realfile
+ 1032  ls -l rf
+ 1033  cat rf
+ 1034  pwd
+ 1035  ln -s ~/Docum
+ 1036  ls -F
+ 1037  ls Docum
+ 1038  cd Docum
+ 1039  pwd
+ 1040  touch filefromProjects
+ 1041  cd
+ 1042  ls
+ 1043  ls Docum
+ 1044  ls Projects
+ 1045  ls -i Docum
+ 1046  ls -i Projects/Docum
+ 1047  cd
+ 1048  ln -s /tmp tmp
+ 1049  ls -l | more
+ 1050  ls ~/tmp
+ 1051  ls /tmp
+ 1052  cd
+ 1053  ls -F
+ 1054  ls -id Projects
+ 1055  mv Projects Old-projects
+ 1056  ls -F
+ 1057  ls -F Old-projects
+ 1058  ls -id Old-projects
+ 1059  mv Old-projects Projects
+ 1060  ls -id Projects
+ 1061  cd
+ 1062  pwd
+ 1063  ls
+ 1064  ls -F
+ 1065  mkdir Dirempty
+ 1066  ls -F
+ 1067  ls -id DIrempty
+ 1068  ls Dirempty
+ 1069  rmdir Dirempty
+ 1070  ls -F
+ 1071  rmdir Archives
+ 1072  cd ~/Projects
+ 1073  pwd; ls
+ 1074  rmdir Code
+ 1075  rm -r Code
+ 1076  ls -F
+ 1077  cd
+ 1078  exit
+ 1079  which echo
+ 1080  echo $PATH
+ 1081  echo HELLO
+ 1082  ls
+ 1083  ps
+ 1084  wc -z users_on
+ 1085  ls
+ 1086  ls -l
+ 1087  sort-r users_on
+ 1088  sort -r users_on
+ 1089  sleep 5
+ 1090  who | sort
+ 1091  ls -l
+ 1092  history
+ 1093  who | tr -d 12345 | sed 5q
+ 1094  history
+ 1095  grepthepractice
+ 1096  grep the practice
+ 1097  ls 
+ 1098  ls               -l
+ 1099  who      | grep        | $USER
+ 1100  who    | grep     $USER
+ 1101  history
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ who     |   wc > filewho
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ echo $USER$USER$USER
+joshuajoshuajoshua
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ abcde fgij
+
+Command 'abcde' not found, but can be installed with:
+
+sudo apt install abcde
+
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ users-on sort
+users-on: command not found
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ rent
+
+Command 'rent' not found, did you mean:
+
+  command 'sent' from deb sent (1-3)
+  command 'ent' from deb ent (1.2debian-2)
+  command 'reno' from deb python3-reno (2.11.2-2build1)
+
+Try: sudo apt install <deb name>
+
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ bash
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ a=date
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ echo $a
+date
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ b = hello
+b: command not found
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ b=hello
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ echo b
+b
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ echo $b
+hello
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ echo $a
+date
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ $a
+Sun 27 Feb 2022 10:35:25 AM PST
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ who \ wc[K[K[K[K| wc
+      1       5      44
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ who > wc
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ w[Kls -l wc
+-rw-rw-r-- 1 joshua joshua 44 Feb 27 10:36 wc
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ more wc
+joshua   tty7         2022-02-27 10:26 (:0)
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls | b[Kabcde
+
+Command 'abcde' not found, but can be installed with:
+
+sudo apt install abcde
+
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls [K: cd /tmp: ls: cd: j[Khistory[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kls; cd /tmp; ls; cd; history
+[0m[01;34ma[0m           installation.txt   practice         test-g
+[01;34mArchives[0m    JoshuaLe-lab2.txt  [01;34mPrivate[0m          test-list
+betty       journal            [01;34mProjects[0m         test-sor
+c1          lab1.txt           [01;34mPublic[0m           test.txt
+c2          lab4.txt           quiz3.txt        [01;36mtmp[0m
+c3          lab5.txt           [01;34mRecommendations[0m  total
+cl          lab6.txt           [01;34mrepos[0m            trouble
+daniel      lab7.txt           respected        users_on
+[01;34mDesktop[0m     lost-days          [01;34mResumes[0m          users_test
+[01;34mDocum[0m       manywords          review           [01;34mVideos[0m
+[01;34mDocuments[0m   me_A               script1          wc
+[01;34mDownloads[0m   megan              script.js        west-coast.names
+el          month              second_file      words.out
+[01;34mexam1[0m       [01;34mMusic[0m              short-pass       [01;32mwordsUsed[0m
+file2       [01;32mmydata.txt[0m         [01;34mSkye[0m             [01;32mwordsUsed1[0m
+file.info1  myerr              s-mypasswd       [01;32mwordsUsed2[0m
+file.info2  myfile1            sortedsp3        [01;32mwordsUsed3[0m
+filewho     myoutput           sorted-test-sor  [01;32mwordsUsed4[0m
+first_file  mypasswd           sort-test        [01;32mwordsUsed5[0m
+[01;34mfoo[0m         names.tmp          sp2              [01;32mwordsUsed6[0m
+footer      newfile1A          sp3              [01;32mwordsUsed7[0m
+footer.1    newfile2B2         style.css        [01;32mwordsUsed8[0m
+footer.2    [01;34mPapers[0m             [01;34mTemplates[0m
+greeting    phon               test-file1
+index.html  [01;34mPictures[0m           test-file2
+config-err-JYhTPT
+[0m[01;34mssh-gpFVfLYaCEpy[0m
+[01;34msystemd-private-47f38dfbf442499895704b8f7945a82a-colord.service-s6Uw3h[0m
+[01;34msystemd-private-47f38dfbf442499895704b8f7945a82a-ModemManager.service-oFtN0e[0m
+[01;34msystemd-private-47f38dfbf442499895704b8f7945a82a-systemd-logind.service-DfTmdg[0m
+[01;34msystemd-private-47f38dfbf442499895704b8f7945a82a-systemd-resolved.service-omXo7i[0m
+[01;34msystemd-private-47f38dfbf442499895704b8f7945a82a-systemd-timesyncd.service-90Jivj[0m[K
+[01;34msystemd-private-47f38dfbf442499895704b8f7945a82a-upower.service-J5Uacg[0m
+vboxguest-Module.symvers
+[30;42mVMwareDnD[0m
+   93  cd mit-scheme-11.2-x86-64.tar.gz/src
+   94  ls
+   95  cd mit-scheme-11.2/src
+   96  ./configure
+   97  gcc make m4 libncurses-dev
+   98  gcc make m4 ncurses-devel
+   99  xcode-select --install
+  100  --enable-native-code
+  101  -/configure --enable native-code
+  102  ./configure --enable-native-code
+  103  ./configure --enable-native-code --enable-host-scheme-test --enable-cross-compiling --with-compiler-target --with-default-target --with-scheme-build
+  104  gcc make m4 libncurses-dev
+  105  ls
+  106  cd
+  107  gcc
+  108  gcc make m4 
+  109  gcc make m4 libncurses-dev
+  110  gcc make m4 ncurses-devel
+  111  sudo apt-get install libncurses5-dev libncursesw5-dev
+  112  Password
+  113  exit
+  114  date
+  115  date +%r
+  116  date +%f
+  117  date +%F
+  118  date +%D
+  119  date +%K
+  120  date +%k
+  121  dat -u
+  122  date -u
+  123  file date
+  124  sudo find / -name date
+  125  script -a lab1.txt
+  126  exit
+  127  script -a lab1.txt
+  128  exit
+  129  passwd
+  130  sudo passwd joshua
+  131  date
+  132  date +%r
+  133  date +%R
+  134  date +%F
+  135  date +%D
+  136  date +%K
+  137  date -u
+  138  date
+  139  file date
+  140  sudo find / -name date
+  141  file /usr/bin/date
+  142  history
+  143  exit
+  144  ps
+  145  echo $SHELL
+  146  ps
+  147  echo $XDFG_CURRENT_DESKTOP
+  148  echo $XDG_CURRENT_DESKTOP
+  149  ls - l
+  150  ls -l
+  151  ls -l > myoutput
+  152  cat myoutput
+  153  ls nyp12
+  154  ls nyp12 2> myerr
+  155  ls myerr
+  156  cat myerr
+  157  cat > footer.1
+  158  cat footer.1
+  159  echo Thank you
+  160  echo Thank you > footer.2
+  161  cat footer.1 footer.2
+  162  cat footer.1 footer.2 > footer
+  163  cat footer
+  164  ca footer.1
+  165  cat footer.1
+  166  cat footer.2
+  167  uname
+  168  uname -r
+  169  uname -v
+  170  uname -m
+  171  uname -p
+  172  uname -a
+  173  cat .bash_history
+  174  sudo./VBoxlinuxAdditions.run
+  175  clear
+  176  who
+  177  whoami
+  178  ls
+  179  ls -a
+  180  LS
+  181  ls -l
+  182  ls /etc
+  183  ls -a /etc|more
+  184  echo $SHELL
+  185  bash
+  186  ps
+  187  bash
+  188  man cal
+  189  man -f argument
+  190  man -k argument
+  191  man man
+  192  exit
+  193  ps
+  194  ps
+  195  csh
+  196  ps
+  197  exit
+  198  who
+  199  cal
+  200  date
+  201  pwd
+  202  mkdir
+  203  mkdir Private
+  204  who > users_on
+  205  cal 1752 > lost-days
+  206  cp users_on users_on_2
+  207  cp lost-days lost-3
+  208  ls
+  209  cp users_on Private
+  210  ls Private
+  211  cp today lost-days junk Private
+  212  ls Private
+  213  rm users_on_2
+  214  rm -i junk
+  215  more lost-3
+  216  my lost-3 phon
+  217  mv lost-3 phon
+  218  ls more phon
+  219  ls
+  220  more phon
+  221  ls
+  222  ls -l -a
+  223  ls -l -alF
+  224  wc users_on
+  225  date | wc
+  226  who | wc
+  227  wc -c -l users_on
+  228  wc -lc users_on
+  229  wc -cl users_on
+  230  head -20 /etc/passwd > mypasswd
+  231  cat mypasswd
+  232  sort mypasswd
+  233  catmypasswd
+  234  cat mypasswd
+  235  sort mypasswd > s-mypasswd
+  236  more s-mypasswd
+  237  cat mypasswd
+  238  cat users_on
+  239  sort mypasswd users_on | more
+  240  wc mypasswd users_on
+  241  more mypasswd users_on
+  242  sort users_on lost-days | more
+  243  sort users_on mypasswd | more
+  244  sort -r users_on mypasswd | more
+  245  sleep 600 &
+  246  sleep 600 %
+  247  sleep 600 &
+  248  man wc line
+  249  wc -lmw lost-days
+  250  wc lost-days
+  251  wc -l -w -c lost-days
+  252  wc -lwu lost-days
+  253  echo who date ls cat
+  254  echo A B C D > el
+  255  more errors el
+  256  date > cl
+  257  echo hello this is echo > c2
+  258  ls -l > c3
+  259  ls -l
+  260  ls -l c1 c2 c3
+  261  date > c1
+  262  ls -l c1 c2 c3
+  263  cat c1 c2 c3
+  264  cat c3 c2 c1 > total
+  265  more total
+  266  cat total
+  267  grep is total
+  268  grep root /etc/passwd
+  269  grep is c1 c2 c3 total
+  270  sort
+  271  sort users_on > sort-test
+  272  more sort-test
+  273  cat > first_file
+  274  ls -l
+  275  more errors first_file
+  276  cat >second_file
+  277  ls -l
+  278  more second_file
+  279  head -12 /etc/passwd
+  280  head -12 /etc/passwd > file2
+  281  echo $USER
+  282  echo #LOGNAME
+  283  who |grep $USER
+  284  echo my shell is $SHELL and my home is $HOME
+  285  who |grep $USER|wc -l
+  286  env |more
+  287  printenv |more
+  288  echo we can output a *
+  289  we can output a \* uninterpreted
+  290  echo we can output a \* uninterpreted
+  291  echo \$HOME
+  292  who > users_on
+  293  unset noclobber
+  294  set +o noclobber
+  295  ls -l >test-list
+  296  ls -l > test-list
+  297  cat
+  298  cat test-list
+  299  date > test-list
+  300  set -o noclobber
+  301  ls -l > test-list
+  302  csh
+  303  sudo apt install csh
+  304  csh
+  305  ps
+  306  bash
+  307  ps
+  308  set -o ignoreeof
+  309  set | more
+  310  PS1 = Joshua
+  311  PS1 = 'joshua'
+  312  PS1 = joshua
+  313  dzatte
+  314  echo $PATH
+  315  ls -l /bin | more
+  316  which who
+  317  which xterm
+  318  which ls
+  319  which set
+  320  ls -l
+  321  ls -l users_on
+  322  chmod -r users_on
+  323  ls -l
+  324  cat users_on
+  325  chmod +r users_on
+  326  ls -l users_on
+  327  man cat
+  328  man sort
+  329  man -k edit | more
+  330  man -k copy | more
+  331  man sort
+  332  chmod -r users_on
+  333  ls -l users_on
+  334  chmod +r users_on
+  335  ls -l users_on
+  336  exit
+  337  script -a JoshuaLe-lab2.txt
+  338  vi
+  339  ls myfile 1
+  340  ls myfile1
+  341  cat myfile1
+  342  vi
+  343  vi practice
+  344  ls
+  345  cd Desktop
+  346  ls
+  347  cd
+  348  exit
+  349  script -a quiz3.txt
+  350  cd Desktop
+  351  ls
+  352  vi practice
+  353  date
+  354  ls
+  355  dd
+  356  vim practice
+  357  cd desktop
+  358  cd Desktop
+  359  ls
+  360  vi practice
+  361  date
+  362  ls
+  363  vi practice
+  364  date
+  365  vi practice
+  366  head practice
+  367  vi review
+  368  more review
+  369  vi practcie
+  370  vi practice
+  371  who
+  372  vi practice
+  373  exit
+  374  ls
+  375  rm quiz3.txt
+  376  ls
+  377  script -a quiz3.txt
+  378  sudo -v && wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sudo sh /dev/stdin
+  379  exit
+  380  sudo -v && wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sudo sh /dev/stdin
+  381  exit
+  382  script -a installation.txt
+  383  calibre
+  384  exot
+  385  exit
+  386  cd Desktop
+  387  ls
+  388  wc test-file1
+  389  wc test-file1 practice
+  390  wc * | more
+  391  wc -l test-file1
+  392  wc -w test-file1
+  393  wc -wc test-file1
+  394  wc -l -w test-file1
+  395  wc -wl test-file1
+  396  who | wc
+  397  who | wc -l
+  398  ls | wc
+  399  cat test-file1 test-file 2
+  400  cat test-file1 test-file2
+  401  cat test-file3
+  402  cat -n testfile1
+  403  cat -n test-file1
+  404  cat -n practice
+  405  cat practice
+  406  more /etc/services
+  407  more practice
+  408  grep ab test-g
+  409  grep he test-g practice | more
+  410  grep -v ab test-g
+  411  sort test-g | grep at
+  412  who | grep $USER
+  413  paste test-file1 test-file2 | grep 2
+  414  grep the
+  415  grep at test-g names.tmp | more
+  416  grep the * | more
+  417  grep 'Lyle Strand' test-g
+  418  grep Lyle Strand test-g | more
+  419  grep 'are at' test-g
+  420  grep lyle test-g
+  421  grep -i lylE test-g
+  422  grep -i He test-g
+  423  grep -l '04' names.tmp test*
+  424  grep -n 'ab' test-g
+  425  grep 't.t' test-g
+  426  grep '\^a' test-g
+  427  grep 't$' test-g
+  428  grep -n '^$' test-g
+  429  ls | test
+  430  ls test
+  431  ls -f test
+  432  ls *test*
+  433  sort test-sor | more
+  434  man ascii
+  435  sort -d test-sor | more
+  436  sort -f test-sor | more
+  437  sort test-sor | more
+  438  sort -n test-sor | more
+  439  sort -r test-sor | more
+  440  sort -rfn test-sor | more
+  441  sort +3 respected
+  442  sort -k 4 respected
+  443  sort +2 respected
+  444  head /etc/passwd
+  445  wc /etc/passwd
+  446  head -15 /etc/passwd
+  447  head -15 /etc/passwd > short-pass
+  448  wc short-pass
+  449  cat short-pass
+  450  sort short-pass
+  451  sort +2 short-pass
+  452  sort -t: +2 short-pass
+  453  -t: -n +2 short-pass
+  454  sort -t: -n +2 short-pass
+  455  sort test-sor > sorted-test-sor
+  456  more sorted-test-sor
+  457  cp short-pass sp2
+  458  cat sp2
+  459  sort sp2 > sp2
+  460  cat sp2
+  461  cp short-pass sp3
+  462  sort sp3 -o sortedsp3
+  463  sp3 -o sp3
+  464  sort sp3 -o sp3
+  465  cat sp3
+  466  man sort
+  467  who
+  468  who | tr t Z
+  469  tr a Z < test-sor
+  470  tr 'Ma7' '| &s' < test-sor
+  471  tr 'a-z' 'A-Z' < test-sor
+  472  tr '[a-z]' 'A-Z' < test-sor
+  473  tr '[a-z]' '[A-Z]' < test-sor
+  474  tr -d 'cbmZ4o' < test-sor
+  475  ls | tr 'a-z' 'A-Z'
+  476  tr 'a-z' 'A-Z' < practice
+  477  tr 'A-Z' 'a-z' < practice
+  478  head -30 /etc/passwd | tr ':' ' '
+  479  tr ' ' '+' < practice
+  480  tr ' ' '\n' < practice
+  481  man tr
+  482  ls
+  483  ls -a
+  484  ls -l
+  485  ls -F
+  486  ls -C
+  487  ls -l
+  488  ls -Ca
+  489  ls | more
+  490  ls -l | more
+  491  ls -C |more
+  492  ls | wc
+  493  ls -C | wc
+  494  ls -l | wc
+  495  man ls
+  496  file /etc/passwd
+  497  file /usr/bin/passwd
+  498  file /bin/ls
+  499  touch newfile1A newfile2B2
+  500  ls -l new*
+  501  ls -l users_on
+  502  touch users_on
+  503  ls -l users_on
+  504  cd
+  505  ls -F | more
+  506  ls -F | grep /
+  507  ls -F | grep / | wc -l
+  508  alias numdir='ls -F | grep / |wc -l'
+  509  numdir
+  510  cd /
+  511  numdir
+  512  cd
+  513  tr 'A-Z' 'a-z' < practice | more
+  514  cd Desktop
+  515  tr 'A-Z' 'a-z' < practice | more
+  516  tr 'A-Z' 'a-z' < practice 
+  517  tr 'A-Z' 'a-z' < practice | tr ' ' '\n' | more
+  518  tr 'A-Z' 'a-z' < practice | tr ' ' '\n' | sort | more
+  519  ls -l
+  520  ls 1
+  521  ls -F|more
+  522  ls -F | more
+  523  exit
+  524  script -a lab4.txt
+  525  exit
+  526  ls -1
+  527  ls -l
+  528  ls -1
+  529  vi
+  530  vi mydata.txt
+  531  ls
+  532  chmod +x mydata
+  533  chmod +x mydata.txt
+  534  mydata.txt | more
+  535  mydata | more
+  536  PATH=$PATH:.
+  537  mydata.txt | more
+  538  mydata.txt > me_A
+  539  cd
+  540  mkdir Resumes Papers Recommendations
+  541  ls -F | more
+  542  ls -F | grep
+  543  ls -F | grep /
+  544  ls -F | grep / | column
+  545  ls -F | grep -v / | column
+  546  vi script1
+  547  chmod +x script1
+  548  script1
+  549  chmod -x script1
+  550  script1 | more
+  551  cd Resumes
+  552  pwd
+  553  date > today
+  554  cal > month
+  555  who > logged.on
+  556  id > mylogin
+  557  head -5 /etc/passwd > short-passA
+  558  cp month month.bak
+  559  ls -l
+  560  cd
+  561  pwd
+  562  ls -l Resumes
+  563  ls -l Resumes | sort > file.info1
+  564  more file.info1
+  565  cd Resumes
+  566  pwd
+  567  ls
+  568  chmod -w today
+  569  mv month month2
+  570  date > new.date
+  571  who >> month.bak
+  572  ls -l
+  573  cd
+  574  ls -l Resumes | sort > file.info2
+  575  comm file.info1 file.info2
+  576  diff file.info1 file.info2
+  577  ls
+  578  cd Desktop
+  579  ls
+  580  vi west-coast.names
+  581  cat practice west-coast.names practice > manywords
+  582  vi script2
+  583  vi wordsUsed1
+  584  chmod +x wordsUsed 1
+  585  chmod +x wordsUsed1
+  586  ./wordsUsed 1
+  587  ./wordsUsed1
+  588  more manywords
+  589  cp wordsUsed1 wordsUsed2
+  590  vi wordsUsed2
+  591  chmod +x wordsUsed2
+  592  ./wordsUsed2
+  593  more manywords
+  594  cp wordsUsed2 wordsUsed3
+  595  vi wordsUsed3
+  596  cp wordsUsed3 wordsUsed4
+  597  vi wordsUsed4
+  598  chmod +x wordsUsed4
+  599  wordsUsed4
+  600  cp wordsUsed4 wordsUsed5
+  601  vi wordsUsed5
+  602  chmod +x wordsUsed5
+  603  wordsUsed5
+  604  cp wordsUsed5 wordsUsed6
+  605  vi wordsUsed6
+  606  chmod +x wordsUsed 6
+  607  chmod +x wordsUsed6
+  608  cp wordsUsed6 wordsUsed7
+  609  vi wordsUsed7
+  610  chmod +x wordsUsed8
+  611  chmod +x wordsUsed7
+  612  cp wordsUsed7 wordsUsed8
+  613  vi wordsUsed8
+  614  chmod +x wordsUsed8
+  615  wordsUsed8
+  616  cp wordsUsed8 wordsUsed
+  617  vi wordUsed
+  618  vi wordsUsed
+  619  chmod +x wordsUsed
+  620  wordsUsed
+  621  words.out
+  622  vi words.out
+  623  exit
+  624  who
+  625  cal
+  626  ls
+  627  mkdir exam1
+  628  cd exam1
+  629  echo ls > exam 1
+  630  ls
+  631  cat exam
+  632  cp file1 file2
+  633  echo ls > file1
+  634  cp file1 file2
+  635  echo file1 > file2
+  636  file1 > file2
+  637  more file1 > file2
+  638  file1 | file2
+  639  ls
+  640  echo file2 > file3
+  641  more file2 > file4
+  642  echo file1
+  643  more file1
+  644  more file3
+  645  more file4
+  646  cp file2 file5
+  647  more file5
+  648  cd
+  649  ls
+  650  cd Desktop
+  651  ls
+  652  cd mit-scheme-11.2
+  653  cd
+  654  ls /usr/bin | grep cancel
+  655  cd ~/usr/local
+  656  /home
+  657  cd home
+  658  cd /home
+  659  cd
+  660  cd /Desktop
+  661  cd $HOME
+  662  cd /Desktop
+  663  ls
+  664  cd Desktop
+  665  cd ~
+  666  cd desktop
+  667  cd Desktop
+  668  ls
+  669  vi practice
+  670  ~
+  671  cd ~
+  672  cd exam
+  673  cd exam1
+  674  cat client1 client2
+  675  bash
+  676  who
+  677  cal
+  678  cal
+  679  who
+  680  cal
+  681  cat client1
+  682  cat client1 client2
+  683  bash
+  684  cd exam1
+  685  vi essay
+  686  ls
+  687  grep -v [u] essay
+  688  grep [dog] essay
+  689  grep the essay
+  690  grep '\q$' essay
+  691  more grep
+  692  man grep
+  693  man grep | grep 'q$'
+  694  man grep | grep 'q\$'
+  695  man grep | grep '\q$'
+  696  man grep | grep '\$'
+  697  grep '\q' essay
+  698  man 1 pwd
+  699  man -f pwd
+  700  man -k pwd
+  701  pwd --help
+  702  echo file1 file2 | mv
+  703  cut -c[character_position} filelist
+  704  cut --help
+  705  man cut
+  706  man cut | grep 'zero'
+  707  man cut|grep 'zero'
+  708  man ls
+  709  vi alpha
+  710  echo alpha
+  711  ls alpha
+  712  cat alpha
+  713  man tr
+  714  tr alpha 'a-z' 'A-Z'
+  715  man tr
+  716  alpha > tr 'a-z' 'A-Z'
+  717  cat alpha | tr 'a-z' 'A-Z'
+  718  cat alpha
+  719  cat alpha | tr 'a-z' 'A-Z' < alpha
+  720  alpha
+  721  cat alpha
+  722  tr 'a-z' 'A-Z' < alpha
+  723  cat alpha
+  724  sort -r alpha
+  725  sort alpha
+  726  practice
+  727  ls
+  728  sort essay
+  729  sort -r essay
+  730  sort -r essay | more
+  731  man ls
+  732  ls -a -l
+  733  ls -l -a
+  734  cd
+  735  ls -l
+  736  ls -a
+  737  ls -al
+  738  ls -la
+  739  echo \$HOME
+  740  echo /$HOME
+  741  echo $HOME
+  742  history
+  743  man history
+  744  cd /tmp/$USER
+  745  echo $PWD
+  746  pwd
+  747  echo $OLDPWD
+  748  pwd
+  749  cd /tmp
+  750  pwd
+  751  cd -
+  752  pwd
+  753  exit
+  754  pwd
+  755  grep $USER /etc/passwd
+  756  ls
+  757  who > f-name
+  758  date > journal
+  759  ls -i
+  760  who > users_test
+  761  ls -i | more
+  762  ls
+  763  ls -l Projects
+  764  ls -ld Projects
+  765  ls -F
+  766  more ProjectZ
+  767  cd Projects/
+  768  ls
+  769  cd
+  770  ls -l Projects
+  771  ls -ld Projects
+  772  ls -R -C | more
+  773  ls -i f*
+  774  mv f-name Projects/
+  775  ls 
+  776  ls -i Projects
+  777  cd
+  778  cal > month
+  779  ls -i
+  780  cp month Projects/
+  781  ls -i Projects
+  782  cd Projects
+  783  cat month
+  784  cd
+  785  more Projects/month
+  786  pwd
+  787  date > trouble
+  788  more trouble
+  789  ls -i t*
+  790  mv trouble ProjectZ
+  791  ls
+  792  ls Projects
+  793  ls -F
+  794  more ProjectZ
+  795  ls -i ProjectZ
+  796  mv ProjectZ trouble
+  797  mv trouble ProjectZ/
+  798  touch junkness
+  799  ls -i j*
+  800  mv junkness Projects/treasure
+  801  ls -i Projects
+  802  ls junkness
+  803  ls Projects
+  804  rm Project/treasure
+  805  rm Projects/treasure
+  806  ls Projects
+  807  cd Projects
+  808  ls
+  809  pwd
+  810  mkdir Code
+  811  ls -i
+  812  cd Code
+  813  pwd
+  814  vi report3
+  815  ls
+  816  pwd
+  817  cd
+  818  pwd
+  819  ls -F
+  820  cd Projects
+  821  ls
+  822  pwd
+  823  cd
+  824  cd Projects/Code/
+  825  pwd
+  826  ls
+  827  cat report3
+  828  cd
+  829  pwd
+  830  vi Projects/Code/report3
+  831  pwd
+  832  cp journal Projects/Code/journal2
+  833  ls -i journal
+  834  cd Projects/Code
+  835  ls -i
+  836  cat journal 2
+  837  cat journal2
+  838  cd
+  839  mkdir Docum
+  840  touch Docum/readme
+  841  ls Docum
+  842  cd
+  843  mkdir Projects/Corresp
+  844  ls -F Projects
+  845  cd PRojects/Corresp
+  846  cd Projects/Corresp
+  847  pwd
+  848  vi replies
+  849  cd 
+  850  cd Projects/Code
+  851  ls -a
+  852  file .
+  853  file ..
+  854  pwd
+  855  ls -ai
+  856  cd .
+  857  ls -ai Code
+  858  cd ..
+  859  ls -ai Code
+  860  pwd
+  861  cd ../..
+  862  pwd
+  863  cd
+  864  pwd
+  865  cd ..
+  866  cd
+  867  mkdir Skye
+  868  ls -iF
+  869  ls ai Skye
+  870  ls -ai Sky
+  871  ls -ai Skye
+  872  cd
+  873  cd practice journal f-name
+  874  cp practice journal f-name
+  875  cp practice journal Docum/
+  876  ls Docum
+  877  mkdir Archives
+  878  cp users_on practice journal l* Archives/
+  879  ls Archives
+  880  touch cassy dimitri owen danny monika
+  881  ls -i
+  882  mv cassy dimitri owen danny monika Docum/
+  883  ls -i
+  884  ls -i Docum/
+  885  cd
+  886  cd Projects/Code
+  887  pwd
+  888  ls -ai
+  889  ls -ai report3
+  890  mv report3 ..
+  891  cd ..
+  892  pwd
+  893  ls -i
+  894  mv report3 Code
+  895  touch megan daniel betty
+  896  ls -i
+  897  mv megan daniel betty ..
+  898  ls -i
+  899  cd ..
+  900  ls
+  901  ls -i
+  902  cd /tmp
+  903  mkdir $USER
+  904  cd $USER
+  905  mkdir Mydir
+  906  cd Mydir
+  907  pwd
+  908  date > myfile
+  909  ls 
+  910  cat myfile
+  911  pwd
+  912  cd
+  913  more /tmp/$USER/Mydir/myfile
+  914  cd /tmp
+  915  pwd
+  916  ls ~
+  917  pwd
+  918  more ~/practice
+  919  cd ~/Projects/Code
+  920  pwd
+  921  echo ~
+  922  echo ~/Projects
+  923  echo ~/..
+  924  echo ~/Projects/Code
+  925  echo ~/ABCDE
+  926  echo My home is ~
+  927  grep root /etc/passwd
+  928  echo ~/root
+  929  echo ~lmeade
+  930  cd
+  931  pwd
+  932  ls
+  933  cd ~tmp
+  934  bash
+  935  cp journal projects/code/journal2
+  936  wc -l practice users
+  937  wc -l practice users_on
+  938  wc -l ./practice ./users_on
+  939  cd
+  940  ls Projects
+  941  vi Projects/actions
+  942  ls
+  943  ls Projects
+  944  cd Projects
+  945  wc ../users_on
+  946  ls ..
+  947  ls ../Docum
+  948  wc ../Docum/readme
+  949  cd
+  950  ls Projects/Code
+  951  wc Projects/Code/journal2
+  952  cd
+  953  cd /tmp
+  954  pwd
+  955  ls ~/Projects/Code
+  956  echo ~/Projects/Code
+  957  cd
+  958  ls /tmp
+  959  ls /tmp/$USER
+  960  pwd
+  961  cp practice /tmp/$USER/practice2
+  962  ls /tmp/$USER
+  963  cd /tmp/$USER
+  964  pwd
+  965  ls
+  966  cp practice2 ~/Projects/Code
+  967  ls ~/Projects/Code
+  968  cd /
+  969  pwd
+  970  cp ~/Projects/Code/report3 ~/Docum
+  971  cd ~/Projects
+  972  echo hello > ../greeting
+  973  ls ..
+  974  cp ../greeting .
+  975  cp ../* ~/Docum
+  976  ls ~/Docum
+  977  wc ~/users_on > /tmp/$USER/num_users_on
+  978  cd ~/Projects
+  979  pwd
+  980  ls
+  981  cd
+  982  ls -l | more
+  983  cd
+  984  pwd
+  985  ls -i testing-links
+  986  vi testing-links
+  987  ls -i testing-links
+  988  cd Archives
+  989  ls
+  990  ls ..
+  991  ln ../testing-links testing2
+  992  ls -i
+  993  cd
+  994  more testing-links
+  995  cd /Archives
+  996  cd ~/Archives
+  997  vi testing2
+  998  cd
+  999  more testing-links
+ 1000  ls -li testing-links
+ 1001  ls -li Archives/testing2
+ 1002  file testing-links
+ 1003  file Archives/testing2
+ 1004  ls -l testing-links
+ 1005  rm testing-links
+ 1006  ls
+ 1007  ls -l Archives
+ 1008  more Archives/testing2
+ 1009  ln users_on Archives
+ 1010  ls -i users_on
+ 1011  ls -i Archives/users_on
+ 1012  ls -l users_on
+ 1013  ln megan daniel betty Archives
+ 1014  ls -il megan daniel betty
+ 1015  ls -il Archives
+ 1016  cd ~/Projects
+ 1017  pwd
+ 1018  ln -s ~/journal
+ 1019  ls -i journal
+ 1020  ls -i ~/journal
+ 1021  echo 'In Projects File' >> journal
+ 1022  cat ~/journal
+ 1023  ls -l journal
+ 1024  file journal
+ 1025  rm journal
+ 1026  ls
+ 1027  date > ~/realfile
+ 1028  ln -s ~/reafile rf
+ 1029  ls -l rf
+ 1030  cat rf
+ 1031  rm ~/realfile
+ 1032  ls -l rf
+ 1033  cat rf
+ 1034  pwd
+ 1035  ln -s ~/Docum
+ 1036  ls -F
+ 1037  ls Docum
+ 1038  cd Docum
+ 1039  pwd
+ 1040  touch filefromProjects
+ 1041  cd
+ 1042  ls
+ 1043  ls Docum
+ 1044  ls Projects
+ 1045  ls -i Docum
+ 1046  ls -i Projects/Docum
+ 1047  cd
+ 1048  ln -s /tmp tmp
+ 1049  ls -l | more
+ 1050  ls ~/tmp
+ 1051  ls /tmp
+ 1052  cd
+ 1053  ls -F
+ 1054  ls -id Projects
+ 1055  mv Projects Old-projects
+ 1056  ls -F
+ 1057  ls -F Old-projects
+ 1058  ls -id Old-projects
+ 1059  mv Old-projects Projects
+ 1060  ls -id Projects
+ 1061  cd
+ 1062  pwd
+ 1063  ls
+ 1064  ls -F
+ 1065  mkdir Dirempty
+ 1066  ls -F
+ 1067  ls -id DIrempty
+ 1068  ls Dirempty
+ 1069  rmdir Dirempty
+ 1070  ls -F
+ 1071  rmdir Archives
+ 1072  cd ~/Projects
+ 1073  pwd; ls
+ 1074  rmdir Code
+ 1075  rm -r Code
+ 1076  ls -F
+ 1077  cd
+ 1078  exit
+ 1079  a=date
+ 1080  echo $a
+ 1081  b = hello
+ 1082  b=hello
+ 1083  echo b
+ 1084  echo $b
+ 1085  echo $a
+ 1086  $a
+ 1087  who | wc
+ 1088  who > wc
+ 1089  ls -l wc
+ 1090  more wc
+ 1091  ls | abcde
+ 1092  ls; cd /tmp; ls; cd; history
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ cal 1752 >yr1752; sleep 3; ls | wc -l ; wc yr1752
+98
+  36  452 2180 yr1752
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ lists[Kz; date
+listz: command not found
+Sun 27 Feb 2022 10:47:58 AM PST
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ sleep 2; date
+Sun 27 Feb 2022 10:48:04 AM PST
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ zzz; sleep 2 ; listz ; date ; ls | wc; slep 3
+
+Command 'zzz' not found, did you mean:
+
+  command 'zzt' from snap zzt (3.2)
+  command 'zz' from deb fex-utils (20160919-1)
+  command 'zgz' from deb pristine-tar (1.47)
+  command 'ezz' from deb fex-utils (20160919-1)
+  command 'bzz' from deb djvulibre-bin (3.5.27.1-14ubuntu0.1)
+  command 'zaz' from deb zaz (1.0.0~dfsg1-5build1)
+
+See 'snap info <snapname>' for additional versions.
+
+listz: command not found
+Sun 27 Feb 2022 10:48:31 AM PST
+     98      98     849
+
+Command 'slep' not found, did you mean:
+
+  command 'step' from snap step (21.08.0)
+  command 'slop' from deb slop (7.4-1ubuntu2)
+  command 'step' from deb step (4:19.12.3-0ubuntu1)
+  command 'sleep' from deb coreutils (8.30-3ubuntu2)
+
+See 'snap info <snapname>' for additional versions.
+
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ sle[K[K[Kpwd: cd[K[K[K[K; cd...[K[K[K ..; pwd ; cd .. pwd ; cd ..; pwd ; cd ; pwd
+/home/joshua
+/home
+bash: cd: too many arguments
+/
+/home/joshua
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ pwd; cd..; pwd ; cd..[K[K .. ; pwd ; cd ..; pwd ; cd ; pwd [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kd
+/home/joshua
+cd..: command not found
+/home/joshua
+/home
+/
+/home/joshua
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ dax [Kx $$[K[K&& echo HI
+daxx: command not found
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ wc -z practice 44 echo[K[K[K[K[K[K[K&& echo HI
+wc: invalid option -- 'z'
+Try 'wc --help' for more information.
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ wc -l practice && echo HI
+75 practice
+HI
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ date && xxxxx
+Sun 27 Feb 2022 10:51:55 AM PST
+xxxxx: command not found
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls -R ~ > ~/allmyfiles && wc ~/allmyfiles && more ~/ allmyfiles
+ 5333  5202 68196 /home/joshua/allmyfiles
+/home/joshua:
+a
+allmyfiles
+Archives
+betty
+c1
+c2
+c3
+cl
+daniel
+Desktop
+Docum
+Documents
+Downloads
+el
+exam1
+file2
+file.info1
+file.info2
+filewho
+first_file
+foo
+footer
+[7m--More--(0%)[27mfooter.1[K
+[7m--More--(0%)[27mfooter.2[K
+[7m--More--(0%)[27mgreeting[K
+[7m--More--(0%)[27mindex.html[K
+[7m--More--(0%)[27minstallation.txt
+[7m--More--(0%)[27mJoshuaLe-lab2.txt
+journal
+lab1.txt
+lab4.txt
+lab5.txt
+lab6.txt
+lab7.txt
+lost-days
+manywords
+me_A
+megan
+month
+Music
+mydata.txt
+myerr
+myfile1
+myoutput
+mypasswd
+names.tmp
+newfile1A
+newfile2B2
+Papers
+phon
+[7m--More--(0%)[27mPictures[K
+practice
+Private
+Projects
+Public
+quiz3.txt
+Recommendations
+repos
+respected
+Resumes
+review
+script1
+script.js
+second_file
+short-pass
+Skye
+s-mypasswd
+sortedsp3
+sorted-test-sor
+sort-test
+sp2
+sp3
+style.css
+[7m--More--(0%)[27mTemplates[K
+test-file1
+test-file2
+test-g
+test-list
+test-sor
+test.txt
+tmp
+total
+trouble
+users_on
+users_test
+Videos
+wc
+west-coast.names
+words.out
+wordsUsed
+wordsUsed1
+wordsUsed2
+wordsUsed3
+wordsUsed4
+wordsUsed5
+wordsUsed6
+[7m--More--(1%)[27mwordsUsed7[K
+wordsUsed8
+yr1752
+
+/home/joshua/a:
+b
+
+/home/joshua/a/b:
+c
+
+/home/joshua/a/b/c:
+
+/home/joshua/Archives:
+betty
+daniel
+journal
+lab1.txt
+lab4.txt
+lab5.txt
+lab6.txt
+lost-days
+megan
+practice
+[7m--More--(1%)[27mtesting2[K
+users_on
+
+/home/joshua/Desktop:
+mit-scheme-11.2
+mit-scheme-11.2-x86-64.tar.gz
+Project 1.odt
+users_on
+
+/home/joshua/Desktop/mit-scheme-11.2:
+dist
+doc
+etc
+src
+Tags.sh
+tests
+v8
+
+/home/joshua/Desktop/mit-scheme-11.2/dist:
+copyright.c
+copyright.scm
+index.html
+make-doc-files
+[7m--More--(1%)[27mMakefile[K
+make-liarc-files
+make-macosx-app
+make-native-files
+make-scmutils
+make-src-files
+make-upload-files
+parameter-plan.txt
+scheme-inst.nsi
+shared.sh
+update-copyright.scm
+
+/home/joshua/Desktop/mit-scheme-11.2/doc:
+autom4te.cache
+configure
+configure.ac
+ffi
+index.html
+info-dir
+install-sh
+make-common.in
+Makefile.in
+mit-scheme.1
+[7m--More--(2%)[27mmkinstalldirs
+ref-manual
+sos
+user-manual
+
+/home/joshua/Desktop/mit-scheme-11.2/doc/autom4te.cache:
+output.0
+requests
+traces.0
+
+/home/joshua/Desktop/mit-scheme-11.2/doc/ffi:
+ffi.texinfo
+Makefile.in
+prhello.cdecl
+prhello-Makefile
+prhello.scm
+
+/home/joshua/Desktop/mit-scheme-11.2/doc/ref-manual:
+acknowledgements.texi
+associations.texi
+binding-index.texi
+bit-strings.texi
+characters.texi
+[7m--More--(2%)[27mconcept-index.texi
+environments.texi
+equivalence.texi
+error.texi
+fig
+gfdl.texinfo
+graphics.texi
+io.texi
+lists.texi
+Makefile.in
+misc-datatypes.texi
+numbers.texi
+os-interface.texi
+overview.texi
+procedures.texi
+scheme.texinfo
+special-forms.texi
+standards.texi
+strings.texi
+tools.scm
+vectors.texi
+win32-packaging.texi
+
+[7m--More--(3%)[27m/home/joshua/Desktop/mit-scheme-11.2/doc/ref-manual/fig:
+cn-expm1.eps.in
+cn-log1mexp.eps.in
+cn-log1p.eps.in
+cn-log1pexp.eps.in
+cn-logistic.eps.in
+cn-logistichalf.eps.in
+cn-logit.eps.in
+cn-logitexp.eps.in
+cn-logithalf.eps.in
+cn-loglogistic.eps.in
+common
+expm1.eps.in
+log1mexp.eps.in
+log1p.eps.in
+log1pexp.eps.in
+logistic.eps.in
+logistichalf.eps.in
+logit.eps.in
+logitexp.eps.in
+logithalf.eps.in
+loglogistic.eps.in
+
+[7m--More--(4%)[27m/home/joshua/Desktop/mit-scheme-11.2/doc/ref-manual/fig/common:
+ad.ps
+debug.ps
+linsplin.ps
+math.ps
+newton.ps
+plot.ps
+splinterp.ps
+
+/home/joshua/Desktop/mit-scheme-11.2/doc/sos:
+Makefile.in
+sos.texinfo
+
+/home/joshua/Desktop/mit-scheme-11.2/doc/user-manual:
+Makefile.in
+user.texinfo
+
+/home/joshua/Desktop/mit-scheme-11.2/etc:
+bootstrap.scm
+build-tree.sh
+check-crefs
+dirdif.scm
+dumpdat.scm
+[7m--More--(4%)[27mmake_bin[K
+make_dist
+make-git-log
+make_psb
+make_runtime
+mkauto.bat
+mkband.scm
+mkopt.bat
+nrwcopyr.el
+packc386.scm
+pack-compiler-alpha.scm
+pack-compiler-mc68k.scm
+pack-compiler-mips.scm
+pack-compiler.scm
+pack-compiler-spectrum.scm
+pack-edwin.scm
+pack-edwin-unix.scm
+packew32.scm
+pack.scm
+r2bs.scm
+rebuild
+rebuild-7.4
+rebuild-7.4-linux
+[7m--More--(5%)[27mrebuild-8.0[K
+[7m--More--(5%)[27mredump[K
+[7m--More--(5%)[27mresyntax[K
+resyntax.scm
+run-three-stages
+scheme.el
+update-rcs-log
+update-rcs-log.in
+xscheme.el
+
+/home/joshua/Desktop/mit-scheme-11.2/src:
+6001
+autom4te.cache
+berkeley-db
+blowfish
+Clean.sh
+compiler
+confdefs.h
+config.guess
+config.log
+config.status
+config.sub
+configure
+configure.ac
+COPYING
+[7m--More--(5%)[27mcref[K
+edwin
+etc
+ffi
+gdbm
+imail
+lib
+libraries
+Makefile
+Makefile.in
+makefiles_created
+Makefile.tools
+Makefile.tools.in
+mcrypt
+microcode
+pgsql
+README.txt
+relnotes
+run-build
+runtime
+Setup.sh
+sf
+sos
+[7m--More--(5%)[27mssp[K
+Stage.sh
+stamp_cross-host
+star-parser
+Tags.sh
+tools
+win32
+x11
+x11-screen
+xdoc
+xml
+
+/home/joshua/Desktop/mit-scheme-11.2/src/6001:
+6001.cbf
+6001.pkg
+6001.sf
+arith.scm
+Clean.sh
+edextra.scm
+floppy.scm
+Makefile
+Makefile-fragment
+Makefile.in
+[7m--More--(6%)[27mmake.scm[K
+nodefs.scm
+pic-imag.scm
+pic-ops.scm
+pic-read.scm
+pic-reco.scm
+picture.scm
+Setup.sh
+Stage.sh
+Tags.sh
+
+/home/joshua/Desktop/mit-scheme-11.2/src/autom4te.cache:
+output.0
+requests
+traces.0
+
+/home/joshua/Desktop/mit-scheme-11.2/src/berkeley-db:
+berkeley-db.scm
+configure.ac
+prdb4.c
+prdb4.scm
+README
+
+[7m--More--(6%)[27m[K]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ xxx || echo HI
+
+Command 'xxx' not found, did you mean:
+
+  command 'x2x' from deb x2x (1.30-8)
+  command 'xdx' from deb xdx (2.5.0-2)
+  command 'xx' from deb fex-utils (20160919-1)
+  command 'xxd' from deb xxd (2:8.1.2269-1ubuntu5.7)
+
+Try: sudo apt install <deb name>
+
+HI
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ date || echo hI
+Sun 27 Feb 2022 10:53:01 AM PST
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ echo today is `date`
+today is Sun 27 Feb 2022 10:53:11 AM PST
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ echo today is $(date)
+today is Sun 27 Feb 2022 10:53:17 AM PST
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ echo h[Kthere are  [K$(who | wc -l) users_on
+there are 1 users_on
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls L [K[K> ls-files
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ e[Kset +o clo[K[K[Knoclobber
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ set[K[K[Khead -10 /etc/passwd > testingmo[K[K
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ more testing
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ cal > testing
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ more testing
+   February 2022      
+Su Mo Tu We Th Fr Sa  
+       1  2  3  4  5  
+ 6  7  8  9 10 11 12  
+13 14 15 16 17 18 19  
+20 21 22 23 24 25 26  
+[4m27[24m 28                 
+                      
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ cp practice pract-2
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ more practi[K-2
+I was in the middle of a line,It is essential to be able to place text above the
+ current line
+The difference between i and a  
+The drMIapple baanana cat dog wolf am now adding more text
+What are the two modes of the visual editor?
+There is more than one way to move
+eddveral times in this course.
+
+Although I am created this file with the cat command,
+later you will be editing it using vi.
+
+a b c d
+2 3 4 5
+2 3 4 5
+A B C D
+E F G H
+
+vi permits global changes, reading/writing files, cutting and pasting, and 
+tailoring the environment to meet individual needs.
+
+There is no need for a mouse, you can keep your fingers where they belong, 
+on the keyboard, everything is done through commands.
+
+[7m--More--(19%)[27m[K
+...skipping 1 line
+
+There are two commands that can be used to list directory contents-the dir and l
+s commands. 
+The dir command has been added to Linux and is not a standard UNIX command. The 
+ls command comes 
+The dir command has been added to Linux and is not a standard UNIX command. The 
+ls command comes 
+from the UNIX tradition and is the command you'll explore in this course.  
+The ls command lists the files in a directory. This command takes several option
+s and arguments. 
+
+Line editors allow you to work with a line of text at a time. A screen editor di
+splays an entire screen of text. 
+A stream editor manipulates text as a stream of data, and is usually used in she
+ll scripts, small programs 
+written for and executed by the shell. The ex text editor is the foundation for 
+vi, the screen editor we 
+used in a previous module. You could call vi the visual mode of the underlying e
+x line editor. 
+Ed is generally no longer used as a line editor because it has been superceded b
+y ex, but some utilities 
+like the diff command continue to use the ed syntax.
+
+[7m--More--(51%)[27mThe screen editors vi and emacs are screen editors because you can view an entir
+e screen of text for editing. 
+You can see the changes you make as you make them. Because vi is a screen versio
+n of the ex editor, many of 
+the ex commands can be used in vi. For example, you can still take advantage of 
+the global replacement and 
+pattern searches of the underlying ex editor when using vi. In fact, if you ever
+ begin your vi command with: 
+the colon, you are using an ex command in vi.  Remember the :q! command? It come
+s from vi's ex roots.
+
+A stream editor is a non-interactive or stream-oriented editor. You do not view 
+the text as you manipulate it. 
+Instead, you give your commands to the editor which runs the commands as a batch
+. The standard input and 
+for a stream editor. We will come back to stream editors later in the module, an
+d look in detail at the sed stream editor.
+k
+:1!:
+
+
+This practice file will be used
+several times in this course.
+[7m--More--(78%)[27m[K
+[7m--More--(78%)[27mAlthough I am created this file with the cat command,
+[7m--More--(79%)[27m[K]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ pra[K[K[Ksort practi[K-2 > practi-2
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ more pract-2
+I was in the middle of a line,It is essential to be able to place text above the
+ current line
+The difference between i and a  
+The drMIapple baanana cat dog wolf am now adding more text
+What are the two modes of the visual editor?
+There is more than one way to move
+eddveral times in this course.
+
+Although I am created this file with the cat command,
+later you will be editing it using vi.
+
+a b c d
+2 3 4 5
+2 3 4 5
+A B C D
+E F G H
+
+vi permits global changes, reading/writing files, cutting and pasting, and 
+tailoring the environment to meet individual needs.
+
+There is no need for a mouse, you can keep your fingers where they belong, 
+on the keyboard, everything is done through commands.
+
+[7m--More--(19%)[27mThere are two commands that can be used to list directory contents-the dir and l
+[7m--More--(21%)[27ms commands. [K
+
+There are two commands that can be used to list directory contents-the dir and l
+s commands. 
+The dir command has been added to Linux and is not a standard UNIX command. The 
+ls command comes 
+The dir command has been added to Linux and is not a standard UNIX command. The 
+ls command comes 
+from the UNIX tradition and is the command you'll explore in this course.  
+The ls command lists the files in a directory. This command takes several option
+s and arguments. 
+
+Line editors allow you to work with a line of text at a time. A screen editor di
+splays an entire screen of text. 
+A stream editor manipulates text as a stream of data, and is usually used in she
+ll scripts, small programs 
+written for and executed by the shell. The ex text editor is the foundation for 
+vi, the screen editor we 
+used in a previous module. You could call vi the visual mode of the underlying e
+x line editor. 
+Ed is generally no longer used as a line editor because it has been superceded b
+y ex, but some utilities 
+like the diff command continue to use the ed syntax.
+[7m--More--(51%)[27m[K
+The screen editors vi and emacs are screen editors because you can view an entir
+e screen of text for editing. 
+You can see the changes you make as you make them. Because vi is a screen versio
+n of the ex editor, many of 
+the ex commands can be used in vi. For example, you can still take advantage of 
+the global replacement and 
+pattern searches of the underlying ex editor when using vi. In fact, if you ever
+ begin your vi command with: 
+the colon, you are using an ex command in vi.  Remember the :q! command? It come
+s from vi's ex roots.
+
+A stream editor is a non-interactive or stream-oriented editor. You do not view 
+the text as you manipulate it. 
+Instead, you give your commands to the editor which runs the commands as a batch
+. The standard input and 
+for a stream editor. We will come back to stream editors later in the module, an
+d look in detail at the sed stream editor.
+k
+:1!:
+
+
+This practice file will be used
+[7m--More--(77%)[27mseveral times in this course.
+
+Although I am created this file with the cat command,
+later you will be editing it using vi.
+
+a b c d
+2 3 4 5
+2 3 4 5
+A B C D
+E F G H
+
+vi permits global changes, reading/writing files, cutting and pasting, and 
+tailoring the environment to meet individual needs.
+
+1 2 3 4 
+I J K L
+M N O P
+Q R S T
+
+The ex editor will return the name of file, the total number of lines & characte
+rs, and give you the : 
+colon command prompt. You can also invoke the ex line editor in vi by typing a c
+olon. An ex command, 
+[7m--More--(92%)[27mwhether used in ex or in vi, consists of a line address, such as a line number, 
+and a command. If 
+you leave off the command, the print command (display to the screen) is assumed.
+ For example, 
+I could type 100 in the ex line editor and line 100 would display to the screen.
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ set -o noclobber
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ who > testing
+bash: testing: cannot overwrite existing file
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ who >> testing
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ wc > junk-wc
+$ grep the
+hello
+Is grep looking for th  e target string?
+YES!
+the is the target
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ who | grep yourlogin | wc -l > n-on
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ who \[K| grep joshualogin | wc -l > n-on
+bash: n-on: cannot overwrite existing file
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls -l practice xxxxA
+ls: cannot access 'xxxxA': No such file or directory
+-rw-rw-r-- 1 joshua joshua 3568 Feb 13 15:55 practice
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls -l practice xxxxA 2 [K> myerrors
+-rw-rw-r-- 1 joshua joshua 3568 Feb 13 15:55 practice
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ more my erorrs[K[K[K[K[K[K[Kerrors
+ls: cannot access 'xxxxA': No such file or directory
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ 
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ more -l practice xxxxA > lsoutpu [Kt 2>ls error[K[K[K[K[K[K[K[K lserror
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ more lsoutput
+::::::::::::::
+practice
+::::::::::::::
+I was in the middle of a line,It is essential to be able to place text above the
+ current line
+The difference between i and a  
+The drMIapple baanana cat dog wolf am now adding more text
+What are the two modes of the visual editor?
+There is more than one way to move
+eddveral times in this course.
+
+Although I am created this file with the cat command,
+later you will be editing it using vi.
+
+a b c d
+2 3 4 5
+2 3 4 5
+A B C D
+E F G H
+
+vi permits global changes, reading/writing files, cutting and pasting, and 
+tailoring the environment to meet individual needs.
+
+[7m--More--(16%)[27mThere is no need for a mouse, you can keep your fingers where they belong, 
+on the keyboard, everything is done through commands.
+
+There are two commands that can be used to list directory contents-the dir and l
+s commands. 
+
+There are two commands that can be used to list directory contents-the dir and l
+s commands. 
+The dir command has been added to Linux and is not a standard UNIX command. The 
+ls command comes 
+The dir command has been added to Linux and is not a standard UNIX command. The 
+ls command comes 
+from the UNIX tradition and is the command you'll explore in this course.  
+The ls command lists the files in a directory. This command takes several option
+s and arguments. 
+
+Line editors allow you to work with a line of text at a time. A screen editor di
+splays an entire screen of text. 
+A stream editor manipulates text as a stream of data, and is usually used in she
+ll scripts, small programs 
+written for and executed by the shell. The ex text editor is the foundation for 
+vi, the screen editor we 
+used in a previous module. You could call vi the visual mode of the underlying e
+[7m--More--(47%)[27m[K
+...skipping 1 line
+Ed is generally no longer used as a line editor because it has been superceded b
+y ex, but some utilities 
+like the diff command continue to use the ed syntax.
+
+The screen editors vi and emacs are screen editors because you can view an entir
+e screen of text for editing. 
+You can see the changes you make as you make them. Because vi is a screen versio
+n of the ex editor, many of 
+the ex commands can be used in vi. For example, you can still take advantage of 
+the global replacement and 
+pattern searches of the underlying ex editor when using vi. In fact, if you ever
+ begin your vi command with: 
+the colon, you are using an ex command in vi.  Remember the :q! command? It come
+s from vi's ex roots.
+
+A stream editor is a non-interactive or stream-oriented editor. You do not view 
+the text as you manipulate it. 
+Instead, you give your commands to the editor which runs the commands as a batch
+. The standard input and 
+for a stream editor. We will come back to stream editors later in the module, an
+d look in detail at the sed stream editor.
+k
+:1!:
+[7m--More--(76%)[27m[K
+
+This practice file will be used
+several times in this course.
+
+Although I am created this file with the cat command,
+later you will be editing it using vi.
+
+a b c d
+2 3 4 5
+2 3 4 5
+A B C D
+E F G H
+
+vi permits global changes, reading/writing files, cutting and pasting, and 
+tailoring the environment to meet individual needs.
+
+1 2 3 4 
+I J K L
+M N O P
+Q R S T
+
+The ex editor will return the name of file, the total number of lines & characte
+[7m--More--(88%)[27mrs, and give you the : 
+colon command prompt. You can also invoke the ex line editor in vi by typing a c
+olon. An ex command, 
+whether used in ex or in vi, consists of a line address, such as a line number, 
+and a command. If 
+you leave off the command, the print command (display to the screen) is assumed.
+ For example, 
+I could type 100 in the ex line editor and line 100 would display to the screen.
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls[K[Kmore lserror
+more: stat of xxxxA failed: No such file or directory
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls -l practice xxxxA > lsoutput 2> /dev/null
+bash: lsoutput: cannot overwrite existing file
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ cat /dev/null
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ sleep 5
+l sleep 200 ]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ sleep 200 &
+[1] 36341
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ps -l
+F S   UID     PID    PPID  C PRI  NI ADDR SZ WCHAN  TTY          TIME CMD
+0 S  1000    1361    1360  0  80   0 -  5338 do_wai pts/1    00:00:00 bash
+0 S  1000    1473    1361  0  80   0 -  5305 do_wai pts/1    00:00:00 bash
+0 S  1000   36341    1473  0  80   0 -  4606 hrtime pts/1    00:00:00 sleep
+0 R  1000   36342    1473  0  80   0 -  5440 -      pts/1    00:00:00 ps
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ sort | grep aaa | tee bb | wc
+Let's enter data d for srt  ort
+aaa
+ababa 
+aaahhhh
+      2       2      12
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ps -l
+F S   UID     PID    PPID  C PRI  NI ADDR SZ WCHAN  TTY          TIME CMD
+0 S  1000    1361    1360  0  80   0 -  5338 do_wai pts/1    00:00:00 bash
+0 S  1000    1473    1361  0  80   0 -  5305 do_wai pts/1    00:00:00 bash
+0 S  1000   36341    1473  0  80   0 -  4606 hrtime pts/1    00:00:00 sleep
+0 R  1000   36347    1473  0  80   0 -  5440 -      pts/1    00:00:00 ps
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ fg
+sleep 200
+touch chap
+
+^Z
+[1]+  Stopped                 sleep 200
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ touch chap chapter 2 chapter 5[K[K[K[K[K[K[K[K[K[K[K[K2 chapter5 summaries
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ touch chapter chapter3 chapter5A[KA chp[Kapter57 chapter62 [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K2
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ touch chapter1 chapter4 index chapterA chapterR chap ter2-5
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ touc[K[K[Kl[K[Kls
+[0m[01;34ma[0m           [01;34mDocuments[0m          lost-days   [01;34mPrivate[0m          test-g
+allmyfiles  [01;34mDownloads[0m          lserror     [01;34mProjects[0m         testing
+[01;34mArchives[0m    el                 ls-files    [01;34mPublic[0m           test-list
+bb          [01;34mexam1[0m              lsoutput    quiz3.txt        test-sor
+betty       file2              manywords   [01;34mRecommendations[0m  test.txt
+c1          file.info1         me_A        [01;34mrepos[0m            [01;36mtmp[0m
+c2          file.info2         megan       respected        total
+c3          filewho            month       [01;34mResumes[0m          trouble
+chap        first_file         [01;34mMusic[0m       review           users_on
+chapter     [01;34mfoo[0m                [01;32mmydata.txt[0m  script1          users_test
+chapter1    footer             myerr       script.js        [01;34mVideos[0m
+chapter2    footer.1           myerrors    second_file      wc
+chapter2-5  footer.2           myfile1     short-pass       west-coast.names
+chapter3    greeting           myoutput    [01;34mSkye[0m             words.out
+chapter4    index              mypasswd    s-mypasswd       [01;32mwordsUsed[0m
+chapter5    index.html         names.tmp   sortedsp3        [01;32mwordsUsed1[0m
+chapter57   installation.txt   newfile1A   sorted-test-sor  [01;32mwordsUsed2[0m
+chapter5A   JoshuaLe-lab2.txt  newfile2B2  sort-test        [01;32mwordsUsed3[0m
+chapter62   journal            n-on        sp2              [01;32mwordsUsed4[0m
+chapterA    junk-wc            [01;34mPapers[0m      sp3              [01;32mwordsUsed5[0m
+chapterR    lab1.txt           phon        style.css        [01;32mwordsUsed6[0m
+cl          lab4.txt           [01;34mPictures[0m    summaries        [01;32mwordsUsed7[0m
+daniel      lab5.txt           pract-2     [01;34mTemplates[0m        [01;32mwordsUsed8[0m
+[01;34mDesktop[0m     lab6.txt           practi-2    test-file1       yr1752
+[01;34mDocum[0m       lab7.txt           practice    test-file2
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ echo chap files are cha[K[K[K[K: chap*
+chap files are: chap chapter chapter1 chapter2 chapter2-5 chapter3 chapter4 chapter5 chapter57 chapter5A chapter62 chapterA chapterR
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls chp[Kapter?
+chapter1  chapter2  chapter3  chapter4  chapter5  chapterA  chapterR
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls chapter[2-7]*
+chapter2    chapter3  chapter5   chapter5A
+chapter2-5  chapter4  chapter57  chapter62
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls chapter [0-9][0-9]
+ls: cannot access '[0-9][0-9]': No such file or directory
+ chapter
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls chapter[0-9][0-9]
+chapter57  chapter62
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ echo chapter [R3[K[K[K[K[R3A1]
+chapter1 chapter3 chapterA chapterR
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ echo chapter[1, 3, 5A}
+chapter[1, 3, 5A}
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ touch ABC [K[1, 2, 3, 4, 16}
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls AB*
+'ABC[1,'
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ touch ABC{1,2,3,4,16}
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls AB*
+'ABC[1,'   ABC1   ABC16   ABC2   ABC3   ABC4
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ AA=200
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ echo $AA
+200
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ set | more
+AA=200
+BASH=/usr/bin/bash
+BASHOPTS=checkwinsize:cmdhist:complete_fullquote:expand_aliases:extglob:extquote
+:force_fignore:globasciiranges:histappend:interactive_comments:progcomp:promptva
+rs:sourcepath
+BASH_ALIASES=()
+BASH_ARGC=([0]="0")
+BASH_ARGV=()
+BASH_CMDS=()
+BASH_COMPLETION_VERSINFO=([0]="2" [1]="10")
+BASH_LINENO=()
+BASH_SOURCE=()
+BASH_VERSINFO=([0]="5" [1]="0" [2]="17" [3]="1" [4]="release" [5]="x86_64-pc-lin
+ux-gnu")
+BASH_VERSION='5.0.17(1)-release'
+CLUTTER_BACKEND=x11
+COLORTERM=truecolor
+COLUMNS=80
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+DESKTOP_SESSION=xubuntu
+DIRSTACK=()
+DISPLAY=:0.0
+EUID=1000
+[7m--More--[27m[K
+...skipping 23 lines
+OPTERR=1
+OPTIND=1
+OSTYPE=linux-gnu
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/us
+r/local/games:/snap/bin
+PIPESTATUS=([0]="0")
+PPID=1361
+PS1='\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\
+[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
+PS2='> '
+PS4='+ '
+PWD=/home/joshua
+QT_ACCESSIBILITY=1
+QT_QPA_PLATFORMTHEME=gtk2
+SESSION_MANAGER=local/joshua-VirtualBox:@/tmp/.ICE-unix/850,unix/joshua-VirtualB
+ox:/tmp/.ICE-unix/850
+SHELL=/bin/bash
+SHELLOPTS=braceexpand:emacs:hashall:histexpand:history:interactive-comments:moni
+tor:noclobber
+SHLVL=3
+SSH_AGENT_PID=971
+SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+TERM=xterm-256color
+[7m--More--[27m[K
+...skipping 1 line
+USER=joshua
+VTE_VERSION=6003
+WINDOWID=73400323
+XAUTHORITY=/home/joshua/.Xauthority
+XDG_CONFIG_DIRS=/etc/xdg/xdg-xubuntu:/etc/xdg:/etc/xdg
+XDG_CURRENT_DESKTOP=XFCE
+XDG_DATA_DIRS=/usr/share/xubuntu:/usr/share/xfce4:/usr/local/share:/usr/share:/v
+ar/lib/snapd/desktop:/usr/share
+XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/joshua
+XDG_MENU_PREFIX=xfce-
+XDG_RUNTIME_DIR=/run/user/1000
+XDG_SEAT=seat0
+XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+XDG_SESSION_CLASS=user
+XDG_SESSION_DESKTOP=xubuntu
+XDG_SESSION_ID=c1
+XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0
+XDG_SESSION_TYPE=x11
+XDG_VTNR=7
+_=200
+__git_printf_supports_v=yes
+_backup_glob='@(#*#|*@(~|.@(bak|orig|rej|swp|dpkg*|rpm@(orig|new|save))))'
+_xspecs=([lokalize]="!*.po" [acroread]="!*.[pf]df" [lbzcat]="!*.?(t)bz?(2)" [mpg
+[7m--More--[27m321]="!*.mp3" [bzcat]="!*.?(t)bz?(2)" [oocalc]="!*.@(sxc|stc|xls?([bmx])|xlw|xlt
+?([mx])|[ct]sv|?(f)ods|ots)" [tex]="!*.@(?(la)tex|texi|dtx|ins|ltx|dbj)" [unlzma
+]="!*.@(tlz|lzma)" [sxemacs]="*.@([ao]|so|so.!(conf|*/*)|[rs]pm|gif|jp?(e)g|mp3|
+mp?(e)g|avi|asf|ogg|class)" [aviplay]="!*.@(avi|asf|wmv)" [lbunzip2]="!*.?(t)bz?
+(2)" [dragon]="!*@(.@(mp?(e)g|MP?(E)G|wm[av]|WM[AV]|avi|AVI|asf|vob|VOB|bin|dat|
+divx|DIVX|vcd|ps|pes|fli|flv|FLV|fxm|FXM|viv|rm|ram|yuv|mov|MOV|qt|QT|web[am]|WE
+B[AM]|mp[234]|MP[234]|m?(p)4[av]|M?(P)4[AV]|mkv|MKV|og[agmvx]|OG[AGMVX]|t[ps]|T[
+PS]|m2t?(s)|M2T?(S)|mts|MTS|wav|WAV|flac|FLAC|asx|ASX|mng|MNG|srt|m[eo]d|M[EO]D|
+s[3t]m|S[3T]M|it|IT|xm|XM|iso|ISO)|+([0-9]).@(vdr|VDR))?(.@(crdownload|part))" [
+freeamp]="!*.@(mp3|og[ag]|pls|m3u)" [rgvim]="*.@([ao]|so|so.!(conf|*/*)|[rs]pm|g
+if|jp?(e)g|mp3|mp?(e)g|avi|asf|ogg|class)" [ooimpress]="!*.@(sxi|sti|pps?(x)|ppt
+?([mx])|pot?([mx])|?(f)odp|otp)" [gqmpeg]="!*.@(mp3|og[ag]|pls|m3u)" [texi2html]
+="!*.texi*" [hbpp]="!*.@([Pp][Rr][Gg]|[Cc][Ll][Pp])" [lowriter]="!*.@(sxw|stw|sx
+g|sgl|doc?([mx])|dot?([mx])|rtf|txt|htm|html|?(f)odt|ott|odm|pdf)" [qiv]="!*.@(g
+if|jp?(e)g|tif?(f)|png|p[bgp]m|bmp|x[bp]m|rle|rgb|pcx|fits|pm|svg)" [xanim]="!*.
+@(mpg|mpeg|avi|mov|qt)" [ps2pdfwr]="!*.@(?(e)ps|pdf)" [harbour]="!*.@([Pp][Rr][G
+g]|[Cc][Ll][Pp])" [jadetex]="!*.@(?(la)tex|texi|dtx|ins|ltx|dbj)" [lodraw]="!*.@
+(sxd|std|sda|sdd|?(f)odg|otg)" [dvitype]="!*.dvi" [lobase]="!*.odb" [rpm2cpio]="
+!*.[rs]pm" [xine]="!*@(.@(mp?(e)g|MP?(E)G|wm[av]|WM[AV]|avi|AVI|asf|vob|VOB|bin|
+dat|divx|DIVX|vcd|ps|pes|fli|flv|FLV|fxm|FXM|viv|rm|ram|yuv|mov|MOV|qt|QT|web[am
+]|WEB[AM]|mp[234]|MP[234]|m?(p)4[av]|M?(P)4[AV]|mkv|MKV|og[agmvx]|OG[AGMVX]|t[ps
+]|T[PS]|m2t?(s)|M2T?(S)|mts|MTS|wav|WAV|flac|FLAC|asx|ASX|mng|MNG|srt|m[eo]d|M[E
+O]D|s[3t]m|S[3T]M|it|IT|xm|XM)|+([0-9]).@(vdr|VDR))?(.@(crdownload|part))" [lual
+[7m--More--[27matex]="!*.@(?(la)tex|texi|dtx|ins|ltx|dbj)" [localc]="!*.@(sxc|stc|xls?([bmx])|x
+lw|xlt?([mx])|[ct]sv|?(f)ods|ots)" [hbrun]="!*.[Hh][Rr][Bb]" [amaya]="!*.@(?([xX
+]|[sS])[hH][tT][mM]?([lL]))" [gv]="!*.@(@(?(e)ps|?(E)PS|pdf|PDF)?(.gz|.GZ|.bz2|.
+BZ2|.Z))" [unpigz]="!*.@(Z|[gGdz]z|t[ag]z)" [mozilla]="!*.@(?([xX]|[sS])[hH][tT]
+[mM]?([lL]))" [epdfview]="!*.pdf" [dvips]="!*.dvi" [pdfunite]="!*.pdf" [ps2pdf14
+]="!*.@(?(e)ps|pdf)" [kid3]="!*.@(mp[234c]|og[ag]|@(fl|a)ac|m4[abp]|spx|tta|w?(a
+)v|wma|aif?(f)|asf|ape)" [vi]="*.@([ao]|so|so.!(conf|*/*)|[rs]pm|gif|jp?(e)g|mp3
+|mp?(e)g|avi|asf|ogg|class)" [ps2pdf]="!*.@(?(e)ps|pdf)" [gpdf]="!*.[pf]df" [lil
+ypond]="!*.ly" [texi2dvi]="!*.@(?(la)tex|texi|dtx|ins|ltx|dbj)" [modplug123]="!*
+.@(669|abc|am[fs]|d[bs]m|dmf|far|it|mdl|m[eo]d|mid?(i)|mt[2m]|oct|okt?(a)|p[st]m
+|s[3t]m|ult|umx|wav|xm)" [znew]="*.Z" [ps2pdf13]="!*.@(?(e)ps|pdf)" [ps2pdf12]="
+!*.@(?(e)ps|pdf)" [kwrite]="*.@([ao]|so|so.!(conf|*/*)|[rs]pm|gif|jp?(e)g|mp3|mp
+?(e)g|avi|asf|ogg|class)" [latex]="!*.@(?(la)tex|texi|dtx|ins|ltx|dbj)" [kate]="
+*.@([ao]|so|so.!(conf|*/*)|[rs]pm|gif|jp?(e)g|mp3|mp?(e)g|avi|asf|ogg|class)" [p
+bzcat]="!*.?(t)bz?(2)" [poedit]="!*.po" [view]="*.@([ao]|so|so.!(conf|*/*)|[rs]p
+m|gif|jp?(e)g|mp3|mp?(e)g|avi|asf|ogg|class)" [kid3-qt]="!*.@(mp[234c]|og[ag]|@(
+fl|a)ac|m4[abp]|spx|tta|w?(a)v|wma|aif?(f)|asf|ape)" [luatex]="!*.@(?(la)tex|tex
+i|dtx|ins|ltx|dbj)" [bunzip2]="!*.?(t)bz?(2)" [dvipdfm]="!*.dvi" [kbabel]="!*.po
+" [ly2dvi]="!*.ly" [oodraw]="!*.@(sxd|std|sda|sdd|?(f)odg|otg)" [bzme]="!*.@(zip
+|z|gz|tgz)" [rgview]="*.@([ao]|so|so.!(conf|*/*)|[rs]pm|gif|jp?(e)g|mp3|mp?(e)g|
+avi|asf|ogg|class)" [pdftex]="!*.@(?(la)tex|texi|dtx|ins|ltx|dbj)" [xemacs]="*.@
+([ao]|so|so.!(conf|*/*)|[rs]pm|gif|jp?(e)g|mp3|mp?(e)g|avi|asf|ogg|class)" [zath
+ura]="!*.@(cb[rz7t]|djv?(u)|?(e)ps|pdf)" [unxz]="!*.@(?(t)xz|tlz|lzma)" [rvim]="
+[7m--More--[27m*.@([ao]|so|so.!(conf|*/*)|[rs]pm|gif|jp?(e)g|mp3|mp?(e)g|avi|asf|ogg|class)" [m
+adplay]="!*.mp3" [xetex]="!*.@(?(la)tex|texi|dtx|ins|ltx|dbj)" [gvim]="*.@([ao]|
+so|so.!(conf|*/*)|[rs]pm|gif|jp?(e)g|mp3|mp?(e)g|avi|asf|ogg|class)" [kaffeine]=
+"!*@(.@(mp?(e)g|MP?(E)G|wm[av]|WM[AV]|avi|AVI|asf|vob|VOB|bin|dat|divx|DIVX|vcd|
+ps|pes|fli|flv|FLV|fxm|FXM|viv|rm|ram|yuv|mov|MOV|qt|QT|web[am]|WEB[AM]|mp[234]|
+MP[234]|m?(p)4[av]|M?(P)4[AV]|mkv|MKV|og[agmvx]|OG[AGMVX]|t[ps]|T[PS]|m2t?(s)|M2
+T?(S)|mts|MTS|wav|WAV|flac|FLAC|asx|ASX|mng|MNG|srt|m[eo]d|M[EO]D|s[3t]m|S[3T]M|
+it|IT|xm|XM|iso|ISO)|+([0-9]).@(vdr|VDR))?(.@(crdownload|part))" [dviselect]="!*
+.dvi" [kpdf]="!*.@(?(e)ps|pdf)" [bibtex]="!*.aux" [realplay]="!*.@(rm?(j)|ra?(m)
+|smi?(l))" [mpg123]="!*.mp3" [netscape]="!*.@(?([xX]|[sS])[hH][tT][mM]?([lL]))" 
+[lzegrep]="!*.@(tlz|lzma)" [gview]="*.@([ao]|so|so.!(conf|*/*)|[rs]pm|gif|jp?(e)
+g|mp3|mp?(e)g|avi|asf|ogg|class)" [kdvi]="!*.@(dvi|DVI)?(.@(gz|Z|bz2))" [xv]="!*
+.@(gif|jp?(e)g?(2)|j2[ck]|jp[2f]|tif?(f)|png|p[bgp]m|bmp|x[bp]m|rle|rgb|pcx|fits
+|pm|?(e)ps)" [lzfgrep]="!*.@(tlz|lzma)" [playmidi]="!*.@(mid?(i)|cmf)" [lzless]=
+"!*.@(tlz|lzma)" [elinks]="!*.@(?([xX]|[sS])[hH][tT][mM]?([lL]))" [timidity]="!*
+.@(mid?(i)|rmi|rcp|[gr]36|g18|mod|xm|it|x3m|s[3t]m|kar)" [xdvi]="!*.@(dvi|DVI)?(
+.@(gz|Z|bz2))" [xfig]="!*.fig" [xpdf]="!*.@(pdf|fdf)?(.@(gz|GZ|bz2|BZ2|Z))" [lom
+ath]="!*.@(sxm|smf|mml|odf)" [lzcat]="!*.@(tlz|lzma)" [compress]="*.Z" [pdfjadet
+ex]="!*.@(?(la)tex|texi|dtx|ins|ltx|dbj)" [kghostview]="!*.@(@(?(e)ps|?(E)PS|pdf
+|PDF)?(.gz|.GZ|.bz2|.BZ2|.Z))" [zcat]="!*.@(Z|[gGd]z|t[ag]z)" [pbunzip2]="!*.?(t
+)bz?(2)" [oobase]="!*.odb" [cdiff]="!*.@(dif?(f)|?(d)patch)?(.@([gx]z|bz2|lzma))
+" [gtranslator]="!*.po" [lynx]="!*.@(?([xX]|[sS])[hH][tT][mM]?([lL]))" [emacs]="
+*.@([ao]|so|so.!(conf|*/*)|[rs]pm|gif|jp?(e)g|mp3|mp?(e)g|avi|asf|ogg|class)" [z
+[7m--More--[27mipinfo]="!*.@(zip|[egjswx]ar|exe|pk3|wsz|zargo|xpi|s[tx][cdiw]|sx[gm]|o[dt][tspg
+fc]|od[bm]|oxt|epub|apk|aab|ipa|do[ct][xm]|p[op]t[mx]|xl[st][xm]|pyz|whl)" [xela
+tex]="!*.@(?(la)tex|texi|dtx|ins|ltx|dbj)" [uncompress]="!*.Z" [xzcat]="!*.@(?(t
+)xz|tlz|lzma)" [unzip]="!*.@(zip|[egjswx]ar|exe|pk3|wsz|zargo|xpi|s[tx][cdiw]|sx
+[gm]|o[dt][tspgfc]|od[bm]|oxt|epub|apk|aab|ipa|do[ct][xm]|p[op]t[mx]|xl[st][xm]|
+pyz|whl)" [rview]="*.@([ao]|so|so.!(conf|*/*)|[rs]pm|gif|jp?(e)g|mp3|mp?(e)g|avi
+|asf|ogg|class)" [ogg123]="!*.@(og[ag]|m3u|flac|spx)" [lrunzip]="!*.lrz" [lzgrep
+]="!*.@(tlz|lzma)" [slitex]="!*.@(?(la)tex|texi|dtx|ins|ltx|dbj)" [vim]="*.@([ao
+]|so|so.!(conf|*/*)|[rs]pm|gif|jp?(e)g|mp3|mp?(e)g|avi|asf|ogg|class)" [ggv]="!*
+.@(@(?(e)ps|?(E)PS|pdf|PDF)?(.gz|.GZ|.bz2|.BZ2|.Z))" [ee]="!*.@(gif|jp?(e)g|miff
+|tif?(f)|pn[gm]|p[bgp]m|bmp|xpm|ico|xwd|tga|pcx)" [oomath]="!*.@(sxm|smf|mml|odf
+)" [aaxine]="!*@(.@(mp?(e)g|MP?(E)G|wm[av]|WM[AV]|avi|AVI|asf|vob|VOB|bin|dat|di
+vx|DIVX|vcd|ps|pes|fli|flv|FLV|fxm|FXM|viv|rm|ram|yuv|mov|MOV|qt|QT|web[am]|WEB[
+AM]|mp[234]|MP[234]|m?(p)4[av]|M?(P)4[AV]|mkv|MKV|og[agmvx]|OG[AGMVX]|t[ps]|T[PS
+]|m2t?(s)|M2T?(S)|mts|MTS|wav|WAV|flac|FLAC|asx|ASX|mng|MNG|srt|m[eo]d|M[EO]D|s[
+3t]m|S[3T]M|it|IT|xm|XM)|+([0-9]).@(vdr|VDR))?(.@(crdownload|part))" [dvipdfmx]=
+"!*.dvi" [advi]="!*.dvi" [gunzip]="!*.@(Z|[gGd]z|t[ag]z)" [makeinfo]="!*.texi*" 
+[gharbour]="!*.@([Pp][Rr][Gg]|[Cc][Ll][Pp])" [okular]="!*.@(okular|@(?(e|x)ps|?(
+E|X)PS|[pf]df|[PF]DF|dvi|DVI|cb[rz]|CB[RZ]|djv?(u)|DJV?(U)|dvi|DVI|gif|jp?(e)g|m
+iff|tif?(f)|pn[gm]|p[bgp]m|bmp|xpm|ico|xwd|tga|pcx|GIF|JP?(E)G|MIFF|TIF?(F)|PN[G
+M]|P[BGP]M|BMP|XPM|ICO|XWD|TGA|PCX|epub|EPUB|odt|ODT|fb?(2)|FB?(2)|mobi|MOBI|g3|
+G3|chm|CHM)?(.?(gz|GZ|bz2|BZ2|xz|XZ)))" [galeon]="!*.@(?([xX]|[sS])[hH][tT][mM]?
+([lL]))" [pdflatex]="!*.@(?(la)tex|texi|dtx|ins|ltx|dbj)" [lzmore]="!*.@(tlz|lzm
+[7m--More--[27ma)" [portecle]="!@(*.@(ks|jks|jceks|p12|pfx|bks|ubr|gkr|cer|crt|cert|p7b|pkipath
+|pem|p10|csr|crl)|cacerts)" [oowriter]="!*.@(sxw|stw|sxg|sgl|doc?([mx])|dot?([mx
+])|rtf|txt|htm|html|?(f)odt|ott|odm|pdf)" [loimpress]="!*.@(sxi|sti|pps?(x)|ppt?
+([mx])|pot?([mx])|?(f)odp|otp)" [epiphany]="!*.@(?([xX]|[sS])[hH][tT][mM]?([lL])
+)" [modplugplay]="!*.@(669|abc|am[fs]|d[bs]m|dmf|far|it|mdl|m[eo]d|mid?(i)|mt[2m
+]|oct|okt?(a)|p[st]m|s[3t]m|ult|umx|wav|xm)" [dvipdf]="!*.dvi" [dillo]="!*.@(?([
+xX]|[sS])[hH][tT][mM]?([lL]))" [fbxine]="!*@(.@(mp?(e)g|MP?(E)G|wm[av]|WM[AV]|av
+i|AVI|asf|vob|VOB|bin|dat|divx|DIVX|vcd|ps|pes|fli|flv|FLV|fxm|FXM|viv|rm|ram|yu
+v|mov|MOV|qt|QT|web[am]|WEB[AM]|mp[234]|MP[234]|m?(p)4[av]|M?(P)4[AV]|mkv|MKV|og
+[agmvx]|OG[AGMVX]|t[ps]|T[PS]|m2t?(s)|M2T?(S)|mts|MTS|wav|WAV|flac|FLAC|asx|ASX|
+mng|MNG|srt|m[eo]d|M[EO]D|s[3t]m|S[3T]M|it|IT|xm|XM)|+([0-9]).@(vdr|VDR))?(.@(cr
+download|part))" )
+a=date
+b=hello
+__expand_tilde_by_ref () 
+{ 
+    if [[ ${!1} == \~* ]]; then
+        eval $1=$(printf ~%q "${!1#\~}");
+    fi
+}
+__get_cword_at_cursor_by_ref () 
+{ 
+    local cword words=();
+[7m--More--[27m    __reassemble_comp_words_by_ref "$1" words cword;
+    local i cur index=$COMP_POINT lead=${COMP_LINE:0:$COMP_POINT};
+    if [[ $index -gt 0 && ( -n $lead && -n ${lead//[[:space:]]} ) ]]; then
+        cur=$COMP_LINE;
+        for ((i = 0; i <= cword; ++i ))
+        do
+            while [[ ${#cur} -ge ${#words[i]} && "${cur:0:${#words[i]}}" != "${w
+ords[i]}" ]]; do
+                cur="${cur:1}";
+                [[ $index -gt 0 ]] && ((index--));
+            done;
+            if [[ $i -lt $cword ]]; then
+                local old_size=${#cur};
+                cur="${cur#"${words[i]}"}";
+                local new_size=${#cur};
+                (( index -= old_size - new_size ));
+            fi;
+        done;
+        [[ -n $cur && ! -n ${cur//[[:space:]]} ]] && cur=;
+        [[ $index -lt 0 ]] && index=0;
+    fi;
+    local "$2" "$3" "$4" && _upvars -a${#words[@]} $2 "${words[@]}" -v $3 "$cwor
+d" -v $4 "${cur:0:$index}"
+[7m--More--[27m}[K
+__git_eread () 
+{ 
+    test -r "$1" && IFS='
+' read "$2" < "$1"
+}
+__git_ps1 () 
+{ 
+    local exit=$?;
+    local pcmode=no;
+    local detached=no;
+    local ps1pc_start='\u@\h:\w ';
+    local ps1pc_end='\$ ';
+    local printf_format=' (%s)';
+    case "$#" in 
+        2 | 3)
+            pcmode=yes;
+            ps1pc_start="$1";
+            ps1pc_end="$2";
+            printf_format="${3:-$printf_format}";
+            PS1="$ps1pc_start$ps1pc_end"
+        ;;
+        0 | 1)
+[7m--More--[27m            printf_format="${1:-$printf_format}"
+        ;;
+        *)
+            return $exit
+        ;;
+    esac;
+    local ps1_expanded=yes;
+    [ -z "${ZSH_VERSION-}" ] || [[ -o PROMPT_SUBST ]] || ps1_expanded=no;
+    [ -z "${BASH_VERSION-}" ] || shopt -q promptvars || ps1_expanded=no;
+    local repo_info rev_parse_exit_code;
+    repo_info="$(git rev-parse --git-dir --is-inside-git-dir 		--is-bar
+e-repository --is-inside-work-tree 		--short HEAD 2>/dev/null)";
+    rev_parse_exit_code="$?";
+    if [ -z "$repo_info" ]; then
+        return $exit;
+    fi;
+    local short_sha="";
+    if [ "$rev_parse_exit_code" = "0" ]; then
+        short_sha="${repo_info##*
+}";
+        repo_info="${repo_info%
+*}";
+    fi;
+[7m--More--[27m    local inside_worktree="${repo_info##*
+}";
+    repo_info="${repo_info%
+*}";
+    local bare_repo="${repo_info##*
+}";
+    repo_info="${repo_info%
+*}";
+    local inside_gitdir="${repo_info##*
+}";
+    local g="${repo_info%
+*}";
+    if [ "true" = "$inside_worktree" ] && [ -n "${GIT_PS1_HIDE_IF_PWD_IGNORED-}"
+ ] && [ "$(git config --bool bash.hideIfPwdIgnored)" != "false" ] && git check-i
+gnore -q .; then
+        return $exit;
+    fi;
+    local sparse="";
+    if [ -z "${GIT_PS1_COMPRESSSPARSESTATE-}" ] && [ -z "${GIT_PS1_OMITSPARSESTA
+TE-}" ] && [ "$(git config --bool core.sparseCheckout)" = "true" ]; then
+        sparse="|SPARSE";
+    fi;
+    local r="";
+[7m--More--[27m    local b="";
+    local step="";
+    local total="";
+    if [ -d "$g/rebase-merge" ]; then
+        __git_eread "$g/rebase-merge/head-name" b;
+        __git_eread "$g/rebase-merge/msgnum" step;
+        __git_eread "$g/rebase-merge/end" total;
+        r="|REBASE";
+    else
+        if [ -d "$g/rebase-apply" ]; then
+            __git_eread "$g/rebase-apply/next" step;
+            __git_eread "$g/rebase-apply/last" total;
+            if [ -f "$g/rebase-apply/rebasing" ]; then
+                __git_eread "$g/rebase-apply/head-name" b;
+                r="|REBASE";
+            else
+                if [ -f "$g/rebase-apply/applying" ]; then
+                    r="|AM";
+                else
+                    r="|AM/REBASE";
+                fi;
+            fi;
+        else
+[7m--More--[27m            if [ -f "$g/MERGE_HEAD" ]; then
+                r="|MERGING";
+            else
+                if __git_sequencer_status; then
+                    :;
+                else
+                    if [ -f "$g/BISECT_LOG" ]; then
+                        r="|BISECTING";
+                    fi;
+                fi;
+            fi;
+        fi;
+        if [ -n "$b" ]; then
+            :;
+        else
+            if [ -h "$g/HEAD" ]; then
+                b="$(git symbolic-ref HEAD 2>/dev/null)";
+            else
+                local head="";
+                if ! __git_eread "$g/HEAD" head; then
+                    return $exit;
+                fi;
+                b="${head#ref: }";
+[7m--More--[27m                if [ "$head" = "$b" ]; then
+                    detached=yes;
+                    b="$(
+				case "${GIT_PS1_DESCRIBE_STYLE-}" in
+				(contains)
+					git describe --contains HEAD ;;
+				(branch)
+					git describe --contains --all HEAD ;;
+				(tag)
+					git describe --tags HEAD ;;
+				(describe)
+					git describe HEAD ;;
+				(* | default)
+					git describe --tags --exact-match HEAD ;
+;
+				esac 2>/dev/null)" || b="$short_sha...";
+                    b="($b)";
+                fi;
+            fi;
+        fi;
+    fi;
+    if [ -n "$step" ] && [ -n "$total" ]; then
+        r="$r $step/$total";
+[7m--More--[27m    fi;[K
+    local w="";
+    local i="";
+    local s="";
+    local u="";
+    local h="";
+    local c="";
+    local p="";
+    if [ "true" = "$inside_gitdir" ]; then
+        if [ "true" = "$bare_repo" ]; then
+            c="BARE:";
+        else
+            b="GIT_DIR!";
+        fi;
+    else
+        if [ "true" = "$inside_worktree" ]; then
+            if [ -n "${GIT_PS1_SHOWDIRTYSTATE-}" ] && [ "$(git config --bool bas
+h.showDirtyState)" != "false" ]; then
+                git diff --no-ext-diff --quiet || w="*";
+                git diff --no-ext-diff --cached --quiet || i="+";
+                if [ -z "$short_sha" ] && [ -z "$i" ]; then
+                    i="#";
+                fi;
+[7m--More--[27m            fi;
+            if [ -n "${GIT_PS1_SHOWSTASHSTATE-}" ] && git rev-parse --verify --q
+uiet refs/stash > /dev/null; then
+                s="$";
+            fi;
+            if [ -n "${GIT_PS1_SHOWUNTRACKEDFILES-}" ] && [ "$(git config --bool
+ bash.showUntrackedFiles)" != "false" ] && git ls-files --others --exclude-stand
+ard --directory --no-empty-directory --error-unmatch -- ':/*' > /dev/null 2> /de
+v/null; then
+                u="%${ZSH_VERSION+%}";
+            fi;
+            if [ -n "${GIT_PS1_COMPRESSSPARSESTATE-}" ] && [ "$(git config --boo
+l core.sparseCheckout)" = "true" ]; then
+                h="?";
+            fi;
+            if [ -n "${GIT_PS1_SHOWUPSTREAM-}" ]; then
+                __git_ps1_show_upstream;
+            fi;
+        fi;
+    fi;
+    local z="${GIT_PS1_STATESEPARATOR-" "}";
+    if [ -n "${GIT_PS1_SHOWCOLORHINTS-}" ]; then
+        if [ $pcmode = yes ] || [ -n "${ZSH_VERSION-}" ]; then
+[7m--More--[27m            __git_ps1_colorize_gitstring;
+        fi;
+    fi;
+    b=${b##refs/heads/};
+    if [ $pcmode = yes ] && [ $ps1_expanded = yes ]; then
+        __git_ps1_branch_name=$b;
+        b="\${__git_ps1_branch_name}";
+    fi;
+    local f="$h$w$i$s$u";
+    local gitstring="$c$b${f:+$z$f}${sparse}$r$p";
+    if [ $pcmode = yes ]; then
+        if [ "${__git_printf_supports_v-}" != yes ]; then
+            gitstring=$(printf -- "$printf_format" "$gitstring");
+        else
+            printf -v gitstring -- "$printf_format" "$gitstring";
+        fi;
+        PS1="$ps1pc_start$gitstring$ps1pc_end";
+    else
+        printf -- "$printf_format" "$gitstring";
+    fi;
+    return $exit
+}
+__git_ps1_colorize_gitstring () 
+[7m--More--[27m{ [K
+    if [[ -n ${ZSH_VERSION-} ]]; then
+        local c_red='%F{red}';
+        local c_green='%F{green}';
+        local c_lblue='%F{blue}';
+        local c_clear='%f';
+    else
+        local c_red='\[\e[31m\]';
+        local c_green='\[\e[32m\]';
+        local c_lblue='\[\e[1;34m\]';
+        local c_clear='\[\e[0m\]';
+    fi;
+    local bad_color=$c_red;
+    local ok_color=$c_green;
+    local flags_color="$c_lblue";
+    local branch_color="";
+    if [ $detached = no ]; then
+        branch_color="$ok_color";
+    else
+        branch_color="$bad_color";
+    fi;
+    c="$branch_color$c";
+    z="$c_clear$z";
+[7m--More--[27m    if [ "$w" = "*" ]; then
+        w="$bad_color$w";
+    fi;
+    if [ -n "$i" ]; then
+        i="$ok_color$i";
+    fi;
+    if [ -n "$s" ]; then
+        s="$flags_color$s";
+    fi;
+    if [ -n "$u" ]; then
+        u="$bad_color$u";
+    fi;
+    r="$c_clear$r"
+}
+__git_ps1_show_upstream () 
+{ 
+    local key value;
+    local svn_remote svn_url_pattern count n;
+    local upstream=git legacy="" verbose="" name="";
+    svn_remote=();
+    local output="$(git config -z --get-regexp '^(svn-remote\..*\.url|bash\.show
+upstream)$' 2>/dev/null | tr '\0\n' '\n ')";
+    while read -r key value; do
+[7m--More--[27m        case "$key" in 
+            bash.showupstream)
+                GIT_PS1_SHOWUPSTREAM="$value";
+                if [[ -z "${GIT_PS1_SHOWUPSTREAM}" ]]; then
+                    p="";
+                    return;
+                fi
+            ;;
+            svn-remote.*.url)
+                svn_remote[$((${#svn_remote[@]} + 1))]="$value";
+                svn_url_pattern="$svn_url_pattern\\|$value";
+                upstream=svn+git
+            ;;
+        esac;
+    done <<< "$output";
+    local option;
+    for option in ${GIT_PS1_SHOWUPSTREAM};
+    do
+        case "$option" in 
+            git | svn)
+                upstream="$option"
+            ;;
+            verbose)
+[7m--More--[27m                verbose=1
+            ;;
+            legacy)
+                legacy=1
+            ;;
+            name)
+                name=1
+            ;;
+        esac;
+    done;
+    case "$upstream" in 
+        git)
+            upstream="@{upstream}"
+        ;;
+        svn*)
+            local -a svn_upstream;
+            svn_upstream=($(git log --first-parent -1 				
+	--grep="^git-svn-id: \(${svn_url_pattern#??}\)" 2>/dev/null));
+            if [[ 0 -ne ${#svn_upstream[@]} ]]; then
+                svn_upstream=${svn_upstream[${#svn_upstream[@]} - 2]};
+                svn_upstream=${svn_upstream%@*};
+                local n_stop="${#svn_remote[@]}";
+                for ((n=1; n <= n_stop; n++))
+[7m--More--[27m                do
+                    svn_upstream=${svn_upstream#${svn_remote[$n]}};
+                done;
+                if [[ -z "$svn_upstream" ]]; then
+                    upstream=${GIT_SVN_ID:-git-svn};
+                else
+                    upstream=${svn_upstream#/};
+                fi;
+            else
+                if [[ "svn+git" = "$upstream" ]]; then
+                    upstream="@{upstream}";
+                fi;
+            fi
+        ;;
+    esac;
+    if [[ -z "$legacy" ]]; then
+        count="$(git rev-list --count --left-right 				
+"$upstream"...HEAD 2>/dev/null)";
+    else
+        local commits;
+        if commits="$(git rev-list --left-right "$upstream"...HEAD 2>/dev/null)"
+; then
+            local commit behind=0 ahead=0;
+[7m--More--[27m            for commit in $commits;
+            do
+                case "$commit" in 
+                    "<"*)
+                        ((behind++))
+                    ;;
+                    *)
+                        ((ahead++))
+                    ;;
+                esac;
+            done;
+            count="$behind	$ahead";
+        else
+            count="";
+        fi;
+    fi;
+    if [[ -z "$verbose" ]]; then
+        case "$count" in 
+            "")
+                p=""
+            ;;
+            "0	0")
+                p="="
+[7m--More--[27m            ;;
+            "0	"*)
+                p=">"
+            ;;
+            *"	0")
+                p="<"
+            ;;
+            *)
+                p="<>"
+            ;;
+        esac;
+    else
+        case "$count" in 
+            "")
+                p=""
+            ;;
+            "0	0")
+                p=" u="
+            ;;
+            "0	"*)
+                p=" u+${count#0	}"
+            ;;
+            *"	0")
+[7m--More--[27m                p=" u-${count%	0}"
+            ;;
+            *)
+                p=" u+${count#*	}-${count%	*}"
+            ;;
+        esac;
+        if [[ -n "$count" && -n "$name" ]]; then
+            __git_ps1_upstream_name=$(git rev-parse 				
+--abbrev-ref "$upstream" 2>/dev/null);
+            if [ $pcmode = yes ] && [ $ps1_expanded = yes ]; then
+                p="$p \${__git_ps1_upstream_name}";
+            else
+                p="$p ${__git_ps1_upstream_name}";
+                unset __git_ps1_upstream_name;
+            fi;
+        fi;
+    fi
+}
+__git_sequencer_status () 
+{ 
+    local todo;
+    if test -f "$g/CHERRY_PICK_HEAD"; then
+        r="|CHERRY-PICKING";
+[7m--More--[27m        return 0;
+    else
+        if test -f "$g/REVERT_HEAD"; then
+            r="|REVERTING";
+            return 0;
+        else
+            if __git_eread "$g/sequencer/todo" todo; then
+                case "$todo" in 
+                    p[\ \	] | pick[\ \	]*)
+                        r="|CHERRY-PICKING";
+                        return 0
+                    ;;
+                    revert[\ \	]*)
+                        r="|REVERTING";
+                        return 0
+                    ;;
+                esac;
+            fi;
+        fi;
+    fi;
+    return 1
+}
+__load_completion () 
+[7m--More--[27m{ [K
+    local -a dirs=(${BASH_COMPLETION_USER_DIR:-${XDG_DATA_HOME:-$HOME/.local/sha
+re}/bash-completion}/completions);
+    local OIFS=$IFS IFS=: dir cmd="${1##*/}" compfile;
+    [[ -n $cmd ]] || return 1;
+    for dir in ${XDG_DATA_DIRS:-/usr/local/share:/usr/share};
+    do
+        dirs+=($dir/bash-completion/completions);
+    done;
+    IFS=$OIFS;
+    if [[ $BASH_SOURCE == */* ]]; then
+        dirs+=("${BASH_SOURCE%/*}/completions");
+    else
+        dirs+=(./completions);
+    fi;
+    for dir in "${dirs[@]}";
+    do
+        [[ -d "$dir" ]] || continue;
+        for compfile in "$cmd" "$cmd.bash" "_$cmd";
+        do
+            compfile="$dir/$compfile";
+            [[ -f "$compfile" ]] && . "$compfile" &> /dev/null && return 0;
+        done;
+[7m--More--[27m[K]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ files='practice west coast respected'
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ echo $files
+practice west coast respected
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ wc $files
+  75  690 3568 practice
+wc: west: No such file or directory
+wc: coast: No such file or directory
+   8   40  227 respected
+  83  730 3795 total
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ Var2=hello
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ lL=F[K[K[K[KLL=Fun
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ export LL
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ bash
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ echo $Var2
+
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ echo $ll
+
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ echo $LL
+Fun
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ export newasr[K[K[Kvar=enoughalready
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ exit
+exit
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ exit
+exit
+There are stopped jobs.
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ echo $LL
+Fun
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ export newvar=enoughalready
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ echo $$
+1473
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ echo $$PPI[K[K[K[KPPID
+1361
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ps -l
+F S   UID     PID    PPID  C PRI  NI ADDR SZ WCHAN  TTY          TIME CMD
+0 S  1000    1361    1360  0  80   0 -  5338 do_wai pts/1    00:00:00 bash
+0 S  1000    1473    1361  0  80   0 -  5333 do_wai pts/1    00:00:00 bash
+0 T  1000   36341    1473  0  80   0 -  4606 do_sig pts/1    00:00:00 sleep
+0 R  1000   36377    1473  0  80   0 -  5440 -      pts/1    00:00:00 ps
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ echo $SECONDS
+3249
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ec[K[Kdate echo $SECONDS
+date: extra operand ‘3253’
+Try 'date --help' for more information.
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ exit
+exit
+There are stopped jobs.
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ exit
+exit
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ exit
+exit
+
+Script done on 2022-02-27 11:29:50-08:00 [COMMAND_EXIT_CODE="1"]
