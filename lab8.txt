@@ -1,0 +1,659 @@
+Script started on 2022-03-08 22:59:21-08:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ vi practice
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"practice" 75 lines, 3568 characters[1;1HI was in the middle of a line,It is essential to be able to place text above thee[2;1H current line
+The difference between i and a
+The drMIapple baanana cat dog wolf am now adding more text
+What are the two modes of the visual editor?
+There is more than one way to move
+eddveral times in this course.
+
+Although I am created this file with the cat command,
+later you will be editing it using vi.
+
+a b c d
+2 3 4 5
+2 3 4 5
+A B C D
+E F G H
+
+vi permits global changes, reading/writing files, cutting and pasting, and
+tailoring the environment to meet individual needs.
+
+There is no need for a mouse, you can keep your fingers where they belong,
+on the keyboard, everything is done through commands.[1;1H[?25h[?2004l[>4;m[?25l[3;23r[3;1H[L[1;24r[1;1H[K[2;1HI was in the middle of a line,It is essential to be able to place text above thee[3;1H current line[24;1H[K[2;1H[?25h[?25lTI was in the middle of a line,It is essential to be able to place text above thh[3;1He current line[2;2H[?25h[?25lhI was in the middle of a line,It is essential to be able to place text above tt[3;1Hhe current line[2;3H[?25h[?25leI was in the middle of a line,It is essential to be able to place text above  [3;1Hthe current line[2;4H[?25h[?25lsI was in the middle of a line,It is essential to be able to place text abovee[3;1H the current line[2;5H[?25h[?25leI was in the middle of a line,It is essential to be able to place text abovv[3;1He the current line[2;6H[?25h[?25l I was in the middle of a line,It is essential to be able to place text aboo[3;1Hve the current line[2;7H[?25h[?25laI was in the middle of a line,It is essential to be able to place text abb[3;1Hove the current line[2;8H[?25h[?25lrI was in the middle of a line,It is essential to be able to place text aa[3;1Hbove the current line[2;9H[?25h[?25leI was in the middle of a line,It is essential to be able to place text  [3;1Habove the current line[2;10H[?25h[?25l I was in the middle of a line,It is essential to be able to place textt[3;1H above the current line[2;11H[?25h[?25ltI was in the middle of a line,It is essential to be able to place texx[3;1Ht above the current line[2;12H[?25h[?25lwI was in the middle of a line,It is essential to be able to place tee[3;1Hxt above the current line[2;13H[?25h[?25loI was in the middle of a line,It is essential to be able to place tt[3;1Hext above the current line[2;14H[?25h[?25l I was in the middle of a line,It is essential to be able to place  [3;1Htext above the current line[2;15H[?25h[?25lnI was in the middle of a line,It is essential to be able to placee[3;1H text above the current line[2;16H[?25h[?25leI was in the middle of a line,It is essential to be able to placc[3;1He text above the current line[2;17H[?25h[?25lwI was in the middle of a line,It is essential to be able to plaa[3;1Hce text above the current line[2;18H[?25h[?25l I was in the middle of a line,It is essential to be able to pll[3;1Hace text above the current line[2;19H[?25h[?25llI was in the middle of a line,It is essential to be able to pp[3;1Hlace text above the current line[2;20H[?25h[?25liI was in the middle of a line,It is essential to be able to  [3;1Hplace text above the current line[2;21H[?25h[?25lnI was in the middle of a line,It is essential to be able too[3;1H place text above the current line[2;22H[?25h[?25leI was in the middle of a line,It is essential to be able tt[3;1Ho place text above the current line[2;23H[?25h[?25lsI was in the middle of a line,It is essential to be able  [3;1Hto place text above the current line[2;24H[?25h[?25l[4;23r[4;1H[L[1;24r[2;24H[K[3;1HI was in the middle of a line,It is essential to be able to place text above thee[4;1H current line[3;1H[?25h[?25l:I was in the middle of a line,It is essential to be able to place text above thh[4;1He current line[3;2H[?25h[?25lwI was in the middle of a line,It is essential to be able to place text above tt[4;1Hhe current line[3;3H[?25h[?25lqI was in the middle of a line,It is essential to be able to place text above  [4;1Hthe current line[3;4H[?25h[?2004h[>4;2m[?25l[24;1H[97m[41mE78: Unknown mark[3;3H[?25h[mqI [?25l[24;1H[K[24;1H:[?2004h[?25hwq[?25l[?2004l"practice" 77 lines, 3596 characters written
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls -l pr[Ka[Kractice
+-rw-rw-r-- 1 joshua joshua 3596 Mar  8 22:59 practice
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ chmod -w practice
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls -l practice
+-r--r--r-- 1 joshua joshua 3596 Mar  8 22:59 practice
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ vi practice
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"practice" [readonly] 77 lines, 3596 characters[2;1HThese are two new lines
+:wqI was in the middle of a line,It is essential to be able to place text above  [4;1Hthe current line
+The difference between i and a
+The drMIapple baanana cat dog wolf am now adding more text
+What are the two modes of the visual editor?
+There is more than one way to move
+eddveral times in this course.
+
+Although I am created this file with the cat command,
+later you will be editing it using vi.
+
+a b c d
+2 3 4 5
+2 3 4 5
+A B C D
+E F G H
+
+vi permits global changes, reading/writing files, cutting and pasting, and
+tailoring the environment to meet individual needs.
+
+There is no need for a mouse, you can keep your fingers where they belong,[1;1H[?25h
+[?25l[24;1H[31mW10: Warning: Changing a readonly file[m[24;39H[K[?2004l[?2004h[2;1Hhese are two new lines[2;23H[K[2;1H[?25h[?25lese are two new lines[2;22H[K[2;1H[?25h[?25lse are two new lines[2;21H[K[2;1H[?25h[?25le are two new lines[2;20H[K[2;1H[?25h[?25l are two new lines[2;19H[K[2;1H[?25h[?25lare two new lines[2;18H[K[2;1H[?25h[?25lre two new lines[2;17H[K[2;1H[?25h[?25le two new lines[2;16H[K[2;1H[?25h[?25l two new lines[2;15H[K[2;1H[?25h[?25ltwo new lines[2;14H[K[2;1H[?25h[?25lwo new lines[2;13H[K[2;1H[?25h[?25lo new lines[2;12H[K[2;1H[?25h[?25l new lines[2;11H[K[2;1H[?25h[?25lnew lines[2;10H[K[2;1H[?25h[?25lew lines[2;9H[K[2;1H[?25h[?25lw lines[2;8H[K[2;1H[?25h[?25l lines[2;7H[K[2;1H[?25h[?25llines[2;6H[K[2;1H[?25h[?25lines[2;5H[K[2;1H[?25h[?25lnes[2;4H[K[2;1H[?25h[?25les[2;3H[K[2;1H[?25h[?25ls[2;2H[K[2;1H[?25h[?25l[2;1H[K[2;1H[?25h
+[?25l[24;1H[K[24;1H:[?2004h[?25hwq[?25l[97m[41mE45: 'readonly' option is set (add ! to override)[?2004h[3;1H[?25h[?25l[m[24;1H[K[24;1H:[?2004h[?25hq1[?25l[24;3H[K[24;3H[?25h![?25l[?2004l[24;1H[K[24;1H[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ chmod -r+w practice
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls -l prat[Kctice
+--w--w---- 1 joshua joshua 3596 Mar  8 22:59 practice
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ cat practice
+cat: practice: Permission denied
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ date >> [p[K[Kpractice
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ more practice
+more: cannot open practice: Permission denied
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ chmod +r practice
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls -l practice
+-rw-rw-r-- 1 joshua joshua 3628 Mar  8 23:01 practice
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ cd
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ vi inform
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"inform" [New File][2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h[?2004l[>4;m[?25l[md[?25h[?25la[?25h[?25lt[?25h[?25le[?25h[?25l[2;1H[K[2;1H[?25h[?25lp[?25h[?25lw[?25h[?25ld[?25h[?25l[3;1H[K[3;1H[?25h[?25le[?25h[?25lc[?25h[?25lh[?25h[?25lo[?25h[?25l [?25h[?25lY[?25h[?25lo[?25h[?25lu[?25h[?25l [?25h[?25lh[?25h[?25la[?25h[?25lv[?25h[?25le[?25h[?25l [?25h[?25lt[?25h[?25lh[?25h[?25le[?25h[?25l [?25h[?25lf[?25h[?25lo[?25h[?25ll[?25h[?25ll[?25h[?25lo[?25h[?25lw[?25h[?25li[?25h[?25ln[?25h[?25lg[?25h[?25l [?25h[?25lp[?25h[?25lr[?25h[?25lo[?25h[?25lc[?25h[?25le[?25h[?25ls[?25h[?25ls[?25h[?25le[?25h[?25ls[?25h[?25l:[?25h[?25l[4;1H[K[4;1H[?25h[?25lp[?25h[?25ls[?25h[?2004h[>4;2m[?25l[24;1H[K[24;1H:[?2004h[?25hwq[?25l[?2004l"inform" [New File] 4 lines, 51 characters written
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ chmod +x inform
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls -l inform
+-rwxrwxr-x 1 joshua joshua 51 Mar  8 23:01 [0m[01;32minform[0m
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ./ inform
+bash: ./: Is a directory
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ./inform
+Tue 08 Mar 2022 11:02:13 PM PST
+/home/joshua
+You have the following processes:
+    PID TTY          TIME CMD
+   3191 pts/1    00:00:00 bash
+   3230 pts/1    00:00:00 bash
+   3232 pts/1    00:00:00 ps
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ chmod -rw inform
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls -l inform
+---x--x--x 1 joshua joshua 51 Mar  8 23:01 [0m[01;32minform[0m
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ./ [Kinform
+bash: ./inform: Permission denied
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ whoami
+joshua
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ date > re[K[Kpresent
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls [K[K[Kdate >permtest
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ date[K[K[K[Kls -l permtest
+-rw-rw-r-- 1 joshua joshua 32 Mar  8 23:02 permtest
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ chmod a=rwx permtest
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls -l permtest
+-rwxrwxrwx 1 joshua joshua 32 Mar  8 23:02 [0m[01;32mpermtest[0m
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ chmod a=r permtest
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls -l pre[K[Kermtest
+-r--r--r-- 1 joshua joshua 32 Mar  8 23:02 permtest
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ chmod ug=rw,o=r permtest
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls -l permtest
+-rw-rw-r-- 1 joshua joshua 32 Mar  8 23:02 permtest
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ chmod u-x,o+r permtest
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls -l permtest
+-rw-rw-r-- 1 joshua joshua 32 Mar  8 23:02 permtest
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ chmod u=rwx, go [K= permtest
+chmod: invalid mode: ‘u=rwx,’
+Try 'chmod --help' for more information.
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ chmod u=rwx,gp[Ko= [er,t[K[K[K[K[Kpermtest
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls -l permtest
+-rwx------ 1 joshua joshua 32 Mar  8 23:02 [0m[01;32mpermtest[0m
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ chmod 400 infoire[K[K[Krm
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls -l inform
+-r-------- 1 joshua joshua 51 Mar  8 23:01 inform
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ chmod 200 inform
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls -l inform
+--w------- 1 joshua joshua 51 Mar  8 23:01 inform
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ chmod 100 inform
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls -l inform
+---x------ 1 joshua joshua 51 Mar  8 23:01 [0m[01;32minform[0m
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ chmod 000 inform
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls -l inform
+---------- 1 joshua joshua 51 Mar  8 23:01 inform
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ chmod 754 inform
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls -l inform
+-rwxr-xr-- 1 joshua joshua 51 Mar  8 23:01 [0m[01;32minform[0m
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ chmod 700 ionform
+chmod: cannot access 'ionform': No such file or directory
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls -l inform
+-rwxr-xr-- 1 joshua joshua 51 Mar  8 23:01 [0m[01;32minform[0m
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ chmod 777 inform
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls -l inform
+-rwxrwxrwx 1 joshua joshua 51 Mar  8 23:01 [0m[01;32minform[0m
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls[K[Kchmod 640 inform
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls -l inform
+-rw-r----- 1 joshua joshua 51 Mar  8 23:01 inform
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ chmod 555 inform
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls -l inform
+-r-xr-xr-x 1 joshua joshua 51 Mar  8 23:01 [0m[01;32minform[0m
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ mkdir mybin
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ cp inform mybin
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ps -aux | more
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.1 101772 11312 ?        Ss   22:29   0:01 /sbin/init sp
+lash
+root           2  0.0  0.0      0     0 ?        S    22:29   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        I<   22:29   0:00 [rcu_gp]
+root           4  0.0  0.0      0     0 ?        I<   22:29   0:00 [rcu_par_gp]
+root           5  0.0  0.0      0     0 ?        I    22:29   0:00 [kworker/0:0-
+events]
+root           6  0.0  0.0      0     0 ?        I<   22:29   0:00 [kworker/0:0H
+-events_highpri]
+root           9  0.0  0.0      0     0 ?        I<   22:29   0:00 [mm_percpu_wq
+]
+root          10  0.0  0.0      0     0 ?        S    22:29   0:00 [rcu_tasks_ru
+de_]
+root          11  0.0  0.0      0     0 ?        S    22:29   0:00 [rcu_tasks_tr
+ace]
+root          12  0.0  0.0      0     0 ?        S    22:29   0:00 [ksoftirqd/0]
+root          13  0.0  0.0      0     0 ?        I    22:29   0:00 [rcu_sched]
+root          14  0.0  0.0      0     0 ?        S    22:29   0:00 [migration/0]
+root          15  0.0  0.0      0     0 ?        S    22:29   0:00 [idle_inject/
+0]
+root          16  0.0  0.0      0     0 ?        S    22:29   0:00 [cpuhp/0]
+root          17  0.0  0.0      0     0 ?        S    22:29   0:00 [cpuhp/1]
+[7m--More--[27m[K
+...skipping 1 line
+root          19  0.0  0.0      0     0 ?        S    22:29   0:00 [migration/1]
+root          20  0.0  0.0      0     0 ?        S    22:29   0:00 [ksoftirqd/1]
+root          22  0.0  0.0      0     0 ?        I<   22:29   0:00 [kworker/1:0H
+-kblockd]
+root          23  0.0  0.0      0     0 ?        S    22:29   0:00 [kdevtmpfs]
+root          24  0.0  0.0      0     0 ?        I<   22:29   0:00 [netns]
+root          25  0.0  0.0      0     0 ?        I<   22:29   0:00 [inet_frag_wq
+]
+root          26  0.0  0.0      0     0 ?        S    22:29   0:00 [kauditd]
+root          27  0.0  0.0      0     0 ?        S    22:29   0:00 [khungtaskd]
+root          28  0.0  0.0      0     0 ?        S    22:29   0:00 [oom_reaper]
+root          29  0.0  0.0      0     0 ?        I<   22:29   0:00 [writeback]
+root          30  0.0  0.0      0     0 ?        S    22:29   0:00 [kcompactd0]
+root          31  0.0  0.0      0     0 ?        SN   22:29   0:00 [ksmd]
+root          32  0.0  0.0      0     0 ?        SN   22:29   0:00 [khugepaged]
+root          79  0.0  0.0      0     0 ?        I<   22:29   0:00 [kintegrityd]
+root          80  0.0  0.0      0     0 ?        I<   22:29   0:00 [kblockd]
+root          81  0.0  0.0      0     0 ?        I<   22:29   0:00 [blkcg_punt_b
+io]
+root          82  0.0  0.0      0     0 ?        I<   22:29   0:00 [tpm_dev_wq]
+root          83  0.0  0.0      0     0 ?        I<   22:29   0:00 [ata_sff]
+root          84  0.0  0.0      0     0 ?        I<   22:29   0:00 [md]
+root          85  0.0  0.0      0     0 ?        I<   22:29   0:00 [edac-poller]
+[7m--More--[27mroot          86  0.0  0.0      0     0 ?        I<   22:29   0:00 [devfreq_wq]
+root          87  0.0  0.0      0     0 ?        S    22:29   0:00 [watchdogd]
+root          89  0.0  0.0      0     0 ?        I<   22:29   0:00 [kworker/0:1H
+-kblockd]
+root          91  0.0  0.0      0     0 ?        S    22:29   0:00 [kswapd0]
+root          92  0.0  0.0      0     0 ?        S    22:29   0:00 [ecryptfs-kth
+rea]
+root          94  0.0  0.0      0     0 ?        I<   22:29   0:00 [kthrotld]
+root          95  0.0  0.0      0     0 ?        I<   22:29   0:00 [acpi_thermal
+_pm]
+root          97  0.0  0.0      0     0 ?        S    22:29   0:00 [scsi_eh_0]
+root          98  0.0  0.0      0     0 ?        I<   22:29   0:00 [scsi_tmf_0]
+root          99  0.0  0.0      0     0 ?        S    22:29   0:00 [scsi_eh_1]
+root         100  0.0  0.0      0     0 ?        I<   22:29   0:00 [scsi_tmf_1]
+root         102  0.0  0.0      0     0 ?        I<   22:29   0:00 [vfio-irqfd-c
+lea]
+root         103  0.0  0.0      0     0 ?        I<   22:29   0:00 [mld]
+root         104  0.0  0.0      0     0 ?        I<   22:29   0:00 [ipv6_addrcon
+f]
+root         108  0.0  0.0      0     0 ?        I<   22:29   0:00 [kworker/1:1H
+-kblockd]
+root         116  0.0  0.0      0     0 ?        I<   22:29   0:00 [kstrp]
+root         119  0.0  0.0      0     0 ?        I<   22:29   0:00 [zswap-shrink
+[7m--More--[27m][K
+root         120  0.0  0.0      0     0 ?        I<   22:29   0:00 [kworker/u5:0
+]
+root         125  0.0  0.0      0     0 ?        I<   22:29   0:00 [charger_mana
+ger]
+root         170  0.0  0.0      0     0 ?        S    22:29   0:00 [scsi_eh_2]
+root         173  0.0  0.0      0     0 ?        I<   22:29   0:00 [scsi_tmf_2]
+root         195  0.0  0.0      0     0 ?        S    22:29   0:00 [jbd2/sda5-8]
+root         196  0.0  0.0      0     0 ?        I<   22:29   0:00 [ext4-rsv-con
+ver]
+root         233  0.0  0.3  92512 27560 ?        S<s  22:29   0:00 /lib/systemd/
+systemd-journald
+root         256  0.0  0.0  23412  6788 ?        Ss   22:29   0:00 /lib/systemd/
+systemd-udevd
+root         257  0.0  0.0      0     0 ?        I<   22:29   0:00 [ttm_swap]
+root         258  0.0  0.0      0     0 ?        S    22:29   0:00 [irq/18-vmwgf
+x]
+root         259  0.0  0.0      0     0 ?        S    22:29   0:00 [card0-crtc0]
+root         260  0.0  0.0      0     0 ?        S    22:29   0:00 [card0-crtc1]
+root         261  0.0  0.0      0     0 ?        S    22:29   0:00 [card0-crtc2]
+root         262  0.0  0.0      0     0 ?        S    22:29   0:00 [card0-crtc3]
+root         263  0.0  0.0      0     0 ?        S    22:29   0:00 [card0-crtc4]
+root         264  0.0  0.0      0     0 ?        S    22:29   0:00 [card0-crtc5]
+[7m--More--[27mroot         265  0.0  0.0      0     0 ?        S    22:29   0:00 [card0-crtc6]
+root         266  0.0  0.0      0     0 ?        S    22:29   0:00 [card0-crtc7]
+root         311  0.0  0.0      0     0 ?        I<   22:29   0:00 [iprt-VBoxWQu
+eue]
+root         324  0.0  0.0      0     0 ?        I<   22:29   0:00 [cryptd]
+systemd+     442  0.0  0.1  24004 12972 ?        Ss   22:29   0:00 /lib/systemd/
+systemd-resolved
+systemd+     443  0.0  0.0  90228  5844 ?        Ssl  22:29   0:00 /lib/systemd/
+systemd-timesyncd
+root         466  0.0  0.1 252236  9128 ?        Ssl  22:29   0:00 /usr/lib/acco
+untsservice/accounts-daemon
+root         467  0.0  0.0   2548   784 ?        Ss   22:29   0:00 /usr/sbin/acp
+id
+avahi        471  0.0  0.0   8532  3404 ?        Ss   22:29   0:00 avahi-daemon:
+ running [joshua-VirtualBox.local]
+root         473  0.0  0.0  19760  2808 ?        Ss   22:29   0:00 /usr/sbin/cro
+n -f
+message+     475  0.0  0.0   8772  5636 ?        Ss   22:29   0:00 /usr/bin/dbus
+-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --
+syslog-only
+root         477  0.0  0.2 274832 21016 ?        Ssl  22:29   0:00 /usr/sbin/Net
+workManager --no-daemon
+root         484  0.0  0.0  81836  3624 ?        Ssl  22:29   0:00 /usr/sbin/irq
+[7m--More--[27mbalance --foreground
+root         487  0.0  0.2  49676 20076 ?        Ss   22:29   0:00 /usr/bin/pyth
+on3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root         496  0.0  0.1 255428 12448 ?        Ssl  22:29   0:00 /usr/lib/poli
+cykit-1/polkitd --no-debug
+syslog       500  0.0  0.0 224356  4772 ?        Ssl  22:29   0:00 /usr/sbin/rsy
+slogd -n -iNONE
+root         506  0.0  0.0  16640  7968 ?        Ss   22:29   0:00 /lib/systemd/
+systemd-logind
+root         509  0.0  0.1 395400 13856 ?        Ssl  22:29   0:00 /usr/lib/udis
+ks2/udisksd
+root         511  0.0  0.0  13688  4776 ?        Ss   22:29   0:00 /sbin/wpa_sup
+plicant -u -s -O /run/wpa_supplicant
+avahi        521  0.0  0.0   8352   324 ?        S    22:29   0:00 avahi-daemon:
+ chroot helper
+root         587  0.0  0.1  38904  9020 ?        Ss   22:29   0:00 /usr/sbin/cup
+sd -l
+root         592  0.0  0.1 178400 12564 ?        Ssl  22:29   0:00 /usr/sbin/cup
+s-browsed
+root         599  0.0  0.1 314460 10764 ?        Ssl  22:29   0:00 /usr/sbin/Mod
+emManager
+root         610  0.0  0.2 128224 22588 ?        Ssl  22:29   0:00 /usr/bin/pyth
+on3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+[7m--More--[27m[K]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ 
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ps -ef | more
+UID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 22:29 ?        00:00:01 /sbin/init splash
+root           2       0  0 22:29 ?        00:00:00 [kthreadd]
+root           3       2  0 22:29 ?        00:00:00 [rcu_gp]
+root           4       2  0 22:29 ?        00:00:00 [rcu_par_gp]
+root           5       2  0 22:29 ?        00:00:00 [kworker/0:0-events]
+root           6       2  0 22:29 ?        00:00:00 [kworker/0:0H-events_highpri
+]
+root           9       2  0 22:29 ?        00:00:00 [mm_percpu_wq]
+root          10       2  0 22:29 ?        00:00:00 [rcu_tasks_rude_]
+root          11       2  0 22:29 ?        00:00:00 [rcu_tasks_trace]
+root          12       2  0 22:29 ?        00:00:00 [ksoftirqd/0]
+root          13       2  0 22:29 ?        00:00:00 [rcu_sched]
+root          14       2  0 22:29 ?        00:00:00 [migration/0]
+root          15       2  0 22:29 ?        00:00:00 [idle_inject/0]
+root          16       2  0 22:29 ?        00:00:00 [cpuhp/0]
+root          17       2  0 22:29 ?        00:00:00 [cpuhp/1]
+root          18       2  0 22:29 ?        00:00:00 [idle_inject/1]
+root          19       2  0 22:29 ?        00:00:00 [migration/1]
+root          20       2  0 22:29 ?        00:00:00 [ksoftirqd/1]
+root          22       2  0 22:29 ?        00:00:00 [kworker/1:0H-kblockd]
+root          23       2  0 22:29 ?        00:00:00 [kdevtmpfs]
+root          24       2  0 22:29 ?        00:00:00 [netns]
+[7m--More--[27m[K
+...skipping 1 line
+root          26       2  0 22:29 ?        00:00:00 [kauditd]
+root          27       2  0 22:29 ?        00:00:00 [khungtaskd]
+root          28       2  0 22:29 ?        00:00:00 [oom_reaper]
+root          29       2  0 22:29 ?        00:00:00 [writeback]
+root          30       2  0 22:29 ?        00:00:00 [kcompactd0]
+root          31       2  0 22:29 ?        00:00:00 [ksmd]
+root          32       2  0 22:29 ?        00:00:00 [khugepaged]
+root          79       2  0 22:29 ?        00:00:00 [kintegrityd]
+root          80       2  0 22:29 ?        00:00:00 [kblockd]
+root          81       2  0 22:29 ?        00:00:00 [blkcg_punt_bio]
+root          82       2  0 22:29 ?        00:00:00 [tpm_dev_wq]
+root          83       2  0 22:29 ?        00:00:00 [ata_sff]
+root          84       2  0 22:29 ?        00:00:00 [md]
+root          85       2  0 22:29 ?        00:00:00 [edac-poller]
+root          86       2  0 22:29 ?        00:00:00 [devfreq_wq]
+root          87       2  0 22:29 ?        00:00:00 [watchdogd]
+root          89       2  0 22:29 ?        00:00:00 [kworker/0:1H-kblockd]
+root          91       2  0 22:29 ?        00:00:00 [kswapd0]
+root          92       2  0 22:29 ?        00:00:00 [ecryptfs-kthrea]
+root          94       2  0 22:29 ?        00:00:00 [kthrotld]
+root          95       2  0 22:29 ?        00:00:00 [acpi_thermal_pm]
+root          97       2  0 22:29 ?        00:00:00 [scsi_eh_0]
+root          98       2  0 22:29 ?        00:00:00 [scsi_tmf_0]
+[7m--More--[27mroot          99       2  0 22:29 ?        00:00:00 [scsi_eh_1]
+root         100       2  0 22:29 ?        00:00:00 [scsi_tmf_1]
+root         102       2  0 22:29 ?        00:00:00 [vfio-irqfd-clea]
+root         103       2  0 22:29 ?        00:00:00 [mld]
+root         104       2  0 22:29 ?        00:00:00 [ipv6_addrconf]
+root         108       2  0 22:29 ?        00:00:00 [kworker/1:1H-kblockd]
+root         116       2  0 22:29 ?        00:00:00 [kstrp]
+root         119       2  0 22:29 ?        00:00:00 [zswap-shrink]
+root         120       2  0 22:29 ?        00:00:00 [kworker/u5:0]
+root         125       2  0 22:29 ?        00:00:00 [charger_manager]
+root         170       2  0 22:29 ?        00:00:00 [scsi_eh_2]
+root         173       2  0 22:29 ?        00:00:00 [scsi_tmf_2]
+root         195       2  0 22:29 ?        00:00:00 [jbd2/sda5-8]
+root         196       2  0 22:29 ?        00:00:00 [ext4-rsv-conver]
+root         233       1  0 22:29 ?        00:00:00 /lib/systemd/systemd-journal
+d
+root         256       1  0 22:29 ?        00:00:00 /lib/systemd/systemd-udevd
+root         257       2  0 22:29 ?        00:00:00 [ttm_swap]
+root         258       2  0 22:29 ?        00:00:00 [irq/18-vmwgfx]
+root         259       2  0 22:29 ?        00:00:00 [card0-crtc0]
+root         260       2  0 22:29 ?        00:00:00 [card0-crtc1]
+root         261       2  0 22:29 ?        00:00:00 [card0-crtc2]
+root         262       2  0 22:29 ?        00:00:00 [card0-crtc3]
+[7m--More--[27m[K[7m--More--[27m[K[7m--More--[27mroot         263       2  0 22:29 ?        00:00:00 [card0-crtc4]
+[7m--More--[27m[K]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ps -u $USER
+    PID TTY          TIME CMD
+    883 ?        00:00:00 systemd
+    884 ?        00:00:00 (sd-pam)
+    889 ?        00:00:00 pulseaudio
+    892 ?        00:00:00 xfce4-session
+    906 ?        00:00:00 dbus-daemon
+    981 ?        00:00:00 VBoxClient
+    982 ?        00:00:00 VBoxClient
+    993 ?        00:00:00 VBoxClient
+    994 ?        00:00:00 VBoxClient
+    998 ?        00:00:00 VBoxClient
+    999 ?        00:00:06 VBoxClient
+   1003 ?        00:00:00 VBoxClient
+   1004 ?        00:00:00 VBoxClient
+   1013 ?        00:00:00 ssh-agent
+   1039 ?        00:00:00 at-spi-bus-laun
+   1042 ?        00:00:00 gvfsd
+   1047 ?        00:00:00 gvfsd-fuse
+   1050 ?        00:00:00 dbus-daemon
+   1059 ?        00:00:00 xfconfd
+   1065 ?        00:00:00 at-spi2-registr
+   1070 ?        00:00:00 xfce4-screensav
+   1076 ?        00:00:00 gnome-keyring-d
+   1079 ?        00:00:01 xfwm4
+   1092 ?        00:00:00 xfsettingsd
+   1093 ?        00:00:00 xfce4-panel
+   1108 ?        00:00:00 Thunar
+   1109 ?        00:00:00 panel-1-whisker
+   1114 ?        00:00:00 panel-5-systray
+   1115 ?        00:00:00 panel-6-notific
+   1116 ?        00:00:00 panel-7-indicat
+   1119 ?        00:00:00 panel-8-statusn
+   1120 ?        00:00:00 panel-9-power-m
+   1123 ?        00:00:02 panel-10-pulsea
+   1132 ?        00:00:00 xfdesktop
+   1142 ?        00:00:00 indicator-messa
+   1149 ?        00:00:00 xfce4-notifyd
+   1156 ?        00:00:00 polkit-gnome-au
+   1159 ?        00:00:00 nm-applet
+   1180 ?        00:00:00 applet.py
+   1206 ?        00:00:00 xfce4-power-man
+   1213 ?        00:00:00 blueman-applet
+   1217 ?        00:00:00 update-notifier
+   1229 ?        00:00:00 dconf-service
+   1234 ?        00:00:00 xiccd
+   1241 ?        00:00:00 gvfs-udisks2-vo
+   1249 ?        00:00:00 gvfs-gphoto2-vo
+   1256 ?        00:00:00 gvfs-afc-volume
+   1261 ?        00:00:00 gvfs-goa-volume
+   1265 ?        00:00:00 gvfs-mtp-volume
+   1276 ?        00:00:00 gvfsd-trash
+   1281 ?        00:00:00 gvfsd-metadata
+   1294 ?        00:00:00 blueman-tray
+   1295 ?        00:00:00 obexd
+   1385 ?        00:00:03 update-manager
+   2881 ?        00:00:11 firefox
+   2931 ?        00:00:00 Socket Process
+   2975 ?        00:00:00 Privileged Cont
+   3036 ?        00:00:00 WebExtensions
+   3077 ?        00:00:03 Isolated Web Co
+   3085 ?        00:00:00 Web Content
+   3103 ?        00:00:00 Web Content
+   3160 ?        00:00:00 Web Content
+   3177 ?        00:00:02 xfce4-terminal
+   3182 pts/0    00:00:00 bash
+   3190 pts/0    00:00:00 script
+   3191 pts/1    00:00:00 bash
+   3335 pts/1    00:00:00 ps
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ps -u root
+    PID TTY          TIME CMD
+      1 ?        00:00:01 systemd
+      2 ?        00:00:00 kthreadd
+      3 ?        00:00:00 rcu_gp
+      4 ?        00:00:00 rcu_par_gp
+      5 ?        00:00:00 kworker/0:0-events
+      6 ?        00:00:00 kworker/0:0H-events_highpri
+      9 ?        00:00:00 mm_percpu_wq
+     10 ?        00:00:00 rcu_tasks_rude_
+     11 ?        00:00:00 rcu_tasks_trace
+     12 ?        00:00:00 ksoftirqd/0
+     13 ?        00:00:00 rcu_sched
+     14 ?        00:00:00 migration/0
+     15 ?        00:00:00 idle_inject/0
+     16 ?        00:00:00 cpuhp/0
+     17 ?        00:00:00 cpuhp/1
+     18 ?        00:00:00 idle_inject/1
+     19 ?        00:00:00 migration/1
+     20 ?        00:00:00 ksoftirqd/1
+     22 ?        00:00:00 kworker/1:0H-kblockd
+     23 ?        00:00:00 kdevtmpfs
+     24 ?        00:00:00 netns
+     25 ?        00:00:00 inet_frag_wq
+     26 ?        00:00:00 kauditd
+     27 ?        00:00:00 khungtaskd
+     28 ?        00:00:00 oom_reaper
+     29 ?        00:00:00 writeback
+     30 ?        00:00:00 kcompactd0
+     31 ?        00:00:00 ksmd
+     32 ?        00:00:00 khugepaged
+     79 ?        00:00:00 kintegrityd
+     80 ?        00:00:00 kblockd
+     81 ?        00:00:00 blkcg_punt_bio
+     82 ?        00:00:00 tpm_dev_wq
+     83 ?        00:00:00 ata_sff
+     84 ?        00:00:00 md
+     85 ?        00:00:00 edac-poller
+     86 ?        00:00:00 devfreq_wq
+     87 ?        00:00:00 watchdogd
+     89 ?        00:00:00 kworker/0:1H-kblockd
+     91 ?        00:00:00 kswapd0
+     92 ?        00:00:00 ecryptfs-kthrea
+     94 ?        00:00:00 kthrotld
+     95 ?        00:00:00 acpi_thermal_pm
+     97 ?        00:00:00 scsi_eh_0
+     98 ?        00:00:00 scsi_tmf_0
+     99 ?        00:00:00 scsi_eh_1
+    100 ?        00:00:00 scsi_tmf_1
+    102 ?        00:00:00 vfio-irqfd-clea
+    103 ?        00:00:00 mld
+    104 ?        00:00:00 ipv6_addrconf
+    108 ?        00:00:00 kworker/1:1H-kblockd
+    116 ?        00:00:00 kstrp
+    119 ?        00:00:00 zswap-shrink
+    120 ?        00:00:00 kworker/u5:0
+    125 ?        00:00:00 charger_manager
+    170 ?        00:00:00 scsi_eh_2
+    173 ?        00:00:00 scsi_tmf_2
+    195 ?        00:00:00 jbd2/sda5-8
+    196 ?        00:00:00 ext4-rsv-conver
+    233 ?        00:00:00 systemd-journal
+    256 ?        00:00:00 systemd-udevd
+    257 ?        00:00:00 ttm_swap
+    258 ?        00:00:00 irq/18-vmwgfx
+    259 ?        00:00:00 card0-crtc0
+    260 ?        00:00:00 card0-crtc1
+    261 ?        00:00:00 card0-crtc2
+    262 ?        00:00:00 card0-crtc3
+    263 ?        00:00:00 card0-crtc4
+    264 ?        00:00:00 card0-crtc5
+    265 ?        00:00:00 card0-crtc6
+    266 ?        00:00:00 card0-crtc7
+    311 ?        00:00:00 iprt-VBoxWQueue
+    324 ?        00:00:00 cryptd
+    466 ?        00:00:00 accounts-daemon
+    467 ?        00:00:00 acpid
+    473 ?        00:00:00 cron
+    477 ?        00:00:00 NetworkManager
+    484 ?        00:00:00 irqbalance
+    487 ?        00:00:00 networkd-dispat
+    496 ?        00:00:00 polkitd
+    506 ?        00:00:00 systemd-logind
+    509 ?        00:00:00 udisksd
+    511 ?        00:00:00 wpa_supplicant
+    587 ?        00:00:00 cupsd
+    592 ?        00:00:00 cups-browsed
+    599 ?        00:00:00 ModemManager
+    610 ?        00:00:00 unattended-upgr
+    833 ?        00:00:00 lightdm
+    845 ?        00:00:00 VBoxService
+    862 tty7     00:00:05 Xorg
+    863 tty1     00:00:00 agetty
+    878 ?        00:00:00 lightdm
+   1096 ?        00:00:00 upowerd
+   2322 ?        00:00:00 xfsalloc
+   2323 ?        00:00:00 xfs_mru_cache
+   2326 ?        00:00:00 jfsIO
+   2327 ?        00:00:00 jfsCommit
+   2328 ?        00:00:00 jfsCommit
+   2329 ?        00:00:00 jfsSync
+   2844 ?        00:00:00 kworker/u4:1-events_power_efficient
+   2846 ?        00:00:00 kworker/1:1-events
+   3035 ?        00:00:00 kworker/1:0-events
+   3264 ?        00:00:00 kworker/u4:2-events_unbound
+   3275 ?        00:00:00 kworker/0:1-cgroup_destroy
+   3321 ?        00:00:00 kworker/u4:0-events_unbound
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ sleep 1000 &
+[1] 3337
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ tty
+/dev/pts/1
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ something like \[K/dev/tty/09
+something: command not found
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ps -t /dev/pts/1
+    PID TTY          TIME CMD
+   3191 pts/1    00:00:00 bash
+   3337 pts/1    00:00:00 sleep
+   3350 pts/1    00:00:00 ps
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ sh
+$ tty
+/dev/pts/1
+$ ps -t port    /dev/pts/1
+    PID TTY          TIME CMD
+   3191 pts/1    00:00:00 bash
+   3337 pts/1    00:00:00 sleep
+   3351 pts/1    00:00:00 sh
+   3353 pts/1    00:00:00 ps
+$ echo $$
+3351
+$ exit
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ps -l
+F S   UID     PID    PPID  C PRI  NI ADDR SZ WCHAN  TTY          TIME CMD
+0 S  1000    3191    3190  0  80   0 -  5305 do_wai pts/1    00:00:00 bash
+0 S  1000    3337    3191  0  80   0 -  4606 hrtime pts/1    00:00:00 sleep
+4 R  1000    3354    3191  0  80   0 -  5440 -      pts/1    00:00:00 ps
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ sh
+$ ps -l
+F S   UID     PID    PPID  C PRI  NI ADDR SZ WCHAN  TTY          TIME CMD
+0 S  1000    3191    3190  0  80   0 -  5305 do_wai pts/1    00:00:00 bash
+0 S  1000    3337    3191  0  80   0 -  4606 hrtime pts/1    00:00:00 sleep
+0 S  1000    3355    3191  0  80   0 -   654 do_wai pts/1    00:00:00 sh
+4 R  1000    3356    3355  0  80   0 -  5440 -      pts/1    00:00:00 ps
+$ wc
+      0       0       0
+$ wc
+A few lines ot   f text
+stty -a
+^C
+$ sleep 500 & 
+$ ps
+    PID TTY          TIME CMD
+   3191 pts/1    00:00:00 bash
+   3337 pts/1    00:00:00 sleep
+   3355 pts/1    00:00:00 sh
+   3359 pts/1    00:00:00 sleep
+   3360 pts/1    00:00:00 ps
+$ ^C
+$ 
+$ ^\ps
+    PID TTY          TIME CMD
+   3191 pts/1    00:00:00 bash
+   3337 pts/1    00:00:00 sleep
+   3355 pts/1    00:00:00 sh
+   3359 pts/1    00:00:00 sleep
+   3361 pts/1    00:00:00 ps
+$ kill -2 3338 7
+$ k sleep 600 &
+$ ps
+    PID TTY          TIME CMD
+   3191 pts/1    00:00:00 bash
+   3355 pts/1    00:00:00 sh
+   3359 pts/1    00:00:00 sleep
+   3367 pts/1    00:00:00 sleep
+   3368 pts/1    00:00:00 ps
+$ kill -3 3359
+$ 
+[1]+  Interrupt               sleep 1000
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ exit[K[K[K[Kfind ~ -name practice -print
+/home/joshua/practice
+/home/joshua/Archives/practice
+/home/joshua/Docum/practice
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls -ld /tmp/$USER
+ls: cannot access '/tmp/joshua': No such file or directory
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ mkdir /tmp/$USER
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ cd
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ cp practice names.tmp users_on /tmp/$USER
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ mkdir /tm[p[K[Kp/$USER/Hall
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls > /tmp/$USER/Hall./[K[K/candlestick
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ date > /tmp/$USER/Hall/colmustard
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ find /tmp -user $USER -print
+/tmp/config-err-RBqXSL
+/tmp/.xfsm-ICE-UHBII1
+find: ‘/tmp/systemd-private-36870aa6c14f4c6b80471120b0ad63cf-ModemManager.service-pHm30f’: Permission denied
+/tmp/.ICE-unix/892
+find: ‘/tmp/systemd-private-36870aa6c14f4c6b80471120b0ad63cf-upower.service-SD5O1e’: Permission denied
+find: ‘/tmp/systemd-private-36870aa6c14f4c6b80471120b0ad63cf-systemd-resolved.service-tEJv8e’: Permission denied
+find: ‘/tmp/systemd-private-36870aa6c14f4c6b80471120b0ad63cf-colord.service-lePUef’: Permission denied
+find: ‘/tmp/systemd-private-36870aa6c14f4c6b80471120b0ad63cf-systemd-logind.service-nAiO0g’: Permission denied
+/tmp/ssh-FfCJkKYOZl9i
+/tmp/ssh-FfCJkKYOZl9i/agent.892
+/tmp/Temp-144505a9-59c6-4e96-aa2f-1da015672d54
+find: ‘/tmp/systemd-private-36870aa6c14f4c6b80471120b0ad63cf-systemd-timesyncd.service-372VTe’: Permission denied
+/tmp/joshua
+/tmp/joshua/practice
+/tmp/joshua/users_on
+/tmp/joshua/names.tmp
+/tmp/joshua/Hall
+/tmp/joshua/Hall/colmustard
+/tmp/joshua/Hall/candlestick
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ find /tmp -user $USER -rpint >?[K[K[K[K[K[K[K[Kprint > my-tmp-files
+find: ‘/tmp/systemd-private-36870aa6c14f4c6b80471120b0ad63cf-ModemManager.service-pHm30f’: Permission denied
+find: ‘/tmp/systemd-private-36870aa6c14f4c6b80471120b0ad63cf-upower.service-SD5O1e’: Permission denied
+find: ‘/tmp/systemd-private-36870aa6c14f4c6b80471120b0ad63cf-systemd-resolved.service-tEJv8e’: Permission denied
+find: ‘/tmp/systemd-private-36870aa6c14f4c6b80471120b0ad63cf-colord.service-lePUef’: Permission denied
+find: ‘/tmp/systemd-private-36870aa6c14f4c6b80471120b0ad63cf-systemd-logind.service-nAiO0g’: Permission denied
+find: ‘/tmp/systemd-private-36870aa6c14f4c6b80471120b0ad63cf-systemd-timesyncd.service-372VTe’: Permission denied
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ more my-tmp-files
+/tmp/config-err-RBqXSL
+/tmp/.xfsm-ICE-UHBII1
+/tmp/.ICE-unix/892
+/tmp/ssh-FfCJkKYOZl9i
+/tmp/ssh-FfCJkKYOZl9i/agent.892
+/tmp/Temp-144505a9-59c6-4e96-aa2f-1da015672d54
+/tmp/joshua
+/tmp/joshua/practice
+/tmp/joshua/users_on
+/tmp/joshua/names.tmp
+/tmp/joshua/Hall
+/tmp/joshua/Hall/colmustard
+/tmp/joshua/Hall/candlestick
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ cd
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ tar -cvf archfile.tar
+tar: Cowardly refusing to create an empty archive
+Try 'tar --help' or 'tar --usage' for more information.
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ exit
+exit
+
+Script done on 2022-03-08 23:23:07-08:00 [COMMAND_EXIT_CODE="2"]
