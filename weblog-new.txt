@@ -1,0 +1,5333 @@
+118 [06/sep/2001:09:42:46 -0300] "bet	/home/joshua:
+118 [06/sep/2001:09:41:41 -0300] "bet	a
+118 [06/sep/2001:09:42:31 -0300] "bet	allmyfiles
+118 [06/sep/2001:09:43:08 -0300] "bet	Archives
+118 [06/sep/2001:09:43:39 -0300] "bet	betty
+60 [09/sep/2001:12:53:38 -0300] "bet	c1
+94 [30/aug/2001:12:08:03 -0300] "bet	c2
+94 [30/aug/2001:12:08:03 -0300] "bet	c3
+66 [04/sep/2001:01:07:54 -0300] "bet	cl
+66 [04/sep/2001:01:08:04 -0300] "bet	daniel
+66 [06/sep/2001:21:17:52 -0300] "bet	Desktop
+66 [06/sep/2001:21:17:55 -0300] "bet	Docum
+66 [06/sep/2001:21:18:41 -0300] "bet	Documents
+66 [08/sep/2001:02:24:55 -0300] "bet	Downloads
+66 [09/sep/2001:20:48:26 -0300] "bet	el
+66 [10/aug/2001:12:54:35 -0300] "bet	exam1
+66 [10/aug/2001:12:55:21 -0300] "bet	file2
+66 [10/aug/2001:12:55:21 -0300] "bet	file.info1
+66 [10/aug/2001:12:55:28 -0300] "bet	file.info2
+66 [10/aug/2001:12:55:35 -0300] "bet	filewho
+66 [18/aug/2001:19:07:53 -0300] "bet	first_file
+66 [19/aug/2001:02:35:10 -0300] "bet	foo
+66 [19/aug/2001:02:38:29 -0300] "bet	footer
+66 [20/aug/2001:00:36:04 -0300] "bet	footer.1
+66 [21/aug/2001:11:17:46 -0300] "bet	footer.2
+66 [22/aug/2001:17:24:28 -0300] "bet	greeting
+66 [27/aug/2001:01:39:39 -0300] "bet	index.html
+66 [27/aug/2001:01:39:40 -0300] "bet	installation.txt
+66 [27/aug/2001:01:48:20 -0300] "bet	JoshuaLe-lab2.txt
+66 [27/aug/2001:01:49:28 -0300] "bet	journal
+66 [27/aug/2001:01:53:00 -0300] "bet	lab1.txt
+66 [27/aug/2001:01:53:08 -0300] "bet	lab4.txt
+66 [27/aug/2001:01:53:51 -0300] "bet	lab5.txt
+66 [27/aug/2001:01:53:54 -0300] "bet	lab6.txt
+66 [27/aug/2001:01:54:30 -0300] "bet	lab7.txt
+66 [27/aug/2001:01:54:33 -0300] "bet	lost-days
+66 [27/aug/2001:01:55:07 -0300] "bet	manywords
+66 [27/aug/2001:01:56:53 -0300] "bet	me_A
+66 [27/aug/2001:02:02:34 -0300] "bet	megan
+66 [27/aug/2001:02:03:16 -0300] "bet	month
+66 [27/aug/2001:02:08:57 -0300] "bet	Music
+66 [27/aug/2001:02:08:58 -0300] "bet	mydata.txt
+66 [27/aug/2001:02:09:05 -0300] "bet	myerr
+66 [27/aug/2001:02:09:18 -0300] "bet	myfile1
+66 [27/aug/2001:02:09:51 -0300] "bet	myoutput
+66 [27/aug/2001:02:09:51 -0300] "bet	mypasswd
+66 [27/aug/2001:02:09:56 -0300] "bet	names.tmp
+66 [27/aug/2001:02:10:08 -0300] "bet	newfile1A
+66 [27/aug/2001:02:10:15 -0300] "bet	newfile2B2
+66 [27/aug/2001:02:10:23 -0300] "bet	Papers
+66 [27/aug/2001:02:10:31 -0300] "bet	phon
+66 [27/aug/2001:02:18:14 -0300] "bet	Pictures
+66 [27/aug/2001:02:18:15 -0300] "bet	practice
+66 [28/aug/2001:16:02:39 -0300] "bet	Private
+66 [28/aug/2001:16:02:40 -0300] "bet	Projects
+66 [29/aug/2001:00:34:17 -0300] "bet	Public
+61 [02/sep/2001:10:41:23 -0300] "bet	quiz3.txt
+61 [04/sep/2001:09:45:06 -0300] "bet	Recommendations
+61 [04/sep/2001:23:51:35 -0300] "bet	repos
+61 [04/sep/2001:23:52:30 -0300] "bet	respected
+61 [04/sep/2001:23:52:32 -0300] "bet	Resumes
+61 [05/sep/2001:00:29:14 -0300] "bet	review
+61 [06/sep/2001:09:32:49 -0300] "bet	script1
+61 [06/sep/2001:09:34:53 -0300] "bet	script.js
+61 [06/sep/2001:09:34:54 -0300] "bet	second_file
+61 [06/sep/2001:14:15:16 -0300] "bet	short-pass
+61 [07/sep/2001:11:10:28 -0300] "bet	Skye
+61 [08/aug/2001:21:58:23 -0300] "bet	s-mypasswd
+61 [08/aug/2001:21:58:23 -0300] "bet	sortedsp3
+61 [08/aug/2001:22:00:28 -0300] "bet	sorted-test-sor
+61 [09/sep/2001:13:53:03 -0300] "bet	sort-test
+61 [10/sep/2001:09:55:19 -0300] "bet	sp2
+61 [10/sep/2001:09:55:33 -0300] "bet	sp3
+61 [10/sep/2001:23:47:12 -0300] "bet	style.css
+61 [10/sep/2001:23:47:13 -0300] "bet	Templates
+61 [11/sep/2001:00:23:15 -0300] "bet	test-file1
+61 [11/sep/2001:00:55:07 -0300] "bet	test-file2
+61 [11/sep/2001:00:55:38 -0300] "bet	test-g
+61 [11/sep/2001:00:55:39 -0300] "bet	test-list
+61 [11/sep/2001:00:55:45 -0300] "bet	test-sor
+61 [11/sep/2001:00:55:47 -0300] "bet	test.txt
+61 [11/sep/2001:01:26:22 -0300] "bet	tmp
+61 [16/aug/2001:18:22:43 -0300] "bet	total
+61 [16/aug/2001:18:22:43 -0300] "bet	trouble
+61 [21/aug/2001:23:57:29 -0300] "bet	users_on
+61 [21/aug/2001:23:57:30 -0300] "bet	users_test
+61 [21/aug/2001:23:58:03 -0300] "bet	Videos
+61 [21/aug/2001:23:58:33 -0300] "bet	wc
+61 [27/aug/2001:12:11:35 -0300] "bet	west-coast.names
+61 [28/aug/2001:12:03:06 -0300] "bet	words.out
+61 [28/aug/2001:12:03:06 -0300] "bet	wordsUsed
+61 [28/aug/2001:12:03:14 -0300] "bet	wordsUsed1
+61 [29/aug/2001:09:24:06 -0300] "bet	wordsUsed2
+61 [29/aug/2001:10:41:32 -0300] "bet	wordsUsed3
+61 [29/aug/2001:12:40:08 -0300] "bet	wordsUsed4
+61 [29/aug/2001:16:11:54 -0300] "bet	wordsUsed5
+61 [29/aug/2001:16:11:55 -0300] "bet	wordsUsed6
+61 [30/aug/2001:09:39:56 -0300] "bet	wordsUsed7
+61 [30/aug/2001:09:39:57 -0300] "bet	wordsUsed8
+61 [30/aug/2001:18:01:36 -0300] "bet	yr1752
+61 [30/aug/2001:18:01:38 -0300] "bet	
+61 [30/aug/2001:18:11:27 -0300] "bet	/home/joshua/a:
+61 [30/aug/2001:18:11:28 -0300] "bet	b
+61 [30/aug/2001:18:11:32 -0300] "bet	
+61 [11/sep/2001:01:26:43 -0300] "bet	/home/joshua/a/b:
+61 [11/sep/2001:01:26:54 -0300] "bet	c
+38 [11/sep/2001:10:41:13 -0300] "bet	
+38 [11/sep/2001:10:41:15 -0300] "bet	/home/joshua/a/b/c:
+38 [11/sep/2001:10:41:15 -0300] "bet	
+38 [11/sep/2001:10:42:42 -0300] "bet	/home/joshua/Archives:
+38 [11/sep/2001:10:42:42 -0300] "bet	betty
+38 [11/sep/2001:10:42:43 -0300] "bet	daniel
+38 [11/sep/2001:10:42:45 -0300] "bet	journal
+38 [11/sep/2001:10:43:00 -0300] "bet	lab1.txt
+38 [11/sep/2001:10:43:02 -0300] "bet	lab4.txt
+38 [11/sep/2001:10:43:17 -0300] "bet	lab5.txt
+38 [11/sep/2001:10:43:20 -0300] "bet	lab6.txt
+38 [11/sep/2001:10:43:29 -0300] "bet	lost-days
+38 [11/sep/2001:10:43:32 -0300] "bet	megan
+38 [11/sep/2001:10:44:05 -0300] "bet	practice
+67 [09/sep/2001:00:45:43 -0300] "bet	testing2
+67 [09/sep/2001:00:45:44 -0300] "bet	users_on
+67 [09/sep/2001:00:45:57 -0300] "bet	
+67 [09/sep/2001:00:46:02 -0300] "bet	/home/joshua/Desktop:
+67 [09/sep/2001:00:46:10 -0300] "bet	mit-scheme-11.2
+67 [09/sep/2001:00:46:26 -0300] "bet	mit-scheme-11.2-x86-64.tar.gz
+67 [09/sep/2001:00:46:28 -0300] "bet	Project 1.odt
+67 [09/sep/2001:00:46:28 -0300] "bet	users_on
+67 [09/sep/2001:00:46:30 -0300] "bet	
+67 [09/sep/2001:00:46:34 -0300] "bet	/home/joshua/Desktop/mit-scheme-11.2:
+67 [09/sep/2001:00:51:17 -0300] "bet	dist
+67 [09/sep/2001:00:51:20 -0300] "bet	doc
+67 [09/sep/2001:00:51:22 -0300] "bet	etc
+67 [09/sep/2001:00:51:26 -0300] "bet	src
+67 [09/sep/2001:00:52:24 -0300] "bet	Tags.sh
+67 [09/sep/2001:00:52:39 -0300] "bet	tests
+67 [09/sep/2001:00:52:44 -0300] "bet	v8
+67 [09/sep/2001:00:52:46 -0300] "bet	
+67 [09/sep/2001:00:52:49 -0300] "bet	/home/joshua/Desktop/mit-scheme-11.2/dist:
+67 [09/sep/2001:00:52:52 -0300] "bet	copyright.c
+67 [09/sep/2001:00:54:51 -0300] "bet	copyright.scm
+67 [09/sep/2001:01:21:15 -0300] "bet	index.html
+67 [09/sep/2001:01:21:15 -0300] "bet	make-doc-files
+67 [09/sep/2001:01:21:19 -0300] "bet	Makefile
+67 [09/sep/2001:01:21:19 -0300] "bet	make-liarc-files
+67 [09/sep/2001:01:22:32 -0300] "bet	make-macosx-app
+67 [09/sep/2001:01:22:34 -0300] "bet	make-native-files
+67 [09/sep/2001:01:24:29 -0300] "bet	make-scmutils
+67 [09/sep/2001:01:25:10 -0300] "bet	make-src-files
+133 [25/aug/2001:18:16:51 -0300] "bet	make-upload-files
+66 [04/sep/2001:13:45:21 -0300] "bet	parameter-plan.txt
+66 [04/sep/2001:13:45:21 -0300] "bet	scheme-inst.nsi
+66 [04/sep/2001:13:47:20 -0300] "bet	shared.sh
+66 [04/sep/2001:13:55:05 -0300] "bet	update-copyright.scm
+66 [04/sep/2001:13:55:05 -0300] "bet	
+66 [04/sep/2001:13:55:50 -0300] "bet	/home/joshua/Desktop/mit-scheme-11.2/doc:
+66 [04/sep/2001:14:35:19 -0300] "bet	autom4te.cache
+66 [04/sep/2001:14:35:19 -0300] "bet	configure
+66 [05/sep/2001:13:07:40 -0300] "bet	configure.ac
+66 [05/sep/2001:13:07:40 -0300] "bet	ffi
+102 [07/sep/2001:11:43:01 -0300] "bet	index.html
+102 [07/sep/2001:11:44:18 -0300] "bet	info-dir
+102 [07/sep/2001:11:45:32 -0300] "bet	install-sh
+102 [07/sep/2001:11:46:22 -0300] "bet	make-common.in
+102 [07/sep/2001:11:46:42 -0300] "bet	Makefile.in
+102 [07/sep/2001:11:47:26 -0300] "bet	mit-scheme.1
+102 [07/sep/2001:11:16:02 -0300] "bet	mkinstalldirs
+102 [07/sep/2001:11:16:29 -0300] "bet	ref-manual
+102 [07/sep/2001:11:16:44 -0300] "bet	sos
+102 [07/sep/2001:11:16:50 -0300] "bet	user-manual
+102 [07/sep/2001:11:17:16 -0300] "bet	
+102 [07/sep/2001:11:17:16 -0300] "bet	/home/joshua/Desktop/mit-scheme-11.2/doc/autom4te.cache:
+102 [07/sep/2001:11:17:22 -0300] "bet	output.0
+102 [07/sep/2001:11:17:29 -0300] "bet	requests
+102 [07/sep/2001:11:20:09 -0300] "bet	traces.0
+102 [07/sep/2001:11:20:41 -0300] "bet	
+102 [07/sep/2001:11:43:00 -0300] "bet	/home/joshua/Desktop/mit-scheme-11.2/doc/ffi:
+193 [07/sep/2001:14:53:50 -0300] "bet	ffi.texinfo
+193 [07/sep/2001:14:54:05 -0300] "bet	Makefile.in
+193 [07/sep/2001:14:55:13 -0300] "bet	prhello.cdecl
+193 [07/sep/2001:14:55:13 -0300] "bet	prhello-Makefile
+193 [07/sep/2001:14:55:17 -0300] "bet	prhello.scm
+193 [07/sep/2001:14:57:52 -0300] "bet	
+193 [07/sep/2001:15:03:18 -0300] "bet	/home/joshua/Desktop/mit-scheme-11.2/doc/ref-manual:
+193 [07/sep/2001:15:12:50 -0300] "bet	acknowledgements.texi
+68 [09/aug/2001:16:48:42 -0300] "bet	associations.texi
+68 [09/aug/2001:16:48:42 -0300] "bet	binding-index.texi
+68 [09/aug/2001:16:48:48 -0300] "bet	bit-strings.texi
+68 [09/aug/2001:16:48:48 -0300] "bet	characters.texi
+68 [09/aug/2001:16:49:12 -0300] "bet	concept-index.texi
+68 [09/aug/2001:16:49:12 -0300] "bet	environments.texi
+68 [09/aug/2001:16:50:14 -0300] "bet	equivalence.texi
+68 [09/aug/2001:16:50:17 -0300] "bet	error.texi
+68 [09/aug/2001:16:50:31 -0300] "bet	fig
+68 [09/aug/2001:16:51:31 -0300] "bet	gfdl.texinfo
+68 [09/aug/2001:16:51:36 -0300] "bet	graphics.texi
+68 [09/aug/2001:16:52:27 -0300] "bet	io.texi
+68 [09/aug/2001:16:52:51 -0300] "bet	lists.texi
+68 [09/aug/2001:16:52:51 -0300] "bet	Makefile.in
+68 [09/aug/2001:16:53:49 -0300] "bet	misc-datatypes.texi
+68 [09/aug/2001:16:54:12 -0300] "bet	numbers.texi
+68 [09/aug/2001:16:54:49 -0300] "bet	os-interface.texi
+68 [09/aug/2001:16:55:24 -0300] "bet	overview.texi
+68 [09/aug/2001:17:02:57 -0300] "bet	procedures.texi
+68 [09/aug/2001:17:03:43 -0300] "bet	scheme.texinfo
+68 [09/aug/2001:17:03:46 -0300] "bet	special-forms.texi
+12 [11/sep/2001:11:16:34 -0300] "bet	standards.texi
+12 [11/sep/2001:11:16:34 -0300] "bet	strings.texi
+104 [05/sep/2001:16:25:29 -0300] "bet	tools.scm
+104 [05/sep/2001:16:25:35 -0300] "bet	vectors.texi
+107 [03/sep/2001:22:11:17 -0300] "bet	win32-packaging.texi
+107 [03/sep/2001:22:16:44 -0300] "bet	
+107 [03/sep/2001:22:16:44 -0300] "bet	/home/joshua/Desktop/mit-scheme-11.2/doc/ref-manual/fig:
+107 [03/sep/2001:22:16:46 -0300] "bet	cn-expm1.eps.in
+107 [03/sep/2001:22:16:50 -0300] "bet	cn-log1mexp.eps.in
+107 [03/sep/2001:23:09:30 -0300] "bet	cn-log1p.eps.in
+107 [05/sep/2001:16:25:42 -0300] "bet	cn-log1pexp.eps.in
+107 [05/sep/2001:16:30:29 -0300] "bet	cn-logistic.eps.in
+107 [05/sep/2001:16:30:32 -0300] "bet	cn-logistichalf.eps.in
+107 [05/sep/2001:16:30:32 -0300] "bet	cn-logit.eps.in
+107 [05/sep/2001:16:30:32 -0300] "bet	cn-logitexp.eps.in
+107 [05/sep/2001:16:30:33 -0300] "bet	cn-logithalf.eps.in
+107 [05/sep/2001:16:30:33 -0300] "bet	cn-loglogistic.eps.in
+107 [05/sep/2001:16:30:33 -0300] "bet	common
+107 [05/sep/2001:16:30:33 -0300] "bet	expm1.eps.in
+107 [05/sep/2001:16:30:35 -0300] "bet	log1mexp.eps.in
+107 [05/sep/2001:16:30:35 -0300] "bet	log1p.eps.in
+112 [10/sep/2001:17:42:44 -0300] "bet	log1pexp.eps.in
+112 [10/sep/2001:18:04:43 -0300] "bet	logistic.eps.in
+112 [10/sep/2001:18:41:37 -0300] "bet	logistichalf.eps.in
+113 [11/sep/2001:11:43:10 -0300] "bet	logit.eps.in
+113 [11/sep/2001:11:43:10 -0300] "bet	logitexp.eps.in
+113 [11/sep/2001:11:44:18 -0300] "bet	logithalf.eps.in
+113 [11/sep/2001:11:44:18 -0300] "bet	loglogistic.eps.in
+113 [11/sep/2001:11:44:21 -0300] "bet	
+113 [11/sep/2001:11:44:36 -0300] "bet	/home/joshua/Desktop/mit-scheme-11.2/doc/ref-manual/fig/common:
+113 [11/sep/2001:11:44:53 -0300] "bet	ad.ps
+113 [11/sep/2001:11:44:54 -0300] "bet	debug.ps
+113 [11/sep/2001:11:46:00 -0300] "bet	linsplin.ps
+113 [11/sep/2001:11:46:00 -0300] "bet	math.ps
+113 [11/sep/2001:11:46:02 -0300] "bet	newton.ps
+113 [11/sep/2001:11:46:47 -0300] "bet	plot.ps
+113 [11/sep/2001:11:46:49 -0300] "bet	splinterp.ps
+113 [11/sep/2001:11:47:27 -0300] "bet	
+113 [11/sep/2001:11:47:28 -0300] "bet	/home/joshua/Desktop/mit-scheme-11.2/doc/sos:
+113 [11/sep/2001:11:48:53 -0300] "bet	Makefile.in
+113 [11/sep/2001:11:50:20 -0300] "bet	sos.texinfo
+113 [11/sep/2001:11:50:25 -0300] "bet	
+113 [11/sep/2001:11:50:51 -0300] "bet	/home/joshua/Desktop/mit-scheme-11.2/doc/user-manual:
+113 [11/sep/2001:11:50:20 -0300] "bet	Makefile.in
+113 [11/sep/2001:11:50:25 -0300] "bet	user.texinfo
+123 [07/sep/2001:10:25:30 -0300] "bet	
+123 [07/sep/2001:11:08:35 -0300] "bet	/home/joshua/Desktop/mit-scheme-11.2/etc:
+125 [09/sep/2001:22:53:32 -0300] "bet	bootstrap.scm
+125 [09/sep/2001:22:53:32 -0300] "bet	build-tree.sh
+126 [09/sep/2001:22:43:24 -0300] "bet	check-crefs
+126 [09/sep/2001:22:43:24 -0300] "bet	dirdif.scm
+127 [09/aug/2001:08:35:29 -0300] "bet	dumpdat.scm
+105 [06/sep/2001:16:57:09 -0300] "bet	make_bin
+105 [06/sep/2001:16:57:09 -0300] "bet	make_dist
+105 [06/sep/2001:16:57:15 -0300] "bet	make-git-log
+105 [06/sep/2001:16:57:15 -0300] "bet	make_psb
+105 [06/sep/2001:16:59:10 -0300] "bet	make_runtime
+105 [06/sep/2001:16:59:12 -0300] "bet	mkauto.bat
+105 [06/sep/2001:16:59:39 -0300] "bet	mkband.scm
+105 [06/sep/2001:16:59:44 -0300] "bet	mkopt.bat
+105 [06/sep/2001:16:59:44 -0300] "bet	nrwcopyr.el
+106 [06/sep/2001:17:29:02 -0300] "bet	packc386.scm
+106 [06/sep/2001:17:29:02 -0300] "bet	pack-compiler-alpha.scm
+109 [10/sep/2001:18:38:07 -0300] "bet	pack-compiler-mc68k.scm
+109 [10/sep/2001:18:38:07 -0300] "bet	pack-compiler-mips.scm
+109 [10/sep/2001:18:38:10 -0300] "bet	pack-compiler.scm
+109 [10/sep/2001:18:38:10 -0300] "bet	pack-compiler-spectrum.scm
+109 [10/sep/2001:18:38:12 -0300] "bet	pack-edwin.scm
+109 [10/sep/2001:18:38:14 -0300] "bet	pack-edwin-unix.scm
+109 [10/sep/2001:18:38:17 -0300] "bet	packew32.scm
+109 [10/sep/2001:18:38:19 -0300] "bet	pack.scm
+110 [02/sep/2001:10:47:35 -0300] "bet	r2bs.scm
+110 [02/sep/2001:10:47:36 -0300] "bet	rebuild
+110 [02/sep/2001:10:48:18 -0300] "bet	rebuild-7.4
+110 [02/sep/2001:10:50:06 -0300] "bet	rebuild-7.4-linux
+110 [02/sep/2001:10:50:29 -0300] "bet	rebuild-8.0
+110 [02/sep/2001:10:50:33 -0300] "bet	redump
+110 [02/sep/2001:10:51:33 -0300] "bet	resyntax
+110 [02/sep/2001:10:51:34 -0300] "bet	resyntax.scm
+110 [02/sep/2001:10:51:37 -0300] "bet	run-three-stages
+110 [02/sep/2001:10:51:41 -0300] "bet	scheme.el
+110 [02/sep/2001:10:51:46 -0300] "bet	update-rcs-log
+110 [02/sep/2001:10:52:00 -0300] "bet	update-rcs-log.in
+110 [02/sep/2001:10:52:00 -0300] "bet	xscheme.el
+110 [02/sep/2001:10:52:05 -0300] "bet	
+110 [02/sep/2001:10:52:22 -0300] "bet	/home/joshua/Desktop/mit-scheme-11.2/src:
+110 [02/sep/2001:10:52:24 -0300] "bet	6001
+110 [02/sep/2001:10:52:30 -0300] "bet	autom4te.cache
+110 [02/sep/2001:10:53:20 -0300] "bet	berkeley-db
+110 [02/sep/2001:10:53:21 -0300] "bet	blowfish
+110 [06/sep/2001:12:11:19 -0300] "bet	Clean.sh
+110 [06/sep/2001:12:11:19 -0300] "bet	compiler
+110 [06/sep/2001:12:11:23 -0300] "bet	confdefs.h
+110 [06/sep/2001:12:11:28 -0300] "bet	config.guess
+110 [06/sep/2001:12:11:28 -0300] "bet	config.log
+110 [06/sep/2001:12:11:30 -0300] "bet	config.status
+110 [06/sep/2001:12:11:32 -0300] "bet	config.sub
+110 [06/sep/2001:12:25:59 -0300] "bet	configure
+110 [06/sep/2001:12:25:59 -0300] "bet	configure.ac
+110 [06/sep/2001:12:26:05 -0300] "bet	COPYING
+110 [06/sep/2001:12:26:05 -0300] "bet	cref
+110 [06/sep/2001:12:26:27 -0300] "bet	edwin
+110 [06/sep/2001:12:27:50 -0300] "bet	etc
+110 [06/sep/2001:12:27:50 -0300] "bet	ffi
+110 [06/sep/2001:12:27:54 -0300] "bet	gdbm
+110 [06/sep/2001:12:27:54 -0300] "bet	imail
+110 [06/sep/2001:12:27:57 -0300] "bet	lib
+110 [06/sep/2001:12:28:19 -0300] "bet	libraries
+110 [06/sep/2001:12:28:20 -0300] "bet	Makefile
+110 [06/sep/2001:12:28:24 -0300] "bet	Makefile.in
+110 [06/sep/2001:12:29:43 -0300] "bet	makefiles_created
+114 [07/sep/2001:16:29:54 -0300] "bet	Makefile.tools
+114 [09/sep/2001:15:44:32 -0300] "bet	Makefile.tools.in
+114 [09/sep/2001:15:56:22 -0300] "bet	mcrypt
+116 [10/sep/2001:18:47:07 -0300] "bet	microcode
+116 [10/sep/2001:18:47:07 -0300] "bet	pgsql
+116 [10/sep/2001:18:47:15 -0300] "bet	README.txt
+116 [10/sep/2001:18:47:15 -0300] "bet	relnotes
+116 [10/sep/2001:18:47:16 -0300] "bet	run-build
+116 [10/sep/2001:18:47:17 -0300] "bet	runtime
+116 [10/sep/2001:18:47:27 -0300] "bet	Setup.sh
+118 [06/sep/2001:14:04:56 -0300] "bet	sf
+118 [06/sep/2001:14:01:13 -0300] "bet	sos
+118 [06/sep/2001:14:01:13 -0300] "bet	ssp
+118 [06/sep/2001:14:01:17 -0300] "bet	Stage.sh
+118 [06/sep/2001:14:01:28 -0300] "bet	stamp_cross-host
+118 [06/sep/2001:14:04:56 -0300] "bet	star-parser
+118 [06/sep/2001:14:05:53 -0300] "bet	Tags.sh
+118 [06/sep/2001:14:05:53 -0300] "bet	tools
+118 [06/sep/2001:14:06:41 -0300] "bet	win32
+118 [08/sep/2001:11:02:50 -0300] "bet	x11
+118 [08/sep/2001:11:02:50 -0300] "bet	x11-screen
+103 [10/aug/2001:00:49:30 -0300] "bet	xdoc
+103 [10/aug/2001:00:49:30 -0300] "bet	xml
+103 [10/aug/2001:00:49:44 -0300] "bet	
+103 [10/aug/2001:00:49:44 -0300] "bet	/home/joshua/Desktop/mit-scheme-11.2/src/6001:
+103 [10/aug/2001:00:49:49 -0300] "bet	6001.cbf
+103 [10/aug/2001:00:49:52 -0300] "bet	6001.pkg
+103 [10/aug/2001:00:52:20 -0300] "bet	6001.sf
+103 [10/aug/2001:00:52:20 -0300] "bet	arith.scm
+103 [10/aug/2001:00:53:10 -0300] "bet	Clean.sh
+103 [10/aug/2001:00:53:10 -0300] "bet	edextra.scm
+103 [10/aug/2001:00:53:14 -0300] "bet	floppy.scm
+103 [10/aug/2001:00:53:14 -0300] "bet	Makefile
+103 [10/aug/2001:00:53:17 -0300] "bet	Makefile-fragment
+103 [10/aug/2001:00:53:19 -0300] "bet	Makefile.in
+105 [08/aug/2001:21:05:46 -0300] "bet	make.scm
+105 [08/aug/2001:21:05:46 -0300] "bet	nodefs.scm
+105 [08/aug/2001:21:06:22 -0300] "bet	pic-imag.scm
+105 [08/aug/2001:21:06:36 -0300] "bet	pic-ops.scm
+105 [08/aug/2001:21:07:15 -0300] "bet	pic-read.scm
+105 [08/aug/2001:21:07:15 -0300] "bet	pic-reco.scm
+109 [10/sep/2001:19:48:34 -0300] "bet	picture.scm
+109 [10/sep/2001:19:49:20 -0300] "bet	Setup.sh
+109 [10/sep/2001:19:49:20 -0300] "bet	Stage.sh
+109 [10/sep/2001:19:49:21 -0300] "bet	Tags.sh
+109 [10/sep/2001:19:49:40 -0300] "bet	
+109 [10/sep/2001:20:10:27 -0300] "bet	/home/joshua/Desktop/mit-scheme-11.2/src/autom4te.cache:
+109 [10/sep/2001:20:10:29 -0300] "bet	output.0
+109 [10/sep/2001:20:10:34 -0300] "bet	requests
+109 [10/sep/2001:20:18:18 -0300] "bet	traces.0
+109 [10/sep/2001:20:18:24 -0300] "bet	
+112 [09/sep/2001:23:39:46 -0300] "bet	/home/joshua/Desktop/mit-scheme-11.2/src/berkeley-db:
+112 [09/sep/2001:23:39:46 -0300] "bet	berkeley-db.scm
+113 [07/sep/2001:14:55:17 -0300] "bet	configure.ac
+113 [07/sep/2001:15:01:47 -0300] "bet	prdb4.c
+113 [07/sep/2001:15:01:47 -0300] "bet	prdb4.scm
+113 [07/sep/2001:15:02:01 -0300] "bet	README
+113 [07/sep/2001:15:02:15 -0300] "bet	
+113 [07/sep/2001:15:02:16 -0300] "bet	/home/joshua/Desktop/mit-scheme-11.2/src/blowfish:
+115 [05/sep/2001:13:42:16 -0300] "bet	aclocal.m4
+115 [05/sep/2001:13:42:16 -0300] "bet	AUTHORS
+115 [05/sep/2001:13:42:28 -0300] "bet	autogen.sh
+115 [05/sep/2001:13:52:00 -0300] "bet	autom4te.cache
+115 [05/sep/2001:13:53:35 -0300] "bet	blowfish-adapter.c
+115 [05/sep/2001:13:53:39 -0300] "bet	blowfish.cdecl
+115 [05/sep/2001:13:56:42 -0300] "bet	blowfish-check.scm
+115 [05/sep/2001:14:25:29 -0300] "bet	blowfish-check.sh
+115 [05/sep/2001:14:25:29 -0300] "bet	blowfish.pkg
+115 [05/sep/2001:14:25:36 -0300] "bet	blowfish.scm
+115 [05/sep/2001:14:25:36 -0300] "bet	blowfish-shim.h
+115 [05/sep/2001:14:25:38 -0300] "bet	blowfish-test.scm
+115 [05/sep/2001:14:25:39 -0300] "bet	ChangeLog
+115 [05/sep/2001:14:41:30 -0300] "bet	compile
+115 [05/sep/2001:15:58:27 -0300] "bet	compile.scm
+116 [08/sep/2001:14:11:19 -0300] "bet	compile.sh
+116 [08/sep/2001:14:11:19 -0300] "bet	config.guess
+116 [08/sep/2001:14:11:24 -0300] "bet	config.h.in
+116 [08/sep/2001:14:11:24 -0300] "bet	config.sub
+116 [08/sep/2001:14:11:25 -0300] "bet	configure
+116 [08/sep/2001:14:11:29 -0300] "bet	configure.ac
+116 [08/sep/2001:14:11:41 -0300] "bet	COPYING
+116 [08/sep/2001:14:11:41 -0300] "bet	depcomp
+116 [08/sep/2001:14:11:43 -0300] "bet	INSTALL
+116 [08/sep/2001:14:11:48 -0300] "bet	install-sh
+116 [08/sep/2001:14:24:45 -0300] "bet	ltmain.sh
+116 [08/sep/2001:14:24:47 -0300] "bet	m4
+118 [06/sep/2001:11:21:19 -0300] "bet	Makefile.am
+118 [06/sep/2001:11:21:19 -0300] "bet	Makefile.in
+118 [06/sep/2001:11:25:11 -0300] "bet	make.scm
+118 [06/sep/2001:11:29:04 -0300] "bet	mdate-sh
+118 [06/sep/2001:11:29:04 -0300] "bet	missing
+118 [06/sep/2001:11:29:14 -0300] "bet	mit-scheme-blowfish.texi
+118 [06/sep/2001:11:29:33 -0300] "bet	NEWS
+118 [06/sep/2001:11:29:33 -0300] "bet	optiondb.scm
+118 [06/sep/2001:11:29:37 -0300] "bet	README
+118 [06/sep/2001:11:29:40 -0300] "bet	tags-fix.sh
+118 [06/sep/2001:11:29:41 -0300] "bet	test-driver
+118 [06/sep/2001:11:29:44 -0300] "bet	texinfo.tex
+118 [06/sep/2001:11:29:46 -0300] "bet	
+118 [06/sep/2001:11:29:47 -0300] "bet	/home/joshua/Desktop/mit-scheme-11.2/src/blowfish/autom4te.cache:
+118 [06/sep/2001:11:30:04 -0300] "bet	output.0
+118 [06/sep/2001:11:30:04 -0300] "bet	output.1
+118 [06/sep/2001:11:30:06 -0300] "bet	output.2
+118 [06/sep/2001:11:30:17 -0300] "bet	output.3
+118 [06/sep/2001:11:30:17 -0300] "bet	requests
+118 [06/sep/2001:11:30:39 -0300] "bet	traces.0
+118 [06/sep/2001:11:30:39 -0300] "bet	traces.1
+118 [06/sep/2001:11:31:33 -0300] "bet	traces.2
+118 [06/sep/2001:11:31:42 -0300] "bet	traces.3
+118 [06/sep/2001:11:32:42 -0300] "bet	
+118 [06/sep/2001:11:34:43 -0300] "bet	/home/joshua/Desktop/mit-scheme-11.2/src/blowfish/m4:
+118 [06/sep/2001:11:34:43 -0300] "bet	libtool.m4
+118 [06/sep/2001:11:34:46 -0300] "bet	lt~obsolete.m4
+118 [06/sep/2001:12:08:05 -0300] "bet	ltoptions.m4
+118 [06/sep/2001:12:08:05 -0300] "bet	ltsugar.m4
+121 [07/sep/2001:14:37:52 -0300] "bet	ltversion.m4
+121 [07/sep/2001:14:37:52 -0300] "bet	
+121 [07/sep/2001:14:41:00 -0300] "bet	/home/joshua/Desktop/mit-scheme-11.2/src/compiler:
+121 [07/sep/2001:14:41:17 -0300] "bet	back
+121 [07/sep/2001:14:41:22 -0300] "bet	base
+121 [07/sep/2001:14:41:22 -0300] "bet	choose-machine.sh
+121 [07/sep/2001:14:41:24 -0300] "bet	Clean.sh
+121 [07/sep/2001:14:41:26 -0300] "bet	compiler.cbf
+121 [07/sep/2001:14:42:16 -0300] "bet	compiler.pkg
+121 [07/sep/2001:14:42:18 -0300] "bet	compiler.sf
+121 [07/sep/2001:14:46:23 -0300] "bet	compiler-unx.crf
+121 [07/sep/2001:14:46:23 -0300] "bet	compiler-unx.fre
+121 [07/sep/2001:14:46:30 -0300] "bet	compiler-unx.pkd
+121 [07/sep/2001:14:46:30 -0300] "bet	config.guess
+121 [07/sep/2001:14:46:31 -0300] "bet	configure
+121 [07/sep/2001:14:46:33 -0300] "bet	documentation
+121 [07/sep/2001:14:46:43 -0300] "bet	etc
+121 [07/sep/2001:14:46:47 -0300] "bet	fggen
+121 [07/sep/2001:14:46:50 -0300] "bet	fgopt
+121 [07/sep/2001:14:46:51 -0300] "bet	improvements
+121 [07/sep/2001:14:47:23 -0300] "bet	machine
+121 [07/sep/2001:14:47:23 -0300] "bet	machines
+121 [07/sep/2001:14:47:26 -0300] "bet	make.bin
+121 [07/sep/2001:14:47:26 -0300] "bet	make.com
+121 [07/sep/2001:14:47:27 -0300] "bet	Makefile
+121 [07/sep/2001:14:47:29 -0300] "bet	Makefile-fragment
+121 [07/sep/2001:14:57:08 -0300] "bet	Makefile.in
+121 [07/sep/2001:14:57:21 -0300] "bet	README
+121 [07/sep/2001:14:57:21 -0300] "bet	rtlbase
+121 [08/aug/2001:22:06:52 -0300] "bet	rtlgen
+121 [08/aug/2001:22:08:54 -0300] "bet	rtlopt
+121 [08/aug/2001:22:08:54 -0300] "bet	Setup.sh
+121 [08/aug/2001:22:08:55 -0300] "bet	Stage.sh
+121 [08/aug/2001:22:33:27 -0300] "bet	Tags.sh
+121 [08/aug/2001:22:33:33 -0300] "bet	tests
+122 [08/sep/2001:15:59:06 -0300] "bet	
+122 [08/sep/2001:15:30:56 -0300] "bet	/home/joshua/Desktop/mit-scheme-11.2/src/compiler/back:
+122 [08/sep/2001:15:30:56 -0300] "bet	asmmac.bci
+122 [08/sep/2001:15:32:56 -0300] "bet	asmmac.bin
+122 [08/sep/2001:15:33:06 -0300] "bet	asmmac.com
+122 [08/sep/2001:15:34:21 -0300] "bet	asmmac.scm
+122 [08/sep/2001:15:35:14 -0300] "bet	asutl.bci
+122 [08/sep/2001:15:35:21 -0300] "bet	asutl.bin
+122 [08/sep/2001:15:37:03 -0300] "bet	asutl.com
+122 [08/sep/2001:15:42:02 -0300] "bet	asutl.ext
+122 [08/sep/2001:15:42:02 -0300] "bet	asutl.scm
+122 [08/sep/2001:15:42:08 -0300] "bet	bittop.bci
+122 [08/sep/2001:15:42:33 -0300] "bet	bittop.bin
+122 [08/sep/2001:15:46:41 -0300] "bet	bittop.com
+122 [08/sep/2001:15:46:42 -0300] "bet	bittop.ext
+122 [08/sep/2001:15:48:50 -0300] "bet	bittop.scm
+122 [08/sep/2001:15:49:02 -0300] "bet	bitutl.bci
+122 [08/sep/2001:15:49:14 -0300] "bet	bitutl.bin
+122 [08/sep/2001:15:56:07 -0300] "bet	bitutl.com
+122 [08/sep/2001:15:57:16 -0300] "bet	bitutl.ext
+122 [08/sep/2001:15:58:47 -0300] "bet	bitutl.scm
+122 [08/sep/2001:15:59:06 -0300] "bet	checks.bci
+122 [08/sep/2001:16:00:05 -0300] "bet	checks.bin
+122 [08/sep/2001:16:00:05 -0300] "bet	checks.com
+122 [08/sep/2001:16:00:07 -0300] "bet	checks.scm
+122 [08/sep/2001:16:28:45 -0300] "bet	insseq.bci
+122 [08/sep/2001:16:28:45 -0300] "bet	insseq.bin
+122 [08/sep/2001:16:34:47 -0300] "bet	insseq.com
+122 [08/sep/2001:16:35:27 -0300] "bet	insseq.scm
+122 [08/sep/2001:16:36:03 -0300] "bet	lapgn1.bci
+122 [08/sep/2001:16:36:07 -0300] "bet	lapgn1.bin
+122 [08/sep/2001:16:36:07 -0300] "bet	lapgn1.com
+122 [08/sep/2001:16:36:09 -0300] "bet	lapgn1.scm
+122 [08/sep/2001:16:36:10 -0300] "bet	lapgn2.bci
+122 [08/sep/2001:16:36:47 -0300] "bet	lapgn2.bin
+122 [08/sep/2001:16:36:49 -0300] "bet	lapgn2.com
+122 [08/sep/2001:16:37:19 -0300] "bet	lapgn2.scm
+122 [08/sep/2001:16:37:45 -0300] "bet	lapgn3.bci
+122 [08/sep/2001:16:37:46 -0300] "bet	lapgn3.bin
+122 [08/sep/2001:16:37:49 -0300] "bet	lapgn3.com
+122 [08/sep/2001:16:40:13 -0300] "bet	lapgn3.ext
+122 [08/sep/2001:16:40:13 -0300] "bet	lapgn3.scm
+122 [08/sep/2001:16:42:24 -0300] "bet	linear.bci
+122 [08/sep/2001:16:43:24 -0300] "bet	linear.bin
+122 [08/sep/2001:16:43:24 -0300] "bet	linear.com
+122 [08/sep/2001:16:43:35 -0300] "bet	linear.ext
+122 [08/sep/2001:16:43:39 -0300] "bet	linear.scm
+122 [08/sep/2001:16:45:24 -0300] "bet	mermap.bci
+122 [08/sep/2001:16:45:24 -0300] "bet	mermap.bin
+122 [08/sep/2001:16:45:25 -0300] "bet	mermap.com
+122 [08/sep/2001:16:45:29 -0300] "bet	mermap.scm
+122 [08/sep/2001:16:45:33 -0300] "bet	regmap.bci
+122 [08/sep/2001:15:59:22 -0300] "bet	regmap.bin
+122 [08/sep/2001:15:59:32 -0300] "bet	regmap.com
+125 [09/sep/2001:12:43:52 -0300] "bet	regmap.ext
+125 [09/sep/2001:12:43:52 -0300] "bet	regmap.scm
+125 [09/sep/2001:14:54:43 -0300] "bet	syerly.bci
+125 [09/sep/2001:14:54:43 -0300] "bet	syerly.bin
+125 [09/sep/2001:14:54:47 -0300] "bet	syerly.com
+126 [10/sep/2001:12:27:19 -0300] "bet	syerly.scm
+126 [10/sep/2001:12:27:19 -0300] "bet	symtab.bci
+126 [10/sep/2001:12:27:34 -0300] "bet	symtab.bin
+102 [05/sep/2001:13:19:05 -0300] "bet	symtab.com
+102 [05/sep/2001:13:19:27 -0300] "bet	symtab.ext
+102 [05/sep/2001:13:19:40 -0300] "bet	symtab.scm
+103 [11/sep/2001:09:04:43 -0300] "bet	syntax.bci
+103 [11/sep/2001:09:04:43 -0300] "bet	syntax.bin
+103 [11/sep/2001:09:06:34 -0300] "bet	syntax.com
+103 [11/sep/2001:09:07:18 -0300] "bet	syntax.ext
+103 [11/sep/2001:09:17:29 -0300] "bet	syntax.scm
+103 [11/sep/2001:09:29:58 -0300] "bet	
+103 [11/sep/2001:09:29:58 -0300] "bet	/home/joshua/Desktop/mit-scheme-11.2/src/compiler/base:
+103 [11/sep/2001:09:30:00 -0300] "bet	asstop.bci
+103 [11/sep/2001:09:30:00 -0300] "bet	asstop.bin
+103 [11/sep/2001:09:30:01 -0300] "bet	asstop.com
+103 [11/sep/2001:09:30:02 -0300] "bet	asstop.scm
+103 [11/sep/2001:09:30:04 -0300] "bet	blocks.bci
+103 [11/sep/2001:09:30:12 -0300] "bet	blocks.bin
+104 [11/sep/2001:09:30:20 -0300] "bet	blocks.com
+104 [11/sep/2001:09:32:09 -0300] "bet	blocks.ext
+104 [11/sep/2001:09:32:35 -0300] "bet	blocks.scm
+104 [11/sep/2001:09:34:24 -0300] "bet	cfg1.bci
+104 [11/sep/2001:09:34:31 -0300] "bet	cfg1.bin
+104 [11/sep/2001:09:34:37 -0300] "bet	cfg1.com
+104 [11/sep/2001:09:34:46 -0300] "bet	cfg1.ext
+104 [11/sep/2001:09:34:53 -0300] "bet	cfg1.scm
+104 [11/sep/2001:09:04:26 -0300] "bet	cfg2.bci
+104 [11/sep/2001:09:11:42 -0300] "bet	cfg2.bin
+104 [11/sep/2001:09:12:55 -0300] "bet	cfg2.com
+104 [11/sep/2001:09:15:18 -0300] "bet	cfg2.ext
+104 [11/sep/2001:09:29:45 -0300] "bet	cfg2.scm
+104 [11/sep/2001:09:29:45 -0300] "bet	cfg3.bci
+104 [11/sep/2001:09:29:46 -0300] "bet	cfg3.bin
+104 [11/sep/2001:09:30:20 -0300] "bet	cfg3.com
+104 [11/sep/2001:11:30:31 -0300] "bet	cfg3.ext
+104 [11/sep/2001:11:32:32 -0300] "bet	cfg3.scm
+104 [11/sep/2001:11:32:32 -0300] "bet	constr.bci
+104 [11/sep/2001:11:32:46 -0300] "bet	constr.bin
+104 [11/sep/2001:11:32:52 -0300] "bet	constr.com
+104 [11/sep/2001:11:34:47 -0300] "bet	constr.ext
+104 [11/sep/2001:11:55:45 -0300] "bet	constr.scm
+105 [11/sep/2001:09:33:53 -0300] "bet	contin.bci
+105 [11/sep/2001:08:45:16 -0300] "bet	contin.bin
+105 [11/sep/2001:08:45:16 -0300] "bet	contin.com
+105 [11/sep/2001:08:45:17 -0300] "bet	contin.ext
+105 [11/sep/2001:08:45:17 -0300] "bet	contin.scm
+105 [11/sep/2001:08:45:18 -0300] "bet	crsend.bci
+105 [11/sep/2001:08:45:18 -0300] "bet	crsend.bin
+105 [11/sep/2001:08:46:44 -0300] "bet	crsend.com
+105 [11/sep/2001:08:46:44 -0300] "bet	crsend.ext
+105 [11/sep/2001:08:46:45 -0300] "bet	crsend.scm
+105 [11/sep/2001:08:46:45 -0300] "bet	crstop.bci
+105 [11/sep/2001:08:46:46 -0300] "bet	crstop.bin
+105 [11/sep/2001:09:11:41 -0300] "bet	crstop.com
+105 [11/sep/2001:09:11:42 -0300] "bet	crstop.ext
+105 [11/sep/2001:09:11:50 -0300] "bet	crstop.scm
+105 [11/sep/2001:09:16:43 -0300] "bet	ctypes.bci
+105 [11/sep/2001:09:20:18 -0300] "bet	ctypes.bin
+105 [11/sep/2001:09:20:27 -0300] "bet	ctypes.com
+105 [11/sep/2001:09:23:19 -0300] "bet	ctypes.ext
+105 [11/sep/2001:09:23:19 -0300] "bet	ctypes.scm
+105 [11/sep/2001:09:23:25 -0300] "bet	debug.bci
+105 [11/sep/2001:09:23:50 -0300] "bet	debug.bin
+105 [11/sep/2001:09:23:50 -0300] "bet	debug.com
+105 [11/sep/2001:09:23:52 -0300] "bet	debug.scm
+105 [11/sep/2001:09:27:12 -0300] "bet	enumer.bci
+105 [11/sep/2001:09:27:15 -0300] "bet	enumer.bin
+105 [11/sep/2001:09:27:15 -0300] "bet	enumer.com
+105 [11/sep/2001:09:27:15 -0300] "bet	enumer.ext
+105 [11/sep/2001:09:27:16 -0300] "bet	enumer.scm
+105 [11/sep/2001:09:27:19 -0300] "bet	fasdump.bci
+105 [11/sep/2001:09:28:00 -0300] "bet	fasdump.bin
+105 [11/sep/2001:09:33:11 -0300] "bet	fasdump.com
+105 [11/sep/2001:09:33:11 -0300] "bet	fasdump.scm
+105 [11/sep/2001:09:33:12 -0300] "bet	infnew.bci
+105 [11/sep/2001:09:33:12 -0300] "bet	infnew.bin
+105 [11/sep/2001:09:33:12 -0300] "bet	infnew.com
+105 [11/sep/2001:09:33:19 -0300] "bet	infnew.ext
+105 [11/sep/2001:09:33:45 -0300] "bet	infnew.scm
+106 [11/sep/2001:08:29:17 -0300] "bet	lvalue.bci
+106 [11/sep/2001:09:03:11 -0300] "bet	lvalue.bin
+106 [10/sep/2001:11:17:37 -0300] "bet	lvalue.com
+106 [10/sep/2001:11:17:37 -0300] "bet	lvalue.ext
+106 [10/sep/2001:11:17:48 -0300] "bet	lvalue.scm
+106 [10/sep/2001:11:18:04 -0300] "bet	macros.bci
+106 [11/sep/2001:08:27:18 -0300] "bet	macros.bin
+106 [11/sep/2001:08:27:18 -0300] "bet	macros.com
+106 [11/sep/2001:08:29:17 -0300] "bet	macros.scm
+106 [11/sep/2001:08:41:58 -0300] "bet	make.bci
+106 [11/sep/2001:08:41:58 -0300] "bet	make.bin
+106 [11/sep/2001:08:42:31 -0300] "bet	make.com
+106 [11/sep/2001:08:42:31 -0300] "bet	make.scm
+106 [11/sep/2001:08:48:11 -0300] "bet	mvalue.bci
+106 [11/sep/2001:08:50:41 -0300] "bet	mvalue.bin
+106 [11/sep/2001:08:50:41 -0300] "bet	mvalue.com
+106 [11/sep/2001:08:56:00 -0300] "bet	mvalue.scm
+106 [11/sep/2001:09:00:30 -0300] "bet	object.bci
+106 [11/sep/2001:09:00:30 -0300] "bet	object.bin
+106 [11/sep/2001:09:01:18 -0300] "bet	object.com
+106 [11/sep/2001:09:01:18 -0300] "bet	object.ext
+106 [11/sep/2001:09:02:00 -0300] "bet	object.scm
+106 [11/sep/2001:09:02:00 -0300] "bet	pmerly.bci
+106 [11/sep/2001:09:03:11 -0300] "bet	pmerly.bin
+106 [11/sep/2001:09:05:29 -0300] "bet	pmerly.com
+106 [11/sep/2001:09:05:29 -0300] "bet	pmerly.ext
+106 [11/sep/2001:09:08:29 -0300] "bet	pmerly.scm
+106 [11/sep/2001:09:08:29 -0300] "bet	pmlook.bci
+106 [11/sep/2001:09:12:34 -0300] "bet	pmlook.bin
+106 [11/sep/2001:09:13:18 -0300] "bet	pmlook.com
+106 [11/sep/2001:09:15:57 -0300] "bet	pmlook.ext
+106 [11/sep/2001:09:16:06 -0300] "bet	pmlook.scm
+106 [11/sep/2001:09:17:26 -0300] "bet	pmpars.bci
+106 [11/sep/2001:09:20:11 -0300] "bet	pmpars.bin
+106 [11/sep/2001:09:20:11 -0300] "bet	pmpars.com
+106 [11/sep/2001:09:20:13 -0300] "bet	pmpars.scm
+106 [11/sep/2001:09:20:19 -0300] "bet	proced.bci
+106 [11/sep/2001:09:23:26 -0300] "bet	proced.bin
+106 [11/sep/2001:09:23:26 -0300] "bet	proced.com
+106 [11/sep/2001:09:30:44 -0300] "bet	proced.ext
+106 [11/sep/2001:09:30:44 -0300] "bet	proced.scm
+106 [11/sep/2001:11:52:59 -0300] "bet	refctx.bci
+106 [11/sep/2001:11:52:59 -0300] "bet	refctx.bin
+106 [11/sep/2001:11:53:03 -0300] "bet	refctx.com
+106 [11/sep/2001:11:53:08 -0300] "bet	refctx.ext
+106 [11/sep/2001:11:53:09 -0300] "bet	refctx.scm
+106 [11/sep/2001:11:53:10 -0300] "bet	rvalue.bci
+106 [11/sep/2001:08:29:28 -0300] "bet	rvalue.bin
+106 [11/sep/2001:08:29:38 -0300] "bet	rvalue.com
+107 [11/sep/2001:10:08:03 -0300] "bet	rvalue.ext
+107 [11/sep/2001:10:08:32 -0300] "bet	rvalue.scm
+107 [11/sep/2001:09:54:52 -0300] "bet	scode.bci
+107 [11/sep/2001:09:57:19 -0300] "bet	scode.bin
+107 [11/sep/2001:10:03:46 -0300] "bet	scode.com
+107 [11/sep/2001:10:03:46 -0300] "bet	scode.scm
+107 [11/sep/2001:10:04:35 -0300] "bet	sets.bci
+107 [11/sep/2001:10:05:49 -0300] "bet	sets.bin
+107 [11/sep/2001:10:07:23 -0300] "bet	sets.com
+107 [11/sep/2001:10:07:41 -0300] "bet	sets.scm
+107 [11/sep/2001:10:07:41 -0300] "bet	subprb.bci
+107 [11/sep/2001:10:07:46 -0300] "bet	subprb.bin
+107 [11/sep/2001:10:07:50 -0300] "bet	subprb.com
+107 [11/sep/2001:10:08:03 -0300] "bet	subprb.ext
+108 [07/sep/2001:14:01:01 -0300] "bet	subprb.scm
+108 [07/sep/2001:14:01:25 -0300] "bet	switch.bci
+108 [07/sep/2001:14:01:44 -0300] "bet	switch.bin
+108 [07/sep/2001:13:40:14 -0300] "bet	switch.com
+108 [07/sep/2001:13:40:14 -0300] "bet	switch.scm
+108 [07/sep/2001:14:01:00 -0300] "bet	toplev.bci
+108 [07/sep/2001:14:03:41 -0300] "bet	toplev.bin
+108 [07/sep/2001:14:03:41 -0300] "bet	toplev.com
+108 [07/sep/2001:14:03:43 -0300] "bet	toplev.scm
+108 [07/sep/2001:14:03:51 -0300] "bet	utils.bci
+108 [07/sep/2001:14:04:45 -0300] "bet	utils.bin
+108 [07/sep/2001:14:04:45 -0300] "bet	utils.com
+108 [07/sep/2001:14:04:50 -0300] "bet	utils.ext
+108 [07/sep/2001:14:05:00 -0300] "bet	utils.scm
+108 [07/sep/2001:14:06:23 -0300] "bet	
+108 [07/sep/2001:14:06:23 -0300] "bet	/home/joshua/Desktop/mit-scheme-11.2/src/compiler/documentation:
+108 [07/sep/2001:14:06:37 -0300] "bet	cmpaux.txt
+108 [07/sep/2001:14:06:39 -0300] "bet	cmpint.txt
+108 [11/sep/2001:11:48:24 -0300] "bet	facts.txt
+108 [11/sep/2001:11:48:29 -0300] "bet	files.txt
+108 [11/sep/2001:11:48:29 -0300] "bet	notes.txt
+108 [11/sep/2001:11:48:29 -0300] "bet	porting.guide
+108 [11/sep/2001:11:48:29 -0300] "bet	safety.txt
+109 [11/sep/2001:08:56:38 -0300] "bet	TASKS
+109 [11/sep/2001:08:56:38 -0300] "bet	test-c.c
+110 [11/sep/2001:09:11:32 -0300] "bet	todo.txt
+110 [11/sep/2001:09:11:44 -0300] "bet	
+110 [11/sep/2001:09:12:10 -0300] "bet	/home/joshua/Desktop/mit-scheme-11.2/src/compiler/etc:
+110 [11/sep/2001:09:12:23 -0300] "bet	asm.scm
+110 [11/sep/2001:08:46:07 -0300] "bet	comcmp.scm
+110 [11/sep/2001:08:46:10 -0300] "bet	comfiles.scm
+110 [11/sep/2001:08:46:10 -0300] "bet	disload.scm
+110 [11/sep/2001:08:46:10 -0300] "bet	stackp.scm
+110 [11/sep/2001:08:46:10 -0300] "bet	xcbfdir.scm
+110 [11/sep/2001:08:46:12 -0300] "bet	
+110 [11/sep/2001:08:46:32 -0300] "bet	/home/joshua/Desktop/mit-scheme-11.2/src/compiler/fggen:
+110 [11/sep/2001:08:46:32 -0300] "bet	canon.bci
+110 [11/sep/2001:08:46:38 -0300] "bet	canon.bin
+110 [11/sep/2001:08:46:41 -0300] "bet	canon.com
+110 [11/sep/2001:08:46:42 -0300] "bet	canon.ext
+110 [11/sep/2001:08:47:43 -0300] "bet	canon.scm
+110 [11/sep/2001:08:50:49 -0300] "bet	declar.bci
+110 [11/sep/2001:08:50:49 -0300] "bet	declar.bin
+110 [11/sep/2001:08:50:55 -0300] "bet	declar.com
+110 [11/sep/2001:08:50:57 -0300] "bet	declar.scm
+110 [11/sep/2001:08:52:14 -0300] "bet	fggen.bci
+110 [11/sep/2001:09:11:31 -0300] "bet	fggen.bin
+110 [11/sep/2001:09:13:06 -0300] "bet	fggen.com
+110 [11/sep/2001:09:13:06 -0300] "bet	fggen.ext
+110 [11/sep/2001:09:13:08 -0300] "bet	fggen.scm
+110 [11/sep/2001:09:13:14 -0300] "bet	
+110 [11/sep/2001:09:13:35 -0300] "bet	/home/joshua/Desktop/mit-scheme-11.2/src/compiler/fgopt:
+110 [11/sep/2001:09:13:39 -0300] "bet	blktyp.bci
+110 [11/sep/2001:09:14:30 -0300] "bet	blktyp.bin
+110 [11/sep/2001:09:22:34 -0300] "bet	blktyp.com
+110 [11/sep/2001:11:27:55 -0300] "bet	blktyp.ext
+110 [11/sep/2001:11:27:55 -0300] "bet	blktyp.scm
+110 [11/sep/2001:11:28:21 -0300] "bet	closan.bci
+110 [11/sep/2001:11:28:25 -0300] "bet	closan.bin
+110 [11/sep/2001:11:29:07 -0300] "bet	closan.com
+110 [11/sep/2001:11:29:11 -0300] "bet	closan.ext
+110 [11/sep/2001:11:29:11 -0300] "bet	closan.scm
+110 [11/sep/2001:11:29:14 -0300] "bet	conect.bci
+110 [11/sep/2001:11:29:26 -0300] "bet	conect.bin
+110 [11/sep/2001:11:29:36 -0300] "bet	conect.com
+110 [11/sep/2001:11:29:38 -0300] "bet	conect.scm
+110 [11/sep/2001:11:30:58 -0300] "bet	contan.bci
+110 [11/sep/2001:11:31:00 -0300] "bet	contan.bin
+110 [11/sep/2001:11:31:05 -0300] "bet	contan.com
+110 [11/sep/2001:11:31:06 -0300] "bet	contan.scm
+110 [11/sep/2001:11:31:11 -0300] "bet	delint.bci
+110 [11/sep/2001:11:31:11 -0300] "bet	delint.bin
+110 [11/sep/2001:11:31:15 -0300] "bet	delint.com
+110 [11/sep/2001:11:31:52 -0300] "bet	delint.scm
+110 [11/sep/2001:11:31:53 -0300] "bet	desenv.bci
+110 [11/sep/2001:11:32:27 -0300] "bet	desenv.bin
+110 [11/sep/2001:11:47:39 -0300] "bet	desenv.com
+110 [11/sep/2001:11:47:39 -0300] "bet	desenv.scm
+110 [11/sep/2001:11:47:47 -0300] "bet	envopt.bci
+110 [11/sep/2001:11:47:49 -0300] "bet	envopt.bin
+110 [11/sep/2001:11:48:16 -0300] "bet	envopt.com
+110 [11/sep/2001:11:48:16 -0300] "bet	envopt.scm
+110 [11/sep/2001:11:48:24 -0300] "bet	folcon.bci
+110 [11/sep/2001:11:48:24 -0300] "bet	folcon.bin
+110 [11/sep/2001:11:48:27 -0300] "bet	folcon.com
+111 [11/sep/2001:11:18:47 -0300] "bet	folcon.scm
+111 [11/sep/2001:11:18:47 -0300] "bet	offset.bci
+111 [11/sep/2001:11:30:37 -0300] "bet	offset.bin
+111 [11/sep/2001:11:30:37 -0300] "bet	offset.com
+111 [11/sep/2001:11:30:40 -0300] "bet	offset.scm
+111 [11/sep/2001:11:30:40 -0300] "bet	operan.bci
+111 [11/sep/2001:11:30:42 -0300] "bet	operan.bin
+111 [11/sep/2001:11:30:44 -0300] "bet	operan.com
+111 [11/sep/2001:11:45:44 -0300] "bet	operan.scm
+111 [11/sep/2001:11:45:44 -0300] "bet	order.bci
+111 [11/sep/2001:11:46:23 -0300] "bet	order.bin
+111 [11/sep/2001:11:46:23 -0300] "bet	order.com
+111 [11/sep/2001:11:46:25 -0300] "bet	order.scm
+111 [11/sep/2001:11:47:25 -0300] "bet	outer.bci
+111 [11/sep/2001:11:47:25 -0300] "bet	outer.bin
+111 [11/sep/2001:11:48:54 -0300] "bet	outer.com
+111 [11/sep/2001:11:48:54 -0300] "bet	outer.scm
+111 [11/sep/2001:11:52:49 -0300] "bet	param.bci
+111 [11/sep/2001:11:52:49 -0300] "bet	param.bin
+112 [11/sep/2001:08:51:33 -0300] "bet	param.com
+112 [11/sep/2001:08:41:55 -0300] "bet	param.ext
+112 [11/sep/2001:08:41:57 -0300] "bet	param.scm
+112 [11/sep/2001:08:42:27 -0300] "bet	reord.bci
+112 [11/sep/2001:08:42:27 -0300] "bet	reord.bin
+112 [11/sep/2001:08:42:33 -0300] "bet	reord.com
+112 [11/sep/2001:08:42:36 -0300] "bet	reord.ext
+112 [11/sep/2001:08:43:03 -0300] "bet	reord.scm
+112 [11/sep/2001:08:44:13 -0300] "bet	reteqv.bci
+112 [11/sep/2001:08:44:13 -0300] "bet	reteqv.bin
+112 [11/sep/2001:08:47:24 -0300] "bet	reteqv.com
+112 [11/sep/2001:08:47:24 -0300] "bet	reteqv.scm
+112 [11/sep/2001:08:47:40 -0300] "bet	reuse.bci
+112 [11/sep/2001:08:51:32 -0300] "bet	reuse.bin
+112 [11/sep/2001:11:30:24 -0300] "bet	reuse.com
+112 [11/sep/2001:11:55:57 -0300] "bet	reuse.scm
+113 [11/sep/2001:11:46:21 -0300] "bet	sideff.bci
+113 [11/sep/2001:11:46:21 -0300] "bet	sideff.bin
+113 [11/sep/2001:11:48:10 -0300] "bet	sideff.com
+113 [11/sep/2001:11:48:10 -0300] "bet	sideff.scm
+113 [11/sep/2001:11:48:13 -0300] "bet	simapp.bci
+113 [11/sep/2001:11:48:16 -0300] "bet	simapp.bin
+114 [11/sep/2001:10:58:50 -0300] "bet	simapp.com
+114 [11/sep/2001:10:58:50 -0300] "bet	simapp.ext
+114 [11/sep/2001:11:05:38 -0300] "bet	simapp.scm
+114 [11/sep/2001:11:05:45 -0300] "bet	simple.bci
+114 [11/sep/2001:11:25:05 -0300] "bet	simple.bin
+114 [11/sep/2001:11:25:05 -0300] "bet	simple.com
+114 [11/sep/2001:11:25:11 -0300] "bet	simple.scm
+114 [11/sep/2001:11:25:11 -0300] "bet	subfre.bci
+114 [11/sep/2001:11:25:13 -0300] "bet	subfre.bin
+114 [11/sep/2001:11:25:14 -0300] "bet	subfre.com
+114 [11/sep/2001:11:26:08 -0300] "bet	subfre.scm
+114 [11/sep/2001:11:26:08 -0300] "bet	varind.bci
+114 [11/sep/2001:11:26:50 -0300] "bet	varind.bin
+114 [11/sep/2001:11:29:42 -0300] "bet	varind.com
+114 [11/sep/2001:11:44:58 -0300] "bet	varind.scm
+114 [11/sep/2001:11:44:58 -0300] "bet	
+114 [11/sep/2001:11:44:59 -0300] "bet	/home/joshua/Desktop/mit-scheme-11.2/src/compiler/improvements:
+114 [11/sep/2001:11:45:01 -0300] "bet	comcon.scm
+114 [11/sep/2001:11:45:08 -0300] "bet	gasn.scm
+114 [11/sep/2001:11:45:09 -0300] "bet	rewsub.scm
+115 [11/sep/2001:08:27:43 -0300] "bet	
+115 [11/sep/2001:08:41:51 -0300] "bet	/home/joshua/Desktop/mit-scheme-11.2/src/compiler/machines:
+115 [11/sep/2001:08:51:17 -0300] "bet	aarch64
+115 [11/sep/2001:08:51:18 -0300] "bet	C
+116 [11/sep/2001:11:27:43 -0300] "bet	i386
+116 [11/sep/2001:11:28:48 -0300] "bet	svm
+116 [11/sep/2001:11:29:22 -0300] "bet	x86-64
+116 [11/sep/2001:11:29:52 -0300] "bet	
+116 [11/sep/2001:11:30:20 -0300] "bet	/home/joshua/Desktop/mit-scheme-11.2/src/compiler/machines/aarch64:
+116 [11/sep/2001:11:17:23 -0300] "bet	assmd.scm
+116 [11/sep/2001:11:23:52 -0300] "bet	big-endian.scm
+116 [11/sep/2001:11:23:56 -0300] "bet	coerce.scm
+116 [11/sep/2001:11:24:48 -0300] "bet	compiler.cbf
+116 [11/sep/2001:11:24:48 -0300] "bet	compiler.pkg
+116 [11/sep/2001:11:24:51 -0300] "bet	compiler.sf
+116 [11/sep/2001:11:24:54 -0300] "bet	decls.scm
+116 [11/sep/2001:11:25:02 -0300] "bet	endian.scm
+116 [11/sep/2001:11:26:12 -0300] "bet	insmac.scm
+116 [11/sep/2001:11:26:46 -0300] "bet	instr1.scm
+116 [11/sep/2001:11:27:43 -0300] "bet	instr2.scm
+117 [10/sep/2001:16:50:28 -0300] "bet	instrf.scm
+118 [11/sep/2001:09:10:48 -0300] "bet	insutl.scm
+118 [11/sep/2001:09:10:56 -0300] "bet	lapgen.scm
+118 [11/sep/2001:09:11:41 -0300] "bet	lapopt.scm
+118 [11/sep/2001:09:11:50 -0300] "bet	little-endian.scm
+118 [11/sep/2001:08:40:41 -0300] "bet	machine.scm
+118 [11/sep/2001:08:40:56 -0300] "bet	make.scm
+118 [11/sep/2001:08:40:57 -0300] "bet	rgspcm.scm
+118 [11/sep/2001:08:41:11 -0300] "bet	rules1.scm
+118 [11/sep/2001:08:41:11 -0300] "bet	rules2.scm
+118 [11/sep/2001:08:46:57 -0300] "bet	rules3.scm
+118 [11/sep/2001:08:47:25 -0300] "bet	rules4.scm
+118 [11/sep/2001:08:47:37 -0300] "bet	rulfix.scm
+118 [11/sep/2001:08:47:50 -0300] "bet	rulflo.scm
+118 [11/sep/2001:08:48:09 -0300] "bet	rulrew.scm
+118 [11/sep/2001:08:48:09 -0300] "bet	TODO
+118 [11/sep/2001:08:57:34 -0300] "bet	
+118 [11/sep/2001:08:59:33 -0300] "bet	/home/joshua/Desktop/mit-scheme-11.2/src/compiler/machines/C:
+118 [11/sep/2001:09:00:58 -0300] "bet	compiler.cbf
+118 [11/sep/2001:09:00:59 -0300] "bet	compiler.pkg
+118 [11/sep/2001:09:01:01 -0300] "bet	compiler.sf
+118 [11/sep/2001:09:01:05 -0300] "bet	cout.scm
+118 [11/sep/2001:09:02:08 -0300] "bet	ctop.scm
+118 [11/sep/2001:09:02:16 -0300] "bet	cutl.scm
+118 [11/sep/2001:09:02:19 -0300] "bet	decls.scm
+118 [11/sep/2001:09:04:39 -0300] "bet	lapgen.scm
+118 [11/sep/2001:09:06:01 -0300] "bet	machin.scm
+118 [11/sep/2001:09:06:08 -0300] "bet	make.scm
+118 [11/sep/2001:09:09:19 -0300] "bet	rgspcm.scm
+118 [11/sep/2001:09:09:19 -0300] "bet	rules1.scm
+118 [11/sep/2001:09:10:03 -0300] "bet	rules2.scm
+118 [11/sep/2001:09:10:29 -0300] "bet	rules3.scm
+118 [11/sep/2001:09:10:30 -0300] "bet	rules4.scm
+118 [11/sep/2001:09:10:48 -0300] "bet	rulfix.scm
+119 [11/sep/2001:08:29:05 -0300] "bet	rulflo.scm
+119 [11/sep/2001:09:06:05 -0300] "bet	rulrew.scm
+119 [11/sep/2001:09:10:23 -0300] "bet	stackify.scm
+119 [11/sep/2001:09:10:52 -0300] "bet	stackops.scm
+119 [11/sep/2001:09:11:54 -0300] "bet	TODO
+119 [11/sep/2001:09:14:39 -0300] "bet	traditional.scm
+119 [11/sep/2001:09:15:11 -0300] "bet	
+119 [11/sep/2001:09:15:11 -0300] "bet	/home/joshua/Desktop/mit-scheme-11.2/src/compiler/machines/i386:
+119 [11/sep/2001:09:15:14 -0300] "bet	assmd.scm
+119 [11/sep/2001:09:15:18 -0300] "bet	coerce.scm
+119 [11/sep/2001:09:15:43 -0300] "bet	compiler.cbf
+119 [11/sep/2001:09:15:45 -0300] "bet	compiler.pkg
+119 [11/sep/2001:09:16:12 -0300] "bet	compiler.sf
+119 [11/sep/2001:09:16:44 -0300] "bet	dassm1.scm
+119 [11/sep/2001:09:16:47 -0300] "bet	dassm2.scm
+119 [11/sep/2001:09:16:50 -0300] "bet	dassm3.scm
+119 [11/sep/2001:09:16:59 -0300] "bet	decls.scm
+119 [11/sep/2001:09:17:15 -0300] "bet	insmac.scm
+119 [11/sep/2001:09:17:23 -0300] "bet	instr1.scm
+119 [11/sep/2001:09:20:02 -0300] "bet	instr2.scm
+119 [11/sep/2001:09:20:09 -0300] "bet	instrf.scm
+119 [11/sep/2001:09:21:42 -0300] "bet	insutl.scm
+119 [11/sep/2001:09:21:47 -0300] "bet	lapgen.scm
+119 [11/sep/2001:09:10:23 -0300] "bet	lapopt.scm
+119 [11/sep/2001:09:11:07 -0300] "bet	machin.scm
+120 [11/sep/2001:11:28:13 -0300] "bet	make.scm
+120 [11/sep/2001:11:28:39 -0300] "bet	pc-make.scm
+120 [11/sep/2001:11:34:41 -0300] "bet	rgspcm.scm
+120 [11/sep/2001:11:44:41 -0300] "bet	rules1.scm
+120 [11/sep/2001:11:44:41 -0300] "bet	rules2.scm
+120 [11/sep/2001:11:44:46 -0300] "bet	rules3.scm
+120 [11/sep/2001:11:44:49 -0300] "bet	rules4.scm
+120 [11/sep/2001:11:50:23 -0300] "bet	rulfix.scm
+120 [11/sep/2001:11:50:23 -0300] "bet	rulflo.scm
+120 [11/sep/2001:11:50:26 -0300] "bet	rulrew.scm
+120 [11/sep/2001:11:52:33 -0300] "bet	
+120 [11/sep/2001:11:52:33 -0300] "bet	/home/joshua/Desktop/mit-scheme-11.2/src/compiler/machines/svm:
+120 [11/sep/2001:11:58:29 -0300] "bet	assembler-compiler.scm
+121 [11/sep/2001:08:42:32 -0300] "bet	assembler-rules.scm
+121 [11/sep/2001:08:43:30 -0300] "bet	assembler-runtime.scm
+121 [11/sep/2001:08:50:51 -0300] "bet	big-endian.scm
+121 [11/sep/2001:08:50:52 -0300] "bet	compile-assembler.scm
+121 [11/sep/2001:08:50:52 -0300] "bet	compiler.cbf
+121 [11/sep/2001:08:50:53 -0300] "bet	compiler.pkg
+121 [11/sep/2001:08:50:53 -0300] "bet	compiler.sf
+121 [11/sep/2001:08:50:53 -0300] "bet	decls.scm
+121 [11/sep/2001:08:50:53 -0300] "bet	disassembler.scm
+121 [11/sep/2001:09:09:40 -0300] "bet	lapgen.scm
+121 [11/sep/2001:09:09:40 -0300] "bet	lapopt.scm
+121 [11/sep/2001:09:10:16 -0300] "bet	little-endian.scm
+121 [11/sep/2001:09:10:31 -0300] "bet	machine.scm
+121 [11/sep/2001:09:13:16 -0300] "bet	make.scm
+121 [11/sep/2001:09:13:25 -0300] "bet	rgspcm.scm
+121 [11/sep/2001:09:13:25 -0300] "bet	rules.scm
+121 [11/sep/2001:09:13:28 -0300] "bet	wordsize-32.scm
+121 [11/sep/2001:09:13:33 -0300] "bet	wordsize-64.scm
+121 [11/sep/2001:09:13:47 -0300] "bet	
+121 [11/sep/2001:09:13:50 -0300] "bet	/home/joshua/Desktop/mit-scheme-11.2/src/compiler/machines/x86-64:
+121 [11/sep/2001:09:13:59 -0300] "bet	assmd.bci
+121 [11/sep/2001:09:14:09 -0300] "bet	assmd.bin
+121 [11/sep/2001:09:14:13 -0300] "bet	assmd.com
+121 [11/sep/2001:09:14:18 -0300] "bet	assmd.ext
+121 [11/sep/2001:09:15:55 -0300] "bet	assmd.scm
+121 [11/sep/2001:11:26:45 -0300] "bet	coerce.bci
+121 [11/sep/2001:11:26:45 -0300] "bet	coerce.bin
+121 [11/sep/2001:11:27:34 -0300] "bet	coerce.com
+121 [11/sep/2001:11:28:20 -0300] "bet	coerce.scm
+121 [11/sep/2001:11:28:20 -0300] "bet	compiler.cbf
+121 [11/sep/2001:11:28:22 -0300] "bet	compiler.pkg
+121 [11/sep/2001:11:28:23 -0300] "bet	compiler.sf
+121 [11/sep/2001:11:28:26 -0300] "bet	dassm1.bci
+121 [11/sep/2001:11:45:45 -0300] "bet	dassm1.bin
+121 [11/sep/2001:11:45:45 -0300] "bet	dassm1.com
+121 [11/sep/2001:11:48:03 -0300] "bet	dassm1.ext
+121 [11/sep/2001:11:48:03 -0300] "bet	dassm1.scm
+121 [11/sep/2001:11:48:07 -0300] "bet	dassm2.bci
+121 [11/sep/2001:11:48:08 -0300] "bet	dassm2.bin
+121 [11/sep/2001:11:56:16 -0300] "bet	dassm2.com
+121 [11/sep/2001:11:56:16 -0300] "bet	dassm2.ext
+122 [11/sep/2001:08:26:21 -0300] "bet	dassm2.scm
+122 [11/sep/2001:08:28:04 -0300] "bet	dassm3.bci
+122 [11/sep/2001:11:56:15 -0300] "bet	dassm3.bin
+122 [11/sep/2001:12:02:41 -0300] "bet	dassm3.com
+122 [11/sep/2001:12:02:41 -0300] "bet	dassm3.ext
+122 [11/sep/2001:12:02:43 -0300] "bet	dassm3.scm
+122 [11/sep/2001:12:02:44 -0300] "bet	decls.bci
+125 [11/sep/2001:11:31:21 -0300] "bet	decls.bin
+125 [11/sep/2001:11:31:21 -0300] "bet	decls.com
+126 [11/sep/2001:08:50:42 -0300] "bet	decls.ext
+126 [11/sep/2001:08:44:00 -0300] "bet	decls.scm
+126 [11/sep/2001:08:50:41 -0300] "bet	insmac.bci
+126 [11/sep/2001:09:10:25 -0300] "bet	insmac.bin
+126 [11/sep/2001:09:10:25 -0300] "bet	insmac.com
+126 [11/sep/2001:09:13:29 -0300] "bet	insmac.scm
+126 [11/sep/2001:09:13:29 -0300] "bet	instr1.bci
+126 [11/sep/2001:09:15:20 -0300] "bet	instr1.bin
+126 [11/sep/2001:11:31:35 -0300] "bet	instr1.com
+126 [11/sep/2001:11:31:56 -0300] "bet	instr1.scm
+128 [11/sep/2001:11:30:46 -0300] "bet	instr2.bci
+128 [11/sep/2001:11:31:04 -0300] "bet	instr2.bin
+128 [11/sep/2001:11:31:04 -0300] "bet	instr2.com
+128 [11/sep/2001:11:31:04 -0300] "bet	instr2.scm
+128 [11/sep/2001:11:31:05 -0300] "bet	instrf.bci
+128 [11/sep/2001:11:31:47 -0300] "bet	instrf.bin
+128 [11/sep/2001:11:48:30 -0300] "bet	instrf.com
+128 [11/sep/2001:11:49:09 -0300] "bet	instrf.scm
+131 [11/sep/2001:11:22:45 -0300] "bet	insutl.bci
+131 [11/sep/2001:11:22:45 -0300] "bet	insutl.bin
+102 [11/sep/2001:11:32:20 -0300] "bet	insutl.com
+102 [11/sep/2001:11:32:20 -0300] "bet	insutl.ext
+102 [11/sep/2001:11:32:35 -0300] "bet	insutl.scm
+102 [11/sep/2001:11:32:35 -0300] "bet	lapgen.bci
+102 [11/sep/2001:11:32:37 -0300] "bet	lapgen.bin
+102 [11/sep/2001:11:32:39 -0300] "bet	lapgen.com
+102 [11/sep/2001:11:33:08 -0300] "bet	lapgen.ext
+102 [11/sep/2001:11:59:36 -0300] "bet	lapgen.scm
+102 [11/sep/2001:11:59:36 -0300] "bet	lapopt.bci
+103 [11/sep/2001:11:33:31 -0300] "bet	lapopt.bin
+103 [11/sep/2001:11:33:31 -0300] "bet	lapopt.com
+104 [11/sep/2001:11:24:15 -0300] "bet	lapopt.scm
+104 [11/sep/2001:11:26:22 -0300] "bet	machin.bci
+107 [11/sep/2001:11:48:54 -0300] "bet	machin.bin
+107 [11/sep/2001:11:47:26 -0300] "bet	machin.com
+107 [11/sep/2001:11:48:54 -0300] "bet	machin.ext
+107 [11/sep/2001:11:58:16 -0300] "bet	machin.scm
+107 [11/sep/2001:11:58:47 -0300] "bet	make.bci
+109 [06/sep/2001:16:28:30 -0300] "bet	make.bin
+109 [06/sep/2001:16:28:47 -0300] "bet	make.com
+109 [06/sep/2001:16:28:15 -0300] "bet	make.scm
+109 [06/sep/2001:16:28:22 -0300] "bet	pc-make.bci
+109 [11/sep/2001:11:42:06 -0300] "bet	pc-make.bin
+109 [11/sep/2001:11:42:06 -0300] "bet	pc-make.com
+109 [11/sep/2001:11:43:00 -0300] "bet	pc-make.scm
+109 [11/sep/2001:11:43:07 -0300] "bet	rgspcm.bci
+109 [11/sep/2001:11:43:12 -0300] "bet	rgspcm.bin
+109 [11/sep/2001:11:47:39 -0300] "bet	rgspcm.com
+109 [11/sep/2001:11:47:39 -0300] "bet	rgspcm.scm
+109 [11/sep/2001:11:47:43 -0300] "bet	rules1.bci
+109 [11/sep/2001:11:47:47 -0300] "bet	rules1.bin
+109 [11/sep/2001:11:48:02 -0300] "bet	rules1.com
+109 [11/sep/2001:11:48:11 -0300] "bet	rules1.ext
+109 [11/sep/2001:11:48:37 -0300] "bet	rules1.scm
+109 [11/sep/2001:11:52:37 -0300] "bet	rules2.bci
+109 [11/sep/2001:11:52:37 -0300] "bet	rules2.bin
+109 [11/sep/2001:11:52:39 -0300] "bet	rules2.com
+109 [11/sep/2001:11:53:26 -0300] "bet	rules2.scm
+109 [11/sep/2001:11:55:23 -0300] "bet	rules3.bci
+109 [11/sep/2001:11:55:44 -0300] "bet	rules3.bin
+109 [11/sep/2001:11:55:46 -0300] "bet	rules3.com
+109 [11/sep/2001:11:59:14 -0300] "bet	rules3.ext
+109 [11/sep/2001:12:00:48 -0300] "bet	rules3.scm
+109 [11/sep/2001:12:00:48 -0300] "bet	rules4.bci
+110 [06/sep/2001:16:18:59 -0300] "bet	rules4.bin
+110 [06/sep/2001:16:23:31 -0300] "bet	rules4.com
+110 [05/sep/2001:09:03:22 -0300] "bet	rules4.scm
+110 [06/sep/2001:15:57:32 -0300] "bet	rulfix.bci
+110 [06/sep/2001:15:57:32 -0300] "bet	rulfix.bin
+110 [06/sep/2001:16:18:59 -0300] "bet	rulfix.com
+110 [11/sep/2001:11:39:01 -0300] "bet	rulfix.ext
+110 [11/sep/2001:11:43:28 -0300] "bet	rulfix.scm
+110 [11/sep/2001:12:02:50 -0300] "bet	rulflo.bci
+110 [11/sep/2001:12:02:50 -0300] "bet	rulflo.bin
+111 [11/sep/2001:11:43:17 -0300] "bet	rulflo.com
+111 [11/sep/2001:11:44:21 -0300] "bet	rulflo.ext
+111 [11/sep/2001:11:44:21 -0300] "bet	rulflo.scm
+111 [11/sep/2001:11:44:25 -0300] "bet	rulrew.bci
+111 [11/sep/2001:11:44:30 -0300] "bet	rulrew.bin
+111 [11/sep/2001:11:45:09 -0300] "bet	rulrew.com
+111 [11/sep/2001:11:45:23 -0300] "bet	rulrew.scm
+111 [11/sep/2001:11:45:24 -0300] "bet	
+111 [11/sep/2001:11:50:36 -0300] "bet	/home/joshua/Desktop/mit-scheme-11.2/src/compiler/rtlbase:
+111 [11/sep/2001:11:51:08 -0300] "bet	regset.bci
+111 [11/sep/2001:11:57:13 -0300] "bet	regset.bin
+111 [11/sep/2001:11:57:33 -0300] "bet	regset.com
+111 [11/sep/2001:11:57:33 -0300] "bet	regset.ext
+111 [11/sep/2001:11:57:37 -0300] "bet	regset.scm
+111 [11/sep/2001:11:57:38 -0300] "bet	rgraph.bci
+111 [11/sep/2001:11:59:23 -0300] "bet	rgraph.bin
+111 [11/sep/2001:11:59:23 -0300] "bet	rgraph.com
+111 [11/sep/2001:11:59:26 -0300] "bet	rgraph.ext
+111 [11/sep/2001:12:00:13 -0300] "bet	rgraph.scm
+111 [11/sep/2001:12:00:13 -0300] "bet	rtlcfg.bci
+111 [11/sep/2001:12:00:16 -0300] "bet	rtlcfg.bin
+111 [11/sep/2001:12:02:37 -0300] "bet	rtlcfg.com
+111 [11/sep/2001:12:02:41 -0300] "bet	rtlcfg.ext
+111 [11/sep/2001:12:02:53 -0300] "bet	rtlcfg.scm
+115 [05/sep/2001:17:15:36 -0300] "bet	rtlcon.bci
+115 [10/sep/2001:09:22:28 -0300] "bet	rtlcon.bin
+115 [10/sep/2001:09:22:28 -0300] "bet	rtlcon.com
+115 [10/sep/2001:09:30:00 -0300] "bet	rtlcon.scm
+115 [10/sep/2001:09:30:00 -0300] "bet	rtlexp.bci
+115 [10/sep/2001:09:30:05 -0300] "bet	rtlexp.bin
+115 [10/sep/2001:09:30:08 -0300] "bet	rtlexp.com
+115 [10/sep/2001:09:33:31 -0300] "bet	rtlexp.scm
+115 [10/sep/2001:09:33:33 -0300] "bet	rtline.bci
+115 [10/sep/2001:09:35:42 -0300] "bet	rtline.bin
+115 [10/sep/2001:09:35:44 -0300] "bet	rtline.com
+115 [10/sep/2001:09:35:52 -0300] "bet	rtline.scm
+115 [10/sep/2001:09:35:54 -0300] "bet	rtlobj.bci
+115 [10/sep/2001:09:36:12 -0300] "bet	rtlobj.bin
+115 [10/sep/2001:09:36:14 -0300] "bet	rtlobj.com
+115 [10/sep/2001:09:36:25 -0300] "bet	rtlobj.ext
+115 [10/sep/2001:09:36:27 -0300] "bet	rtlobj.scm
+115 [10/sep/2001:09:36:44 -0300] "bet	rtlreg.bci
+115 [10/sep/2001:09:36:45 -0300] "bet	rtlreg.bin
+115 [10/sep/2001:09:36:57 -0300] "bet	rtlreg.com
+115 [10/sep/2001:09:37:45 -0300] "bet	rtlreg.ext
+115 [11/sep/2001:11:19:47 -0300] "bet	rtlreg.scm
+115 [11/sep/2001:11:19:47 -0300] "bet	rtlty1.bci
+115 [11/sep/2001:11:25:14 -0300] "bet	rtlty1.bin
+115 [11/sep/2001:11:25:14 -0300] "bet	rtlty1.com
+115 [11/sep/2001:11:25:18 -0300] "bet	rtlty1.ext
+115 [11/sep/2001:11:25:20 -0300] "bet	rtlty1.scm
+115 [11/sep/2001:11:25:36 -0300] "bet	rtlty2.bci
+115 [11/sep/2001:11:25:36 -0300] "bet	rtlty2.bin
+115 [11/sep/2001:11:25:37 -0300] "bet	rtlty2.com
+115 [11/sep/2001:11:25:44 -0300] "bet	rtlty2.ext
+115 [11/sep/2001:11:25:44 -0300] "bet	rtlty2.scm
+115 [11/sep/2001:11:34:41 -0300] "bet	valclass.bci
+115 [11/sep/2001:11:34:41 -0300] "bet	valclass.bin
+115 [11/sep/2001:11:40:16 -0300] "bet	valclass.com
+115 [11/sep/2001:11:40:16 -0300] "bet	valclass.ext
+115 [11/sep/2001:11:40:18 -0300] "bet	valclass.scm
+115 [11/sep/2001:11:40:19 -0300] "bet	
+115 [11/sep/2001:11:40:19 -0300] "bet	/home/joshua/Desktop/mit-scheme-11.2/src/compiler/rtlgen:
+115 [11/sep/2001:11:40:45 -0300] "bet	fndblk.bci
+115 [11/sep/2001:11:40:48 -0300] "bet	fndblk.bin
+115 [11/sep/2001:11:40:57 -0300] "bet	fndblk.com
+115 [11/sep/2001:11:40:57 -0300] "bet	fndblk.scm
+115 [11/sep/2001:11:41:00 -0300] "bet	fndvar.bci
+115 [11/sep/2001:11:41:01 -0300] "bet	fndvar.bin
+115 [11/sep/2001:11:41:17 -0300] "bet	fndvar.com
+115 [11/sep/2001:11:41:42 -0300] "bet	fndvar.ext
+115 [11/sep/2001:11:41:43 -0300] "bet	fndvar.scm
+115 [11/sep/2001:11:42:48 -0300] "bet	opncod.bci
+115 [11/sep/2001:11:42:50 -0300] "bet	opncod.bin
+115 [11/sep/2001:11:42:52 -0300] "bet	opncod.com
+115 [11/sep/2001:11:42:52 -0300] "bet	opncod.ext
+115 [11/sep/2001:11:42:54 -0300] "bet	opncod.scm
+115 [11/sep/2001:11:42:55 -0300] "bet	rgcomb.bci
+116 [11/sep/2001:11:15:40 -0300] "bet	rgcomb.bin
+116 [11/sep/2001:11:15:40 -0300] "bet	rgcomb.com
+117 [11/sep/2001:11:44:27 -0300] "bet	rgcomb.scm
+117 [11/sep/2001:11:48:23 -0300] "bet	rgproc.bci
+117 [11/sep/2001:11:54:30 -0300] "bet	rgproc.bin
+117 [11/sep/2001:11:54:30 -0300] "bet	rgproc.com
+117 [11/sep/2001:11:54:34 -0300] "bet	rgproc.scm
+117 [11/sep/2001:11:54:36 -0300] "bet	rgretn.bci
+120 [09/sep/2001:21:01:18 -0300] "bet	rgretn.bin
+120 [09/sep/2001:21:01:40 -0300] "bet	rgretn.com
+120 [09/sep/2001:20:33:50 -0300] "bet	rgretn.ext
+120 [09/sep/2001:20:48:24 -0300] "bet	rgretn.scm
+120 [09/sep/2001:20:49:14 -0300] "bet	rgrval.bci
+120 [09/sep/2001:20:50:14 -0300] "bet	rgrval.bin
+120 [09/sep/2001:20:50:14 -0300] "bet	rgrval.com
+120 [09/sep/2001:20:50:41 -0300] "bet	rgrval.ext
+120 [09/sep/2001:20:51:17 -0300] "bet	rgrval.scm
+120 [09/sep/2001:20:52:24 -0300] "bet	rgstmt.bci
+120 [09/sep/2001:20:52:29 -0300] "bet	rgstmt.bin
+120 [09/sep/2001:20:52:48 -0300] "bet	rgstmt.com
+120 [09/sep/2001:20:53:12 -0300] "bet	rgstmt.scm
+120 [09/sep/2001:20:53:24 -0300] "bet	rtlgen.bci
+120 [09/sep/2001:20:53:26 -0300] "bet	rtlgen.bin
+120 [09/sep/2001:20:53:29 -0300] "bet	rtlgen.com
+120 [09/sep/2001:20:53:35 -0300] "bet	rtlgen.scm
+120 [09/sep/2001:20:53:38 -0300] "bet	
+120 [09/sep/2001:20:53:41 -0300] "bet	/home/joshua/Desktop/mit-scheme-11.2/src/compiler/rtlopt:
+120 [09/sep/2001:20:57:39 -0300] "bet	ralloc.bci
+120 [09/sep/2001:21:01:18 -0300] "bet	ralloc.bin
+120 [09/sep/2001:21:11:01 -0300] "bet	ralloc.com
+120 [09/sep/2001:21:11:50 -0300] "bet	ralloc.scm
+120 [09/sep/2001:21:11:50 -0300] "bet	rcompr.bci
+120 [09/sep/2001:21:12:52 -0300] "bet	rcompr.bin
+120 [09/sep/2001:21:12:52 -0300] "bet	rcompr.com
+120 [09/sep/2001:21:12:55 -0300] "bet	rcompr.scm
+121 [09/sep/2001:20:49:44 -0300] "bet	rcse1.bci
+121 [09/sep/2001:20:57:33 -0300] "bet	rcse1.bin
+121 [09/sep/2001:20:57:59 -0300] "bet	rcse1.com
+121 [09/sep/2001:20:58:29 -0300] "bet	rcse1.ext
+121 [09/sep/2001:21:00:16 -0300] "bet	rcse1.scm
+121 [09/sep/2001:21:00:16 -0300] "bet	rcse2.bci
+121 [09/sep/2001:21:00:19 -0300] "bet	rcse2.bin
+121 [09/sep/2001:21:00:22 -0300] "bet	rcse2.com
+121 [09/sep/2001:21:00:31 -0300] "bet	rcse2.scm
+121 [09/sep/2001:21:01:22 -0300] "bet	rcseep.bci
+121 [09/sep/2001:21:01:25 -0300] "bet	rcseep.bin
+121 [09/sep/2001:21:02:14 -0300] "bet	rcseep.com
+121 [09/sep/2001:21:02:24 -0300] "bet	rcseep.scm
+121 [09/sep/2001:21:02:30 -0300] "bet	rcseht.bci
+121 [09/sep/2001:21:02:33 -0300] "bet	rcseht.bin
+121 [09/sep/2001:21:02:52 -0300] "bet	rcseht.com
+121 [09/sep/2001:21:03:19 -0300] "bet	rcseht.ext
+121 [09/sep/2001:21:04:17 -0300] "bet	rcseht.scm
+121 [09/sep/2001:21:06:02 -0300] "bet	rcserq.bci
+121 [09/sep/2001:21:06:02 -0300] "bet	rcserq.bin
+121 [09/sep/2001:21:06:05 -0300] "bet	rcserq.com
+121 [09/sep/2001:21:06:05 -0300] "bet	rcserq.ext
+121 [09/sep/2001:21:06:07 -0300] "bet	rcserq.scm
+121 [09/sep/2001:21:06:39 -0300] "bet	rcsesr.bci
+121 [09/sep/2001:21:06:39 -0300] "bet	rcsesr.bin
+121 [09/sep/2001:21:06:45 -0300] "bet	rcsesr.com
+121 [09/sep/2001:21:06:49 -0300] "bet	rcsesr.ext
+121 [09/sep/2001:21:07:18 -0300] "bet	rcsesr.scm
+121 [09/sep/2001:21:08:10 -0300] "bet	rdebug.bci
+121 [09/sep/2001:21:08:12 -0300] "bet	rdebug.bin
+121 [09/sep/2001:21:08:49 -0300] "bet	rdebug.com
+121 [09/sep/2001:21:09:16 -0300] "bet	rdebug.scm
+121 [09/sep/2001:21:09:16 -0300] "bet	rdflow.bci
+121 [09/sep/2001:21:17:57 -0300] "bet	rdflow.bin
+121 [09/sep/2001:21:17:57 -0300] "bet	rdflow.com
+121 [09/sep/2001:21:17:59 -0300] "bet	rdflow.ext
+121 [09/sep/2001:21:18:08 -0300] "bet	rdflow.scm
+121 [09/sep/2001:21:18:08 -0300] "bet	rerite.bci
+121 [09/sep/2001:21:18:11 -0300] "bet	rerite.bin
+121 [09/sep/2001:21:19:26 -0300] "bet	rerite.com
+121 [09/sep/2001:21:19:30 -0300] "bet	rerite.ext
+121 [09/sep/2001:21:19:59 -0300] "bet	rerite.scm
+121 [09/sep/2001:21:19:59 -0300] "bet	rinvex.bci
+121 [09/sep/2001:21:20:01 -0300] "bet	rinvex.bin
+121 [09/sep/2001:21:20:14 -0300] "bet	rinvex.com
+121 [09/sep/2001:21:20:15 -0300] "bet	rinvex.ext
+121 [09/sep/2001:21:21:01 -0300] "bet	rinvex.scm
+121 [09/sep/2001:21:21:01 -0300] "bet	rlife.bci
+121 [09/sep/2001:21:21:04 -0300] "bet	rlife.bin
+121 [11/sep/2001:11:41:52 -0300] "bet	rlife.com
+121 [11/sep/2001:11:41:52 -0300] "bet	rlife.scm
+121 [11/sep/2001:11:41:56 -0300] "bet	rtlcsm.bci
+121 [11/sep/2001:11:49:57 -0300] "bet	rtlcsm.bin
+121 [11/sep/2001:11:49:57 -0300] "bet	rtlcsm.com
+121 [11/sep/2001:11:42:03 -0300] "bet	rtlcsm.scm
+121 [11/sep/2001:11:42:14 -0300] "bet	
+123 [11/sep/2001:08:31:43 -0300] "bet	/home/joshua/Desktop/mit-scheme-11.2/src/compiler/tests:
+123 [11/sep/2001:08:39:17 -0300] "bet	clogc.scm
+123 [11/sep/2001:08:39:20 -0300] "bet	closure.scm
+123 [11/sep/2001:08:57:05 -0300] "bet	datum.scm
+124 [11/sep/2001:11:31:38 -0300] "bet	decldatum.scm
+124 [11/sep/2001:11:31:38 -0300] "bet	declempty.scm
+124 [11/sep/2001:11:31:45 -0300] "bet	dlink.scm
+124 [11/sep/2001:11:36:17 -0300] "bet	dlink-tail1.scm
+124 [11/sep/2001:11:36:17 -0300] "bet	dlink-tail8.scm
+124 [11/sep/2001:11:36:19 -0300] "bet	dslink.scm
+124 [11/sep/2001:11:36:30 -0300] "bet	empty.scm
+124 [11/sep/2001:11:38:08 -0300] "bet	gc.scm
+124 [11/sep/2001:11:38:08 -0300] "bet	identity.scm
+124 [11/sep/2001:11:38:16 -0300] "bet	link1.scm
+124 [11/sep/2001:11:38:19 -0300] "bet	link2.scm
+124 [11/sep/2001:11:38:42 -0300] "bet	link3.scm
+124 [11/sep/2001:11:38:45 -0300] "bet	map-reduce.scm
+124 [11/sep/2001:11:38:47 -0300] "bet	mfu-dlink1.scm
+124 [11/sep/2001:11:41:04 -0300] "bet	mfu-dlink8.scm
+124 [11/sep/2001:11:41:04 -0300] "bet	mfu-static.scm
+124 [11/sep/2001:11:41:05 -0300] "bet	README
+124 [11/sep/2001:11:41:08 -0300] "bet	slink.scm
+124 [11/sep/2001:11:41:12 -0300] "bet	tests.cbf
+124 [11/sep/2001:11:41:12 -0300] "bet	tests.sf
+124 [11/sep/2001:11:41:13 -0300] "bet	uuoclogc.scm
+124 [11/sep/2001:11:41:15 -0300] "bet	uuoclo.scm
+124 [11/sep/2001:11:41:19 -0300] "bet	uuogc.scm
+124 [11/sep/2001:11:41:31 -0300] "bet	uuo.scm
+124 [11/sep/2001:11:41:31 -0300] "bet	
+124 [11/sep/2001:11:41:32 -0300] "bet	/home/joshua/Desktop/mit-scheme-11.2/src/cref:
+124 [11/sep/2001:11:41:35 -0300] "bet	anfile.bci
+124 [11/sep/2001:11:41:42 -0300] "bet	anfile.bin
+124 [11/sep/2001:11:41:42 -0300] "bet	anfile.com
+124 [11/sep/2001:11:41:43 -0300] "bet	anfile.scm
+124 [11/sep/2001:11:41:46 -0300] "bet	Clean.sh
+124 [11/sep/2001:11:59:21 -0300] "bet	conpkg.bci
+124 [11/sep/2001:11:59:21 -0300] "bet	conpkg.bin
+124 [11/sep/2001:11:59:25 -0300] "bet	conpkg.com
+124 [11/sep/2001:11:59:30 -0300] "bet	conpkg.scm
+124 [11/sep/2001:11:59:35 -0300] "bet	cref.cbf
+124 [11/sep/2001:12:00:04 -0300] "bet	cref.pkg
+128 [11/sep/2001:11:54:03 -0300] "bet	cref.sf
+128 [11/sep/2001:11:54:03 -0300] "bet	cref-unx.crf
+128 [11/sep/2001:11:55:09 -0300] "bet	cref-unx.fre
+128 [11/sep/2001:11:55:09 -0300] "bet	cref-unx.pkd
+128 [11/sep/2001:11:55:11 -0300] "bet	forpkg.bci
+128 [11/sep/2001:11:55:16 -0300] "bet	forpkg.bin
+128 [11/sep/2001:11:58:48 -0300] "bet	forpkg.com
+128 [11/sep/2001:11:58:48 -0300] "bet	forpkg.scm
+128 [11/sep/2001:11:58:50 -0300] "bet	make.bci
+128 [11/sep/2001:11:58:53 -0300] "bet	make.bin
+128 [11/sep/2001:11:59:48 -0300] "bet	make.com
+128 [11/sep/2001:11:59:48 -0300] "bet	Makefile
+128 [11/sep/2001:11:59:51 -0300] "bet	Makefile-fragment
+128 [11/sep/2001:12:00:08 -0300] "bet	Makefile.in
+128 [11/sep/2001:12:00:08 -0300] "bet	make.scm
+129 [11/sep/2001:11:35:19 -0300] "bet	mset.bci
+129 [11/sep/2001:11:35:19 -0300] "bet	mset.bin
+129 [11/sep/2001:12:00:02 -0300] "bet	mset.com
+129 [11/sep/2001:12:01:19 -0300] "bet	mset.scm
+129 [11/sep/2001:12:01:19 -0300] "bet	object.bci
+129 [11/sep/2001:12:01:23 -0300] "bet	object.bin
+129 [11/sep/2001:12:01:24 -0300] "bet	object.com
+129 [11/sep/2001:12:02:35 -0300] "bet	object.ext
+130 [11/sep/2001:11:28:34 -0300] "bet	object.scm
+130 [11/sep/2001:11:31:06 -0300] "bet	redpkg.bci
+130 [11/sep/2001:11:32:46 -0300] "bet	redpkg.bin
+130 [11/sep/2001:11:38:15 -0300] "bet	redpkg.com
+130 [11/sep/2001:11:38:15 -0300] "bet	redpkg.ext
+130 [11/sep/2001:11:38:42 -0300] "bet	redpkg.scm
+130 [11/sep/2001:11:38:53 -0300] "bet	Setup.sh
+131 [11/sep/2001:11:27:13 -0300] "bet	Stage.sh
+131 [11/sep/2001:11:27:13 -0300] "bet	Tags.sh
+131 [11/sep/2001:11:38:56 -0300] "bet	toplev.bci
+131 [11/sep/2001:11:58:36 -0300] "bet	toplev.bin
+131 [11/sep/2001:11:58:36 -0300] "bet	toplev.com
+108 [04/sep/2001:09:59:40 -0300] "bet	toplev.scm
+108 [04/sep/2001:09:59:40 -0300] "bet	triv.pkg
+108 [04/sep/2001:09:59:41 -0300] "bet	
+108 [04/sep/2001:09:59:41 -0300] "bet	/home/joshua/Desktop/mit-scheme-11.2/src/edwin:
+108 [04/sep/2001:09:59:48 -0300] "bet	abbrev.bci
+108 [04/sep/2001:09:59:49 -0300] "bet	abbrev.bin
+108 [04/sep/2001:09:59:50 -0300] "bet	abbrev.com
+108 [04/sep/2001:09:59:54 -0300] "bet	abbrev.ext
+108 [04/sep/2001:09:59:54 -0300] "bet	abbrev.scm
+122 [08/sep/2001:12:57:32 -0300] "bet	aclocal.m4
+122 [08/sep/2001:12:57:32 -0300] "bet	adapters.bci
+122 [08/sep/2001:12:57:40 -0300] "bet	adapters.bin
+122 [08/sep/2001:12:57:40 -0300] "bet	adapters.com
+122 [08/sep/2001:12:57:41 -0300] "bet	adapters.scm
+122 [08/sep/2001:12:57:43 -0300] "bet	ansi.bci
+122 [08/sep/2001:12:58:11 -0300] "bet	ansi.bin
+122 [08/sep/2001:12:58:11 -0300] "bet	ansi.com
+125 [07/sep/2001:09:35:51 -0300] "bet	ansi.scm
+125 [07/sep/2001:09:35:51 -0300] "bet	argred.bci
+127 [10/sep/2001:18:29:09 -0300] "bet	argred.bin
+127 [10/sep/2001:18:29:33 -0300] "bet	argred.com
+127 [10/sep/2001:18:29:51 -0300] "bet	argred.scm
+127 [10/sep/2001:18:29:54 -0300] "bet	artdebug.bci
+127 [10/sep/2001:18:30:05 -0300] "bet	artdebug.bin
+110 [10/sep/2001:18:42:08 -0300] "bet	artdebug.com
+110 [10/sep/2001:18:42:10 -0300] "bet	artdebug.ext
+112 [07/sep/2001:13:41:03 -0300] "bet	artdebug.scm
+112 [07/sep/2001:13:46:05 -0300] "bet	AUTHORS
+112 [07/sep/2001:13:46:05 -0300] "bet	autogen.sh
+112 [07/sep/2001:13:46:08 -0300] "bet	autold.bci
+112 [07/sep/2001:13:46:13 -0300] "bet	autold.bin
+112 [10/sep/2001:16:21:37 -0300] "bet	autold.com
+112 [10/sep/2001:16:21:37 -0300] "bet	autold.ext
+112 [10/sep/2001:16:33:37 -0300] "bet	autold.scm
+112 [10/sep/2001:16:34:14 -0300] "bet	autom4te.cache
+112 [10/sep/2001:16:34:39 -0300] "bet	autosv.bci
+112 [10/sep/2001:16:35:10 -0300] "bet	autosv.bin
+112 [10/sep/2001:16:35:10 -0300] "bet	autosv.com
+112 [10/sep/2001:16:37:18 -0300] "bet	autosv.scm
+112 [10/sep/2001:16:37:18 -0300] "bet	basic.bci
+112 [10/sep/2001:16:37:42 -0300] "bet	basic.bin
+112 [10/sep/2001:16:37:46 -0300] "bet	basic.com
+112 [10/sep/2001:16:38:06 -0300] "bet	basic.ext
+113 [06/sep/2001:11:41:10 -0300] "bet	basic.scm
+113 [06/sep/2001:11:41:10 -0300] "bet	bios.bci
+113 [06/sep/2001:11:43:00 -0300] "bet	bios.bin
+113 [06/sep/2001:11:43:00 -0300] "bet	bios.com
+113 [06/sep/2001:11:47:38 -0300] "bet	bios.ext
+113 [06/sep/2001:11:47:41 -0300] "bet	bios.scm
+113 [06/sep/2001:11:47:57 -0300] "bet	bufcom.bci
+113 [06/sep/2001:11:47:57 -0300] "bet	bufcom.bin
+113 [06/sep/2001:11:48:14 -0300] "bet	bufcom.com
+113 [06/sep/2001:11:51:58 -0300] "bet	bufcom.scm
+113 [06/sep/2001:11:56:55 -0300] "bet	buffer.bci
+113 [06/sep/2001:11:56:56 -0300] "bet	buffer.bin
+113 [06/sep/2001:11:56:56 -0300] "bet	buffer.com
+113 [06/sep/2001:11:56:56 -0300] "bet	buffer.ext
+113 [06/sep/2001:11:56:56 -0300] "bet	buffer.scm
+113 [06/sep/2001:11:56:56 -0300] "bet	buffrm.bci
+113 [06/sep/2001:11:56:57 -0300] "bet	buffrm.bin
+113 [06/sep/2001:11:56:57 -0300] "bet	buffrm.com
+114 [06/sep/2001:15:54:18 -0300] "bet	buffrm.ext
+114 [06/sep/2001:15:55:13 -0300] "bet	buffrm.scm
+114 [06/sep/2001:15:47:29 -0300] "bet	bufinp.bci
+114 [06/sep/2001:15:47:40 -0300] "bet	bufinp.bin
+114 [06/sep/2001:15:47:40 -0300] "bet	bufinp.com
+114 [06/sep/2001:15:47:40 -0300] "bet	bufinp.ext
+114 [06/sep/2001:15:47:40 -0300] "bet	bufinp.scm
+114 [06/sep/2001:15:47:40 -0300] "bet	bufmnu.bci
+114 [06/sep/2001:15:54:17 -0300] "bet	bufmnu.bin
+114 [06/sep/2001:16:01:07 -0300] "bet	bufmnu.com
+114 [06/sep/2001:16:01:09 -0300] "bet	bufmnu.scm
+114 [06/sep/2001:16:03:28 -0300] "bet	bufout.bci
+114 [06/sep/2001:16:03:38 -0300] "bet	bufout.bin
+114 [06/sep/2001:16:03:58 -0300] "bet	bufout.com
+114 [06/sep/2001:16:04:00 -0300] "bet	bufout.ext
+117 [10/sep/2001:19:18:37 -0300] "bet	bufout.scm
+117 [10/sep/2001:19:18:39 -0300] "bet	bufset.bci
+117 [10/sep/2001:19:19:28 -0300] "bet	bufset.bin
+117 [10/sep/2001:19:19:28 -0300] "bet	bufset.com
+117 [10/sep/2001:19:19:30 -0300] "bet	bufset.ext
+117 [10/sep/2001:19:19:39 -0300] "bet	bufset.scm
+117 [10/sep/2001:19:19:41 -0300] "bet	bufwfs.bci
+117 [10/sep/2001:19:19:43 -0300] "bet	bufwfs.bin
+117 [10/sep/2001:19:19:46 -0300] "bet	bufwfs.com
+117 [10/sep/2001:19:19:50 -0300] "bet	bufwfs.scm
+117 [10/sep/2001:19:19:53 -0300] "bet	bufwin.bci
+117 [10/sep/2001:19:19:57 -0300] "bet	bufwin.bin
+117 [10/sep/2001:19:19:57 -0300] "bet	bufwin.com
+117 [10/sep/2001:19:20:00 -0300] "bet	bufwin.ext
+117 [10/sep/2001:19:20:08 -0300] "bet	bufwin.scm
+117 [10/sep/2001:19:20:10 -0300] "bet	bufwiu.bci
+117 [10/sep/2001:19:20:13 -0300] "bet	bufwiu.bin
+117 [10/sep/2001:19:20:14 -0300] "bet	bufwiu.com
+117 [10/sep/2001:19:20:20 -0300] "bet	bufwiu.ext
+117 [10/sep/2001:19:20:21 -0300] "bet	bufwiu.scm
+117 [10/sep/2001:19:20:36 -0300] "bet	bufwmc.bci
+117 [10/sep/2001:19:20:37 -0300] "bet	bufwmc.bin
+117 [10/sep/2001:19:22:29 -0300] "bet	bufwmc.com
+117 [10/sep/2001:19:22:29 -0300] "bet	bufwmc.ext
+117 [10/sep/2001:19:22:33 -0300] "bet	bufwmc.scm
+117 [10/sep/2001:19:22:33 -0300] "bet	calias.bci
+117 [10/sep/2001:19:22:35 -0300] "bet	calias.bin
+117 [10/sep/2001:19:22:53 -0300] "bet	calias.com
+117 [10/sep/2001:19:22:55 -0300] "bet	calias.ext
+117 [10/sep/2001:19:22:59 -0300] "bet	calias.scm
+117 [10/sep/2001:19:22:59 -0300] "bet	ChangeLog
+117 [10/sep/2001:19:23:01 -0300] "bet	cinden.bci
+117 [10/sep/2001:19:26:08 -0300] "bet	cinden.bin
+117 [10/sep/2001:19:26:11 -0300] "bet	cinden.com
+117 [10/sep/2001:19:26:13 -0300] "bet	cinden.scm
+117 [10/sep/2001:19:35:18 -0300] "bet	class.bci
+117 [10/sep/2001:19:35:18 -0300] "bet	class.bin
+117 [10/sep/2001:19:35:19 -0300] "bet	class.com
+117 [10/sep/2001:19:35:21 -0300] "bet	class.ext
+117 [10/sep/2001:19:35:43 -0300] "bet	class.scm
+117 [10/sep/2001:19:35:45 -0300] "bet	Clean.sh
+117 [10/sep/2001:19:37:23 -0300] "bet	clscon.bci
+117 [10/sep/2001:19:38:18 -0300] "bet	clscon.bin
+117 [10/sep/2001:19:39:12 -0300] "bet	clscon.com
+117 [10/sep/2001:19:39:12 -0300] "bet	clscon.scm
+117 [10/sep/2001:19:39:20 -0300] "bet	clsmac.bci
+117 [10/sep/2001:19:39:41 -0300] "bet	clsmac.bin
+117 [10/sep/2001:19:40:37 -0300] "bet	clsmac.com
+117 [10/sep/2001:19:40:44 -0300] "bet	clsmac.scm
+117 [10/sep/2001:19:40:45 -0300] "bet	c-mode.bci
+118 [05/sep/2001:12:29:48 -0300] "bet	c-mode.bin
+119 [06/sep/2001:20:41:34 -0300] "bet	c-mode.com
+119 [06/sep/2001:20:41:34 -0300] "bet	c-mode.scm
+119 [06/sep/2001:20:43:01 -0300] "bet	comatch.bci
+119 [06/sep/2001:20:43:02 -0300] "bet	comatch.bin
+119 [06/sep/2001:20:43:03 -0300] "bet	comatch.com
+119 [06/sep/2001:20:43:06 -0300] "bet	comatch.scm
+119 [06/sep/2001:20:47:19 -0300] "bet	comhst.bci
+119 [06/sep/2001:20:47:21 -0300] "bet	comhst.bin
+119 [06/sep/2001:20:49:02 -0300] "bet	comhst.com
+119 [06/sep/2001:20:53:34 -0300] "bet	comhst.scm
+119 [06/sep/2001:20:53:34 -0300] "bet	comint.bci
+101 [06/sep/2001:17:30:15 -0300] "bet	comint.bin
+101 [06/sep/2001:17:43:40 -0300] "bet	comint.com
+101 [06/sep/2001:17:55:53 -0300] "bet	comint.scm
+101 [06/sep/2001:17:55:53 -0300] "bet	comman.bci
+101 [06/sep/2001:17:55:58 -0300] "bet	comman.bin
+108 [04/sep/2001:14:59:04 -0300] "bet	comman.com
+108 [04/sep/2001:15:00:42 -0300] "bet	comman.ext
+109 [07/sep/2001:17:16:16 -0300] "bet	comman.scm
+109 [07/sep/2001:17:16:16 -0300] "bet	compile.bci
+111 [07/sep/2001:10:29:28 -0300] "bet	compile.bin
+111 [07/sep/2001:10:29:28 -0300] "bet	compile.com
+111 [07/sep/2001:10:35:32 -0300] "bet	compile.scm
+111 [07/sep/2001:10:41:03 -0300] "bet	compile.sh
+111 [07/sep/2001:11:06:16 -0300] "bet	comred.bci
+111 [07/sep/2001:11:07:27 -0300] "bet	comred.bin
+111 [07/sep/2001:11:08:50 -0300] "bet	comred.com
+111 [07/sep/2001:11:08:50 -0300] "bet	comred.ext
+111 [07/sep/2001:11:08:53 -0300] "bet	comred.scm
+111 [07/sep/2001:11:09:23 -0300] "bet	comtab.bci
+111 [07/sep/2001:11:09:23 -0300] "bet	comtab.bin
+111 [07/sep/2001:11:09:45 -0300] "bet	comtab.com
+111 [07/sep/2001:11:09:49 -0300] "bet	comtab.ext
+111 [07/sep/2001:11:09:52 -0300] "bet	comtab.scm
+111 [07/sep/2001:11:10:15 -0300] "bet	comwin.bci
+112 [07/sep/2001:10:27:24 -0300] "bet	comwin.bin
+112 [07/sep/2001:10:51:32 -0300] "bet	comwin.com
+112 [07/sep/2001:10:53:10 -0300] "bet	comwin.ext
+112 [07/sep/2001:10:54:18 -0300] "bet	comwin.scm
+112 [07/sep/2001:10:54:18 -0300] "bet	config.log
+112 [07/sep/2001:10:54:19 -0300] "bet	config.status
+112 [07/sep/2001:10:54:25 -0300] "bet	configure
+112 [07/sep/2001:10:55:48 -0300] "bet	configure.ac
+112 [07/sep/2001:10:55:49 -0300] "bet	COPYING
+112 [07/sep/2001:11:00:45 -0300] "bet	curren.bci
+112 [07/sep/2001:11:00:46 -0300] "bet	curren.bin
+112 [07/sep/2001:11:05:55 -0300] "bet	curren.com
+112 [07/sep/2001:11:05:57 -0300] "bet	curren.scm
+112 [07/sep/2001:11:06:01 -0300] "bet	dabbrev.bci
+112 [07/sep/2001:11:06:15 -0300] "bet	dabbrev.bin
+112 [07/sep/2001:11:06:18 -0300] "bet	dabbrev.com
+112 [07/sep/2001:11:06:22 -0300] "bet	dabbrev.scm
+112 [07/sep/2001:11:06:50 -0300] "bet	debian-changelog.bci
+112 [07/sep/2001:11:06:51 -0300] "bet	debian-changelog.bin
+112 [07/sep/2001:11:07:02 -0300] "bet	debian-changelog.com
+112 [07/sep/2001:11:07:06 -0300] "bet	debian-changelog.scm
+112 [07/sep/2001:11:07:10 -0300] "bet	debug.bci
+112 [07/sep/2001:11:07:15 -0300] "bet	debug.bin
+112 [07/sep/2001:11:07:20 -0300] "bet	debug.com
+112 [07/sep/2001:11:07:22 -0300] "bet	debuge.bci
+112 [07/sep/2001:11:07:55 -0300] "bet	debuge.bin
+112 [07/sep/2001:11:07:57 -0300] "bet	debuge.com
+112 [07/sep/2001:11:08:27 -0300] "bet	debuge.scm
+112 [07/sep/2001:11:08:28 -0300] "bet	debug.ext
+112 [07/sep/2001:11:08:50 -0300] "bet	debug.scm
+112 [07/sep/2001:11:08:55 -0300] "bet	decls.scm
+112 [07/sep/2001:11:09:03 -0300] "bet	diff.bci
+112 [07/sep/2001:11:09:06 -0300] "bet	diff.bin
+112 [07/sep/2001:11:09:14 -0300] "bet	diff.com
+112 [07/sep/2001:11:09:18 -0300] "bet	diff.scm
+112 [07/sep/2001:11:09:25 -0300] "bet	dired.bci
+112 [07/sep/2001:11:09:29 -0300] "bet	dired.bin
+112 [07/sep/2001:11:09:36 -0300] "bet	dired.com
+112 [07/sep/2001:11:09:38 -0300] "bet	dired.scm
+112 [07/sep/2001:11:09:45 -0300] "bet	dirunx.bci
+112 [07/sep/2001:11:09:48 -0300] "bet	dirunx.bin
+112 [07/sep/2001:11:09:56 -0300] "bet	dirunx.com
+112 [07/sep/2001:11:09:58 -0300] "bet	dirunx.scm
+112 [07/sep/2001:11:10:11 -0300] "bet	dirw32.bci
+112 [07/sep/2001:11:10:41 -0300] "bet	dirw32.bin
+112 [07/sep/2001:11:10:48 -0300] "bet	dirw32.com
+113 [23/aug/2001:10:36:04 -0300] "bet	dirw32.scm
+113 [23/aug/2001:10:36:04 -0300] "bet	display.bci
+114 [07/sep/2001:11:42:54 -0300] "bet	display.bin
+114 [07/sep/2001:11:42:54 -0300] "bet	display.com
+114 [07/sep/2001:11:43:00 -0300] "bet	display.ext
+114 [07/sep/2001:11:43:00 -0300] "bet	display.scm
+114 [07/sep/2001:11:43:02 -0300] "bet	docstr.bci
+114 [07/sep/2001:11:43:04 -0300] "bet	docstr.bin
+115 [06/sep/2001:15:39:53 -0300] "bet	docstr.com
+115 [06/sep/2001:15:39:53 -0300] "bet	docstr.ext
+115 [06/sep/2001:15:42:10 -0300] "bet	docstr.scm
+115 [06/sep/2001:15:42:10 -0300] "bet	dos.bci
+115 [06/sep/2001:15:42:34 -0300] "bet	dos.bin
+115 [06/sep/2001:15:42:35 -0300] "bet	dos.com
+119 [07/sep/2001:12:54:32 -0300] "bet	doscom.bci
+124 [06/sep/2001:17:25:42 -0300] "bet	doscom.bin
+125 [06/sep/2001:12:12:22 -0300] "bet	doscom.com
+125 [06/sep/2001:12:12:22 -0300] "bet	doscom.scm
+128 [10/aug/2001:12:48:37 -0300] "bet	dosfile.bci
+128 [10/aug/2001:12:50:19 -0300] "bet	dosfile.bin
+128 [10/aug/2001:12:50:19 -0300] "bet	dosfile.com
+128 [10/aug/2001:12:50:26 -0300] "bet	dosfile.scm
+128 [10/aug/2001:12:50:26 -0300] "bet	dosproc.bci
+128 [10/aug/2001:12:50:30 -0300] "bet	dosproc.bin
+128 [10/aug/2001:12:50:40 -0300] "bet	dosproc.com
+128 [10/aug/2001:12:50:44 -0300] "bet	dosproc.scm
+128 [10/aug/2001:12:50:44 -0300] "bet	dos.scm
+130 [08/aug/2001:17:06:35 -0300] "bet	dosshell.bci
+130 [08/aug/2001:17:06:53 -0300] "bet	dosshell.bin
+130 [08/aug/2001:17:07:01 -0300] "bet	dosshell.com
+130 [08/aug/2001:17:09:10 -0300] "bet	dosshell.scm
+130 [08/aug/2001:17:09:15 -0300] "bet	ed-ffi.bci
+130 [08/aug/2001:17:09:15 -0300] "bet	ed-ffi.bin
+130 [08/aug/2001:17:09:20 -0300] "bet	ed-ffi.com
+130 [08/aug/2001:17:09:20 -0300] "bet	ed-ffi.scm
+130 [08/aug/2001:17:09:23 -0300] "bet	editor.bci
+130 [08/aug/2001:17:09:25 -0300] "bet	editor.bin
+130 [10/aug/2001:14:28:15 -0300] "bet	editor.com
+130 [10/aug/2001:14:28:51 -0300] "bet	editor.ext
+101 [07/sep/2001:21:44:13 -0300] "bet	editor.scm
+101 [10/sep/2001:09:37:20 -0300] "bet	edtfrm.bci
+101 [10/sep/2001:09:37:20 -0300] "bet	edtfrm.bin
+102 [20/aug/2001:19:12:09 -0300] "bet	edtfrm.com
+102 [20/aug/2001:19:12:23 -0300] "bet	edtfrm.ext
+104 [10/sep/2001:09:37:43 -0300] "bet	edtfrm.scm
+104 [10/sep/2001:09:37:43 -0300] "bet	edtstr.bci
+104 [10/sep/2001:09:46:07 -0300] "bet	edtstr.bin
+104 [10/sep/2001:09:46:07 -0300] "bet	edtstr.com
+104 [10/sep/2001:09:46:10 -0300] "bet	edtstr.ext
+104 [10/sep/2001:09:46:12 -0300] "bet	edtstr.scm
+104 [10/sep/2001:12:38:29 -0300] "bet	edwin.bld
+104 [10/sep/2001:12:38:29 -0300] "bet	edwin.cbf
+19 [06/sep/2001:15:14:59 -0300] "bet	edwin.ldr
+19 [06/sep/2001:15:15:23 -0300] "bet	edwin.pkg
+19 [06/sep/2001:15:31:58 -0300] "bet	edwin.sf
+19 [06/sep/2001:15:31:58 -0300] "bet	edwin-unx.crf
+19 [06/sep/2001:15:32:13 -0300] "bet	edwin-unx.fre
+19 [06/sep/2001:15:32:13 -0300] "bet	edwin-unx.pkd
+19 [06/sep/2001:15:32:18 -0300] "bet	evlcom.bci
+19 [06/sep/2001:15:32:25 -0300] "bet	evlcom.bin
+111 [04/sep/2001:15:44:47 -0300] "bet	evlcom.com
+111 [04/sep/2001:15:46:40 -0300] "bet	evlcom.scm
+111 [04/sep/2001:15:46:42 -0300] "bet	eystep.bci
+111 [06/sep/2001:09:54:41 -0300] "bet	eystep.bin
+111 [06/sep/2001:10:03:19 -0300] "bet	eystep.com
+111 [06/sep/2001:10:28:09 -0300] "bet	eystep.scm
+111 [06/sep/2001:10:28:15 -0300] "bet	filcom.bci
+111 [06/sep/2001:10:30:17 -0300] "bet	filcom.bin
+111 [06/sep/2001:10:33:13 -0300] "bet	filcom.com
+111 [06/sep/2001:10:33:13 -0300] "bet	filcom.scm
+111 [06/sep/2001:10:33:22 -0300] "bet	fileio.bci
+111 [06/sep/2001:10:33:32 -0300] "bet	fileio.bin
+111 [06/sep/2001:10:33:32 -0300] "bet	fileio.com
+111 [06/sep/2001:10:33:35 -0300] "bet	fileio.scm
+111 [06/sep/2001:10:33:40 -0300] "bet	fill.bci
+111 [06/sep/2001:10:42:17 -0300] "bet	fill.bin
+111 [06/sep/2001:10:42:17 -0300] "bet	fill.com
+111 [06/sep/2001:10:49:11 -0300] "bet	fill.scm
+111 [06/sep/2001:10:49:11 -0300] "bet	grpops.bci
+111 [06/sep/2001:17:28:46 -0300] "bet	grpops.bin
+111 [06/sep/2001:17:33:34 -0300] "bet	grpops.com
+111 [06/sep/2001:17:39:54 -0300] "bet	grpops.scm
+111 [06/sep/2001:17:40:03 -0300] "bet	hlpcom.bci
+111 [06/sep/2001:17:42:35 -0300] "bet	hlpcom.bin
+111 [06/sep/2001:17:46:35 -0300] "bet	hlpcom.com
+111 [06/sep/2001:17:46:35 -0300] "bet	hlpcom.scm
+111 [06/sep/2001:17:46:40 -0300] "bet	htmlmode.bci
+111 [06/sep/2001:17:46:40 -0300] "bet	htmlmode.bin
+111 [06/sep/2001:17:46:51 -0300] "bet	htmlmode.com
+111 [06/sep/2001:17:47:31 -0300] "bet	htmlmode.scm
+111 [06/sep/2001:17:47:35 -0300] "bet	image.bci
+111 [06/sep/2001:17:47:43 -0300] "bet	image.bin
+111 [06/sep/2001:17:47:44 -0300] "bet	image.com
+111 [06/sep/2001:18:10:53 -0300] "bet	image.scm
+111 [06/sep/2001:18:10:53 -0300] "bet	info.bci
+111 [06/sep/2001:18:18:45 -0300] "bet	info.bin
+111 [06/sep/2001:18:18:45 -0300] "bet	info.com
+111 [11/sep/2001:09:54:33 -0300] "bet	info.ext
+111 [11/sep/2001:10:02:37 -0300] "bet	info.scm
+111 [11/sep/2001:10:02:37 -0300] "bet	input.bci
+111 [11/sep/2001:10:02:53 -0300] "bet	input.bin
+111 [11/sep/2001:10:03:23 -0300] "bet	input.com
+111 [11/sep/2001:10:05:16 -0300] "bet	input.ext
+111 [11/sep/2001:10:05:30 -0300] "bet	input.scm
+111 [11/sep/2001:10:06:29 -0300] "bet	INSTALL
+111 [11/sep/2001:10:09:19 -0300] "bet	install-sh
+111 [11/sep/2001:10:09:19 -0300] "bet	intmod.bci
+112 [06/sep/2001:13:45:18 -0300] "bet	intmod.bin
+112 [06/sep/2001:12:56:50 -0300] "bet	intmod.com
+112 [06/sep/2001:13:07:02 -0300] "bet	intmod.ext
+112 [06/sep/2001:13:12:09 -0300] "bet	intmod.scm
+112 [06/sep/2001:13:12:22 -0300] "bet	iserch.bci
+112 [06/sep/2001:13:14:28 -0300] "bet	iserch.bin
+112 [06/sep/2001:13:39:56 -0300] "bet	iserch.com
+112 [06/sep/2001:13:39:56 -0300] "bet	iserch.ext
+112 [06/sep/2001:13:45:17 -0300] "bet	iserch.scm
+112 [06/sep/2001:13:46:52 -0300] "bet	javamode.bci
+112 [06/sep/2001:13:46:52 -0300] "bet	javamode.bin
+112 [06/sep/2001:13:46:59 -0300] "bet	javamode.com
+112 [06/sep/2001:13:47:02 -0300] "bet	javamode.scm
+112 [15/aug/2001:08:18:41 -0300] "bet	keymap.bci
+107 [04/sep/2001:09:45:46 -0300] "bet	keymap.bin
+107 [04/sep/2001:09:45:46 -0300] "bet	keymap.com
+249 [04/sep/2001:15:23:34 -0300] "bet	keymap.scm
+249 [04/sep/2001:15:23:34 -0300] "bet	keyparse.bci
+249 [06/sep/2001:12:10:08 -0300] "bet	keyparse.bin
+249 [06/sep/2001:12:25:27 -0300] "bet	keyparse.com
+249 [06/sep/2001:12:25:27 -0300] "bet	keyparse.ext
+249 [06/sep/2001:12:10:13 -0300] "bet	keyparse.scm
+249 [06/sep/2001:12:13:03 -0300] "bet	key-w32.bci
+249 [06/sep/2001:12:14:08 -0300] "bet	key-w32.bin
+249 [06/sep/2001:12:16:07 -0300] "bet	key-w32.com
+249 [06/sep/2001:12:16:37 -0300] "bet	key-w32.scm
+249 [06/sep/2001:12:16:52 -0300] "bet	kilcom.bci
+249 [06/sep/2001:12:20:58 -0300] "bet	kilcom.bin
+249 [06/sep/2001:12:21:08 -0300] "bet	kilcom.com
+249 [06/sep/2001:12:21:14 -0300] "bet	kilcom.scm
+249 [06/sep/2001:12:21:47 -0300] "bet	kmacro.bci
+249 [06/sep/2001:12:25:33 -0300] "bet	kmacro.bin
+52 [04/sep/2001:14:54:23 -0300] "bet	kmacro.com
+52 [04/sep/2001:14:54:23 -0300] "bet	kmacro.scm
+52 [04/sep/2001:16:31:54 -0300] "bet	lincom.bci
+52 [04/sep/2001:16:31:54 -0300] "bet	lincom.bin
+52 [04/sep/2001:16:32:00 -0300] "bet	lincom.com
+52 [04/sep/2001:16:32:10 -0300] "bet	lincom.scm
+52 [04/sep/2001:16:34:43 -0300] "bet	linden.bci
+52 [04/sep/2001:16:35:42 -0300] "bet	linden.bin
+52 [06/aug/2001:10:42:36 -0300] "bet	linden.com
+52 [06/aug/2001:10:43:02 -0300] "bet	linden.scm
+52 [06/aug/2001:10:43:02 -0300] "bet	loadef.bci
+52 [06/sep/2001:19:00:38 -0300] "bet	loadef.bin
+52 [06/sep/2001:19:00:38 -0300] "bet	loadef.com
+52 [06/sep/2001:19:00:46 -0300] "bet	loadef.scm
+52 [06/sep/2001:19:00:46 -0300] "bet	lspcom.bci
+52 [06/sep/2001:19:00:48 -0300] "bet	lspcom.bin
+52 [06/sep/2001:19:00:49 -0300] "bet	lspcom.com
+52 [06/sep/2001:19:01:21 -0300] "bet	lspcom.scm
+52 [06/sep/2001:19:01:22 -0300] "bet	macros.bci
+52 [10/sep/2001:11:06:36 -0300] "bet	macros.bin
+52 [10/sep/2001:11:06:36 -0300] "bet	macros.com
+52 [10/sep/2001:11:06:40 -0300] "bet	macros.scm
+52 [10/sep/2001:11:11:58 -0300] "bet	make.bci
+52 [10/sep/2001:11:12:07 -0300] "bet	make.bin
+52 [10/sep/2001:11:12:14 -0300] "bet	make.com
+52 [10/sep/2001:11:06:42 -0300] "bet	Makefile
+52 [10/sep/2001:11:06:56 -0300] "bet	Makefile.am
+52 [10/sep/2001:11:07:06 -0300] "bet	Makefile.in
+52 [10/sep/2001:11:07:14 -0300] "bet	make.scm
+52 [10/sep/2001:11:07:32 -0300] "bet	malias.bci
+74 [11/sep/2001:10:22:49 -0300] "bet	malias.bin
+74 [11/sep/2001:10:22:49 -0300] "bet	malias.com
+74 [11/sep/2001:10:23:48 -0300] "bet	malias.scm
+74 [11/sep/2001:10:25:16 -0300] "bet	manual.bci
+74 [11/sep/2001:10:25:16 -0300] "bet	manual.bin
+74 [11/sep/2001:10:25:20 -0300] "bet	manual.com
+74 [11/sep/2001:10:25:25 -0300] "bet	manual.scm
+74 [11/sep/2001:10:27:30 -0300] "bet	midas.bci
+74 [11/sep/2001:10:29:32 -0300] "bet	midas.bin
+74 [11/sep/2001:10:29:36 -0300] "bet	midas.com
+74 [11/sep/2001:10:29:55 -0300] "bet	midas.scm
+74 [11/sep/2001:10:29:55 -0300] "bet	missing
+74 [11/sep/2001:10:30:09 -0300] "bet	modefs.bci
+74 [11/sep/2001:10:30:09 -0300] "bet	modefs.bin
+74 [11/sep/2001:10:30:41 -0300] "bet	modefs.com
+74 [11/sep/2001:10:30:43 -0300] "bet	modefs.scm
+74 [11/sep/2001:10:31:48 -0300] "bet	modes.bci
+74 [11/sep/2001:10:31:48 -0300] "bet	modes.bin
+74 [11/sep/2001:10:31:54 -0300] "bet	modes.com
+74 [11/sep/2001:10:31:54 -0300] "bet	modes.ext
+74 [11/sep/2001:10:32:49 -0300] "bet	modes.scm
+74 [11/sep/2001:10:32:49 -0300] "bet	modlin.bci
+74 [11/sep/2001:10:32:59 -0300] "bet	modlin.bin
+74 [11/sep/2001:10:32:59 -0300] "bet	modlin.com
+74 [11/sep/2001:10:33:02 -0300] "bet	modlin.scm
+74 [11/sep/2001:10:33:05 -0300] "bet	modwin.bci
+74 [11/sep/2001:10:33:12 -0300] "bet	modwin.bin
+74 [11/sep/2001:10:34:08 -0300] "bet	modwin.com
+74 [11/sep/2001:10:34:14 -0300] "bet	modwin.scm
+74 [11/sep/2001:10:34:18 -0300] "bet	motcom.bci
+74 [11/sep/2001:10:35:51 -0300] "bet	motcom.bin
+74 [11/sep/2001:10:35:51 -0300] "bet	motcom.com
+74 [11/sep/2001:10:35:59 -0300] "bet	motcom.scm
+74 [11/sep/2001:10:35:59 -0300] "bet	motion.bci
+74 [11/sep/2001:10:36:57 -0300] "bet	motion.bin
+74 [11/sep/2001:10:36:57 -0300] "bet	motion.com
+74 [11/sep/2001:10:36:59 -0300] "bet	motion.scm
+74 [11/sep/2001:10:37:02 -0300] "bet	mousecom.bci
+74 [11/sep/2001:10:37:07 -0300] "bet	mousecom.bin
+74 [11/sep/2001:10:37:29 -0300] "bet	mousecom.com
+74 [11/sep/2001:10:37:36 -0300] "bet	mousecom.scm
+74 [11/sep/2001:10:37:36 -0300] "bet	NEWS
+74 [11/sep/2001:10:37:40 -0300] "bet	nntp.bci
+74 [11/sep/2001:10:37:43 -0300] "bet	nntp.bin
+74 [11/sep/2001:10:37:50 -0300] "bet	nntp.com
+74 [11/sep/2001:10:41:35 -0300] "bet	nntp.ext
+74 [11/sep/2001:10:41:35 -0300] "bet	nntp.scm
+74 [11/sep/2001:10:41:56 -0300] "bet	notify.bci
+74 [11/sep/2001:10:41:56 -0300] "bet	notify.bin
+74 [11/sep/2001:10:43:06 -0300] "bet	notify.com
+74 [11/sep/2001:10:43:06 -0300] "bet	notify.scm
+74 [11/sep/2001:10:43:09 -0300] "bet	nvector.bci
+74 [11/sep/2001:10:45:39 -0300] "bet	nvector.bin
+74 [11/sep/2001:10:45:48 -0300] "bet	nvector.com
+74 [11/sep/2001:10:45:48 -0300] "bet	nvector.scm
+74 [11/sep/2001:10:45:58 -0300] "bet	occur.bci
+74 [11/sep/2001:10:47:14 -0300] "bet	occur.bin
+74 [11/sep/2001:10:47:14 -0300] "bet	occur.com
+37 [06/sep/2001:16:10:01 -0300] "bet	occur.scm
+102 [08/sep/2001:14:58:40 -0300] "bet	outline.bci
+102 [08/sep/2001:14:58:41 -0300] "bet	outline.bin
+57 [10/sep/2001:13:17:38 -0300] "bet	outline.com
+57 [10/sep/2001:13:17:38 -0300] "bet	outline.scm
+61 [10/sep/2001:22:47:56 -0300] "bet	paredit.bci
+61 [10/sep/2001:22:47:56 -0300] "bet	paredit.bin
+61 [10/sep/2001:22:48:27 -0300] "bet	paredit.com
+61 [10/sep/2001:22:48:55 -0300] "bet	paredit.scm
+61 [10/sep/2001:23:01:35 -0300] "bet	pasmod.bci
+61 [10/sep/2001:23:02:42 -0300] "bet	pasmod.bin
+61 [10/sep/2001:23:02:42 -0300] "bet	pasmod.com
+61 [10/sep/2001:23:02:44 -0300] "bet	pasmod.scm
+61 [10/sep/2001:23:03:05 -0300] "bet	paths.bci
+61 [10/sep/2001:23:04:03 -0300] "bet	paths.bin
+61 [10/sep/2001:23:04:06 -0300] "bet	paths.com
+61 [10/sep/2001:23:05:53 -0300] "bet	paths.scm
+61 [10/sep/2001:23:08:58 -0300] "bet	print.bci
+61 [10/sep/2001:23:08:58 -0300] "bet	print.bin
+61 [10/sep/2001:23:09:02 -0300] "bet	print.com
+61 [10/sep/2001:23:16:38 -0300] "bet	print.scm
+61 [10/sep/2001:23:16:38 -0300] "bet	process.bci
+61 [10/sep/2001:23:16:40 -0300] "bet	process.bin
+61 [10/sep/2001:23:17:37 -0300] "bet	process.com
+61 [10/sep/2001:23:18:05 -0300] "bet	process.ext
+61 [10/sep/2001:23:18:05 -0300] "bet	process.scm
+61 [10/sep/2001:23:18:07 -0300] "bet	prompt.bci
+61 [10/sep/2001:23:18:08 -0300] "bet	prompt.bin
+61 [10/sep/2001:23:18:33 -0300] "bet	prompt.com
+61 [10/sep/2001:23:18:33 -0300] "bet	prompt.ext
+88 [09/sep/2001:14:21:33 -0300] "bet	prompt.scm
+88 [09/sep/2001:14:21:52 -0300] "bet	pwedit.bci
+88 [09/sep/2001:14:22:01 -0300] "bet	pwedit.bin
+88 [09/sep/2001:14:22:49 -0300] "bet	pwedit.com
+88 [09/sep/2001:14:23:42 -0300] "bet	pwedit.scm
+88 [06/sep/2001:22:03:07 -0300] "bet	pwparse.bci
+88 [06/sep/2001:22:11:11 -0300] "bet	pwparse.bin
+88 [06/sep/2001:22:17:35 -0300] "bet	pwparse.com
+88 [06/sep/2001:22:17:35 -0300] "bet	pwparse.scm
+88 [06/sep/2001:22:17:42 -0300] "bet	rcsparse.bci
+88 [06/sep/2001:22:17:49 -0300] "bet	rcsparse.bin
+88 [06/sep/2001:22:17:50 -0300] "bet	rcsparse.com
+88 [07/sep/2001:13:48:16 -0300] "bet	rcsparse.ext
+88 [09/sep/2001:13:46:01 -0300] "bet	rcsparse.scm
+88 [09/sep/2001:13:46:48 -0300] "bet	README
+88 [09/sep/2001:13:46:48 -0300] "bet	reccom.bci
+88 [09/sep/2001:13:46:50 -0300] "bet	reccom.bin
+88 [09/sep/2001:13:46:52 -0300] "bet	reccom.com
+88 [09/sep/2001:13:49:24 -0300] "bet	reccom.scm
+88 [09/sep/2001:13:49:35 -0300] "bet	regcom.bci
+88 [09/sep/2001:14:01:41 -0300] "bet	regcom.bin
+88 [09/sep/2001:14:01:48 -0300] "bet	regcom.com
+88 [09/sep/2001:14:03:23 -0300] "bet	regcom.ext
+88 [09/sep/2001:14:03:28 -0300] "bet	regcom.scm
+88 [09/sep/2001:14:07:23 -0300] "bet	regexp.bci
+88 [09/sep/2001:14:10:11 -0300] "bet	regexp.bin
+88 [09/sep/2001:14:21:17 -0300] "bet	regexp.com
+88 [09/sep/2001:14:22:49 -0300] "bet	regexp.ext
+88 [09/sep/2001:14:23:50 -0300] "bet	regexp.scm
+88 [09/sep/2001:14:23:09 -0300] "bet	regops.bci
+88 [09/sep/2001:14:23:17 -0300] "bet	regops.bin
+126 [07/sep/2001:00:17:13 -0300] "bet	regops.com
+126 [07/sep/2001:00:17:37 -0300] "bet	regops.scm
+126 [07/sep/2001:00:18:08 -0300] "bet	replaz.bci
+126 [07/sep/2001:00:21:53 -0300] "bet	replaz.bin
+126 [07/sep/2001:00:22:00 -0300] "bet	replaz.com
+126 [07/sep/2001:00:22:16 -0300] "bet	replaz.scm
+126 [07/sep/2001:00:22:28 -0300] "bet	rfc822.bci
+126 [07/sep/2001:07:54:50 -0300] "bet	rfc822.bin
+126 [07/sep/2001:07:55:01 -0300] "bet	rfc822.com
+126 [07/sep/2001:07:55:05 -0300] "bet	rfc822.scm
+126 [07/sep/2001:07:55:15 -0300] "bet	ring.bci
+126 [07/sep/2001:07:55:18 -0300] "bet	ring.bin
+126 [07/sep/2001:07:55:23 -0300] "bet	ring.com
+126 [07/sep/2001:07:56:20 -0300] "bet	ring.scm
+126 [07/sep/2001:07:56:24 -0300] "bet	rmail.bci
+126 [07/sep/2001:07:56:27 -0300] "bet	rmail.bin
+126 [07/sep/2001:07:56:29 -0300] "bet	rmail.com
+126 [07/sep/2001:08:01:03 -0300] "bet	rmail.ext
+126 [07/sep/2001:08:01:11 -0300] "bet	rmail.scm
+126 [07/sep/2001:08:01:15 -0300] "bet	rmailsrt.bci
+126 [07/sep/2001:08:03:44 -0300] "bet	rmailsrt.bin
+126 [07/sep/2001:08:03:51 -0300] "bet	rmailsrt.com
+126 [07/sep/2001:08:04:04 -0300] "bet	rmailsrt.scm
+126 [07/sep/2001:08:04:10 -0300] "bet	rmailsum.bci
+126 [07/sep/2001:08:04:25 -0300] "bet	rmailsum.bin
+126 [07/sep/2001:08:06:51 -0300] "bet	rmailsum.com
+126 [07/sep/2001:08:06:51 -0300] "bet	rmailsum.scm
+126 [07/sep/2001:08:06:51 -0300] "bet	schmod.bci
+126 [07/sep/2001:08:06:52 -0300] "bet	schmod.bin
+126 [07/sep/2001:08:06:53 -0300] "bet	schmod.com
+126 [07/sep/2001:08:06:53 -0300] "bet	schmod.scm
+126 [07/sep/2001:08:06:54 -0300] "bet	scrcom.bci
+126 [07/sep/2001:08:06:54 -0300] "bet	scrcom.bin
+126 [07/sep/2001:08:06:55 -0300] "bet	scrcom.com
+126 [07/sep/2001:08:06:55 -0300] "bet	scrcom.scm
+126 [07/sep/2001:08:06:56 -0300] "bet	screen.bci
+126 [07/sep/2001:08:06:57 -0300] "bet	screen.bin
+126 [07/sep/2001:08:06:58 -0300] "bet	screen.com
+126 [07/sep/2001:08:06:59 -0300] "bet	screen.ext
+126 [07/sep/2001:08:06:59 -0300] "bet	screen.scm
+126 [07/sep/2001:08:07:00 -0300] "bet	search.bci
+126 [07/sep/2001:08:07:01 -0300] "bet	search.bin
+126 [07/sep/2001:08:07:02 -0300] "bet	search.com
+126 [07/sep/2001:08:07:02 -0300] "bet	search.ext
+126 [07/sep/2001:08:07:03 -0300] "bet	search.scm
+126 [07/sep/2001:08:07:03 -0300] "bet	sendmail.bci
+126 [07/sep/2001:08:07:05 -0300] "bet	sendmail.bin
+126 [07/sep/2001:08:07:05 -0300] "bet	sendmail.com
+126 [07/sep/2001:08:07:06 -0300] "bet	sendmail.ext
+126 [07/sep/2001:08:07:06 -0300] "bet	sendmail.scm
+126 [07/sep/2001:08:07:07 -0300] "bet	sercom.bci
+126 [07/sep/2001:08:07:08 -0300] "bet	sercom.bin
+126 [07/sep/2001:08:07:08 -0300] "bet	sercom.com
+126 [07/sep/2001:08:07:09 -0300] "bet	sercom.scm
+126 [07/sep/2001:08:07:10 -0300] "bet	shell.bci
+126 [07/sep/2001:08:07:10 -0300] "bet	shell.bin
+126 [07/sep/2001:08:07:11 -0300] "bet	shell.com
+126 [07/sep/2001:08:07:12 -0300] "bet	shell.scm
+126 [07/sep/2001:08:07:13 -0300] "bet	simple.bci
+126 [07/sep/2001:08:07:14 -0300] "bet	simple.bin
+126 [07/sep/2001:08:07:16 -0300] "bet	simple.com
+126 [07/sep/2001:08:07:16 -0300] "bet	simple.scm
+126 [07/sep/2001:08:07:17 -0300] "bet	snr.bci
+126 [07/sep/2001:08:07:18 -0300] "bet	snr.bin
+126 [07/sep/2001:08:07:19 -0300] "bet	snr.com
+126 [07/sep/2001:08:07:19 -0300] "bet	snr.ext
+126 [07/sep/2001:08:07:19 -0300] "bet	snr.scm
+126 [07/sep/2001:08:07:20 -0300] "bet	sort.bci
+126 [07/sep/2001:08:07:21 -0300] "bet	sort.bin
+126 [07/sep/2001:08:07:21 -0300] "bet	sort.com
+126 [07/sep/2001:08:07:21 -0300] "bet	sort.scm
+126 [07/sep/2001:08:07:22 -0300] "bet	source-dependencies.am
+126 [07/sep/2001:08:07:26 -0300] "bet	sources.scm
+126 [07/sep/2001:08:07:26 -0300] "bet	sources.sh
+126 [07/sep/2001:08:07:26 -0300] "bet	stamp-scheme
+126 [07/sep/2001:08:07:27 -0300] "bet	string.bci
+126 [07/sep/2001:08:07:27 -0300] "bet	string.bin
+126 [07/sep/2001:08:07:28 -0300] "bet	string.com
+126 [07/sep/2001:08:07:29 -0300] "bet	string.ext
+126 [07/sep/2001:08:07:29 -0300] "bet	string.scm
+126 [07/sep/2001:08:07:33 -0300] "bet	strpad.bci
+126 [07/sep/2001:08:07:34 -0300] "bet	strpad.bin
+126 [07/sep/2001:08:07:37 -0300] "bet	strpad.com
+126 [07/sep/2001:08:07:37 -0300] "bet	strpad.scm
+126 [07/sep/2001:08:07:38 -0300] "bet	strtab.bci
+126 [07/sep/2001:08:09:39 -0300] "bet	strtab.bin
+126 [04/sep/2001:17:56:46 -0300] "bet	strtab.com
+126 [04/sep/2001:17:58:16 -0300] "bet	strtab.ext
+126 [06/sep/2001:21:50:56 -0300] "bet	strtab.scm
+126 [06/sep/2001:21:51:51 -0300] "bet	struct.bci
+126 [06/sep/2001:21:56:01 -0300] "bet	struct.bin
+126 [06/sep/2001:21:56:01 -0300] "bet	struct.com
+126 [06/sep/2001:21:56:02 -0300] "bet	struct.ext
+126 [06/sep/2001:21:56:05 -0300] "bet	struct.scm
+126 [06/sep/2001:21:56:21 -0300] "bet	syntax.bci
+126 [06/sep/2001:21:56:21 -0300] "bet	syntax.bin
+126 [06/sep/2001:21:56:23 -0300] "bet	syntax.com
+126 [06/sep/2001:21:56:34 -0300] "bet	syntax.ext
+126 [07/sep/2001:00:11:26 -0300] "bet	syntax.scm
+126 [07/sep/2001:00:17:12 -0300] "bet	tagutl.bci
+126 [07/sep/2001:00:23:07 -0300] "bet	tagutl.bin
+126 [07/sep/2001:00:32:42 -0300] "bet	tagutl.com
+126 [07/sep/2001:07:53:42 -0300] "bet	tagutl.scm
+126 [07/sep/2001:07:54:18 -0300] "bet	techinfo.bci
+126 [07/sep/2001:07:55:15 -0300] "bet	techinfo.bin
+126 [07/sep/2001:07:56:20 -0300] "bet	techinfo.com
+126 [07/sep/2001:08:01:03 -0300] "bet	techinfo.scm
+126 [07/sep/2001:08:03:44 -0300] "bet	telnet.bci
+126 [07/sep/2001:08:04:04 -0300] "bet	telnet.bin
+126 [07/sep/2001:08:09:15 -0300] "bet	telnet.com
+126 [07/sep/2001:08:09:29 -0300] "bet	telnet.scm
+126 [14/aug/2001:20:43:29 -0300] "bet	termcap.bci
+126 [14/aug/2001:20:46:10 -0300] "bet	termcap.bin
+126 [14/aug/2001:20:46:14 -0300] "bet	termcap.com
+126 [21/aug/2001:10:48:53 -0300] "bet	termcap.ext
+126 [21/aug/2001:10:48:53 -0300] "bet	termcap.scm
+126 [23/aug/2001:13:48:42 -0300] "bet	texcom.bci
+126 [23/aug/2001:13:48:42 -0300] "bet	texcom.bin
+126 [23/aug/2001:13:49:02 -0300] "bet	texcom.com
+126 [23/aug/2001:13:52:39 -0300] "bet	texcom.scm
+126 [23/aug/2001:13:52:39 -0300] "bet	things.bci
+126 [23/aug/2001:13:52:41 -0300] "bet	things.bin
+126 [23/aug/2001:13:52:44 -0300] "bet	things.com
+126 [23/aug/2001:13:52:57 -0300] "bet	things.scm
+126 [23/aug/2001:13:52:57 -0300] "bet	tparse.bci
+126 [23/aug/2001:13:53:03 -0300] "bet	tparse.bin
+126 [23/aug/2001:13:56:45 -0300] "bet	tparse.com
+126 [29/aug/2001:08:02:06 -0300] "bet	tparse.ext
+142 [08/sep/2001:14:14:03 -0300] "bet	tparse.scm
+142 [08/sep/2001:14:14:03 -0300] "bet	tterm.bci
+142 [08/sep/2001:14:19:11 -0300] "bet	tterm.bin
+142 [08/sep/2001:14:19:11 -0300] "bet	tterm.com
+142 [08/sep/2001:14:19:14 -0300] "bet	tterm.ext
+142 [08/sep/2001:14:19:27 -0300] "bet	tterm.scm
+142 [08/sep/2001:14:19:33 -0300] "bet	TUTORIAL
+157 [06/sep/2001:19:15:57 -0300] "bet	tximod.bci
+157 [06/sep/2001:19:16:10 -0300] "bet	tximod.bin
+157 [06/sep/2001:19:16:10 -0300] "bet	tximod.com
+157 [06/sep/2001:19:24:51 -0300] "bet	tximod.scm
+157 [06/sep/2001:19:25:26 -0300] "bet	txtprp.bci
+157 [06/sep/2001:19:25:37 -0300] "bet	txtprp.bin
+157 [06/sep/2001:19:38:35 -0300] "bet	txtprp.com
+157 [06/sep/2001:19:38:46 -0300] "bet	txtprp.ext
+157 [06/sep/2001:19:39:31 -0300] "bet	txtprp.scm
+157 [06/sep/2001:19:39:31 -0300] "bet	undo.bci
+157 [06/sep/2001:19:39:32 -0300] "bet	undo.bin
+157 [06/sep/2001:19:39:34 -0300] "bet	undo.com
+157 [06/sep/2001:19:40:16 -0300] "bet	undo.scm
+157 [06/sep/2001:19:40:19 -0300] "bet	unix.bci
+157 [06/sep/2001:19:40:57 -0300] "bet	unix.bin
+46 [07/sep/2001:21:11:57 -0300] "bet	unix.com
+46 [07/sep/2001:20:57:17 -0300] "bet	unix.scm
+46 [07/sep/2001:20:58:46 -0300] "bet	utils.bci
+46 [07/sep/2001:21:00:37 -0300] "bet	utils.bin
+46 [07/sep/2001:21:00:52 -0300] "bet	utils.com
+46 [07/sep/2001:21:03:15 -0300] "bet	utils.ext
+46 [07/sep/2001:21:03:15 -0300] "bet	utils.scm
+46 [07/sep/2001:21:03:33 -0300] "bet	utlwin.bci
+46 [07/sep/2001:21:03:33 -0300] "bet	utlwin.bin
+46 [07/sep/2001:21:11:25 -0300] "bet	utlwin.com
+46 [07/sep/2001:21:11:57 -0300] "bet	utlwin.scm
+46 [07/sep/2001:21:14:47 -0300] "bet	vc.bci
+46 [07/sep/2001:21:14:47 -0300] "bet	vc.bin
+46 [07/sep/2001:21:14:53 -0300] "bet	vc-bzr.bci
+46 [07/sep/2001:21:15:16 -0300] "bet	vc-bzr.bin
+46 [07/sep/2001:21:16:31 -0300] "bet	vc-bzr.com
+46 [07/sep/2001:21:16:35 -0300] "bet	vc-bzr.ext
+46 [07/sep/2001:21:16:35 -0300] "bet	vc-bzr.scm
+46 [07/sep/2001:21:18:21 -0300] "bet	vc.com
+71 [06/sep/2001:11:25:44 -0300] "bet	vc-cvs.bci
+71 [09/sep/2001:15:05:50 -0300] "bet	vc-cvs.bin
+71 [09/sep/2001:15:06:03 -0300] "bet	vc-cvs.com
+29 [09/sep/2001:21:14:27 -0300] "bet	vc-cvs.scm
+29 [09/sep/2001:21:21:11 -0300] "bet	vc-git.bci
+29 [09/sep/2001:21:21:31 -0300] "bet	vc-git.bin
+29 [09/sep/2001:21:21:31 -0300] "bet	vc-git.com
+29 [09/sep/2001:21:21:44 -0300] "bet	vc-git.scm
+128 [11/sep/2001:12:00:40 -0300] "bet	vc-rcs.bci
+128 [11/sep/2001:12:00:40 -0300] "bet	vc-rcs.bin
+204 [07/sep/2001:10:28:38 -0300] "bet	vc-rcs.com
+204 [07/sep/2001:10:28:38 -0300] "bet	vc-rcs.scm
+204 [07/sep/2001:10:29:24 -0300] "bet	vc.scm
+204 [07/sep/2001:10:30:54 -0300] "bet	vc-svn.bci
+204 [07/sep/2001:10:31:25 -0300] "bet	vc-svn.bin
+204 [07/sep/2001:10:34:42 -0300] "bet	vc-svn.com
+204 [07/sep/2001:10:41:21 -0300] "bet	vc-svn.ext
+204 [07/sep/2001:10:41:21 -0300] "bet	vc-svn.scm
+204 [07/sep/2001:10:41:23 -0300] "bet	verilog.bci
+204 [07/sep/2001:10:41:29 -0300] "bet	verilog.bin
+204 [07/sep/2001:10:41:31 -0300] "bet	verilog.com
+204 [07/sep/2001:10:41:34 -0300] "bet	verilog.scm
+204 [07/sep/2001:10:42:25 -0300] "bet	vhdl.bci
+44 [06/sep/2001:20:02:05 -0300] "bet	vhdl.bin
+44 [06/sep/2001:20:07:17 -0300] "bet	vhdl.com
+48 [07/sep/2001:15:16:45 -0300] "bet	vhdl.scm
+48 [07/sep/2001:15:16:45 -0300] "bet	webster.bci
+92 [10/sep/2001:21:58:36 -0300] "bet	webster.bin
+92 [10/sep/2001:21:59:25 -0300] "bet	webster.com
+92 [10/sep/2001:21:59:29 -0300] "bet	webster.scm
+92 [10/sep/2001:22:00:03 -0300] "bet	win32.bci
+92 [10/sep/2001:22:01:51 -0300] "bet	win32.bin
+135 [06/sep/2001:18:27:09 -0300] "bet	win32.com
+135 [06/sep/2001:18:27:13 -0300] "bet	win32com.bci
+21 [09/sep/2001:13:01:42 -0300] "bet	win32com.bin
+21 [09/sep/2001:13:01:45 -0300] "bet	win32com.com
+240 [07/sep/2001:16:16:35 -0300] "bet	win32com.scm
+240 [07/sep/2001:16:16:54 -0300] "bet	win32.ext
+240 [07/sep/2001:16:19:21 -0300] "bet	win32.scm
+240 [07/sep/2001:16:19:29 -0300] "bet	wincom.bci
+240 [07/sep/2001:16:41:02 -0300] "bet	wincom.bin
+240 [07/sep/2001:16:41:02 -0300] "bet	wincom.com
+240 [07/sep/2001:16:41:05 -0300] "bet	wincom.scm
+240 [07/sep/2001:17:10:31 -0300] "bet	window.bci
+240 [07/sep/2001:17:10:31 -0300] "bet	window.bin
+240 [07/sep/2001:17:10:49 -0300] "bet	window.com
+240 [07/sep/2001:17:10:49 -0300] "bet	window.ext
+240 [07/sep/2001:17:10:51 -0300] "bet	window.scm
+240 [07/sep/2001:19:25:35 -0300] "bet	winout.bci
+240 [07/sep/2001:19:25:35 -0300] "bet	winout.bin
+240 [07/sep/2001:19:34:22 -0300] "bet	winout.com
+240 [07/sep/2001:19:34:22 -0300] "bet	winout.scm
+240 [07/sep/2001:19:52:50 -0300] "bet	world-monitor.bci
+240 [07/sep/2001:19:52:50 -0300] "bet	world-monitor.bin
+240 [07/sep/2001:21:26:09 -0300] "bet	world-monitor.com
+240 [07/sep/2001:21:26:09 -0300] "bet	world-monitor.scm
+240 [07/sep/2001:21:27:13 -0300] "bet	xform.bci
+240 [07/sep/2001:21:27:13 -0300] "bet	xform.bin
+240 [07/sep/2001:21:27:17 -0300] "bet	xform.com
+240 [07/sep/2001:21:27:30 -0300] "bet	xform.scm
+240 [07/sep/2001:21:27:34 -0300] "bet	xterm.bci
+240 [07/sep/2001:21:27:34 -0300] "bet	xterm.bin
+240 [07/sep/2001:21:49:37 -0300] "bet	xterm.com
+240 [08/sep/2001:00:36:35 -0300] "bet	xterm.scm
+240 [08/sep/2001:00:36:35 -0300] "bet	
+240 [08/sep/2001:00:47:08 -0300] "bet	/home/joshua/Desktop/mit-scheme-11.2/src/edwin/autom4te.cache:
+240 [08/sep/2001:00:47:11 -0300] "bet	output.0
+240 [08/sep/2001:13:38:02 -0300] "bet	output.1
+240 [08/sep/2001:13:38:02 -0300] "bet	requests
+240 [08/sep/2001:14:06:18 -0300] "bet	traces.0
+240 [08/sep/2001:14:06:18 -0300] "bet	traces.1
+240 [08/sep/2001:14:06:43 -0300] "bet	
+240 [08/sep/2001:14:06:43 -0300] "bet	/home/joshua/Desktop/mit-scheme-11.2/src/etc:
+112 [09/sep/2001:11:26:37 -0300] "bet	build-bands.sh
+112 [09/sep/2001:11:31:26 -0300] "bet	build-boot-compiler.sh
+112 [09/sep/2001:11:31:26 -0300] "bet	c-bundle.sh
+17 [10/sep/2001:18:29:23 -0300] "bet	c-compile.sh
+17 [10/sep/2001:18:30:17 -0300] "bet	check-gc-tables.scm
+17 [10/sep/2001:18:30:56 -0300] "bet	Clean.sh
+121 [10/sep/2001:17:51:24 -0300] "bet	compile-boot-compiler.sh
+121 [10/sep/2001:17:51:27 -0300] "bet	compile.scm
+121 [10/sep/2001:17:51:41 -0300] "bet	compile.sh
+121 [10/sep/2001:17:51:41 -0300] "bet	c-prepare.sh
+121 [10/sep/2001:17:51:55 -0300] "bet	create-makefiles.sh
+121 [10/sep/2001:17:51:57 -0300] "bet	crossbin.scm
+121 [10/sep/2001:17:52:13 -0300] "bet	find-folded.scm
+121 [10/sep/2001:17:52:16 -0300] "bet	functions.sh
+121 [10/sep/2001:17:52:17 -0300] "bet	install-bin-symlinks.sh
+121 [10/sep/2001:17:52:40 -0300] "bet	iso8859-converter.scm
+121 [10/sep/2001:17:52:43 -0300] "bet	iso8859-mapping
+121 [10/sep/2001:17:52:46 -0300] "bet	macosx
+121 [10/sep/2001:17:53:06 -0300] "bet	make-liarc-dist.sh
+121 [10/sep/2001:17:53:11 -0300] "bet	make-liarc.sh
+121 [10/sep/2001:17:53:23 -0300] "bet	make-native.sh
+121 [10/sep/2001:17:53:25 -0300] "bet	maybe-update-file.sh
+121 [10/sep/2001:17:53:30 -0300] "bet	mime.types
+121 [10/sep/2001:17:53:31 -0300] "bet	native-prepare.sh
+205 [10/sep/2001:16:01:44 -0300] "bet	optiondb.scm
+205 [10/sep/2001:16:01:44 -0300] "bet	plugins.scm
+205 [10/sep/2001:16:01:46 -0300] "bet	Setup.sh
+205 [10/sep/2001:16:04:39 -0300] "bet	Stage.sh
+201 [10/sep/2001:15:24:08 -0300] "bet	std-makefile-prefix
+201 [10/sep/2001:15:24:32 -0300] "bet	std-makefile-suffix
+201 [10/sep/2001:15:26:17 -0300] "bet	Tags.sh
+201 [10/sep/2001:15:28:28 -0300] "bet	test-ucd-converter.scm
+201 [10/sep/2001:15:29:09 -0300] "bet	TUTORIAL
+201 [10/sep/2001:15:29:09 -0300] "bet	ucd-converter.scm
+201 [10/sep/2001:15:29:11 -0300] "bet	ucd-raw-props
+201 [10/sep/2001:15:29:18 -0300] "bet	ucd-segment-states
+201 [10/sep/2001:15:30:56 -0300] "bet	usermap
+201 [10/sep/2001:15:30:57 -0300] "bet	utilities.scm
+201 [10/sep/2001:15:31:04 -0300] "bet	windows
+201 [10/sep/2001:15:31:11 -0300] "bet	
+201 [10/sep/2001:15:31:55 -0300] "bet	/home/joshua/Desktop/mit-scheme-11.2/src/etc/iso8859-mapping:
+201 [10/sep/2001:15:32:01 -0300] "bet	8859-10.txt
+201 [10/sep/2001:15:32:12 -0300] "bet	8859-11.txt
+201 [10/sep/2001:15:33:10 -0300] "bet	8859-13.txt
+201 [10/sep/2001:15:33:10 -0300] "bet	8859-14.txt
+201 [10/sep/2001:15:33:15 -0300] "bet	8859-15.txt
+201 [10/sep/2001:15:33:32 -0300] "bet	8859-16.txt
+201 [10/sep/2001:15:33:33 -0300] "bet	8859-1.txt
+201 [10/sep/2001:15:33:51 -0300] "bet	8859-2.txt
+201 [10/sep/2001:15:33:52 -0300] "bet	8859-3.txt
+201 [10/sep/2001:15:34:07 -0300] "bet	8859-4.txt
+45 [10/sep/2001:16:16:30 -0300] "bet	8859-5.txt
+45 [10/sep/2001:16:16:33 -0300] "bet	8859-6.txt
+45 [10/sep/2001:16:16:38 -0300] "bet	8859-7.txt
+45 [10/sep/2001:16:16:42 -0300] "bet	8859-8.txt
+45 [10/sep/2001:16:16:50 -0300] "bet	8859-9.txt
+45 [10/sep/2001:16:16:55 -0300] "bet	README.txt
+45 [10/sep/2001:16:16:56 -0300] "bet	
+45 [10/sep/2001:16:16:59 -0300] "bet	/home/joshua/Desktop/mit-scheme-11.2/src/etc/macosx:
+45 [10/sep/2001:16:18:05 -0300] "bet	edwin.icns
+45 [10/sep/2001:16:18:06 -0300] "bet	make-app.sh
+45 [10/sep/2001:16:18:10 -0300] "bet	mit-scheme.sh
+45 [10/sep/2001:16:19:48 -0300] "bet	schlogo.icns
+45 [10/sep/2001:16:21:11 -0300] "bet	
+45 [10/sep/2001:16:21:12 -0300] "bet	/home/joshua/Desktop/mit-scheme-11.2/src/etc/ucd-raw-props:
+45 [10/sep/2001:16:22:44 -0300] "bet	names.scm
+45 [10/sep/2001:16:22:44 -0300] "bet	prop-age.scm
+45 [10/sep/2001:16:22:58 -0300] "bet	prop-AHex.scm
+45 [10/sep/2001:16:23:14 -0300] "bet	prop-Alpha.scm
+45 [10/sep/2001:16:23:38 -0300] "bet	prop-bc.scm
+45 [10/sep/2001:16:23:38 -0300] "bet	prop-Bidi_C.scm
+45 [10/sep/2001:16:23:41 -0300] "bet	prop-Bidi_M.scm
+45 [10/sep/2001:16:23:43 -0300] "bet	prop-blk.scm
+121 [06/sep/2001:16:08:17 -0300] "bet	prop-bmg.scm
+121 [06/sep/2001:16:08:17 -0300] "bet	prop-bpb.scm
+121 [06/sep/2001:16:10:09 -0300] "bet	prop-bpt.scm
+121 [06/sep/2001:17:15:21 -0300] "bet	prop-canonical-cm.scm
+121 [06/sep/2001:17:15:22 -0300] "bet	prop-canonical-dm.scm
+121 [06/sep/2001:17:15:28 -0300] "bet	prop-Cased.scm
+48 [06/sep/2001:17:52:03 -0300] "bet	prop-ccc.scm
+48 [06/sep/2001:17:52:03 -0300] "bet	prop-CE.scm
+48 [06/sep/2001:17:52:09 -0300] "bet	prop-cf.scm
+48 [06/sep/2001:17:53:40 -0300] "bet	prop-CI.scm
+48 [06/sep/2001:17:53:57 -0300] "bet	prop-Comp_Ex.scm
+48 [06/sep/2001:17:55:05 -0300] "bet	prop-CWCF.scm
+48 [06/sep/2001:17:55:05 -0300] "bet	prop-CWCM.scm
+48 [06/sep/2001:17:55:10 -0300] "bet	prop-CWKCF.scm
+48 [06/sep/2001:17:55:10 -0300] "bet	prop-CWL.scm
+48 [06/sep/2001:17:56:05 -0300] "bet	prop-CWT.scm
+48 [06/sep/2001:17:56:05 -0300] "bet	prop-CWU.scm
+48 [06/sep/2001:17:56:06 -0300] "bet	prop-Dash.scm
+48 [06/sep/2001:17:56:09 -0300] "bet	prop-Dep.scm
+48 [06/sep/2001:17:56:10 -0300] "bet	prop-Dia.scm
+48 [06/sep/2001:17:56:11 -0300] "bet	prop-DI.scm
+48 [06/sep/2001:17:56:18 -0300] "bet	prop-dm.scm
+48 [06/sep/2001:17:56:18 -0300] "bet	prop-dt.scm
+48 [06/sep/2001:17:56:22 -0300] "bet	prop-ea.scm
+48 [06/sep/2001:17:56:25 -0300] "bet	prop-Ext.scm
+103 [09/aug/2001:08:35:38 -0300] "bet	prop-FC_NFKC.scm
+36 [06/sep/2001:11:55:02 -0300] "bet	prop-GCB.scm
+36 [06/sep/2001:11:55:45 -0300] "bet	prop-gc.scm
+36 [06/sep/2001:11:55:57 -0300] "bet	prop-Gr_Base.scm
+36 [06/sep/2001:11:56:23 -0300] "bet	prop-Gr_Ext.scm
+36 [06/sep/2001:11:56:33 -0300] "bet	prop-Gr_Link.scm
+41 [13/aug/2001:15:50:13 -0300] "bet	prop-Hex.scm
+244 [09/sep/2001:20:42:38 -0300] "bet	prop-hst.scm
+244 [09/sep/2001:20:47:50 -0300] "bet	prop-Hyphen.scm
+244 [09/sep/2001:20:47:50 -0300] "bet	prop-IDC.scm
+244 [09/sep/2001:20:47:57 -0300] "bet	prop-Ideo.scm
+22 [10/sep/2001:21:04:19 -0300] "bet	prop-IDSB.scm
+22 [10/sep/2001:21:05:06 -0300] "bet	prop-IDS.scm
+22 [10/sep/2001:21:05:07 -0300] "bet	prop-IDST.scm
+22 [10/sep/2001:21:05:11 -0300] "bet	prop-InMC.scm
+22 [10/sep/2001:21:05:13 -0300] "bet	prop-InPC.scm
+22 [10/sep/2001:21:06:29 -0300] "bet	prop-InSC.scm
+22 [10/sep/2001:21:06:29 -0300] "bet	prop-isc.scm
+22 [10/sep/2001:21:06:39 -0300] "bet	prop-jg.scm
+22 [10/sep/2001:21:06:39 -0300] "bet	prop-Join_C.scm
+22 [10/sep/2001:21:06:42 -0300] "bet	prop-JSN.scm
+22 [10/sep/2001:21:06:57 -0300] "bet	prop-jt.scm
+22 [10/sep/2001:21:07:40 -0300] "bet	prop-lb.scm
+22 [10/sep/2001:21:07:51 -0300] "bet	prop-lc.scm
+71 [06/sep/2001:18:25:39 -0300] "bet	prop-LOE.scm
+71 [06/sep/2001:18:25:46 -0300] "bet	prop-Lower.scm
+71 [06/sep/2001:18:26:40 -0300] "bet	prop-Math.scm
+71 [08/sep/2001:15:09:13 -0300] "bet	prop-na1.scm
+71 [08/sep/2001:15:09:26 -0300] "bet	prop-na.scm
+71 [08/sep/2001:15:09:38 -0300] "bet	prop-NChar.scm
+71 [08/sep/2001:15:09:45 -0300] "bet	prop-NFC_QC.scm
+71 [08/sep/2001:15:09:58 -0300] "bet	prop-NFD_QC.scm
+71 [09/sep/2001:12:13:46 -0300] "bet	prop-NFKC_CF.scm
+71 [09/sep/2001:21:26:20 -0300] "bet	prop-NFKC_QC.scm
+71 [06/sep/2001:18:10:06 -0300] "bet	prop-NFKD_QC.scm
+71 [06/sep/2001:18:11:14 -0300] "bet	prop-nt.scm
+71 [06/sep/2001:18:13:38 -0300] "bet	prop-nv.scm
+71 [06/sep/2001:18:25:33 -0300] "bet	prop-OAlpha.scm
+71 [06/sep/2001:18:37:19 -0300] "bet	prop-ODI.scm
+71 [06/sep/2001:18:37:39 -0300] "bet	prop-OGr_Ext.scm
+71 [06/sep/2001:19:48:35 -0300] "bet	prop-OIDC.scm
+71 [06/sep/2001:19:52:07 -0300] "bet	prop-OIDS.scm
+71 [06/sep/2001:19:52:07 -0300] "bet	prop-OLower.scm
+71 [06/sep/2001:19:52:09 -0300] "bet	prop-OMath.scm
+71 [06/sep/2001:19:52:14 -0300] "bet	prop-OUpper.scm
+71 [06/sep/2001:19:55:00 -0300] "bet	prop-Pat_Syn.scm
+71 [06/sep/2001:19:55:00 -0300] "bet	prop-Pat_WS.scm
+71 [06/sep/2001:19:55:02 -0300] "bet	prop-PCM.scm
+71 [06/sep/2001:19:55:14 -0300] "bet	prop-QMark.scm
+71 [06/sep/2001:19:55:28 -0300] "bet	prop-Radical.scm
+71 [06/sep/2001:19:55:30 -0300] "bet	prop-SB.scm
+71 [06/sep/2001:19:55:32 -0300] "bet	prop-scf.scm
+71 [06/sep/2001:19:55:35 -0300] "bet	prop-sc.scm
+71 [06/sep/2001:19:58:58 -0300] "bet	prop-scx.scm
+71 [06/sep/2001:19:59:07 -0300] "bet	prop-SD.scm
+71 [06/sep/2001:19:59:10 -0300] "bet	prop-slc.scm
+71 [06/sep/2001:19:59:17 -0300] "bet	prop-stc.scm
+71 [06/sep/2001:20:03:48 -0300] "bet	prop-STerm.scm
+71 [06/sep/2001:20:03:50 -0300] "bet	prop-suc.scm
+71 [06/sep/2001:20:03:51 -0300] "bet	prop-tc.scm
+71 [06/sep/2001:20:04:14 -0300] "bet	prop-Term.scm
+71 [06/sep/2001:20:04:29 -0300] "bet	prop-uc.scm
+71 [08/sep/2001:14:58:50 -0300] "bet	prop-UIdeo.scm
+71 [08/sep/2001:14:58:53 -0300] "bet	prop-Upper.scm
+71 [08/sep/2001:15:09:03 -0300] "bet	prop-VS.scm
+71 [08/sep/2001:15:14:31 -0300] "bet	prop-WB.scm
+71 [09/sep/2001:21:26:12 -0300] "bet	prop-WSpace.scm
+71 [09/sep/2001:21:26:12 -0300] "bet	prop-XIDC.scm
+71 [09/sep/2001:21:26:19 -0300] "bet	prop-XIDS.scm
+71 [09/sep/2001:21:26:34 -0300] "bet	prop-XO_NFC.scm
+71 [09/sep/2001:21:26:34 -0300] "bet	prop-XO_NFD.scm
+71 [09/sep/2001:21:26:36 -0300] "bet	prop-XO_NFKC.scm
+71 [09/sep/2001:21:26:39 -0300] "bet	prop-XO_NFKD.scm
+71 [09/sep/2001:21:27:19 -0300] "bet	ucd.all.grouped.xml
+71 [09/sep/2001:21:28:00 -0300] "bet	version.scm
+71 [09/sep/2001:21:28:04 -0300] "bet	
+71 [09/sep/2001:21:28:06 -0300] "bet	/home/joshua/Desktop/mit-scheme-11.2/src/etc/windows:
+71 [09/sep/2001:21:28:31 -0300] "bet	build-6001.bat
+214 [06/sep/2001:16:17:50 -0300] "bet	build-6001.scm
+214 [06/sep/2001:16:17:53 -0300] "bet	build-all.bat
+214 [06/sep/2001:16:18:15 -0300] "bet	build-all.scm
+214 [06/sep/2001:16:21:45 -0300] "bet	build-band.bat
+214 [06/sep/2001:16:21:57 -0300] "bet	build-band.scm
+214 [06/sep/2001:16:21:58 -0300] "bet	build-compiler.bat
+214 [06/sep/2001:16:22:01 -0300] "bet	build-compiler.scm
+214 [06/sep/2001:16:22:01 -0300] "bet	build-edwin.bat
+60 [04/sep/2001:21:47:53 -0300] "bet	build-edwin.scm
+8 [03/sep/2001:17:34:17 -0300] "bet	build-runtime.scm
+120 [07/aug/2001:18:28:33 -0300] "bet	compile-all.scm
+58 [06/sep/2001:14:54:54 -0300] "bet	compile-prepare.bat
+58 [06/sep/2001:14:58:02 -0300] "bet	install.bat
+58 [06/sep/2001:14:58:08 -0300] "bet	make-lib.bat
+78 [06/sep/2001:21:23:15 -0300] "bet	readme.txt
+37 [06/sep/2001:22:09:14 -0300] "bet	
+55 [06/sep/2001:18:45:22 -0300] "bet	/home/joshua/Desktop/mit-scheme-11.2/src/ffi:
+42 [07/sep/2001:17:20:26 -0300] "bet	build.bci
+109 [10/sep/2001:00:42:58 -0300] "bet	build.bin
+109 [10/sep/2001:00:42:59 -0300] "bet	build.com
+109 [10/sep/2001:00:43:15 -0300] "bet	build.scm
+109 [10/sep/2001:00:43:16 -0300] "bet	cdecls.bci
+109 [10/sep/2001:00:43:19 -0300] "bet	cdecls.bin
+109 [10/sep/2001:00:43:23 -0300] "bet	cdecls.com
+109 [10/sep/2001:00:43:26 -0300] "bet	cdecls.ext
+109 [10/sep/2001:00:43:30 -0300] "bet	cdecls.scm
+109 [10/sep/2001:00:43:32 -0300] "bet	Clean.sh
+109 [10/sep/2001:00:43:37 -0300] "bet	compile.scm
+109 [10/sep/2001:00:43:42 -0300] "bet	ctypes.bci
+102 [02/sep/2001:08:43:21 -0300] "bet	ctypes.bin
+102 [02/sep/2001:08:43:22 -0300] "bet	ctypes.com
+102 [02/sep/2001:08:45:26 -0300] "bet	ctypes.scm
+102 [02/sep/2001:08:45:26 -0300] "bet	ed-ffi.scm
+102 [02/sep/2001:08:56:35 -0300] "bet	ffi.pkg
+102 [02/sep/2001:09:11:13 -0300] "bet	ffi-unx.crf
+240 [27/aug/2001:00:10:05 -0300] "bet	ffi-unx.fre
+240 [27/aug/2001:00:10:06 -0300] "bet	ffi-unx.pkd
+27 [31/aug/2001:21:23:40 -0300] "bet	generator.bci
+27 [31/aug/2001:21:23:41 -0300] "bet	generator.bin
+167 [06/sep/2001:22:56:56 -0300] "bet	generator.com
+167 [06/sep/2001:22:56:57 -0300] "bet	generator.scm
+167 [06/sep/2001:22:57:09 -0300] "bet	Makefile
+167 [06/sep/2001:22:57:10 -0300] "bet	Makefile-fragment
+18 [05/sep/2001:23:54:34 -0300] "bet	Makefile.in
+18 [05/sep/2001:23:54:34 -0300] "bet	make.scm
+18 [05/sep/2001:23:56:09 -0300] "bet	Setup.sh
+18 [06/sep/2001:00:11:18 -0300] "bet	Stage.sh
+18 [06/sep/2001:00:11:19 -0300] "bet	syntax.bci
+18 [06/sep/2001:00:11:23 -0300] "bet	syntax.bin
+12 [21/aug/2001:22:50:37 -0300] "bet	syntax.com
+12 [21/aug/2001:22:50:38 -0300] "bet	syntax.scm
+12 [21/aug/2001:22:52:08 -0300] "bet	Tags.sh
+12 [21/aug/2001:22:52:47 -0300] "bet	
+12 [21/aug/2001:22:53:01 -0300] "bet	/home/joshua/Desktop/mit-scheme-11.2/src/gdbm:
+12 [21/aug/2001:22:53:01 -0300] "bet	aclocal.m4
+12 [21/aug/2001:22:53:35 -0300] "bet	AUTHORS
+12 [21/aug/2001:22:54:05 -0300] "bet	autogen.sh
+12 [21/aug/2001:22:54:36 -0300] "bet	autom4te.cache
+12 [21/aug/2001:22:55:14 -0300] "bet	ChangeLog
+12 [21/aug/2001:22:55:29 -0300] "bet	compile
+12 [21/aug/2001:22:56:23 -0300] "bet	compile.scm
+12 [21/aug/2001:22:56:24 -0300] "bet	compile.sh
+12 [21/aug/2001:22:57:23 -0300] "bet	config.guess
+12 [21/aug/2001:22:58:23 -0300] "bet	config.sub
+12 [21/aug/2001:22:58:23 -0300] "bet	configure
+147 [28/aug/2001:23:23:39 -0300] "bet	configure.ac
+147 [28/aug/2001:23:23:39 -0300] "bet	COPYING
+147 [28/aug/2001:23:24:25 -0300] "bet	depcomp
+147 [28/aug/2001:23:24:56 -0300] "bet	gdbm-adapter.c
+147 [28/aug/2001:23:24:57 -0300] "bet	gdbm.cdecl
+147 [28/aug/2001:23:25:00 -0300] "bet	gdbm-check.scm
+147 [28/aug/2001:23:25:07 -0300] "bet	gdbm-check.sh
+147 [28/aug/2001:23:25:14 -0300] "bet	gdbm.pkg
+147 [28/aug/2001:23:25:17 -0300] "bet	gdbm.scm
+48 [22/aug/2001:00:39:03 -0300] "bet	gdbm-shim.h
+48 [22/aug/2001:00:39:03 -0300] "bet	INSTALL
+48 [22/aug/2001:00:40:04 -0300] "bet	install-sh
+48 [22/aug/2001:00:40:18 -0300] "bet	ltmain.sh
+48 [22/aug/2001:00:42:30 -0300] "bet	m4
+48 [22/aug/2001:00:43:59 -0300] "bet	Makefile.am
+48 [22/aug/2001:00:43:59 -0300] "bet	Makefile.in
+48 [22/aug/2001:00:44:06 -0300] "bet	make.scm
+48 [22/aug/2001:00:44:10 -0300] "bet	mdate-sh
+48 [22/aug/2001:00:44:15 -0300] "bet	missing
+48 [22/aug/2001:00:44:19 -0300] "bet	mit-scheme-gdbm.texi
+48 [22/aug/2001:00:44:21 -0300] "bet	NEWS
+48 [22/aug/2001:00:44:42 -0300] "bet	optiondb.scm
+48 [22/aug/2001:00:44:45 -0300] "bet	README
+48 [22/aug/2001:00:45:08 -0300] "bet	tags-fix.sh
+48 [22/aug/2001:00:45:57 -0300] "bet	test-driver
+48 [22/aug/2001:00:46:35 -0300] "bet	texinfo.tex
+48 [22/aug/2001:00:46:36 -0300] "bet	
+233 [01/sep/2001:21:47:27 -0300] "bet	/home/joshua/Desktop/mit-scheme-11.2/src/gdbm/autom4te.cache:
+233 [01/sep/2001:21:47:28 -0300] "bet	output.0
+233 [01/sep/2001:21:48:16 -0300] "bet	output.1
+233 [01/sep/2001:21:48:16 -0300] "bet	output.2
+233 [01/sep/2001:21:48:22 -0300] "bet	output.3
+233 [01/sep/2001:21:49:17 -0300] "bet	requests
+233 [01/sep/2001:21:51:22 -0300] "bet	traces.0
+233 [01/sep/2001:21:51:22 -0300] "bet	traces.1
+233 [01/sep/2001:21:51:30 -0300] "bet	traces.2
+140 [06/sep/2001:17:41:28 -0300] "bet	traces.3
+140 [06/sep/2001:17:41:31 -0300] "bet	
+140 [06/sep/2001:17:42:02 -0300] "bet	/home/joshua/Desktop/mit-scheme-11.2/src/gdbm/m4:
+140 [06/sep/2001:17:42:33 -0300] "bet	libtool.m4
+140 [06/sep/2001:17:52:23 -0300] "bet	lt~obsolete.m4
+196 [06/sep/2001:13:09:39 -0300] "bet	ltoptions.m4
+196 [06/sep/2001:13:09:56 -0300] "bet	ltsugar.m4
+196 [06/sep/2001:13:12:52 -0300] "bet	ltversion.m4
+196 [06/sep/2001:13:15:28 -0300] "bet	
+196 [06/sep/2001:13:18:46 -0300] "bet	/home/joshua/Desktop/mit-scheme-11.2/src/imail:
+196 [06/sep/2001:13:19:03 -0300] "bet	aclocal.m4
+196 [06/sep/2001:13:19:03 -0300] "bet	AUTHORS
+196 [06/sep/2001:13:20:40 -0300] "bet	autogen.sh
+196 [06/sep/2001:13:20:47 -0300] "bet	autom4te.cache
+234 [28/aug/2001:10:17:57 -0300] "bet	ChangeLog
+234 [28/aug/2001:10:17:58 -0300] "bet	compile.scm
+234 [28/aug/2001:10:44:41 -0300] "bet	compile.sh
+234 [28/aug/2001:10:46:12 -0300] "bet	config.log
+234 [28/aug/2001:10:46:17 -0300] "bet	config.status
+234 [28/aug/2001:11:16:40 -0300] "bet	configure
+94 [21/aug/2001:18:56:08 -0300] "bet	configure.ac
+94 [21/aug/2001:18:56:19 -0300] "bet	COPYING
+94 [21/aug/2001:18:58:12 -0300] "bet	ed-ffi.scm
+94 [21/aug/2001:18:59:02 -0300] "bet	fake-env.scm
+94 [21/aug/2001:18:59:35 -0300] "bet	imail-browser.bci
+174 [05/aug/2001:21:06:27 -0300] "bet	imail-browser.bin
+174 [05/aug/2001:21:06:28 -0300] "bet	imail-browser.com
+174 [05/aug/2001:21:06:37 -0300] "bet	imail-browser.scm
+174 [05/aug/2001:21:06:37 -0300] "bet	imail-core.bci
+174 [05/aug/2001:21:06:49 -0300] "bet	imail-core.bin
+5 [07/sep/2001:10:54:12 -0300] "bet	imail-core.com
+5 [07/sep/2001:10:55:07 -0300] "bet	imail-core.ext
+5 [07/sep/2001:10:55:20 -0300] "bet	imail-core.scm
+5 [07/sep/2001:10:55:39 -0300] "bet	imail-file.bci
+5 [07/sep/2001:10:55:54 -0300] "bet	imail-file.bin
+5 [07/sep/2001:10:55:54 -0300] "bet	imail-file.com
+5 [07/sep/2001:10:56:03 -0300] "bet	imail-file.scm
+5 [07/sep/2001:10:56:03 -0300] "bet	imail-imap.bci
+98 [27/aug/2001:05:48:35 -0300] "bet	imail-imap.bin
+98 [27/aug/2001:05:48:55 -0300] "bet	imail-imap.com
+98 [27/aug/2001:05:48:55 -0300] "bet	imail-imap.scm
+98 [27/aug/2001:05:49:00 -0300] "bet	imail-mime.bci
+98 [27/aug/2001:05:49:09 -0300] "bet	imail-mime.bin
+98 [27/aug/2001:05:49:16 -0300] "bet	imail-mime.com
+98 [27/aug/2001:05:49:16 -0300] "bet	imail-mime.ext
+98 [27/aug/2001:05:50:46 -0300] "bet	imail-mime.scm
+98 [27/aug/2001:05:50:48 -0300] "bet	imail.pkg
+98 [27/aug/2001:05:50:54 -0300] "bet	imail-rmail.bci
+66 [07/aug/2001:15:04:49 -0300] "bet	imail-rmail.bin
+122 [08/sep/2001:04:21:04 -0300] "bet	imail-rmail.com
+122 [08/sep/2001:04:21:05 -0300] "bet	imail-rmail.scm
+122 [08/sep/2001:04:21:35 -0300] "bet	imail-summary.bci
+122 [08/sep/2001:04:21:35 -0300] "bet	imail-summary.bin
+122 [10/sep/2001:00:48:30 -0300] "bet	imail-summary.com
+122 [10/sep/2001:01:00:32 -0300] "bet	imail-summary.scm
+122 [10/sep/2001:01:23:29 -0300] "bet	imail-top.bci
+122 [10/sep/2001:03:34:26 -0300] "bet	imail-top.bin
+122 [10/sep/2001:07:42:01 -0300] "bet	imail-top.com
+122 [10/sep/2001:07:47:59 -0300] "bet	imail-top.ext
+122 [10/sep/2001:07:48:21 -0300] "bet	imail-top.scm
+122 [10/sep/2001:07:48:25 -0300] "bet	imail-umail.bci
+122 [10/sep/2001:07:48:35 -0300] "bet	imail-umail.bin
+122 [10/sep/2001:07:48:45 -0300] "bet	imail-umail.com
+122 [10/sep/2001:07:49:06 -0300] "bet	imail-umail.scm
+122 [10/sep/2001:07:49:16 -0300] "bet	imail-unx.crf
+122 [10/sep/2001:07:49:58 -0300] "bet	imail-unx.fre
+122 [10/sep/2001:08:07:59 -0300] "bet	imail-unx.pkd
+122 [10/sep/2001:09:16:03 -0300] "bet	imail-util.bci
+60 [10/sep/2001:00:41:01 -0300] "bet	imail-util.bin
+60 [10/sep/2001:00:42:27 -0300] "bet	imail-util.com
+60 [10/sep/2001:02:07:34 -0300] "bet	imail-util.scm
+60 [10/sep/2001:06:26:16 -0300] "bet	imap-response.bci
+60 [10/sep/2001:07:28:09 -0300] "bet	imap-response.bin
+60 [10/sep/2001:07:29:14 -0300] "bet	imap-response.com
+60 [10/sep/2001:07:56:01 -0300] "bet	imap-response.scm
+60 [10/sep/2001:08:30:15 -0300] "bet	imap-response.txt
+60 [10/sep/2001:10:30:43 -0300] "bet	imap-syntax.bci
+60 [10/sep/2001:10:52:30 -0300] "bet	imap-syntax.bin
+60 [11/sep/2001:06:01:57 -0300] "bet	imap-syntax.com
+60 [14/aug/2001:08:33:57 -0300] "bet	imap-syntax.scm
+60 [15/aug/2001:22:58:31 -0300] "bet	INSTALL
+60 [15/aug/2001:22:58:38 -0300] "bet	install-sh
+44 [20/aug/2001:09:17:00 -0300] "bet	Makefile
+44 [20/aug/2001:09:17:00 -0300] "bet	Makefile.am
+39 [24/aug/2001:21:43:17 -0300] "bet	Makefile.in
+39 [24/aug/2001:21:43:19 -0300] "bet	make.scm
+51 [24/aug/2001:23:13:43 -0300] "bet	missing
+51 [24/aug/2001:23:13:47 -0300] "bet	mit-scheme-imail.info
+65 [21/aug/2001:08:43:17 -0300] "bet	mit-scheme-imail.texi
+65 [21/aug/2001:08:43:19 -0300] "bet	NEWS
+57 [26/aug/2001:22:45:50 -0300] "bet	print.sh
+57 [26/aug/2001:22:45:58 -0300] "bet	README
+130 [06/sep/2001:23:21:35 -0300] "bet	stamp-scheme
+130 [06/sep/2001:23:21:36 -0300] "bet	texinfo.tex
+130 [06/sep/2001:23:22:44 -0300] "bet	todo.txt
+130 [06/sep/2001:23:22:45 -0300] "bet	
+130 [06/sep/2001:23:22:50 -0300] "bet	/home/joshua/Desktop/mit-scheme-11.2/src/imail/autom4te.cache:
+98 [10/sep/2001:00:50:16 -0300] "bet	output.0
+98 [10/sep/2001:00:54:05 -0300] "bet	output.1
+98 [10/sep/2001:00:55:03 -0300] "bet	requests
+98 [10/sep/2001:00:55:04 -0300] "bet	traces.0
+98 [10/sep/2001:00:55:08 -0300] "bet	traces.1
+98 [10/sep/2001:00:55:14 -0300] "bet	
+104 [10/sep/2001:21:59:16 -0300] "bet	/home/joshua/Desktop/mit-scheme-11.2/src/lib:
+121 [06/sep/2001:17:12:07 -0300] "bet	all.com
+121 [06/sep/2001:17:12:08 -0300] "bet	compiler
+121 [06/sep/2001:17:12:28 -0300] "bet	cref
+121 [06/sep/2001:17:12:28 -0300] "bet	edwin
+121 [06/sep/2001:17:29:16 -0300] "bet	ffi
+152 [10/sep/2001:19:44:17 -0300] "bet	imail
+152 [10/sep/2001:19:44:18 -0300] "bet	include
+152 [10/sep/2001:19:44:48 -0300] "bet	libraries
+156 [10/sep/2001:21:11:32 -0300] "bet	mit-scheme.h
+156 [10/sep/2001:21:11:34 -0300] "bet	optiondb.scm
+49 [06/sep/2001:17:36:30 -0300] "bet	runtime
+49 [06/sep/2001:17:36:34 -0300] "bet	runtime.com
+49 [06/sep/2001:17:36:41 -0300] "bet	sf
+49 [06/sep/2001:17:36:55 -0300] "bet	sos
+98 [07/sep/2001:19:14:14 -0300] "bet	ssp
+98 [07/sep/2001:19:14:30 -0300] "bet	star-parser
+98 [07/sep/2001:19:14:30 -0300] "bet	x11
+98 [07/sep/2001:19:15:03 -0300] "bet	x11-screen
+98 [07/sep/2001:19:20:11 -0300] "bet	xml
+14 [03/sep/2001:02:41:07 -0300] "bet	
+14 [03/sep/2001:02:41:08 -0300] "bet	/home/joshua/Desktop/mit-scheme-11.2/src/libraries:
+178 [25/aug/2001:17:52:51 -0300] "bet	Clean.sh
+178 [25/aug/2001:17:52:51 -0300] "bet	compile.scm
+178 [25/aug/2001:17:52:58 -0300] "bet	inline-testing.bcild
+178 [25/aug/2001:17:53:09 -0300] "bet	inline-testing.binld
+178 [25/aug/2001:17:53:09 -0300] "bet	inline-testing.comld
+178 [25/aug/2001:17:53:10 -0300] "bet	inline-testing-impl.scm
+54 [04/sep/2001:20:52:33 -0300] "bet	inline-testing.sld
+54 [04/sep/2001:20:52:44 -0300] "bet	Makefile
+54 [08/aug/2001:16:42:44 -0300] "bet	Makefile-fragment
+54 [08/aug/2001:16:43:09 -0300] "bet	Makefile.in
+54 [17/aug/2001:16:43:15 -0300] "bet	Setup.sh
+54 [17/aug/2001:16:43:15 -0300] "bet	srfi-133.bcild
+54 [26/aug/2001:20:43:45 -0300] "bet	srfi-133.binld
+54 [26/aug/2001:20:51:33 -0300] "bet	srfi-133.comld
+50 [14/aug/2001:20:11:07 -0300] "bet	srfi-133-impl.scm
+50 [14/aug/2001:20:11:32 -0300] "bet	srfi-133.sld
+53 [25/aug/2001:19:25:26 -0300] "bet	srfi-140.bcild
+53 [25/aug/2001:19:26:50 -0300] "bet	srfi-140.binld
+58 [26/aug/2001:11:39:45 -0300] "bet	srfi-140.comld
+61 [27/aug/2001:01:45:28 -0300] "bet	srfi-140-impl.scm
+61 [27/aug/2001:01:46:29 -0300] "bet	srfi-140.sld
+65 [26/aug/2001:15:08:04 -0300] "bet	srfi-14.bcild
+66 [27/aug/2001:17:05:25 -0300] "bet	srfi-14.binld
+66 [27/aug/2001:17:06:09 -0300] "bet	srfi-14.comld
+74 [25/aug/2001:14:43:51 -0300] "bet	srfi-14.sld
+17 [08/sep/2001:15:20:49 -0300] "bet	Stage.sh
+17 [08/sep/2001:15:20:49 -0300] "bet	Tags.sh
+17 [08/sep/2001:15:22:05 -0300] "bet	
+17 [08/sep/2001:15:23:53 -0300] "bet	/home/joshua/Desktop/mit-scheme-11.2/src/mcrypt:
+17 [08/sep/2001:15:23:53 -0300] "bet	aclocal.m4
+17 [08/sep/2001:15:23:58 -0300] "bet	AUTHORS
+17 [08/sep/2001:15:24:03 -0300] "bet	autogen.sh
+17 [08/sep/2001:15:27:03 -0300] "bet	autom4te.cache
+17 [08/sep/2001:15:27:08 -0300] "bet	ChangeLog
+17 [08/sep/2001:15:27:28 -0300] "bet	compile
+17 [08/sep/2001:15:30:57 -0300] "bet	compile.scm
+207 [09/sep/2001:17:58:22 -0300] "bet	compile.sh
+207 [09/sep/2001:17:58:56 -0300] "bet	config.guess
+207 [09/sep/2001:17:58:01 -0300] "bet	config.h.in
+207 [09/sep/2001:17:58:01 -0300] "bet	config.sub
+207 [09/sep/2001:17:58:06 -0300] "bet	configure
+207 [10/sep/2001:15:29:33 -0300] "bet	configure.ac
+207 [10/sep/2001:15:29:33 -0300] "bet	COPYING
+207 [10/sep/2001:15:29:37 -0300] "bet	depcomp
+207 [10/sep/2001:15:29:42 -0300] "bet	INSTALL
+110 [07/sep/2001:11:52:17 -0300] "bet	install-sh
+110 [07/sep/2001:11:52:18 -0300] "bet	ltmain.sh
+110 [07/sep/2001:11:58:31 -0300] "bet	m4
+110 [07/sep/2001:11:58:31 -0300] "bet	Makefile.am
+110 [07/sep/2001:11:59:13 -0300] "bet	Makefile.in
+110 [07/sep/2001:11:59:13 -0300] "bet	make.scm
+110 [07/sep/2001:11:59:25 -0300] "bet	mcrypt-adapter.c
+110 [07/sep/2001:11:59:26 -0300] "bet	mcrypt.cdecl
+110 [07/sep/2001:11:59:29 -0300] "bet	mcrypt-check.scm
+110 [07/sep/2001:11:59:44 -0300] "bet	mcrypt-check.sh
+110 [07/sep/2001:11:59:51 -0300] "bet	mcrypt.pkg
+110 [07/sep/2001:12:01:36 -0300] "bet	mcrypt.scm
+110 [07/sep/2001:12:01:38 -0300] "bet	mcrypt-shim.h
+110 [07/sep/2001:12:02:10 -0300] "bet	missing
+110 [07/sep/2001:12:02:11 -0300] "bet	NEWS
+110 [07/sep/2001:12:03:53 -0300] "bet	optiondb.scm
+110 [07/sep/2001:12:03:58 -0300] "bet	README
+110 [07/sep/2001:12:04:08 -0300] "bet	tags-fix.sh
+110 [07/sep/2001:12:04:08 -0300] "bet	test-driver
+171 [10/sep/2001:01:23:16 -0300] "bet	
+171 [10/sep/2001:01:23:24 -0300] "bet	/home/joshua/Desktop/mit-scheme-11.2/src/mcrypt/autom4te.cache:
+124 [08/aug/2001:00:41:38 -0300] "bet	output.0
+124 [13/aug/2001:13:22:01 -0300] "bet	output.1
+96 [08/sep/2001:02:10:40 -0300] "bet	output.2
+96 [08/sep/2001:02:10:40 -0300] "bet	output.3
+96 [08/sep/2001:02:11:22 -0300] "bet	requests
+96 [08/sep/2001:02:28:50 -0300] "bet	traces.0
+96 [08/sep/2001:02:28:50 -0300] "bet	traces.1
+96 [08/sep/2001:02:28:52 -0300] "bet	traces.2
+96 [08/sep/2001:02:28:58 -0300] "bet	traces.3
+96 [08/sep/2001:02:29:41 -0300] "bet	
+96 [08/sep/2001:02:31:35 -0300] "bet	/home/joshua/Desktop/mit-scheme-11.2/src/mcrypt/m4:
+96 [08/sep/2001:02:31:38 -0300] "bet	libtool.m4
+96 [08/sep/2001:02:31:41 -0300] "bet	lt~obsolete.m4
+172 [01/sep/2001:08:04:33 -0300] "bet	ltoptions.m4
+172 [01/sep/2001:08:04:33 -0300] "bet	ltsugar.m4
+172 [03/sep/2001:21:06:47 -0300] "bet	ltversion.m4
+172 [03/sep/2001:21:06:48 -0300] "bet	
+172 [08/sep/2001:07:54:45 -0300] "bet	/home/joshua/Desktop/mit-scheme-11.2/src/microcode:
+172 [08/sep/2001:07:54:58 -0300] "bet	aclocal.m4
+172 [08/sep/2001:07:55:05 -0300] "bet	artutl.c
+172 [08/sep/2001:07:55:10 -0300] "bet	avltree.c
+172 [10/sep/2001:20:45:53 -0300] "bet	avltree.h
+172 [10/sep/2001:20:46:00 -0300] "bet	bignmint.h
+172 [10/sep/2001:20:46:08 -0300] "bet	bignum.c
+172 [17/aug/2001:22:49:37 -0300] "bet	bignum.h
+172 [17/aug/2001:22:49:38 -0300] "bet	bigprm.c
+172 [18/aug/2001:08:07:16 -0300] "bet	bits.h
+172 [18/aug/2001:08:07:17 -0300] "bet	bitstr.c
+172 [21/aug/2001:16:11:34 -0300] "bet	bitstr.h
+172 [21/aug/2001:16:11:35 -0300] "bet	bkpt.c
+172 [01/sep/2001:08:03:32 -0300] "bet	bkpt.h
+172 [01/sep/2001:08:03:32 -0300] "bet	boot.c
+172 [01/sep/2001:08:03:39 -0300] "bet	bytevector.c
+172 [01/sep/2001:08:04:23 -0300] "bet	chacha12.c
+172 [01/sep/2001:09:14:47 -0300] "bet	chacha20.c
+172 [01/sep/2001:09:14:47 -0300] "bet	chacha8.c
+172 [01/sep/2001:10:22:05 -0300] "bet	chacha.h
+172 [03/sep/2001:21:05:07 -0300] "bet	chacha.i
+172 [03/sep/2001:21:06:42 -0300] "bet	char.c
+172 [04/sep/2001:05:47:34 -0300] "bet	Clean.sh
+172 [04/sep/2001:05:47:38 -0300] "bet	cmpauxmd
+172 [04/sep/2001:21:17:49 -0300] "bet	cmpgc.h
+172 [05/sep/2001:21:02:30 -0300] "bet	cmpint.c
+172 [05/sep/2001:21:02:31 -0300] "bet	cmpint.h
+172 [05/sep/2001:21:02:40 -0300] "bet	cmpintmd
+172 [05/sep/2001:21:03:22 -0300] "bet	comlin.c
+172 [05/sep/2001:21:03:25 -0300] "bet	comlin.h
+172 [05/sep/2001:21:13:09 -0300] "bet	comutl.c
+172 [05/sep/2001:21:13:10 -0300] "bet	config.guess
+172 [05/sep/2001:21:13:12 -0300] "bet	config.h.in
+172 [05/sep/2001:21:13:15 -0300] "bet	config.log
+172 [05/sep/2001:21:13:18 -0300] "bet	config.sub
+172 [05/sep/2001:21:13:22 -0300] "bet	configure
+172 [05/sep/2001:21:13:22 -0300] "bet	configure.ac
+172 [05/sep/2001:21:13:25 -0300] "bet	confshared.h
+172 [05/sep/2001:21:13:27 -0300] "bet	const.h
+172 [05/sep/2001:21:14:57 -0300] "bet	copyrigh.c
+172 [06/sep/2001:16:35:34 -0300] "bet	critsec.h
+172 [06/sep/2001:16:35:42 -0300] "bet	ctassert.h
+172 [06/sep/2001:16:35:42 -0300] "bet	daemon.c
+172 [06/sep/2001:16:35:43 -0300] "bet	debug.c
+172 [06/sep/2001:16:35:46 -0300] "bet	dfloat.c
+172 [06/sep/2001:16:35:49 -0300] "bet	dstack.h
+172 [06/sep/2001:16:36:06 -0300] "bet	edwin.h
+172 [06/sep/2001:16:36:06 -0300] "bet	error.c
+172 [06/sep/2001:16:36:09 -0300] "bet	errors.h
+172 [06/sep/2001:16:36:10 -0300] "bet	extern.c
+172 [08/sep/2001:07:36:34 -0300] "bet	extern.h
+172 [08/sep/2001:07:36:58 -0300] "bet	extract-liarc-decls.c
+172 [08/sep/2001:07:36:58 -0300] "bet	fasdump.c
+172 [08/sep/2001:07:37:02 -0300] "bet	fasl.c
+172 [08/sep/2001:07:37:05 -0300] "bet	fasl.h
+172 [08/sep/2001:07:38:55 -0300] "bet	fasload.c
+172 [08/sep/2001:07:38:57 -0300] "bet	findprim.c
+172 [08/sep/2001:07:39:02 -0300] "bet	fixnum.c
+172 [08/sep/2001:07:39:42 -0300] "bet	fixnum.h
+172 [08/sep/2001:07:50:40 -0300] "bet	fixobj.h
+172 [08/sep/2001:07:52:38 -0300] "bet	floenv.c
+172 [08/sep/2001:07:52:49 -0300] "bet	floenv.h
+172 [08/sep/2001:07:54:41 -0300] "bet	flonum.c
+172 [08/sep/2001:07:55:44 -0300] "bet	fma.c
+172 [08/sep/2001:07:55:45 -0300] "bet	fma.h
+172 [08/sep/2001:07:55:47 -0300] "bet	gccode.h
+172 [08/sep/2001:07:55:48 -0300] "bet	gc.h
+172 [08/sep/2001:07:56:57 -0300] "bet	gcloop.c
+172 [08/sep/2001:07:57:07 -0300] "bet	generic.c
+172 [08/sep/2001:08:24:10 -0300] "bet	gen-nonce.c
+172 [09/aug/2001:20:46:24 -0300] "bet	history.h
+172 [09/aug/2001:20:46:24 -0300] "bet	hooks.c
+172 [09/aug/2001:20:48:14 -0300] "bet	hunk.c
+172 [09/aug/2001:20:55:44 -0300] "bet	install-sh
+172 [09/aug/2001:20:55:44 -0300] "bet	intern.c
+172 [09/aug/2001:20:55:47 -0300] "bet	interp.c
+172 [09/aug/2001:20:55:48 -0300] "bet	interp.h
+172 [09/aug/2001:20:55:49 -0300] "bet	intext.c
+172 [09/aug/2001:20:56:20 -0300] "bet	intext.h
+172 [09/aug/2001:20:56:20 -0300] "bet	intprm.c
+172 [09/aug/2001:20:56:23 -0300] "bet	intrpt.h
+172 [09/aug/2001:20:56:29 -0300] "bet	keccak.c
+172 [09/sep/2001:08:04:17 -0300] "bet	keccak.h
+172 [09/sep/2001:08:04:23 -0300] "bet	liarc-cc.in
+172 [10/sep/2001:20:43:00 -0300] "bet	liarc-gendeps.c
+172 [10/sep/2001:20:43:00 -0300] "bet	liarc.h
+172 [10/sep/2001:20:43:26 -0300] "bet	liarc-ld.in
+172 [10/sep/2001:20:43:55 -0300] "bet	liarc-rules
+172 [10/sep/2001:20:45:08 -0300] "bet	liarc-vars
+172 [10/sep/2001:20:45:30 -0300] "bet	list.c
+172 [10/sep/2001:20:45:47 -0300] "bet	lookprm.c
+172 [10/sep/2001:20:46:54 -0300] "bet	lookup.c
+172 [10/sep/2001:20:47:06 -0300] "bet	lookup.h
+172 [11/aug/2001:21:19:04 -0300] "bet	macosx-starter.c
+172 [11/aug/2001:21:19:06 -0300] "bet	Makefile.deps
+172 [13/aug/2001:19:42:11 -0300] "bet	Makefile.in
+172 [13/aug/2001:19:42:12 -0300] "bet	makegen
+172 [16/aug/2001:19:41:14 -0300] "bet	md5.c
+172 [16/aug/2001:19:41:14 -0300] "bet	md5.h
+172 [17/aug/2001:22:29:45 -0300] "bet	memmag.c
+172 [17/aug/2001:22:29:45 -0300] "bet	memmag.h
+172 [17/aug/2001:22:29:47 -0300] "bet	missing.c
+172 [17/aug/2001:22:30:03 -0300] "bet	mkinstalldirs
+172 [17/aug/2001:22:30:20 -0300] "bet	mul.c
+172 [17/aug/2001:22:34:40 -0300] "bet	ntapi.h
+172 [17/aug/2001:22:49:37 -0300] "bet	ntasutl.asm
+172 [17/aug/2001:22:51:17 -0300] "bet	ntenv.c
+172 [18/aug/2001:08:06:08 -0300] "bet	ntfile.c
+172 [18/aug/2001:08:06:08 -0300] "bet	ntfs.c
+172 [18/aug/2001:08:06:56 -0300] "bet	ntfs.h
+172 [18/aug/2001:08:07:02 -0300] "bet	ntgui.c
+172 [18/aug/2001:08:07:03 -0300] "bet	ntgui.h
+172 [18/aug/2001:08:07:15 -0300] "bet	nt.h
+172 [18/aug/2001:08:07:15 -0300] "bet	ntio.c
+172 [18/aug/2001:08:07:16 -0300] "bet	ntio.h
+172 [18/aug/2001:08:07:16 -0300] "bet	ntproc.c
+172 [18/aug/2001:08:07:16 -0300] "bet	ntproc.h
+172 [18/aug/2001:08:07:26 -0300] "bet	ntscmlib.h
+172 [18/aug/2001:08:07:26 -0300] "bet	ntscreen.c
+172 [18/aug/2001:08:07:26 -0300] "bet	ntscreen.h
+172 [18/aug/2001:08:07:26 -0300] "bet	ntsig.c
+172 [18/aug/2001:08:07:26 -0300] "bet	ntsock.c
+172 [18/aug/2001:08:07:26 -0300] "bet	ntsys.c
+172 [18/aug/2001:08:07:27 -0300] "bet	ntsys.h
+172 [18/aug/2001:08:07:27 -0300] "bet	ntterm.h
+172 [18/aug/2001:08:07:27 -0300] "bet	nttop.c
+172 [18/aug/2001:08:07:27 -0300] "bet	nttop.h
+172 [18/aug/2001:08:07:27 -0300] "bet	nttrap.c
+172 [18/aug/2001:08:07:27 -0300] "bet	nttrap.h
+172 [18/aug/2001:08:07:27 -0300] "bet	nttterm.c
+172 [18/aug/2001:08:07:30 -0300] "bet	nttty.c
+172 [18/aug/2001:08:07:31 -0300] "bet	ntutl
+172 [18/aug/2001:08:07:31 -0300] "bet	object.h
+172 [18/aug/2001:08:07:31 -0300] "bet	obstack.c
+172 [18/aug/2001:08:07:31 -0300] "bet	obstack.h
+172 [18/aug/2001:08:07:31 -0300] "bet	option.c
+172 [18/aug/2001:08:07:31 -0300] "bet	option.h
+172 [18/aug/2001:08:07:31 -0300] "bet	osctty.h
+172 [18/aug/2001:08:07:32 -0300] "bet	osentropy.h
+172 [18/aug/2001:08:07:32 -0300] "bet	osenv.h
+172 [18/aug/2001:08:07:32 -0300] "bet	osfile.h
+172 [18/aug/2001:08:07:32 -0300] "bet	osfs.h
+172 [18/aug/2001:08:07:48 -0300] "bet	os.h
+172 [18/aug/2001:08:07:49 -0300] "bet	osio.h
+172 [18/aug/2001:08:07:49 -0300] "bet	osproc.h
+172 [18/aug/2001:08:07:49 -0300] "bet	ospty.h
+172 [18/aug/2001:08:07:49 -0300] "bet	osscheme.c
+172 [18/aug/2001:08:07:49 -0300] "bet	osscheme.h
+172 [18/aug/2001:08:07:49 -0300] "bet	ossig.h
+172 [18/aug/2001:08:07:49 -0300] "bet	osterm.h
+172 [18/aug/2001:08:07:49 -0300] "bet	ostop.h
+172 [18/aug/2001:08:07:49 -0300] "bet	ostty.c
+172 [18/aug/2001:08:07:49 -0300] "bet	ostty.h
+172 [18/aug/2001:08:10:50 -0300] "bet	outf.c
+172 [19/aug/2001:07:31:42 -0300] "bet	outf.h
+172 [19/aug/2001:07:32:51 -0300] "bet	prchacha.c
+172 [19/aug/2001:07:32:52 -0300] "bet	prename.h
+172 [19/aug/2001:07:34:02 -0300] "bet	prentropy.c
+172 [19/aug/2001:07:34:02 -0300] "bet	prim.c
+172 [19/aug/2001:07:34:04 -0300] "bet	prim.h
+172 [19/aug/2001:07:34:08 -0300] "bet	prims.h
+172 [19/aug/2001:07:34:13 -0300] "bet	primutl.c
+172 [19/aug/2001:07:35:35 -0300] "bet	prkeccak.c
+172 [20/aug/2001:18:32:50 -0300] "bet	prmd5.c
+172 [20/aug/2001:18:32:50 -0300] "bet	prntenv.c
+172 [20/aug/2001:18:32:52 -0300] "bet	prntfs.c
+172 [20/aug/2001:18:33:33 -0300] "bet	prntio.c
+172 [21/aug/2001:16:10:50 -0300] "bet	prosenv.c
+172 [21/aug/2001:16:11:33 -0300] "bet	prosfile.c
+172 [24/aug/2001:16:57:11 -0300] "bet	prosfs.c
+172 [24/aug/2001:16:57:11 -0300] "bet	prosio.c
+172 [24/aug/2001:16:57:46 -0300] "bet	prosproc.c
+172 [24/aug/2001:16:57:56 -0300] "bet	prospty.c
+172 [24/aug/2001:16:57:56 -0300] "bet	prosterm.c
+172 [24/aug/2001:16:57:58 -0300] "bet	prostty.c
+172 [24/aug/2001:16:58:01 -0300] "bet	pruxdld.c
+172 [24/aug/2001:16:58:03 -0300] "bet	pruxenv.c
+172 [24/aug/2001:16:58:10 -0300] "bet	pruxffi.c
+172 [24/aug/2001:16:58:10 -0300] "bet	pruxffi.h
+172 [24/aug/2001:16:58:13 -0300] "bet	pruxfs.c
+172 [24/aug/2001:16:58:15 -0300] "bet	pruxio.c
+172 [24/aug/2001:16:59:46 -0300] "bet	pruxsock.c
+172 [25/aug/2001:07:40:09 -0300] "bet	ptrvec.c
+172 [25/aug/2001:07:44:41 -0300] "bet	purify.c
+172 [25/aug/2001:07:44:41 -0300] "bet	purutl.c
+172 [25/aug/2001:07:44:43 -0300] "bet	regex.c
+172 [25/aug/2001:07:44:44 -0300] "bet	regex.h
+172 [25/aug/2001:07:45:02 -0300] "bet	returns.h
+172 [25/aug/2001:07:45:11 -0300] "bet	rgxprim.c
+172 [25/aug/2001:07:49:40 -0300] "bet	sample.c
+172 [25/aug/2001:07:49:44 -0300] "bet	scheme.h
+172 [25/aug/2001:07:49:46 -0300] "bet	scode.h
+172 [25/aug/2001:08:12:53 -0300] "bet	sdata.h
+172 [25/aug/2001:08:30:41 -0300] "bet	Setup.sh
+172 [28/aug/2001:06:56:11 -0300] "bet	stack.h
+172 [28/aug/2001:06:56:11 -0300] "bet	stackops.h
+172 [28/aug/2001:06:56:49 -0300] "bet	step.c
+162 [02/sep/2001:10:39:57 -0300] "bet	storage.c
+162 [02/sep/2001:10:39:57 -0300] "bet	string.c
+162 [02/sep/2001:10:40:46 -0300] "bet	svm1-defns.h
+162 [02/sep/2001:11:00:14 -0300] "bet	svm1-interp.c
+162 [02/sep/2001:11:02:26 -0300] "bet	syntax.c
+162 [17/aug/2001:16:52:34 -0300] "bet	syntax.h
+162 [17/aug/2001:16:52:34 -0300] "bet	syscall.h
+162 [17/aug/2001:16:57:21 -0300] "bet	sysprim.c
+162 [17/aug/2001:16:57:22 -0300] "bet	Tags.sh
+162 [17/aug/2001:17:20:47 -0300] "bet	term.c
+162 [17/aug/2001:17:20:47 -0300] "bet	termcap.c
+162 [17/aug/2001:17:21:47 -0300] "bet	terminfo.c
+162 [17/aug/2001:17:21:47 -0300] "bet	TODO
+162 [17/aug/2001:17:21:49 -0300] "bet	tparam.c
+162 [17/aug/2001:17:23:22 -0300] "bet	transact.c
+162 [17/aug/2001:17:24:51 -0300] "bet	trap.h
+162 [17/aug/2001:17:24:53 -0300] "bet	tterm.c
+162 [17/aug/2001:17:25:25 -0300] "bet	typename.txt
+162 [17/aug/2001:17:25:26 -0300] "bet	types.h
+162 [17/aug/2001:17:27:59 -0300] "bet	unstackify.c
+78 [06/sep/2001:15:23:34 -0300] "bet	usrdef.h
+78 [03/sep/2001:22:06:05 -0300] "bet	utabmd.c
+78 [06/sep/2001:15:20:09 -0300] "bet	utils.c
+78 [06/sep/2001:15:23:33 -0300] "bet	ux.c
+78 [06/sep/2001:15:25:46 -0300] "bet	uxctty.c
+78 [06/sep/2001:15:44:36 -0300] "bet	uxentropy.c
+78 [06/sep/2001:15:44:39 -0300] "bet	uxenv.c
+78 [06/sep/2001:16:40:15 -0300] "bet	uxfile.c
+78 [06/sep/2001:16:40:41 -0300] "bet	uxfs.c
+78 [06/sep/2001:18:11:59 -0300] "bet	ux.h
+78 [06/sep/2001:18:12:07 -0300] "bet	uxio.c
+78 [06/sep/2001:22:30:30 -0300] "bet	uxio.h
+78 [06/sep/2001:22:30:37 -0300] "bet	uxproc.c
+78 [07/sep/2001:17:34:58 -0300] "bet	uxproc.h
+78 [07/sep/2001:17:35:01 -0300] "bet	uxsig.c
+78 [30/aug/2001:23:22:29 -0300] "bet	uxsig.h
+78 [30/aug/2001:23:22:29 -0300] "bet	uxsock.c
+78 [30/aug/2001:23:22:34 -0300] "bet	uxsock.h
+78 [30/aug/2001:23:22:34 -0300] "bet	uxterm.c
+78 [30/aug/2001:23:25:05 -0300] "bet	uxterm.h
+78 [30/aug/2001:23:31:01 -0300] "bet	uxtop.c
+78 [30/aug/2001:23:31:12 -0300] "bet	uxtop.h
+78 [30/aug/2001:23:34:19 -0300] "bet	uxtrap.c
+78 [06/sep/2001:15:44:46 -0300] "bet	uxtrap.h
+78 [06/sep/2001:15:45:29 -0300] "bet	uxtty.c
+78 [06/sep/2001:15:45:36 -0300] "bet	uxutil.c
+78 [06/sep/2001:16:40:41 -0300] "bet	uxutil.h
+78 [06/sep/2001:18:12:15 -0300] "bet	vector.c
+78 [06/sep/2001:18:12:29 -0300] "bet	wind.c
+78 [06/sep/2001:22:30:45 -0300] "bet	xdebug.c
+78 [06/sep/2001:22:30:52 -0300] "bet	
+78 [06/sep/2001:22:30:56 -0300] "bet	/home/joshua/Desktop/mit-scheme-11.2/src/microcode/cmpauxmd:
+78 [07/sep/2001:17:35:06 -0300] "bet	aarch64.m4
+78 [07/sep/2001:17:35:19 -0300] "bet	asmcvt.c
+78 [07/sep/2001:17:35:32 -0300] "bet	c.c
+78 [30/aug/2001:23:34:25 -0300] "bet	i386.m4
+93 [09/sep/2001:19:49:22 -0300] "bet	i386-nt.asm
+57 [10/sep/2001:21:54:36 -0300] "bet	i386-ntw.asm
+57 [10/sep/2001:21:54:36 -0300] "bet	m4-dos
+57 [10/sep/2001:21:58:10 -0300] "bet	makefile
+57 [10/sep/2001:21:58:10 -0300] "bet	x86-64.m4
+57 [10/sep/2001:21:58:12 -0300] "bet	
+57 [10/sep/2001:21:58:20 -0300] "bet	/home/joshua/Desktop/mit-scheme-11.2/src/microcode/cmpintmd:
+57 [10/sep/2001:21:58:26 -0300] "bet	aarch64.c
+57 [10/sep/2001:21:58:28 -0300] "bet	aarch64-config.h
+57 [10/sep/2001:21:59:07 -0300] "bet	aarch64.h
+57 [10/sep/2001:21:59:07 -0300] "bet	c.c
+57 [10/sep/2001:21:59:10 -0300] "bet	c-config.h
+57 [10/sep/2001:21:59:12 -0300] "bet	c.h
+145 [06/sep/2001:20:26:43 -0300] "bet	i386.c
+145 [06/sep/2001:20:26:44 -0300] "bet	i386-config.h
+145 [06/sep/2001:20:26:57 -0300] "bet	i386.h
+145 [06/sep/2001:20:41:36 -0300] "bet	none.c
+145 [06/sep/2001:20:42:54 -0300] "bet	none-config.h
+145 [06/sep/2001:20:44:32 -0300] "bet	none.h
+145 [06/sep/2001:20:44:33 -0300] "bet	svm1.c
+145 [06/sep/2001:20:44:45 -0300] "bet	svm1-config.h
+145 [06/sep/2001:20:45:40 -0300] "bet	svm1.h
+145 [06/sep/2001:20:45:40 -0300] "bet	x86-64.c
+145 [06/sep/2001:20:45:43 -0300] "bet	x86-64-config.h
+145 [06/sep/2001:20:52:58 -0300] "bet	x86-64.h
+145 [06/sep/2001:20:53:02 -0300] "bet	x86-fenv.c
+145 [06/sep/2001:20:53:04 -0300] "bet	x86-fenv.h
+145 [06/sep/2001:20:53:21 -0300] "bet	
+145 [06/sep/2001:20:53:25 -0300] "bet	/home/joshua/Desktop/mit-scheme-11.2/src/microcode/makegen:
+145 [06/sep/2001:20:53:52 -0300] "bet	bundles-liarc.scm
+145 [06/sep/2001:20:54:39 -0300] "bet	dirs-liarc.scm
+145 [06/sep/2001:20:59:05 -0300] "bet	files-core.scm
+145 [06/sep/2001:20:59:10 -0300] "bet	files-optional.scm
+145 [06/sep/2001:20:59:17 -0300] "bet	files-os-prim.scm
+145 [06/sep/2001:20:59:22 -0300] "bet	files-other.scm
+145 [06/sep/2001:21:00:38 -0300] "bet	files-unix.scm
+145 [09/sep/2001:21:21:01 -0300] "bet	liarc-base-rules
+145 [09/sep/2001:21:21:01 -0300] "bet	m4.sh
+145 [06/sep/2001:20:41:37 -0300] "bet	Makefile.in.in
+145 [06/sep/2001:20:42:02 -0300] "bet	makegen.scm
+145 [06/sep/2001:20:42:13 -0300] "bet	makeinit.sh
+244 [06/sep/2001:11:35:20 -0300] "bet	pkds-liarc.scm
+244 [06/sep/2001:11:36:30 -0300] "bet	
+244 [06/sep/2001:11:47:59 -0300] "bet	/home/joshua/Desktop/mit-scheme-11.2/src/microcode/ntutl:
+244 [07/sep/2001:14:56:46 -0300] "bet	coffee.ico
+244 [07/sep/2001:14:57:22 -0300] "bet	config.bat
+244 [07/sep/2001:14:57:26 -0300] "bet	config.h
+130 [07/sep/2001:14:41:53 -0300] "bet	conses.ico
+130 [07/sep/2001:14:41:59 -0300] "bet	edwin.ico
+130 [07/sep/2001:14:42:32 -0300] "bet	envir1.ico
+130 [07/sep/2001:14:16:54 -0300] "bet	float.h
+130 [07/sep/2001:14:16:54 -0300] "bet	gc.cur
+130 [07/sep/2001:14:41:53 -0300] "bet	graphics.ico
+130 [07/sep/2001:14:42:49 -0300] "bet	lambda2.ico
+130 [07/sep/2001:14:49:03 -0300] "bet	lambda.ico
+130 [07/sep/2001:15:08:25 -0300] "bet	liar1.ico
+130 [07/sep/2001:15:16:14 -0300] "bet	liar2.ico
+130 [07/sep/2001:15:16:14 -0300] "bet	liar3.ico
+130 [07/sep/2001:15:16:21 -0300] "bet	limits.h
+130 [07/sep/2001:15:16:36 -0300] "bet	makefile
+130 [07/sep/2001:15:16:57 -0300] "bet	makefile.wcc
+130 [07/sep/2001:15:17:00 -0300] "bet	mincer.ico
+130 [07/sep/2001:15:17:04 -0300] "bet	ntdialog.dlg
+130 [07/sep/2001:15:17:10 -0300] "bet	ntdialog.h
+130 [07/sep/2001:15:17:12 -0300] "bet	ntgui.rc
+130 [07/sep/2001:15:17:16 -0300] "bet	scheme16.c
+130 [07/sep/2001:15:17:18 -0300] "bet	scheme16.def
+130 [07/sep/2001:15:17:27 -0300] "bet	scheme16.mak
+130 [07/sep/2001:15:17:31 -0300] "bet	scheme31.c
+130 [07/sep/2001:15:17:45 -0300] "bet	scheme31.def
+130 [07/sep/2001:15:17:45 -0300] "bet	scheme32.c
+130 [07/sep/2001:15:17:51 -0300] "bet	scheme32.def
+130 [07/sep/2001:15:18:18 -0300] "bet	scheme32.lbc
+130 [07/sep/2001:15:18:43 -0300] "bet	scheme32.lnk
+130 [07/sep/2001:15:18:56 -0300] "bet	schlogo.ico
+130 [07/sep/2001:15:19:09 -0300] "bet	scm-cl3.lst
+130 [07/sep/2001:15:19:09 -0300] "bet	scm-p-nt.lst
+130 [07/sep/2001:15:19:12 -0300] "bet	setenv.bat
+130 [07/sep/2001:15:20:28 -0300] "bet	shield1.ico
+130 [07/sep/2001:15:20:30 -0300] "bet	shield2.ico
+247 [07/sep/2001:14:33:33 -0300] "bet	shield3.ico
+247 [07/sep/2001:14:33:33 -0300] "bet	shield4.ico
+247 [07/sep/2001:16:16:56 -0300] "bet	wconfig.bat
+247 [07/sep/2001:16:16:56 -0300] "bet	win31.bat
+247 [07/sep/2001:16:22:05 -0300] "bet	winnt.bat
+247 [07/sep/2001:16:22:21 -0300] "bet	
+247 [07/sep/2001:16:22:49 -0300] "bet	/home/joshua/Desktop/mit-scheme-11.2/src/pgsql:
+247 [07/sep/2001:16:23:04 -0300] "bet	aclocal.m4
+247 [07/sep/2001:16:23:28 -0300] "bet	AUTHORS
+247 [07/sep/2001:16:24:25 -0300] "bet	autogen.sh
+247 [07/sep/2001:16:24:25 -0300] "bet	autom4te.cache
+247 [07/sep/2001:16:24:31 -0300] "bet	ChangeLog
+247 [07/sep/2001:16:24:37 -0300] "bet	compile
+247 [07/sep/2001:16:27:45 -0300] "bet	compile.scm
+247 [07/sep/2001:16:27:49 -0300] "bet	compile.sh
+247 [07/sep/2001:16:22:22 -0300] "bet	config.guess
+247 [07/sep/2001:16:22:37 -0300] "bet	config.h.in
+104 [06/sep/2001:12:37:51 -0300] "bet	config.sub
+104 [06/sep/2001:12:37:52 -0300] "bet	configure
+169 [10/aug/2001:19:22:46 -0300] "bet	configure.ac
+169 [10/aug/2001:19:22:46 -0300] "bet	COPYING
+169 [10/aug/2001:19:22:57 -0300] "bet	depcomp
+169 [10/aug/2001:19:22:57 -0300] "bet	INSTALL
+169 [10/aug/2001:19:23:00 -0300] "bet	install-sh
+169 [10/aug/2001:19:23:03 -0300] "bet	ltmain.sh
+169 [10/aug/2001:19:23:06 -0300] "bet	m4
+97 [08/sep/2001:02:45:38 -0300] "bet	Makefile.am
+97 [08/sep/2001:02:45:38 -0300] "bet	Makefile.in
+97 [08/sep/2001:02:45:46 -0300] "bet	make.scm
+97 [08/sep/2001:02:45:46 -0300] "bet	missing
+97 [08/sep/2001:02:45:47 -0300] "bet	NEWS
+97 [08/sep/2001:02:45:52 -0300] "bet	optiondb.scm
+97 [08/sep/2001:02:46:04 -0300] "bet	pgsql.cdecl
+97 [08/sep/2001:02:46:04 -0300] "bet	pgsql-check.scm
+97 [08/sep/2001:02:46:07 -0300] "bet	pgsql-check.sh
+20 [06/sep/2001:19:30:20 -0300] "bet	pgsql.pkg
+0 [09/sep/2001:15:07:04 -0300] "bet	pgsql.scm
+0 [09/sep/2001:15:07:21 -0300] "bet	pgsql-shim.h
+0 [09/sep/2001:15:07:39 -0300] "bet	README
+0 [09/sep/2001:15:08:31 -0300] "bet	tags-fix.sh
+0 [09/sep/2001:09:48:26 -0300] "bet	test-driver
+0 [09/sep/2001:09:48:27 -0300] "bet	
+0 [09/sep/2001:09:51:13 -0300] "bet	/home/joshua/Desktop/mit-scheme-11.2/src/pgsql/autom4te.cache:
+0 [09/sep/2001:09:52:36 -0300] "bet	output.0
+0 [09/sep/2001:09:53:32 -0300] "bet	output.1
+0 [09/sep/2001:09:53:32 -0300] "bet	output.2
+0 [09/sep/2001:09:53:36 -0300] "bet	output.3
+0 [09/sep/2001:09:53:38 -0300] "bet	requests
+0 [09/sep/2001:09:53:45 -0300] "bet	traces.0
+0 [09/sep/2001:09:53:48 -0300] "bet	traces.1
+0 [09/sep/2001:09:53:57 -0300] "bet	traces.2
+0 [09/sep/2001:09:53:58 -0300] "bet	traces.3
+0 [09/sep/2001:09:54:05 -0300] "bet	
+0 [09/sep/2001:09:54:08 -0300] "bet	/home/joshua/Desktop/mit-scheme-11.2/src/pgsql/m4:
+0 [09/sep/2001:09:54:35 -0300] "bet	libtool.m4
+0 [09/sep/2001:09:54:42 -0300] "bet	lt~obsolete.m4
+0 [09/sep/2001:14:59:05 -0300] "bet	ltoptions.m4
+0 [09/sep/2001:14:59:05 -0300] "bet	ltsugar.m4
+0 [09/sep/2001:15:06:14 -0300] "bet	ltversion.m4
+0 [09/sep/2001:15:07:04 -0300] "bet	
+0 [10/sep/2001:22:11:18 -0300] "bet	/home/joshua/Desktop/mit-scheme-11.2/src/relnotes:
+0 [10/sep/2001:22:11:27 -0300] "bet	README
+0 [10/sep/2001:22:11:27 -0300] "bet	
+0 [10/sep/2001:22:11:32 -0300] "bet	/home/joshua/Desktop/mit-scheme-11.2/src/runtime:
+0 [10/sep/2001:22:11:34 -0300] "bet	advice.bci
+0 [10/sep/2001:22:11:57 -0300] "bet	advice.bin
+0 [10/sep/2001:22:12:02 -0300] "bet	advice.com
+0 [10/sep/2001:22:13:11 -0300] "bet	advice.scm
+0 [10/sep/2001:22:13:13 -0300] "bet	amap-alist.bci
+0 [10/sep/2001:22:13:58 -0300] "bet	amap-alist.bin
+0 [10/sep/2001:22:14:03 -0300] "bet	amap-alist.com
+0 [10/sep/2001:22:15:15 -0300] "bet	amap-alist.scm
+0 [10/sep/2001:22:15:23 -0300] "bet	amap.bci
+0 [10/sep/2001:22:15:25 -0300] "bet	amap.bin
+0 [11/aug/2001:15:21:38 -0300] "bet	amap.com
+0 [11/aug/2001:15:21:40 -0300] "bet	amap.ext
+0 [11/aug/2001:15:22:06 -0300] "bet	amap-hash-table.bci
+0 [11/aug/2001:15:22:07 -0300] "bet	amap-hash-table.bin
+0 [11/aug/2001:15:22:25 -0300] "bet	amap-hash-table.com
+0 [11/aug/2001:15:22:25 -0300] "bet	amap-hash-table.scm
+0 [11/aug/2001:15:22:37 -0300] "bet	amap-impl.bci
+0 [11/aug/2001:15:22:45 -0300] "bet	amap-impl.bin
+0 [11/aug/2001:17:40:16 -0300] "bet	amap-impl.com
+0 [11/aug/2001:17:41:44 -0300] "bet	amap-impl.ext
+0 [11/aug/2001:17:44:43 -0300] "bet	amap-impl.scm
+0 [11/aug/2001:17:44:43 -0300] "bet	amap.scm
+0 [11/aug/2001:17:44:45 -0300] "bet	amap-trie.bci
+0 [11/aug/2001:17:45:12 -0300] "bet	amap-trie.bin
+0 [11/aug/2001:17:45:16 -0300] "bet	amap-trie.com
+0 [11/aug/2001:17:45:18 -0300] "bet	amap-trie.scm
+0 [11/aug/2001:17:45:39 -0300] "bet	apply.bci
+0 [20/aug/2001:20:53:02 -0300] "bet	apply.bin
+0 [20/aug/2001:20:53:02 -0300] "bet	apply.com
+0 [20/aug/2001:20:54:36 -0300] "bet	apply.scm
+0 [20/aug/2001:20:54:36 -0300] "bet	apropos.bci
+0 [20/aug/2001:20:54:38 -0300] "bet	apropos.bin
+0 [20/aug/2001:20:54:42 -0300] "bet	apropos.com
+0 [20/aug/2001:20:54:46 -0300] "bet	apropos.scm
+0 [20/aug/2001:20:55:36 -0300] "bet	arith.bci
+0 [20/aug/2001:21:02:23 -0300] "bet	arith.bin
+139 [11/sep/2001:00:26:21 -0300] "bet	arith.com
+139 [11/sep/2001:00:26:21 -0300] "bet	arith.ext
+139 [11/sep/2001:00:30:18 -0300] "bet	arith.scm
+139 [11/sep/2001:00:30:18 -0300] "bet	binary-port.bci
+139 [11/sep/2001:00:30:25 -0300] "bet	binary-port.bin
+206 [10/sep/2001:22:02:50 -0300] "bet	binary-port.com
+206 [10/sep/2001:22:03:24 -0300] "bet	binary-port.ext
+206 [10/sep/2001:22:03:24 -0300] "bet	binary-port.scm
+206 [10/sep/2001:22:04:08 -0300] "bet	bitstr.bci
+206 [10/sep/2001:22:04:52 -0300] "bet	bitstr.bin
+206 [10/sep/2001:22:05:38 -0300] "bet	bitstr.com
+206 [10/sep/2001:22:06:39 -0300] "bet	bitstr.ext
+206 [10/sep/2001:22:07:02 -0300] "bet	bitstr.scm
+49 [10/sep/2001:21:15:38 -0300] "bet	blowfish.bci
+242 [03/sep/2001:09:58:31 -0300] "bet	blowfish.bin
+242 [03/sep/2001:09:58:31 -0300] "bet	blowfish.com
+242 [03/sep/2001:09:58:41 -0300] "bet	blowfish.scm
+242 [06/sep/2001:13:15:14 -0300] "bet	boole.bci
+242 [06/sep/2001:13:15:14 -0300] "bet	boole.bin
+242 [10/sep/2001:08:23:55 -0300] "bet	boole.com
+242 [10/sep/2001:08:24:19 -0300] "bet	boole.ext
+242 [11/sep/2001:09:09:44 -0300] "bet	boole.scm
+242 [11/sep/2001:09:10:09 -0300] "bet	boot.bci
+242 [11/sep/2001:09:41:54 -0300] "bet	boot.bin
+242 [11/sep/2001:09:42:03 -0300] "bet	boot.com
+242 [20/aug/2001:09:59:06 -0300] "bet	boot.ext
+242 [20/aug/2001:09:59:06 -0300] "bet	boot.scm
+242 [21/aug/2001:12:11:52 -0300] "bet	boot-seq.bci
+242 [21/aug/2001:12:11:52 -0300] "bet	boot-seq.bin
+182 [07/sep/2001:18:05:21 -0300] "bet	boot-seq.com
+182 [07/sep/2001:18:05:21 -0300] "bet	boot-seq.scm
+182 [07/sep/2001:18:11:04 -0300] "bet	bundle.bci
+182 [07/sep/2001:18:11:34 -0300] "bet	bundle.bin
+182 [07/sep/2001:18:11:34 -0300] "bet	bundle.com
+182 [09/sep/2001:13:40:22 -0300] "bet	bundle.ext
+72 [10/sep/2001:20:05:02 -0300] "bet	bundle.scm
+72 [10/sep/2001:20:05:03 -0300] "bet	bytevector.bci
+72 [11/aug/2001:19:11:45 -0300] "bet	bytevector.bin
+72 [11/aug/2001:19:11:45 -0300] "bet	bytevector.com
+204 [09/sep/2001:11:25:02 -0300] "bet	bytevector.ext
+204 [09/sep/2001:11:25:05 -0300] "bet	bytevector-low.bci
+230 [09/sep/2001:11:19:41 -0300] "bet	bytevector-low.bin
+233 [09/sep/2001:11:19:37 -0300] "bet	bytevector-low.com
+233 [09/sep/2001:11:19:49 -0300] "bet	bytevector-low.ext
+234 [09/sep/2001:11:22:16 -0300] "bet	bytevector-low.scm
+235 [09/sep/2001:11:19:46 -0300] "bet	bytevector.scm
+235 [09/sep/2001:11:19:54 -0300] "bet	cgen-base.bci
+238 [09/sep/2001:11:17:00 -0300] "bet	cgen-base.bin
+238 [09/sep/2001:11:25:02 -0300] "bet	cgen-base.com
+238 [09/sep/2001:11:25:05 -0300] "bet	cgen-base.ext
+10 [09/sep/2001:11:16:59 -0300] "bet	cgen-base.scm
+8 [09/sep/2001:11:19:38 -0300] "bet	cgen-cse.bci
+8 [09/sep/2001:11:19:44 -0300] "bet	cgen-cse.bin
+8 [09/sep/2001:11:19:48 -0300] "bet	cgen-cse.com
+8 [09/sep/2001:11:19:51 -0300] "bet	cgen-cse.ext
+8 [09/sep/2001:11:19:56 -0300] "bet	cgen-cse.scm
+8 [09/sep/2001:11:20:57 -0300] "bet	cgen-optimize.bci
+8 [09/sep/2001:11:21:53 -0300] "bet	cgen-optimize.bin
+	cgen-optimize.com
+	cgen-optimize.scm
+	cgen-output.bci
+	cgen-output.bin
+	cgen-output.com
+	cgen-output.scm
+	char.bci
+	char.bin
+	char.com
+	char.ext
+	char.scm
+	char-set.bci
+	char-set.bin
+	char-set.com
+	char-set.ext
+	char-set.scm
+	chrsyn.bci
+	chrsyn.bin
+	chrsyn.com
+	chrsyn.ext
+	chrsyn.scm
+	Clean.sh
+	codwlk.bci
+	codwlk.bin
+	codwlk.com
+	codwlk.ext
+	codwlk.scm
+	command-line.bci
+	command-line.bin
+	command-line.com
+	command-line.scm
+	comparator.bci
+	comparator.bin
+	comparator.com
+	comparator.ext
+	comparator.scm
+	compound-predicate.bci
+	compound-predicate.bin
+	compound-predicate.com
+	compound-predicate.ext
+	compound-predicate.scm
+	condvar.bci
+	condvar.bin
+	condvar.com
+	condvar.ext
+	condvar.scm
+	conpar.bci
+	conpar.bin
+	conpar.com
+	conpar.ext
+	conpar.scm
+	console-io.bci
+	console-io.bin
+	console-io.com
+	console-io.scm
+	contin.bci
+	contin.bin
+	contin.com
+	contin.ext
+	contin.scm
+	cpoint.bci
+	cpoint.bin
+	cpoint.com
+	cpoint.ext
+	cpoint.scm
+	cpress.bci
+	cpress.bin
+	cpress.com
+	cpress.ext
+	cpress.scm
+	crypto.bci
+	crypto.bin
+	crypto.com
+	crypto.scm
+	datime.bci
+	datime.bin
+	datime.com
+	datime.ext
+	datime.scm
+	dbgcmd.bci
+	dbgcmd.bin
+	dbgcmd.com
+	dbgcmd.scm
+	dbgutl.bci
+	dbgutl.bin
+	dbgutl.com
+	dbgutl.scm
+	debug.bci
+	debug.bin
+	debug.com
+	debug.ext
+	debug.scm
+	defstr.bci
+	defstr.bin
+	defstr.com
+	defstr.ext
+	defstr.scm
+	digraph.bci
+	digraph.bin
+	digraph.com
+	digraph.scm
+	dispatch-cache.bci
+	dispatch-cache.bin
+	dispatch-cache.com
+	dispatch-cache.ext
+	dispatch-cache.scm
+	dispatch-tag.bci
+	dispatch-tag.bin
+	dispatch-tag.com
+	dispatch-tag.ext
+	dispatch-tag.scm
+	division.bci
+	division.bin
+	division.com
+	division.scm
+	dos-pathname.bci
+	dos-pathname.bin
+	dos-pathname.com
+	dos-pathname.scm
+	dragon4.bci
+	dragon4.bin
+	dragon4.com
+	dragon4.scm
+	dynamic.bci
+	dynamic.bin
+	dynamic.com
+	dynamic.ext
+	dynamic.scm
+	ed-ffi.bci
+	ed-ffi.bin
+	ed-ffi.com
+	ed-ffi.scm
+	emacs.bci
+	emacs.bin
+	emacs.com
+	emacs.scm
+	environment.bci
+	environment.bin
+	environment.com
+	environment.ext
+	environment.scm
+	equals.bci
+	equals.bin
+	equals.com
+	equals.ext
+	equals.scm
+	error.bci
+	error.bin
+	error.com
+	error.ext
+	error.scm
+	events.bci
+	events.bin
+	events.com
+	events.ext
+	events.scm
+	feature.bci
+	feature.bin
+	feature.com
+	feature.scm
+	ffi.bci
+	ffi.bin
+	ffi.com
+	ffi.ext
+	ffi.scm
+	file-attributes.bci
+	file-attributes.bin
+	file-attributes.com
+	file-attributes.scm
+	file-io.bci
+	file-io.bin
+	file-io.com
+	file-io.scm
+	floenv.bci
+	floenv.bin
+	floenv.com
+	floenv.ext
+	floenv.scm
+	format.bci
+	format.bin
+	format.com
+	format.scm
+	framex.bci
+	framex.bin
+	framex.com
+	framex.ext
+	framex.scm
+	gc.bci
+	gc.bin
+	gc.com
+	gcdemn.bci
+	gcdemn.bin
+	gcdemn.com
+	gcdemn.scm
+	gcfinal.bci
+	gcfinal.bin
+	gcfinal.com
+	gcfinal.ext
+	gcfinal.scm
+	gcnote.bci
+	gcnote.bin
+	gcnote.com
+	gcnote.ext
+	gcnote.scm
+	gc.scm
+	gcstat.bci
+	gcstat.bin
+	gcstat.com
+	gcstat.ext
+	gcstat.scm
+	gdbm.bci
+	gdbm.bin
+	gdbm.com
+	gdbm.scm
+	generator.bci
+	generator.bin
+	generator.com
+	generator.scm
+	generic-io.bci
+	generic-io.bin
+	generic-io.com
+	generic-io.ext
+	generic-io.scm
+	global.bci
+	global.bin
+	global.com
+	global.ext
+	global.scm
+	graphics.bci
+	graphics.bin
+	graphics.com
+	graphics.ext
+	graphics.scm
+	hash.bci
+	hash.bin
+	hash.com
+	hash.scm
+	hash-table.bci
+	hash-table.bin
+	hash-table.com
+	hash-table.ext
+	hash-table.scm
+	histry.bci
+	histry.bin
+	histry.com
+	histry.ext
+	histry.scm
+	host-adapter.bci
+	host-adapter.bin
+	host-adapter.com
+	host-adapter.scm
+	html-form-codec.bci
+	html-form-codec.bin
+	html-form-codec.com
+	html-form-codec.scm
+	http-client.bci
+	http-client.bin
+	http-client.com
+	http-client.scm
+	http-io.bci
+	http-io.bin
+	http-io.com
+	http-io.ext
+	http-io.scm
+	http-syntax.bci
+	http-syntax.bin
+	http-syntax.com
+	http-syntax.ext
+	http-syntax.scm
+	ieee754.bci
+	ieee754.bin
+	ieee754.com
+	ieee754.scm
+	infstr.bci
+	infstr.bin
+	infstr.com
+	infstr.ext
+	infstr.scm
+	infutl.bci
+	infutl.bin
+	infutl.com
+	infutl.ext
+	infutl.scm
+	input-port.bci
+	input-port.bin
+	input-port.com
+	input-port.ext
+	input-port.scm
+	integer-bits.bci
+	integer-bits.bin
+	integer-bits.com
+	integer-bits.ext
+	integer-bits.scm
+	interrupt.bci
+	interrupt.bin
+	interrupt.com
+	interrupt.ext
+	interrupt.scm
+	keyword.bci
+	keyword.bin
+	keyword.com
+	keyword.ext
+	keyword.scm
+	lambda.bci
+	lambda.bin
+	lambda.com
+	lambda.ext
+	lambda-list.bci
+	lambda-list.bin
+	lambda-list.com
+	lambda-list.scm
+	lambda.scm
+	lambdx.bci
+	lambdx.bin
+	lambdx.com
+	lambdx.ext
+	lambdx.scm
+	legacy-string.bci
+	legacy-string.bin
+	legacy-string.com
+	legacy-string.ext
+	legacy-string.scm
+	library-database.bci
+	library-database.bin
+	library-database.com
+	library-database.ext
+	library-database.scm
+	library-ixports.bci
+	library-ixports.bin
+	library-ixports.com
+	library-ixports.ext
+	library-ixports-mit.bci
+	library-ixports-mit.bin
+	library-ixports-mit.com
+	library-ixports-mit.ext
+	library-ixports-mit.scm
+	library-ixports-r7rs.bci
+	library-ixports-r7rs.bin
+	library-ixports-r7rs.com
+	library-ixports-r7rs.scm
+	library-ixports.scm
+	library-loader.bci
+	library-loader.bin
+	library-loader.com
+	library-loader.scm
+	library-parser.bci
+	library-parser.bin
+	library-parser.com
+	library-parser.ext
+	library-parser.scm
+	library-scode.bci
+	library-scode.bin
+	library-scode.com
+	library-scode.scm
+	library-standard.bci
+	library-standard.bin
+	library-standard.com
+	library-standard.scm
+	list.bci
+	list.bin
+	list.com
+	list.ext
+	list.scm
+	load.bci
+	load.bin
+	load.com
+	load.ext
+	load.scm
+	make.bci
+	make.bin
+	make.com
+	Makefile
+	Makefile-fragment
+	Makefile.in
+	make.scm
+	memoizer.bci
+	memoizer.bin
+	memoizer.com
+	memoizer.ext
+	memoizer.scm
+	microcode-data.bci
+	microcode-data.bin
+	microcode-data.com
+	microcode-data.ext
+	microcode-data.scm
+	microcode-errors.bci
+	microcode-errors.bin
+	microcode-errors.com
+	microcode-errors.ext
+	microcode-errors.scm
+	microcode-tables.bci
+	microcode-tables.bin
+	microcode-tables.com
+	microcode-tables.ext
+	microcode-tables.scm
+	mime-codec.bci
+	mime-codec.bin
+	mime-codec.com
+	mime-codec.ext
+	mime-codec.scm
+	mit-macros.bci
+	mit-macros.bin
+	mit-macros.com
+	mit-macros.scm
+	mit-syntax.bci
+	mit-syntax.bin
+	mit-syntax.com
+	mit-syntax.ext
+	mit-syntax.scm
+	msort.bci
+	msort.bin
+	msort.com
+	msort.scm
+	ntdir.bci
+	ntdir.bin
+	ntdir.com
+	ntdir.scm
+	ntprm.bci
+	ntprm.bin
+	ntprm.com
+	ntprm.ext
+	ntprm.scm
+	numint.bci
+	numint.bin
+	numint.com
+	numint.scm
+	numpar.bci
+	numpar.bin
+	numpar.com
+	numpar.ext
+	numpar.scm
+	option.bci
+	option.bin
+	option.com
+	optiondb.bci
+	optiondb.bin
+	optiondb.com
+	optiondb.scm
+	option.scm
+	ordvec.bci
+	ordvec.bin
+	ordvec.com
+	ordvec.scm
+	os-primitives.bci
+	os-primitives.bin
+	os-primitives.com
+	os-primitives.scm
+	output-port.bci
+	output-port.bin
+	output-port.com
+	output-port.ext
+	output-port.scm
+	packag.bci
+	packag.bin
+	packag.com
+	packag.ext
+	packag.scm
+	parametric-predicate.bci
+	parametric-predicate.bin
+	parametric-predicate.com
+	parametric-predicate.ext
+	parametric-predicate.scm
+	parser-buffer.bci
+	parser-buffer.bin
+	parser-buffer.com
+	parser-buffer.ext
+	parser-buffer.scm
+	pathname.bci
+	pathname.bin
+	pathname.com
+	pathname.ext
+	pathname.scm
+	pgsql.bci
+	pgsql.bin
+	pgsql.com
+	pgsql.scm
+	poplat.bci
+	poplat.bin
+	poplat.com
+	poplat.ext
+	poplat.scm
+	pp.bci
+	pp.bin
+	pp.com
+	pp.ext
+	pp.scm
+	predicate.bci
+	predicate.bin
+	predicate.com
+	predicate-dispatch.bci
+	predicate-dispatch.bin
+	predicate-dispatch.com
+	predicate-dispatch.ext
+	predicate-dispatch.scm
+	predicate.ext
+	predicate.scm
+	predicate-tagging.bci
+	predicate-tagging.bin
+	predicate-tagging.com
+	predicate-tagging.scm
+	prgcop.bci
+	prgcop.bin
+	prgcop.com
+	prgcop.ext
+	prgcop.scm
+	primitive-arithmetic.bci
+	primitive-arithmetic.bin
+	primitive-arithmetic.com
+	primitive-arithmetic.ext
+	primitive-arithmetic.scm
+	primitive-io.bci
+	primitive-io.bin
+	primitive-io.com
+	primitive-io.ext
+	primitive-io.scm
+	printer.bci
+	printer.bin
+	printer.com
+	printer.ext
+	printer.scm
+	procedure.bci
+	procedure.bin
+	procedure.com
+	procedure.ext
+	procedure.scm
+	process.bci
+	process.bin
+	process.com
+	process.ext
+	process.scm
+	prop1d.bci
+	prop1d.bin
+	prop1d.com
+	prop1d.ext
+	prop1d.scm
+	prop2d.bci
+	prop2d.bin
+	prop2d.com
+	prop2d.scm
+	qsort.bci
+	qsort.bin
+	qsort.com
+	qsort.scm
+	queue.bci
+	queue.bin
+	queue.com
+	queue.ext
+	queue.scm
+	random.bci
+	random.bin
+	random.com
+	random.ext
+	random.scm
+	rbtree.bci
+	rbtree.bin
+	rbtree.com
+	rbtree.ext
+	rbtree.scm
+	reader.bci
+	reader.bin
+	reader.com
+	reader.ext
+	reader.scm
+	record.bci
+	record.bin
+	record.com
+	record.ext
+	record.scm
+	reference-trap.bci
+	reference-trap.bin
+	reference-trap.com
+	reference-trap.ext
+	reference-trap.scm
+	regexp.bci
+	regexp.bin
+	regexp.com
+	regexp.ext
+	regexp-nfa.bci
+	regexp-nfa.bin
+	regexp-nfa.com
+	regexp-nfa.ext
+	regexp-nfa.scm
+	regexp-recursive.bci
+	regexp-recursive.bin
+	regexp-recursive.com
+	regexp-recursive.ext
+	regexp-recursive.scm
+	regexp-rules.bci
+	regexp-rules.bin
+	regexp-rules.com
+	regexp-rules.ext
+	regexp-rules.scm
+	regexp.scm
+	regsexp.bci
+	regsexp.bin
+	regsexp.com
+	regsexp.ext
+	regsexp.scm
+	rep.bci
+	rep.bin
+	rep.com
+	rep.ext
+	rep.scm
+	rep-ui.bci
+	rep-ui.bin
+	rep-ui.com
+	rep-ui.ext
+	rep-ui.scm
+	rexp.bci
+	rexp.bin
+	rexp.com
+	rexp.scm
+	rfc2822-headers.bci
+	rfc2822-headers.bin
+	rfc2822-headers.com
+	rfc2822-headers.ext
+	rfc2822-headers.scm
+	rgxcmp.bci
+	rgxcmp.bin
+	rgxcmp.com
+	rgxcmp.ext
+	rgxcmp.scm
+	runtime.cbf
+	runtime.pkg
+	runtime.sf
+	runtime-unx.crf
+	runtime-unx.fre
+	runtime-unx.pkd
+	savres.bci
+	savres.bin
+	savres.com
+	savres.scm
+	scan.bci
+	scan.bin
+	scan.com
+	scan.ext
+	scan.scm
+	scode.bci
+	scode.bin
+	scode.com
+	scode.ext
+	scode.scm
+	sdata.bci
+	sdata.bin
+	sdata.com
+	sdata.scm
+	Setup.sh
+	sfile.bci
+	sfile.bin
+	sfile.com
+	sfile.ext
+	sfile.scm
+	sha3.bci
+	sha3.bin
+	sha3.com
+	sha3.ext
+	sha3.scm
+	simple-matcher.bci
+	simple-matcher.bin
+	simple-matcher.com
+	simple-matcher.ext
+	simple-matcher.scm
+	socket.bci
+	socket.bin
+	socket.com
+	socket.scm
+	srfi-115.bci
+	srfi-115.bin
+	srfi-115.com
+	srfi-115.ext
+	srfi-115.scm
+	srfi-1.bci
+	srfi-1.bin
+	srfi-1.com
+	srfi-1.ext
+	srfi-1.scm
+	stack-sample.bci
+	stack-sample.bin
+	stack-sample.com
+	stack-sample.ext
+	stack-sample.scm
+	Stage.sh
+	stream.bci
+	stream.bin
+	stream.com
+	stream.scm
+	string.bci
+	string.bin
+	string.com
+	string.ext
+	string-io.bci
+	string-io.bin
+	string-io.com
+	string-io.ext
+	string-io.scm
+	string.scm
+	structure-parser.bci
+	structure-parser.bin
+	structure-parser.com
+	structure-parser.ext
+	structure-parser.scm
+	swank.bci
+	swank.bin
+	swank.com
+	swank.ext
+	swank.scm
+	symbol.bci
+	symbol.bin
+	symbol.com
+	symbol.ext
+	symbol.scm
+	syncproc.bci
+	syncproc.bin
+	syncproc.com
+	syncproc.ext
+	syncproc.scm
+	syntax.bci
+	syntax.bin
+	syntax-check.bci
+	syntax-check.bin
+	syntax-check.com
+	syntax-check.scm
+	syntax.com
+	syntax-constructor.bci
+	syntax-constructor.bin
+	syntax-constructor.com
+	syntax-constructor.ext
+	syntax-constructor.scm
+	syntax-declaration.bci
+	syntax-declaration.bin
+	syntax-declaration.com
+	syntax-declaration.scm
+	syntax-environment.bci
+	syntax-environment.bin
+	syntax-environment.com
+	syntax-environment.ext
+	syntax-environment.scm
+	syntax.ext
+	syntax-items.bci
+	syntax-items.bin
+	syntax-items.com
+	syntax-items.ext
+	syntax-items.scm
+	syntax-low.bci
+	syntax-low.bin
+	syntax-low.com
+	syntax-low.ext
+	syntax-low.scm
+	syntax-output.bci
+	syntax-output.bin
+	syntax-output.com
+	syntax-output.ext
+	syntax-output.scm
+	syntax-parser.bci
+	syntax-parser.bin
+	syntax-parser.com
+	syntax-parser.scm
+	syntax-rename.bci
+	syntax-rename.bin
+	syntax-rename.com
+	syntax-rename.ext
+	syntax-rename.scm
+	syntax-rules.bci
+	syntax-rules.bin
+	syntax-rules.com
+	syntax-rules.ext
+	syntax-rules.scm
+	syntax.scm
+	sysclk.bci
+	sysclk.bin
+	sysclk.com
+	sysclk.ext
+	sysclk.scm
+	sysmac.bci
+	sysmac.bin
+	sysmac.com
+	sysmac.scm
+	system.bci
+	system.bin
+	system.com
+	system.scm
+	Tags.sh
+	textual-port.bci
+	textual-port.bin
+	textual-port.com
+	textual-port.ext
+	textual-port.scm
+	thread-barrier.bci
+	thread-barrier.bin
+	thread-barrier.com
+	thread-barrier.ext
+	thread-barrier.scm
+	thread.bci
+	thread.bin
+	thread.com
+	thread.ext
+	thread-low.bci
+	thread-low.bin
+	thread-low.com
+	thread-low.ext
+	thread-low.scm
+	thread-queue.bci
+	thread-queue.bin
+	thread-queue.com
+	thread-queue.ext
+	thread-queue.scm
+	thread.scm
+	transcript.bci
+	transcript.bin
+	transcript.com
+	transcript.scm
+	trie.bci
+	trie.bin
+	trie.com
+	trie.ext
+	trie.scm
+	ucd-glue.bci
+	ucd-glue.bin
+	ucd-glue.com
+	ucd-glue.scm
+	ucd-grapheme.bci
+	ucd-grapheme.bin
+	ucd-grapheme.com
+	ucd-grapheme.scm
+	ucd-segmentation.bci
+	ucd-segmentation.bin
+	ucd-segmentation.com
+	ucd-segmentation.ext
+	ucd-segmentation.scm
+	ucd-table-alpha.bci
+	ucd-table-alpha.bin
+	ucd-table-alpha.com
+	ucd-table-alpha.scm
+	ucd-table-canonical-cm.bci
+	ucd-table-canonical-cm.bin
+	ucd-table-canonical-cm.com
+	ucd-table-canonical-cm.scm
+	ucd-table-canonical-cm-second.bci
+	ucd-table-canonical-cm-second.bin
+	ucd-table-canonical-cm-second.com
+	ucd-table-canonical-cm-second.scm
+	ucd-table-canonical-dm.bci
+	ucd-table-canonical-dm.bin
+	ucd-table-canonical-dm.com
+	ucd-table-canonical-dm.scm
+	ucd-table-cased.bci
+	ucd-table-cased.bin
+	ucd-table-cased.com
+	ucd-table-cased.scm
+	ucd-table-ccc.bci
+	ucd-table-ccc.bin
+	ucd-table-ccc.com
+	ucd-table-ccc.scm
+	ucd-table-cf.bci
+	ucd-table-cf.bin
+	ucd-table-cf.com
+	ucd-table-cf.scm
+	ucd-table-comp_ex.bci
+	ucd-table-comp_ex.bin
+	ucd-table-comp_ex.com
+	ucd-table-comp_ex.scm
+	ucd-table-cwcf.bci
+	ucd-table-cwcf.bin
+	ucd-table-cwcf.com
+	ucd-table-cwcf.scm
+	ucd-table-cwl.bci
+	ucd-table-cwl.bin
+	ucd-table-cwl.com
+	ucd-table-cwl.scm
+	ucd-table-cwu.bci
+	ucd-table-cwu.bin
+	ucd-table-cwu.com
+	ucd-table-cwu.scm
+	ucd-table-gcb.bci
+	ucd-table-gcb.bin
+	ucd-table-gc.bci
+	ucd-table-gcb.com
+	ucd-table-gc.bin
+	ucd-table-gcb.scm
+	ucd-table-gc=cc.bci
+	ucd-table-gc=cc.bin
+	ucd-table-gc=cc.com
+	ucd-table-gc=cc.scm
+	ucd-table-gc=cf.bci
+	ucd-table-gc=cf.bin
+	ucd-table-gc=cf.com
+	ucd-table-gc=cf.scm
+	ucd-table-gc=cn.bci
+	ucd-table-gc=cn.bin
+	ucd-table-gc=cn.com
+	ucd-table-gc=cn.scm
+	ucd-table-gc=co.bci
+	ucd-table-gc=co.bin
+	ucd-table-gc=co.com
+	ucd-table-gc.com
+	ucd-table-gc=co.scm
+	ucd-table-gc=cs.bci
+	ucd-table-gc=cs.bin
+	ucd-table-gc=cs.com
+	ucd-table-gc=cs.scm
+	ucd-table-gc=ll.bci
+	ucd-table-gc=ll.bin
+	ucd-table-gc=ll.com
+	ucd-table-gc=ll.scm
+	ucd-table-gc=lm.bci
+	ucd-table-gc=lm.bin
+	ucd-table-gc=lm.com
+	ucd-table-gc=lm.scm
+	ucd-table-gc=lo.bci
+	ucd-table-gc=lo.bin
+	ucd-table-gc=lo.com
+	ucd-table-gc=lo.scm
+	ucd-table-gc=lt.bci
+	ucd-table-gc=lt.bin
+	ucd-table-gc=lt.com
+	ucd-table-gc=lt.scm
+	ucd-table-gc=lu.bci
+	ucd-table-gc=lu.bin
+	ucd-table-gc=lu.com
+	ucd-table-gc=lu.scm
+	ucd-table-gc=mc.bci
+	ucd-table-gc=mc.bin
+	ucd-table-gc=mc.com
+	ucd-table-gc=mc.scm
+	ucd-table-gc=me.bci
+	ucd-table-gc=me.bin
+	ucd-table-gc=me.com
+	ucd-table-gc=me.scm
+	ucd-table-gc=mn.bci
+	ucd-table-gc=mn.bin
+	ucd-table-gc=mn.com
+	ucd-table-gc=mn.scm
+	ucd-table-gc=nd.bci
+	ucd-table-gc=nd.bin
+	ucd-table-gc=nd.com
+	ucd-table-gc=nd.scm
+	ucd-table-gc=nl.bci
+	ucd-table-gc=nl.bin
+	ucd-table-gc=nl.com
+	ucd-table-gc=nl.scm
+	ucd-table-gc=no.bci
+	ucd-table-gc=no.bin
+	ucd-table-gc=no.com
+	ucd-table-gc=no.scm
+	ucd-table-gc=pc.bci
+	ucd-table-gc=pc.bin
+	ucd-table-gc=pc.com
+	ucd-table-gc=pc.scm
+	ucd-table-gc=pd.bci
+	ucd-table-gc=pd.bin
+	ucd-table-gc=pd.com
+	ucd-table-gc=pd.scm
+	ucd-table-gc=pe.bci
+	ucd-table-gc=pe.bin
+	ucd-table-gc=pe.com
+	ucd-table-gc=pe.scm
+	ucd-table-gc=pf.bci
+	ucd-table-gc=pf.bin
+	ucd-table-gc=pf.com
+	ucd-table-gc=pf.scm
+	ucd-table-gc=pi.bci
+	ucd-table-gc=pi.bin
+	ucd-table-gc=pi.com
+	ucd-table-gc=pi.scm
+	ucd-table-gc=po.bci
+	ucd-table-gc=po.bin
+	ucd-table-gc=po.com
+	ucd-table-gc=po.scm
+	ucd-table-gc=ps.bci
+	ucd-table-gc=ps.bin
+	ucd-table-gc=ps.com
+	ucd-table-gc=ps.scm
+	ucd-table-gc=sc.bci
+	ucd-table-gc=sc.bin
+	ucd-table-gc=sc.com
+	ucd-table-gc.scm
+	ucd-table-gc=sc.scm
+	ucd-table-gc=sk.bci
+	ucd-table-gc=sk.bin
+	ucd-table-gc=sk.com
+	ucd-table-gc=sk.scm
+	ucd-table-gc=sm.bci
+	ucd-table-gc=sm.bin
+	ucd-table-gc=sm.com
+	ucd-table-gc=sm.scm
+	ucd-table-gc=so.bci
+	ucd-table-gc=so.bin
+	ucd-table-gc=so.com
+	ucd-table-gc=so.scm
+	ucd-table-gc=zl.bci
+	ucd-table-gc=zl.bin
+	ucd-table-gc=zl.com
+	ucd-table-gc=zl.scm
+	ucd-table-gc=zp.bci
+	ucd-table-gc=zp.bin
+	ucd-table-gc=zp.com
+	ucd-table-gc=zp.scm
+	ucd-table-gc=zs.bci
+	ucd-table-gc=zs.bin
+	ucd-table-gc=zs.com
+	ucd-table-gc=zs.scm
+	ucd-table-lc.bci
+	ucd-table-lc.bin
+	ucd-table-lc.com
+	ucd-table-lc.scm
+	ucd-table-lower.bci
+	ucd-table-lower.bin
+	ucd-table-lower.com
+	ucd-table-lower.scm
+	ucd-table-nfc_qc.bci
+	ucd-table-nfc_qc.bin
+	ucd-table-nfc_qc.com
+	ucd-table-nfc_qc.scm
+	ucd-table-nfd_qc.bci
+	ucd-table-nfd_qc.bin
+	ucd-table-nfd_qc.com
+	ucd-table-nfd_qc.scm
+	ucd-table-nt.bci
+	ucd-table-nt.bin
+	ucd-table-nt.com
+	ucd-table-nt=de.bci
+	ucd-table-nt=de.bin
+	ucd-table-nt=de.com
+	ucd-table-nt=de.scm
+	ucd-table-nt=di.bci
+	ucd-table-nt=di.bin
+	ucd-table-nt=di.com
+	ucd-table-nt=di.scm
+	ucd-table-nt=nu.bci
+	ucd-table-nt=nu.bin
+	ucd-table-nt=nu.com
+	ucd-table-nt=nu.scm
+	ucd-table-nt.scm
+	ucd-table-nv.bci
+	ucd-table-nv.bin
+	ucd-table-nv.com
+	ucd-table-nv.scm
+	ucd-table-scf.bci
+	ucd-table-scf.bin
+	ucd-table-scf.com
+	ucd-table-scf.scm
+	ucd-table-slc.bci
+	ucd-table-slc.bin
+	ucd-table-slc.com
+	ucd-table-slc.scm
+	ucd-table-suc.bci
+	ucd-table-suc.bin
+	ucd-table-suc.com
+	ucd-table-suc.scm
+	ucd-table-tc.bci
+	ucd-table-tc.bin
+	ucd-table-tc.com
+	ucd-table-tc.scm
+	ucd-table-uc.bci
+	ucd-table-uc.bin
+	ucd-table-uc.com
+	ucd-table-uc.scm
+	ucd-table-upper.bci
+	ucd-table-upper.bin
+	ucd-table-upper.com
+	ucd-table-upper.scm
+	ucd-table-wb.bci
+	ucd-table-wb.bin
+	ucd-table-wb.com
+	ucd-table-wb.scm
+	ucd-table-wspace.bci
+	ucd-table-wspace.bin
+	ucd-table-wspace.com
+	ucd-table-wspace.scm
+	ucd-word.bci
+	ucd-word.bin
+	ucd-word.com
+	ucd-word.scm
+	unix-pathname.bci
+	unix-pathname.bin
+	unix-pathname.com
+	unix-pathname.scm
+	unsyn.bci
+	unsyn.bin
+	unsyn.com
+	unsyn.ext
+	unsyn.scm
+	unxdir.bci
+	unxdir.bin
+	unxdir.com
+	unxdir.scm
+	unxprm.bci
+	unxprm.bin
+	unxprm.com
+	unxprm.ext
+	unxprm.scm
+	url.bci
+	url.bin
+	url.com
+	url.ext
+	url.scm
+	usrint.bci
+	usrint.bin
+	usrint.com
+	usrint.scm
+	vector.bci
+	vector.bin
+	vector.com
+	vector.ext
+	vector.scm
+	version.bci
+	version.bin
+	version.com
+	version.scm
+	weak-pair.bci
+	weak-pair.bin
+	weak-pair.com
+	weak-pair.ext
+	weak-pair.scm
+	where.bci
+	where.bin
+	where.com
+	where.ext
+	where.scm
+	win32-registry.bci
+	win32-registry.bin
+	win32-registry.com
+	win32-registry.ext
+	win32-registry.scm
+	wind.bci
+	wind.bin
+	wind.com
+	wind.ext
+	wind.scm
+	world-report.bci
+	world-report.bin
+	world-report.com
+	world-report.scm
+	wrkdir.bci
+	wrkdir.bin
+	wrkdir.com
+	wrkdir.scm
+	wttree.bci
+	wttree.bin
+	wttree.com
+	wttree.ext
+	wttree.scm
+	x11graph.bci
+	x11graph.bin
+	x11graph.com
+	x11graph.scm
+	xeval.bci
+	xeval.bin
+	xeval.com
+	xeval.scm
+	ystep.bci
+	ystep.bin
+	ystep.com
+	ystep.ext
+	ystep.scm
+	
+	/home/joshua/Desktop/mit-scheme-11.2/src/sf:
+	analyze.bci
+	analyze.bin
+	analyze.com
+	analyze.ext
+	analyze.scm
+	butils.bci
+	butils.bin
+	butils.com
+	butils.scm
+	cgen.bci
+	cgen.bin
+	cgen.com
+	cgen.ext
+	cgen.scm
+	chtype.bci
+	chtype.bin
+	chtype.com
+	chtype.ext
+	chtype.scm
+	Clean.sh
+	copy.bci
+	copy.bin
+	copy.com
+	copy.scm
+	emodel.bci
+	emodel.bin
+	emodel.com
+	emodel.scm
+	gconst.bci
+	gconst.bin
+	gconst.com
+	gconst.scm
+	make.bci
+	make.bin
+	make.com
+	Makefile
+	Makefile-fragment
+	Makefile.in
+	make.scm
+	object.bci
+	object.bin
+	object.com
+	object.ext
+	object.scm
+	pardec.bci
+	pardec.bin
+	pardec.com
+	pardec.ext
+	pardec.scm
+	pthmap.bci
+	pthmap.bin
+	pthmap.com
+	pthmap.scm
+	reduct.bci
+	reduct.bin
+	reduct.com
+	reduct.ext
+	reduct.scm
+	Setup.sh
+	sf.cbf
+	sf.pkg
+	sf.sf
+	sf-unx.crf
+	sf-unx.fre
+	sf-unx.pkd
+	Stage.sh
+	subst.bci
+	subst.bin
+	subst.com
+	subst.scm
+	tables.bci
+	tables.bin
+	tables.com
+	tables.ext
+	tables.scm
+	Tags.sh
+	toplev.bci
+	toplev.bin
+	toplev.com
+	toplev.scm
+	usicon.bci
+	usicon.bin
+	usicon.com
+	usicon.scm
+	usiexp.bci
+	usiexp.bin
+	usiexp.com
+	usiexp.scm
+	xform.bci
+	xform.bin
+	xform.com
+	xform.ext
+	xform.scm
+	
+	/home/joshua/Desktop/mit-scheme-11.2/src/sos:
+	class.bci
+	class.bin
+	class.com
+	class.ext
+	class.scm
+	Clean.sh
+	compile.scm
+	ed-ffi.scm
+	geneqht.bci
+	geneqht.bin
+	geneqht.com
+	geneqht.ext
+	geneqht.scm
+	generic.bci
+	generic.bin
+	generic.com
+	generic.ext
+	generic.scm
+	genmult.bci
+	genmult.bin
+	genmult.com
+	genmult.ext
+	genmult.scm
+	instance.bci
+	instance.bin
+	instance.com
+	instance.scm
+	load.scm
+	macros.bci
+	macros.bin
+	macros.com
+	macros.scm
+	Makefile
+	Makefile-fragment
+	Makefile.in
+	method.bci
+	method.bin
+	method.com
+	method.ext
+	method.scm
+	microbench.scm
+	printer.bci
+	printer.bin
+	printer.com
+	printer.scm
+	recslot.bci
+	recslot.bin
+	recslot.com
+	recslot.scm
+	Setup.sh
+	slot.bci
+	slot.bin
+	slot.com
+	slot.ext
+	slot.scm
+	sos.pkg
+	sos-unx.crf
+	sos-unx.fre
+	sos-unx.pkd
+	Stage.sh
+	Tags.sh
+	tvector.bci
+	tvector.bin
+	tvector.com
+	tvector.scm
+	
+	/home/joshua/Desktop/mit-scheme-11.2/src/ssp:
+	Clean.sh
+	compile.scm
+	expenv.bci
+	expenv.bin
+	expenv.com
+	expenv.scm
+	load.scm
+	Makefile
+	Makefile-fragment
+	Makefile.in
+	mod-lisp.bci
+	mod-lisp.bin
+	mod-lisp.com
+	mod-lisp.ext
+	mod-lisp.scm
+	Setup.sh
+	ssp.pkg
+	ssp-unx.crf
+	ssp-unx.fre
+	ssp-unx.pkd
+	Stage.sh
+	Tags.sh
+	xhtml-expander.bci
+	xhtml-expander.bin
+	xhtml-expander.com
+	xhtml-expander.scm
+	xmlrpc.bci
+	xmlrpc.bin
+	xmlrpc.com
+	xmlrpc.scm
+	
+	/home/joshua/Desktop/mit-scheme-11.2/src/star-parser:
+	Clean.sh
+	compile.scm
+	ed-ffi.scm
+	load.scm
+	Makefile
+	Makefile-fragment
+	Makefile.in
+	matcher.bci
+	matcher.bin
+	matcher.com
+	matcher.scm
+	parser.bci
+	parser.bin
+	parser.com
+	parser.pkg
+	parser.scm
+	parser-unx.crf
+	parser-unx.fre
+	parser-unx.pkd
+	Setup.sh
+	shared.bci
+	shared.bin
+	shared.com
+	shared.ext
+	shared.scm
+	Stage.sh
+	Tags.sh
+	
+	/home/joshua/Desktop/mit-scheme-11.2/src/tools:
+	README
+	
+	/home/joshua/Desktop/mit-scheme-11.2/src/win32:
+	Clean.sh
+	clipbrd.bci
+	clipbrd.bin
+	clipbrd.com
+	clipbrd.scm
+	dib.bci
+	dib.bin
+	dib.com
+	dib.ext
+	dib.scm
+	dibutils
+	ffimacro.bci
+	ffimacro.bin
+	ffimacro.com
+	ffimacro.scm
+	graphics.bci
+	graphics.bin
+	graphics.com
+	graphics.ext
+	graphics.scm
+	make.bci
+	make.bin
+	make.com
+	Makefile
+	Makefile-fragment
+	Makefile.in
+	make.scm
+	module.bci
+	module.bin
+	module.com
+	module.ext
+	module.scm
+	protect.bci
+	protect.bin
+	protect.com
+	protect.ext
+	protect.scm
+	Setup.sh
+	Stage.sh
+	Tags.sh
+	tests
+	wf_user.bci
+	wf_user.bin
+	wf_user.com
+	wf_user.scm
+	win32.cbf
+	win32.pkg
+	win32.sf
+	win32-unx.crf
+	win32-unx.fre
+	win32-unx.pkd
+	win_ffi.bci
+	win_ffi.bin
+	win_ffi.com
+	win_ffi.ext
+	win_ffi.scm
+	wingdi.bci
+	wingdi.bin
+	wingdi.com
+	wingdi.ext
+	wingdi.scm
+	winnt.bci
+	winnt.bin
+	winnt.com
+	winnt.ext
+	winnt.scm
+	winuser.bci
+	winuser.bin
+	winuser.com
+	winuser.ext
+	winuser.scm
+	wt_user.bci
+	wt_user.bin
+	wt_user.com
+	wt_user.ext
+	wt_user.scm
+	
+	/home/joshua/Desktop/mit-scheme-11.2/src/win32/dibutils:
+	dibutils.c
+	dibutils.def
+	dibutils.h
+	dibutils.lbc
+	dibutils.lnk
+	dibutils.rc
+	makefile.msc
+	makefile.wcc
+	
+	/home/joshua/Desktop/mit-scheme-11.2/src/win32/tests:
+	CLIPBRD.SCM
+	
+	/home/joshua/Desktop/mit-scheme-11.2/src/x11:
+	aclocal.m4
+	AUTHORS
+	autogen.sh
+	autom4te.cache
+	ChangeLog
+	compile
+	compile.scm
+	compile.sh
+	config.guess
+	config.log
+	config.status
+	config.sub
+	configure
+	configure.ac
+	COPYING
+	depcomp
+	INSTALL
+	install-sh
+	libtool
+	ltmain.sh
+	m4
+	Makefile
+	Makefile.am
+	Makefile.in
+	make.scm
+	missing
+	NEWS
+	optiondb.scm
+	README
+	stamp-scheme
+	stamp-shim
+	tags-fix.sh
+	test-driver
+	x11-base.bci
+	x11-base.bin
+	x11base.c
+	x11-base.com
+	x11-base.ext
+	x11-base.scm
+	x11.cdecl
+	x11-check.sh
+	x11-color.bci
+	x11-color.bin
+	x11color.c
+	x11-color.com
+	x11-color.scm
+	x11-const.bin
+	x11-const.c
+	x11-const.scm
+	x11-device.bci
+	x11-device.bin
+	x11-device.com
+	x11-device.ext
+	x11-device.scm
+	x11graph.c
+	x11-graphics.bci
+	x11-graphics.bin
+	x11-graphics.com
+	x11-graphics.scm
+	x11.h
+	x11.pkg
+	x11-shim.c
+	x11-shim.h
+	x11term.c
+	x11-terminal.bci
+	x11-terminal.bin
+	x11-terminal.com
+	x11-terminal.scm
+	x11-test.scm
+	x11-types.bin
+	x11-unx.crf
+	x11-unx.fre
+	x11-unx.pkd
+	
+	/home/joshua/Desktop/mit-scheme-11.2/src/x11/autom4te.cache:
+	output.0
+	output.1
+	output.2
+	output.3
+	requests
+	traces.0
+	traces.1
+	traces.2
+	traces.3
+	
+	/home/joshua/Desktop/mit-scheme-11.2/src/x11/m4:
+	libtool.m4
+	lt~obsolete.m4
+	ltoptions.m4
+	ltsugar.m4
+	ltversion.m4
+	
+	/home/joshua/Desktop/mit-scheme-11.2/src/x11-screen:
+	aclocal.m4
+	AUTHORS
+	autogen.sh
+	autom4te.cache
+	ChangeLog
+	compile.scm
+	compile.sh
+	config.log
+	config.status
+	configure
+	configure.ac
+	COPYING
+	ed-ffi.scm
+	INSTALL
+	install-sh
+	Makefile
+	Makefile.am
+	Makefile.in
+	make.scm
+	missing
+	NEWS
+	optiondb.scm
+	README
+	stamp-scheme
+	test-driver
+	x11-command.bci
+	x11-command.bin
+	x11-command.com
+	x11-command.scm
+	x11-key.bci
+	x11-key.bin
+	x11-key.com
+	x11-key.scm
+	x11-screen.bci
+	x11-screen.bin
+	x11-screen-check.sh
+	x11-screen.com
+	x11-screen.ext
+	x11-screen.pkg
+	x11-screen.scm
+	x11-screen-test.scm
+	x11-screen-unx.crf
+	x11-screen-unx.fre
+	x11-screen-unx.pkd
+	
+	/home/joshua/Desktop/mit-scheme-11.2/src/x11-screen/autom4te.cache:
+	output.0
+	output.1
+	requests
+	traces.0
+	traces.1
+	
+	/home/joshua/Desktop/mit-scheme-11.2/src/xdoc:
+	Clean.sh
+	compile.scm
+	db.scm
+	load.scm
+	Makefile
+	Makefile-fragment
+	Makefile.in
+	Setup.sh
+	Stage.sh
+	Tags.sh
+	validate-xdoc.scm
+	xdoc.pkg
+	xdoc.scm
+	
+	/home/joshua/Desktop/mit-scheme-11.2/src/xml:
+	Clean.sh
+	compile.scm
+	ed-ffi.scm
+	load.scm
+	Makefile
+	Makefile-fragment
+	Makefile.in
+	parser-macro.scm
+	rdf-nt.bci
+	rdf-nt.bin
+	rdf-nt.com
+	rdf-nt.scm
+	rdf-struct.bci
+	rdf-struct.bin
+	rdf-struct.com
+	rdf-struct.ext
+	rdf-struct.scm
+	Setup.sh
+	Stage.sh
+	Tags.sh
+	turtle.bci
+	turtle.bin
+	turtle.com
+	turtle.scm
+	xhtml.bci
+	xhtml.bin
+	xhtml.com
+	xhtml-entities.bci
+	xhtml-entities.bin
+	xhtml-entities.com
+	xhtml-entities.scm
+	xhtml.scm
+	xml-chars.bci
+	xml-chars.bin
+	xml-chars.com
+	xml-chars.scm
+	xml-names.bci
+	xml-names.bin
+	xml-names.com
+	xml-names.ext
+	xml-names.scm
+	xml-output.bci
+	xml-output.bin
+	xml-output.com
+	xml-output.ext
+	xml-output.scm
+	xml-parser.bci
+	xml-parser.bin
+	xml-parser.com
+	xml-parser.ext
+	xml-parser.scm
+	xml.pkg
+	xml-rpc.bci
+	xml-rpc.bin
+	xml-rpc.com
+	xml-rpc.scm
+	xml-struct.bci
+	xml-struct.bin
+	xml-struct.com
+	xml-struct.scm
+	xml-unx.crf
+	xml-unx.fre
+	xml-unx.pkd
+	xpath.scm
+	
+	/home/joshua/Desktop/mit-scheme-11.2/tests:
+	check.scm
+	Clean.sh
+	compiler
+	ffi
+	libraries
+	load.scm
+	microcode
+	runtime
+	sos
+	star-parser
+	Tags.sh
+	unit-testing.scm
+	xml
+	
+	/home/joshua/Desktop/mit-scheme-11.2/tests/compiler:
+	test-fasdump.scm
+	test-fgopt-conect.scm
+	test-open-code.scm
+	test-toplev.scm
+	test-varname.scm
+	test-vartrap.scm
+	test-y.scm
+	
+	/home/joshua/Desktop/mit-scheme-11.2/tests/ffi:
+	autobuild.sh
+	autogen.sh
+	configure.ac
+	ffi-test.c
+	ffi-test.cdecl
+	ffi-test.h
+	Makefile.am
+	optiondb.scm
+	test-ffi.scm
+	test-ffi.sh
+	test-ffi-wrapper.scm
+	
+	/home/joshua/Desktop/mit-scheme-11.2/tests/libraries:
+	test-srfi-133.scm
+	test-srfi-140.scm
+	test-srfi-143.scm
+	
+	/home/joshua/Desktop/mit-scheme-11.2/tests/microcode:
+	test-chacha.scm
+	test-flonum-casts.scm
+	test-flonum-except.scm
+	test-keccak.scm
+	test-lookup.scm
+	
+	/home/joshua/Desktop/mit-scheme-11.2/tests/runtime:
+	test-access.scm
+	test-amap.scm
+	test-arith.scm
+	test-binary-port.scm
+	test-bit-string.scm
+	test-boyer-moore.scm
+	test-bundle.scm
+	test-bytevector.scm
+	test-char.scm
+	test-char-set.scm
+	test-comparator.scm
+	test-compound-predicate.scm
+	test-digraph.scm
+	test-division.scm
+	test-dragon4.scm
+	test-dynamic-env.scm
+	test-entity.scm
+	test-ephemeron.scm
+	test-file-attributes.scm
+	test-floenv.scm
+	test-flonum.scm
+	test-hash-table.scm
+	test-ieee754.scm
+	test-integer-bits.scm
+	test-letrec.scm
+	test-library-data
+	test-library-ixports.scm
+	test-library-loader.scm
+	test-library-parser.scm
+	test-list.scm
+	test-md5.scm
+	test-mime-codec.scm
+	test-numpar.scm
+	test-optional.scm
+	test-os-env.scm
+	test-parametric-predicate.scm
+	test-pp.scm
+	test-predicate-dispatch.scm
+	test-predicate.scm
+	test-printer.scm
+	test-process.scm
+	test-promise.scm
+	test-random.scm
+	test-readwrite.scm
+	test-record.scm
+	test-regsexp.scm
+	test-rgxcmp.scm
+	test-sha3.scm
+	test-simple-matcher.scm
+	test-srfi-115.scm
+	test-srfi-1.scm
+	test-stream.scm
+	test-string-copy.scm
+	test-string-normalization-data
+	test-string-normalization.scm
+	test-string.scm
+	test-string-search-data
+	test-string-search.scm
+	test-syncproc.scm
+	test-syntax-rename.scm
+	test-syntax.scm
+	test-thread-queue.scm
+	test-trie.scm
+	test-ucd-data
+	test-ucd-grapheme.scm
+	test-ucd-word.scm
+	test-url.scm
+	test-weak-pair.scm
+	test-wttree.scm
+	
+	/home/joshua/Desktop/mit-scheme-11.2/tests/runtime/test-library-data:
+	dependencies.scm
+	foo-bar-1.scm
+	foo-bar-2.scm
+	foo-foo.scm
+	r7rs-example.scm
+	srfi-140-example.scm
+	support-code.scm
+	
+	/home/joshua/Desktop/mit-scheme-11.2/tests/runtime/test-ucd-data:
+	segmentation-support.scm
+	
+	/home/joshua/Desktop/mit-scheme-11.2/tests/sos:
+	test-genmult.scm
+	
+	/home/joshua/Desktop/mit-scheme-11.2/tests/star-parser:
+	test-parser.scm
+	
+	/home/joshua/Desktop/mit-scheme-11.2/tests/xml:
+	test-parser.scm
+	test-turtle.scm
+	
+	/home/joshua/Desktop/mit-scheme-11.2/v8:
+	src
+	
+	/home/joshua/Desktop/mit-scheme-11.2/v8/src:
+	bench
+	compiler
+	microcode
+	runtime
+	sf
+	
+	/home/joshua/Desktop/mit-scheme-11.2/v8/src/bench:
+	bench.cbf
+	bench.pkg
+	bench.sf
+	boyer.scm
+	browse.scm
+	compare-logs
+	conform.scm
+	cpstak.scm
+	ctak.scm
+	dderiv.scm
+	deriv.scm
+	destruct.scm
+	div.scm
+	earley.scm
+	fcomp.scm
+	fib.scm
+	library.scm
+	matmul1.scm
+	matmul2.scm
+	peval.scm
+	puzzle.scm
+	README
+	run.scm
+	takl.scm
+	tak.scm
+	traverse.scm
+	triangle.scm
+	wttree.scm
+	
+	/home/joshua/Desktop/mit-scheme-11.2/v8/src/compiler:
+	back
+	base
+	documentation
+	etc
+	machines
+	Makefile
+	midend
+	README
+	rtlbase
+	rtlopt
+	scoreboard.text
+	TODO
+	
+	/home/joshua/Desktop/mit-scheme-11.2/v8/src/compiler/back:
+	asmmac.scm
+	asutl.scm
+	bittop.scm
+	bitutl.scm
+	insseq.scm
+	lapgn1.scm
+	lapgn2.scm
+	lapgn3.scm
+	linear.scm
+	mermap.scm
+	regmap.scm
+	syerly.scm
+	symtab.scm
+	syntax.scm
+	
+	/home/joshua/Desktop/mit-scheme-11.2/v8/src/compiler/base:
+	asstop.scm
+	blocks.scm
+	cfg1.scm
+	cfg2.scm
+	cfg3.scm
+	constr.scm
+	crsend.scm
+	crstop.scm
+	debug.scm
+	enumer.scm
+	fasthash.scm
+	infnew.scm
+	macros.scm
+	make.scm
+	mvalue.scm
+	object.scm
+	parass.scm
+	pmerly.scm
+	pmlook.scm
+	pmpars.scm
+	scode.scm
+	sets.scm
+	stats.scm
+	switch.scm
+	toplev.scm
+	utils.scm
+	
+	/home/joshua/Desktop/mit-scheme-11.2/v8/src/compiler/documentation:
+	cmpaux.txt
+	cmpint.txt
+	debugging-info.txt
+	facts.txt
+	files.txt
+	midend
+	notes.txt
+	porting.guide
+	safety.txt
+	TASKS
+	todo.txt
+	
+	/home/joshua/Desktop/mit-scheme-11.2/v8/src/compiler/documentation/midend:
+	applicat.txt
+	assconv.txt
+	cleanup.txt
+	closconv.txt
+	compat.txt
+	copier.txt
+	cpsconv.txt
+	dataflow.txt
+	dbgstr.txt
+	debug.txt
+	earlyrew.txt
+	envconv.txt
+	expand.txt
+	fakeprim.txt
+	graph.txt
+	indexify.txt
+	inlate.txt
+	kmp.txt
+	lamlift.txt
+	laterew.txt
+	load.txt
+	midend.txt
+	overview.txt
+	rtlgen.txt
+	simplify.txt
+	split.txt
+	stackopt.txt
+	staticfy.txt
+	synutl.txt
+	triveval.txt
+	utils.txt
+	widen.txt
+	
+	/home/joshua/Desktop/mit-scheme-11.2/v8/src/compiler/etc:
+	asm.scm
+	comcmp.scm
+	comfiles.scm
+	disload.scm
+	stackp.scm
+	xcbfdir.scm
+	
+	/home/joshua/Desktop/mit-scheme-11.2/v8/src/compiler/machines:
+	i386
+	spectrum
+	
+	/home/joshua/Desktop/mit-scheme-11.2/v8/src/compiler/machines/i386:
+	assmd.scm
+	coerce.scm
+	compiler.cbf
+	compiler.pkg
+	compiler.sf
+	dassm1.scm
+	dassm2.scm
+	dassm3.scm
+	decls.scm
+	inerly.scm
+	insmac.scm
+	instr1.scm
+	instr2.scm
+	instrf.scm
+	insutl.scm
+	lapgen.scm
+	lapopt.scm
+	machin.scm
+	make.scm
+	pc-make.scm
+	rgspcm.scm
+	rules1.scm
+	rules2.scm
+	rules3.scm
+	rules4.scm
+	rulfix.scm
+	rulflo.scm
+	rulrew.scm
+	
+	/home/joshua/Desktop/mit-scheme-11.2/v8/src/compiler/machines/spectrum:
+	assmd.scm
+	coerce.scm
+	compiler.cbf
+	compiler.pkg
+	compiler.sf
+	dassm1.scm
+	dassm2.scm
+	dassm3.scm
+	decls.scm
+	inerly.scm
+	insmac.scm
+	instr1.scm
+	instr2.scm
+	instr3.scm
+	lapgen.scm
+	lapopt.scm
+	machin.scm
+	make.scm
+	rgspcm.scm
+	rules1.scm
+	rules2.scm
+	rules3.scm
+	rules4.scm
+	rulfix.scm
+	rulflo.scm
+	rulrew.scm
+	
+	/home/joshua/Desktop/mit-scheme-11.2/v8/src/compiler/midend:
+	alpha.scm
+	applicat.scm
+	assconv.scm
+	cleanup.scm
+	closconv.scm
+	coerce.scm
+	compat.scm
+	copier.scm
+	cpsconv.scm
+	dataflow.scm
+	dbgred.scm
+	dbgstr.scm
+	debug.scm
+	ea2.scm
+	earlyrew.scm
+	effects.scm
+	envconv.scm
+	errcont.scm
+	expand.scm
+	fakeprim.scm
+	frag.scm
+	graph.scm
+	indexify.scm
+	inlate.scm
+	kmp.scm
+	lamlift.scm
+	laterew.scm
+	load.scm
+	midend.scm
+	rtlgen.scm
+	simplify.scm
+	split.scm
+	stack-args.txt
+	stackopt.scm
+	staticfy.scm
+	synutl.scm
+	triveval.scm
+	typedb.scm
+	typerew.scm
+	types.scm
+	utils.scm
+	widen.scm
+	
+	/home/joshua/Desktop/mit-scheme-11.2/v8/src/compiler/rtlbase:
+	regset.scm
+	rgraph.scm
+	rtlcfg.scm
+	rtlcon.scm
+	rtlexp.scm
+	rtline.scm
+	rtlobj.scm
+	rtlpars.scm
+	rtlreg.scm
+	rtlty1.scm
+	rtlty2.scm
+	valclass.scm
+	
+	/home/joshua/Desktop/mit-scheme-11.2/v8/src/compiler/rtlopt:
+	ralloc.scm
+	rcompr.scm
+	rcse1.scm
+	rcse2.scm
+	rcseep.scm
+	rcseht.scm
+	rcsemrg.scm
+	rcserq.scm
+	rcsesr.scm
+	rdebug.scm
+	rdflow.scm
+	rerite.scm
+	rinvex.scm
+	rlife.scm
+	rsched.scm
+	rtlcsm.scm
+	
+	/home/joshua/Desktop/mit-scheme-11.2/v8/src/microcode:
+	bintopsb.c
+	cmpauxmd
+	cmpint.c
+	cmpintmd
+	const.h
+	fasl.h
+	fixobj.h
+	gctype.c
+	interp.c
+	liarc.h
+	lookup.c
+	lookup.h
+	mul.c
+	object.h
+	ppband.c
+	psbmap.h
+	psbtobin.c
+	returns.h
+	TODO
+	trap.h
+	typename.txt
+	types.h
+	utabmd.scm
+	version.h
+	
+	/home/joshua/Desktop/mit-scheme-11.2/v8/src/microcode/cmpauxmd:
+	hppa.m4
+	
+	/home/joshua/Desktop/mit-scheme-11.2/v8/src/microcode/cmpintmd:
+	hppa.h
+	
+	/home/joshua/Desktop/mit-scheme-11.2/v8/src/runtime:
+	coerce.scm
+	conpar.scm
+	dbgutl.scm
+	framex.scm
+	global.scm
+	infstr.scm
+	infutl.scm
+	load.scm
+	make.scm
+	prgcop.scm
+	runcheck.cbf
+	runtime.cbf
+	runtime.pkg
+	uenvir.scm
+	
+	/home/joshua/Desktop/mit-scheme-11.2/v8/src/sf:
+	cross.scm
+	gconst.scm
+	make.scm
+	pardec.scm
+	sf.pkg
+	subst.scm
+	toplev.scm
+	usicon.scm
+	usiexp.scm
+	
+	/home/joshua/Docum:
+	betty
+	c1
+	c2
+	c3
+	cassy
+	cl
+	daniel
+	danny
+	dimitri
+	el
+	file2
+	filefromProjects
+	file.info1
+	file.info2
+	first_file
+	footer
+	footer.1
+	footer.2
+	greeting
+	index.html
+	installation.txt
+	JoshuaLe-lab2.txt
+	journal
+	lab1.txt
+	lab4.txt
+	lab5.txt
+	lab6.txt
+	lost-days
+	manywords
+	me_A
+	megan
+	monika
+	month
+	mydata.txt
+	myerr
+	myfile1
+	myoutput
+	mypasswd
+	names.tmp
+	newfile1A
+	newfile2B2
+	owen
+	phon
+	practice
+	quiz3.txt
+	readme
+	report3
+	respected
+	review
+	script1
+	script.js
+	second_file
+	short-pass
+	s-mypasswd
+	sortedsp3
+	sorted-test-sor
+	sort-test
+	sp2
+	sp3
+	style.css
+	test-file1
+	test-file2
+	test-g
+	test-list
+	test-sor
+	test.txt
+	total
+	trouble
+	users_on
+	users_test
+	west-coast.names
+	words.out
+	wordsUsed
+	wordsUsed1
+	wordsUsed2
+	wordsUsed3
+	wordsUsed4
+	wordsUsed5
+	wordsUsed6
+	wordsUsed7
+	wordsUsed8
+	
+	/home/joshua/Documents:
+	
+	/home/joshua/Downloads:
+	
+	/home/joshua/exam1:
+	alpha
+	essay
+	exam
+	file1
+	file2
+	file3
+	file4
+	file5
+	tr
+	
+	/home/joshua/foo:
+	
+	/home/joshua/Music:
+	
+	/home/joshua/Papers:
+	
+	/home/joshua/Pictures:
+	
+	/home/joshua/Private:
+	lost-days
+	users_on
+	
+	/home/joshua/Projects:
+	actions
+	Corresp
+	Docum
+	f-name
+	greeting
+	month
+	rf
+	testing
+	
+	/home/joshua/Projects/Corresp:
+	replies
+	
+	/home/joshua/Public:
+	
+	/home/joshua/Recommendations:
+	
+	/home/joshua/repos:
+	test
+	
+	/home/joshua/repos/test:
+	hello_world.txt
+	README.md
+	
+	/home/joshua/Resumes:
+	logged.on
+	month2
+	month.bak
+	mylogin
+	new.date
+	short-passA
+	today
+	
+	/home/joshua/Skye:
+	
+	/home/joshua/Templates:
+	OpenDocument Spreadsheet.ods
+	OpenDocument Text.odt
+	Plain Text.txt
+	
+	/home/joshua/Videos:
