@@ -1,0 +1,11 @@
+echo Searching for $*
+
+grep $1 $HOME/.addr_book 
+
+echo All Address Book Entries:
+
+sort $HOME/.addr_book 
+
+
+ 
+

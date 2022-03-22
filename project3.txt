@@ -1,0 +1,815 @@
+Script started on 2022-03-22 14:32:42-07:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls bin
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ cd bin
+]0;joshua@joshua-VirtualBox: ~/bin[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/bin[00m$ touch lookup.txt
+]0;joshua@joshua-VirtualBox: ~/bin[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/bin[00m$ ls
+lookup.txt
+]0;joshua@joshua-VirtualBox: ~/bin[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/bin[00m$ chmod 7777[K lookup.txt
+]0;joshua@joshua-VirtualBox: ~/bin[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/bin[00m$ ls -al
+total 8
+drwxrwxr-x  2 joshua joshua 4096 Mar 22 14:33 [0m[01;34m.[0m
+drwxr-xr-x 37 joshua joshua 4096 Mar 22 14:32 [01;34m..[0m
+-rwxrwxrwx  1 joshua joshua    0 Mar 22 14:33 [01;32mlookup.txt[0m
+]0;joshua@joshua-VirtualBox: ~/bin[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/bin[00m$ vi lookup.txt
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"lookup.txt" 0 lines, 0 characters[2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h[?2004l[>4;m[?25l[me[?25h[?25lc[?25h[?25lh[?25h[?25lo[?25h[?25l [?25h[?25lS[?25h[?25le[?25h[?25la[?25h[?25lr[?25h[?25lc[?25h[?25lh[?25h[?25li[?25h[?25ln[?25h[?25lg[?25h[?25l [?25h[?25lf[?25h[?25lo[?25h[?25lr[?25h[?25l [?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l#[?25h[?25l![?25h[?25l [?25h[?25l[?25h[?25l/[?25h[?25lb[?25h[?25li[?25h[?25ln[?25h[?25l/[?25h[?25ll[?25h[?25lo[?25h[?25lo[?25h[?25lk[?25h[?25lp[?25h[?25l[?25h[?25lu[?25h[?25lp[?25h[?25l.[?25h[?25lt[?25h[?25lx[?25h[?25lt[?25h[?2004h[>4;2m[?25l[1;18H[K[1;17H[?25h[?2004l[>4;m[?25l[1;23r[1;1H[L[1;24r[1;1HC[24;1H[K[1;2H[?25h[?25l[?25h[?2004h[>4;2m[?25l[1;1H[K[1;1H[?25h[?2004l[>4;m[?25l[1;23r[1;1H[L[1;24r[1;1HB[?25h[?2004h[>4;2m[?2004l[>4;m[?25leB[?25h[?25lcB[?25h[?25lhB[?25h[?25loB[?25h[?25l B[?25h[?25lTB[?25h[?25lhB[?25h[?25l[?25h[?25l[?25h[?25lS[?25h[?25le[?25h[?25laB[?25h[?25lrB[?25h[?25lcB[?25h[?25lhB[?25h[?25liB[?25h[?25lnB[?25h[?25lgB[?25h[?25l B[?25h[?25lfB[?25h[?25loB[?25h[?25lrB[?25h[?25l B[?25h[?25l#B[?25h[?25l1B[?25h[?25l[?25h[?25l[?25h[?25l$[?25h[?25l1[?25h[?25l.B[?25h[?25l.B[?25h[?25l.B[?25h[?2004h[>4;2m[?2004l[>4;m[?25l[1;23r[1;1H[L[1;24r[1;1HD[?25h[?25l[?25h[?2004h[>4;2m[?25l[1;1H[K[1;1H[?25h[?25l[24;1H:[?2004h[?25h!q[?25l:!q[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t
+[No write since last change]
+/bin/bash: q: command not found
+
+shell returned 127
+
+Press ENTER or type command to continue[?1049h[22;0;0t[>4;2m[?1h=[?2004h[27m[23m[29m[m[H[2J[?25l[2;1Hecho Searching for $1...B
+
+#!/bin/lookup.txt
+[94m~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h[?25l[24;1H[m:[?2004h[?25hq[?25l[97m[41mE37: No write since last change (add ! to override)[?2004h[1;1H[?25h[?25l[m[24;1H[K[24;1H:[?2004h[?25h!q[?25l:!q[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t
+[No write since last change]
+/bin/bash: q: command not found
+
+shell returned 127
+
+Press ENTER or type command to continue[?1049h[22;0;0t[>4;2m[?1h=[?2004h[27m[23m[29m[m[H[2J[?25l[2;1Hecho Searching for $1...B
+
+#!/bin/lookup.txt
+[94m~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h[?25l[24;1H[m:[?2004h[?25h1q[?25l[97m[41mE37: No write since last change (add ! to override)[?2004h[1;1H[?25h[?25l[m[24;1H[K[24;1H:[?2004h[?25h!q[?25l:!q[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t
+[No write since last change]
+/bin/bash: q: command not found
+
+shell returned 127
+
+Press ENTER or type command to continue[?1049h[22;0;0t[>4;2m[?1h=[?2004h[27m[23m[29m[m[H[2J[?25l[2;1Hecho Searching for $1...B
+
+#!/bin/lookup.txt
+[94m~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h[?2004l[>4;m[?25l[ma[?25h[?25la[?25h[?25la[?25h[?25la[?25h[?25la[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l"[?25h[?25l:[?25h[?25l[?25h[?2004h[>4;2m[?25l[1;2H[K[1;1H[?25h[?25l[24;1H:[?2004h[?25hwq[?25l[24;3H[K[24;3H[?25h[?25l[24;2H[K[24;2H[?25hq[?25l[97m[41mE37: No write since last change (add ! to override)[?2004h[1;1H[?25h[?25l[m[24;1H[K[24;1H:[?2004h[?25h1[?25l[24;2H[K[24;2H[?25h![?25l:![?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t
+[No write since last change]
+
+Press ENTER or type command to continue[?1049h[22;0;0t[>4;2m[?1h=[?2004h[27m[23m[29m[m[H[2J[?25l[1;1H"
+echo Searching for $1...B
+
+#!/bin/lookup.txt
+[94m~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h[?25l[24;1H[m:[?2004h[?25hwq[?25l[24;3H[K[24;3H[?25h[?25l[24;2H[K[24;2H[?25hq[?25l[24;2H[K[24;2H[?25hwq[?25l[24;3H[K[24;3H[?25h[?25l[24;2H[K[24;2H[?25hq![?25l[?2004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t
+]0;joshua@joshua-VirtualBox: ~/bin[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/bin[00m$ vi lookup.txt
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"lookup.txt" 0 lines, 0 characters[2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h[?2004l[>4;m[?25l[m[2;1H[K[2;1H[?25h[?25l [?25h[?2004h[>4;2m[?2004l[>4;m[?25l[2;23r[2;1H[L[1;24r[2;1HA[24;1H[K[2;2H[?25h[?2004h[>4;2m[?2004l[>4;m[?25l[2;23r[2;1H[L[1;24r[2;1HD[?25h[?25la[?25h[?2004h[>4;2m[1;1H[?2004l[>4;m[?25lS[?25h[?25le[?25h[?25la[?25h[?25lr[?25h[?25lc[?25h[?25lh[?25h[?25li[?25h[?25ln[?25h[?25lg[?25h[?25l [?25h[?25lf[?25h[?25lo[?25h[?25lr[?25h[?25l [?25h[?25l$[?25h[?25l1[?25h[?25l.[?25h[?25l.[?25h[?25l.[?25h[?2004h[>4;2m
+D[?2004l[>4;m[?25l Da[?25h[?2004h[>4;2m[?2004l[>4;m[?25l[2;23r[2;1H[L[1;24r[2;1HC[?25h[?2004h[>4;2m[?2004l[>4;m[?25l C[?25h[?25l[?25h[?2004h[>4;2m[?25lC[2;2H[K[2;1H[?25h
+[2;1H[?25l[2;1H[K[2;1H[?25h
+ [?25la[3;3H[K[3;2H[?25h[?25l[3;2H[K[3;1H[?25h[2;1H
+[?25l[?25h[?2004l[>4;m[?25lM[?25h[?25li[?25h[?2004h[>4;2m[?2004l[>4;m[?25l$Mi[?25h[?25l1Mi[?25h[?2004h[>4;2m1[?25li[3;4H[K[3;3H[?25h[?25l[3;3H[K[3;2H[?25h[?2004l[>4;m1[?25l [?25h[?2004h[>4;2m[2;1H[1;3H[?2004l[>4;m[?25leSearching for $1...e[?25h[?25lcSearching for $1...ec[?25h[?25lhSearching for $1...ech[?25h[?25loSearching for $1...echo[?25h[?25l Searching for $1...echo [?25h[?2004h[>4;2m
+
+$1[?2004l[>4;m[?25le$1[?25h[?25lc$1[?25h[?25lh$1[?25h[?25lo$1[?25h[?25l $1[?25h[?2004h[>4;2m $1[?2004l[>4;m[?25l [?25h[?25l$[?25h[?25l2[?25h[?25l [?25h[?25l-[?25h[?25l [?25h[?25l$[?25h[?25l3[?25h[?25l [?25h[?25l-[?25h[?25l [?25h[?25l$[?25h[?25l4[?25h[?2004h[>4;2m
+[?25l[4;1H[K[4;1H[?25h
+[?2004l[>4;m[?25l[6;1H[K[6;1H[?25h[?25l [?25h[?2004h[>4;2m[5;1H[?2004l[>4;m[?25lE[?25h[?2004h[>4;2m[?25le[?25h[?2004l[>4;m[?25l[6;23r[6;1H[L[1;24r[6;1H[?25h[?2004h[>4;2m[?2004l[>4;m[?25l[6;23r[6;1H[L[1;24r[6;1HA[?25h[?2004h[>4;2m[?25l[6;1H[K[6;1H[?25h[5;1H[?2004l[>4;m[?25lee[?25h[?25lce[?25h[?25lhe[?25h[?25loe[?25h[?2004h[>4;2m[?25lO[?25h[?25l [?25h[?25l[?25h[?25l[5;4H[K[5;3H[?25h[?2004l[>4;mh[?25lo[?25h[?25l [?25h[?25lA[?25h[?25ll[?25h[?25ll[?25h[?25l [?25h[?25lA[?25h[?25ld[?25h[?25lr[?25h[?25le[?25h[?25ls[?25h[?25ls[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25ld[?25h[?25lr[?25h[?25le[?25h[?25ls[?25h[?25ls[?25h[?25l [?25h[?25lB[?25h[?25lo[?25h[?25lo[?25h[?25lk[?25h[?25l [?25h[?25lE[?25h[?25ln[?25h[?25lt[?25h[?25lr[?25h[?25li[?25h[?25le[?25h[?25ls[?25h[?25l:[?25h[?25l[6;23r[6;1H[L[1;24r[6;1H[?25h[?2004h[>4;2m
+[?2004l[>4;m[?25lg[?25h[?2004h[>4;2m[6;1H[5;1H[4;1H[3;1H[2;1H[1;1He
+[1;2Hcho Searching for $
+[3;21H[?2004l[>4;m[?2004h[>4;2m[?25l[?25h[?25leOcho $1 $2 - $3 - $4e[?25h[?2004l[>4;m[?2004h[>4;2m[?2004l[>4;m[?2004h[>4;2m[?25lE[?25h[?25lcho $1 $2 - $3 - $4 E[?25h[?25lho $1 $2 - $3 - $4 E[?25h[?25lo $1 $2 - $3 - $4 E[?25h[?25l $1 $2 - $3 - $4 E[?25h[?25l$1 $2 - $3 - $4 E[?25h[?25l1 $2 - $3 - $4 E[?25h[?25l $2 - $3 - $4 E[?25h[?25l$2 - $3 - $4 E[?25h[?25l2 - $3 - $4 E[?25h[?25l - $3 - $4 E[?25h[?25l- $3 - $4 E[?25h[?25l $3 - $4 E[?25h[?25l$3 - $4 E[?25h[?25l3 - $4 E[?25h[?25l - $4 E[?25h[?25l- $4 E[?25h[?25l $4 E[?25h[?25l$4 E[?25h[?25l4 [?25h[?25l [?25h[?25l[?25h[?2004l[>4;m[?2004h[>4;2m[?25le[?25h[?2004l[>4;m[?2004h[>4;2m[?25lE[?25h[?2004l[>4;m[?2004h[>4;2m[?25le[?25h[?2004l[>4;m[?25lge[?25h[?25lre[?25h[?2004h[>4;2m[?2004l[>4;mr[?25lpe[?25h[?2004h[>4;2m[?2004l[>4;m[?25l[3;23r[3;1H[L[1;24r[3;1HD[?25h[?25lz[?25h[?2004h[>4;2m[?25lz[3;2H[K[3;1H[?25h[?25l[3;1H[K[3;1H[?25h[2;1H
+
+[?25lrpe[4;4H[K[4;1H[?25h[?25lpe[4;3H[K[4;1H[?25h[?25le[4;2H[K[4;1H[?25h[?25l[4;1H[K[4;1H[?25h[3;1H
+[3;1H
+
+
+
+[6;1H[?25lcho All Address Book Entries:[6;30H[K[6;1H[?25h[?25lho All Address Book Entries:[6;29H[K[6;1H[?25h[?25lo All Address Book Entries:[6;28H[K[6;1H[?25h[?25l All Address Book Entries:[6;27H[K[6;1H[?25h[?25lAll Address Book Entries:[6;26H[K[6;1H[?25h[?25lll Address Book Entries:[6;25H[K[6;1H[?25h[?25ll Address Book Entries:[6;24H[K[6;1H[?25h[?25l Address Book Entries:[6;23H[K[6;1H[?25h[?25lAddress Book Entries:[6;22H[K[6;1H[?25h[?25lddress Book Entries:[6;21H[K[6;1H[?25h[?25ldress Book Entries:[6;20H[K[6;1H[?25h[?25lress Book Entries:[6;19H[K[6;1H[?25h[?25less Book Entries:[6;18H[K[6;1H[?25h[?25lss Book Entries:[6;17H[K[6;1H[?25h[?25ls Book Entries:[6;16H[K[6;1H[?25h[?25l Book Entries:[6;15H[K[6;1H[?25h[?25lBook Entries:[6;14H[K[6;1H[?25h[?25look Entries:[6;13H[K[6;1H[?25h[?25lok Entries:[6;12H[K[6;1H[?25h[?25lk Entries:[6;11H[K[6;1H[?25h[?25l Entries:[6;10H[K[6;1H[?25h[?25lEntries:[6;9H[K[6;1H[?25h[?25lntries:[6;8H[K[6;1H[?25h[?25ltries:[6;7H[K[6;1H[?25h[?25lries:[6;6H[K[6;1H[?25h[?25lies:[6;5H[K[6;1H[?25h[?25les:[6;4H[K[6;1H[?25h[?25ls:[6;3H[K[6;1H[?25h[?25l:[6;2H[K[6;1H[?25h[?25l[6;1H[K[6;1H[?25h
+
+
+[8;1H[?25l[8;1H[K[8;1H[?25h[7;1H[6;1H[5;1H[4;1H[3;1H[2;1H
+[?2004l[>4;m[?25lg[?25h[?25lr[?25h[?25le[?25h[?25lp[?25h[?25l [?25h[?25l'[?25h[?25l$[?25h[?25l*[?25h[?25l'[?25h[?2004h[>4;2m[2;1H[1;9Hrching for $[?25l[24;1H/\<1\>[31msearch hit BOTTOM, continuing at TOP[1;21H[?25h[?2004l[>4;m[?25l[m*1...[?25h[?2004h[>4;2m*[?25l.[1;25H[K[1;22H[?25h
+[3;9H[?2004l[>4;m[?2004h[>4;2m[?2004l[>4;m*[?2004h[>4;2m*[?2004l[>4;m'[?25l [?25h[?25l$[?25h[?25lH[?25h[?25lO[?25h[?25lM[?25h[?25lE[?25h[?25l.[?25h[?25l/[?25h[?25l[?25h[?25l[?25h[?25l/[?25h[?25l.[?25h[?25la[?25h[?25ld[?25h[?25ld[?25h[?25lr[?25h[?25l_[?25h[?25lb[?25h[?25lo[?25h[?25lo[?25h[?25lk[?25h[?25l [?25h[?25l|[?25h[?25l [?25h[?25le[?25h[?25lc[?25h[?25lh[?25h[?25lo[?25h[?2004h[>4;2m
+
+
+[5;1H[10;1H[?2004l[>4;m[?25l[11;1H[K[11;1H[?25h[?2004h[>4;2m[10;1H[9;1H[8;1H[7;1H[6;1H[5;1H[?2004l[>4;m[?25le[?25h[?25lc[?25h[?25lh[?25h[?25lo[?25h[?25l [?25h[?25lA[?25h[?25ll[?25h[?25ll[?25h[?25l [?25h[?25lA[?25h[?25ld[?25h[?25lr[?25h[?25le[?25h[?25ls[?25h[?25ls[?25h[?25l [?25h[?25lB[?25h[?25lo[?25h[?25lo[?25h[?25lk[?25h[?25l [?25h[?25lE[?25h[?25ln[?25h[?25lt[?25h[?25lr[?25h[?25li[?25h[?25le[?25h[?25ls[?25h[?25l:[?25h[?2004h[>4;2m
+
+[?2004l[>4;m[?25ls[?25h[?25lo[?25h[?25lr[?25h[?25lt[?25h[?25l [?25h[?25l$[?25h[?25lH[?25h[?25lO[?25h[?25lM[?25h[?25lE[?25h[?25l/[?25h[?25l.[?25h[?25la[?25h[?25ld[?25h[?25ld[?25h[?25lr[?25h[?25l+[?25h[?25lb[?25h[?25lo[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l_[?25h[?25lb[?25h[?25lo[?25h[?25lo[?25h[?25lk[?25h[?25l [?25h[?25l|[?25h[?25l [?25h[?25le[?25h[?25lc[?25h[?25lh[?25h[?25lo[?25h[?2004h[>4;2m[?25l[24;1H[K[24;1H:[?2004h[?25hwq[?25l[?2004l"lookup.txt" 11 lines, 126 characters written
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;joshua@joshua-VirtualBox: ~/bin[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/bin[00m$ ls
+[0m[01;32mlookup.txt[0m
+]0;joshua@joshua-VirtualBox: ~/bin[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/bin[00m$ lookup.txt Murphy
+lookup.txt: command not found
+]0;joshua@joshua-VirtualBox: ~/bin[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/bin[00m$ ./lookup.txt Murphy
+Searching for Murphy...
+
+All Adress Book Entries:
+
+]0;joshua@joshua-VirtualBox: ~/bin[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/bin[00m$ vi lookup.txt
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"lookup.txt" 11 lines, 126 characters[1;1Hecho Searching for $*...
+
+grep '$*' $HOME/.addr_book | echo
+
+echo All Adress Book Entries:
+
+sort $HOME/.addr_book | echo[12;1H[94m~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h
+
+[mgrep '$*' $HOME/.addr_book | ech ech[?25l[3;33H[K[3;32H[?25h[?25l[3;32H[K[3;31H[?25h[?25l[3;31H[K[3;30H[?25h[?25l[3;30H[K[3;29H[?25h[?25l[?25h [?25l[3;28H[K[3;27H[?25h
+[5;27H
+[7;27Hh[?25l[7;28H[K[7;27H[?25h[?25l[7;27H[K[7;26H[?25h[?25l[7;26H[K[7;25H[?25h[?25l[7;25H[K[7;24H[?25h[?25l[?25h[?25l[7;23H[K[7;22H[?25h[?25l[24;1H[K[24;1H:[?2004h[?25hwq[?25l[?2004l"lookup.txt" 11 lines, 114 characters written
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;joshua@joshua-VirtualBox: ~/bin[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/bin[00m$ ./lookup.txt Murphy
+Searching for Murphy...
+Mike Murphy - Unix/Linux Instructor - email: murphymike@fhda.edu
+Thomas Wayne - Batman Dad - email: batmandad@gmail.com
+Bruce Wayne - Batman - email: therealbatman@yahoo.com
+All Adress Book Entries:
+Bruce Wayne - Batman - email: therealbatman@yahoo.com
+Mike Murphy - Unix/Linux Instructor - email: murphymike@fhda.edu
+Thomas Wayne - Batman Dad - email: batmandad@gmail.com
+]0;joshua@joshua-VirtualBox: ~/bin[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/bin[00m$ vi lookup.txt
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"lookup.txt" 11 lines, 114 characters[1;1Hecho Searching for $*...
+
+grep '$*' $HOME/.addr_book
+
+echo All Adress Book Entries:
+
+sort $HOME/.addr_book[12;1H[94m~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h
+
+
+
+[mecho All A[?2004l[>4;mA[?25lddress Book Entries:[5;12H[?25h[?2004h[>4;2m[4;1H[3;11H[?2004l[>4;m[?25l  '$*' $HOME/.addr_bookgrep [?25h[?25l- '$*' $HOME/.addr_book[3;7H[?25h[?25li '$*' $HOME/.addr_book[3;8H[?25h[?25l  '$*' $HOME/.addr_book[3;9H[?25h[?25l[?25h[?2004h[>4;2m[?25l '$*' $HOME/.addr_book [3;7H[?25h[?25lI[?25h[?2004l[>4;m[?2004h[>4;2m[?2004l[>4;m[?25l[3;23r[3;1H[L[1;24r[3;1HD[24;1H[K[3;2H[?25h[?2004h[>4;2m[?25l[24;1H1 line less; before #4  15 seconds ago[3;23r[23;1H
+[1;24r[23;1H[94m~                                                                               [m[24;1H[K[24;1H1 line less; before #4  15 seconds ago[3;6H[?25h[?25l[24;3Hmore line; after #4  16 seconds ago[24;38H[K[3;23r[3;1H[L[1;24r[3;1HD[24;1H[K[24;1H1 more line; after #4  16 seconds ago[3;1H[?25h[?25l[24;3Hline less; before #4  17 seconds ago[3;23r[23;1H
+[1;24r[23;1H[94m~                                                                               [m[24;1H[K[24;1H1 line less; before #4  17 seconds ago[3;6H[?25h[?25l[24;3Hmore line; after #4  17 seconds ago[24;38H[K[3;23r[3;1H[L[1;24r[3;1HD[24;1H[K[24;1H1 more line; after #4  17 seconds ago[3;1H[?25h[?25l[24;3Hline less; before #4  18 seconds ago[3;23r[23;1H
+[1;24r[23;1H[94m~                                                                               [m[24;1H[K[24;1H1 line less; before #4  18 seconds ago[3;6H[?25h-[?2004l[>4;m[?25liI '$*' $HOME/.addr_book[3;8H[?25h[?2004h[>4;2mi[?25l '$*' $HOME/.addr_book [3;8H[?25h [?2004l[>4;m[?25lwi '$*' $HOME/.addr_book[3;8H[?25h[?2004h[>4;2mw[?25l '$*' $HOME/.addr_book [3;8H[?25h[?25l[24;1H[K[24;1H:[?2004h[?25hwq[?25l[?2004l"lookup.txt" 11 lines, 118 characters written
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;joshua@joshua-VirtualBox: ~/bin[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/bin[00m$ l[Kvi lookup.txt./lookup.txt Murphy
+Searching for Murphy...
+Mike Murphy - Unix/Linux Instructor - email: murphymike@fhda.edu
+Thomas Wayne - Batman Dad - email: batmandad@gmail.com
+Bruce Wayne - Batman - email: therealbatman@yahoo.com
+All Address Book Entries:
+Bruce Wayne - Batman - email: therealbatman@yahoo.com
+Mike Murphy - Unix/Linux Instructor - email: murphymike@fhda.edu
+Thomas Wayne - Batman Dad - email: batmandad@gmail.com
+]0;joshua@joshua-VirtualBox: ~/bin[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/bin[00m$ cd
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ vi ./addrb[K[K_[Kr_book
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"./addr_book" [New File][2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h[?25l[m[24;1H[K[24;1H:[?2004h[?25hq![?25l[?2004l[24;1H[K[24;1H[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ls
+ 16}          el                  [0m[01;32mmydata.txt[0m            s-mypasswd
+ 2,           [01;34mexam1[0m               myerr                 sortedsp3
+ 3,           [01;34mexam2[0m               myerrors              sorted-test-sor
+ 4,           file2               myfile1               sort-test
+ [01;34ma[0m            file.info1          myoutput              sp2
+'ABC[1,'      file.info2          mypasswd              sp3
+ ABC1         filewho             my-tmp-files          style.css
+ ABC16        first_file          names.tmp             summaries
+ ABC2         [01;34mfoo[0m                 newfile1A             [01;34mTemplates[0m
+ ABC3         footer              newfile2B2            test-file1
+ ABC4         footer.1            n-on                  test-file2
+ [01;34mArchives[0m     footer.2            [01;34mPapers[0m                test-g
+ bb           greeting            [01;32mpermtest[0m              testing
+ betty        index               phon                  test-list
+ [01;34mbin[0m          index.html          [01;34mPictures[0m              test-sor
+ c1           [01;32minform[0m              pract-2               [01;32mtest.txt[0m
+ c2           installation.txt    practi-2              [01;36mtmp[0m
+ c3           [01;34mjobs[0m                practice              total
+ chap         JoshuaLe-lab2.txt   present               trouble
+ chapter      journal             [01;34mPrivate[0m               [01;32musers_on[0m
+ chapter1     junk-wc             [01;34mproject2[0m              users_test
+ chapter2     lab1.txt            project2session.txt   [01;34mVideos[0m
+ chapter2-5   lab4.txt            project3.txt          wc
+ chapter3     lab5.txt            [01;34mProjects[0m              west-coast.names
+ chapter4     lab6.txt            [01;34mPublic[0m                words.out
+ chapter5     lab7.txt            [01;34mpublic_html[0m           [01;32mwordsUsed[0m
+ chapter57    lab8.txt            quiz3.txt             [01;32mwordsUsed1[0m
+ chapter5A    lost-days           [01;34mRecommendations[0m       [01;32mwordsUsed2[0m
+ chapter62    lserror             [01;34mrepos[0m                 [01;32mwordsUsed3[0m
+ chapterA     ls-files            respected             [01;32mwordsUsed4[0m
+ chapterR     lsoutput            [01;34mResumes[0m               [01;32mwordsUsed5[0m
+ cl           manywords           review                [01;32mwordsUsed6[0m
+ daniel       me_A                script1               [01;32mwordsUsed7[0m
+ [01;34mDesktop[0m      megan               script.js             [01;32mwordsUsed8[0m
+ [01;34mDocum[0m        month               second_file           yr1752
+ [01;34mDocuments[0m    [01;34mMusic[0m               short-pass
+ [01;34mDownloads[0m    [01;34mmybin[0m               [01;34mSkye[0m
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ ^C
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ d [K[Kcd bin
+]0;joshua@joshua-VirtualBox: ~/bin[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/bin[00m$ ls
+[0m[01;32mlookup.txt[0m
+]0;joshua@joshua-VirtualBox: ~/bin[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/bin[00m$ cd
+]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ vi .addr_book
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H".addr_book" 3 lines, 174 characters[1;1HMike Murphy - Unix/Linux Instructor - email: murphymike@fhda.edu
+Thomas Wayne - Batman Dad - email: batmandad@gmail.com
+Bruce Wayne - Batman - email: therealbatman@yahoo.com
+[94m~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h[mMike [2;6H[3;6H [2;6H[1;6H[?25l[24;1H[K[24;1H:[?2004h[?25hq[?25l[24;2H[K[24;2H[?25hq[?25l[?2004l[24;1H[K[24;1H[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;joshua@joshua-VirtualBox: ~[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~[00m$ vi [K[K[Kcd bin
+]0;joshua@joshua-VirtualBox: ~/bin[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/bin[00m$ vi lookup.txt
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"lookup.txt" 11 lines, 118 characters[1;1Hecho Searching for $*...
+
+grep -w '$*' $HOME/.addr_book
+
+echo All Address Book Entries:
+
+sort $HOME/.addr_book[12;1H[94m~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h[?2004l[>4;m[?2004h[>4;2m[?2004l[>4;m[?25l[1;23r[m[1;1H[L[1;24r[1;1HC[24;1H[K[1;2H[?25h[?2004h[>4;2m[?25l[24;1H1 line less; before #1  2 seconds ago[1;23r[23;1H
+[1;24r[23;1H[94m~                                                                               [m[24;1H[K[24;1H1 line less; before #1  2 seconds ago[1;1H[?25h[?2004l[>4;m[?2004h[>4;2m[?2004l[>4;m[?25l[1;23r[1;1H[L[1;24r[1;1HC[24;1H[K[1;2H[?25h[?25lu[?25h[?2004h[>4;2m[?25l[24;1H1 line less; before #2  4 seconds ago[1;23r[23;1H
+[1;24r[23;1H[94m~                                                                               [m[24;1H[K[24;1H1 line less; before #2  4 seconds ago[1;1H[?25hecho Searching for $*..[?25l[1;24H[K[1;23H[?25h[?25l[1;23H[K[1;22H[?25h[?25l[1;22H[K[1;21H[?25h[?25l[24;1H[K[24;1H:[?2004h[?25hwq[?25l[?2004l"lookup.txt" 11 lines, 115 characters written
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;joshua@joshua-VirtualBox: ~/bin[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/bin[00m$ ./l[K[K[Kvi lookup.txt[7Pcd binvi .addr_bookcd[Klscd bin[4Plsvi ./addr_bookcd[K./lookup.txt Murphy
+Searching for Murphy
+Mike Murphy - Unix/Linux Instructor - email: murphymike@fhda.edu
+Thomas Wayne - Batman Dad - email: batmandad@gmail.com
+Bruce Wayne - Batman - email: therealbatman@yahoo.com
+All Address Book Entries:
+Bruce Wayne - Batman - email: therealbatman@yahoo.com
+Mike Murphy - Unix/Linux Instructor - email: murphymike@fhda.edu
+Thomas Wayne - Batman Dad - email: batmandad@gmail.com
+]0;joshua@joshua-VirtualBox: ~/bin[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/bin[00m$ ./lookup.txt Murphy[K[K[K[K[K[KThomas Wayne
+Searching for Thomas Wayne
+Mike Murphy - Unix/Linux Instructor - email: murphymike@fhda.edu
+Thomas Wayne - Batman Dad - email: batmandad@gmail.com
+Bruce Wayne - Batman - email: therealbatman@yahoo.com
+All Address Book Entries:
+Bruce Wayne - Batman - email: therealbatman@yahoo.com
+Mike Murphy - Unix/Linux Instructor - email: murphymike@fhda.edu
+Thomas Wayne - Batman Dad - email: batmandad@gmail.com
+]0;joshua@joshua-VirtualBox: ~/bin[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/bin[00m$ grep 'food'[K[K'
+sdgj
+asdofh
+eowrhiuw
+foo
+[01;31m[Kfoo[m[K
+^[
+^[^[^[^[
+a :wq
+foo
+[01;31m[Kfoo[m[K
+`^[^C
+]0;joshua@joshua-VirtualBox: ~/bin[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/bin[00m$ vi lookup.txt
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"lookup.txt" 11 lines, 115 characters[1;1Hecho Searching for $*
+
+grep -w '$*' $HOME/.addr_book
+
+echo All Address Book Entries:
+
+sort $HOME/.addr_book[12;1H[94m~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h[mecho Searching for $[?2004l[>4;m[?25l1*[?25h[?2004h[>4;2m1[?25l[1;22H[K[1;21H[?25h
+[3;21H[?25l' $HOME/.addr_book [3;11H[?25h[?2004l[>4;m[?25l1' $HOME/.addr_book[3;12H[?25h[?2004h[>4;2m[?25l[24;1H[K[24;1H:[?2004h[?25hwq[?25l[?2004l"lookup.txt" 11 lines, 115 characters written
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;joshua@joshua-VirtualBox: ~/bin[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/bin[00m$ v[Kvi lookup.txt[3Pgrep 'foo'./lookup.txt Thomas Wayne[K[K[K[K[K[K
+Searching for Thomas
+All Address Book Entries:
+Bruce Wayne - Batman - email: therealbatman@yahoo.com
+Mike Murphy - Unix/Linux Instructor - email: murphymike@fhda.edu
+Thomas Wayne - Batman Dad - email: batmandad@gmail.com
+]0;joshua@joshua-VirtualBox: ~/bin[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/bin[00m$ ./lookup.txt Thomas[K[K[K[K[K[KBruce
+Searching for Bruce
+All Address Book Entries:
+Bruce Wayne - Batman - email: therealbatman@yahoo.com
+Mike Murphy - Unix/Linux Instructor - email: murphymike@fhda.edu
+Thomas Wayne - Batman Dad - email: batmandad@gmail.com
+]0;joshua@joshua-VirtualBox: ~/bin[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/bin[00m$ ./lookup.txt Bruce[K[K[K[K[KMurphy
+Searching for Murphy
+All Address Book Entries:
+Bruce Wayne - Batman - email: therealbatman@yahoo.com
+Mike Murphy - Unix/Linux Instructor - email: murphymike@fhda.edu
+Thomas Wayne - Batman Dad - email: batmandad@gmail.com
+]0;joshua@joshua-VirtualBox: ~/bin[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/bin[00m$ exit[K[K[K[Kvi looo[Kkup.txt
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"lookup.txt" 11 lines, 115 characters[1;1Hecho Searching for $1
+
+grep -w '$1' $HOME/.addr_book
+
+echo All Address Book Entries:
+
+sort $HOME/.addr_book[12;1H[94m~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h
+
+
+[3;1H[mgrep [?25lw '$1' $HOME/.addr_book grep [?25h[?25l '$1' $HOME/.addr_book grep [?25h[?25l'$1' $HOME/.addr_book grep [?25h[?25l[24;1H[K[24;1H:[?2004h[?25hwq[?25l[?2004l"lookup.txt" 11 lines, 112 characters written
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;joshua@joshua-VirtualBox: ~/bin[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/bin[00m$ vi lookup.txt./lookup.txt Murphy
+Searching for Murphy
+All Address Book Entries:
+Bruce Wayne - Batman - email: therealbatman@yahoo.com
+Mike Murphy - Unix/Linux Instructor - email: murphymike@fhda.edu
+Thomas Wayne - Batman Dad - email: batmandad@gmail.com
+]0;joshua@joshua-VirtualBox: ~/bin[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/bin[00m$ ./lookup.txt Murphy[6Pvi lookup.txt./lookup.txt Murphy
+Searching for Murphy
+All Address Book Entries:
+Bruce Wayne - Batman - email: therealbatman@yahoo.com
+Mike Murphy - Unix/Linux Instructor - email: murphymike@fhda.edu
+Thomas Wayne - Batman Dad - email: batmandad@gmail.com
+]0;joshua@joshua-VirtualBox: ~/bin[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/bin[00m$ ./lookup.txt Murphy[6Pvi lookup.txt
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"lookup.txt" 11 lines, 112 characters[1;1Hecho Searching for $1
+
+grep '$1' $HOME/.addr_book
+
+echo All Address Book Entries:
+
+sort $HOME/.addr_book[12;1H[94m~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h
+
+[mgrep [2;1H
+grep[?2004l[>4;m[?25l  '$1' $HOME/.addr_bookgrep [?25h[?25l- '$1' $HOME/.addr_book[3;7H[?25h[?25lh '$1' $HOME/.addr_book[3;8H[?25h[?25l  '$1' $HOME/.addr_book[3;9H[?25h[?2004h[>4;2m[?25l '$1' $HOME/.addr_book [3;8H[?25h[?25l[24;1H[K[24;1H:[?2004h[?25hwq[?25l[?2004l"lookup.txt" 11 lines, 115 characters written
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;joshua@joshua-VirtualBox: ~/bin[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/bin[00m$ vi lookup.txt./lookup.txt Murphy
+Searching for Murphy
+All Address Book Entries:
+Bruce Wayne - Batman - email: therealbatman@yahoo.com
+Mike Murphy - Unix/Linux Instructor - email: murphymike@fhda.edu
+Thomas Wayne - Batman Dad - email: batmandad@gmail.com
+]0;joshua@joshua-VirtualBox: ~/bin[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/bin[00m$ ./lookup.txt Murphy
+Searching for Murphy
+All Address Book Entries:
+Bruce Wayne - Batman - email: therealbatman@yahoo.com
+Mike Murphy - Unix/Linux Instructor - email: murphymike@fhda.edu
+Thomas Wayne - Batman Dad - email: batmandad@gmail.com
+]0;joshua@joshua-VirtualBox: ~/bin[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/bin[00m$ ./lookup.txt Murphy[6Pvi lookup.txt
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"lookup.txt" 11 lines, 115 characters[1;1Hecho Searching for $1
+
+grep -h '$1' $HOME/.addr_book
+
+echo All Address Book Entries:
+
+sort $HOME/.addr_book[12;1H[94m~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h
+
+[mgrep -h  [?25l$1' $HOME/.addr_book [3;9H[?25h$1[?25l $HOME/.addr_book [3;11H[?25h[?25l $1 $HOME/.addr_book [3;7H[?25h[?25l $1 $HOME/.addr_book grep [?25h[?25l $1 $HOME/.addr_book grep[?25h [?25l[24;1H[K[24;1H:[?2004h[?25hwq[?25l[?2004l"lookup.txt" 11 lines, 110 characters written
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;joshua@joshua-VirtualBox: ~/bin[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/bin[00m$ vi lookup.txt./lookup.txt Murphy
+Searching for Murphy
+Mike Murphy - Unix/Linux Instructor - email: murphymike@fhda.edu
+All Address Book Entries:
+Bruce Wayne - Batman - email: therealbatman@yahoo.com
+Mike Murphy - Unix/Linux Instructor - email: murphymike@fhda.edu
+Thomas Wayne - Batman Dad - email: batmandad@gmail.com
+]0;joshua@joshua-VirtualBox: ~/bin[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/bin[00m$ ./lookup.txt Murphy[K[K[K[K[K[KThomas
+Searching for Thomas
+Thomas Wayne - Batman Dad - email: batmandad@gmail.com
+All Address Book Entries:
+Bruce Wayne - Batman - email: therealbatman@yahoo.com
+Mike Murphy - Unix/Linux Instructor - email: murphymike@fhda.edu
+Thomas Wayne - Batman Dad - email: batmandad@gmail.com
+]0;joshua@joshua-VirtualBox: ~/bin[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/bin[00m$ ./lookup.txt ThomasMurphy[6Pvi lookup.txt
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"lookup.txt" 11 lines, 110 characters[1;1Hecho Searching for $1
+
+grep $1 $HOME/.addr_book
+
+echo All Address Book Entries:
+
+sort $HOME/.addr_book[12;1H[94m~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h[mecho Searching for $[?25l[24;1H/\<1\> [24;8H[K[24;1H[3;7H[?25h[?2004l[>4;m[?2004h[>4;2m$[?2004l[>4;m[?25lI1 $HOME/.addr_book[3;8H[?25h[?2004h[>4;2m[?2004l[>4;m[?25l[3;23r[3;1H[L[1;24r[3;1HD[24;1H[K[3;2H[?25h[?2004h[>4;2m[?25l[24;1H1 line less; before #2  2 seconds ago[3;23r[23;1H
+[1;24r[23;1H[94m~                                                                               [m[24;1H[K[24;1H1 line less; before #2  2 seconds ago[3;7H[?25h[?2004l[>4;m[?25liI1 $HOME/.addr_book[3;8H[?25h[?2004h[>4;2mi[?25l1 $HOME/.addr_book [3;8H[?25h[?25l $HOME/.addr_book [3;8H[?25h[?25l $HOME/.addr_book [3;7H[?25h[?2004l[>4;m[?25l* $HOME/.addr_book[3;8H[?25h[?2004h[>4;2m[2;1H[1;7Hearching for $[?25l[1;21H[K[1;20H[?25h[?2004l[>4;m$[?25l*[?25h[?2004h[>4;2m[?25l[24;1H[K[24;1H:[?2004h[?25hwq[?25l[?2004l"lookup.txt" 11 lines, 110 characters written
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;joshua@joshua-VirtualBox: ~/bin[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/bin[00m$ vi lookup.txt./lookup.txt Thomas
+Searching for Thomas
+Thomas Wayne - Batman Dad - email: batmandad@gmail.com
+All Address Book Entries:
+Bruce Wayne - Batman - email: therealbatman@yahoo.com
+Mike Murphy - Unix/Linux Instructor - email: murphymike@fhda.edu
+Thomas Wayne - Batman Dad - email: batmandad@gmail.com
+]0;joshua@joshua-VirtualBox: ~/bin[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/bin[00m$ ./lookup.txt Thomas[6Pvi lookup.txt./lookup.txt Thomas[K./lookup.txt Thomas[6Pvi lookup.txt./lookup.txt Thomas Wayne
+Searching for Thomas Wayne
+grep: Wayne: No such file or directory
+/home/joshua/.addr_book:Thomas Wayne - Batman Dad - email: batmandad@gmail.com
+All Address Book Entries:
+Bruce Wayne - Batman - email: therealbatman@yahoo.com
+Mike Murphy - Unix/Linux Instructor - email: murphymike@fhda.edu
+Thomas Wayne - Batman Dad - email: batmandad@gmail.com
+]0;joshua@joshua-VirtualBox: ~/bin[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/bin[00m$ ./lookup.txt Thomas Wayne[K[K[K[K[K[K[K[K[K[K[K[KMike Nyu[K[K[KMurphy
+Searching for Mike Murphy
+grep: Murphy: No such file or directory
+/home/joshua/.addr_book:Mike Murphy - Unix/Linux Instructor - email: murphymike@fhda.edu
+All Address Book Entries:
+Bruce Wayne - Batman - email: therealbatman@yahoo.com
+Mike Murphy - Unix/Linux Instructor - email: murphymike@fhda.edu
+Thomas Wayne - Batman Dad - email: batmandad@gmail.com
+]0;joshua@joshua-VirtualBox: ~/bin[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/bin[00m$ ./lookup.txt Mike MurphyThomas Wayne[K[6Pvi lookup.txt
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"lookup.txt" 11 lines, 110 characters[1;1Hecho Searching for $*
+
+grep $* $HOME/.addr_book
+
+echo All Address Book Entries:
+
+sort $HOME/.addr_book[12;1H[94m~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h[?25l[m[24;1H[K[24;1H:[?2004h[?25hq[?25l[?2004l[24;1H[K[24;1H[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;joshua@joshua-VirtualBox: ~/bin[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/bin[00m$ vi lookup.txt./lookup.txt Mike MurphyThomas Wayne[1PMike Murphy[11Pvi lookup.txt
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"lookup.txt" 11 lines, 110 characters[1;1Hecho Searching for $*
+
+grep $* $HOME/.addr_book
+
+echo All Address Book Entries:
+
+sort $HOME/.addr_book[12;1H[94m~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h
+
+
+[3;1H[2;1H[?2004l[>4;m[?25l[3;23r[m[3;1H[L[1;24r[24;1H[K[3;1H[?25h[?25lw[?25h[?25lh[?25h[?25li[?25h[?25ll[?25h[?25le[?25h[?25l [?25h[?25l([?25h[?25l([?25h[?25l [?25h[?25l$[?25h[?25l#[?25h[?25l [?25h[?25l)[?25h[?25l)[?25h[?25l[4;23r[4;1H[L[1;24r[4;1H[?25h[?25l [?25h[?25ld[?25h[?25lo[?25h[?2004h[>4;2m
+gr[?2004l[>4;m[?25l grep $* $HOME/.addr_book [?25h[?25l grep $* $HOME/.addr_book  [?25h[?2004h[>4;2m grep $* $HOME/.addr_bo
+[?2004l[>4;m[?25l [?25h[?25l [?25h[?25ls[?25h[?25lh[?25h[?25li[?25h[?25lf[?25h[?25lt[?25h[?25l[7;23r[7;1H[L[1;24r[7;1H[?25h[?25l [?25h[?25ld[?25h[?25lo[?25h[?25ln[?25h[?25le[?25h[?2004h[>4;2m[?2004l[>4;m[?2004h[>4;2mn[?2004l[>4;me[?25l[8;23r[8;1H[L[1;24r[8;1H[?25h[?2004h[>4;2m[7;1H[6;1H[5;1H  grep $[?2004l[>4;m[?25l1* $HOME/.addr_book[5;10H[?25h[?2004h[>4;2m[?25l* $HOME/.addr_book [5;9H[?25h[?2004l[>4;m[?25l1* $HOME/.addr_book[5;10H[?25h[?2004h[>4;2m1[?25l $HOME/.addr_book [5;10H[?25h[?25l[24;1H:[?2004h[?25hwq[?25l[?2004l"lookup.txt" 15 lines, 145 characters written
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;joshua@joshua-VirtualBox: ~/bin[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/bin[00m$ vi lookup.txt./lookup.txt Mike Murphy
+Searching for Mike Murphy
+Mike Murphy - Unix/Linux Instructor - email: murphymike@fhda.edu
+Mike Murphy - Unix/Linux Instructor - email: murphymike@fhda.edu
+All Address Book Entries:
+Bruce Wayne - Batman - email: therealbatman@yahoo.com
+Mike Murphy - Unix/Linux Instructor - email: murphymike@fhda.edu
+Thomas Wayne - Batman Dad - email: batmandad@gmail.com
+]0;joshua@joshua-VirtualBox: ~/bin[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/bin[00m$ ./lookup.txt Mike Murphy[K[K[K[K[K[K[K[K[K[K[KThomas Wayne
+Searching for Thomas Wayne
+Thomas Wayne - Batman Dad - email: batmandad@gmail.com
+Thomas Wayne - Batman Dad - email: batmandad@gmail.com
+Bruce Wayne - Batman - email: therealbatman@yahoo.com
+All Address Book Entries:
+Bruce Wayne - Batman - email: therealbatman@yahoo.com
+Mike Murphy - Unix/Linux Instructor - email: murphymike@fhda.edu
+Thomas Wayne - Batman Dad - email: batmandad@gmail.com
+]0;joshua@joshua-VirtualBox: ~/bin[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/bin[00m$ ./lookup.txt Thomas Wayne[A[3PMike MurphyThomas Wayne[A[3PMike Murphy[11Pvi lookup.txt
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"lookup.txt" 15 lines, 145 characters[1;1Hecho Searching for $*
+
+while (( $# ))
+ do
+  grep $1 $HOME/.addr_book
+  shift
+ done
+
+echo All Address Book Entries:
+
+sort $HOME/.addr_book[16;1H[94m~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h[?2004l[>4;m[?2004h[>4;2m[?2004l[>4;m[?25l[1;23r[m[1;1H[L[1;24r[1;1HB[24;1H[K[1;2H[?25h[?2004h[>4;2m[?25l[24;1H1 line less; before #1  2 seconds ago[1;23r[23;1H
+[1;24r[23;1H[94m~                                                                               [m[24;1H[K[24;1H1 line less; before #1  2 seconds ago[1;1H[?25h
+
+[?25l[3;23r[23;1H
+[1;24r[23;1H[94m~                                                                               [m[24;1H[K[3;2H[?25h[?25l[3;23r[23;1H
+[1;24r[23;1H[94m~                                                                               [3;3H[?25h
+[m [?25l[4;23r[23;1H
+[1;24r[23;1H[94m~                                                                               [4;2H[?25h[?25l[4;23r[m[23;1H
+[1;24r[23;1H[94m~                                                                               [4;1H[?25h[3;1H[m [?25lgrep $1 $HOME/.addr_book  [?25h[?25lgrep $1 $HOME/.addr_book [?25hgrep [?2004l[>4;m[?25l($1 $HOME/.addr_book[3;7H[?25h[?2004h[>4;2m([?25l[24;1H/\<1\>[31msearch hit BOTTOM, continuing at TOP[3;8H[?25h[?2004l[>4;m[?2004h[>4;2m[m$[?2004l[>4;m[?25l*1 $HOME/.addr_book[3;9H[?25h[?2004h[>4;2m[?25l1 $HOME/.addr_book [3;8H[?25h[?2004l[>4;m1[?25l) $HOME/.addr_book[3;10H[?25h[?2004h[>4;2m[?25l) $HOME/.addr_book [3;8H[?25h[?2004l[>4;m[?25l*) $HOME/.addr_book[3;9H[?25h[?2004h[>4;2m*
+[?25l[24;1H[K[24;1H:[?2004h[?25hwq[?25l[?2004l"lookup.txt" 11 lines, 112 characters written
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;joshua@joshua-VirtualBox: ~/bin[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/bin[00m$ vi lookup.txt./lookup.txt Thomas Wayne[A
+Searching for Thomas Wayne[A
+./lookup.txt: line 3: syntax error near unexpected token `$*'
+./lookup.txt: line 3: `grep ($*) $HOME/.addr_book '
+]0;joshua@joshua-VirtualBox: ~/bin[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/bin[00m$ ./lookup.txt Thomas Wayne[A[14Pvi lookup.txt./lookup.txt Thomas Wayne[A[K[K
+Searching for Thomas Wayne
+./lookup.txt: line 3: syntax error near unexpected token `$*'
+./lookup.txt: line 3: `grep ($*) $HOME/.addr_book '
+]0;joshua@joshua-VirtualBox: ~/bin[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/bin[00m$ ./lookup.txt Thomas Wayne[A[14Pvi lookup.txt
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"lookup.txt" 11 lines, 112 characters[1;1Hecho Searching for $*
+
+grep ($*) $HOME/.addr_book
+
+echo All Address Book Entries:
+
+sort $HOME/.addr_book[12;1H[94m~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h
+
+[mgrep [?25l$*) $HOME/.addr_book grep [?25h$*[?25l $HOME/.addr_book [3;8H[?25h[2;1H
+[2;1H[?2004l[>4;m[?25l[3;23r[3;1H[L[1;24r[24;1H[K[3;1H[?25h[?25l[4;23r[4;1H[L[1;24r[4;1H[?25h[?2004h[>4;2m[?2004l[>4;m[?25l[4;23r[4;1H[L[1;24r[4;1HA[?25h[?2004h[>4;2m[?2004l[>4;m[?25luA[?25h[?2004h[>4;2m[?25l[24;1H1 change; before #5  2 seconds ago[4;1HA[4;2H[K[4;1H[?25h[?25l[4;23r[23;1H
+[1;24r[23;1H[94m~                                                                               [m[24;1H[K[4;1H[?25h[3;1H[?2004l[>4;m[?25lw[?25h[?25lh[?25h[?25li[?25h[?25ll[?25h[?25le[?25h[?25l [?25h[?25l([?25h[?25l([?25h[?25l [?25h[?25l$[?25h[?25l#[?25h[?25l [?25h[?25l)[?25h[?25l)[?25h[?25l[4;23r[4;1H[L[1;24r[4;1H[?25h[?25l [?25h[?25ld[?25h[?25lo[?25h[?25l[5;23r[5;1H[L[1;24r[5;1H[?25h[?25l [?25h[?25l [?25h[?25la[?25h[?25lp[?25h[?25lp[?25h[?25ll[?25h[?25le[?25h[?25l [?25h[?25l=[?25h[?25l [?25h[?25la[?25h[?25lp[?25h[?25lp[?25h[?25ll[?25h[?25le[?25h[?2004h[>4;2m[?2004l[>4;m[?25l[5;23r[5;1H[L[1;24r[5;1HD[?25h[?2004h[>4;2m[?2004l[>4;m[?25l[5;23r[5;1H[L[1;24r[5;1HD[?25h[?2004h[>4;2m[?25l[5;23r[23;1H
+[1;24r[23;1H[94m~                                                                               [5;1H[?25h[?25l[5;23r[m[23;1H
+[1;24r[23;1H[94m~                                                                               [5;3H[?25h[mapple = appl[?2004l[>4;m[?25l'apple[?25h[?25l$apple[?25h[?25laapple[?25h[?2004h[>4;2m[?25lapple[5;18H[K[5;13H[?25happl[?2004l[>4;m[?2004h[>4;2m[?2004l[>4;ml[?25l e[?25h[?2004h[>4;2m[?2004l[>4;m[?25le e[?25h[?2004h[>4;2me [?25l[5;19H[K[5;18H[?25h[?2004l[>4;m[?25l [?25h[?25l$[?25h[?25l1[?25h[?25l'[?25h[?2004h[>4;2m
+[?2004l[>4;m[?25l [?25h[?25l [?25h[?25ls[?25h[?25lh[?25h[?25li[?25h[?25lf[?25h[?25lt[?25h[?2004h[>4;2mf
+
+[7;1H[?2004l[>4;m[?25l[8;23r[8;1H[L[1;24r[7;1H[K[8;1Hgrep $* $HOME/.addr_book[?25h[?25l[9;23r[9;1H[L[1;24r[8;1H[K[9;1Hgrep $* $HOME/.addr_book[?25h[?2004h[>4;2m[?2004l[>4;m[?25l[9;23r[9;1H[L[1;24r[9;1HA[?25h[?2004h[>4;2m[?25l[9;23r[23;1H
+[1;24r[23;1H[94m~                                                                               [9;1H[?25h[8;1H[7;1H[?2004l[>4;m[?25l[m [?25h[?25ld[?25h[?25lo[?25h[?25ln[?25h[?25le[?25h[?2004h[>4;2m
+
+grep $[?2004l[>4;m[?25la* $HOME/.addr_book[9;8H[?25h[?25lp* $HOME/.addr_book[9;9H[?25h[?25lp* $HOME/.addr_book[9;10H[?25h[?25ll* $HOME/.addr_book[9;11H[?25h[?25le* $HOME/.addr_book[9;12H[?25h[?2004h[>4;2me[?25l $HOME/.addr_book [9;12H[?25h[?25l[24;1H:[?2004h[?25hwq[?25l[?2004l"lookup.txt" 17 lines, 171 characters written
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;joshua@joshua-VirtualBox: ~/bin[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/bin[00m$ vi lookup.txt./lookup.txt Thomas Wayne
+Searching for Thomas Wayne
+./lookup.txt: line 5: apple: command not found
+./lookup.txt: line 5: apple: command not found
+^[[A^[[A^[[A^C]0;joshua@joshua-VirtualBox: ~/bin[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/bin[00m$ ./lookup.txt Thomas Wayne[12Pvi lookup.txt
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"lookup.txt" 17 lines, 171 characters[1;1Hecho Searching for $*
+
+while (( $# ))
+ do
+  apple = '$apple $1'
+  shift
+ done
+
+grep $apple $HOME/.addr_book
+
+echo All Address Book Entries:
+
+sort $HOME/.addr_book[18;1H[94m~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h
+
+
+
+[m  apple =[4;3H[3;10H[2;1H
+[2;1H[?2004l[>4;m[?25l[3;23r[3;1H[L[1;24r[24;1H[K[3;1H[?25h[?25la[?25h[?25lp[?25h[?25lp[?25h[?25ll[?25h[?25le[?25h[?25l [?25h[?25l=[?25h[?25l [?25h[?25l0[?25h[?25l[4;23r[4;1H[L[1;24r[4;1H[?25h[?2004h[>4;2m
+[?25l[24;1H:[?2004h[?25hwq[?25l[?2004l"lookup.txt" 19 lines, 182 characters written
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;joshua@joshua-VirtualBox: ~/bin[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/bin[00m$ vi lookup.txt./lookup.txt Thomas Wayne
+Searching for Thomas Wayne
+./lookup.txt: line 3: apple: command not found
+./lookup.txt: line 7: apple: command not found
+./lookup.txt: line 7: apple: command not found
+^[^[[A^[[A^C]0;joshua@joshua-VirtualBox: ~/bin[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/bin[00m$ ./lookup.txt Thomas Wayne[12Pvi lookup.txt
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"lookup.txt" 19 lines, 182 characters[1;1Hecho Searching for $*
+
+apple = 0
+
+while (( $# ))
+ do
+  apple = '$apple $1'
+  shift
+ done
+
+grep $apple $HOME/.addr_book
+
+echo All Address Book Entries:
+
+sort $HOME/.addr_book[20;1H[94m~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h
+
+[mapple[?25l= 0[3;9H[K[3;6H[?25h= [?25l0[3;8H[K[3;7H[?25h
+[5;7H
+ d[7;7He[?25l= '$apple $1' [7;8H[?25h= [?25l'$apple $1' [7;9H[?25h[?25l[24;1H[K[24;1H:[?2004h[?25hwq[?25l[?2004l"lookup.txt" 19 lines, 178 characters written
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;joshua@joshua-VirtualBox: ~/bin[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/bin[00m$ vi lookup.txt./lookup.txt Thomas Wayne
+Searching for Thomas Wayne
+grep: $1: No such file or directory
+All Address Book Entries:
+Bruce Wayne - Batman - email: therealbatman@yahoo.com
+Mike Murphy - Unix/Linux Instructor - email: murphymike@fhda.edu
+Thomas Wayne - Batman Dad - email: batmandad@gmail.com
+]0;joshua@joshua-VirtualBox: ~/bin[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/bin[00m$ ./lookup.txt Thomas Wayne[12Pvi lookup.txt./lookup.txt Thomas Wayne[12Pvi lookup.txt./lookup.txt Thomas Wayne[K./lookup.txt Thomas Wayne[K [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kvi lookup.txt
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"lookup.txt" 19 lines, 178 characters[1;1Hecho Searching for $*
+
+apple=0
+
+while (( $# ))
+ do
+  apple='$apple $1'
+  shift
+ done
+
+grep $apple $HOME/.addr_book
+
+echo All Address Book Entries:
+
+sort $HOME/.addr_book[20;1H[94m~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h
+
+[2;1H[?2004l[>4;m[?25l[?25h[?25l[mT[?25h[?2004h[>4;2m[?25l[2;23r[23;1H
+[1;24r[23;1H[94m~                                                                               [m[24;1H[K[2;1H[?25h[?2004l[>4;m[?25l[3;23r[3;1H[L[1;24r[2;1H[K[3;1Happle=0[?25h[?25lvapple=0v[?25h[?25laapple=0va[?25h[?25lrapple=0var[?25h[?25liapple=0vari[?25h[?25laapple=0varia[?25h[?25lbapple=0[3;7H[?25h[?25llapple=0[3;8H[?25h[?25leapple=0[3;9H[?25h[?25l[?25h[?2004h[>4;2m[?25lapple=0[3;15H[K[3;7H[?25hl[?25lpple=0[3;14H[K[3;8H[?25h[?25lple=0[3;13H[K[3;8H[?25h[?25lle=0[3;12H[K[3;8H[?25h[?25le=0[3;11H[K[3;8H[?25h[?25l=0[3;10H[K[3;8H[?25h[?25lbl=0[3;9H[K[3;5H[?25h[?25ll=0[3;8H[K[3;5H[?25h[?25l=0[3;7H[K[3;5H[?25h[?25l=0[3;6H[K[3;4H[?25h
+
+whi
+ d
+  a[?2004l[>4;m[?2004h[>4;2m[?2004l[>4;m[?25l[7;23r[7;1H[L[1;24r[7;1HC[?25h[?2004h[>4;2m[?25l[7;23r[23;1H
+[1;24r[23;1H[94m~                                                                               [7;3H[?25h[mapple='$apple[?25l$1' [?25h[?2004l[>4;m[?25lvapple='$apple$1'  v[?25h[?25laapple='$apple$1'  va[?25h[?25lrapple='$apple$1'  var[?25h[?2004h[>4;2mr[?25lpple='$apple$1'   var[?25hp[?25lle='$apple$1' [7;7H[?25h[?25le='$apple$1' [7;7H[?25h[?25l='$apple$1' [7;7H[?25h[?25l='$apple$1'   var[?25h[?25l[24;1H:[?2004h[?25hwq[?25l[?2004l"lookup.txt" 19 lines, 173 characters written
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;joshua@joshua-VirtualBox: ~/bin[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/bin[00m$ vi lookup.txt
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"lookup.txt" 19 lines, 173 characters[1;1Hecho Searching for $*
+
+var=0
+
+while (( $# ))
+ do
+  var='$apple$1'
+  shift
+ done
+
+grep $apple $HOME/.addr_book
+
+echo All Address Book Entries:
+
+sort $HOME/.addr_book[20;1H[94m~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h
+
+
+
+
+
+[m  var='$[?2004l[>4;m[?25lvapple$1'[7;10H[?25h[?25laapple$1'[7;11H[?25h[?25lrapple$1'[7;12H[?25h[?2004h[>4;2mr[?25lpple$1' [7;12H[?25h[?25lple$1' [7;12H[?25h[?25lle$1' [?25h[?25le$1' [?25h[?25l$1' [?25h$[?25l[24;1H[K[24;1H:[?2004h[?25hwq[?25l[?2004l"lookup.txt" 19 lines, 171 characters written
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;joshua@joshua-VirtualBox: ~/bin[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/bin[00m$ vi lookup.txt[Kvi lookup.txt./lookup.txt Thomas Wayne
+Searching for Thomas Wayne
+^[^C]0;joshua@joshua-VirtualBox: ~/bin[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/bin[00m$ ./lookup.txt Thomas Wayne[12Pvi lookup.txt
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"lookup.txt" 19 lines, 171 characters[1;1Hecho Searching for $*
+
+var=0
+
+while (( $# ))
+ do
+  var='$var$1'
+  shift
+ done
+
+grep $apple $HOME/.addr_book
+
+echo All Address Book Entries:
+
+sort $HOME/.addr_book[20;1H[94m~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h
+
+
+
+
+
+
+
+
+
+
+[11;1H[mgrep $[?2004l[>4;m[?25lvapple $HOME/.addr_book[11;8H[?25h[?25laapple $HOME/.addr_book[11;9H[?25h[?25lrapple $HOME/.addr_book[11;10H[?25h[?2004h[>4;2mr[?25lpple $HOME/.addr_book [11;10H[?25hp[?25lle $HOME/.addr_book [11;11H[?25h[?25le $HOME/.addr_book [11;11H[?25h[?25l $HOME/.addr_book [11;11H[?25h[?25l $HOME/.addr_book [11;10H[?25hr[?2004l[>4;m[?25l'$var $HOME/.addr_book[11;7H[?25h[?25li$var $HOME/.addr_book[11;8H[?25h[?2004h[>4;2m'[?25l$var $HOME/.addr_book [11;7H[?25h$va[?2004l[>4;mr[?25l' $HOME/.addr_book[11;12H[?25h[?2004h[>4;2m[?25l[24;1H[K[24;1H:[?2004h[?25hwq[?25l[?2004l"lookup.txt" 19 lines, 171 characters written
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;joshua@joshua-VirtualBox: ~/bin[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/bin[00m$ vi lookup.txt./lookup.txt Thomas Wayne
+Searching for Thomas Wayne
+All Address Book Entries:
+Bruce Wayne - Batman - email: therealbatman@yahoo.com
+Mike Murphy - Unix/Linux Instructor - email: murphymike@fhda.edu
+Thomas Wayne - Batman Dad - email: batmandad@gmail.com
+]0;joshua@joshua-VirtualBox: ~/bin[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/bin[00m$ ./lookup.txt Thomas Wayne[12Pvi lookup.txt./lookup.txt Thomas Wayne
+Searching for Thomas Wayne
+All Address Book Entries:
+Bruce Wayne - Batman - email: therealbatman@yahoo.com
+Mike Murphy - Unix/Linux Instructor - email: murphymike@fhda.edu
+Thomas Wayne - Batman Dad - email: batmandad@gmail.com
+]0;joshua@joshua-VirtualBox: ~/bin[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/bin[00m$ ./lookup.txt Thomas Wayne[12Pvi lookup.txt
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"lookup.txt" 19 lines, 171 characters[1;1Hecho Searching for $*
+
+var=0
+
+while (( $# ))
+ do
+  var='$var$1'
+  shift
+ done
+
+grep '$var' $HOME/.addr_book
+
+echo All Address Book Entries:
+
+sort $HOME/.addr_book[20;1H[94m~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h
+
+
+
+
+
+[m  var='$va[?2004l[>4;mr[?25l $1'[?25h[?2004h[>4;2m[?25l[24;1H[K[24;1H:[?2004h[?25hwq[?25l[?2004l"lookup.txt" 19 lines, 172 characters written
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;joshua@joshua-VirtualBox: ~/bin[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/bin[00m$ vi lookup.txt./lookup.txt Thomas Wayne
+Searching for Thomas Wayne
+All Address Book Entries:
+Bruce Wayne - Batman - email: therealbatman@yahoo.com
+Mike Murphy - Unix/Linux Instructor - email: murphymike@fhda.edu
+Thomas Wayne - Batman Dad - email: batmandad@gmail.com
+]0;joshua@joshua-VirtualBox: ~/bin[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/bin[00m$ ./lookup.txt Thomas Wayne[12Pvi lookup.txt./lookup.txt Thomas Wayne[12Pvi lookup.txt
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"lookup.txt" 19 lines, 172 characters[1;1Hecho Searching for $*
+
+var=0
+
+while (( $# ))
+ do
+  var='$var $1'
+  shift
+ done
+
+grep '$var' $HOME/.addr_book
+
+echo All Address Book Entries:
+
+sort $HOME/.addr_book[20;1H[94m~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h
+
+
+
+
+
+
+
+
+
+[mgre[?25l$[?2004l[>4;m[?25h[?25lo[?25h[?2004h[>4;2m[?25l[24;1H1 change; before #1  4 seconds ago[24;35H[K[11;3He[?25h[10;1H[?2004l[>4;m[?25l[11;23r[11;1H[L[1;24r[24;1H[K[11;1H[?25h[?25le[?25h[?25lc[?25h[?25lh[?25h[?25lo[?25h[?25l [?25h[?25l'[?25h[?25l$[?25h[?25lv[?25h[?25la[?25h[?25lr[?25h[?25l'[?25h[?25l[12;23r[12;1H[L[1;24r[12;1H[?25h[?2004h[>4;2m[?25l[24;1H:[?2004h[?25hwq[?25l[?2004l"lookup.txt" 21 lines, 185 characters written
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;joshua@joshua-VirtualBox: ~/bin[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/bin[00m$ vi lookup.txt./lookup.txt Thomas Wayne[12Pvi lookup.txt./lookup.txt Thomas Wayne
+Searching for Thomas Wayne
+$var
+All Address Book Entries:
+Bruce Wayne - Batman - email: therealbatman@yahoo.com
+Mike Murphy - Unix/Linux Instructor - email: murphymike@fhda.edu
+Thomas Wayne - Batman Dad - email: batmandad@gmail.com
+]0;joshua@joshua-VirtualBox: ~/bin[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/bin[00m$ ./lookup.txt Thomas Wayne[12Pvi lookup.txt
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"lookup.txt" 21 lines, 185 characters[1;1Hecho Searching for $*
+
+var=0
+
+while (( $# ))
+ do
+  var='$var $1'
+  shift
+ done
+
+echo '$var'
+
+grep '$var' $HOME/.addr_book
+
+echo All Address Book Entries:
+
+sort $HOME/.addr_book[22;1H[94m~                                                                               [23;1H~                                                                               [1;1H[?25h
+
+
+
+
+
+
+
+
+
+[mecho [?25l$var'[11;11H[K[11;6H[?25h$var[?25l[11;10H[K[11;9H[?25h
+[13;9H
+[13;9H[?25l$var' $HOME/.addr_book grep [?25h$var[?25l $HOME/.addr_book [13;10H[?25h[?25l[24;1H[K[24;1H:[?2004h[?25hwq[?25l[?2004l"lookup.txt" 21 lines, 181 characters written
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;joshua@joshua-VirtualBox: ~/bin[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/bin[00m$ vi lookup.txt./lookup.txt Thomas Wayne
+Searching for Thomas Wayne
+$var $1
+grep: $1: No such file or directory
+All Address Book Entries:
+Bruce Wayne - Batman - email: therealbatman@yahoo.com
+Mike Murphy - Unix/Linux Instructor - email: murphymike@fhda.edu
+Thomas Wayne - Batman Dad - email: batmandad@gmail.com
+]0;joshua@joshua-VirtualBox: ~/bin[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/bin[00m$ ./lookup.txt Thomas Wayne[12Pvi lookup.txt
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"lookup.txt" 21 lines, 181 characters[1;1Hecho Searching for $*
+
+var=0
+
+while (( $# ))
+ do
+  var='$var $1'
+  shift
+ done
+
+echo $var
+
+grep $var $HOME/.addr_book
+
+echo All Address Book Entries:
+
+sort $HOME/.addr_book[22;1H[94m~                                                                               [23;1H~                                                                               [1;1H[?25h
+
+
+
+
+
+[m  var=[?25l$var $1' [7;7H[?25h$var $1[?25l [?25h[?25l[24;1H[K[24;1H:[?2004h[?25hwq[?25l[?2004l"lookup.txt" 21 lines, 179 characters written
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;joshua@joshua-VirtualBox: ~/bin[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/bin[00m$ vi lookup.txt./lookup.txt Thomas Wayne
+Searching for Thomas Wayne
+./lookup.txt: line 7: Thomas: command not found
+./lookup.txt: line 7: Wayne: command not found
+0
+All Address Book Entries:
+Bruce Wayne - Batman - email: therealbatman@yahoo.com
+Mike Murphy - Unix/Linux Instructor - email: murphymike@fhda.edu
+Thomas Wayne - Batman Dad - email: batmandad@gmail.com
+]0;joshua@joshua-VirtualBox: ~/bin[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/bin[00m$ ./lookup.txt Thomas Wayne[12Pvi lookup.txt
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"lookup.txt" 21 lines, 179 characters[1;1Hecho Searching for $*
+
+var=0
+
+while (( $# ))
+ do
+  var=$var $1
+  shift
+ done
+
+echo $var
+
+grep $var $HOME/.addr_book
+
+echo All Address Book Entries:
+
+sort $HOME/.addr_book[22;1H[94m~                                                                               [23;1H~                                                                               [1;1H[?25h
+
+
+
+
+
+
+
+
+
+
+[11;1H[mecho[?25l[24;1H[K[24;1H:[?2004h[?25hq[?25l[?2004l[24;1H[K[24;1H[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;joshua@joshua-VirtualBox: ~/bin[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/bin[00m$ vi lookup.txt./lookup.txt Thomas Wayne[12Pvi lookup.txt
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"lookup.txt" 21 lines, 179 characters[1;1Hecho Searching for $*
+
+var=0
+
+while (( $# ))
+ do
+  var=$var $1
+  shift
+ done
+
+echo $var
+
+grep $var $HOME/.addr_book
+
+echo All Address Book Entries:
+
+sort $HOME/.addr_book[22;1H[94m~                                                                               [23;1H~                                                                               [1;1H[?25h
+
+
+
+
+
+[m  var=[?2004l[>4;m[?25l'$var $1[7;8H[?25h[?2004h[>4;2m'$var $[?2004l[>4;m1[?25l'[?25h[?2004h[>4;2m[?25l[24;1H[K[24;1H:[?2004h[?25hwq[?25l[?2004l"lookup.txt" 21 lines, 181 characters written
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;joshua@joshua-VirtualBox: ~/bin[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/bin[00m$ vi lookup.txt./lookup.txt Thomas Wayne
+Searching for Thomas Wayne
+$var $1
+grep: $1: No such file or directory
+All Address Book Entries:
+Bruce Wayne - Batman - email: therealbatman@yahoo.com
+Mike Murphy - Unix/Linux Instructor - email: murphymike@fhda.edu
+Thomas Wayne - Batman Dad - email: batmandad@gmail.com
+]0;joshua@joshua-VirtualBox: ~/bin[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/bin[00m$ ./lookup.txt Thomas Wayne[K./lookup.txt Thomas Wayne[12Pvi lookup.txt
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"lookup.txt" 21 lines, 181 characters[1;1Hecho Searching for $*
+
+var=0
+
+while (( $# ))
+ do
+  var='$var $1'
+  shift
+ done
+
+echo $var
+
+grep $var $HOME/.addr_book
+
+echo All Address Book Entries:
+
+sort $HOME/.addr_book[22;1H[94m~                                                                               [23;1H~                                                                               [1;1H[?25h[?2004l[>4;m[?2004h[>4;2m[?2004l[>4;m[?25l[1;23r[m[1;1H[L[1;24r[1;1HB[24;1H[K[1;2H[?25h[?2004h[>4;2m[?25l[1;23r[23;1H
+[1;24r[23;1H[94m~                                                                               [1;1H[?25h
+
+[?25l[3;23r[m[23;1H
+[1;24r[23;1H[94m~                                                                               [3;1H[?25h[?25l[3;23r[m[23;1H
+[1;24r[23;1H[94m~                                                                               [3;1H[?25h[?25l[3;23r[m[23;1H
+[1;24r[23;1H[94m~                                                                               [3;2H[?25h[?25l[3;23r[m[23;1H
+[1;24r[23;1H[94m~                                                                               [3;3H[?25h[?25l[3;23r[m[23;1H
+[1;24r[23;1H[94m~                                                                               [3;3H[?25h[?25l[3;23r[m[23;1H
+[1;24r[23;1H[94m~                                                                               [3;2H[?25h[?25l[3;23r[m[23;1H
+[1;24r[23;1H[94m~                                                                               [3;1H[?25h[?25l[2;23r[m[2;1H[2M[1;24r[22;1H[94m~                                                                               [23;1H~                                                                               [2;1H[?25h[?2004l[>4;m[?25l[mkecho $vark[?25h[?2004h[>4;2m[?2004l[>4;m[?25l[2;23r[2;1H[L[1;24r[2;1HD[?25h[?2004h[>4;2m[?25l[2;23r[23;1H
+[1;24r[23;1H[94m~                                                                               [2;1H[?25h[?25l[mecho $var[2;10H[K[2;1H[?25h[?2004l[>4;m[?25l[3;23r[3;1H[L[1;24r[2;1H[K[3;1Hecho $var[?25h[?2004h[>4;2mecho $[?25l[3;23r[23;1H
+[1;24r[23;1H[94m~                                                                               [3;1H[?25h[?25l[3;23r[m[23;1H
+[1;24r[23;1H[94m~                                                                               [3;1H[?25h[mgrep $[?25lar $HOME/.addr_book [3;7H[?25h[?25lr $HOME/.addr_book [3;7H[?25h[?25l $HOME/.addr_book [3;7H[?25h[?2004l[>4;m[?25l1 $HOME/.addr_book[3;8H[?25h[?2004h[>4;2m
+[3;7H[2;1H[?25l[24;1H:[?2004h[?25hwq[?25l[?2004l"lookup.txt" 11 lines, 110 characters written
+[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t]0;joshua@joshua-VirtualBox: ~/bin[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/bin[00m$ vi lookup.txt./lookup.txt Thomas Wayne
+Searching for Thomas Wayne
+Thomas Wayne - Batman Dad - email: batmandad@gmail.com
+All Address Book Entries:
+Bruce Wayne - Batman - email: therealbatman@yahoo.com
+Mike Murphy - Unix/Linux Instructor - email: murphymike@fhda.edu
+Thomas Wayne - Batman Dad - email: batmandad@gmail.com
+]0;joshua@joshua-VirtualBox: ~/bin[01;32mjoshua@joshua-VirtualBox[00m:[01;34m~/bin[00m$ exitr[K
+exit
+
+Script done on 2022-03-22 15:38:33-07:00 [COMMAND_EXIT_CODE="0"]
